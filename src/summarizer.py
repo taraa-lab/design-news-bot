@@ -16,42 +16,40 @@ BATCH_SIZE = 8
 
 CATEGORIES = [
     "طراحی محصول", "طراحی صنعتی", "جوایز طراحی",
-    "مسابقات طراحی", "کنفرانس‌ها و رویدادها", "آموزش طراحی",
+    "مسابقات طراحی", "همایش‌ها و رویدادها", "آموزش طراحی",
     "پایداری و محیط زیست", "تکنولوژی", "مواد و متریال", "هوش مصنوعی در طراحی",
-    "کسب و کار", "استارتاپ", "خودرو", "مبلمان",
+    "کسب‌وکار", "استارتاپ", "خودرو", "مبلمان",
     "لوازم الکترونیکی", "طراحی پزشکی", "بسته‌بندی",
-    "تجربه کاربری", "سایر",
+    "UX و طراحی خدمات", "سایر",
 ]
 
 SYSTEM_PROMPT = f"""تو یک ویراستار متخصص در حوزه طراحی صنعتی هستی.
-اخبار مجلات معتبر طراحی را دریافت می‌کنی و باید آن‌ها را به فارسی خلاصه و دسته‌بندی کنی.
-
-برای هر خبر یک JSON با این فیلدها برگردان:
-  - category: یکی از دسته‌بندی‌های زیر: {json.dumps(CATEGORIES, ensure_ascii=False)}
-  - title_fa: عنوان خبر به فارسی روان
+اخبار را دریافت می‌کنی و باید برای هر خبر یک JSON با این فیلدها برگردانی:
+  - category: یکی از این دسته‌بندی‌ها: {json.dumps(CATEGORIES, ensure_ascii=False)}
   - summary: خلاصه ۲ تا ۴ جمله به فارسی روان و حرفه‌ای
-  - keywords: لیست ۳ تا ۶ کلیدواژه فارسی
+  - keywords: لیست ۳ تا ۶ کلیدواژه فارسی مرتبط
   - importance: "بالا"، "متوسط" یا "پایین"
 
-اهمیت بالا = جایزه مهم، محصول نوآورانه، رویداد بین‌المللی، تحول بزرگ در صنعت
-اهمیت متوسط = معرفی محصول جالب، رویداد منطقه‌ای، پروژه قابل توجه
-اهمیت پایین = خبر کوچک، مقاله نظری، اطلاعیه معمولی
+اهمیت بالا = جایزه مهم، محصول نوآورانه، مسابقه بین‌المللی، تحول بزرگ در صنعت
+اهمیت متوسط = رونمایی قابل توجه، رویداد منطقه‌ای، پروژه جالب
+اهمیت پایین = خبر جزئی، مقاله نظری، اطلاع‌رسانی معمول
 
-فقط یک آرایه JSON برگردان — بدون توضیح اضافه، بدون markdown."""
+فقط یک آرایه JSON برگردان — یک آبجکت به ازای هر خبر، به همان ترتیب ورودی.
+هیچ توضیح اضافه‌ای ندهد. فقط JSON."""
 
 
-def _build_user_message(batch):
+def _build_user_message(batch: list) -> str:
     parts = []
     for i, a in enumerate(batch, 1):
         parts.append(
-            f"{i}. TITLE: {a.title}\n"
-            f"   SOURCE: {a.source}\n"
-            f"   SNIPPET: {a.summary[:300] or '(no snippet)'}"
+            f"{i}. عنوان: {a.title}\n"
+            f"   منبع: {a.source}\n"
+            f"   خلاصه اولیه: {a.summary[:300] or '(ندارد)'}"
         )
     return "\n\n".join(parts)
 
 
-def _call_api(user_msg):
+def _call_api(user_msg: str) -> list:
     api_key = os.environ.get("ANTHROPIC_API_KEY", "")
     if not api_key:
         return _call_openrouter(user_msg)
@@ -67,7 +65,7 @@ def _call_api(user_msg):
     return json.loads(raw)
 
 
-def _call_openrouter(user_msg):
+def _call_openrouter(user_msg: str) -> list:
     import requests
     api_key = os.environ.get("OPENROUTER_API_KEY", "")
     if not api_key:
@@ -93,28 +91,28 @@ def _call_openrouter(user_msg):
     return json.loads(raw)
 
 
-def _fallback_categorize(article):
+def _fallback_categorize(article) -> dict:
     title_lower = article.title.lower()
     cat_map = {
         "award": "جوایز طراحی",
         "competition": "مسابقات طراحی",
-        "conference": "کنفرانس‌ها و رویدادها",
+        "conference": "همایش‌ها و رویدادها",
         "ai ": "هوش مصنوعی در طراحی",
         "sustainable": "پایداری و محیط زیست",
         "automotive": "خودرو",
         "furniture": "مبلمان",
         "packaging": "بسته‌بندی",
-        "material": "مواد و متریال",
-        "startup": "استارتاپ",
         "medical": "طراحی پزشکی",
+        "startup": "استارتاپ",
+        "material": "مواد و متریال",
     }
     for kw, cat in cat_map.items():
         if kw in title_lower:
-            return {"category": cat, "title_fa": article.title, "summary": article.summary, "keywords": [], "importance": "متوسط"}
-    return {"category": "سایر", "title_fa": article.title, "summary": article.summary, "keywords": [], "importance": "پایین"}
+            return {"category": cat, "summary": article.summary, "keywords": [], "importance": "متوسط"}
+    return {"category": "سایر", "summary": article.summary, "keywords": [], "importance": "پایین"}
 
 
-def enrich_articles(articles):
+def enrich_articles(articles: list) -> list:
     enriched = []
     for i in range(0, len(articles), BATCH_SIZE):
         batch = articles[i: i + BATCH_SIZE]
@@ -128,15 +126,13 @@ def enrich_articles(articles):
         for j, article in enumerate(batch):
             if j < len(results):
                 r = results[j]
-                article.category  = r.get("category", "سایر")
-                article.title_fa  = r.get("title_fa", article.title)
-                article.summary   = r.get("summary", article.summary)
-                article.keywords  = r.get("keywords", [])
+                article.category   = r.get("category", "سایر")
+                article.summary    = r.get("summary", article.summary)
+                article.keywords   = r.get("keywords", [])
                 article.importance = r.get("importance", "متوسط")
             else:
                 fb = _fallback_categorize(article)
                 article.category   = fb["category"]
-                article.title_fa   = fb["title_fa"]
                 article.importance = fb["importance"]
             enriched.append(article)
 
