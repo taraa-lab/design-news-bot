@@ -1,0 +1,28 @@
+name: Bot Command Listener
+
+on:
+  schedule:
+    - cron: "* * * * *"   # every minute — handles /news and menu buttons
+  workflow_dispatch:
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: |
+          python -m pip install --upgrade pip
+          pip install requests
+      - name: Poll bot
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_TOKEN:       ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO:        taraa-lab/design-news-bot
+        run: |
+          cd src
+          python -c "from bot import poll_once; poll_once()"
