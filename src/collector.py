@@ -37,6 +37,7 @@ class Article:
     keywords: list = field(default_factory=list)
     category: str = "Other"
     importance: str = "Medium"
+    title_fa: str = ""
 
 
 def _is_recent(dt: Optional[datetime]) -> bool:
