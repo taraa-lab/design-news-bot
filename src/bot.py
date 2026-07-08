@@ -1,199 +1,227 @@
 """
-bot.py — Telegram bot with multi-language menu and interest selection.
-Uses long-polling (run continuously or via GitHub Actions every minute).
+bot.py — Telegram Bot with inline menu, multi-user, multi-language.
+Stores user preferences in Google Sheets.
+Run with: python bot.py
 """
-import os, logging, requests
-from user_store import get_user, save_user
 
+import os
+import json
+import logging
+import asyncio
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
+from telegram.ext import (
+    Application, CommandHandler, CallbackQueryHandler,
+    ContextTypes, ConversationHandler
+)
+from sheets import SheetsDB
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
-TOKEN   = os.environ.get("TELEGRAM_BOT_TOKEN","")
-API_URL = f"https://api.telegram.org/bot{TOKEN}"
+# Conversation states
+LANG, INTERESTS = range(2)
 
-INTERESTS = {
-    "automotive": {"fa":"🚗 طراحی خودرو",       "en":"🚗 Automotive Design"},
-    "product":    {"fa":"📦 طراحی محصول",        "en":"📦 Product Design"},
-    "furniture":  {"fa":"🪑 طراحی مبلمان",       "en":"🪑 Furniture Design"},
-    "jewelry":    {"fa":"💍 طراحی جواهرات",      "en":"💍 Jewelry Design"},
-    "accessory":  {"fa":"👜 طراحی اکسسوری",      "en":"👜 Accessory Design"},
-    "service":    {"fa":"🔧 طراحی خدمات / UX",   "en":"🔧 Service / UX Design"},
+INTERESTS_FA = {
+    "automotive":   "🚗 طراحی خودرو",
+    "product":      "📦 طراحی محصول",
+    "furniture":    "🛋️ طراحی مبلمان",
+    "jewelry":      "💍 طراحی جواهرات",
+    "accessory":    "👜 طراحی اکسسوری",
+    "service":      "🔧 طراحی خدمات",
 }
 
-STRINGS = {
+INTERESTS_EN = {
+    "automotive":   "🚗 Automotive Design",
+    "product":      "📦 Product Design",
+    "furniture":    "🛋️ Furniture Design",
+    "jewelry":      "💍 Jewelry Design",
+    "accessory":    "👜 Accessory Design",
+    "service":      "🔧 Service Design",
+}
+
+TEXTS = {
     "fa": {
-        "welcome":       "سلام! 👋\nخوش اومدی به ربات اخبار دیزاین.\nزبان مورد نظرت را انتخاب کن:",
-        "lang_set":      "زبان فارسی تنظیم شد ✓\nحالا حوزه‌های علاقه‌ات را انتخاب کن 👇",
-        "pick_interests":"حوزه‌هایی که دوست داری اخبارشون را بگیری را انتخاب کن.\n(می‌تونی چند تا انتخاب کنی)",
-        "interests_set": "تنظیمات ذخیره شد ✓\nهر روز صبح اخبار انتخاب‌هایت می‌رسه 🎨",
-        "news_cmd":      "در حال آماده‌سازی اخبار... لطفاً صبر کن ⏳",
-        "no_news":       "امروز خبر جدیدی در حوزه‌های انتخابی تو نبود.",
-        "help":          "دستورات:\n/start — شروع\n/news — دریافت اخبار همین الان\n/settings — تغییر تنظیمات\n/help — راهنما",
-        "settings":      "تنظیمات فعلی تو:\nزبان: فارسی 🇮🇷\nعلاقه‌مندی‌ها:",
-        "btn_done":      "✅ ذخیره",
-        "btn_all":       "📰 همه اخبار",
-        "competitions":  "🏆 اخبار مسابقات برای همه ارسال می‌شه",
+        "welcome":      "سلام! 👋\nبه ربات اخبار دیزاین خوش اومدی.\n\nزبان مورد نظرت را انتخاب کن:",
+        "choose_lang":  "زبان / Language:",
+        "choose_int":   "حوزه‌های علاقه‌مندیت را انتخاب کن:\n(می‌تونی چند تا انتخاب کنی)",
+        "done_btn":     "✅ تأیید و ذخیره",
+        "saved":        "✅ تنظیماتت ذخیره شد!\nهر روز ساعت ۸ صبح اخبار مرتبط با علاقه‌مندی‌هات برات می‌رسه.\n\nدستورات:\n/news — اخبار همین الان\n/settings — تغییر تنظیمات\n/help — راهنما",
+        "no_interest":  "⚠️ حداقل یک حوزه انتخاب کن!",
+        "news_wait":    "⏳ در حال جمع‌آوری اخبار... چند دقیقه صبر کن.",
+        "no_news":      "امروز خبری در حوزه‌های انتخابی تو پیدا نشد.",
+        "settings":     "تنظیمات فعلی:\n🌐 زبان: فارسی\n📌 حوزه‌ها: {interests}\n\nبرای تغییر /start بزن",
+        "help":         "📚 راهنما\n\n/start — شروع و تنظیم اولیه\n/news — دریافت اخبار همین الان\n/settings — مشاهده تنظیمات\n/help — این پیام\n\nهر روز ساعت ۸ صبح به وقت تهران اخبار برات ارسال می‌شه.",
     },
     "en": {
-        "welcome":       "Hello! 👋\nWelcome to the Design News Bot.\nPlease choose your language:",
-        "lang_set":      "English selected ✓\nNow pick your areas of interest 👇",
-        "pick_interests":"Select the design areas you want news about.\n(You can pick multiple)",
-        "interests_set": "Settings saved ✓\nYou'll receive your daily digest every morning 🎨",
-        "news_cmd":      "Preparing your news... please wait ⏳",
-        "no_news":       "No new articles found for your interests today.",
-        "help":          "Commands:\n/start — Start\n/news — Get news now\n/settings — Change settings\n/help — Help",
-        "settings":      "Your current settings:\nLanguage: English 🇬🇧\nInterests:",
-        "btn_done":      "✅ Save",
-        "btn_all":       "📰 All news",
-        "competitions":  "🏆 Competition news is always included",
+        "welcome":      "Hello! 👋\nWelcome to the Design News Bot.\n\nChoose your language:",
+        "choose_lang":  "Language:",
+        "choose_int":   "Select your areas of interest:\n(You can choose multiple)",
+        "done_btn":     "✅ Save & Continue",
+        "saved":        "✅ Settings saved!\nYou'll receive relevant news every morning at 8AM Tehran time.\n\nCommands:\n/news — Get news now\n/settings — Change settings\n/help — Help",
+        "no_interest":  "⚠️ Please select at least one area!",
+        "news_wait":    "⏳ Collecting news... please wait a moment.",
+        "no_news":      "No news found for your selected areas today.",
+        "settings":     "Current settings:\n🌐 Language: English\n📌 Areas: {interests}\n\nUse /start to change settings",
+        "help":         "📚 Help\n\n/start — Initial setup\n/news — Get news now\n/settings — View settings\n/help — This message\n\nNews is sent daily at 8AM Tehran time.",
     }
 }
 
-# ─── send helpers ───────────────────────────────────────────────────
-def send(chat_id, text, reply_markup=None, parse_mode="Markdown"):
-    payload = {"chat_id": chat_id, "text": text[:4096], "parse_mode": parse_mode,
-               "disable_web_page_preview": True}
-    if reply_markup:
-        payload["reply_markup"] = reply_markup
-    requests.post(f"{API_URL}/sendMessage", json=payload, timeout=20)
+db = SheetsDB()
 
-def send_doc(chat_id, file_path, caption=""):
-    with open(file_path,"rb") as f:
-        requests.post(f"{API_URL}/sendDocument",
-                      data={"chat_id": chat_id, "caption": caption[:1024]},
-                      files={"document": f}, timeout=60)
 
-# ─── keyboards ──────────────────────────────────────────────────────
-def lang_keyboard():
-    return {"inline_keyboard":[[
-        {"text":"🇮🇷 فارسی","callback_data":"lang_fa"},
-        {"text":"🇬🇧 English","callback_data":"lang_en"},
-    ]]}
+# ── /start ──────────────────────────────────
+async def start(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
+    keyboard = [[
+        InlineKeyboardButton("🇮🇷 فارسی", callback_data="lang_fa"),
+        InlineKeyboardButton("🇬🇧 English", callback_data="lang_en"),
+    ]]
+    await update.message.reply_text(
+        TEXTS["fa"]["welcome"],
+        reply_markup=InlineKeyboardMarkup(keyboard)
+    )
+    return LANG
 
-def interest_keyboard(user_interests: list, lang: str):
-    rows = []
-    for key, labels in INTERESTS.items():
-        selected = "✅ " if key in user_interests else "⬜ "
-        rows.append([{"text": selected + labels[lang], "callback_data": f"int_{key}"}])
-    # bottom row
-    s = STRINGS[lang]
-    rows.append([
-        {"text": s["btn_all"],  "callback_data": "int_all"},
-        {"text": s["btn_done"], "callback_data": "int_done"},
-    ])
-    return {"inline_keyboard": rows}
 
-# ─── handlers ───────────────────────────────────────────────────────
-def handle_start(chat_id, user_id):
-    send(chat_id, STRINGS["fa"]["welcome"], lang_keyboard())
+async def lang_chosen(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
+    query = update.callback_query
+    await query.answer()
+    lang = query.data.split("_")[1]   # "fa" or "en"
+    ctx.user_data["lang"] = lang
+    ctx.user_data["selected"] = []
 
-def handle_lang(chat_id, user_id, lang):
-    user = get_user(user_id)
-    user["lang"] = lang
-    user["interests"] = []
-    save_user(user_id, user)
-    s = STRINGS[lang]
-    send(chat_id, s["lang_set"] + "\n\n" + s["competitions"])
-    send(chat_id, s["pick_interests"], interest_keyboard([], lang))
+    interests = INTERESTS_FA if lang == "fa" else INTERESTS_EN
+    keyboard = []
+    for key, label in interests.items():
+        keyboard.append([InlineKeyboardButton(label, callback_data=f"int_{key}")])
+    keyboard.append([InlineKeyboardButton(TEXTS[lang]["done_btn"], callback_data="int_done")])
 
-def handle_interest_toggle(chat_id, user_id, key, message_id):
-    user = get_user(user_id)
-    lang = user.get("lang","fa")
-    interests = user.get("interests", [])
+    await query.edit_message_text(
+        TEXTS[lang]["choose_int"],
+        reply_markup=InlineKeyboardMarkup(keyboard)
+    )
+    return INTERESTS
 
-    if key == "all":
-        interests = ["all"]
-    elif key == "done":
-        if not interests:
-            interests = ["all"]
-        user["interests"] = interests
-        user["active"] = True
-        save_user(user_id, user)
-        send(chat_id, STRINGS[lang]["interests_set"])
-        return
+
+async def interest_chosen(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
+    query = update.callback_query
+    await query.answer()
+    lang = ctx.user_data.get("lang", "fa")
+
+    if query.data == "int_done":
+        selected = ctx.user_data.get("selected", [])
+        if not selected:
+            await query.answer(TEXTS[lang]["no_interest"], show_alert=True)
+            return INTERESTS
+
+        # Save to Google Sheets
+        user = update.effective_user
+        interests = INTERESTS_FA if lang == "fa" else INTERESTS_EN
+        interest_labels = [interests[k] for k in selected if k in interests]
+        db.save_user(
+            chat_id=str(user.id),
+            name=user.full_name or "Unknown",
+            lang=lang,
+            interests=",".join(selected)
+        )
+        await query.edit_message_text(TEXTS[lang]["saved"])
+        return ConversationHandler.END
+
+    # Toggle interest
+    key = query.data.replace("int_", "")
+    selected = ctx.user_data.get("selected", [])
+    if key in selected:
+        selected.remove(key)
     else:
-        if "all" in interests:
-            interests = []
-        if key in interests:
-            interests.remove(key)
-        else:
-            interests.append(key)
+        selected.append(key)
+    ctx.user_data["selected"] = selected
 
-    user["interests"] = interests
-    save_user(user_id, user)
+    # Rebuild keyboard with checkmarks
+    interests = INTERESTS_FA if lang == "fa" else INTERESTS_EN
+    keyboard = []
+    for k, label in interests.items():
+        tick = "✓ " if k in selected else ""
+        keyboard.append([InlineKeyboardButton(tick + label, callback_data=f"int_{k}")])
+    keyboard.append([InlineKeyboardButton(TEXTS[lang]["done_btn"], callback_data="int_done")])
 
-    # Edit the keyboard in-place
-    requests.post(f"{API_URL}/editMessageReplyMarkup", json={
-        "chat_id": chat_id,
-        "message_id": message_id,
-        "reply_markup": interest_keyboard(interests, lang)
-    }, timeout=10)
+    await query.edit_message_reply_markup(reply_markup=InlineKeyboardMarkup(keyboard))
+    return INTERESTS
 
-def handle_settings(chat_id, user_id):
-    user = get_user(user_id)
-    lang = user.get("lang","fa")
-    interests = user.get("interests",["all"])
-    s = STRINGS[lang]
-    interest_labels = ", ".join(INTERESTS.get(i,{}).get(lang, i) for i in interests if i!="all") or ("همه" if lang=="fa" else "All")
-    send(chat_id, f"{s['settings']} {interest_labels}", interest_keyboard(interests, lang))
 
-def handle_help(chat_id, user_id):
-    user = get_user(user_id)
-    lang = user.get("lang","fa")
-    send(chat_id, STRINGS[lang]["help"])
+# ── /news ────────────────────────────────────
+async def news_now(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
+    user_id = str(update.effective_user.id)
+    user = db.get_user(user_id)
+    lang = user.get("lang", "fa") if user else "fa"
 
-# ─── main polling loop ───────────────────────────────────────────────
-def poll_once(offset=0):
-    r = requests.get(f"{API_URL}/getUpdates",
-                     params={"offset": offset, "timeout": 10, "limit": 100},
-                     timeout=20)
-    if not r.ok:
-        return offset
-    updates = r.json().get("result", [])
-    for u in updates:
-        offset = u["update_id"] + 1
-        try:
-            process_update(u)
-        except Exception as e:
-            logger.error("Update error: %s", e)
-    return offset
+    await update.message.reply_text(TEXTS[lang]["news_wait"])
 
-def process_update(u: dict):
-    # Callback query (button press)
-    if "callback_query" in u:
-        cq       = u["callback_query"]
-        user_id  = cq["from"]["id"]
-        chat_id  = cq["message"]["chat"]["id"]
-        msg_id   = cq["message"]["message_id"]
-        data     = cq["data"]
-        requests.post(f"{API_URL}/answerCallbackQuery", json={"callback_query_id": cq["id"]}, timeout=5)
+    from collector  import collect_all
+    from dedup      import deduplicate
+    from summarizer import enrich_articles
+    from sender     import build_personal_digest
 
-        if data.startswith("lang_"):
-            handle_lang(chat_id, user_id, data[5:])
-        elif data.startswith("int_"):
-            handle_interest_toggle(chat_id, user_id, data[4:], msg_id)
+    articles = collect_all()
+    articles = deduplicate(articles)
+    articles = enrich_articles(articles)
+
+    interests = user.get("interests", "").split(",") if user else []
+    msg = build_personal_digest(articles, interests, lang)
+
+    if not msg:
+        await update.message.reply_text(TEXTS[lang]["no_news"])
         return
 
-    # Text message / command
-    msg     = u.get("message",{})
-    if not msg: return
-    user_id = msg["from"]["id"]
-    chat_id = msg["chat"]["id"]
-    text    = msg.get("text","").strip()
+    # Split long messages
+    for chunk in [msg[i:i+4000] for i in range(0, len(msg), 4000)]:
+        await update.message.reply_text(chunk, parse_mode="Markdown",
+                                        disable_web_page_preview=True)
 
-    if text.startswith("/start"):    handle_start(chat_id, user_id)
-    elif text.startswith("/settings"): handle_settings(chat_id, user_id)
-    elif text.startswith("/help"):   handle_help(chat_id, user_id)
-    elif text.startswith("/news"):
-        user = get_user(user_id)
-        send(chat_id, STRINGS[user.get("lang","fa")]["news_cmd"])
-        # Trigger delivery for this specific user
-        deliver_to_user(user_id, chat_id, user)
 
-def run_polling():
-    """Run continuously (local or long-running server)."""
-    import time
-    offset = 0
-    logger.info("Bot polling started")
-    while True:
-        offset = poll_once(offset)
-        time.sleep(1)
+# ── /settings ────────────────────────────────
+async def settings(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
+    user_id = str(update.effective_user.id)
+    user = db.get_user(user_id)
+    if not user:
+        await update.message.reply_text("ابتدا /start بزن تا تنظیمات را وارد کنی.")
+        return
+    lang = user.get("lang","fa")
+    interests_raw = user.get("interests","").split(",")
+    int_map = INTERESTS_FA if lang=="fa" else INTERESTS_EN
+    labels = [int_map.get(i, i) for i in interests_raw if i]
+    text = TEXTS[lang]["settings"].format(interests=", ".join(labels) or "—")
+    await update.message.reply_text(text)
+
+
+# ── /help ─────────────────────────────────────
+async def help_cmd(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
+    user_id = str(update.effective_user.id)
+    user = db.get_user(user_id)
+    lang = user.get("lang","fa") if user else "fa"
+    await update.message.reply_text(TEXTS[lang]["help"])
+
+
+# ── main ──────────────────────────────────────
+def main():
+    token = os.environ["TELEGRAM_BOT_TOKEN"]
+    app = Application.builder().token(token).build()
+
+    conv = ConversationHandler(
+        entry_points=[CommandHandler("start", start)],
+        states={
+            LANG:      [CallbackQueryHandler(lang_chosen,      pattern="^lang_")],
+            INTERESTS: [CallbackQueryHandler(interest_chosen,  pattern="^int_")],
+        },
+        fallbacks=[CommandHandler("start", start)],
+    )
+
+    app.add_handler(conv)
+    app.add_handler(CommandHandler("news",     news_now))
+    app.add_handler(CommandHandler("settings", settings))
+    app.add_handler(CommandHandler("help",     help_cmd))
+
+    logger.info("Bot started — polling...")
+    app.run_polling()
+
+
+if __name__ == "__main__":
+    main()
