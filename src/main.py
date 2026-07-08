@@ -1,7 +1,6 @@
 """
-main.py — Orchestrator. Sends FA digest by default; lang detected from env.
+main.py — Orchestrator
 """
-
 import logging, sys, os
 from datetime import datetime, timezone, timedelta
 
@@ -16,7 +15,7 @@ logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
     handlers=[
         logging.StreamHandler(sys.stdout),
-        logging.FileHandler(os.path.join(LOGS_DIR, f"run-{datetime.now().strftime(\'%Y%m%d\')}.log"), encoding="utf-8"),
+        logging.FileHandler(os.path.join(LOGS_DIR, f"run-{datetime.now().strftime('%Y%m%d')}.log"), encoding="utf-8"),
     ],
 )
 logger = logging.getLogger("main")
@@ -28,36 +27,33 @@ from report     import build_markdown, save_report, build_telegram_message
 from deliver    import send_telegram_message, send_telegram_document, send_gmail
 
 def main():
-    lang = os.environ.get("OUTPUT_LANG", "fa")   # fa or en
-    logger.info("=== Design News Bot | lang=%s ===", lang)
+    lang = os.environ.get("OUTPUT_LANG", "fa")
+    logger.info("=== Design News Bot starting (lang=%s) ===", lang)
 
-    logger.info("Step 1/4 — Collecting...")
+    logger.info("Step 1/5 — Collecting...")
     articles = collect_all()
     if not articles:
         logger.warning("No articles found")
-        send_telegram_message("⚠️ Design News Bot: خبری امروز پیدا نشد.")
+        send_telegram_message("⚠️ Design News Bot: No articles found today.")
         return
 
-    logger.info("Step 2/4 — Deduplicating (%d)...", len(articles))
+    logger.info("Step 2/5 — Deduplicating...")
     articles = deduplicate(articles)
 
-    logger.info("Step 3/4 — Enriching in lang=%s (%d articles)...", lang, len(articles))
+    logger.info("Step 3/5 — Enriching (%d articles, lang=%s)...", len(articles), lang)
     articles = enrich_articles(articles, lang=lang)
 
-    logger.info("Step 4/4 — Delivering...")
-    markdown    = build_markdown(articles, lang=lang)
+    logger.info("Step 4/5 — Building report...")
+    markdown    = build_markdown(articles)
     report_path = save_report(markdown, output_dir=REPORTS_DIR)
-    tg_msg      = build_telegram_message(articles, lang=lang)
-    today_str   = (datetime.now(timezone.utc) + timedelta(hours=3, minutes=30)).strftime("%Y-%m-%d")
+    tg_msg      = build_telegram_message(articles)
 
+    logger.info("Step 5/5 — Delivering...")
+    today_str = (datetime.now(timezone.utc) + timedelta(hours=3, minutes=30)).strftime("%Y-%m-%d")
     send_telegram_message(tg_msg)
-    send_telegram_document(report_path, caption=f"📄 {'گزارش کامل' if lang=='fa' else 'Full Report'} — {today_str}")
-    send_gmail(
-        subject=f"{'🎨 اخبار دیزاین' if lang=='fa' else '🎨 Design News'} — {today_str}",
-        markdown_body=markdown,
-        attachment_path=report_path,
-    )
-    logger.info("=== Done. %d articles. ===", len(articles))
+    send_telegram_document(report_path, caption=f"📄 گزارش کامل — {today_str}")
+    send_gmail(subject=f"🎨 اخبار دیزاین — {today_str}", markdown_body=markdown, attachment_path=report_path)
+    logger.info("=== Done. %d articles delivered. ===", len(articles))
 
 if __name__ == "__main__":
     main()
