@@ -1,5 +1,5 @@
 """
-report.py — Build daily digest. Supports fa/en output. 7 items per priority.
+report.py — Build daily digest. lang param controls output language.
 """
 import os
 from datetime import datetime, timezone, timedelta
@@ -22,21 +22,19 @@ def _fmt_pub(dt):
 def build_markdown(articles):
     today = _now_tehran()
     sorted_arts = sorted(articles, key=lambda a:(IMPORTANCE_ORDER.get(a.importance,2),-(a.published.timestamp() if a.published else 0)))
-    lines = ["# 🎨 اخبار روزانه دیزاین و طراحی صنعتی",
-             f"**تاریخ:** {_fmt_date(today)}", f"**تعداد اخبار:** {len(articles)}", "", "---", ""]
+    lines = ["# 🎨 اخبار روزانه دیزاین", f"**تاریخ:** {_fmt_date(today)}", f"**تعداد:** {len(articles)}", "", "---", ""]
     cur = None
     for a in sorted_arts:
         imp = a.importance or "متوسط"
         if imp != cur:
             cur = imp
             emoji = {"بالا":"🔴","High":"🔴","متوسط":"🟡","Medium":"🟡","پایین":"🟢","Low":"🟢"}.get(imp,"⚪")
-            label = {"بالا":"اهمیت بالا","High":"اهمیت بالا","متوسط":"اهمیت متوسط","Medium":"اهمیت متوسط","پایین":"اهمیت پایین","Low":"اهمیت پایین"}.get(imp,imp)
+            label = {"بالا":"اهمیت بالا","High":"High Priority","متوسط":"اهمیت متوسط","Medium":"Medium Priority","پایین":"اهمیت پایین","Low":"Low Priority"}.get(imp,imp)
             lines += [f"## {emoji} {label}", ""]
-        lines += [f"### {a.title}", "", a.summary or "_خلاصه‌ای موجود نیست._", ""]
+        lines += [f"### {a.title}", "", a.summary or "", ""]
         if a.keywords: lines.append(f"**کلیدواژه‌ها:** {', '.join(a.keywords)}")
-        lines += [f"**دسته‌بندی:** {a.category}", f"**منبع:** {a.source}",
-                  f"**تاریخ انتشار:** {_fmt_pub(a.published)}", f"**لینک:** [{a.url}]({a.url})", "", "---", ""]
-    lines.append(f"_گزارش در {today.strftime('%Y-%m-%d %H:%M')} به وقت تهران تهیه شد._")
+        lines += [f"**منبع:** {a.source}", f"**لینک:** [{a.url}]({a.url})", "", "---", ""]
+    lines.append(f"_گزارش در {today.strftime('%Y-%m-%d %H:%M')} تهران._")
     return "\n".join(lines)
 
 def save_report(markdown, output_dir="reports"):
@@ -45,22 +43,22 @@ def save_report(markdown, output_dir="reports"):
     with open(path,"w",encoding="utf-8") as f: f.write(markdown)
     return path
 
-def build_telegram_message(articles):
-    today    = _now_tehran()
-    lang     = os.environ.get("OUTPUT_LANG","fa")
-    high     = [a for a in articles if a.importance in ("بالا","High")][:TG_HIGH_COUNT]
-    medium   = [a for a in articles if a.importance in ("متوسط","Medium")][:TG_MED_COUNT]
+def build_telegram_message(articles, lang="fa"):
+    """lang param overrides env var so each user gets their own language."""
+    today = _now_tehran()
+    high   = [a for a in articles if a.importance in ("بالا","High")][:TG_HIGH_COUNT]
+    medium = [a for a in articles if a.importance in ("متوسط","Medium")][:TG_MED_COUNT]
 
     if lang == "fa":
-        header    = f"🎨 *اخبار روزانه دیزاین* — {today.strftime('%Y-%m-%d')}\n_{len(articles)} خبر · {len(high)} خبر مهم_\n"
-        lbl_high  = "🔴 *اهمیت بالا*"
-        lbl_med   = "🟡 *اهمیت متوسط*"
-        footer    = "📄 گزارش کامل: فایل پیوست"
+        header   = f"🎨 *اخبار روزانه دیزاین* — {today.strftime('%Y-%m-%d')}\n_{len(articles)} خبر · {len(high)} خبر مهم_\n"
+        lbl_high = "🔴 *اهمیت بالا*"
+        lbl_med  = "🟡 *اهمیت متوسط*"
+        footer   = "📄 گزارش کامل: فایل پیوست"
     else:
-        header    = f"🎨 *Daily Design News* — {today.strftime('%Y-%m-%d')}\n_{len(articles)} articles · {len(high)} high priority_\n"
-        lbl_high  = "🔴 *High Priority*"
-        lbl_med   = "🟡 *Medium Priority*"
-        footer    = "📄 Full report: see attached file"
+        header   = f"🎨 *Daily Design News* — {today.strftime('%Y-%m-%d')}\n_{len(articles)} articles · {len(high)} high priority_\n"
+        lbl_high = "🔴 *High Priority*"
+        lbl_med  = "🟡 *Medium Priority*"
+        footer   = "📄 Full report: see attached file"
 
     parts = [header]
     if high:
