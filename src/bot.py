@@ -1,6 +1,6 @@
 """
 bot.py — Telegram Bot: /start, /lang, /news, /help
-User language stored in bot memory (per session) + simple JSON file.
+When user picks a language, news is sent immediately.
 """
 
 import os, json, logging
@@ -15,18 +15,22 @@ USERS_FILE = Path(__file__).parent.parent / "users.json"
 
 TEXTS = {
     "fa": {
-        "start":   "سلام! 👋 زبان مورد نظرت را انتخاب کن:",
-        "saved":   "✅ زبان فارسی انتخاب شد. هر روز ساعت ۸ صبح اخبار می‌رسد.\n\n/news — اخبار همین الان\n/lang — تغییر زبان\n/help — راهنما",
+        "start":    "سلام! 👋 زبان مورد نظرت را انتخاب کن:",
+        "saved":    "✅ زبان فارسی انتخاب شد.\n⏳ در حال آماده‌سازی اخبار امروز برات...",
+        "saved2":   "از فردا هر روز ساعت ۸ صبح اخبار می‌رسد.\n\n/news — اخبار همین الان\n/lang — تغییر زبان\n/help — راهنما",
         "news_wait":"⏳ در حال جمع‌آوری اخبار... چند دقیقه صبر کن.",
-        "no_news": "امروز خبری پیدا نشد.",
-        "help":    "📚 راهنما\n/news — اخبار همین الان\n/lang — تغییر زبان\n/help — این پیام\n\nهر روز ۸ صبح تهران اخبار ارسال می‌شه.",
+        "no_news":  "امروز خبری پیدا نشد.",
+        "error":    "❌ خطا در دریافت اخبار. دوباره امتحان کن.",
+        "help":     "📚 راهنما\n/news — اخبار همین الان\n/lang — تغییر زبان\n/help — این پیام\n\nهر روز ۸ صبح تهران اخبار ارسال می‌شه.",
     },
     "en": {
-        "start":   "Hello! 👋 Choose your language:",
-        "saved":   "✅ English selected. You\'ll receive news every morning at 8AM Tehran time.\n\n/news — Get news now\n/lang — Change language\n/help — Help",
+        "start":    "Hello! 👋 Choose your language:",
+        "saved":    "✅ English selected.\n⏳ Preparing today's news for you...",
+        "saved2":   "From tomorrow you'll get news every morning at 8AM Tehran time.\n\n/news — Get news now\n/lang — Change language\n/help — Help",
         "news_wait":"⏳ Collecting news... please wait.",
-        "no_news": "No news found today.",
-        "help":    "📚 Help\n/news — Get news now\n/lang — Change language\n/help — This message\n\nNews is sent daily at 8AM Tehran time.",
+        "no_news":  "No news found today.",
+        "error":    "❌ Error fetching news. Please try again.",
+        "help":     "📚 Help\n/news — Get news now\n/lang — Change language\n/help — This message\n\nNews is sent daily at 8AM Tehran time.",
     }
 }
 
@@ -53,23 +57,11 @@ def lang_keyboard():
         InlineKeyboardButton("🇬🇧 English", callback_data="setlang_en"),
     ]])
 
-async def start(update, ctx):
-    await update.message.reply_text(TEXTS["fa"]["start"], reply_markup=lang_keyboard())
+async def _send_news(update_or_query, lang, is_callback=False):
+    """Fetch & send fresh news immediately. Works for both /news and post-lang-select."""
+    reply_fn = update_or_query.message.reply_text if not is_callback else update_or_query.message.reply_text
 
-async def lang_cmd(update, ctx):
-    await update.message.reply_text(TEXTS["fa"]["start"], reply_markup=lang_keyboard())
-
-async def lang_callback(update, ctx):
-    query = update.callback_query
-    await query.answer()
-    lang = query.data.split("_")[1]
-    set_lang(query.from_user.id, lang)
-    await query.edit_message_text(TEXTS[lang]["saved"])
-
-async def news_now(update, ctx):
-    chat_id = update.effective_user.id
-    lang = get_lang(chat_id)
-    await update.message.reply_text(TEXTS[lang]["news_wait"])
+    await reply_fn(TEXTS[lang]["news_wait"])
     try:
         from collector  import collect_all
         from dedup      import deduplicate
@@ -81,14 +73,38 @@ async def news_now(update, ctx):
         articles = enrich_articles(articles, lang=lang)
         msg = build_telegram_message(articles, lang=lang)
         if not msg:
-            await update.message.reply_text(TEXTS[lang]["no_news"])
+            await reply_fn(TEXTS[lang]["no_news"])
             return
         for chunk in [msg[i:i+4000] for i in range(0, len(msg), 4000)]:
-            await update.message.reply_text(chunk, parse_mode="Markdown",
-                                            disable_web_page_preview=True)
+            await reply_fn(chunk, parse_mode="Markdown", disable_web_page_preview=True)
     except Exception as e:
-        logger.error("news_now error: %s", e)
-        await update.message.reply_text("❌ خطا در دریافت اخبار. دوباره امتحان کن.")
+        logger.error("news error: %s", e)
+        await reply_fn(TEXTS[lang]["error"])
+
+async def start(update, ctx):
+    await update.message.reply_text(TEXTS["fa"]["start"], reply_markup=lang_keyboard())
+
+async def lang_cmd(update, ctx):
+    await update.message.reply_text(TEXTS["fa"]["start"], reply_markup=lang_keyboard())
+
+async def lang_callback(update, ctx):
+    query = update.callback_query
+    await query.answer()
+    lang = query.data.split("_")[1]
+    set_lang(query.from_user.id, lang)
+
+    # Confirm language choice
+    await query.edit_message_text(TEXTS[lang]["saved"])
+
+    # Immediately fetch and send today's news
+    await _send_news(query, lang, is_callback=True)
+
+    # Final info message
+    await query.message.reply_text(TEXTS[lang]["saved2"])
+
+async def news_now(update, ctx):
+    lang = get_lang(update.effective_user.id)
+    await _send_news(update, lang)
 
 async def help_cmd(update, ctx):
     lang = get_lang(update.effective_user.id)
