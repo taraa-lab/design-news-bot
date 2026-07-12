@@ -1,11 +1,11 @@
 """
 sender.py — Build personalized digest per user and send to all users.
+Supports separate fa/en enriched article sets so each user gets their own language.
 """
 
 import os
 import logging
 import requests
-from collector import Article
 from sheets import SheetsDB
 
 logger = logging.getLogger(__name__)
@@ -29,14 +29,13 @@ def _filter_for_user(articles: list, interests: list) -> list:
         for cat in INTEREST_CATEGORIES.get(interest, []):
             allowed_cats.add(cat)
 
-    result = []
-    seen_urls = set()
+    result, seen = [], set()
     for a in articles:
-        if a.url in seen_urls:
+        if a.url in seen:
             continue
         if a.category in COMPETITION_CATS or a.category in allowed_cats:
             result.append(a)
-            seen_urls.add(a.url)
+            seen.add(a.url)
     return result
 
 
@@ -81,8 +80,8 @@ def build_personal_digest(articles: list, interests: list, lang: str) -> str:
     return "\n".join(parts)
 
 
-def send_to_all_users(articles: list):
-    """Called by main.py daily — sends personalized digest to each user."""
+def send_to_all_users(articles_fa: list, articles_en: list):
+    """Called by main.py daily — sends personalized digest to each user in their own language."""
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "")
     if not token:
         logger.error("No TELEGRAM_BOT_TOKEN")
@@ -93,19 +92,19 @@ def send_to_all_users(articles: list):
     logger.info("Sending to %d users", len(users))
 
     for user in users:
-        chat_id  = user.get("chat_id", "")
-        lang     = user.get("lang", "fa")
+        chat_id   = user.get("chat_id", "")
+        lang      = user.get("lang", "fa")
         interests = [i for i in user.get("interests", "").split(",") if i]
 
         if not chat_id or not interests:
             continue
 
+        articles = articles_fa if lang == "fa" else articles_en
         msg = build_personal_digest(articles, interests, lang)
         if not msg:
             no_news = "امروز خبری در حوزه‌های انتخابی تو پیدا نشد." if lang=="fa" else "No news found for your selected areas today."
             msg = no_news
 
-        # Send (split if too long)
         for chunk in [msg[i:i+4000] for i in range(0, len(msg), 4000)]:
             try:
                 requests.post(
@@ -117,4 +116,4 @@ def send_to_all_users(articles: list):
             except Exception as e:
                 logger.error("Send error to %s: %s", chat_id, e)
 
-        logger.info("Sent to user %s (%s)", chat_id, lang)
+        logger.info("Sent to user %s (%s, interests=%s)", chat_id, lang, interests)
