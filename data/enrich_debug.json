@@ -1,0 +1,54 @@
+{
+  "total_batches": 7,
+  "results": [
+    {
+      "batch_idx": 0,
+      "size": 10,
+      "status": "FAILED",
+      "error": "404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "error_type": "HTTPError"
+    },
+    {
+      "batch_idx": 1,
+      "size": 10,
+      "status": "FAILED",
+      "error": "404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "error_type": "HTTPError"
+    },
+    {
+      "batch_idx": 2,
+      "size": 10,
+      "status": "FAILED",
+      "error": "404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "error_type": "HTTPError"
+    },
+    {
+      "batch_idx": 3,
+      "size": 10,
+      "status": "FAILED",
+      "error": "404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "error_type": "HTTPError"
+    },
+    {
+      "batch_idx": 4,
+      "size": 10,
+      "status": "FAILED",
+      "error": "404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "error_type": "HTTPError"
+    },
+    {
+      "batch_idx": 5,
+      "size": 10,
+      "status": "FAILED",
+      "error": "404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "error_type": "HTTPError"
+    },
+    {
+      "batch_idx": 6,
+      "size": 8,
+      "status": "FAILED",
+      "error": "404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "error_type": "HTTPError"
+    }
+  ]
+}
