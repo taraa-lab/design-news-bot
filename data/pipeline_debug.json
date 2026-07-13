@@ -1,0 +1,48 @@
+{
+  "1_raw_collected": 70,
+  "1_by_source": {
+    "Fast Company Design": 1,
+    "ArchDaily": 17,
+    "Red Dot": 2,
+    "Dezeen": 7,
+    "Yanko Design": 10,
+    "Design Milk": 3,
+    "Core77": 3,
+    "Designboom": 8,
+    "Google News: product design award": 7,
+    "Google News: design competition 2025": 1,
+    "Creative Boom": 4,
+    "Google News: industrial design": 7
+  },
+  "2_after_dedup": 67,
+  "3_after_enrich": 67,
+  "4_category_distribution": {
+    "سایر": 55,
+    "جوایز طراحی": 8,
+    "هوش مصنوعی در طراحی": 2,
+    "مبلمان": 1,
+    "مسابقات طراحی": 1
+  },
+  "5_matched_for_product_interest": 9,
+  "5_matched_titles": [
+    "General press information on the Red Dot Design Award",
+    "Sparkhood by Jizheng Guan Wins Iron in A' Digital Product Design Award - EIN News",
+    "Submit Now To Interior Design’s 2026 Best Of Year Awards - Interior Design Magazine",
+    "A' Security, Safety and Surveillance Products Design Awards 2026 Call for Nominations Announced - EIN Presswire",
+    "Samsung Wins Two Red Dot Award: Design Concept ‘Best of the Best’ Awards - Samsung Global Newsroom",
+    "Hankook, Bridgestone, Kumho earn Red Dot awards for tire design - Tire Business",
+    "Philips TV & Philips Sound celebrate 2026 Red Dot Design Award success - ertonline.co.uk",
+    "Cardo Wins Prestigious Red Dot Award for Innovative CardoBeyond GTS Helmet - SuperBike Magazine",
+    "IOE Thapathali student wins Asian Paints Kaleidoscope 2025-26 design competition - The Himalayan Times"
+  ],
+  "6_allowed_categories_checked": [
+    "Industrial Design",
+    "Product Design",
+    "طراحی صنعتی",
+    "طراحی محصول",
+    "جوایز طراحی",
+    "مسابقات طراحی",
+    "Design Awards",
+    "Design Competitions"
+  ]
+}
