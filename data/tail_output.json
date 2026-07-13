@@ -1,0 +1,102 @@
+{
+    "wallTime": 350,
+    "cpuTime": 5,
+    "truncated": false,
+    "executionModel": "stateless",
+    "outcome": "ok",
+    "scriptVersion": {
+        "id": "45573aac-7cdb-4355-82b6-be4a573ee1cd"
+    },
+    "scriptName": "design-news-bot",
+    "diagnosticsChannelEvents": [],
+    "exceptions": [],
+    "logs": [],
+    "eventTimestamp": 1783984328986,
+    "event": {
+        "request": {
+            "url": "https://design-news-bot.newsbot.workers.dev/",
+            "method": "POST",
+            "headers": {
+                "accept": "*/*",
+                "accept-encoding": "gzip, br",
+                "cf-connecting-ip": "74.235.70.227",
+                "cf-ipcountry": "US",
+                "cf-ray": "a1abf8881b0aaa75",
+                "cf-visitor": "{\"scheme\":\"https\"}",
+                "connection": "Keep-Alive",
+                "content-length": "135",
+                "content-type": "application/json",
+                "host": "design-news-bot.newsbot.workers.dev",
+                "user-agent": "curl/8.5.0",
+                "x-forwarded-proto": "https",
+                "x-real-ip": "74.235.70.227",
+                "x-telegram-bot-api-secret-token": "REDACTED"
+            },
+            "cf": {
+                "httpProtocol": "HTTP/2",
+                "requestPriority": "weight=16;exclusive=0;group=0;group-weight=0",
+                "edgeRequestKeepAliveStatus": 1,
+                "requestHeaderNames": {},
+                "clientTcpRtt": 1,
+                "clientQuicRtt": 0,
+                "colo": "IAD",
+                "asn": 8075,
+                "asOrganization": "Microsoft Corporation",
+                "country": "US",
+                "isEUCountry": false,
+                "city": "Washington",
+                "continent": "NA",
+                "region": "Virginia",
+                "regionCode": "VA",
+                "timezone": "America/New_York",
+                "longitude": "-78.15944",
+                "latitude": "38.71345",
+                "postalCode": "22747",
+                "metroCode": "511",
+                "tlsVersion": "TLSv1.3",
+                "tlsCipher": "AEAD-AES256-GCM-SHA384",
+                "tlsClientRandom": "Bu5Ez4TLjcX3mQI6I9GHl6+HsuR8xe9+4xM6BsjR6Ns=",
+                "tlsClientCiphersSha1": "GXSPDLP4G3X+prK73a4wBuOaHRc=",
+                "tlsClientExtensionsSha1": "tlH5gnoC5Z1HF45J5OgHEi338V0=",
+                "tlsClientExtensionsSha1Le": "mRCkyUCRFDTLCNHGQsZNFhkU1/4=",
+                "tlsExportedAuthenticator": {
+                    "clientHandshake": "bf8b4cf10cbf8f03fb5726e2250fbea5248609a56f82fac48e9f672d75f96d17d35ffd5e040e5067610ed29eb16f7697",
+                    "serverHandshake": "a785ef37598056bbf1cab1b7a6473d01f01e85f04ab17748686e4a92dece3faeb652e337f6230ff8b15985461617c000",
+                    "clientFinished": "4a62ee76b1bbeecb8daded8f351d228fb74b15afde100bf97fd8fc460b299e33868b5dd3586d27970b49c79bde6e2899",
+                    "serverFinished": "79c9025779c8821f6b52e43c08438b802c879681613c66bffe644bf2e5da54d6105263c445b44bcefc054311e0e06817"
+                },
+                "tlsClientHelloLength": "508",
+                "tlsClientAuth": {
+                    "certPresented": "0",
+                    "certVerified": "NONE",
+                    "certRevoked": "0",
+                    "certIssuerDN": "",
+                    "certSubjectDN": "",
+                    "certIssuerDNRFC2253": "",
+                    "certSubjectDNRFC2253": "",
+                    "certIssuerDNLegacy": "",
+                    "certSubjectDNLegacy": "",
+                    "certSerial": "",
+                    "certIssuerSerial": "",
+                    "certSKI": "",
+                    "certIssuerSKI": "",
+                    "certFingerprintSHA1": "",
+                    "certFingerprintSHA256": "",
+                    "certNotBefore": "",
+                    "certNotAfter": "",
+                    "certRFC9440": "",
+                    "certRFC9440TooLarge": false,
+                    "certChainRFC9440": "",
+                    "certChainRFC9440TooLarge": false
+                },
+                "verifiedBotCategory": "",
+                "edgeL4": {
+                    "deliveryRate": 2008438
+                }
+            }
+        },
+        "response": {
+            "status": 200
+        }
+    }
+}
