@@ -1,0 +1,61 @@
+name: Deploy Telegram Webhook Worker
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "worker/**"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Wrangler
+        run: npm install -g wrangler
+
+      - name: Deploy Worker
+        working-directory: worker
+        env:
+          CLOUDFLARE_API_TOKEN:   ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID:  ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          wrangler deploy 2>&1 | tee deploy_output.txt
+          WORKER_URL=$(grep -oP 'https://[a-zA-Z0-9.-]+\.workers\.dev' deploy_output.txt | head -1)
+          echo "WORKER_URL=$WORKER_URL" >> $GITHUB_ENV
+          echo "Deployed to: $WORKER_URL"
+
+      - name: Set Worker secrets
+        working-directory: worker
+        env:
+          CLOUDFLARE_API_TOKEN:    ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID:   ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          TELEGRAM_BOT_TOKEN:      ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+          GOOGLE_SHEET_ID:         ${{ secrets.GOOGLE_SHEET_ID }}
+          GH_PAT_FOR_WORKER:       ${{ secrets.GH_PAT_FOR_WORKER }}
+          WEBHOOK_SECRET:          ${{ secrets.WEBHOOK_SECRET }}
+        run: |
+          echo "$TELEGRAM_BOT_TOKEN"      | wrangler secret put TELEGRAM_BOT_TOKEN
+          echo "$GOOGLE_CREDENTIALS_JSON" | wrangler secret put GOOGLE_CREDENTIALS_JSON
+          echo "$GOOGLE_SHEET_ID"         | wrangler secret put GOOGLE_SHEET_ID
+          echo "$GH_PAT_FOR_WORKER"       | wrangler secret put GH_PAT_FOR_WORKER
+          echo "$WEBHOOK_SECRET"          | wrangler secret put WEBHOOK_SECRET
+
+      - name: Register Telegram webhook
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          WEBHOOK_SECRET:     ${{ secrets.WEBHOOK_SECRET }}
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/setWebhook" \
+            -d "url=${WORKER_URL}" \
+            -d "secret_token=${WEBHOOK_SECRET}"
+          echo ""
+          echo "Webhook registered to: ${WORKER_URL}"
