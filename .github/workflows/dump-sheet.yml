@@ -1,0 +1,42 @@
+name: Dump Sheet Contents
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install google-auth google-auth-httplib2 google-api-python-client
+      - name: Dump sheet
+        env:
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+          GOOGLE_SHEET_ID:         ${{ secrets.GOOGLE_SHEET_ID }}
+        run: |
+          cd src
+          python -c "
+from sheets import SheetsDB
+import json
+db = SheetsDB()
+users = db.get_all_users()
+print(json.dumps(users, ensure_ascii=False, indent=2))
+with open('../sheet_dump.json','w',encoding='utf-8') as f:
+    json.dump(users, f, ensure_ascii=False, indent=2)
+"
+      - name: Save to repo
+        run: |
+          mkdir -p data
+          cp sheet_dump.json data/sheet_dump.json
+          git config user.name "bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/sheet_dump.json
+          git commit -m "chore: dump sheet contents [skip ci]" || echo "nothing to commit"
+          git push
