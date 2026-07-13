@@ -1,17 +1,17 @@
 """
-collector.py — Fetch articles from RSS feeds and scraped pages.
+collector.py — Fetch articles from RSS feeds and scraped pages, in PARALLEL.
 Returns only articles published in the last 24 hours.
 """
 
 import feedparser
 import requests
 import logging
-import time
 import urllib.parse
 from datetime import datetime, timezone, timedelta
 from bs4 import BeautifulSoup
 from dataclasses import dataclass, field
 from typing import Optional
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from sources import RSS_SOURCES, SCRAPE_SOURCES, GOOGLE_NEWS_QUERIES, GOOGLE_NEWS_BASE
 
@@ -20,11 +20,12 @@ logger = logging.getLogger(__name__)
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (compatible; DesignNewsBot/1.0; "
-        "+https://github.com/YOUR_USERNAME/design-news-bot)"
+        "+https://github.com/taraa-lab/design-news-bot)"
     )
 }
-TIMEOUT = 15
+TIMEOUT = 12
 LOOKBACK_HOURS = 24
+MAX_WORKERS = 12
 
 
 @dataclass
@@ -37,13 +38,11 @@ class Article:
     keywords: list = field(default_factory=list)
     category: str = "Other"
     importance: str = "Medium"
-    title_fa: str = ""
 
 
 def _is_recent(dt: Optional[datetime]) -> bool:
-    """Return True if the article was published within LOOKBACK_HOURS."""
     if dt is None:
-        return True  # include if date unknown
+        return True
     cutoff = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
     if dt.tzinfo is None:
         dt = dt.replace(tzinfo=timezone.utc)
@@ -51,7 +50,6 @@ def _is_recent(dt: Optional[datetime]) -> bool:
 
 
 def _parse_date(entry) -> Optional[datetime]:
-    """Try to extract a timezone-aware datetime from a feedparser entry."""
     for attr in ("published_parsed", "updated_parsed", "created_parsed"):
         t = getattr(entry, attr, None)
         if t:
@@ -71,7 +69,6 @@ def fetch_rss(source: dict) -> list[Article]:
     try:
         feed = feedparser.parse(source["url"])
         if feed.bozo and not feed.entries:
-            logger.warning("Bozo feed: %s", source["name"])
             return []
 
         for entry in feed.entries:
@@ -96,8 +93,7 @@ def fetch_rss(source: dict) -> list[Article]:
                 published=published,
                 summary=summary,
             ))
-
-        logger.info("RSS %s → %d recent articles", source["name"], len(articles))
+        logger.info("RSS %s -> %d recent articles", source["name"], len(articles))
     except Exception as e:
         logger.error("RSS error [%s]: %s", source["name"], e)
     return articles
@@ -139,22 +135,12 @@ def fetch_scraped(source: dict) -> list[Article]:
             if not _is_recent(published):
                 continue
 
-            articles.append(Article(
-                title=title,
-                url=href,
-                source=source["name"],
-                published=published,
-            ))
-
-        logger.info("Scraped %s → %d recent articles", source["name"], len(articles))
+            articles.append(Article(title=title, url=href, source=source["name"], published=published))
+        logger.info("Scraped %s -> %d recent articles", source["name"], len(articles))
     except Exception as e:
         logger.error("Scrape error [%s]: %s", source["name"], e)
     return articles
 
-
-# ──────────────────────────────────────────────
-# Google News RSS
-# ──────────────────────────────────────────────
 
 def fetch_google_news(query: str) -> list[Article]:
     url = GOOGLE_NEWS_BASE.format(query=urllib.parse.quote(query))
@@ -163,28 +149,32 @@ def fetch_google_news(query: str) -> list[Article]:
 
 
 # ──────────────────────────────────────────────
-# Main entry point
+# Main entry point — all sources fetched IN PARALLEL
 # ──────────────────────────────────────────────
 
 def collect_all() -> list[Article]:
-    all_articles: list[Article] = []
+    tasks = []
 
-    # RSS feeds
-    for src in RSS_SOURCES:
-        if src.get("enabled", True):
-            all_articles.extend(fetch_rss(src))
-            time.sleep(0.5)  # be polite
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        futures = []
 
-    # Scraped sources
-    for src in SCRAPE_SOURCES:
-        if src.get("enabled", True):
-            all_articles.extend(fetch_scraped(src))
-            time.sleep(1)
+        for src in RSS_SOURCES:
+            if src.get("enabled", True):
+                futures.append(executor.submit(fetch_rss, src))
 
-    # Google News
-    for query in GOOGLE_NEWS_QUERIES:
-        all_articles.extend(fetch_google_news(query))
-        time.sleep(0.5)
+        for src in SCRAPE_SOURCES:
+            if src.get("enabled", True):
+                futures.append(executor.submit(fetch_scraped, src))
+
+        for query in GOOGLE_NEWS_QUERIES:
+            futures.append(executor.submit(fetch_google_news, query))
+
+        all_articles: list[Article] = []
+        for future in as_completed(futures):
+            try:
+                all_articles.extend(future.result())
+            except Exception as e:
+                logger.error("Fetch task failed: %s", e)
 
     logger.info("Total collected (before dedup): %d", len(all_articles))
     return all_articles
