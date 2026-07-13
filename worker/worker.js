@@ -236,18 +236,26 @@ async function saveUser(env, token, chatId, name, lang, interests) {
 // ─────────────────────────────────────────────
 async function triggerPersonalNews(env, chatId, lang, interests) {
   const url = `https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/send-personal-news.yml/dispatches`;
-  await fetch(url, {
+  const patToken = (env.GH_PAT_FOR_WORKER || "").trim();
+  console.log("triggerPersonalNews called, token length:", patToken.length, "chatId:", chatId);
+
+  const resp = await fetch(url, {
     method: "POST",
     headers: {
-      Authorization: `token ${env.GH_PAT_FOR_WORKER}`,
+      Authorization: `token ${patToken}`,
       Accept: "application/vnd.github.v3+json",
       "Content-Type": "application/json",
+      "User-Agent": "design-news-bot-worker",
     },
     body: JSON.stringify({
       ref: "main",
       inputs: { chat_id: String(chatId), lang, interests: interests.join(",") },
     }),
   });
+
+  const bodyText = await resp.text();
+  console.log("GitHub dispatch response:", resp.status, bodyText);
+  return resp.ok;
 }
 
 // ─────────────────────────────────────────────
