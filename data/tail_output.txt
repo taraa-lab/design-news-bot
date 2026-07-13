@@ -1,0 +1,6 @@
+
+ ⛅️ wrangler 4.86.0
+───────────────────
+Successfully created tail, expires at 2026-07-14T05:06:18Z
+Connected to design-news-bot, waiting for logs...
+POST https://design-news-bot.newsbot.workers.dev/ - Ok @ 7/13/2026, 11:06:25 PM
