@@ -2,18 +2,14 @@
  ⛅️ wrangler 4.86.0
 ───────────────────
 Total Upload: 15.39 KiB / gzip: 4.41 KiB
-Uploaded design-news-bot (3.50 sec)
-[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mYou need to register a workers.dev subdomain before publishing to workers.dev[0m
+Uploaded design-news-bot (1.85 sec)
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mBecause your 'workers.dev' route is enabled and your 'preview_urls' setting is not in your Wrangler file, Preview URLs will be enabled for this deployment by default.[0m
+
+  To override this setting, you can disable Preview URLs by explicitly setting 'preview_urls = false' in your Wrangler file.
 
 
-? Would you like to register a workers.dev subdomain now?
-🤖 Using fallback value in non-interactive context: no
+Deployed design-news-bot triggers (1.31 sec)
+  https://design-news-bot.newsbot.workers.dev
+Current Version ID: 45573aac-7cdb-4355-82b6-be4a573ee1cd
 
 Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
-
-[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mYou can either deploy your worker to one or more routes by specifying them in your wrangler.toml file, or register a workers.dev subdomain here:[0m
-
-  [4mhttps://dash.cloudflare.com/18e66bf43c82bd7654724511bc3c19eb/workers/onboarding[0m
-
-
-🪵  Logs were written to "/home/runner/.config/.wrangler/logs/wrangler-2026-07-13_00-18-12_846.log"
