@@ -1,1 +1,1 @@
-{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":13}}
+{"ok":true,"result":{"url":"https://design-news-bot.newsbot.workers.dev","has_custom_certificate":false,"pending_update_count":11,"last_error_date":1783980400,"last_error_message":"Wrong response from the webhook: 404 Not Found","max_connections":40,"ip_address":"172.67.209.31"}}
