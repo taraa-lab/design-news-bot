@@ -1,0 +1,38 @@
+name: Send Personal News
+
+on:
+  workflow_dispatch:
+    inputs:
+      chat_id:
+        description: "Telegram chat ID"
+        required: true
+      lang:
+        description: "Language (fa/en)"
+        required: true
+        default: "fa"
+      interests:
+        description: "Comma-separated interest keys"
+        required: true
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install anthropic feedparser requests beautifulsoup4 python-dateutil lxml
+      - name: Send news to user
+        env:
+          ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT_ID:            ${{ inputs.chat_id }}
+          LANG_CODE:          ${{ inputs.lang }}
+          INTERESTS:          ${{ inputs.interests }}
+        run: cd src && python send_one.py
