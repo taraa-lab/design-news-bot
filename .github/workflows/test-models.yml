@@ -1,0 +1,31 @@
+name: Test Models
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install requests
+      - name: Test models
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: cd src && python test_models.py
+      - name: Save
+        run: |
+          mkdir -p data
+          cp src/model_test_results.json data/model_test_results.json
+          git config user.name "bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/model_test_results.json
+          git commit -m "chore: model test results [skip ci]" || echo "nothing to commit"
+          git push
