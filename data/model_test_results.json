@@ -1,0 +1,18 @@
+{
+  "meta-llama/llama-3.3-70b-instruct:free": {
+    "status": 429,
+    "content": ""
+  },
+  "google/gemma-4-31b-it:free": {
+    "status": 429,
+    "content": ""
+  },
+  "openai/gpt-oss-20b:free": {
+    "status": 200,
+    "content": "[\n  {\n    \"title_fa\": \"سامسونگ برنده جایزه"
+  },
+  "qwen/qwen3-next-80b-a3b-instruct:free": {
+    "status": 429,
+    "content": ""
+  }
+}
