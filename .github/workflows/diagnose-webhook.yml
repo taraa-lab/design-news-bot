@@ -1,0 +1,46 @@
+name: Diagnose And Fix Webhook
+
+on:
+  workflow_dispatch:
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Get workers.dev subdomain
+        env:
+          CLOUDFLARE_API_TOKEN:  ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          RESP=$(curl -s -X GET "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/workers/subdomain" \
+            -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}")
+          echo "Subdomain response: $RESP"
+          SUBDOMAIN=$(echo "$RESP" | grep -oP '"subdomain":"\K[^"]+')
+          echo "Subdomain: $SUBDOMAIN"
+          WORKER_URL="https://design-news-bot.${SUBDOMAIN}.workers.dev"
+          echo "Worker URL: $WORKER_URL"
+          echo "WORKER_URL=$WORKER_URL" >> $GITHUB_ENV
+
+      - name: Test worker is reachable
+        run: |
+          curl -s -o /dev/null -w "Worker HTTP status: %{http_code}\n" "${WORKER_URL}"
+
+      - name: Register webhook properly
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          WEBHOOK_SECRET:     ${{ secrets.WEBHOOK_SECRET }}
+        run: |
+          echo "Setting webhook to: ${WORKER_URL}"
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/setWebhook" \
+            -d "url=${WORKER_URL}" \
+            -d "secret_token=${WEBHOOK_SECRET}"
+          echo ""
+
+      - name: Check webhook info
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          echo "Current webhook info:"
+          curl -s "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getWebhookInfo"
+          echo ""
