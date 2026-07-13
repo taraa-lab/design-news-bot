@@ -30,18 +30,7 @@ jobs:
         env:
           GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
           GOOGLE_SHEET_ID:         ${{ secrets.GOOGLE_SHEET_ID }}
-        run: |
-          cd src
-          python -c "
-from sheets import SheetsDB
-import json
-db = SheetsDB()
-users = db.get_all_users()
-print('=== SHEET USERS ===')
-print(json.dumps(users, ensure_ascii=False, indent=2))
-with open('../sheet_dump.json','w',encoding='utf-8') as f:
-    json.dump(users, f, ensure_ascii=False, indent=2)
-"
+        run: cd src && python debug_dump.py
 
       - name: Start tail in background
         working-directory: worker
@@ -59,19 +48,14 @@ with open('../sheet_dump.json','w',encoding='utf-8') as f:
         run: |
           WORKER_URL=$(cat data/worker_url.txt 2>/dev/null || echo "https://design-news-bot.newsbot.workers.dev")
           echo "Posting to: $WORKER_URL"
-          curl -s -X POST "$WORKER_URL" \
-            -H "Content-Type: application/json" \
-            -H "X-Telegram-Bot-Api-Secret-Token: ${WEBHOOK_SECRET}" \
-            -d '{"update_id":999999002,"message":{"message_id":2,"chat":{"id":${{ inputs.test_chat_id }}},"from":{"id":${{ inputs.test_chat_id }},"first_name":"Tester"},"text":"/news"}}'
+          curl -s -X POST "$WORKER_URL" -H "Content-Type: application/json" -H "X-Telegram-Bot-Api-Secret-Token: ${WEBHOOK_SECRET}" -d "{\"update_id\":999999003,\"message\":{\"message_id\":3,\"chat\":{\"id\":${{ inputs.test_chat_id }}},\"from\":{\"id\":${{ inputs.test_chat_id }},\"first_name\":\"Tester\"},\"text\":\"/news\"}}"
           echo ""
-          echo "Waiting for logs..."
           sleep 12
 
       - name: Stop tail and show logs
         run: |
           kill $(cat tail_pid.txt) 2>/dev/null || true
           sleep 2
-          echo "=== TAIL OUTPUT ==="
           cat tail_output.json
 
       - name: Save logs to repo
