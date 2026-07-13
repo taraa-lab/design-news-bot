@@ -1,0 +1,63 @@
+name: Tail Worker Logs
+
+on:
+  workflow_dispatch:
+    inputs:
+      test_chat_id:
+        description: "A real chat_id to simulate /news for"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  tail:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm install -g wrangler
+
+      - name: Start tail in background
+        working-directory: worker
+        env:
+          CLOUDFLARE_API_TOKEN:  ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          nohup wrangler tail --format pretty > ../tail_output.txt 2>&1 &
+          echo $! > ../tail_pid.txt
+          sleep 8
+
+      - name: Send synthetic /news message via webhook
+        env:
+          WEBHOOK_SECRET: ${{ secrets.WEBHOOK_SECRET }}
+        run: |
+          WORKER_URL=$(cat data/worker_url.txt 2>/dev/null || echo "https://design-news-bot.newsbot.workers.dev")
+          echo "Posting to: $WORKER_URL"
+          curl -s -X POST "$WORKER_URL" \
+            -H "Content-Type: application/json" \
+            -H "X-Telegram-Bot-Api-Secret-Token: ${WEBHOOK_SECRET}" \
+            -d '{"update_id":999999001,"message":{"message_id":1,"chat":{"id":${{ inputs.test_chat_id }}},"from":{"id":${{ inputs.test_chat_id }},"first_name":"Tester"},"text":"/news"}}'
+          echo ""
+          echo "Waiting for logs..."
+          sleep 12
+
+      - name: Stop tail and show logs
+        run: |
+          kill $(cat tail_pid.txt) 2>/dev/null || true
+          sleep 2
+          echo "=== TAIL OUTPUT ==="
+          cat tail_output.txt
+
+      - name: Save logs to repo
+        run: |
+          mkdir -p data
+          cp tail_output.txt data/tail_output.txt
+          git config user.name "bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/tail_output.txt
+          git commit -m "chore: record worker tail logs [skip ci]" || echo "nothing to commit"
+          git push
