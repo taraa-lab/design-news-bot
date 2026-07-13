@@ -30,27 +30,34 @@ jobs:
           wrangler deploy > raw_output.txt 2>&1 || true
           cat raw_output.txt
           WORKER_URL=$(grep -oE 'https://[a-zA-Z0-9.-]+\.workers\.dev' raw_output.txt | head -1)
-          echo "Extracted URL: $WORKER_URL"
+          echo "Extracted URL: [$WORKER_URL]"
           echo "$WORKER_URL" > ../worker_url.txt
+          cp raw_output.txt ../raw_output.txt
           echo "WORKER_URL=$WORKER_URL" >> $GITHUB_ENV
 
-      - name: Save URL to repo for inspection
+      - name: Save debug files to repo
         run: |
           mkdir -p data
           cp worker_url.txt data/worker_url.txt
+          cp raw_output.txt data/raw_output.txt
           git config user.name "bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/worker_url.txt
-          git commit -m "chore: record worker url [skip ci]" || echo "nothing to commit"
+          git add data/worker_url.txt data/raw_output.txt
+          git commit -m "chore: record deploy debug info [skip ci]" || echo "nothing to commit"
           git push
 
       - name: Test worker is reachable
         run: |
+          if [ -z "${WORKER_URL}" ]; then
+            echo "WORKER_URL is empty, skipping test"
+            exit 0
+          fi
           echo "Testing: ${WORKER_URL}"
-          curl -s -o response.txt -w "HTTP status: %{http_code}\n" "${WORKER_URL}"
-          cat response.txt
+          curl -s -o response.txt -w "HTTP status: %{http_code}\n" "${WORKER_URL}" || true
+          cat response.txt || true
 
       - name: Register webhook properly
+        if: env.WORKER_URL != ''
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           WEBHOOK_SECRET:     ${{ secrets.WEBHOOK_SECRET }}
@@ -60,6 +67,11 @@ jobs:
             -d "url=${WORKER_URL}" \
             -d "secret_token=${WEBHOOK_SECRET}" > webhook_result.txt
           cat webhook_result.txt
+          mkdir -p data
+          cp webhook_result.txt data/webhook_result.txt
+          git add data/webhook_result.txt
+          git commit -m "chore: record webhook result [skip ci]" || echo "nothing to commit"
+          git push
 
       - name: Check webhook info
         env:
@@ -69,7 +81,6 @@ jobs:
           cat webhookinfo.txt
           mkdir -p data
           cp webhookinfo.txt data/webhookinfo.txt
-          cp webhook_result.txt data/webhook_result.txt || true
-          git add data/webhookinfo.txt data/webhook_result.txt || true
+          git add data/webhookinfo.txt
           git commit -m "chore: record webhook info [skip ci]" || echo "nothing to commit"
           git push
