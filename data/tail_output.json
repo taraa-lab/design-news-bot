@@ -1,17 +1,37 @@
 {
-    "wallTime": 350,
-    "cpuTime": 5,
+    "wallTime": 2181,
+    "cpuTime": 4,
     "truncated": false,
     "executionModel": "stateless",
     "outcome": "ok",
     "scriptVersion": {
-        "id": "45573aac-7cdb-4355-82b6-be4a573ee1cd"
+        "id": "dd12c9ef-6224-46fe-bd5c-8fb5b1e5ae3a"
     },
     "scriptName": "design-news-bot",
     "diagnosticsChannelEvents": [],
     "exceptions": [],
-    "logs": [],
-    "eventTimestamp": 1783984328986,
+    "logs": [
+        {
+            "message": [
+                "triggerPersonalNews called, token length:",
+                40,
+                "chatId:",
+                412692212
+            ],
+            "level": "log",
+            "timestamp": 1783984500370
+        },
+        {
+            "message": [
+                "GitHub dispatch response:",
+                204,
+                ""
+            ],
+            "level": "log",
+            "timestamp": 1783984501334
+        }
+    ],
+    "eventTimestamp": 1783984499153,
     "event": {
         "request": {
             "url": "https://design-news-bot.newsbot.workers.dev/",
@@ -19,9 +39,9 @@
             "headers": {
                 "accept": "*/*",
                 "accept-encoding": "gzip, br",
-                "cf-connecting-ip": "74.235.70.227",
+                "cf-connecting-ip": "172.184.211.83",
                 "cf-ipcountry": "US",
-                "cf-ray": "a1abf8881b0aaa75",
+                "cf-ray": "a1abfcafaedb0c97",
                 "cf-visitor": "{\"scheme\":\"https\"}",
                 "connection": "Keep-Alive",
                 "content-length": "135",
@@ -29,7 +49,7 @@
                 "host": "design-news-bot.newsbot.workers.dev",
                 "user-agent": "curl/8.5.0",
                 "x-forwarded-proto": "https",
-                "x-real-ip": "74.235.70.227",
+                "x-real-ip": "172.184.211.83",
                 "x-telegram-bot-api-secret-token": "REDACTED"
             },
             "cf": {
@@ -39,31 +59,31 @@
                 "requestHeaderNames": {},
                 "clientTcpRtt": 1,
                 "clientQuicRtt": 0,
-                "colo": "IAD",
+                "colo": "SJC",
                 "asn": 8075,
-                "asOrganization": "Microsoft Corporation",
+                "asOrganization": "Microsoft Limited",
                 "country": "US",
                 "isEUCountry": false,
-                "city": "Washington",
+                "city": "San Jose",
                 "continent": "NA",
-                "region": "Virginia",
-                "regionCode": "VA",
-                "timezone": "America/New_York",
-                "longitude": "-78.15944",
-                "latitude": "38.71345",
-                "postalCode": "22747",
-                "metroCode": "511",
+                "region": "California",
+                "regionCode": "CA",
+                "timezone": "America/Los_Angeles",
+                "longitude": "-121.89496",
+                "latitude": "37.33939",
+                "postalCode": "95110",
+                "metroCode": "807",
                 "tlsVersion": "TLSv1.3",
                 "tlsCipher": "AEAD-AES256-GCM-SHA384",
-                "tlsClientRandom": "Bu5Ez4TLjcX3mQI6I9GHl6+HsuR8xe9+4xM6BsjR6Ns=",
+                "tlsClientRandom": "KQ+vgt74hAze18GDFj1Bp+1xa8mrp6fjUlfwKCojlPE=",
                 "tlsClientCiphersSha1": "GXSPDLP4G3X+prK73a4wBuOaHRc=",
                 "tlsClientExtensionsSha1": "tlH5gnoC5Z1HF45J5OgHEi338V0=",
                 "tlsClientExtensionsSha1Le": "mRCkyUCRFDTLCNHGQsZNFhkU1/4=",
                 "tlsExportedAuthenticator": {
-                    "clientHandshake": "bf8b4cf10cbf8f03fb5726e2250fbea5248609a56f82fac48e9f672d75f96d17d35ffd5e040e5067610ed29eb16f7697",
-                    "serverHandshake": "a785ef37598056bbf1cab1b7a6473d01f01e85f04ab17748686e4a92dece3faeb652e337f6230ff8b15985461617c000",
-                    "clientFinished": "4a62ee76b1bbeecb8daded8f351d228fb74b15afde100bf97fd8fc460b299e33868b5dd3586d27970b49c79bde6e2899",
-                    "serverFinished": "79c9025779c8821f6b52e43c08438b802c879681613c66bffe644bf2e5da54d6105263c445b44bcefc054311e0e06817"
+                    "clientHandshake": "f1eb2e15cc997dd80c32b217e91d62cbf8123d1b2152a9a494a2512ba2648776e4d0d79d6b2a98a3a32b1c62f19e8a18",
+                    "serverHandshake": "b6271bb21fdbc3e79631c09ae58dcc9e099fc9a5fd81015497fa7b099a5ae20af6afdcb800c6a0d711b6480556237212",
+                    "clientFinished": "1e17392703eb9915652ac0dfc1f01e0d5b2ef9ef1df537660339280b1bf41ed2eee4823faff7936f01e9a68d610e553a",
+                    "serverFinished": "78a91bf98698c22da76f1b083480c073054e22392ed11ee15e4a8fa10ff5682e7c021cc9ea2eda1ceb38c3deae25a9e3"
                 },
                 "tlsClientHelloLength": "508",
                 "tlsClientAuth": {
@@ -91,7 +111,7 @@
                 },
                 "verifiedBotCategory": "",
                 "edgeL4": {
-                    "deliveryRate": 2008438
+                    "deliveryRate": 1531367
                 }
             }
         },
