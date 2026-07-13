@@ -1,0 +1,50 @@
+{
+  "key_present": true,
+  "key_length": 73,
+  "key_check_status": 200,
+  "key_check_body": "{\"data\":{\"label\":\"sk-or-v1-362...f88\",\"is_management_key\":false,\"is_provisioning_key\":false,\"limit\":null,\"limit_reset\":null,\"limit_remaining\":null,\"include_byok_in_limit\":false,\"usage\":0,\"usage_daily\":0,\"usage_weekly\":0,\"usage_monthly\":0,\"byok_usage\":0,\"byok_usage_daily\":0,\"byok_usage_weekly\":0,\"byok_usage_monthly\":0,\"is_free_tier\":true,\"expires_at\":null,\"creator_user_id\":\"user_3G3P0w1XL0Aq5wWEGPwn2BXx9zT\",\"rate_limit\":{\"requests\":-1,\"interval\":\"10s\",\"note\":\"This field is deprecated and safe to ",
+  "free_models_count": 23,
+  "free_models": [
+    "tencent/hy3:free",
+    "poolside/laguna-xs-2.1:free",
+    "cohere/north-mini-code:free",
+    "nvidia/nemotron-3.5-content-safety:free",
+    "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "poolside/laguna-m.1:free",
+    "google/gemma-4-26b-a4b-it:free",
+    "google/gemma-4-31b-it:free",
+    "google/lyria-3-pro-preview",
+    "google/lyria-3-clip-preview",
+    "nvidia/nemotron-3-super-120b-a12b:free",
+    "openrouter/free",
+    "nvidia/nemotron-3-nano-30b-a3b:free",
+    "nvidia/nemotron-nano-12b-v2-vl:free",
+    "qwen/qwen3-next-80b-a3b-instruct:free",
+    "nvidia/nemotron-nano-9b-v2:free",
+    "openai/gpt-oss-20b:free",
+    "qwen/qwen3-coder:free",
+    "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+    "meta-llama/llama-3.3-70b-instruct:free",
+    "meta-llama/llama-3.2-3b-instruct:free",
+    "nousresearch/hermes-3-llama-3.1-405b:free"
+  ],
+  "test_calls": {
+    "meta-llama/llama-3.1-8b-instruct:free": {
+      "status": 404,
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.1-8b-instruct\",\"code\":404},\"user_id\":\"user_3G3P0w1XL0Aq5wWEGPwn2BXx9zT\"}"
+    },
+    "google/gemini-2.0-flash-exp:free": {
+      "status": 404,
+      "body": "{\"error\":{\"message\":\"No endpoints found for google/gemini-2.0-flash-exp:free.\",\"code\":404},\"user_id\":\"user_3G3P0w1XL0Aq5wWEGPwn2BXx9zT\"}"
+    },
+    "qwen/qwen-2.5-7b-instruct:free": {
+      "status": 404,
+      "body": "{\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: qwen/qwen-2.5-7b-instruct\",\"code\":404},\"user_id\":\"user_3G3P0w1XL0Aq5wWEGPwn2BXx9zT\"}"
+    },
+    "mistralai/mistral-7b-instruct:free": {
+      "status": 404,
+      "body": "{\"error\":{\"message\":\"No endpoints found for mistralai/mistral-7b-instruct:free.\",\"code\":404},\"user_id\":\"user_3G3P0w1XL0Aq5wWEGPwn2BXx9zT\"}"
+    }
+  }
+}
