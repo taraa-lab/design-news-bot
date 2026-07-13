@@ -3,28 +3,52 @@ name: Diagnose And Fix Webhook
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   diagnose:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
-      - name: Get workers.dev subdomain
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Wrangler
+        run: npm install -g wrangler
+
+      - name: Deploy and capture URL
+        working-directory: worker
         env:
           CLOUDFLARE_API_TOKEN:  ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
-          RESP=$(curl -s -X GET "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/workers/subdomain" \
-            -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}")
-          echo "Subdomain response: $RESP"
-          SUBDOMAIN=$(echo "$RESP" | grep -oP '"subdomain":"\K[^"]+')
-          echo "Subdomain: $SUBDOMAIN"
-          WORKER_URL="https://design-news-bot.${SUBDOMAIN}.workers.dev"
-          echo "Worker URL: $WORKER_URL"
+          wrangler deploy > raw_output.txt 2>&1 || true
+          cat raw_output.txt
+          WORKER_URL=$(grep -oE 'https://[a-zA-Z0-9.-]+\.workers\.dev' raw_output.txt | head -1)
+          echo "Extracted URL: $WORKER_URL"
+          echo "$WORKER_URL" > ../worker_url.txt
           echo "WORKER_URL=$WORKER_URL" >> $GITHUB_ENV
+
+      - name: Save URL to repo for inspection
+        run: |
+          mkdir -p data
+          cp worker_url.txt data/worker_url.txt
+          git config user.name "bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/worker_url.txt
+          git commit -m "chore: record worker url [skip ci]" || echo "nothing to commit"
+          git push
 
       - name: Test worker is reachable
         run: |
-          curl -s -o /dev/null -w "Worker HTTP status: %{http_code}\n" "${WORKER_URL}"
+          echo "Testing: ${WORKER_URL}"
+          curl -s -o response.txt -w "HTTP status: %{http_code}\n" "${WORKER_URL}"
+          cat response.txt
 
       - name: Register webhook properly
         env:
@@ -34,13 +58,18 @@ jobs:
           echo "Setting webhook to: ${WORKER_URL}"
           curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/setWebhook" \
             -d "url=${WORKER_URL}" \
-            -d "secret_token=${WEBHOOK_SECRET}"
-          echo ""
+            -d "secret_token=${WEBHOOK_SECRET}" > webhook_result.txt
+          cat webhook_result.txt
 
       - name: Check webhook info
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
-          echo "Current webhook info:"
-          curl -s "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getWebhookInfo"
-          echo ""
+          curl -s "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getWebhookInfo" > webhookinfo.txt
+          cat webhookinfo.txt
+          mkdir -p data
+          cp webhookinfo.txt data/webhookinfo.txt
+          cp webhook_result.txt data/webhook_result.txt || true
+          git add data/webhookinfo.txt data/webhook_result.txt || true
+          git commit -m "chore: record webhook info [skip ci]" || echo "nothing to commit"
+          git push
