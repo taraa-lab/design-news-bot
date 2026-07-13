@@ -1,14 +1,17 @@
 """
 summarizer.py — Categorize, summarize, translate, assign importance.
-Batches are sent to Claude IN PARALLEL for speed.
+Uses Claude (if ANTHROPIC_API_KEY set) or OpenRouter free model as fallback.
+Includes retry-with-backoff for rate limits (common on free tiers).
 """
-import os, json, logging, anthropic
+import os, json, time, logging, anthropic
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from collector import Article
 
 logger = logging.getLogger(__name__)
 BATCH_SIZE = 10
-MAX_WORKERS = 5
+MAX_WORKERS_CLAUDE = 5
+MAX_WORKERS_OPENROUTER = 2   # free tier is rate-limited; keep low + retry
+OPENROUTER_MODEL = "openai/gpt-oss-20b:free"   # verified working free model (2026-07)
 
 CATEGORIES_FA = [
     "طراحی محصول","طراحی صنعتی","جوایز طراحی","مسابقات طراحی",
@@ -39,7 +42,7 @@ SYSTEM_PROMPT_FA = f"""تو یک ویراستار متخصص در حوزه طر�
 اهمیت متوسط: رونمایی قابل توجه، رویداد منطقه‌ای، پروژه جالب
 اهمیت پایین: خبر جزئی، مقاله نظری، اطلاع‌رسانی معمول
 
-فقط JSON آرایه برگردان با این فیلدها برای هر خبر:
+فقط JSON آرایه برگردان با این فیلدها برای هر خبر، بدون هیچ توضیح یا متن اضافه، بدون markdown fence:
 {{"title_fa": "عنوان فارسی", "summary": "خلاصه فارسی", "keywords": ["کلیدواژه"], "category": "دسته", "importance": "بالا|متوسط|پایین"}}"""
 
 SYSTEM_PROMPT_EN = f"""You are an expert industrial design editor.
@@ -54,7 +57,7 @@ High: major international award, breakthrough product, industry shift
 Medium: notable release, regional event, interesting project
 Low: minor news, opinion piece, routine announcement
 
-Return only a JSON array, no extra text."""
+Return only a JSON array, no extra text, no markdown fence."""
 
 
 def _build_user_message(batch):
@@ -62,6 +65,17 @@ def _build_user_message(batch):
     for i, a in enumerate(batch, 1):
         parts.append(f"{i}. TITLE: {a.title}\n   SOURCE: {a.source}\n   SNIPPET: {a.summary[:300] or '(none)'}")
     return "\n\n".join(parts)
+
+
+def _extract_json_array(raw: str):
+    raw = raw.strip()
+    raw = raw.replace("```json", "").replace("```", "").strip()
+    # Some free models add prose before/after the JSON array — extract the array bounds.
+    start = raw.find("[")
+    end = raw.rfind("]")
+    if start != -1 and end != -1 and end > start:
+        raw = raw[start:end+1]
+    return json.loads(raw)
 
 
 def _call_claude(user_msg, lang):
@@ -74,32 +88,56 @@ def _call_claude(user_msg, lang):
         system=system,
         messages=[{"role":"user","content":user_msg}],
     )
-    raw = response.content[0].text.strip()
-    raw = raw.replace("```json","").replace("```","").strip()
-    return json.loads(raw)
+    raw = response.content[0].text
+    return _extract_json_array(raw)
 
 
-def _call_openrouter(user_msg, lang):
+def _call_openrouter(user_msg, lang, max_retries=4):
     import requests as req
     api_key = os.environ.get("OPENROUTER_API_KEY","")
-    if not api_key: return []
+    if not api_key:
+        return []
     system = SYSTEM_PROMPT_FA if lang == "fa" else SYSTEM_PROMPT_EN
-    resp = req.post("https://openrouter.ai/api/v1/chat/completions",
-        headers={"Authorization":f"Bearer {api_key}","Content-Type":"application/json"},
-        json={"model":"mistralai/mistral-7b-instruct:free",
-              "messages":[{"role":"system","content":system},{"role":"user","content":user_msg}]},
-        timeout=60)
-    resp.raise_for_status()
-    raw = resp.json()["choices"][0]["message"]["content"].strip()
-    raw = raw.replace("```json","").replace("```","").strip()
-    return json.loads(raw)
+
+    delay = 3
+    last_err = None
+    for attempt in range(max_retries):
+        try:
+            resp = req.post("https://openrouter.ai/api/v1/chat/completions",
+                headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+                json={"model": OPENROUTER_MODEL,
+                      "messages":[{"role":"system","content":system},{"role":"user","content":user_msg}],
+                      "max_tokens": 3000},
+                timeout=45)
+
+            if resp.status_code == 429:
+                logger.warning("OpenRouter rate limited (attempt %d/%d), waiting %ds", attempt+1, max_retries, delay)
+                time.sleep(delay)
+                delay *= 2
+                continue
+
+            resp.raise_for_status()
+            raw = resp.json()["choices"][0]["message"]["content"]
+            return _extract_json_array(raw)
+
+        except Exception as e:
+            last_err = e
+            logger.warning("OpenRouter attempt %d failed: %s", attempt+1, e)
+            time.sleep(delay)
+            delay *= 2
+
+    logger.error("OpenRouter failed after %d retries: %s", max_retries, last_err)
+    return []
 
 
 def _call_api(user_msg, lang):
     api_key = os.environ.get("ANTHROPIC_API_KEY","")
-    if not api_key:
-        return _call_openrouter(user_msg, lang)
-    return _call_claude(user_msg, lang)
+    if api_key:
+        try:
+            return _call_claude(user_msg, lang)
+        except Exception as e:
+            logger.error("Claude error, falling back to OpenRouter: %s", e)
+    return _call_openrouter(user_msg, lang)
 
 
 def _fallback(article, lang):
@@ -116,12 +154,11 @@ def _fallback(article, lang):
 
 
 def _process_batch(batch, lang):
-    """Process one batch: call API, apply results to articles. Returns enriched list."""
     results = []
     try:
         results = _call_api(_build_user_message(batch), lang)
     except Exception as e:
-        logger.error("API error: %s", e)
+        logger.error("Batch processing error: %s", e)
 
     enriched = []
     for j, article in enumerate(batch):
@@ -139,25 +176,27 @@ def enrich_articles(articles, lang="fa"):
     if not articles:
         return []
 
-    batches = [articles[i:i+BATCH_SIZE] for i in range(0, len(articles), BATCH_SIZE)]
-    enriched_all = []
+    using_claude = bool(os.environ.get("ANTHROPIC_API_KEY",""))
+    max_workers = MAX_WORKERS_CLAUDE if using_claude else MAX_WORKERS_OPENROUTER
 
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+    batches = [articles[i:i+BATCH_SIZE] for i in range(0, len(articles), BATCH_SIZE)]
+    results_by_idx = {}
+
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = {executor.submit(_process_batch, batch, lang): idx for idx, batch in enumerate(batches)}
-        results_by_idx = {}
         for future in as_completed(futures):
             idx = futures[future]
             try:
                 results_by_idx[idx] = future.result()
             except Exception as e:
-                logger.error("Batch %d failed: %s", idx, e)
-                results_by_idx[idx] = [
-                    (lambda a: (setattr(a, "category", "سایر" if lang=="fa" else "Other"), a)[1])(a)
-                    for a in batches[idx]
-                ]
+                logger.error("Batch %d failed entirely: %s", idx, e)
+                results_by_idx[idx] = batches[idx]
 
+    enriched_all = []
     for idx in range(len(batches)):
         enriched_all.extend(results_by_idx.get(idx, batches[idx]))
 
-    logger.info("Enriched %d articles in %d parallel batches", len(enriched_all), len(batches))
+    ai_success = sum(1 for a in enriched_all if a.category not in ("سایر","Other"))
+    logger.info("Enriched %d articles (%d batches, %s). Non-Other categories: %d",
+                len(enriched_all), len(batches), "Claude" if using_claude else "OpenRouter", ai_success)
     return enriched_all
