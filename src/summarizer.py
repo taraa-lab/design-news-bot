@@ -1,17 +1,19 @@
 """
 summarizer.py — Categorize, summarize, translate, assign importance.
-Uses Claude (if ANTHROPIC_API_KEY set) or OpenRouter free model as fallback.
-Includes retry-with-backoff for rate limits (common on free tiers).
+- Claude path: parallel batches (generous rate limits).
+- OpenRouter free path: SEQUENTIAL with a fixed delay between calls, larger
+  batches (fewer total requests) to stay safely under free-tier rate limits.
 """
 import os, json, time, logging, anthropic
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from collector import Article
 
 logger = logging.getLogger(__name__)
-BATCH_SIZE = 10
+
+BATCH_SIZE = 30                 # fewer, larger batches = fewer API calls
 MAX_WORKERS_CLAUDE = 5
-MAX_WORKERS_OPENROUTER = 2   # free tier is rate-limited; keep low + retry
-OPENROUTER_MODEL = "openai/gpt-oss-20b:free"   # verified working free model (2026-07)
+OPENROUTER_MODEL = "openai/gpt-oss-20b:free"
+OPENROUTER_DELAY_SECONDS = 4    # fixed spacing between sequential OpenRouter calls
 
 CATEGORIES_FA = [
     "طراحی محصول","طراحی صنعتی","جوایز طراحی","مسابقات طراحی",
@@ -68,9 +70,7 @@ def _build_user_message(batch):
 
 
 def _extract_json_array(raw: str):
-    raw = raw.strip()
-    raw = raw.replace("```json", "").replace("```", "").strip()
-    # Some free models add prose before/after the JSON array — extract the array bounds.
+    raw = raw.strip().replace("```json", "").replace("```", "").strip()
     start = raw.find("[")
     end = raw.rfind("]")
     if start != -1 and end != -1 and end > start:
@@ -84,60 +84,30 @@ def _call_claude(user_msg, lang):
     client = anthropic.Anthropic(api_key=api_key)
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
-        max_tokens=3000,
+        max_tokens=6000,
         system=system,
         messages=[{"role":"user","content":user_msg}],
     )
-    raw = response.content[0].text
-    return _extract_json_array(raw)
+    return _extract_json_array(response.content[0].text)
 
 
-def _call_openrouter(user_msg, lang, max_retries=4):
+def _call_openrouter_once(user_msg, lang):
     import requests as req
     api_key = os.environ.get("OPENROUTER_API_KEY","")
     if not api_key:
         return []
     system = SYSTEM_PROMPT_FA if lang == "fa" else SYSTEM_PROMPT_EN
-
-    delay = 3
-    last_err = None
-    for attempt in range(max_retries):
-        try:
-            resp = req.post("https://openrouter.ai/api/v1/chat/completions",
-                headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
-                json={"model": OPENROUTER_MODEL,
-                      "messages":[{"role":"system","content":system},{"role":"user","content":user_msg}],
-                      "max_tokens": 3000},
-                timeout=45)
-
-            if resp.status_code == 429:
-                logger.warning("OpenRouter rate limited (attempt %d/%d), waiting %ds", attempt+1, max_retries, delay)
-                time.sleep(delay)
-                delay *= 2
-                continue
-
-            resp.raise_for_status()
-            raw = resp.json()["choices"][0]["message"]["content"]
-            return _extract_json_array(raw)
-
-        except Exception as e:
-            last_err = e
-            logger.warning("OpenRouter attempt %d failed: %s", attempt+1, e)
-            time.sleep(delay)
-            delay *= 2
-
-    logger.error("OpenRouter failed after %d retries: %s", max_retries, last_err)
-    return []
-
-
-def _call_api(user_msg, lang):
-    api_key = os.environ.get("ANTHROPIC_API_KEY","")
-    if api_key:
-        try:
-            return _call_claude(user_msg, lang)
-        except Exception as e:
-            logger.error("Claude error, falling back to OpenRouter: %s", e)
-    return _call_openrouter(user_msg, lang)
+    resp = req.post("https://openrouter.ai/api/v1/chat/completions",
+        headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+        json={"model": OPENROUTER_MODEL,
+              "messages":[{"role":"system","content":system},{"role":"user","content":user_msg}],
+              "max_tokens": 6000},
+        timeout=60)
+    if resp.status_code == 429:
+        raise RuntimeError("rate_limited")
+    resp.raise_for_status()
+    raw = resp.json()["choices"][0]["message"]["content"]
+    return _extract_json_array(raw)
 
 
 def _fallback(article, lang):
@@ -153,13 +123,7 @@ def _fallback(article, lang):
     return {"title_fa": article.title, "category": "سایر" if lang=="fa" else "Other", "summary": article.summary, "keywords": [], "importance": "پایین" if lang=="fa" else "Low"}
 
 
-def _process_batch(batch, lang):
-    results = []
-    try:
-        results = _call_api(_build_user_message(batch), lang)
-    except Exception as e:
-        logger.error("Batch processing error: %s", e)
-
+def _apply_results(batch, results, lang):
     enriched = []
     for j, article in enumerate(batch):
         r = results[j] if j < len(results) else _fallback(article, lang)
@@ -172,31 +136,70 @@ def _process_batch(batch, lang):
     return enriched
 
 
-def enrich_articles(articles, lang="fa"):
-    if not articles:
-        return []
+def _process_batch_claude(batch, lang):
+    results = []
+    try:
+        results = _call_claude(_build_user_message(batch), lang)
+    except Exception as e:
+        logger.error("Claude batch error: %s", e)
+    return _apply_results(batch, results, lang)
 
-    using_claude = bool(os.environ.get("ANTHROPIC_API_KEY",""))
-    max_workers = MAX_WORKERS_CLAUDE if using_claude else MAX_WORKERS_OPENROUTER
 
+def _enrich_claude(articles, lang):
     batches = [articles[i:i+BATCH_SIZE] for i in range(0, len(articles), BATCH_SIZE)]
     results_by_idx = {}
-
-    with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = {executor.submit(_process_batch, batch, lang): idx for idx, batch in enumerate(batches)}
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS_CLAUDE) as executor:
+        futures = {executor.submit(_process_batch_claude, b, lang): i for i, b in enumerate(batches)}
         for future in as_completed(futures):
             idx = futures[future]
             try:
                 results_by_idx[idx] = future.result()
             except Exception as e:
-                logger.error("Batch %d failed entirely: %s", idx, e)
+                logger.error("Batch %d failed: %s", idx, e)
                 results_by_idx[idx] = batches[idx]
+    out = []
+    for i in range(len(batches)):
+        out.extend(results_by_idx.get(i, batches[i]))
+    return out
 
-    enriched_all = []
-    for idx in range(len(batches)):
-        enriched_all.extend(results_by_idx.get(idx, batches[idx]))
 
-    ai_success = sum(1 for a in enriched_all if a.category not in ("سایر","Other"))
-    logger.info("Enriched %d articles (%d batches, %s). Non-Other categories: %d",
-                len(enriched_all), len(batches), "Claude" if using_claude else "OpenRouter", ai_success)
-    return enriched_all
+def _enrich_openrouter_sequential(articles, lang):
+    """One request at a time, fixed delay between each — avoids free-tier rate limits."""
+    batches = [articles[i:i+BATCH_SIZE] for i in range(0, len(articles), BATCH_SIZE)]
+    out = []
+    for i, batch in enumerate(batches):
+        results = []
+        max_retries = 3
+        delay = OPENROUTER_DELAY_SECONDS
+        for attempt in range(max_retries):
+            try:
+                results = _call_openrouter_once(_build_user_message(batch), lang)
+                break
+            except Exception as e:
+                logger.warning("OpenRouter batch %d attempt %d failed: %s", i, attempt+1, e)
+                time.sleep(delay)
+                delay *= 2
+        out.extend(_apply_results(batch, results, lang))
+
+        if i < len(batches) - 1:
+            time.sleep(OPENROUTER_DELAY_SECONDS)   # fixed spacing before next request
+
+    return out
+
+
+def enrich_articles(articles, lang="fa"):
+    if not articles:
+        return []
+
+    using_claude = bool(os.environ.get("ANTHROPIC_API_KEY",""))
+    if using_claude:
+        enriched = _enrich_claude(articles, lang)
+        provider = "Claude"
+    else:
+        enriched = _enrich_openrouter_sequential(articles, lang)
+        provider = "OpenRouter (sequential)"
+
+    ai_success = sum(1 for a in enriched if a.category not in ("سایر","Other"))
+    logger.info("Enriched %d articles via %s. Non-Other categories: %d/%d",
+                len(enriched), provider, ai_success, len(enriched))
+    return enriched
