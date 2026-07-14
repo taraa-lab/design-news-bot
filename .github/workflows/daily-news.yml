@@ -5,6 +5,9 @@ on:
     - cron: "30 4 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   run-bot:
     runs-on: ubuntu-latest
@@ -20,7 +23,7 @@ jobs:
           pip install anthropic feedparser requests beautifulsoup4 python-dateutil lxml \
                       google-auth google-auth-httplib2 google-api-python-client
       - name: Create required directories
-        run: mkdir -p reports logs
+        run: mkdir -p reports logs data
       - name: Run bot
         env:
           ANTHROPIC_API_KEY:       ${{ secrets.ANTHROPIC_API_KEY }}
@@ -30,6 +33,13 @@ jobs:
           GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
           GOOGLE_SHEET_ID:         ${{ secrets.GOOGLE_SHEET_ID }}
         run: cd src && python main.py
+      - name: Commit cache to repo
+        run: |
+          git config user.name "bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/cache_fa.json data/cache_en.json
+          git commit -m "chore: refresh news cache [skip ci]" || echo "nothing to commit"
+          git push
       - uses: actions/upload-artifact@v4
         with:
           name: design-news-${{ github.run_id }}
