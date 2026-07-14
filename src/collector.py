@@ -9,7 +9,7 @@ import logging
 import urllib.parse
 from datetime import datetime, timezone, timedelta
 from bs4 import BeautifulSoup
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, asdict
 from typing import Optional
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -39,6 +39,22 @@ class Article:
     category: str = "Other"
     importance: str = "Medium"
 
+    def to_dict(self) -> dict:
+        d = asdict(self)
+        d["published"] = self.published.isoformat() if self.published else None
+        return d
+
+    @staticmethod
+    def from_dict(d: dict) -> "Article":
+        pub = d.get("published")
+        published = datetime.fromisoformat(pub) if pub else None
+        return Article(
+            title=d.get("title",""), url=d.get("url",""), source=d.get("source",""),
+            published=published, summary=d.get("summary",""),
+            keywords=d.get("keywords",[]), category=d.get("category","Other"),
+            importance=d.get("importance","Medium"),
+        )
+
 
 def _is_recent(dt: Optional[datetime]) -> bool:
     if dt is None:
@@ -60,22 +76,16 @@ def _parse_date(entry) -> Optional[datetime]:
     return None
 
 
-# ──────────────────────────────────────────────
-# RSS / Atom
-# ──────────────────────────────────────────────
-
 def fetch_rss(source: dict) -> list[Article]:
     articles = []
     try:
         feed = feedparser.parse(source["url"])
         if feed.bozo and not feed.entries:
             return []
-
         for entry in feed.entries:
             published = _parse_date(entry)
             if not _is_recent(published):
                 continue
-
             summary = ""
             for attr in ("summary", "description", "content"):
                 val = getattr(entry, attr, None)
@@ -85,13 +95,10 @@ def fetch_rss(source: dict) -> list[Article]:
                     soup = BeautifulSoup(val, "html.parser")
                     summary = soup.get_text(" ", strip=True)[:600]
                     break
-
             articles.append(Article(
                 title=entry.get("title", "").strip(),
                 url=entry.get("link", "").strip(),
-                source=source["name"],
-                published=published,
-                summary=summary,
+                source=source["name"], published=published, summary=summary,
             ))
         logger.info("RSS %s -> %d recent articles", source["name"], len(articles))
     except Exception as e:
@@ -99,30 +106,22 @@ def fetch_rss(source: dict) -> list[Article]:
     return articles
 
 
-# ──────────────────────────────────────────────
-# Web scraping (fallback for non-RSS sites)
-# ──────────────────────────────────────────────
-
 def fetch_scraped(source: dict) -> list[Article]:
     articles = []
     try:
         resp = requests.get(source["url"], headers=HEADERS, timeout=TIMEOUT)
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "html.parser")
-
         for container in soup.select(source["article_selector"])[:20]:
             title_el = container.select_one(source["title_selector"])
             link_el  = container.select_one(source["link_selector"])
             date_el  = container.select_one(source["date_selector"])
-
             if not title_el or not link_el:
                 continue
-
             title = title_el.get_text(strip=True)
             href  = link_el.get("href", "")
             if not href.startswith("http"):
                 href = urllib.parse.urljoin(source["url"], href)
-
             published = None
             if date_el:
                 dt_str = date_el.get("datetime") or date_el.get_text(strip=True)
@@ -131,10 +130,8 @@ def fetch_scraped(source: dict) -> list[Article]:
                     published = dparser.parse(dt_str, fuzzy=True).replace(tzinfo=timezone.utc)
                 except Exception:
                     pass
-
             if not _is_recent(published):
                 continue
-
             articles.append(Article(title=title, url=href, source=source["name"], published=published))
         logger.info("Scraped %s -> %d recent articles", source["name"], len(articles))
     except Exception as e:
@@ -148,24 +145,15 @@ def fetch_google_news(query: str) -> list[Article]:
     return fetch_rss(source)
 
 
-# ──────────────────────────────────────────────
-# Main entry point — all sources fetched IN PARALLEL
-# ──────────────────────────────────────────────
-
 def collect_all() -> list[Article]:
-    tasks = []
-
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         futures = []
-
         for src in RSS_SOURCES:
             if src.get("enabled", True):
                 futures.append(executor.submit(fetch_rss, src))
-
         for src in SCRAPE_SOURCES:
             if src.get("enabled", True):
                 futures.append(executor.submit(fetch_scraped, src))
-
         for query in GOOGLE_NEWS_QUERIES:
             futures.append(executor.submit(fetch_google_news, query))
 
