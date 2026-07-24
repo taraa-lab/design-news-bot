@@ -1,6 +1,7 @@
 """
 sender.py — Build personalized digest per user and send to all users.
-Supports separate fa/en enriched article sets so each user gets their own language.
+Message format: 3-line Persian summary, then "لینک خبر" as the clickable link
+(saves space vs. long titles-as-links, fits more news per Telegram message).
 """
 
 import os
@@ -22,8 +23,14 @@ INTEREST_CATEGORIES = {
 COMPETITION_CATS = ["جوایز طراحی", "مسابقات طراحی", "Design Awards", "Design Competitions"]
 
 
+def _escape_md(text: str) -> str:
+    """Escape Telegram Markdown special characters in AI-generated text."""
+    for ch in ("_", "*", "[", "]"):
+        text = text.replace(ch, "\\" + ch)
+    return text
+
+
 def _filter_for_user(articles: list, interests: list) -> list:
-    """Return articles matching user interests + all competition articles."""
     allowed_cats = set()
     for interest in interests:
         for cat in INTEREST_CATEGORIES.get(interest, []):
@@ -52,15 +59,17 @@ def build_personal_digest(articles: list, interests: list, lang: str) -> str:
     today = (datetime.now(timezone.utc) + timedelta(hours=3, minutes=30)).strftime("%Y-%m-%d")
 
     if lang == "fa":
-        header = f"🎨 *اخبار امروز دیزاین* — {today}\n_{len(filtered)} خبر برای تو_\n\n"
+        header = f"🎨 *اخبار امروز دیزاین* — {today}\n_{len(filtered)} خبر برای تو_\n"
         imp_labels = {"بالا": "🔴 اهمیت بالا", "High": "🔴 اهمیت بالا",
                       "متوسط": "🟡 اهمیت متوسط", "Medium": "🟡 اهمیت متوسط",
                       "پایین": "🟢 سایر اخبار", "Low": "🟢 سایر اخبار"}
+        link_word = "لینک خبر"
     else:
-        header = f"🎨 *Design News Today* — {today}\n_{len(filtered)} articles for you_\n\n"
+        header = f"🎨 *Design News Today* — {today}\n_{len(filtered)} articles for you_\n"
         imp_labels = {"بالا": "🔴 High Priority", "High": "🔴 High Priority",
                       "متوسط": "🟡 Medium Priority", "Medium": "🟡 Medium Priority",
                       "پایین": "🟢 Other News", "Low": "🟢 Other News"}
+        link_word = "Read more"
 
     parts = [header]
     current_imp = None
@@ -68,20 +77,18 @@ def build_personal_digest(articles: list, interests: list, lang: str) -> str:
         imp = a.importance or "متوسط"
         if imp != current_imp:
             current_imp = imp
-            parts.append(f"*{imp_labels.get(imp, imp)}*\n")
+            parts.append(f"*{imp_labels.get(imp, imp)}*")
 
-        title = a.title.replace("_", "\\_").replace("*", "\\*").replace("[", "\\[")
-        parts.append(f"• [{title}]({a.url})")
-        parts.append(f"  _{a.source}_ · {a.category}")
-        if a.summary:
-            parts.append(f"  {a.summary[:120]}...")
-        parts.append("")
+        summary = _escape_md((a.summary or a.title).strip())
+        parts.append(summary)
+        parts.append(f"[{link_word}]({a.url})")
+        parts.append(f"_{a.source}_ · {a.category}")
+        parts.append("")   # blank line between items
 
     return "\n".join(parts)
 
 
 def send_to_all_users(articles_fa: list, articles_en: list):
-    """Called by main.py daily — sends personalized digest to each user in their own language."""
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "")
     if not token:
         logger.error("No TELEGRAM_BOT_TOKEN")
