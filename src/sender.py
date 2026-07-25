@@ -82,7 +82,6 @@ def build_personal_digest(articles: list, interests: list, lang: str) -> str:
         summary = _escape_md((a.summary or a.title).strip())
         parts.append(summary)
         parts.append(f"[{link_word}]({a.url})")
-        parts.append(f"_{a.source}_ · {a.category}")
         parts.append("")   # blank line between items
 
     return "\n".join(parts)
