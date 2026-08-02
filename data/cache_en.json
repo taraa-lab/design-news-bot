@@ -1,665 +1,373 @@
 {
-  "generated_at": "2026-07-27T14:08:41.696553+00:00",
-  "count": 48,
+  "generated_at": "2026-08-02T10:35:17.105382+00:00",
+  "count": 23,
   "articles": [
     {
-      "title": "Where Is the Border? How Architecture Controls and Reimagines Mobility",
-      "url": "https://www.archdaily.com/1181555/where-is-the-border-the-role-of-architecture-in-controlling-mobility",
-      "source": "ArchDaily",
-      "published": "2026-07-27T07:30:00+00:00",
-      "summary": "The article examines the design of border entry corridors, focusing on how concrete walls, low ceilings, and minimal lighting shape the visitor’s experience. It highlights how such environments function to control, manage, and even reimagine the movement of people through design cues like a bulletproof glass window and an officer’s presence. The piece discusses the broader implications of architecture in regulating                                                                                mobility and identity at points of crossing.",
+      "title": "Meld skincare dispenser allows users to mix their own preservative-free formulas",
+      "url": "https://www.dezeen.com/2026/08/02/meld-skincare-dispenser-mix-own-formulas/",
+      "source": "Dezeen",
+      "published": "2026-08-02T05:00:23+00:00",
+      "summary": "British designer Beth Morgan Lundie created a refillable skincare dispenser that lets users mix preservative‑free formulas at home. The system eliminates toxic additives by allowing ingredient customization. It debuted as her graduation project at Central Saint Martins.",
       "keywords": [
-        "border architecture",
-        "mobility",
-        "corridor design",
-        "security",
-        "identity"
+        "skincare",
+        "refillable",
+        "preservative‑free",
+        "DIY",
+        "sustainability"
       ],
-      "category": "Industrial Design",
+      "category": "Product Design",
       "importance": "Medium"
     },
     {
-      "title": "Casa Macahuite / Studio Font",
-      "url": "https://www.archdaily.com/1181251/casa-macahuite-studio-font",
-      "source": "ArchDaily",
-      "published": "2026-07-27T07:00:00+00:00",
-      "summary": "Casa Macahuite is conceived as five intersecting planes—four vertical walls and a floating pergola—arranged in harmony with the surrounding sea and mountains. The architectural configuration creates intermediate shaded spaces that provide natural cross-ventilation and a continuous line of sight to the landscape. The design emphasizes a seamless integration of built structure and environment, achieving a balance between privacy and communal openness.",
+      "title": "Montreal restaurant Minnibar by Ivy Studio \"embraces its raw shell\"",
+      "url": "https://www.dezeen.com/2026/08/01/minnibar-restaurant-montreal-ivy-studio/",
+      "source": "Dezeen",
+      "published": "2026-08-01T17:00:46+00:00",
+      "summary": "Ivy Studio designed Minnibar, a light‑filled Italian restaurant in Montreal that embraces Japanese minimalism. The space uses the building’s 20‑foot ceilings and features in‑house designed chairs. The design highlights raw shell aesthetics and a minimalist interior.",
       "keywords": [
-        "sustainable architecture",
-        "pergola",
-        "cross-ventilation",
-        "landscape integration",
-        "Casa Macahuite"
-      ],
-      "category": "Industrial Design",
-      "importance": "Medium"
-    },
-    {
-      "title": "\"Promoting Another Way of Living Together\": In Conversation with Cristina Gamboa of Lacol",
-      "url": "https://www.archdaily.com/1181647/promoting-another-way-of-living-together-in-conversation-with-cristina-gamboa-of-lacol",
-      "source": "ArchDaily",
-      "published": "2026-07-27T06:30:00+00:00",
-      "summary": "At the UIA World Congress of Architects 2026, the discussion expanded beyond design կենտրոն to include governance and stewardship of housing. Cristina Gamboa, co‑founder of Lacol, contributed insights on alternative models of collective living that prioritize long‑term care and socio‑economic equity. The dialogue illustrated how architectural practices can shape community resilience and shared lifestyle choices.",
-      "keywords": [
-        "shared living",
-        "housing governance",
-        "UX design",
-        "Sustainable communities",
-        "UIA 2026"
-      ],
-      "category": "Conferences & Events",
-      "importance": "Medium"
-    },
-    {
-      "title": "Cork House / Polysmiths",
-      "url": "https://www.archdaily.com/1181472/cork-house-polysmiths",
-      "source": "ArchDaily",
-      "published": "2026-07-27T06:00:00+00:00",
-      "summary": "Polysmiths built a three‑bedroom home on an infill block in East London using cork and other pandemic‑era sustainable materials. The design leveraged locally available resources to create an eco‑friendly living space that maintained affordability and resilience. The project showcases how circular design principles can be implemented in dense urban settings.",
-      "keywords": [
-        "cork construction",
-        "sustainable building",
-        "infill development",
-        "London housing",
-        "Polysmiths"
-      ],
-      "category": "Sustainability",
-      "importance": "Medium"
-    },
-    {
-      "title": "From Data to Digital Twins: Japan’s PLATEAU Project Offers Open-Access Models of More Than 250 Cities",
-      "url": "https://www.archdaily.com/1040412/from-data-to-digital-twins-japans-plateau-project-offers-open-access-models-of-more-than-250-cities",
-      "source": "ArchDaily",
-      "published": "2026-07-27T05:30:00+00:00",
-      "summary": "Japan’s Ministry of Land, Infrastructure, Transport and Tourism spearheads Project PLATEAU, delivering open‑access 3‑D models of its 744 cities, including the 14 largest. The initiative fosters urban simulation, planning, and civic engagement through detailed digital twins that capture geographic diversity. The project underscores how data‑driven architecture can transform municipal policy and public transparency.",
-      "keywords": [
-        "digital twins",
-        "urban planning",
-        "PLATEAU",
-        "Japan cities",
-        "open-source modeling"
-      ],
-      "category": "Technology",
-      "importance": "Medium"
-    },
-    {
-      "title": "An Architectural Language of Artificial Cooling: Shade, Mist, and Autonomy",
-      "url": "https://www.archdaily.com/1181537/an-architectural-language-of-artificial-cooling-shade-mist-and-autonomy",
-      "source": "ArchDaily",
-      "published": "2026-07-27T04:00:00+00:00",
-      "summary": "The洔ºerrículo festival in Logroño created full‑scale installations that explored artificial shading, misting, and autonomous cooling technologies as a response to urban heat. Participants engaged with the city’s microclimate, turning everyday streets into experimental public spaces. The project demonstrates how rapid‑ prototyping in architecture can generate adaptable, climate‑responsive designs.",
-      "keywords": [
-        "urban cooling",
-        "mist technology",
-        "artificial shade",
-        "autonomous design",
-        " clubs"
-      ],
-      "category": "Design Competitions",
-      "importance": "Medium"
-    },
-    {
-      "title": "Gabonsa Pavilion / Hochschule Kaiserslautern University of Applied Sciences",
-      "url": "https://www.archdaily.com/1148793/gabonsa-pavilion-hochschule-kaiserslautern-university-of-applied-sciences",
-      "source": "ArchDaily",
-      "published": "2026-07-27T03:00:00+00:00",
-      "summary": "Students from Kaiserslautern University collaborated with Innsbruck collectives to design a temporary pavilion for the Gabonsa Music Festival. The pavilion, located at the Rossau Recreation Centre, serves as both a performance space and a communal gathering point. The project illustrates how educational institutions can partner with artists to create temporary, context‑specific architectural solutions.",
-      "keywords": [
-        "temporary pavilion",
-        "music festival",
-        "student collaboration",
-        "architectural design",
-        "Kaiserslautern"
-      ],
-      "category": "Other",
-      "importance": "Medium"
-    },
-    {
-      "title": "The House of Green Court / andblack design studio",
-      "url": "https://www.archdaily.com/1181504/the-house-of-green-court-andblack-design-studio",
-      "source": "ArchDaily",
-      "published": "2026-07-27T02:00:00+00:00",
-      "summary": "Situated in Ahmedabad, the House of Green Court adapts historic courtyard typologies to organize a multi‑generational family into individualized yet cohesive units. The design modulates privacy and communal spaces to meet evolving inhabitant needs, with a strong emphasis on climatic adaptation. The project showcases how traditional forms can inform contemporary sustainable house planning.",
-      "keywords": [
-        "courtyard design",
-        "sustainable homes",
-        "Ahmedabad architecture",
-        "family housing",
-        "andblack"
-      ],
-      "category": "Sustainability",
-      "importance": "Medium"
-    },
-    {
-      "title": "Luohu Library and Youth Activity Center / Shenzhen ΓιαφΑᚳ Design + iDEA",
-      "url": "https://www.archdaily.com/1181518/luohu-library-and-youth-activity-center-shenzhen-huahui-design-plus-idea",
-      "source": "ArchDaily",
-      "published": "2026-07-27T00:00:00+00:00",
-      "summary": "Situated at the intersection of pristine mountains and layers of urban fabric, the LuTours Library and Youth Activity Center performs a hybrid role between public learning and ecological experience. The building uses natural permeability to blend the built environment with the surrounding landscape. It highlights how early‑stage library design can foster community engagement while protecting natural resources.",
-      "keywords": [
-        "public library",
-        "youth activity",
-        "mixed landscape",
-        "sustainable design",
-        "Shenzhen"
-      ],
-      "category": "Other",
-      "importance": "Mediumấu"
-    },
-    {
-      "title": "Blue Bottle Coffee Harajuku Cafe / TEKI Design",
-      "url": "https://www.archdaily.com/1181503/blue-bottle-coffee-harajuku-cafe-teki-design",
-      "source": "ArchDaily",
-      "published": "2026-07-26T21:00:00+00:00",
-      "summary": "TEKI Design redefined urban space in Harajuku by creating a permeable passageway that provides a slice of sky between dense high‑rise buildings. The cafe’s interior emphasizes natural light and flexible seating to resonate with the ever‑shifting Harajuku culture. The design illustrates how minimalistic interventions can transform narrow city corridors into public open spaces.",
-      "keywords": [
-        "Harajuku cafe",
-        "urban passage",
-        "sky window",
+        "restaurant",
         "minimalism",
-        "TEKI Design"
+        "interior design",
+        "Ivy Studio",
+        "Montreal"
       ],
       "category": "Other",
       "importance": "Medium"
     },
     {
-      "title": "Mami Dan Temple of Toligbé Cultural Center / Maison Bignon Sossou",
-      "url": "https://www.archdaily.com/1181253/mami-dan-temple-of-toligbe-cultural-center-maison-bignon-sossou",
-      "source": "ArchDaily",
-      "published": "2026-07-26T17:00:00+00:00",
-      "summary": "Maison Bignon Sossou integrated architecture as a vessel for preserving and transmitting living African heritage through the Mami Dan Temple of Toligbé. The design honours traditional ceremonial elements while providing a functional cultural centre that accommodates present‑day community needs. The project exemplifies how contemporary architecture can serve as a living archive for cultural practice.",
+      "title": "6 Sustainable Home Furnishings for Healthy Living",
+      "url": "https://design-milk.com/sustainable-home-furnishings-healthy-living/",
+      "source": "Design Milk",
+      "published": "2026-08-01T13:00:22+00:00",
+      "summary": "Design Milk showcases six eco‑conscious home furnishings, ranging from solar‑powered outdoor lighting to 3D‑printed items. Each product blends sustainability with contemporary style. The collection demonstrates that green design can remain chic.",
       "keywords": [
-        "African heritage",
-        "cultural centre",
-        "Mami Dan Temple",
-        " heritage preservation",
-        "Maison Bignon"
-      ],
-      "category": "Other",
-      "importance": "Medium"
-    },
-    {
-      "title": "Mimado Restaurant / García de Alba +raiser Arquitectos",
-      "url": "https://www.archdaily.com/1181627/mimado-restaurant-garcia-de-alba-plus-ponce-arquitectos",
-      "source": "ArchDaily",
-      "published": "2026-07-26T16:00:00+00:00",
-      "summary": "Mimado Restaurant annotations a double‑height commercial space into a warm, layered ambience highlighted by Art‑Deco references and extensive greenery. The interior design juxtaposes textured materials such as green येथे tile, white oak, and fluted glass to create a distinct yet cohesive dining experience. The project illustrates how curated material palettes can transform a vibrant space with botanical elements into a memorable customer journey.",
-      "keywords": [
-        "restaurant design",
-        "Art Deco",
-        "green tile",
-        "fluted glass",
-        "García de Alba"
-      ],
-      "category": "Other",
-      "importance": "Medium"
-    },
-    {
-      "title": "CTA shelters annexe in Vietnam beneath curved roof to \"evoke the sensation of being Erinnerung in a cave\"",
-      "url": "https://www.dezeen.com/2026/07/27/cta-casa-mac-annexe-vietnam/",
-      "source": "Dezeen",
-      "published": "2026-07-27T10:45:22+00:00",
-      "summary": "CTA studio designed a large, open living annexe beneath a sweeping curved roof for a client’s home in Phu My near Ho Chi Minh City. The design employs scale‑shaped shingles and a circular roof opening to create a sense of being within a cave while maintaining natural ventilation. The project demonstrates how subtle Routed forms can produce a distinctive spatial experience in contemporary residential architecture.",
-      "keywords": [
-        "temporary pavilion",
-        "Curved roof",
-        "Vietnam architecture",
-        "CTA studio",
-        "sustainable design"
-      ],
-      "category": "Other",
-      "importance": "Medium"
-    },
-    {
-      "title": "\"Human refrigerator\" provides escape from deadly heatwaves",
-      "url": "https://www.dezeen.com/2026/07/27/human-refrigerator-sdrs-trusco-nakayama/",
-      "source": "Dezeen",
-      "published": "2026-07-27T10:30:54+00:00",
-      "summary": "SDRS produced a human‑sized stainless‑steel fridge, the Do Hiemon Box, to protect individuals from extreme heat wave conditions. The box features vents that direct chilled air to provide a cooling vault for one person during scorching summer temperatures. The product represents a novel approach to personal thermal comfort amid evolving climate realities.",
-      "keywords": [
-        "personal cooling",
-        "heat wave solution",
-        "stainless steel",
-        "Do Hiemon Box",
-        "SDRS"
-      ],
-      "category": "Technology",
-      "importance": "Medium"
-    },
-    {
-      "title": "Manchester Digital Campus slated to become No 10 North",
-      "url": "https://www.dezeen.com/2026/07/27/no-10-north-manchester-digital-campus/",
-      "source": "Dezeen",
-      "published": "2026-07-27T10:15:53+00:00",
-      "summary": "AtkinsRéalis has designed a new digital campus in central Manchester that is projected to host the office of No 10 North, extending the ինatural reach of the UK’s political leadership. Built on brownfield land in a vibrant suburb, the facility aims to support digital infrastructure and innovation. The project aligns with Britain’s strategy to promote regional governance through technology‑focused physical spaces.",
-      "keywords": [
-        "Manchester Digital Campus",
-        "No11 North",
-        "AtkinsRéalis",
-        "digital infrastructure",
-        "brownfield redevelopment"
-      ],
-      "category": "Industrial Design",
-      "importance": "Medium"
-    },
-    {
-      "title": "RSHP unveils tripartite Shanghai skyscraper informed by historical laneways",
-      "url": "https://www.dezeen.com/2026/07/27/rshps-one-shanghai-tower/",
-      "source": "Dezeen",
-      "published": "2026-07-27T09:03:20+00:00",
-      "summary": "RSHP completed One Shanghai, a 186‑metre mixed‑use skyscraper inspired by Shanghai’s intricate laneway network. The triple‑segmented form reflects historical pathways, integrating contemporary function with the city’s legacy. The project underscores how contextual referencing can shape modern high‑rise designs in a global metropolis.",
-      "keywords": [
-        "Shanghai skyscraper",
-        "RSHP",
-        "laneway design",
-        "mixed‑use tower",
-        "urban context"
-      ],
-      "category": "Industrial Design",
-      "importance": "Medium"
-    },
-    {
-      "title": "FSB relaunches 1986 Dieter Rams door handle with \"effortless grip\"",
-      "url": "https://www.dezeen.com/2026/07/27/fsb-1138-door-handle-dieter-rams/",
-      "source": "Dezeen",
-      "published": "2026-07-27T05:00:13+00:00",
-      "summary": "Franz Schneider Brakel revived Dieter Rams’ 1986 FSB 1138 door handle, replacing its original plastic parts with an all‑metal construction for enhanced durability. The new design maintains the iconic minimalist line whilst improving user ergonomics and longevity. This update exemplifies the endurance of classic industrial design principles in contemporary product iterations.",
-      "keywords": [
-        "Fritz Rams",
-        "door handle",
-        "metal redesign",
-        "FSB 1138",
-        "industrial heritage"
-      ],
-      "category": "Industrial Design",
-      "importance": "Medium"
-    },
-    {
-      "title": "Sander seating island encourages reclining from all angles",
-      "url": "https://www.dezeen.com/2026/07/27/sander-seating-island-central-backrest/",
-      "source": "Dezeen",
-      "published": "2026-07-27T04:00:32+00:00",
-      "summary": "Objekte Unserer Tage launched the Sander seating island, a versatile furniture piece that follows in the company’s sculptural marshmallow‑sofa tradition. The island’s central backrest offerstoggle support from both sides, allowing users to recline from any direction. The design reinforces the brand’s focus on ergonomic adaptability within a playful aesthetic.",
-      "keywords": [
-        "Sander seating island",
-        "möbel",
-        "Ergonomics",
-        "Reclining",
-        "Objekte Unserer Tage"
-      ],
-      "category": "Furniture",
-      "importance": "Medium"
-    },
-    {
-      "title": "Public Art Company tels studio gives its own office a \"muppets on acid\" interior",
-      "url": "https://www.dezeen.com/2026/07/26/public-art-company-studio-los-angeles/",
-      "source": "Dezeen",
-      "published": "2026-07-26T16:00:27+00:00",
-      "summary": "Public Art Company’s LA studio design incorporates a curtain system that partitions areas for clustered collectibles, providing a colorful, playful environment for its team. The office’s interior embraces improvisational art elements akin to a psychedelic puppet show. The project highlights how creative agencies can reflect their identity through vibrant studio spaces.",
-      "keywords": [
-        "office interior",
-        "curtain partition",
-        "public art company",
-        "LA studio",
-        "creative workspace"
-      ],
-      "category": "Other",
-      "importance": "Medium"
-    },
-    {
-      "title": "LEGO’s Star Trek Turns 60 Into 1,701 Pieces of Pure Nostalgia",
-      "url": "https://www.yankodesign.com/2026/07/27/legos-star-trek-turns-60-into-1701-pieces-of-pure-nostalgia/?utm_source=rss&utm_medium=rss&utm_campaign=legos-star-trek-turns-60-into-1701-pieces-of-pure-nostalgia",
-      "source": "Yanko Design",
-      "published": "2026-07-27T13:20:58+00:00",
-      "summary": "LEGO released the Star Trek set commemorating the franchise’s six‑decade legacy, offering over 1,700 pieces to recreate iconic moments from The Next Generation. The set is a nostalgic homage to fans, blending detailed miniature modeling with the play value flagship brand is known for. The launch demonstrates LEGO’s continued capacity for cultural preservation through modular design.",
-      "keywords": [
-        "LEGO Star Trek",
-        "Nostalgia",
-        "1,701 pieces",
-        "The Next Generation",
-        "product release"
-      ],
-      "category": " حملص",
-      "importance": "Medium"
-    },
-    {
-      "title": "The 5 Best Tiny Homes of July 2026",
-      "url": "https://www.yankodesign.com/2026/07/27/the-5-best-tiny-homes-of-july-2026/?utm_source=rss&utm_medium=rss&utm_campaign=the-5-best-tiny-homes-of-july-2026",
-      "source": "Yanko Design",
-      "published": "2026-07-27T11:40:46+00:00",
-      "summary": "The July 2026 roundup presents five compact yet well‑engineered tiny homes that prioritize efficient use of space and sustainable construction. Each design addresses common challenges raft: reducing footprint while maintaining livability through innovative layouts. The article highlights how tiny houses can be both affordable and environmentally conscious.",
-      "keywords": [
-        "tiny homes",
-        "sustainable living",
-        "efficient design",
-        "July 2026",
-        "compact living"
-      ],
-      "category": "Other",
-      "importance": "Medium"
-    },
-    {
-      "title": "Pocketbyte: The Modular Open Source PDA Nobody Knew They Still Wanted",
-      "url": "https://www.yankodesign.com/2026/07/27/pocketbyte-the-modular-open-source-pda-nobody-knew-they-still-wanted/?utm_source=rss&utm_medium=rss&utm_campaign=pocketbyte-the-modular-open-source-pda-nobody-knew-they-still-wanted",
-      "source": "Yanko Design",
-      "published": "2026-07-27T10:07:36+00:00",
-      "summary": "Pocketbyte emerges as an open‑source modular PDA, reviving_forepast interest in physical electronics while embracing contemporary open‑source culture. The device reverses smartphone dominance by offering modular upgrade paths and tangible tactile controls to users seeking a more functional, design‑focused device. This project showcases a niche yet meaningful answer to the decline of standalone PDAs.",
-      "keywords": [
-        "open-source PDA",
-        "modular electronics",
-        "Pocketbyte",
-        "handheld device",
-        "retro tech"
-      ],
-      "category": "Technology",
-      "importance": "Medium"
-    },
-    {
-      "title": "The €169 Portable Mechanical Keyboard That Makes the Mouse Unnecessary",
-      "url": "https://www.yankodesign.com/2026/07/27/the-e169-portable-mechanical-keyboard-that-makes-the-mouse-unnecessary/?utm_source=rss&utm_medium=rss&utm_campaign=the-e169-portable-mechanical-keyboard-that-makes-the-mouse-unnecessary",
-      "source": "Yanko Design",
-      "published": "2026-07-27T08:45:42+00:00",
-      "summary": "This affordable portable mechanical keyboard provides a full‑size experience on a compact chassis, integrating a mouse function via a robotic arm for a fluid point‑and‑click workflow. Its mechanical keys deliver satisfying tactile feedback while the built‑in mouse reduces the need for a separate peripheral, ideal for mobile users. The design illustrates a clever convergence of keyboard and mouse technologies within a singlestipble.",
-      "keywords": [
-        "portable keyboard",
-        "mechanical, keys",
-        "mouse integration",
-        "hands‑free computing",
-        "euro 169"
-      ],
-      "category": "Technology",
-      "importance": "Medium"
-    },
-    {
-      "title": "The $55 Hub That Charges Your iPhone, Gives Your MacBook Ports, and Powers a 4K Display Together",
-      "url": "https://www.yankodesign.com/2026/07/26/the-55-hub-that-charges-your-iphone-gives-your-macbook-ports-and-powers-a-4k-display-together/?utm_source=rss&utm_medium=rss&utm_campaign=the-55-hub-that-charges-your-iphone-gives-your-macbook-ports-and-powers-a-4k-display-together",
-      "source": "Yanko Design",
-      "published": "2026-07-27T01:45:54+00:00",
-      "summary": "This low‑cost hub combines charging and connectivity, offering iPhone and MacBook support alongside a 4K display output within a single unit. Its compact design enables versatile use for mobile workflows and home entertainment setups. The product emphasizes affordability and all‑in‑one functionality for power users.",
-      "keywords": [
-        "USB‑C hub",
-        "4K monitor",
-        "charging hub",
-        "Apple accessories",
-        "55 dollars"
-      ],
-      "category": "Technology",
-      "importance": "Medium"
-    },
-    {
-      "title": "5 Tiny Homes and Fold-Out Cabins Built to Move Wherever You Go",
-      "url": "https://www.yankodesign.com/2026/07/26/5-tiny-homes-and-fold-out-cabins-built-to-move-wherever-you-go/?utm_source=rss&utm_medium=rss&utm_campaign=5-tiny-homes-and-fold-out-cabins-built-to-move-wherever-you-go",
-      "source": "Yanko Design",
-      "published": "2026-07-26T23:30:05+00:00",
-      "summary": "This feature spotlights five adaptive tiny homes and fold‑out cabins designed for mobility and instant deployment. Each structure employs modular construction techniques that allow it to be transported or stored in limited space, offering residents a flexible living solution. The article showcases how portable architecture can reinterpret the concept of home ownership.",
-      "keywords": [
-        "portable living",
-        "fold‑out cabin",
-        "tiny home",
-        "modular construction",
-        "mobility"
-      ],
-      "category": "Other",
-      "importance": "Medium"
-    },
-    {
-      "title": "Field Notes Just Made Notebooks That Look Good Enough to Eat",
-      "url": "https://www.yankodesign.com/2026/07/26/field-notes-just-made-notebooks-that-look-good-enough-to-eat/?utm_source=rss&utm_medium=rss&utm_campaign=field-notes-just-made-notebooks-that-look-good-enough-to-eat",
-      "source": "Yanko Design",
-      "published": "2026-07-26T22:30:14+00:00",
-      "summary": "Field Notes’ latest release focuses on edible‑looking notebooks that blend food‑friendly design with practical notebook usage. The pages feature texture and motifs that mimic edible surfaces, challenging conventional notebook aesthetics. This playful iteration illustrates how packaging design can incorporate sensory elements beyond functionality.",
-      "keywords": [
-        "field notes",
-        "edible notebooks",
-        "designer packaging",
-        "sensory design",
-        " বিলক্ষণ"
-      ],
-      "category": "Other",
-      "importance": "Medium"
-    },
-    {
-      "title": "This 2,200‑Piece LEGO Moth Kit Is Basically Taxidermy Without the Guilt",
-      "url": "https://www.yankodesign.com/2026/07/26/this-2200-piece-lego-moth-kit-is-basically-taxidermy-without-the-guilt/?utm_source=rss&utm_medium=rss&utm_campaign=this-2200-piece-lego-moth-kit-is-basically-taxidermy-without-the-guilt",
-      "source": "Yanko Design",
-      "published": "2026-07-26T20:45:38+00:00",
-      "summary": "The new LEGO moth kit boasts 2,200 pieces, reconstructing a delicate butterfly within a plastic frame, mimicking calendars or miniature wearables. The kit invites builders to appreciate intricate natural patterns while avoiding animal exploitation. Culturing a collectibles culture, the product demonstrates how LEGO subcommunities can exist outside mainstream themes.",
-      "keywords": [
-        "LEGO moth kit",
-        "collectible set",
-        "2,200 pieces",
-        "manufacturing",
-        "biology"
-      ],
-      "category": "Other",
-      "importance": "Medium"
-    },
-    {
-      "title": "This PlayStation Controller Sofa Was Built for Co‑Op Gaming Marathons",
-      "url": "https://www.yankodesign.com/2026/07/26/this-playstation-controller-sofa-was-built-for-co-op-gaming-marathons/?utm_source=rss&utm_medium=rss&utm_campaign=this-playstation-controller-sofa-was-built-for-co-op-gaming-marathons",
-      "source": "Yanko Design",
-      "published": "2026-07-26T19:15:14+00:00",
-      "summary": "The PlayStation controller sofa transforms a sofa into a gaming station by embedding controller sockets and padded seating for comfortable gameplay. It features integrated charging points and ergonomic cushioning for long‑term co‑op sessions. The product illustrates a blending of furniture and interactive entertainment to support gaming communities.",
-      "keywords": [
-        "gaming sofa",
-        "co‑op design",
-        "controller integration",
-        "PlayStation",
-        "interactive furniture"
-      ],
-      "category": "Furniture",
-      "importance": "Medium"
-    },
-    {
-      "title": "OHLAB Just Built a Home That Runs on Mallorca’s Sun",
-      "url": "https://www.yankodesign.com/2026/07/26/ohlab-just-built-a-home-that-runs-on-mallorcas-sun/?utm_source=rss&utm_medium=rss&utm_campaign=ohlab-just-built-a-home-that-runs-on-mallorcas-sun",
-      "source": "Yanko Design",
-      "published": "2026-07-26T15:20:29+00:00",
-      "summary": "OHLAB’s Casa Óculo,tsx designed a circular roof opening to harvest sunlight for the building’s photovoltaic system, converting solar energy into household electricity. The home incorporates a minimalist façade that harmonizes with the Mallorca landscape while prioritizing energy autonomy. The project underscores how architecture can leverage sunlight as a primary power source, creating fully renewable dwellings.",
-      "keywords": [
-        "Casa Óculo",
-        "solar housing",
-        "Mallorca",
-        "OHLAB",
-        "photovoltaic roof"
+        "sustainable",
+        "home furnishings",
+        "solar",
+        "3D printing",
+        "eco‑friendly"
       ],
       "category": "Sustainability",
       "importance": "Medium"
     },
     {
-      "title": "Flatbike's Accessories Let You Fold Your Bike Flat for Storage",
-      "url": "https://www.core77.com/posts/144867/Flatbikes-Accessories-Let-You-Fold-Your-Bike-Flat-for-Storage",
-      "source": "Core77",
-      "published": "2026-07-27T13:00:00+00:00",
-      "summary": "Flatbike introduced the THINstem product, a stem that allows traditional bicycle handlebars and pedals to lie flat for convenient vehicle and storage transport. By reconfiguring geometry, the stem maintains standard riding dynamics while enabling easy stowage. This innovation demonstrates how bike Loe permitting solutions can redirect cycling toward urban commuters’ needs.",
+      "title": "This Damascus Steel compact EDC knife packs two sliders into a 0.6-inch body",
+      "url": "https://www.yankodesign.com/2026/08/01/this-damascus-steel-compact-edc-knife-packs-two-sliders-into-a-0-6-inch-body/?utm_source=rss&utm_medium=rss&utm_campaign=this-damascus-steel-compact-edc-knife-packs-two-sliders-into-a-0-6-inch-body",
+      "source": "Yanko Design",
+      "published": "2026-08-02T01:45:17+00:00",
+      "summary": "A Damascus steel compact EDC knife packs two sliders into a 0.6‑inch body, a rare feat for pocket tools. The design combines sleek aesthetics with functional versatility. It showcases advanced blade engineering in a miniature form.",
       "keywords": [
-        "btbike accessories",
-        "folding handlebars",
-        "urban cycling",
-        "THIS system",
-        "storage solution"
+        "EDC",
+        "Damascus steel",
+        "knife",
+        "sliders",
+        "pocket tool"
+      ],
+      "category": "Industrial Design",
+      "importance": "Medium"
+    },
+    {
+      "title": "This Iron Frying Plate Sears Food on Bare Steel & Goes Straight From the Stove to Your Table",
+      "url": "https://www.yankodesign.com/2026/08/01/this-iron-frying-plate-sears-food-on-bare-steel-goes-straight-from-the-stove-to-your-table/?utm_source=rss&utm_medium=rss&utm_campaign=this-iron-frying-plate-sears-food-on-bare-steel-goes-straight-from-the-stove-to-your-table",
+      "source": "Yanko Design",
+      "published": "2026-08-01T23:30:23+00:00",
+      "summary": "The Iron Frying Plate is a bare‑steel cookware that eliminates the transfer step by cooking and serving directly from the stove. Its design focuses on meal preparation efficiency and durability. The product blurs the line between cooking and plating.",
+      "keywords": [
+        "cookware",
+        "iron",
+        "bare steel",
+        "cooking",
+        "design"
+      ],
+      "category": "Other",
+      "importance": "Medium"
+    },
+    {
+      "title": "Replace 100 Tutorial Videos With This One Smart Keyboard",
+      "url": "https://www.yankodesign.com/2026/08/01/replace-100-tutorial-videos-with-this-one-smart-keyboard/?utm_source=rss&utm_medium=rss&utm_campaign=replace-100-tutorial-videos-with-this-one-smart-keyboard",
+      "source": "Yanko Design",
+      "published": "2026-08-01T22:30:05+00:00",
+      "summary": "A smart keyboard replaces hundreds of tutorial videos by providing instant, context‑aware guidance for creative software. The device integrates AI to adapt to user skill levels and software updates. It aims to streamline learning for Photoshop, Illustrator, and more.",
+      "keywords": [
+        "keyboard",
+        "AI",
+        "learning",
+        "creative software",
+        "productivity"
       ],
       "category": "Technology",
       "importance": "Medium"
     },
     {
-      "title": "the fun palace: cedric price’s 1960s visionary project that (kind of) never came to be",
-      "url": "https://www.designboom.com/architecture/fun-palace-cedric-price-visionary-project-laboratory-never-came-to-be/",
-      "source": "Designboom",
-      "published": "2026-07-27T10:50:07+00:00",
-      "summary": "conceived as a constantly evolving space for performance, learning and collective experimentation, cedric price’s radical vision challenged conventional ideas of what architecture could be — despite never being built. The post the fun palace: cedric price’s 1960s visionary project that (kind of) never came to be appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "Other",
-      "importance": "Low"
+      "title": "A Chess Set So Well-Designed It Doubles as Desk Art",
+      "url": "https://www.yankodesign.com/2026/08/01/a-chess-set-so-well-designed-it-doubles-as-desk-art/?utm_source=rss&utm_medium=rss&utm_campaign=a-chess-set-so-well-designed-it-doubles-as-desk-art",
+      "source": "Yanko Design",
+      "published": "2026-08-01T20:45:07+00:00",
+      "summary": "A newly designed chess set doubles as desk art, merging classic gameplay with contemporary aesthetics. The set features minimalist pieces that also serve as decorative elements. It offers a fresh take on a traditional board game.",
+      "keywords": [
+        "chess",
+        "desk art",
+        "design",
+        "minimalist",
+        "board game"
+      ],
+      "category": "Product Design",
+      "importance": "Medium"
     },
     {
-      "title": "the stillness of sri lankan temples translates into handcrafted ceramic lighting",
-      "url": "https://www.designboom.com/design/sri-lankan-temples-handcrafted-ceramic-lighting-bouti-studio/",
-      "source": "Designboom",
-      "published": "2026-07-27T10:25:00+00:00",
-      "summary": "integrated openings reveal the lighting objects’ carefully considered details. The post the stillness of sri lankan temples translates into handcrafted ceramic lighting appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "Other",
-      "importance": "Low"
+      "title": "Smart Glasses Run Hot. A 1mm Fan Might Finally Fix That.",
+      "url": "https://www.yankodesign.com/2026/08/01/smart-glasses-run-hot-a-1mm-fan-might-finally-fix-that/?utm_source=rss&utm_medium=rss&utm_campaign=smart-glasses-run-hot-a-1mm-fan-might-finally-fix-that",
+      "source": "Yanko Design",
+      "published": "2026-08-01T19:15:54+00:00",
+      "summary": "Smart glasses often overheat, and a 1‑mm fan could mitigate the issue. The proposed fan integrates into the glasses frame to cool the lenses and electronics. The solution addresses a practical design flaw in wearable tech.",
+      "keywords": [
+        "smart glasses",
+        "cooling",
+        "fan",
+        "wearable tech",
+        "overheating"
+      ],
+      "category": "Technology",
+      "importance": "Medium"
     },
     {
-      "title": "chip motors’ tiny electric LUV can drive itself home — with a little human help",
-      "url": "https://www.designboom.com/technology/chip-motors-tiny-electric-luv-drive-microcar-remote-driving/",
-      "source": "Designboom",
-      "published": "2026-07-27T10:18:07+00:00",
-      "summary": "built for school runs and beach days, the cheerful microcar leaves highways and parking stress to larger machines. The post chip motors’ tiny electric LUV can drive itself home — with a little human help appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "Other",
-      "importance": "Low"
+      "title": "Artefilo Makes Home Objects From Elephant Grass and Hospital Cabinets",
+      "url": "https://www.yankodesign.com/2026/08/01/artefilo-makes-home-objects-from-elephant-grass-and-hospital-cabinets/?utm_source=rss&utm_medium=rss&utm_campaign=artefilo-makes-home-objects-from-elephant-grass-and-hospital-cabinets",
+      "source": "Yanko Design",
+      "published": "2026-08-01T17:20:10+00:00",
+      "summary": "Artefilo transforms elephant grass and repurposed hospital cabinets into home objects, promoting circular design. The collection showcases how discarded materials can become stylish, functional items. It challenges the credibility gap in eco‑conscious marketing.",
+      "keywords": [
+        "Artefilo",
+        "elephant grass",
+        "circular design",
+        "upcycling",
+        "sustainability"
+      ],
+      "category": "Sustainability",
+      "importance": "Medium"
     },
     {
-      "title": "beyond the blueprint: breaking rigid structures to embrace fluid spatial evolution",
-      "url": "https://www.designboom.com/architecture/fluid-spatial-evolution-room-for-dreams-podcast/",
-      "source": "Designboom",
-      "published": "2026-07-27T10:00:32+00:00",
-      "summary": "tune in to episode 10 of the room for dreams podcast to hear why the best spaces are intentionally left open to interpretation. The post beyond the blueprint: breaking rigid structures to embrace fluid spatial evolution appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
+      "title": "A Natural History Museum That Actually Looks Like Nature",
+      "url": "https://www.yankodesign.com/2026/08/01/a-natural-history-museum-that-actually-looks-like-nature/?utm_source=rss&utm_medium=rss&utm_campaign=a-natural-history-museum-that-actually-looks-like-nature",
+      "source": "Yanko Design",
+      "published": "2026-08-01T15:20:17+00:00",
+      "summary": "A new natural history museum is designed to resemble the natural environment it houses. The building’s architecture mimics organic forms, creating an immersive experience. It redefines the traditional museum aesthetic.",
+      "keywords": [
+        "museum",
+        "natural history",
+        "organic architecture",
+        "immersive",
+        "design"
+      ],
       "category": "Other",
-      "importance": "Low"
+      "importance": "Medium"
     },
     {
-      "title": "sculptural exhibition design traces a glowing path through antiquity in poland",
-      "url": "https://www.designboom.com/art/sculptural-exhibition-design-antiquity-poland-krakow/",
-      "source": "Designboom",
-      "published": "2026-07-26T20:44:05+00:00",
-      "summary": "an exhibition in wawel royal castle in krakow frames antiquity through light, color, and texture The post sculptural exhibition design traces a glowing path through antiquity in poland appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "Other",
-      "importance": "Low"
+      "title": "The Fridge Screen Your Family Can Update From Anywhere Without Texting",
+      "url": "https://www.yankodesign.com/2026/08/01/the-fridge-screen-your-family-can-update-from-anywhere-without-texting/?utm_source=rss&utm_medium=rss&utm_campaign=the-fridge-screen-your-family-can-update-from-anywhere-without-texting",
+      "source": "Yanko Design",
+      "published": "2026-08-01T13:20:42+00:00",
+      "summary": "The Fridge Screen is a digital notice board that can be updated remotely without texting. It replaces paper notes with a touch‑screen interface on the refrigerator. The design improves household communication and organization.",
+      "keywords": [
+        "fridge",
+        "digital notice board",
+        "remote update",
+        "household",
+        "design"
+      ],
+      "category": "Technology",
+      "importance": "Medium"
     },
     {
-      "title": "artist-designed ping-pong tables make everyone a beginner at rockaway beach",
-      "url": "https://www.designboom.com/art/artist-designed-ping-pong-tables-rockaway-beach-new-york-between-tides/",
-      "source": "Designboom",
-      "published": "2026-07-26T17:05:04+00:00",
-      "summary": "six ping-pong tables rise from the sand at new york's rockaway beach, though each one interferes with the game it appears ready to host. The post artist-designed ping-pong tables make everyone a beginner at rockaway beach appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "Other",
-      "importance": "Low"
+      "title": "The 7 Best Desk Gadgets & Tools of July 2026 for College Students",
+      "url": "https://www.yankodesign.com/2026/08/01/the-7-best-desk-gadgets-tools-of-july-2026-for-college-students/?utm_source=rss&utm_medium=rss&utm_campaign=the-7-best-desk-gadgets-tools-of-july-2026-for-college-students",
+      "source": "Yanko Design",
+      "published": "2026-08-01T11:40:43+00:00",
+      "summary": "A roundup of the best desk gadgets for college students highlights tools that boost productivity and comfort. The list includes ergonomic accessories, smart organizers, and tech gadgets. It serves as a guide for dorm‑room setups.",
+      "keywords": [
+        "desk gadgets",
+        "college students",
+        "productivity",
+        "ergonomic",
+        "tech"
+      ],
+      "category": "Consumer Electronics",
+      "importance": "Medium"
     },
     {
-      "title": "forget the mouse: augmental’s mouthpad lets the tongue control the cursor",
-      "url": "https://www.designboom.com/technology/mouse-augmental-mouthpad-tongue-control/",
-      "source": "Designboom",
-      "published": "2026-07-26T16:00:45+00:00",
-      "summary": "the public launch arrives alongside vox, a wearable microphone designed as its voice-powered keyboard The post forget the mouse: augmental’s mouthpad lets the tongue control the cursor appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
+      "title": "EA House / Bokey Grant",
+      "url": "https://www.archdaily.com/1182004/ea-house-bokey-grant",
+      "source": "ArchDaily",
+      "published": "2026-08-01T21:00:00+00:00",
+      "summary": "EA House is a family home built onto a cliff face in the southern highlands, using a simple elemental gesture to respond to the site. The design addresses environmental constraints while creating an intimate living space. It exemplifies experimental architecture on a challenging terrain.",
+      "keywords": [
+        "EA House",
+        "cliff",
+        "experimental architecture",
+        "site‑responsive",
+        "highlands"
+      ],
       "category": "Other",
-      "importance": "Low"
+      "importance": "Medium"
+    },
+    {
+      "title": "Cafe N+ / Horibe Associates",
+      "url": "https://www.archdaily.com/1181882/cafe-n-plus-horibe-associates",
+      "source": "ArchDaily",
+      "published": "2026-08-01T17:00:00+00:00",
+      "summary": "Cafe N+ connects a historic shrine with a new performing arts theater, creating a vibrant hub in Takatsuki City. The design harmonizes with the landscape while maintaining a distinct identity. It serves as a cultural bridge between tradition and modernity.",
+      "keywords": [
+        "Cafe N+",
+        "architecture",
+        "shrine",
+        "performing arts",
+        "Takatsuki"
+      ],
+      "category": "Other",
+      "importance": "Medium"
+    },
+    {
+      "title": "Looking South House / PLUG arquitectura modular",
+      "url": "https://www.archdaily.com/1182021/looking-south-house-plug-arquitectura-modular",
+      "source": "ArchDaily",
+      "published": "2026-08-01T16:00:00+00:00",
+      "summary": "Looking South House is a modular house in Chapadmalal, blending rural and coastal influences. The design uses modular construction to adapt to the local climate and culture. It showcases how architecture can respond to regional context.",
+      "keywords": [
+        "Looking South House",
+        "modular",
+        "Chapadmalal",
+        "coastal",
+        "architecture"
+      ],
+      "category": "Other",
+      "importance": "Medium"
+    },
+    {
+      "title": "Riera Renovation / LABLANCA",
+      "url": "https://www.archdaily.com/1148798/riera",
+      "source": "ArchDaily",
+      "published": "2026-08-01T11:00:00+00:00",
+      "summary": "Riera Renovation updates a flat in a 1960s building, creating a courtyard‑based layout within a narrow plot. The design reconfigures space to maximize light and openness. It demonstrates adaptive reuse of historic interiors.",
+      "keywords": [
+        "Riera",
+        "renovation",
+        "courtyard",
+        "adaptive reuse",
+        "1960s building"
+      ],
+      "category": "Other",
+      "importance": "Medium"
+    },
+    {
+      "title": "What a children’s toy can teach us about considered design - DesignWanted",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5sYUhkeVR3MlFkM0FEZzU3RmNmRnhDOGdpeDdubmR3OEE3R3Z3cm53N2tGYjlyOE1YMTRBQS1xc2pKMnRPa1hvd3pTb3FIQ1VzS1dXSnRMamZTZU1lb1lzcnlPbjZfUnh6SUt4aVJkNF9JOVlSbEE?oc=5",
+      "source": "Google News: industrial design",
+      "published": "2026-08-02T06:53:41+00:00",
+      "summary": "A children's toy offers lessons in considered design, emphasizing safety, usability, and play value. The article explores how toy design can inform broader product development. It highlights the importance of thoughtful design from an early age.",
+      "keywords": [
+        "children's toy",
+        "design",
+        "safety",
+        "usability",
+        "play"
+      ],
+      "category": "Industrial Design",
+      "importance": "Medium"
+    },
+    {
+      "title": "BGF Retail Wins Red Dot Design Award - Seoul Economic Daily",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTDhUNHdlWmJvX3g4Z1QzYWFELW9XeHhVTHVmZHNPMWJvSFp1UDdsdko5TTJYQzRSOVliLXZvRWxfTkh0cldTWjRsN25YYWJkRFZTcGhHakVlZWZoT0tJNlI3ZnAyTjZIbUJaU2pKRmpmMlNieU1pc0dzcUljUmh1d0xZTlU?oc=5",
+      "source": "Google News: product design award",
+      "published": "2026-08-02T01:14:25+00:00",
+      "summary": "BGF Retail has been awarded the prestigious Red Dot Design Award for its retail solutions. The recognition highlights the company's commitment to innovative design and customer experience. The award underscores BGF Retail’s leadership in the retail sector.",
+      "keywords": [
+        "BGF Retail",
+        "Red Dot Award",
+        "retail design",
+        "innovation",
+        "recognition"
+      ],
+      "category": "Design Awards",
+      "importance": "High"
+    },
+    {
+      "title": "designboom shop drop: limited release of watches and architectural jewelry",
+      "url": "https://www.designboom.com/design/designboom-shop-drop-august-2026-limited-release-watches-architectural-jewelry/",
+      "source": "Designboom",
+      "published": "2026-08-02T07:45:26+00:00",
+      "summary": "designboom’s shop drop releases limited‑time watches and architectural jewelry, blending timekeeping with sculptural form. The collection showcases curated pieces that merge design and jewelry. It offers collectors a unique, limited‑edition experience.",
+      "keywords": [
+        "designboom",
+        "watches",
+        "jewelry",
+        "limited edition",
+        "design"
+      ],
+      "category": "Product Design",
+      "importance": "Medium"
+    },
+    {
+      "title": "san francisco’s exploratorium turns STEM learning into hands‑on play",
+      "url": "https://www.designboom.com/design/the-exploratorium-scientific-learning-stems-play/",
+      "source": "Designboom",
+      "published": "2026-08-01T20:35:45+00:00",
+      "summary": "San Francisco’s Exploratorium transforms STEM learning into interactive play through exhibits like geysers and DNA displays. The museum encourages hands‑on experimentation for all ages. It redefines educational engagement in a playful environment.",
+      "keywords": [
+        "Exploratorium",
+        "STEM",
+        "interactive",
+        "museum",
+        "education"
+      ],
+      "category": "Other",
+      "importance": "Medium"
+    },
+    {
+      "title": "ippolito pestellini laparelli and erica petrillo of 2050+ on ‘the parking lot that forgot itself’",
+      "url": "https://www.designboom.com/architecture/ippolito-pestellini-laparelli-erica-petrillo-2050-parking-lot-essay/",
+      "source": "Designboom",
+      "published": "2026-08-01T14:15:35+00:00",
+      "summary": "2050+ discusses how informal sport and architecture can challenge surveillance and reclaim public space. The essay examines public space as an urban commons. It explores how design can strengthen community engagement.",
+      "keywords": [
+        "public space",
+        "surveillance",
+        "urban commons",
+        "architecture",
+        "2050+"
+      ],
+      "category": "Other",
+      "importance": "Medium"
     },
     {
       "title": "To the Red Dot Newsroom",
       "url": "https://www.mynewsdesk.com/red-dot-design-award",
       "source": "Red Dot",
       "published": null,
-      "summary": "",
-      "keywords": [],
-      "category": "Other",
+      "summary": "The Red Dot Design Award’s newsroom provides updates on award winners and industry news. It serves as a communication hub for designers and media. The page offers insights into the award’s activities.",
+      "keywords": [
+        "Red Dot",
+        "newsroom",
+        "design awards",
+        "industry news",
+        "communication"
+      ],
+      "category": "Design Awards",
       "importance": "Low"
     },
     {
       "title": "General press information on the Red Dot Design Award",
-      "url": "https://www.red-dot.org/fileadmin/bilder/Presse_Archiv/2025_PI_About_Red_Dot_Design_Award.pdf",
+      "url": "https://www.red-dot.org/fileadmin/bilder/Presse_Archiv/2026_PI_About_Red_Dot_Design_Award.pdf",
       "source": "Red Dot",
       "published": null,
-      "summary": "",
-      "keywords": [],
+      "summary": "This page offers general press information about the Red Dot Design Award, including media contacts and guidelines. It serves as a resource for journalists covering the award. The content provides background on the award’s history and criteria.",
+      "keywords": [
+        "Red Dot",
+        "press",
+        "media",
+        "award",
+        "information"
+      ],
       "category": "Design Awards",
-      "importance": "Medium"
-    },
-    {
-      "title": "How Yurie left a fashion design career to draw fashion-loving women in coloured pencil",
-      "url": "https://www.creativeboom.com/inspiration/how-yurie-left-a-fashion-design-career-to-draw-fashion-loving-women-in-coloured-pencil/",
-      "source": "Creative Boom",
-      "published": "2026-07-27T10:29:00+00:00",
-      "summary": "She studied fashion, designed accessories for a living, and enjoyed being an artist in whatever time was left over. When the drawing started making her happier than the job, she quit to embrace it...",
-      "keywords": [],
-      "category": "Other",
-      "importance": "Low"
-    },
-    {
-      "title": "How Nomad reimagined Stoiximan, the homegrown brand that became Greece's biggest name in betting",
-      "url": "https://www.creativeboom.com/news/how-nomad-reimagined-stoiximan-the-homegrown-brand-that-became-greeces-biggest-name-in-betting/",
-      "source": "Creative Boom",
-      "published": "2026-07-27T08:29:00+00:00",
-      "summary": "A bespoke wordmark with a win hidden inside, a graphic \"Portal\", and a custom Greek-and-Latin typeface, built with Leo Field and Studio Drama along the way.\n\nIf you happen to notice all the logos i...",
-      "keywords": [],
-      "category": "Other",
-      "importance": "Low"
-    },
-    {
-      "title": "Bloodstock 2026: inside Britain's biggest independent metal festival, and why it's more creative than you might think",
-      "url": "https://www.creativeboom.com/news/bloodstock-inside-the-uks-biggest-independent-metal-festival-and-why-its-more-creative-than-you-might-think/",
-      "source": "Creative Boom",
-      "published": "2026-07-27T06:04:00+00:00",
-      "summary": "Ahead of its 25th anniversary, the Derbyshire metal festival proves that this often-derided scene involves far more visual imagination than outsiders assume.\n\nMetal festivals have been part of my l...",
-      "keywords": [],
-      "category": "Other",
-      "importance": "Low"
-    },
-    {
-      "title": "3Shape's TRIOS MOVE Pro Scanner Cart Wins Red Dot 2026 Design Award - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTFItQjQ5MTN6Q05MSzlHVnBrVmhRRngyRG1iR2gtekRLWmtCeTBwQVZWdkVsRWE4VjNmXzJnRm1UclI1ZktYU2d3OUliajVIUWNCLWtuc1lKM0NhRVdZc3h2N01BeHhlcmFYYm1xR3NWbVBzdWhoOTQtNjExdjgzREZfMXkyS1dORm1NVlR6UUQ2SHpQckE?oc=5",
-      "source": "Google News: product design award",
-      "published": "2026-07-27T08:21:00+00:00",
-      "summary": "3Shape's TRIOS MOVE Pro Scanner Cart Wins Red Dot 2026 Design Award Yahoo Finance",
-      "keywords": [],
-      "category": "Design Awards",
-      "importance": "Medium"
-    },
-    {
-      "title": "A' Giftware Design Awards 2026 Call for Entries Announced - EIN News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYlhDZi0tTlRJUVNoYmtNelZZV1dIRzhfMTBLekw3bVpHdUxMWnBIaWdzOVZNcjE5UDdrQy1mLVNLbE5INkNKbGVySnhHYTBDWHlUcWxVMDRmX2tONWJoa1ROT0Jtam1QalA2UXphYm1jN2RyX1NTSFZhU19iRUlZcUVBcDFzcDJuczBwLW1hU0ctNTUtbjhuWXRKVTVSaDg?oc=5",
-      "source": "Google News: product design award",
-      "published": "2026-07-27T08:13:00+00:00",
-      "summary": "A' Giftware Design Awards 2026 Call for Entries Announced EIN News",
-      "keywords": [],
-      "category": "Design Awards",
-      "importance": "Medium"
-    },
-    {
-      "title": "VAUDE HONORED WITH PRESTIGIOUS 2026 SUSTAINABLE COLLECTION DESIGN AWARD - Snow Industry News",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWjRlcHNvbi1Ub0Z2UnI0SE8taUI0QTQzdXdrV2s5NE5rdWlEQ0NrVGswdWd0TERjZC1uakl2SzNEUDNfYi14WWxhT3JsUzN1NThydkRTUnBGTDZaNU9HeEdpTjhEZm1mTTBjdl9hNkFyWUhJQzhTa2RueWQ2eVE5R3c5MmdDT25IdTRoUzRuSzZ3Y0UwZlVGVWxJVVVnbjZ1ZlhteTdUN1RLN29HdzhwU2lpQ2ZhUUxFam9vVnZfaWp3TDlWV3Jz?oc=5",
-      "source": "Google News: product design award",
-      "published": "2026-07-27T02:08:54+00:00",
-      "summary": "VAUDE HONORED WITH PRESTIGIOUS 2026 SUSTAINABLE COLLECTION DESIGN AWARD Snow Industry News",
-      "keywords": [],
-      "category": "Design Awards",
-      "importance": "Medium"
-    },
-    {
-      "title": "A' Camping Gear and Outdoor Equipment Design Awards 2026 Call for Nominations Announced - EIN News",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMjdvM1dudmdwWW9icWlNUnQwVjdPSXZRZnhMcm1WZThvVEhmTU42eVpSdjNxSkdDb0VGeFhtWDRqMU1mQkdNNE1mUzhPb3NjNEkzamU1ako2b3doNUJZVzdleC0zREdoZVpMSmdfUU1ZOTBBM2lyeFpNVDlqaUlrUWZVVW1FbTN1N3ZidHViUFd2QV92Ym5oQWkwaDdNU3R4OEg1U0VocTVBUGRxQTlISU5tVXZJbm9rUno4dl9hamY4Q3ZmcHN3?oc=5",
-      "source": "Google News: product design award",
-      "published": "2026-07-27T07:43:00+00:00",
-      "summary": "A' Camping Gear and Outdoor Equipment Design Awards 2026 Call for Nominations Announced EIN News",
-      "keywords": [],
-      "category": "Design Awards",
-      "importance": "Medium"
-    },
-    {
-      "title": "A New Chapter in Global Design: Atcraft's DROP Wins the Red Dot Design Award 2026 - Deccan Herald",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZ0c1ejNrMFpUWnlJNGlMNVZsYU1RZnZWNnc2cGZnU3FiTzZXdGtPd1gtcm1hamtMLUxsU1B6TW9lZGd5RFFPZTA1TklEZURiQ1c2Z2pBdnM4OVVxR0xVVS1fYWhhQ3UxQVJ6c3JjYWtUSkVkQ1ZfbkhZU01xWlM3YVZBUzJKZnBHVjdsclBCVXJtSFpIU1hYbXoxY1NyZnEtV3duZHR4TjItR1VUQ0FmRjNqQWd2NHU4MlRMWl9BQ0thZw?oc=5",
-      "source": "Google News: product design award",
-      "published": "2026-07-27T08:56:49+00:00",
-      "summary": "A New Chapter in Global Design: Atcraft's DROP Wins the Red Dot Design Award 2026 Deccan Herald",
-      "keywords": [],
-      "category": "Design Awards",
-      "importance": "Medium"
-    },
-    {
-      "title": "How PLI schemes, design in India and manufacturing excellence are transforming the architectural lighting in.. - ET Manufacturing",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOdVNpWnhOeXY1TnRlZzJrVFRvNFBaYWxaMW5HbExVb1JfaXMtWUxPdkxSRG9wLXJ5SzdsUngtdkFCeU92eUVEVXlSS05sakhaMmUzSi02a2pYY2tBZ21ZdE8yUjBBdXFlYW1KcDNKQ215S0w2SE5mdDBNUjdYaUQtQjJFbTFMSEs3LVBPdjRpU0dhQllobHNPdVpDMHhkTTc0Sk82dmhyamtkVzNndlR2STVyWGFwb19CMldEUjZsUHFnUWx1V3J3VE9RbHdldERiNkl6VDM4MjB4SS1nRklyZUdCcmMyZkVZU1FTSG9SY3lINkE2eXRsWDJTZGtXcHZsS1JIUEhQOWg3VnlqdGdyOWFNY3FVeVnSAZwCQVVfeXFMUC1KZEhlN01MWkNPa2lqSjhrQTJhWHBmU0tRS2RyVmdSSU9WdHJwT2xwbTl5aGJKWEFudGlVMGxPaHloY1NTaWdPeXJBdGRzalJTNW0tdjdISGxGOFlGMnFkVkVCbzBWZnR1Ny1oNGQzdnM1eTJxdkRRTDNuQ1FKajVKSTV2ODBDS1VJNVU0Qi1OdzFNMHc1dlU0NEtGMDRwQ0hMT05hX0hkN3Bta3M1VWhqRm9nR2Q2TVFFZEVvR0UtREE4a1JuU3d2YWdVWWdaV0dfT0lJMno5STlvNE83bXMzZVliaXplUi01cWpoMk9wV1pPNkNfVXd3aWVlWW4xbWlJZVZMTDkzTW0zNkNJcXVlNjhXemRaRmNTUGc?oc=5",
-      "source": "Google News: industrial design",
-      "published": "2026-07-27T11:08:22+00:00",
-      "summary": "How PLI schemes, design in India and manufacturing excellence are transforming the architectural lighting in.. ET Manufacturing",
-      "keywords": [],
-      "category": "Other",
       "importance": "Low"
     }
   ]
