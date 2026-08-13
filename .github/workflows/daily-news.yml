@@ -25,6 +25,8 @@ jobs:
       - name: Create required directories
         run: mkdir -p reports logs data
       - name: Run bot
+        id: runbot
+        continue-on-error: true
         env:
           ANTHROPIC_API_KEY:       ${{ secrets.ANTHROPIC_API_KEY }}
           OPENROUTER_API_KEY:      ${{ secrets.OPENROUTER_API_KEY }}
@@ -32,8 +34,22 @@ jobs:
           TELEGRAM_CHAT_ID:        ${{ secrets.TELEGRAM_CHAT_ID }}
           GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
           GOOGLE_SHEET_ID:         ${{ secrets.GOOGLE_SHEET_ID }}
-        run: cd src && python main.py
+        run: |
+          cd src
+          python main.py 2>&1 | tee ../run_output.txt
+          exit ${PIPESTATUS[0]}
+      - name: Save debug log on failure
+        if: always()
+        run: |
+          mkdir -p data
+          cp run_output.txt data/last_run_output.txt || echo "no output file"
+          git config user.name "bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/last_run_output.txt
+          git commit -m "chore: save last run log [skip ci]" || echo "nothing to commit"
+          git push
       - name: Commit cache to repo
+        if: steps.runbot.outcome == 'success'
         run: |
           git config user.name "bot"
           git config user.email "bot@users.noreply.github.com"
@@ -45,3 +61,6 @@ jobs:
           name: design-news-${{ github.run_id }}
           path: reports/
           retention-days: 30
+      - name: Fail job if bot run failed
+        if: steps.runbot.outcome == 'failure'
+        run: exit 1
