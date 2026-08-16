@@ -1,32 +1,45 @@
-2026-08-15 04:58:17,703 [INFO] main: === Design News Bot starting ===
-2026-08-15 04:58:17,703 [INFO] main: Step 1/6 — Collecting...
-2026-08-15 04:58:17,840 [INFO] collector: RSS Fast Company Design -> 0 recent articles
-2026-08-15 04:58:17,964 [ERROR] collector: Scrape error [IDSA]: 403 Client Error: Forbidden for url: https://www.idsa.org/news
-2026-08-15 04:58:18,254 [INFO] collector: RSS ArchDaily -> 16 recent articles
-2026-08-15 04:58:18,318 [INFO] collector: RSS Dezeen -> 8 recent articles
-2026-08-15 04:58:18,381 [INFO] collector: RSS Yanko Design -> 10 recent articles
-2026-08-15 04:58:18,417 [INFO] collector: RSS Design Milk -> 2 recent articles
-2026-08-15 04:58:18,433 [INFO] collector: Scraped Red Dot -> 2 recent articles
-2026-08-15 04:58:18,572 [INFO] collector: RSS Google News: industrial design -> 6 recent articles
-2026-08-15 04:58:18,639 [INFO] collector: RSS Google News: product design award -> 1 recent articles
-2026-08-15 04:58:18,829 [INFO] collector: RSS Core77 -> 3 recent articles
-2026-08-15 04:58:18,922 [INFO] collector: RSS Creative Boom -> 1 recent articles
-2026-08-15 04:58:18,929 [INFO] collector: RSS Designboom -> 9 recent articles
-2026-08-15 04:58:18,995 [INFO] collector: RSS Google News: design competition 2025 -> 0 recent articles
-2026-08-15 04:58:19,451 [ERROR] collector: Scrape error [iF Design]: 404 Client Error: The requested content does not exist. for url: https://ifdesign.com/en/news
-2026-08-15 04:58:21,629 [INFO] collector: Scraped WDO -> 0 recent articles
-2026-08-15 04:58:21,632 [INFO] collector: Total collected (before dedup): 58
-2026-08-15 04:58:21,632 [INFO] main: Step 2/6 — Deduplicating...
-2026-08-15 04:58:21,635 [INFO] dedup: Dedup: removed 3 duplicates, kept 55
-2026-08-15 04:58:21,635 [INFO] main: 55 unique articles
-2026-08-15 04:58:21,635 [INFO] main: Step 3/6 — Enriching (fa)...
-2026-08-15 05:01:15,312 [WARNING] summarizer: OpenRouter batch 0 attempt 1 failed: Expecting ',' delimiter: line 1 column 329 (char 328)
-2026-08-15 05:07:04,110 [WARNING] summarizer: OpenRouter batch 0 attempt 2 failed: 'NoneType' object has no attribute 'strip'
-2026-08-15 05:13:26,782 [WARNING] summarizer: OpenRouter batch 0 attempt 3 failed: Expecting ',' delimiter: line 1 column 329 (char 328)
-2026-08-15 05:13:46,987 [WARNING] summarizer: OpenRouter batch 1 attempt 1 failed: rate_limited
-2026-08-15 05:17:19,791 [WARNING] summarizer: OpenRouter batch 1 attempt 2 failed: Expecting ',' delimiter: line 1 column 3273 (char 3272)
-2026-08-15 05:17:28,149 [WARNING] summarizer: OpenRouter batch 1 attempt 3 failed: rate_limited
-2026-08-15 05:17:44,151 [INFO] summarizer: Enriched 55 articles via OpenRouter (sequential). Non-Other categories: 4/55
-2026-08-15 05:17:44,151 [INFO] main: Step 4/6 — Enriching (en)...
-2026-08-15 05:21:16,927 [WARNING] summarizer: OpenRouter batch 0 attempt 1 failed: Expecting ',' delimiter: line 131 column 95 (char 10072)
-2026-08-15 05:23:40,081 [WARNING] summarizer: OpenRouter batch 0 attempt 2 failed: Expecting ',' delimiter: line 131 column 95 (char 10072)
+2026-08-16 05:02:34,012 [INFO] main: === Design News Bot starting ===
+2026-08-16 05:02:34,012 [INFO] main: Step 1/6 — Collecting...
+2026-08-16 05:02:34,330 [ERROR] collector: Scrape error [IDSA]: 403 Client Error: Forbidden for url: https://www.idsa.org/news
+2026-08-16 05:02:34,583 [INFO] collector: RSS Dezeen -> 3 recent articles
+2026-08-16 05:02:34,604 [INFO] collector: RSS Fast Company Design -> 0 recent articles
+2026-08-16 05:02:34,617 [INFO] collector: RSS Yanko Design -> 9 recent articles
+2026-08-16 05:02:34,654 [INFO] collector: Scraped Red Dot -> 2 recent articles
+2026-08-16 05:02:34,680 [INFO] collector: RSS ArchDaily -> 8 recent articles
+2026-08-16 05:02:34,850 [INFO] collector: RSS Creative Boom -> 0 recent articles
+2026-08-16 05:02:34,900 [INFO] collector: RSS Design Milk -> 0 recent articles
+2026-08-16 05:02:35,010 [INFO] collector: RSS Core77 -> 0 recent articles
+2026-08-16 05:02:35,125 [INFO] collector: RSS Designboom -> 3 recent articles
+2026-08-16 05:02:35,271 [INFO] collector: RSS Google News: industrial design -> 0 recent articles
+2026-08-16 05:02:35,312 [INFO] collector: RSS Google News: design competition 2025 -> 0 recent articles
+2026-08-16 05:02:35,332 [INFO] collector: RSS Google News: product design award -> 1 recent articles
+2026-08-16 05:02:35,741 [ERROR] collector: Scrape error [iF Design]: 404 Client Error: The requested content does not exist. for url: https://ifdesign.com/en/news
+2026-08-16 05:02:37,543 [INFO] collector: Scraped WDO -> 0 recent articles
+2026-08-16 05:02:37,545 [INFO] collector: Total collected (before dedup): 26
+2026-08-16 05:02:37,545 [INFO] main: Step 2/6 — Deduplicating...
+2026-08-16 05:02:37,547 [INFO] dedup: Dedup: removed 0 duplicates, kept 26
+2026-08-16 05:02:37,547 [INFO] main: 26 unique articles
+2026-08-16 05:02:37,547 [INFO] main: Step 3/6 — Enriching (fa)...
+2026-08-16 05:07:41,392 [WARNING] summarizer: OpenRouter batch 0 attempt 1 failed: Expecting value: line 1427 column 1 (char 7843)
+2026-08-16 05:10:14,841 [WARNING] summarizer: OpenRouter batch 0 attempt 2 failed: 'NoneType' object has no attribute 'strip'
+2026-08-16 05:14:06,145 [WARNING] summarizer: OpenRouter batch 0 attempt 3 failed: 'NoneType' object has no attribute 'strip'
+2026-08-16 05:14:22,146 [INFO] summarizer: Enriched 26 articles via OpenRouter (sequential). Non-Other categories: 2/26
+2026-08-16 05:14:22,147 [INFO] main: Step 4/6 — Enriching (en)...
+2026-08-16 05:18:15,238 [WARNING] summarizer: OpenRouter batch 0 attempt 1 failed: Expecting ',' delimiter: line 124 column 123 (char 10037)
+2026-08-16 05:18:19,455 [WARNING] summarizer: OpenRouter batch 0 attempt 2 failed: rate_limited
+2026-08-16 05:18:27,620 [WARNING] summarizer: OpenRouter batch 0 attempt 3 failed: rate_limited
+2026-08-16 05:18:43,621 [INFO] summarizer: Enriched 26 articles via OpenRouter (sequential). Non-Other categories: 2/26
+2026-08-16 05:18:43,621 [INFO] main: Step 5/6 — Saving cache for instant on-demand responses...
+2026-08-16 05:18:43,623 [INFO] cache: Cache saved: fa (26 articles)
+2026-08-16 05:18:43,624 [INFO] cache: Cache saved: en (26 articles)
+2026-08-16 05:18:43,624 [INFO] main: Step 6/6 — Sending personalized digests...
+2026-08-16 05:18:44,029 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-08-16 05:18:44,980 [INFO] main: Found 5 registered users
+2026-08-16 05:18:45,022 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-08-16 05:18:45,505 [INFO] sender: Sending to 5 users
+2026-08-16 05:18:46,087 [INFO] sender: Sent to user 412692212 (fa, interests=['product'])
+2026-08-16 05:18:46,607 [INFO] sender: Sent to user 5390450833 (fa, interests=['service', 'jewelry', 'accessory'])
+2026-08-16 05:18:47,111 [INFO] sender: Sent to user 5921510087 (fa, interests=['product'])
+2026-08-16 05:18:47,769 [INFO] sender: Sent to user 46336391 (fa, interests=['product', 'automotive'])
+2026-08-16 05:18:48,353 [INFO] sender: Sent to user 1470641798 (fa, interests=['automotive', 'product', 'furniture', 'jewelry', 'accessory', 'service'])
+2026-08-16 05:18:48,353 [INFO] main: === Done. ===
