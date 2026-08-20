@@ -1,31 +1,33 @@
-2026-08-19 05:04:14,348 [INFO] main: === Design News Bot starting ===
-2026-08-19 05:04:14,348 [INFO] main: Step 1/6 — Collecting...
-2026-08-19 05:04:14,560 [ERROR] collector: Scrape error [IDSA]: 403 Client Error: Forbidden for url: https://www.idsa.org/news
-2026-08-19 05:04:14,809 [INFO] collector: RSS Yanko Design -> 10 recent articles
-2026-08-19 05:04:14,893 [INFO] collector: RSS Fast Company Design -> 0 recent articles
-2026-08-19 05:04:14,982 [INFO] collector: RSS ArchDaily -> 11 recent articles
-2026-08-19 05:04:15,102 [INFO] collector: RSS Design Milk -> 2 recent articles
-2026-08-19 05:04:15,119 [INFO] collector: RSS Dezeen -> 8 recent articles
-2026-08-19 05:04:15,250 [INFO] collector: RSS Creative Boom -> 3 recent articles
-2026-08-19 05:04:15,375 [INFO] collector: RSS Designboom -> 10 recent articles
-2026-08-19 05:04:15,726 [INFO] collector: RSS Core77 -> 5 recent articles
-2026-08-19 05:04:15,795 [INFO] collector: Scraped Red Dot -> 2 recent articles
-2026-08-19 05:04:15,884 [INFO] collector: RSS Google News: design competition 2025 -> 0 recent articles
-2026-08-19 05:04:15,929 [INFO] collector: RSS Google News: product design award -> 1 recent articles
-2026-08-19 05:04:15,971 [INFO] collector: RSS Google News: industrial design -> 7 recent articles
-2026-08-19 05:04:15,973 [ERROR] collector: Scrape error [iF Design]: 404 Client Error: The requested content does not exist. for url: https://ifdesign.com/en/news
-2026-08-19 05:04:18,341 [INFO] collector: Scraped WDO -> 0 recent articles
-2026-08-19 05:04:18,342 [INFO] collector: Total collected (before dedup): 59
-2026-08-19 05:04:18,343 [INFO] main: Step 2/6 — Deduplicating...
-2026-08-19 05:04:18,345 [INFO] dedup: Dedup: removed 2 duplicates, kept 57
-2026-08-19 05:04:18,345 [INFO] main: 57 unique articles
-2026-08-19 05:04:18,345 [INFO] main: Step 3/6 — Enriching (fa)...
-2026-08-19 05:06:38,317 [WARNING] summarizer: OpenRouter batch 0 attempt 1 failed: Expecting ',' delimiter: line 1 column 6293 (char 6292)
-2026-08-19 05:09:34,829 [WARNING] summarizer: OpenRouter batch 0 attempt 2 failed: Expecting ',' delimiter: line 1 column 6293 (char 6292)
-2026-08-19 05:13:10,603 [WARNING] summarizer: OpenRouter batch 0 attempt 3 failed: 'NoneType' object has no attribute 'strip'
-2026-08-19 05:17:19,428 [WARNING] summarizer: OpenRouter batch 1 attempt 1 failed: 'NoneType' object has no attribute 'strip'
-2026-08-19 05:22:30,033 [WARNING] summarizer: OpenRouter batch 1 attempt 2 failed: 'NoneType' object has no attribute 'strip'
-2026-08-19 05:27:43,996 [WARNING] summarizer: OpenRouter batch 1 attempt 3 failed: Expecting ',' delimiter: line 1 column 693 (char 692)
-2026-08-19 05:27:59,998 [INFO] summarizer: Enriched 57 articles via OpenRouter (sequential). Non-Other categories: 3/57
-2026-08-19 05:27:59,998 [INFO] main: Step 4/6 — Enriching (en)...
-2026-08-19 05:32:04,609 [WARNING] summarizer: OpenRouter batch 0 attempt 1 failed: Expecting ',' delimiter: line 89 column 116 (char 7383)
+2026-08-20 05:05:55,164 [INFO] main: === Design News Bot starting ===
+2026-08-20 05:05:55,164 [INFO] main: Step 1/6 — Collecting...
+2026-08-20 05:05:55,429 [ERROR] collector: Scrape error [IDSA]: 403 Client Error: Forbidden for url: https://www.idsa.org/news
+2026-08-20 05:05:55,480 [INFO] collector: RSS Fast Company Design -> 0 recent articles
+2026-08-20 05:05:55,846 [INFO] collector: RSS Design Milk -> 1 recent articles
+2026-08-20 05:05:55,927 [INFO] collector: RSS Yanko Design -> 10 recent articles
+2026-08-20 05:05:55,950 [INFO] collector: RSS Dezeen -> 7 recent articles
+2026-08-20 05:05:55,956 [INFO] collector: RSS ArchDaily -> 13 recent articles
+2026-08-20 05:05:55,971 [INFO] collector: Scraped Red Dot -> 2 recent articles
+2026-08-20 05:05:56,133 [INFO] collector: RSS Creative Boom -> 4 recent articles
+2026-08-20 05:05:56,224 [INFO] collector: RSS Designboom -> 10 recent articles
+2026-08-20 05:05:56,250 [INFO] collector: RSS Google News: industrial design -> 5 recent articles
+2026-08-20 05:05:56,327 [INFO] collector: RSS Core77 -> 3 recent articles
+2026-08-20 05:05:56,481 [INFO] collector: RSS Google News: product design award -> 1 recent articles
+2026-08-20 05:05:56,629 [INFO] collector: RSS Google News: design competition 2025 -> 0 recent articles
+2026-08-20 05:05:56,656 [ERROR] collector: Scrape error [iF Design]: 404 Client Error: The requested content does not exist. for url: https://ifdesign.com/en/news
+2026-08-20 05:06:08,486 [ERROR] collector: Scrape error [WDO]: HTTPSConnectionPool(host='wdo.org', port=443): Read timed out. (read timeout=12)
+2026-08-20 05:06:08,487 [INFO] collector: Total collected (before dedup): 56
+2026-08-20 05:06:08,487 [INFO] main: Step 2/6 — Deduplicating...
+2026-08-20 05:06:08,491 [INFO] dedup: Dedup: removed 0 duplicates, kept 56
+2026-08-20 05:06:08,492 [INFO] main: 56 unique articles
+2026-08-20 05:06:08,492 [INFO] main: Step 3/6 — Enriching (fa)...
+2026-08-20 05:06:08,745 [WARNING] summarizer: OpenRouter batch 0 attempt 1 failed: rate_limited
+2026-08-20 05:09:42,327 [WARNING] summarizer: OpenRouter batch 0 attempt 2 failed: 'NoneType' object has no attribute 'strip'
+2026-08-20 05:15:00,698 [WARNING] summarizer: OpenRouter batch 0 attempt 3 failed: 'NoneType' object has no attribute 'strip'
+2026-08-20 05:15:20,956 [WARNING] summarizer: OpenRouter batch 1 attempt 1 failed: rate_limited
+2026-08-20 05:15:25,074 [WARNING] summarizer: OpenRouter batch 1 attempt 2 failed: rate_limited
+2026-08-20 05:21:25,736 [WARNING] summarizer: OpenRouter batch 1 attempt 3 failed: 'NoneType' object has no attribute 'strip'
+2026-08-20 05:21:41,738 [INFO] summarizer: Enriched 56 articles via OpenRouter (sequential). Non-Other categories: 6/56
+2026-08-20 05:21:41,738 [INFO] main: Step 4/6 — Enriching (en)...
+2026-08-20 05:25:14,013 [WARNING] summarizer: OpenRouter batch 0 attempt 1 failed: Expecting ',' delimiter: line 117 column 97 (char 9158)
+2026-08-20 05:32:24,014 [WARNING] summarizer: OpenRouter batch 0 attempt 2 failed: Expecting ',' delimiter: line 1 column 4977 (char 4976)
+2026-08-20 05:35:25,017 [WARNING] summarizer: OpenRouter batch 0 attempt 3 failed: Expecting ',' delimiter: line 1 column 5943 (char 5942)
