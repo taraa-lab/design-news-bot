@@ -1,51 +1,51 @@
-2026-08-28 16:51:51,935 [INFO] main: === Design News Bot starting ===
-2026-08-28 16:51:51,936 [INFO] main: Step 1/6 — Collecting...
-2026-08-28 16:51:52,286 [INFO] collector: RSS Fast Company Design -> 0 recent articles
-2026-08-28 16:51:52,414 [ERROR] collector: Scrape error [IDSA]: 403 Client Error: Forbidden for url: https://www.idsa.org/news
-2026-08-28 16:51:52,471 [ERROR] collector: Scrape error [iF Design]: 403 Client Error: Forbidden for url: https://ifdesign.com/en/news
-2026-08-28 16:51:52,624 [INFO] collector: RSS Yanko Design -> 10 recent articles
-2026-08-28 16:51:52,648 [INFO] collector: RSS Dezeen -> 11 recent articles
-2026-08-28 16:51:52,686 [INFO] collector: RSS ArchDaily -> 15 recent articles
-2026-08-28 16:51:52,723 [INFO] collector: RSS Core77 -> 3 recent articles
-2026-08-28 16:51:52,774 [INFO] collector: RSS Creative Boom -> 0 recent articles
-2026-08-28 16:51:52,948 [INFO] collector: RSS Design Milk -> 4 recent articles
-2026-08-28 16:51:53,049 [INFO] collector: RSS Google News: product design award -> 2 recent articles
-2026-08-28 16:51:53,155 [INFO] collector: RSS Designboom -> 9 recent articles
-2026-08-28 16:51:53,229 [INFO] collector: RSS Google News: design competition 2025 -> 0 recent articles
-2026-08-28 16:51:53,242 [INFO] collector: Scraped Red Dot -> 2 recent articles
-2026-08-28 16:51:53,245 [INFO] collector: RSS Google News: industrial design -> 5 recent articles
-2026-08-28 16:51:55,983 [INFO] collector: Scraped WDO -> 0 recent articles
-2026-08-28 16:51:55,986 [INFO] collector: Total collected (before dedup): 61
-2026-08-28 16:51:55,986 [INFO] main: Step 2/6 — Deduplicating...
-2026-08-28 16:51:55,989 [INFO] dedup: Dedup: removed 3 duplicates, kept 58
-2026-08-28 16:51:55,989 [INFO] main: 58 unique articles
-2026-08-28 16:51:55,989 [INFO] main: Step 3/6 — Enriching (fa)...
-2026-08-28 16:51:56,193 [WARNING] summarizer: OpenRouter batch 0 attempt 1 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-08-28 16:52:00,287 [WARNING] summarizer: OpenRouter batch 0 attempt 2 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-08-28 16:52:08,376 [WARNING] summarizer: OpenRouter batch 0 attempt 3 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-08-28 16:52:28,454 [WARNING] summarizer: OpenRouter batch 1 attempt 1 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-08-28 16:52:32,544 [WARNING] summarizer: OpenRouter batch 1 attempt 2 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-08-28 16:52:40,619 [WARNING] summarizer: OpenRouter batch 1 attempt 3 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-08-28 16:52:56,621 [INFO] summarizer: Enriched 58 articles via OpenRouter (sequential). Non-Other categories: 6/58
-2026-08-28 16:52:56,621 [INFO] main: Step 4/6 — Enriching (en)...
-2026-08-28 16:52:56,704 [WARNING] summarizer: OpenRouter batch 0 attempt 1 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-08-28 16:53:00,806 [WARNING] summarizer: OpenRouter batch 0 attempt 2 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-08-28 16:53:08,894 [WARNING] summarizer: OpenRouter batch 0 attempt 3 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-08-28 16:53:28,959 [WARNING] summarizer: OpenRouter batch 1 attempt 1 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-08-28 16:53:33,036 [WARNING] summarizer: OpenRouter batch 1 attempt 2 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-08-28 16:53:41,121 [WARNING] summarizer: OpenRouter batch 1 attempt 3 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-08-28 16:53:57,122 [INFO] summarizer: Enriched 58 articles via OpenRouter (sequential). Non-Other categories: 6/58
-2026-08-28 16:53:57,123 [INFO] main: Step 5/6 — Saving cache for instant on-demand responses...
-2026-08-28 16:53:57,125 [INFO] cache: Cache saved: fa (58 articles)
-2026-08-28 16:53:57,127 [INFO] cache: Cache saved: en (58 articles)
-2026-08-28 16:53:57,127 [INFO] main: Step 6/6 — Sending personalized digests...
-2026-08-28 16:53:57,400 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
-2026-08-28 16:53:58,329 [INFO] main: Found 5 registered users
-2026-08-28 16:53:58,369 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
-2026-08-28 16:53:58,991 [INFO] sender: Sending to 5 users
-2026-08-28 16:54:00,249 [INFO] sender: Sent to user 412692212 (fa, interests=['product'])
-2026-08-28 16:54:00,792 [INFO] sender: Sent to user 5390450833 (fa, interests=['service', 'jewelry', 'accessory'])
-2026-08-28 16:54:02,017 [INFO] sender: Sent to user 5921510087 (fa, interests=['product'])
-2026-08-28 16:54:02,619 [INFO] sender: Sent to user 46336391 (fa, interests=['product', 'automotive'])
-2026-08-28 16:54:03,243 [INFO] sender: Sent to user 1470641798 (fa, interests=['automotive', 'product', 'furniture', 'jewelry', 'accessory', 'service'])
-2026-08-28 16:54:03,243 [INFO] main: === Done. ===
+2026-08-29 11:18:31,569 [INFO] main: === Design News Bot starting ===
+2026-08-29 11:18:31,569 [INFO] main: Step 1/6 — Collecting...
+2026-08-29 11:18:31,950 [ERROR] collector: Scrape error [IDSA]: 403 Client Error: Forbidden for url: https://www.idsa.org/news
+2026-08-29 11:18:32,106 [ERROR] collector: Scrape error [iF Design]: 403 Client Error: Forbidden for url: https://ifdesign.com/en/news
+2026-08-29 11:18:32,116 [INFO] collector: RSS Fast Company Design -> 0 recent articles
+2026-08-29 11:18:32,184 [INFO] collector: RSS Dezeen -> 8 recent articles
+2026-08-29 11:18:32,232 [INFO] collector: RSS ArchDaily -> 7 recent articles
+2026-08-29 11:18:32,245 [INFO] collector: RSS Yanko Design -> 10 recent articles
+2026-08-29 11:18:32,304 [INFO] collector: RSS Design Milk -> 1 recent articles
+2026-08-29 11:18:32,362 [INFO] collector: RSS Creative Boom -> 0 recent articles
+2026-08-29 11:18:32,447 [INFO] collector: Scraped Red Dot -> 2 recent articles
+2026-08-29 11:18:32,583 [INFO] collector: RSS Designboom -> 5 recent articles
+2026-08-29 11:18:32,719 [INFO] collector: RSS Core77 -> 3 recent articles
+2026-08-29 11:18:32,800 [INFO] collector: RSS Google News: industrial design -> 5 recent articles
+2026-08-29 11:18:32,860 [INFO] collector: RSS Google News: product design award -> 0 recent articles
+2026-08-29 11:18:32,916 [INFO] collector: RSS Google News: design competition 2025 -> 0 recent articles
+2026-08-29 11:18:35,178 [INFO] collector: Scraped WDO -> 0 recent articles
+2026-08-29 11:18:35,180 [INFO] collector: Total collected (before dedup): 41
+2026-08-29 11:18:35,180 [INFO] main: Step 2/6 — Deduplicating...
+2026-08-29 11:18:35,182 [INFO] dedup: Dedup: removed 1 duplicates, kept 40
+2026-08-29 11:18:35,182 [INFO] main: 40 unique articles
+2026-08-29 11:18:35,182 [INFO] main: Step 3/6 — Enriching (fa)...
+2026-08-29 11:18:35,407 [WARNING] summarizer: OpenRouter batch 0 attempt 1 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-08-29 11:18:39,535 [WARNING] summarizer: OpenRouter batch 0 attempt 2 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-08-29 11:18:47,659 [WARNING] summarizer: OpenRouter batch 0 attempt 3 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-08-29 11:19:07,783 [WARNING] summarizer: OpenRouter batch 1 attempt 1 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-08-29 11:19:11,887 [WARNING] summarizer: OpenRouter batch 1 attempt 2 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-08-29 11:19:20,017 [WARNING] summarizer: OpenRouter batch 1 attempt 3 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-08-29 11:19:36,019 [INFO] summarizer: Enriched 40 articles via OpenRouter (sequential). Non-Other categories: 4/40
+2026-08-29 11:19:36,019 [INFO] main: Step 4/6 — Enriching (en)...
+2026-08-29 11:19:36,131 [WARNING] summarizer: OpenRouter batch 0 attempt 1 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-08-29 11:19:40,274 [WARNING] summarizer: OpenRouter batch 0 attempt 2 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-08-29 11:19:48,405 [WARNING] summarizer: OpenRouter batch 0 attempt 3 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-08-29 11:20:08,535 [WARNING] summarizer: OpenRouter batch 1 attempt 1 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-08-29 11:20:12,632 [WARNING] summarizer: OpenRouter batch 1 attempt 2 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-08-29 11:20:20,756 [WARNING] summarizer: OpenRouter batch 1 attempt 3 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-08-29 11:20:36,758 [INFO] summarizer: Enriched 40 articles via OpenRouter (sequential). Non-Other categories: 4/40
+2026-08-29 11:20:36,758 [INFO] main: Step 5/6 — Saving cache for instant on-demand responses...
+2026-08-29 11:20:36,760 [INFO] cache: Cache saved: fa (40 articles)
+2026-08-29 11:20:36,761 [INFO] cache: Cache saved: en (40 articles)
+2026-08-29 11:20:36,761 [INFO] main: Step 6/6 — Sending personalized digests...
+2026-08-29 11:20:37,039 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-08-29 11:20:38,039 [INFO] main: Found 5 registered users
+2026-08-29 11:20:38,079 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-08-29 11:20:38,544 [INFO] sender: Sending to 5 users
+2026-08-29 11:20:38,983 [INFO] sender: Sent to user 412692212 (fa, interests=['product'])
+2026-08-29 11:20:39,378 [INFO] sender: Sent to user 5390450833 (fa, interests=['service', 'jewelry', 'accessory'])
+2026-08-29 11:20:39,792 [INFO] sender: Sent to user 5921510087 (fa, interests=['product'])
+2026-08-29 11:20:40,229 [INFO] sender: Sent to user 46336391 (fa, interests=['product', 'automotive'])
+2026-08-29 11:20:40,805 [INFO] sender: Sent to user 1470641798 (fa, interests=['automotive', 'product', 'furniture', 'jewelry', 'accessory', 'service'])
+2026-08-29 11:20:40,806 [INFO] main: === Done. ===
