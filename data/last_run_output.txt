@@ -1,51 +1,57 @@
-2026-09-01 09:33:25,748 [INFO] main: === Design News Bot starting ===
-2026-09-01 09:33:25,748 [INFO] main: Step 1/6 — Collecting...
-2026-09-01 09:33:25,975 [INFO] collector: RSS Fast Company Design -> 0 recent articles
-2026-09-01 09:33:26,003 [ERROR] collector: Scrape error [IDSA]: 403 Client Error: Forbidden for url: https://www.idsa.org/news
-2026-09-01 09:33:26,192 [INFO] collector: RSS ArchDaily -> 13 recent articles
-2026-09-01 09:33:26,232 [ERROR] collector: Scrape error [iF Design]: 403 Client Error: Forbidden for url: https://ifdesign.com/en/news
-2026-09-01 09:33:26,306 [INFO] collector: RSS Yanko Design -> 10 recent articles
-2026-09-01 09:33:26,376 [INFO] collector: Scraped Red Dot -> 2 recent articles
-2026-09-01 09:33:26,454 [INFO] collector: RSS Dezeen -> 5 recent articles
-2026-09-01 09:33:26,555 [INFO] collector: RSS Design Milk -> 1 recent articles
-2026-09-01 09:33:26,682 [INFO] collector: RSS Core77 -> 3 recent articles
-2026-09-01 09:33:26,735 [INFO] collector: RSS Designboom -> 8 recent articles
-2026-09-01 09:33:26,754 [INFO] collector: RSS Creative Boom -> 4 recent articles
-2026-09-01 09:33:26,832 [INFO] collector: RSS Google News: product design award -> 3 recent articles
-2026-09-01 09:33:26,871 [INFO] collector: RSS Google News: industrial design -> 2 recent articles
-2026-09-01 09:33:26,937 [INFO] collector: RSS Google News: design competition 2025 -> 0 recent articles
-2026-09-01 09:33:29,322 [INFO] collector: Scraped WDO -> 0 recent articles
-2026-09-01 09:33:29,323 [INFO] collector: Total collected (before dedup): 51
-2026-09-01 09:33:29,324 [INFO] main: Step 2/6 — Deduplicating...
-2026-09-01 09:33:29,327 [INFO] dedup: Dedup: removed 1 duplicates, kept 50
-2026-09-01 09:33:29,327 [INFO] main: 50 unique articles
-2026-09-01 09:33:29,327 [INFO] main: Step 3/6 — Enriching (fa)...
-2026-09-01 09:33:29,444 [WARNING] summarizer: OpenRouter batch 0 attempt 1 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-09-01 09:33:33,492 [WARNING] summarizer: OpenRouter batch 0 attempt 2 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-09-01 09:33:41,539 [WARNING] summarizer: OpenRouter batch 0 attempt 3 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-09-01 09:34:01,598 [WARNING] summarizer: OpenRouter batch 1 attempt 1 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-09-01 09:34:05,647 [WARNING] summarizer: OpenRouter batch 1 attempt 2 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-09-01 09:34:13,692 [WARNING] summarizer: OpenRouter batch 1 attempt 3 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-09-01 09:34:29,694 [INFO] summarizer: Enriched 50 articles via OpenRouter (sequential). Non-Other categories: 7/50
-2026-09-01 09:34:29,694 [INFO] main: Step 4/6 — Enriching (en)...
-2026-09-01 09:34:29,750 [WARNING] summarizer: OpenRouter batch 0 attempt 1 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-09-01 09:34:33,796 [WARNING] summarizer: OpenRouter batch 0 attempt 2 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-09-01 09:34:41,845 [WARNING] summarizer: OpenRouter batch 0 attempt 3 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-09-01 09:35:01,894 [WARNING] summarizer: OpenRouter batch 1 attempt 1 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-09-01 09:35:05,944 [WARNING] summarizer: OpenRouter batch 1 attempt 2 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-09-01 09:35:13,990 [WARNING] summarizer: OpenRouter batch 1 attempt 3 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
-2026-09-01 09:35:29,991 [INFO] summarizer: Enriched 50 articles via OpenRouter (sequential). Non-Other categories: 7/50
-2026-09-01 09:35:29,991 [INFO] main: Step 5/6 — Saving cache for instant on-demand responses...
-2026-09-01 09:35:29,994 [INFO] cache: Cache saved: fa (50 articles)
-2026-09-01 09:35:29,996 [INFO] cache: Cache saved: en (50 articles)
-2026-09-01 09:35:29,996 [INFO] main: Step 6/6 — Sending personalized digests...
-2026-09-01 09:35:30,381 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
-2026-09-01 09:35:31,111 [INFO] main: Found 5 registered users
-2026-09-01 09:35:31,153 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
-2026-09-01 09:35:31,716 [INFO] sender: Sending to 5 users
-2026-09-01 09:35:32,208 [INFO] sender: Sent to user 412692212 (fa, interests=['product'])
-2026-09-01 09:35:32,615 [INFO] sender: Sent to user 5390450833 (fa, interests=['service', 'jewelry', 'accessory'])
-2026-09-01 09:35:33,153 [INFO] sender: Sent to user 5921510087 (fa, interests=['product'])
-2026-09-01 09:35:33,637 [INFO] sender: Sent to user 46336391 (fa, interests=['product', 'automotive'])
-2026-09-01 09:35:34,063 [INFO] sender: Sent to user 1470641798 (fa, interests=['automotive', 'product', 'furniture', 'jewelry', 'accessory', 'service'])
-2026-09-01 09:35:34,064 [INFO] main: === Done. ===
+2026-09-02 08:58:21,961 [INFO] main: === Design News Bot starting ===
+2026-09-02 08:58:21,961 [INFO] main: Step 1/6 — Collecting...
+2026-09-02 08:58:22,321 [ERROR] collector: Scrape error [IDSA]: 403 Client Error: Forbidden for url: https://www.idsa.org/news
+2026-09-02 08:58:22,409 [INFO] collector: RSS Fast Company Design -> 0 recent articles
+2026-09-02 08:58:22,453 [ERROR] collector: Scrape error [iF Design]: 403 Client Error: Forbidden for url: https://ifdesign.com/en/news
+2026-09-02 08:58:22,504 [INFO] collector: RSS Dezeen -> 10 recent articles
+2026-09-02 08:58:22,531 [INFO] collector: RSS Yanko Design -> 10 recent articles
+2026-09-02 08:58:22,556 [INFO] collector: RSS ArchDaily -> 14 recent articles
+2026-09-02 08:58:22,598 [INFO] collector: RSS Design Milk -> 2 recent articles
+2026-09-02 08:58:22,646 [INFO] collector: Scraped Red Dot -> 2 recent articles
+2026-09-02 08:58:22,731 [INFO] collector: RSS Creative Boom -> 4 recent articles
+2026-09-02 08:58:23,018 [INFO] collector: RSS Google News: design competition 2025 -> 0 recent articles
+2026-09-02 08:58:23,063 [INFO] collector: RSS Core77 -> 4 recent articles
+2026-09-02 08:58:23,117 [INFO] collector: RSS Google News: product design award -> 5 recent articles
+2026-09-02 08:58:23,168 [INFO] collector: RSS Google News: industrial design -> 1 recent articles
+2026-09-02 08:58:23,216 [INFO] collector: RSS Designboom -> 9 recent articles
+2026-09-02 08:58:25,479 [INFO] collector: Scraped WDO -> 0 recent articles
+2026-09-02 08:58:25,482 [INFO] collector: Total collected (before dedup): 61
+2026-09-02 08:58:25,482 [INFO] main: Step 2/6 — Deduplicating...
+2026-09-02 08:58:25,484 [INFO] dedup: Dedup: removed 0 duplicates, kept 61
+2026-09-02 08:58:25,484 [INFO] main: 61 unique articles
+2026-09-02 08:58:25,484 [INFO] main: Step 3/6 — Enriching (fa)...
+2026-09-02 08:58:25,852 [WARNING] summarizer: OpenRouter batch 0 attempt 1 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-02 08:58:29,982 [WARNING] summarizer: OpenRouter batch 0 attempt 2 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-02 08:58:38,126 [WARNING] summarizer: OpenRouter batch 0 attempt 3 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-02 08:58:58,289 [WARNING] summarizer: OpenRouter batch 1 attempt 1 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-02 08:59:02,402 [WARNING] summarizer: OpenRouter batch 1 attempt 2 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-02 08:59:10,510 [WARNING] summarizer: OpenRouter batch 1 attempt 3 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-02 08:59:30,636 [WARNING] summarizer: OpenRouter batch 2 attempt 1 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-02 08:59:34,760 [WARNING] summarizer: OpenRouter batch 2 attempt 2 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-02 08:59:42,892 [WARNING] summarizer: OpenRouter batch 2 attempt 3 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-02 08:59:58,893 [INFO] summarizer: Enriched 61 articles via OpenRouter (sequential). Non-Other categories: 9/61
+2026-09-02 08:59:58,893 [INFO] main: Step 4/6 — Enriching (en)...
+2026-09-02 08:59:59,020 [WARNING] summarizer: OpenRouter batch 0 attempt 1 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-02 09:00:03,164 [WARNING] summarizer: OpenRouter batch 0 attempt 2 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-02 09:00:11,289 [WARNING] summarizer: OpenRouter batch 0 attempt 3 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-02 09:00:31,413 [WARNING] summarizer: OpenRouter batch 1 attempt 1 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-02 09:00:35,531 [WARNING] summarizer: OpenRouter batch 1 attempt 2 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-02 09:00:43,689 [WARNING] summarizer: OpenRouter batch 1 attempt 3 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-02 09:01:03,820 [WARNING] summarizer: OpenRouter batch 2 attempt 1 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-02 09:01:07,948 [WARNING] summarizer: OpenRouter batch 2 attempt 2 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-02 09:01:16,054 [WARNING] summarizer: OpenRouter batch 2 attempt 3 failed: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-02 09:01:32,055 [INFO] summarizer: Enriched 61 articles via OpenRouter (sequential). Non-Other categories: 9/61
+2026-09-02 09:01:32,055 [INFO] main: Step 5/6 — Saving cache for instant on-demand responses...
+2026-09-02 09:01:32,057 [INFO] cache: Cache saved: fa (61 articles)
+2026-09-02 09:01:32,059 [INFO] cache: Cache saved: en (61 articles)
+2026-09-02 09:01:32,059 [INFO] main: Step 6/6 — Sending personalized digests...
+2026-09-02 09:01:33,037 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-09-02 09:01:33,922 [INFO] main: Found 5 registered users
+2026-09-02 09:01:33,953 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-09-02 09:01:34,660 [INFO] sender: Sending to 5 users
+2026-09-02 09:01:35,169 [INFO] sender: Sent to user 412692212 (fa, interests=['product'])
+2026-09-02 09:01:35,585 [INFO] sender: Sent to user 5390450833 (fa, interests=['service', 'jewelry', 'accessory'])
+2026-09-02 09:01:35,997 [INFO] sender: Sent to user 5921510087 (fa, interests=['product'])
+2026-09-02 09:01:36,474 [INFO] sender: Sent to user 46336391 (fa, interests=['product', 'automotive'])
+2026-09-02 09:01:36,953 [INFO] sender: Sent to user 1470641798 (fa, interests=['automotive', 'product', 'furniture', 'jewelry', 'accessory', 'service'])
+2026-09-02 09:01:36,954 [INFO] main: === Done. ===
