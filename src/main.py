@@ -52,10 +52,13 @@ def main():
     save_cache("fa", articles_fa)
     save_cache("en", articles_en)
 
-    logger.info("Step 6/6 — Sending personalized digests...")
-    users = SheetsDB().get_all_users()
-    logger.info("Found %d registered users", len(users))
-    send_to_all_users(articles_fa, articles_en)
+    if os.environ.get("SKIP_SEND", "").lower() == "true":
+        logger.info("Step 6/6 — SKIP_SEND=true: cache refreshed, not sending to users.")
+    else:
+        logger.info("Step 6/6 — Sending personalized digests...")
+        users = SheetsDB().get_all_users()
+        logger.info("Found %d registered users", len(users))
+        send_to_all_users(articles_fa, articles_en)
 
     markdown = build_markdown(articles_fa)
     save_report(markdown, output_dir=REPORTS_DIR)
