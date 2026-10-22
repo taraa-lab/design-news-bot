@@ -1,15 +1,29 @@
 """
-sender.py — Build personalized digest per user and send to all users.
-Message format: 3-line Persian summary, then "لینک خبر" as the clickable link
-(saves space vs. long titles-as-links, fits more news per Telegram message).
-"""
+sender.py — Build the personalized digest and send it via Telegram (HTML mode).
 
+Each news post:
+    <b>short fluent Persian title</b>
+    summary (max ~3 lines)
+    🏷 دسته‌بندی: ...
+    لینک خبر            (hyperlinked to the article)
+    https://t.me/WIDD_Iran
+
+Messages are split on post boundaries (never mid-tag) to stay under Telegram's limit.
+"""
 import os
+import re
+import html
+import time
 import logging
 import requests
+from datetime import datetime, timezone, timedelta
 from sheets import SheetsDB
 
 logger = logging.getLogger(__name__)
+
+CHANNEL_URL = "https://t.me/WIDD_Iran"
+MAX_CHUNK_CHARS = 3800
+SUMMARY_MAX_CHARS = 380
 
 INTEREST_CATEGORIES = {
     "automotive": ["خودرو", "Automotive"],
@@ -22,69 +36,137 @@ INTEREST_CATEGORIES = {
 
 COMPETITION_CATS = ["جوایز طراحی", "مسابقات طراحی", "Design Awards", "Design Competitions"]
 
+IMPORTANCE_ORDER = {"بالا": 0, "High": 0, "متوسط": 1, "Medium": 1, "پایین": 2, "Low": 2}
 
-def _escape_md(text: str) -> str:
-    """Escape Telegram Markdown special characters in AI-generated text."""
-    for ch in ("_", "*", "[", "]"):
-        text = text.replace(ch, "\\" + ch)
-    return text
+
+def _esc(text) -> str:
+    return html.escape(str(text or ""), quote=False)
+
+
+def _shorten(text: str, limit: int) -> str:
+    text = (text or "").strip()
+    if len(text) <= limit:
+        return text
+    return text[:limit].rsplit(" ", 1)[0].rstrip(".,،؛ ") + "…"
 
 
 def _filter_for_user(articles: list, interests: list) -> list:
-    allowed_cats = set()
+    allowed = set()
     for interest in interests:
-        for cat in INTEREST_CATEGORIES.get(interest, []):
-            allowed_cats.add(cat)
-
+        allowed.update(INTEREST_CATEGORIES.get(interest, []))
     result, seen = [], set()
     for a in articles:
         if a.url in seen:
             continue
-        if a.category in COMPETITION_CATS or a.category in allowed_cats:
+        if a.category in COMPETITION_CATS or a.category in allowed:
             result.append(a)
             seen.add(a.url)
     return result
 
 
-def build_personal_digest(articles: list, interests: list, lang: str) -> str:
+def _item_block(a, lang: str) -> str:
+    cat_label = "🏷 دسته‌بندی" if lang == "fa" else "🏷 Category"
+    link_word = "لینک خبر" if lang == "fa" else "Read more"
+    title = (a.title or "").strip()
+    summary = (a.summary or "").strip()
+    if summary == title:
+        summary = ""
+    lines = []
+    if title:
+        lines.append(f"<b>{_esc(title)}</b>")
+    if summary:
+        lines.append(_esc(_shorten(summary, SUMMARY_MAX_CHARS)))
+    lines.append(f"{cat_label}: {_esc(a.category)}")
+    lines.append(f'<a href="{html.escape(a.url, quote=True)}">{link_word}</a>')
+    lines.append(CHANNEL_URL)
+    return "\n".join(lines)
+
+
+def _pack(blocks: list) -> list:
+    chunks, cur = [], ""
+    for b in blocks:
+        b = b[:MAX_CHUNK_CHARS]
+        if cur and len(cur) + 2 + len(b) > MAX_CHUNK_CHARS:
+            chunks.append(cur)
+            cur = b
+        else:
+            cur = f"{cur}\n\n{b}" if cur else b
+    if cur:
+        chunks.append(cur)
+    return chunks
+
+
+def build_personal_digest_chunks(articles: list, interests: list, lang: str) -> list:
     filtered = _filter_for_user(articles, interests)
     if not filtered:
-        return ""
+        return []
 
-    IMPORTANCE_ORDER = {"بالا": 0, "High": 0, "متوسط": 1, "Medium": 1, "پایین": 2, "Low": 2}
-    sorted_arts = sorted(filtered, key=lambda a: (IMPORTANCE_ORDER.get(a.importance, 2),
-                                                   -(a.published.timestamp() if a.published else 0)))
-
-    from datetime import datetime, timezone, timedelta
+    ordered = sorted(filtered, key=lambda a: (IMPORTANCE_ORDER.get(a.importance, 2),
+                                              -(a.published.timestamp() if a.published else 0)))
     today = (datetime.now(timezone.utc) + timedelta(hours=3, minutes=30)).strftime("%Y-%m-%d")
 
     if lang == "fa":
-        header = f"🎨 *اخبار امروز دیزاین* — {today}\n_{len(filtered)} خبر برای تو_\n"
-        imp_labels = {"بالا": "🔴 اهمیت بالا", "High": "🔴 اهمیت بالا",
-                      "متوسط": "🟡 اهمیت متوسط", "Medium": "🟡 اهمیت متوسط",
-                      "پایین": "🟢 سایر اخبار", "Low": "🟢 سایر اخبار"}
-        link_word = "لینک خبر"
+        header = f"🎨 <b>اخبار امروز دیزاین</b> — {today}\n<i>{len(filtered)} خبر برای تو</i>"
+        labels = {"بالا": "🔴 اهمیت بالا", "High": "🔴 اهمیت بالا",
+                  "متوسط": "🟡 اهمیت متوسط", "Medium": "🟡 اهمیت متوسط",
+                  "پایین": "🟢 سایر اخبار", "Low": "🟢 سایر اخبار"}
     else:
-        header = f"🎨 *Design News Today* — {today}\n_{len(filtered)} articles for you_\n"
-        imp_labels = {"بالا": "🔴 High Priority", "High": "🔴 High Priority",
-                      "متوسط": "🟡 Medium Priority", "Medium": "🟡 Medium Priority",
-                      "پایین": "🟢 Other News", "Low": "🟢 Other News"}
-        link_word = "Read more"
+        header = f"🎨 <b>Design News Today</b> — {today}\n<i>{len(filtered)} articles for you</i>"
+        labels = {"بالا": "🔴 High Priority", "High": "🔴 High Priority",
+                  "متوسط": "🟡 Medium Priority", "Medium": "🟡 Medium Priority",
+                  "پایین": "🟢 Other News", "Low": "🟢 Other News"}
 
-    parts = [header]
-    current_imp = None
-    for a in sorted_arts:
+    blocks, current = [header], None
+    for a in ordered:
         imp = a.importance or "متوسط"
-        if imp != current_imp:
-            current_imp = imp
-            parts.append(f"*{imp_labels.get(imp, imp)}*")
+        prefix = ""
+        if imp != current:
+            current = imp
+            prefix = f"<b>{labels.get(imp, _esc(imp))}</b>\n"
+        blocks.append(prefix + _item_block(a, lang))
+    return _pack(blocks)
 
-        summary = _escape_md((a.summary or a.title).strip())
-        parts.append(summary)
-        parts.append(f"[{link_word}]({a.url})")
-        parts.append("")   # blank line between items
 
-    return "\n".join(parts)
+def build_personal_digest(articles: list, interests: list, lang: str) -> str:
+    """Compatibility helper: whole digest as one string (use the _chunks version to send)."""
+    return "\n\n".join(build_personal_digest_chunks(articles, interests, lang))
+
+
+# ──────────────────────────────────────────────
+# Sending
+# ──────────────────────────────────────────────
+def _post_message(token: str, chat_id, text: str, parse_mode=None) -> bool:
+    payload = {"chat_id": chat_id, "text": text, "disable_web_page_preview": True}
+    if parse_mode:
+        payload["parse_mode"] = parse_mode
+    try:
+        r = requests.post(f"https://api.telegram.org/bot{token}/sendMessage",
+                          json=payload, timeout=30)
+        if r.ok:
+            return True
+        logger.error("Telegram send failed (%s): %s", r.status_code, r.text[:200])
+    except Exception as e:
+        logger.error("Telegram send error: %s", e)
+    return False
+
+
+def _to_plain(chunk: str) -> str:
+    chunk = re.sub(r'<a href="([^"]+)">([^<]*)</a>', r"\2: \1", chunk)
+    return html.unescape(re.sub(r"<[^>]+>", "", chunk))
+
+
+def send_text(token: str, chat_id, text: str) -> bool:
+    return _post_message(token, chat_id, text)
+
+
+def send_chunks(token: str, chat_id, chunks: list) -> bool:
+    ok_all = True
+    for i, chunk in enumerate(chunks):
+        if i:
+            time.sleep(0.6)
+        if not _post_message(token, chat_id, chunk, "HTML"):
+            ok_all = _post_message(token, chat_id, _to_plain(chunk)) and ok_all
+    return ok_all
 
 
 def send_to_all_users(articles_fa: list, articles_en: list):
@@ -93,33 +175,24 @@ def send_to_all_users(articles_fa: list, articles_en: list):
         logger.error("No TELEGRAM_BOT_TOKEN")
         return
 
-    db = SheetsDB()
-    users = db.get_all_users()
+    users = SheetsDB().get_all_users()
     logger.info("Sending to %d users", len(users))
 
     for user in users:
-        chat_id   = user.get("chat_id", "")
-        lang      = user.get("lang", "fa")
+        chat_id = user.get("chat_id", "")
+        lang = user.get("lang", "fa")
         interests = [i for i in user.get("interests", "").split(",") if i]
-
         if not chat_id or not interests:
             continue
 
         articles = articles_fa if lang == "fa" else articles_en
-        msg = build_personal_digest(articles, interests, lang)
-        if not msg:
-            no_news = "امروز خبری در حوزه‌های انتخابی تو پیدا نشد." if lang=="fa" else "No news found for your selected areas today."
-            msg = no_news
-
-        for chunk in [msg[i:i+4000] for i in range(0, len(msg), 4000)]:
-            try:
-                requests.post(
-                    f"https://api.telegram.org/bot{token}/sendMessage",
-                    json={"chat_id": chat_id, "text": chunk,
-                          "parse_mode": "Markdown", "disable_web_page_preview": True},
-                    timeout=30
-                )
-            except Exception as e:
-                logger.error("Send error to %s: %s", chat_id, e)
-
-        logger.info("Sent to user %s (%s, interests=%s)", chat_id, lang, interests)
+        chunks = build_personal_digest_chunks(articles, interests, lang)
+        if not chunks:
+            send_text(token, chat_id,
+                      "امروز خبری در حوزه‌های انتخابی تو پیدا نشد." if lang == "fa"
+                      else "No news found for your selected areas today.")
+        else:
+            send_chunks(token, chat_id, chunks)
+        logger.info("Sent to user %s (%s, interests=%s, %d messages)",
+                    chat_id, lang, interests, len(chunks))
+        time.sleep(0.5)
