@@ -1,25 +1,131 @@
 {
-  "generated_at": "2026-10-22T20:12:50.417227+00:00",
-  "count": 67,
+  "generated_at": "2026-10-23T09:57:03.545229+00:00",
+  "count": 63,
   "articles": [
     {
-      "title": "Rana House / STUDIO_LPP",
+      "title": "وی خای Ibiza / باغ بازی با طراحی نوکنده",
+      "url": "https://www.archdaily.com/1187189/ibiza-house-studio-metamorphosis",
+      "source": "ArchDaily",
+      "published": "2026-10-23T03:00:00+00:00",
+      "summary": "سک یخنی با ویژه ئیی و نریان برگ وارد شده در ائیرا برای پ داخوالی آ و یذ زی داده. طراح از خانه‌ای برای خو نیازه در این منطقه استفاده کرده.",
+      "keywords": [
+        "وی خای",
+        "عاریژه",
+        "ویژه",
+        "ط",
+        "خونه"
+      ],
+      "category": "طراحی محصول",
+      "importance": "متوسط"
+    },
+    {
+      "title": "بلو پرسین یزد / موس استودو",
+      "url": "https://www.archdaily.com/1187269/blu-pizzeria-jeddah-movs-studio",
+      "source": "ArchDaily",
+      "published": "2026-10-23T02:00:00+00:00",
+      "summary": "یک شبفه فتیتور در ۳۳۵ متر مربه با دی فل ِی یگ پردента ینی، که بر اساس ویژه ئیی هوا و ری چین ی وارد شده ساخته شده.",
+      "keywords": [
+        "بلو",
+        "عاریژه",
+        "پیت",
+        "مینده",
+        "راه"
+      ],
+      "category": "طراحی محصول",
+      "importance": "متوسط"
+    },
+    {
+      "title": "شن شی زیا ب م ایحه / ای پی دلت فلی گروه",
+      "url": "https://www.archdaily.com/1184408/shenzhen-bay-mixc-phase-ii-ippolito-fleitz-group",
+      "source": "ArchDaily",
+      "published": "2026-10-23T00:00:00+00:00",
+      "summary": "ماحه‌ای که از مصرف‌گری به تج sos اجتماعی و فر هنگاهی تبدیل شده، شی شی زیا ب م ایحه را به عنوان یکی از نمود‌های ان را بخانه فرا داده.",
+      "keywords": [
+        "میادین",
+        "فر هنگاهی",
+        "، ساختهنگی",
+        "، عاریژه"
+      ],
+      "category": "طراحی محصول",
+      "importance": "متوسط"
+    },
+    {
+      "title": "میرورد خانه / ردا کارر ی دله ار کیئا",
+      "url": "https://www.archdaily.com/1187341/mirador-house-rodrigo-de-la-cerda-arquitecto",
+      "source": "ArchDaily",
+      "published": "2026-10-22T19:00:00+00:00",
+      "summary": "خانه‌ای که برای درگریدسینی و دید توسط اردش مجهز به یاره ی ینی، نره در عر ین، است. این خانه می تواند خود را بچور برای قرفر کرید و تغ ئیه ه رو دهد.",
+      "keywords": [
+        "میرورد",
+        "خونه",
+        "، مجهز",
+        "،، دید",
+        "، رو"
+      ],
+      "category": "طراحی محصول",
+      "importance": "متوسط"
+    },
+    {
+      "title": "دام خانه / ۲۰۰۰۲ ارو کیئا",
+      "url": "https://www.archdaily.com/1187148/casa-da-represa-24-7-arquitetura",
+      "source": "ArchDaily",
+      "published": "2026-10-22T17:00:00+00:00",
+      "summary": "خانه‌ای که در زمین ۴۱ هزار متر مربه با ماله رفت ینی آب نامه، سه پا تاژی منه در برا وستن هست بنه که سای نارا با ح ع ح پوست را ط پ می کند.",
+      "keywords": [
+        "دام",
+        "خونه",
+        "،، ماله رفت",
+        "،، نامه",
+        "،، سه تاژی"
+      ],
+      "category": "طراحی محصول",
+      "importance": "متوسط"
+    },
+    {
+      "title": "خانه لد ام / هیلدا آرو کیئا",
+      "url": "https://www.archdaily.com/1187249/casa-ldm",
+      "source": "ArchDaily",
+      "published": "2026-10-22T15:00:00+00:00",
+      "summary": "خانه‌ایی که در زمین را غیر در بورکار بو و و ل چه نق تهر و ریس، یک باله ی ل نامه و وی پوست رو نیمه نگه دارنده است. بضتن که راه نیز این خانه را طیی ر دارد.",
+      "keywords": [
+        "لد ام",
+        "خونه",
+        "، وی پوست",
+        "،، ل نامه",
+        "،، بورکار"
+      ],
+      "category": "طراحی محصول",
+      "importance": "متوسط"
+    },
+    {
+      "title": "ران خانه / استیو لد ام",
       "url": "https://www.archdaily.com/1187347/rana-house-studio-lpp",
       "source": "ArchDaily",
       "published": "2026-10-22T13:00:00+00:00",
-      "summary": "In a suburb with little history and no remarkable urban quality, a 1960s subdivision still offered vacant lots for yet another \"villa,\" a housing type that so clearly characterizes these Portuguese outskirts of the big city.",
-      "keywords": [],
-      "category": "سایر",
+      "summary": "در باپ رو که برای کمک ی بود تاریرک ای وجود ندارد، یک پرر واقع ده که به عنوان یک وی خه از ده گذشته انگ گرفته شده.",
+      "keywords": [
+        "ران",
+        "خونه",
+        "،، پرر",
+        "،، وی خه",
+        "،، ده گذته"
+      ],
+      "category": "طراحی محصول",
       "importance": "پایین"
     },
     {
-      "title": "Parkside Villa / Studio B Architecture + Interiors",
+      "title": "پراسیت ویللا / استیو بی آرکتئال ان تریدز",
       "url": "https://www.archdaily.com/1187144/parkside-villa-studio-b-architecture-plus-interiors",
       "source": "ArchDaily",
       "published": "2026-10-22T12:00:00+00:00",
-      "summary": "Situated in a rural Boulder neighborhood, Parkside Villa is a comprehensive transformation of an existing 9,100-square-foot residence, reimagined for the evolving lifestyle of an active family. Rather than demolishing and rebuilding, Studio B Architecture + Interiors approached the project as an opportunity to redefine the relationship between architecture, interiors and landscape while preserving the home's existing foundation and much of its structural framing.",
-      "keywords": [],
-      "category": "سایر",
+      "summary": "یک تح ورت اساس ای بر یک پرر ٰ ۱ه هزار فوتی که برای یک خانه ی سرینه و پرفر دورر طیه شد ت.",
+      "keywords": [
+        "پراسیت ویللا",
+        "،، پرر",
+        "،، ت،،، ورکزل",
+        "،، بولما"
+      ],
+      "category": "طراحی محصول",
       "importance": "پایین"
     },
     {
@@ -63,233 +169,93 @@
       "importance": "پایین"
     },
     {
-      "title": "\"From Void to Value: Revisioning Tallinn's Old Town\" Vision Competition Exhibition",
-      "url": "https://www.archdaily.com/1187379/from-void-to-value-revisioning-tallinns-old-town-vision-competition-exhibition",
-      "source": "ArchDaily",
-      "published": "2026-10-22T09:15:00+00:00",
-      "summary": "VISION COMPETITION EXHIBITION The Vision Competition Exhibition, entitled “From Void to Value: Revisioning Tallinn’s Old Town”, is presented at the Tammsaare Park Outdoor Gallery in Tallinn opening on 16 October and running until 12 November 2026. The exhibition presents proposals addressing one of the most contested urban sites in Tallinn’s historic centre: the southern edge of the Old Town, where an unresolved urban void continues to interrupt the connection between the medieval core and the surrounding city. Responding to TAB 2026’s overarching theme “How Much?”, the competition explored th",
-      "keywords": [],
-      "category": "مسابقات طراحی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "Designing Nusantara: The Making of Indonesia's New Capital",
-      "url": "https://www.archdaily.com/1187302/designing-nusantara-the-making-of-indonesias-new-capital",
-      "source": "ArchDaily",
-      "published": "2026-10-22T09:10:00+00:00",
-      "summary": "What does it take to design a capital city for a culturally diverse nation from the ground up? This book offers a rare, behind-the-scenes look at Nusantara, the new capital of Indonesia, told through the eyes of the lead designer from its earllest conception to its current development. Moving beyond public headlines, the narrative traces the transformation of Nusantara from its first conceptual sketches to monumental realization of foundations being laid on site. Readers are invited to unpack the intricate urban vision and complex planning processes that have defined this “Forest City.” The bo",
+      "title": "Aery’s Office Chair Offers a Fit You Can Actually Fine-Tune",
+      "url": "https://www.yankodesign.com/2026/10/23/aerys-office-chair-offers-a-fit-you-can-actually-fine-tune/?utm_source=rss&utm_medium=rss&utm_campaign=aerys-office-chair-offers-a-fit-you-can-actually-fine-tune",
+      "source": "Yanko Design",
+      "published": "2026-10-23T08:15:11+00:00",
+      "summary": "Aery’s Office Chair Offers a Fit You Can Actually Fine-Tune A desk setup can look perfect and still feel wrong by lunch. The monitor is aligned, the cables are hidden, and the chair matches the...",
       "keywords": [],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "Open Call for Artist Participation in the 19th Istanbul Biennial",
-      "url": "https://www.archdaily.com/1187301/open-call-for-artist-participation-in-the-19th-istanbul-biennial",
-      "source": "ArchDaily",
-      "published": "2026-10-22T09:05:00+00:00",
-      "summary": "The open call for the 19th Istanbul Biennial aims to deepen a particular line of research within the Biennial’s broader conceptual framework. In their invitation text to artists, the curators state: “Art cannot end wars or resolve their underlying causes, but it can open spaces for dissent, doubt, and the imagination of alternatives. Looking at war through art carries a historical responsibility, as well as a practical value, since it can keep in view what official accounts leave out. By setting individual recollections aside—and at times against—the memories that communities and states constr",
+      "title": "INMO GO3 AI Glasses Review: Putting Information in Your Line of Sight",
+      "url": "https://www.yankodesign.com/2026/10/22/inmo-go3-ai-glasses-review-putting-information-in-your-line-of-sight/?utm_source=rss&utm_medium=rss&utm_campaign=inmo-go3-ai-glasses-review-putting-information-in-your-line-of-sight",
+      "source": "Yanko Design",
+      "published": "2026-10-23T01:45:28+00:00",
+      "summary": "INMO GO3 AI Glasses Review: Putting Information in Your Line of Sight Looking down at a phone to translate a conversation can interrupt the exchange it’s supposed to help. Reading presentation notes creates a similar problem, pulling...",
+      "keywords": [],
+      "category": "هوش مصنوعی در طراحی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "Chess Without a Flat Board: Turner’s Rotating Tower Concept",
+      "url": "https://www.yankodesign.com/2026/10/22/chess-without-a-flat-board-turners-rotating-tower-concept/?utm_source=rss&utm_medium=rss&utm_campaign=chess-without-a-flat-board-turners-rotating-tower-concept",
+      "source": "Yanko Design",
+      "published": "2026-10-23T00:30:38+00:00",
+      "summary": "Chess Without a Flat Board: Turner’s Rotating Tower Concept A blue king sticks straight out from a checkerboard cylinder, looking remarkably composed for a piece that should be falling onto the table. That sideways...",
       "keywords": [],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "Learning from Capitalism: How Postmodern Architecture Became the Language of American Business",
-      "url": "https://www.archdaily.com/1187113/learning-from-capitalism-how-postmodern-architecture-became-the-language-of-american-business",
-      "source": "ArchDaily",
-      "published": "2026-10-22T07:30:00+00:00",
-      "summary": "In 1972, Robert Venturi, Denise Scott Brown , and Steven Izenour published Learning from Las Vegas , challenging architects to reconsider the underappreciated, largely dismissed commercial landscape in the United States . Their storied distinction between the \"duck,\" a building whose form communicates its meaning, and the \"decorated shed,\" an ordinary structure whose identity is conveyed through signs and symbols, questioned a widely accepted modernist assumption that architectural expression should emerge from form and function. By examining billboards, neon lights, casinos, and the commercia",
+      "title": "Casa Sima Fits Into a Mexican Forest Without Cutting Down a Single Tree",
+      "url": "https://www.yankodesign.com/2026/10/22/casa-sima-fits-into-a-mexican-forest-without-cutting-down-a-single-tree/?utm_source=rss&utm_medium=rss&utm_campaign=casa-sima-fits-into-a-mexican-forest-without-cutting-down-a-single-tree",
+      "source": "Yanko Design",
+      "published": "2026-10-22T23:30:10+00:00",
+      "summary": "Casa Sima Fits Into a Mexican Forest Without Cutting Down a Single Tree The trees came first at Casa Sima, and Dosorozco let them determine where the house could go. Set on a wooded slope in Mexico’s Sierra...",
       "keywords": [],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "Aalok Farmhouse / Nodecraft Studio",
-      "url": "https://www.archdaily.com/1186827/aalok-farmhouse-nodecraft-studio",
-      "source": "ArchDaily",
-      "published": "2026-10-22T07:00:00+00:00",
-      "summary": "Aalok Farmhouse is a 3-bedroom weekend home located on the outskirts of Bengaluru that reinterprets the farmhouse typology through a series of independent pavilions connected by landscape. Rather than treating the outdoors as an extension of the built form, the project allows courtyards, trees and open thresholds to define the architecture. Designed as a retreat for family use and occasional business gatherings, the residence required a balance between privacy and collective interaction. This led the design to move away from the conventional farmhouse model of enclosed rooms connected through",
+      "title": "Apple’s next iPad mini could lose the speaker grilles — and finally gain water resistance",
+      "url": "https://www.yankodesign.com/2026/10/22/apples-next-ipad-mini-could-lose-the-speaker-grilles-and-finally-gain-water-resistance/?utm_source=rss&utm_medium=rss&utm_campaign=apples-next-ipad-mini-could-lose-the-speaker-grilles-and-finally-gain-water-resistance",
+      "source": "Yanko Design",
+      "published": "2026-10-22T22:30:47+00:00",
+      "summary": "Apple’s next iPad mini could lose the speaker grilles — and finally gain water resistance Apple has a long history of deleting holes. The headphone jack went in 2016, the same year the MacBook Pro traded its HDMI, SD card,...",
       "keywords": [],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "Restoring Views at Neutra’s Corwin House with Sky-Frame",
-      "url": "https://www.archdaily.com/1186757/restoring-views-at-neutras-corwin-house-with-sky-frame",
-      "source": "ArchDaily",
-      "published": "2026-10-22T06:45:00+00:00",
-      "summary": "About an hour's drive from New York, the Corwin House sits in hilly woodland high above the Saugatuck River. Completed by Richard Neutra in 1956, it is one of only three houses the architect built in Connecticut. Architectural designer Aziz Osko has updated the house , revisiting details from Neutra's original design that were never built.",
+      "title": "Leica’s new Formula 1 camera brings carbon fiber and racing-inspired DNA to photography",
+      "url": "https://www.yankodesign.com/2026/10/22/leicas-new-formula-1-camera-brings-carbon-fiber-and-racing-inspired-dna-to-photography/?utm_source=rss&utm_medium=rss&utm_campaign=leicas-new-formula-1-camera-brings-carbon-fiber-and-racing-inspired-dna-to-photography",
+      "source": "Yanko Design",
+      "published": "2026-10-22T21:30:36+00:00",
+      "summary": "Leica’s new Formula 1 camera brings carbon fiber and racing-inspired DNA to photography Leica and Formula 1 have combined their expertise for a special-edition camera that brings the visual language of motorsports to premium photography. The Leica Q3...",
       "keywords": [],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "COP31 در أنتالیا برگزار می‌شود",
-      "url": "https://www.archdaily.com/1187334/cop31-to-take-place-in-antalya-turkiye-as-sp-architects-adapts-former-expo-grounds",
-      "source": "ArchDaily",
-      "published": "2026-10-22T06:30:00+00:00",
-      "summary": "نشست COP31 در أنتالیا ترکیه از ۹ تا ۲۰ نوامبر ۲۰۲۶ برگزار می‌شود که ترکیه میزبان و رئیس‌جمهوری است و استرالیا منعکس‌کننده مذاکرات فرمی است. این نشست تحت یک مدل مدیریت مشترک برگزار می‌شود که هدف آن مبارزه با تغییر اقلیمی است.",
-      "keywords": [
-        "COP31",
-        "تغییر اقلیمی",
-        "ترکیه",
-        "انتالیا",
-        "مذاکرات کلیماتی"
-      ],
-      "category": "همایش‌ها و رویدادها",
-      "importance": "بالا"
-    },
-    {
-      "title": "مدرنیزاسیون مرکز صنعتی موکوتوف در ورشو",
-      "url": "https://www.archdaily.com/1186424/modern-mokotow-bbgk-architekci",
-      "source": "ArchDaily",
-      "published": "2026-10-22T06:00:00+00:00",
-      "summary": "پروژه Modern Mokotów توسط شرکت BBGK Architekci به‌روزرسانی فضاهای صنعتی مجتمع Służewiec Przemysłowy در ورشو را انجام می‌دهد. طرح‌ریزی شامل دوباره‌تعریف فضاهای صنعی برای استفاده‌های مسکونی و تجاری است.",
-      "keywords": [
-        "موکوتوف",
-        "ورشو",
-        "BBGK Architekci",
-        "فضای صنعتی",
-        "معماری شهری"
-      ],
-      "category": "سایر",
-      "importance": "متوسط"
-    },
-    {
-      "title": "ازایشن Grand Opera House شین‌هین از سوی Snøhetta افتتاح شد",
-      "url": "https://www.archdaily.com/1187318/snohettas-shanghai-grand-opera-house-opens-and-chicagos-1901-project-advances-this-weeks-review",
-      "source": "ArchDaily",
-      "published": "2026-10-22T05:30:00+00:00",
-      "summary": "ازایشن Grand Opera House شین‌هین در حاشیه رودخانه Huangpu در شین‌هین چین افتتاح شد. این ساختمان فرهنگی جهانی پس از یک فرآیند ساخت ده‌ساله به‌صورت عمومی در تاریخ ۱۷ اکتبر ۲۰۲۶ باز شد.",
-      "keywords": [
-        "Snøhetta",
-        "ازایشن Grand Opera House",
-        "شین‌هین",
-        "رودخانه Huangpu",
-        "فرهنگ مردمی"
-      ],
-      "category": "سایر",
-      "importance": "متوسط"
-    },
-    {
-      "title": "Seaside House ارتباط بین سنگ، چوب و مناظر ساحلی را بررسی می‌کند",
-      "url": "https://www.archdaily.com/1186838/how-seaside-house-explores-the-relationship-between-brick-wood-and-the-coastal-landscape",
-      "source": "ArchDaily",
-      "published": "2026-10-22T05:00:00+00:00",
-      "summary": "خانة Seaside House در Höllviken، ساحل جنوبی سوئد، با ترکیب سنگ و چوب حس دائمی معماری را با بافت‌های محیطی ساحلی ایجاد می‌کند. این خانه نحوه‌ی تعامل مواد و نور را در فضاهای مسکونی کاوش می‌کند.",
-      "keywords": [
-        "Seaside House",
-        "Höllviken",
-        "سوئد",
-        "سنگ و چوب",
-        "مناظر ساحلی"
-      ],
-      "category": "طراحی محصول",
-      "importance": "متوسط"
-    },
-    {
-      "title": "Small Houses in Uruguay: How Three Studios Build Light on Rural and Coastal Sites",
-      "url": "https://www.archdaily.com/1187165/small-houses-in-uruguay-how-three-studios-build-light-on-rural-and-coastal-sites",
-      "source": "ArchDaily",
-      "published": "2026-10-22T04:00:00+00:00",
-      "summary": "In Uruguay , small-scale residential projects increasingly occupy rural and coastal landscapes, from the hills of Villa Serrana to the maritime forests along the Atlantic coast. Building in these areas often requires structural materials that balance durability, thermal efficiency, and transport feasibility. In these environments, projects rely heavily on materials such as engineered timber framing, steel structural members, exterior wood cladding, or offsite fabrication. These design choices not only help to reduce the weight of raw materials that must be transported over unpaved access roads",
+      "title": "Daft Punk’s iconic Coachella pyramid stage is becoming an official LEGO set in 2027",
+      "url": "https://www.yankodesign.com/2026/10/22/daft-punks-iconic-coachella-pyramid-stage-is-becoming-an-official-lego-set-in-2027/?utm_source=rss&utm_medium=rss&utm_campaign=daft-punks-iconic-coachella-pyramid-stage-is-becoming-an-official-lego-set-in-2027",
+      "source": "Yanko Design",
+      "published": "2026-10-22T20:30:07+00:00",
+      "summary": "Daft Punk’s iconic Coachella pyramid stage is becoming an official LEGO set in 2027 Daft Punk’s debut album Homework turns 30 on January 20, 2027, and the robots have picked a pretty good year to show up in LEGO...",
       "keywords": [],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "ویلا Sanlomjoy توسط Yangnar Studio ساخته شد",
-      "url": "https://www.archdaily.com/1187087/villa-sanlomjoy-yangnar-studio",
-      "source": "ArchDaily",
-      "published": "2026-10-22T03:00:00+00:00",
-      "summary": "خانه Sanlomjoy در Yangnar Studio از یادآوری‌های کودکی ساخته شده است و اولین قدمش جمع‌آوری درها و پنجره‌های چوبی بازیافتی بوده است. این خانه ترکیبی از سبک اروپایی با معماری سنتی میانه است.",
-      "keywords": [
-        "Villa Sanlomjoy",
-        "Yangnar Studio",
-        "درهای چوبی",
-        "معماری میانه",
-        "طراحی مسکونی"
-      ],
-      "category": "طراحی محصول",
-      "importance": "متوسط"
-    },
-    {
-      "title": "خانه Minamigata توسط Yutaka Yoshida طراحی شد",
-      "url": "https://www.archdaily.com/1186226/house-in-minamigata-yutaka-yoshida-architect-and-associates",
-      "source": "ArchDaily",
-      "published": "2026-10-22T02:00:00+00:00",
-      "summary": "این خانه‌ی کوچک در گوشه‌ی یک شهر کوچک بین خطوط سریع ژاپنی و خطوط راه‌آهن ساخته شده است. نزدیکی به مسیر Greenway Nishikawa که از مرکز شهر Okayama عبور می‌کند.",
-      "keywords": [
-        "Minamigata",
-        "Yutaka Yoshida",
-        "خانه‌ی کوچک",
-        "Okayama",
-        "طراحی مسکونی"
-      ],
-      "category": "طراحی محصول",
-      "importance": "متوسط"
-    },
-    {
-      "title": "فضاهای استراحت در داخل خانه‌ها مهم است",
-      "url": "https://www.archdaily.com/1182304/integrating-wellness-into-residential-interiors",
-      "source": "ArchDaily",
-      "published": "2026-10-22T01:30:00+00:00",
-      "summary": "رفاه شخصی دیگر محدود به رزورها، اسپاها یا فضاهای پذیرایی نمی‌شود. امروزه بخشی ضروری از زندگی مدرن است و افراد را به ایجاد فضاهای خصوصی برای استراحت و بهداشت شخصی ترغیب می‌کند.",
-      "keywords": [
-        "فضای استراحت",
-        "رفاه شخصی",
-        "طراحی داخلی",
-        "Lemi",
-        "فضاهای خصوصی"
-      ],
-      "category": "طراحی محصول",
-      "importance": "متوسط"
-    },
-    {
-      "title": "رستوران 7th door در هانژو توسط Chakchak Studio طراحی شد",
-      "url": "https://www.archdaily.com/1186809/7th-door-hangzhou-chakchak-studio",
-      "source": "ArchDaily",
-      "published": "2026-10-22T00:00:00+00:00",
-      "summary": "رستوران 7th door Hangzhou در نزدیکی دریاچه West Lake در مرکز شهر هانژو چین قرار دارد. این رستوران در کنار Meihuatang که یک میراث فرهنگی مدرن ثبت‌شده است.",
-      "keywords": [
-        "7th door",
-        "Hangzhou",
-        "Chakchak Studio",
-        "رستوران",
-        "غذای چینی"
-      ],
-      "category": "طراحی پزشکی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "رطوبت در هوا سرخ موفق Midea جایزه گرفت",
+      "title": "Moisture is the secret ingredient in Midea’s award-winning air fryer",
       "url": "https://www.yankodesign.com/2026/10/22/moisture-is-the-secret-ingredient-in-mideas-award-winning-air-fryer/?utm_source=rss&utm_medium=rss&utm_campaign=moisture-is-the-secret-ingredient-in-mideas-award-winning-air-fryer",
       "source": "Yanko Design",
       "published": "2026-10-22T19:20:02+00:00",
-      "summary": "رطوبت مهم‌ترین عامل در هوا سرخ موفق Midea است که جایزه طراحی دریافت کرده است. این فناوری استریامینگ کهن چینی را با روش‌های مدرن ترکیب می‌کند.",
-      "keywords": [
-        "Midea",
-        "هوا سرخ",
-        "رطوبت",
-        "جایزه طراحی",
-        "آشپزی چینی"
-      ],
-      "category": "طراحی محصول",
+      "summary": "Moisture is the secret ingredient in Midea’s award-winning air fryer Steaming is about as old as Chinese cooking gets. Bamboo baskets stacked over a wok have been turning out buns, dumplings, and whole fish for...",
+      "keywords": [],
+      "category": "جوایز طراحی",
       "importance": "متوسط"
     },
     {
-      "title": "بازی Game Boy Color با صفحه نمایش OLED و شارژ بی‌سیم",
+      "title": "DIY Modded Game Boy Color has an OLED screen, USB-C, and wireless charging",
       "url": "https://www.yankodesign.com/2026/10/22/diy-modded-game-boy-color-has-an-oled-screen-usb-c-and-wireless-charging/?utm_source=rss&utm_medium=rss&utm_campaign=diy-modded-game-boy-color-has-an-oled-screen-usb-c-and-wireless-charging",
       "source": "Yanko Design",
       "published": "2026-10-22T18:20:35+00:00",
-      "summary": "یک Game Boy Color بازسازی شده‌ی دستی شامل صفحه نمایش OLED، شارژ USB-C و شارژ بی‌سیم است. این پروژه توسط Zac Builds انجام شده است.",
-      "keywords": [
-        "Game Boy Color",
-        "OLED",
-        "USB-C",
-        "شارژ بی‌سیم",
-        "DIY"
-      ],
-      "category": "لوازم الکترونیکی",
+      "summary": "DIY Modded Game Boy Color has an OLED screen, USB-C, and wireless charging Last year Zac Builds took a fifth-gen iPod, gutted it, and handed it back to the world with USB-C, Bluetooth, and a transparent face that...",
+      "keywords": [],
+      "category": "سایر",
       "importance": "پایین"
     },
     {
@@ -323,111 +289,371 @@
       "importance": "پایین"
     },
     {
-      "title": "$200,000 Roamer X is one hell of a solar-powered off-road trailer with cozy fireplace",
+      "title": "تریلر آفرود Roamer X با انرژی خورشیدی و شومینه",
       "url": "https://www.yankodesign.com/2026/10/22/200000-roamer-x-is-one-hell-of-a-solar-powered-off-road-trailer-with-cozy-fireplace/?utm_source=rss&utm_medium=rss&utm_campaign=200000-roamer-x-is-one-hell-of-a-solar-powered-off-road-trailer-with-cozy-fireplace",
       "source": "Yanko Design",
       "published": "2026-10-22T14:20:09+00:00",
-      "summary": "$200,000 Roamer X is one hell of a solar-powered off-road trailer with cozy fireplace When the pavement ends, the fun begins! That is a bold statement. For a camping trailer designed for all terrain types, that can be more...",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
+      "summary": "تریلر Roamer X یک محصول لوکس برای مسیرهای ناهموار است که از انرژی خورشیدی استفاده می‌کند. این تریلر دارای امکانات رفاهی از جمله یک شومینه دنج برای کمپینگ است. طراحی آن برای تجربه‌ای متفاوت در طبیعت ساخته شده است.",
+      "keywords": [
+        "تریلر آفرود",
+        "انرژی خورشیدی",
+        "طراحی محصول",
+        "کمپینگ"
+      ],
+      "category": "طراحی محصول",
+      "importance": "متوسط"
     },
     {
-      "title": "Solar pavilion concept turns sunbeams into a giant yellow canopy",
+      "title": "کانسپت پاویون خورشیدی با چتر بزرگ زرد رنگ",
       "url": "https://www.yankodesign.com/2026/10/22/solar-pavilion-concept-turns-sunbeams-into-a-giant-yellow-canopy/?utm_source=rss&utm_medium=rss&utm_campaign=solar-pavilion-concept-turns-sunbeams-into-a-giant-yellow-canopy",
       "source": "Yanko Design",
       "published": "2026-10-22T13:20:22+00:00",
-      "summary": "Solar pavilion concept turns sunbeams into a giant yellow canopy Solar power plants aren’t usually designed around the people who might stop by to understand them. The Solar Electric Visitors Pavilion concept gives those visitors...",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
+      "summary": "این کانسپت طراحی‌شده برای تبدیل نور خورشید به یک سایه‌بان بزرگ و جذاب است. تمرکز این پروژه بر تعامل کاربران با نیروگاه‌های خورشیدی است. طراحی آن تجربه‌ای بصری از انرژی پاک را فراهم می‌کند.",
+      "keywords": [
+        "انرژی خورشیدی",
+        "طراحی معماری",
+        "پایداری و محیط زیست"
+      ],
+      "category": "طراحی صنعتی",
+      "importance": "متوسط"
     },
     {
-      "title": "The 5 Best Travel Tech Gadgets That Earn Their Space in Your Bag",
+      "title": "بهترین گجت‌های تکنولوژی برای سفر",
       "url": "https://www.yankodesign.com/2026/10/22/the-5-best-travel-tech-gadgets-that-earn-their-space-in-your-bag/?utm_source=rss&utm_medium=rss&utm_campaign=the-5-best-travel-tech-gadgets-that-earn-their-space-in-your-bag",
       "source": "Yanko Design",
       "published": "2026-10-22T11:40:59+00:00",
-      "summary": "The 5 Best Travel Tech Gadgets That Earn Their Space in Your Bag The tech pouch is usually where packing light starts to unravel. One charger becomes three, headphones demand their own corner, and a mouse leaves an...",
-      "keywords": [],
-      "category": "سایر",
+      "summary": "بررسی ۵ گجت کاربردی که فضای کمی در کیف اشغال می‌کنند. این ابزارها به مدیریت بهتر تجهیزات الکترونیکی در سفر کمک می‌کنند. تمرکز بر سبک سفر کردن با تکنولوژی‌های کم‌حجم است.",
+      "keywords": [
+        "گجت",
+        "تکنولوژی سفر",
+        "لوازم الکترونیکی"
+      ],
+      "category": "لوازم الکترونیکی",
       "importance": "پایین"
     },
     {
-      "title": "MOFT Snap Fold Gives the iPhone Duo a Wallet That Doubles as a Stand",
+      "title": "کیف پول و استند MOFT Snap Fold برای iPhone",
       "url": "https://www.yankodesign.com/2026/10/22/moft-snap-fold-gives-the-iphone-duo-a-wallet-that-doubles-as-a-stand/?utm_source=rss&utm_medium=rss&utm_campaign=moft-snap-fold-gives-the-iphone-duo-a-wallet-that-doubles-as-a-stand",
       "source": "Yanko Design",
       "published": "2026-10-22T10:07:16+00:00",
-      "summary": "MOFT Snap Fold Gives the iPhone Duo a Wallet That Doubles as a Stand Folding phones ask accessories to work around a rather awkward shape, especially when you want to attach a wallet below the cameras. MOFT’s Snap Fold...",
-      "keywords": [],
-      "category": "سایر",
+      "summary": "محصول جدید MOFT به عنوان کیف پول و استند برای گوشی‌های iPhone طراحی شده است. این اکسسوری چالش استفاده از لوازم جانبی در گوشی‌های تاشو را حل می‌کند. طراحی آن بسیار منعطف و کاربردی است.",
+      "keywords": [
+        "MOFT",
+        "لوازم جانبی",
+        "iPhone",
+        "طراحی محصول"
+      ],
+      "category": "طراحی اکسسوری",
+      "importance": "متوسط"
+    },
+    {
+      "title": "پروژه دانشجویی طراحی سینک تاشو",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbUwwVG8zcVE0VS1TQ2xyNlF2VDZleVlFUTdnTWpUR0U4Z0hKdXhUc2Y1N2Y4MU9GRXBkcDg0N1RxVWhJYlVxX3AwOE45QnhBNHJ4SUwyTTB5MXMtVHBJSWpvcFZBaUdBX2ZqYVlxdWhtS19WeEEzMFdmVDVQaGxKMkwxc3Q2MlRBNlJST2JrcXgtU1FEd3Q3Q2dpVVNLSklhcEtXMnRjVkw2TkpWc05VaWMyd2p2LVE1Y2V6SjN3?oc=5",
+      "source": "Google News: industrial design",
+      "published": "2026-10-22T17:50:20+00:00",
+      "summary": "نمایش کار دانشجویی در حوزه طراحی صنعتی با تمرکز بر سینک تاشو. این پروژه راهکاری برای صرفه‌جویی در فضا ارائه می‌دهد. تمرکز بر عملکرد و مکانیسم‌های حرکتی است.",
+      "keywords": [
+        "طراحی صنعتی",
+        "طراحی محصول",
+        "کار دانشجویی"
+      ],
+      "category": "طراحی محصول",
       "importance": "پایین"
     },
     {
-      "title": "C+C Coffee Machine Concept Turns Hidden Wiring Into Art",
-      "url": "https://www.yankodesign.com/2026/10/22/cc-coffee-machine-concept-turns-hidden-wiring-into-art/?utm_source=rss&utm_medium=rss&utm_campaign=cc-coffee-machine-concept-turns-hidden-wiring-into-art",
-      "source": "Yanko Design",
-      "published": "2026-10-22T09:15:54+00:00",
-      "summary": "C+C Coffee Machine Concept Turns Hidden Wiring Into Art Blue lines double back across a white interior. Red coils sit behind them, while a yellow band bends around the top. Jaka Kordiš’s C+C coffee...",
-      "keywords": [],
-      "category": "سایر",
+      "title": "سمپوزیوم ۲۵ سال طراحی صنعتی در TU/e",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPMUZ5Rkp5QjNQVWpJNHR1b0ZxZk1jcmJqZ2o5R3hBNVM4aDNRcTZvVGpJdjI1TGtKVExyNl9qa0d4Y1hVZW5ZMTRZb291MGZFaFhHUGhtaHYxbmUyS01VWnpSZnF2Yzg4c3FOX0lGdGVSeU1BQUoyV2xaQkE5R2JrSjZOSVdWU2xBM2hGdjktVEpVUlhfUDFQWVZsQkktSTBGZFAyMV8zeXRxSkFtN0ZxYVlHV2FmRGc1elRoNkp2NTZ4NTF5MlIxWXgtbXVfY2NGRndHRV9LanJIZkxrbTNVYTJxT1FhN0I0SnhFRnNTTlJ6Q1RVTnJ1Zkk2TGozX0U?oc=5",
+      "source": "Google News: industrial design",
+      "published": "2026-10-22T19:25:10+00:00",
+      "summary": "دانشگاه Eindhoven برگزاری سمپوزیومی را برای مرور ۲۵ سال طراحی صنعتی جشن می‌گیرد. این رویداد به بررسی گذشته، حال و آینده این رشته می‌پردازد. یک گردهمایی علمی برای متخصصان حوزه طراحی است.",
+      "keywords": [
+        "همایش‌ها و رویدادها",
+        "طراحی صنعتی",
+        "دانشگاه"
+      ],
+      "category": "همایش‌ها و رویدادها",
       "importance": "پایین"
     },
     {
-      "title": "Prolo Ring Lets You Click and Scroll Without a Mouse",
-      "url": "https://www.yankodesign.com/2026/10/22/prolo-ring-lets-you-click-and-scroll-without-a-mouse/?utm_source=rss&utm_medium=rss&utm_campaign=prolo-ring-lets-you-click-and-scroll-without-a-mouse",
-      "source": "Yanko Design",
-      "published": "2026-10-22T08:15:08+00:00",
-      "summary": "Prolo Ring Lets You Click and Scroll Without a Mouse There are days when you work on just your laptop. And then there are days when you have to switch between different devices and therefore...",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
+      "title": "تأثیر مدیریت جدید Apple بر محصولات",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUWZ2Nk1DZHFQeGJheEFCZnppazB3eUNqcDVuYmhWdGdwSWZRd1lvMHEtS1ByNGNXVGVxdUdjQzFUNTNTcjVhUExtb1hvT09oT1U4ZTk4NWNfQldaV3MzdEdRYVQtTlVFYlktM1pEdnlncXNOY3NTeUQ1QUNRT3VkYm84WjRRRW9tZ1NzWnV6MDl3QQ?oc=5",
+      "source": "Google News: industrial design",
+      "published": "2026-10-22T10:35:50+00:00",
+      "summary": "تحلیل تغییرات در رهبری شرکت Apple و پیامدهای آن برای طراحی محصولات. این گزارش به بررسی جهت‌گیری‌های آینده محصولات این برند می‌پردازد. تأثیر ساختار مدیریتی بر نوآوری محصول بررسی شده است.",
+      "keywords": [
+        "Apple",
+        "کسب‌وکار",
+        "طراحی محصول"
+      ],
+      "category": "کسب‌وکار",
+      "importance": "متوسط"
     },
     {
-      "title": "Meet Draco, the 90mm smart telescope that wakes itself up to shoot the night while you sleep",
-      "url": "https://www.yankodesign.com/2026/10/21/meet-draco-the-90mm-smart-telescope-that-wakes-itself-up-to-shoot-the-night-while-you-sleep/?utm_source=rss&utm_medium=rss&utm_campaign=meet-draco-the-90mm-smart-telescope-that-wakes-itself-up-to-shoot-the-night-while-you-sleep",
-      "source": "Yanko Design",
-      "published": "2026-10-22T01:45:39+00:00",
-      "summary": "Meet Draco, the 90mm smart telescope that wakes itself up to shoot the night while you sleep About 4,500 years ago, while the Egyptians were busy stacking pyramids, the North Star was a completely different star called Thuban. It sat in the...",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
+      "title": "طراحی همزیستانه با طبیعت و موجودات دیگر",
+      "url": "https://www.designboom.com/editorials/planet-mutualism-posthuman-utopias/",
+      "source": "Designboom",
+      "published": "2026-10-22T10:53:50+00:00",
+      "summary": "نگاهی به طراحی از دیدگاه موجودات غیرانسانی مانند حیوانات. این مفهوم بر ایجاد تعادل بین معماری و اکوسیستم تمرکز دارد. رویکردی نو در طراحی برای پایداری محیط زیست.",
+      "keywords": [
+        "پایداری و محیط زیست",
+        "طراحی بیوفیلیک",
+        "طراحی صنعتی"
+      ],
+      "category": "پایداری و محیط زیست",
+      "importance": "متوسط"
     },
     {
-      "title": "The 5 Best Home Office Upgrades of October 2026 That Don’t Look Like Office Equipment",
-      "url": "https://www.yankodesign.com/2026/10/21/the-5-best-home-office-upgrades-of-october-2026-that-dont-look-like-office-equipment/?utm_source=rss&utm_medium=rss&utm_campaign=the-5-best-home-office-upgrades-of-october-2026-that-dont-look-like-office-equipment",
-      "source": "Yanko Design",
-      "published": "2026-10-21T23:30:22+00:00",
-      "summary": "The 5 Best Home Office Upgrades of October 2026 That Don’t Look Like Office Equipment A laptop stand can be useful all day and still feel like an unwelcome guest at dinner. That’s the problem with building a home office...",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
+      "title": "گوشی آجری سه بعدی ADHD ONE برای تمرکز",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBWbmFNTGJJNDhpN19WR1RfYmQwaElmYnlCNkk1OFZSdU9hempPRF9sb2lIenVlaDNFQ1FpVjFJRTM3bkRtUWQ3M3V4YThDeFc1NlZLck40RFdSTFVTMGlNUDdNTVZ2eUJGX0hyUHVvV0RIYUQ4NzZHZjc0SXM2QQ?oc=5",
+      "source": "Google News: industrial design",
+      "published": "2026-10-22T10:52:34+00:00",
+      "summary": "گوشی Kevin Noki با چاپ سه بعدی طراحی شده تا حواس‌پرتی را کاهش دهد. این محصول با تمرکز بر کاربرانی که با ADHD درگیر هستند ساخته شده است. طراحی آن ساده و بدون امکانات اضافی است.",
+      "keywords": [
+        "چاپ سه بعدی",
+        "طراحی محصول",
+        "تکنولوژی"
+      ],
+      "category": "طراحی محصول",
+      "importance": "متوسط"
     },
     {
-      "title": "Houston’s Proposed O27 Skyscraper Turns Triangular Glass Into a Rippling Facade",
-      "url": "https://www.yankodesign.com/2026/10/21/houstons-proposed-o27-skyscraper-turns-triangular-glass-into-a-rippling-facade/?utm_source=rss&utm_medium=rss&utm_campaign=houstons-proposed-o27-skyscraper-turns-triangular-glass-into-a-rippling-facade",
-      "source": "Yanko Design",
-      "published": "2026-10-21T22:30:26+00:00",
-      "summary": "Houston’s Proposed O27 Skyscraper Turns Triangular Glass Into a Rippling Facade A grid of triangular glass panels follows O27’s swelling, pinched silhouette, making the proposed Houston skyscraper look almost elastic. Designed by Austin-based STG Design for...",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
+      "title": "فراخوان جایزه طراحی iF Design Award 2027",
+      "url": "https://www.dezeen.com/2026/10/23/if-design-award-2027-calls-for-projects/",
+      "source": "Dezeen",
+      "published": "2026-10-23T04:00:00+00:00",
+      "summary": "دوره جدید جایزه معتبر iF Design با تمرکز بر فراتر رفتن از زیبایی‌شناسی آغاز شد. این جایزه شامل ۹۳ دسته‌بندی مختلف در معماری و طراحی است. مهلت ارسال آثار تا نوامبر مشخص شده است.",
+      "keywords": [
+        "iF Design Award",
+        "جوایز طراحی",
+        "طراحی صنعتی"
+      ],
+      "category": "جوایز طراحی",
+      "importance": "بالا"
     },
     {
-      "title": "A Stained-Glass Caution Sign You’ll Actually Stop to Admire",
-      "url": "https://www.yankodesign.com/2026/10/21/a-stained-glass-caution-sign-youll-actually-stop-to-admire/?utm_source=rss&utm_medium=rss&utm_campaign=a-stained-glass-caution-sign-youll-actually-stop-to-admire",
-      "source": "Yanko Design",
-      "published": "2026-10-21T21:30:19+00:00",
-      "summary": "A Stained-Glass Caution Sign You’ll Actually Stop to Admire The amber shadow on the sidewalk is almost as appealing as the object casting it. Hayden Clay Williams’ stained-glass caution sign takes the familiar folding...",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
+      "title": "برندگان جایزه Red Dot 2026 در حمل‌ونقل ریلی",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNFZ1QTlzX3FidWlCWFRPNjRNUWIyZzBMZVYwNkt5ZUVGUnBvdUxyc3lNVkVXRVJDTUlmVVhSRG1JTUpzbFNkUjVUMXByMkIwdlZ6TU9kSTRteEFNTC1ldVAtUkc2d2ZWZFRwbUQ4ZzhuRko4bnhXY1l4YTdQOU9iLUhCZU56R3pIdGRLN0ZFSEJOS01Ya09YSVlodVdoSnRyX2pv?oc=5",
+      "source": "Google News: product design award",
+      "published": "2026-10-23T08:33:04+00:00",
+      "summary": "معرفی برندگان جایزه طراحی Red Dot در حوزه قطار و حمل‌ونقل ریلی. این جوایز به طراحی‌های برتر و نوآورانه در صنعت ریلی اختصاص یافته است. نمایش نمونه‌های برتر طراحی صنعتی در این حوزه.",
+      "keywords": [
+        "Red Dot",
+        "طراحی صنعتی",
+        "حمل و نقل ریلی"
+      ],
+      "category": "جوایز طراحی",
+      "importance": "بالا"
     },
     {
-      "title": "Lego’s new $160 Fast & Furious Dodge Charger takes family time very seriously",
-      "url": "https://www.yankodesign.com/2026/10/21/legos-new-160-fast-furious-dodge-charger-takes-family-time-very-seriously/?utm_source=rss&utm_medium=rss&utm_campaign=legos-new-160-fast-furious-dodge-charger-takes-family-time-very-seriously",
-      "source": "Yanko Design",
-      "published": "2026-10-21T20:30:24+00:00",
-      "summary": "Lego’s new $160 Fast & Furious Dodge Charger takes family time very seriously The 1968 Dodge Charger almost died as a clay model. Designer Richard Sias sculpted a 1/10th scale study, and Dodge styling boss Bill Brownlie ordered...",
+      "title": "آغاز ثبت‌نام جوایز طراحی iF برای سال 2027",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwbkJMbEZTOXVYZzNNWWRuR3NDTWpaTFdEWmpQNkFTRy1mempzWWJuT0ZYZ1ZvNGl4MWxoREZGOWVzZ29Ka0lEVnZkRWNoQUp4cmZzc0thZk0zVDU1RGJVci1QY1AzT2EtNVpqTTQzc0tsRGF6TnBwOVMzRkpIYlk?oc=5",
+      "source": "Google News: product design award",
+      "published": "2026-10-23T07:45:14+00:00",
+      "summary": "فراخوان جایزه طراحی آلمان با هدف ارتقای نوآوری فراتر از زیبایی‌شناسی باز شد. این رقابت بر کیفیت عملکرد و خلاقیت تمرکز دارد. فرصتی برای طراحان جهت نمایش استعدادهای خود.",
+      "keywords": [
+        "iF Design Awards",
+        "جوایز طراحی",
+        "نوآوری"
+      ],
+      "category": "جوایز طراحی",
+      "importance": "بالا"
+    },
+    {
+      "title": "فهرست نامزدهای CI AWARDS 2026 برای تأمین‌کننده سال",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQWJ6a2N1UTRoREJvTms3OVFOQzZZUUgzeF9jUVdCMWNSTDJWNEpYRnNEUk41amxGR0o0UWoxZ0Y3XzMyYy1nWDY1TEYtQ0FpYUVQSTlfY016a2NPYy1vcXh5X2I4cDdfX2luZ3dkVkstU1dYMDNGUm5iYS1idzl1eDE3YmVHOGkteDlud0J2Mlg2bElDeUJMUXNEckhJQUE?oc=5",
+      "source": "Google News: product design award",
+      "published": "2026-10-22T15:03:59+00:00",
+      "summary": "CI Awards 2026 shortlist includes Supplier of the Year for product development, highlighting Catering Insight as a leading supplier. This recognition underscores innovation in product development within the catering sector.",
+      "keywords": [
+        "جوایز",
+        "تأمین‌کننده",
+        "محصولی",
+        "تأثیر"
+      ],
+      "category": "جوایز طراحی",
+      "importance": "بالا"
+    },
+    {
+      "title": "مادر كانبرا دو گوود ديزاین آوارده را جشن می‌کند",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRXpDTzdoZUlFNlRkb3M2Y25PMno1NDFMTkozTFZwUGFiWXcxeUxCUU1MTE5ua1gxWTBUalhhcm52TlJtdDh3MFRQV1BsbVNxTFRoSkFfSDB2ODM0SGgtWnRucW1ReFhCTXQ2WnRZcHJnLUNuaVZBZHV5TUZVbHNJWkNlbFNwQWN5VEZVOUdzT0dnWkhwVDkzTDhFbnM2NkZhNWFxRHN1SExfZUliOUtJekwxLWlva3ViVlVoOGtxQmJoSU5T?oc=5",
+      "source": "Google News: product design award",
+      "published": "2026-10-23T00:59:31+00:00",
+      "summary": "مادر كانبرا دو گواهینامه‌ی گوود ديزاین را به‌دستی دخترش که الهام‌بخش بود، جشن می‌کند. این موفقیت نشانگر توانایی خلاقانه و مشارکت خانوادگی در طراحی است.",
+      "keywords": [
+        "مادر",
+        "گوود ديزاین",
+        "كانberra",
+        "خانواده",
+        "طراحی"
+      ],
+      "category": "جوایز طراحی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "میکرو کابین ۲۴ متری از کانتینر شیپ‌ینگ با پلت‌وود بختی",
+      "url": "https://www.designboom.com/architecture/repurposed-shipping-container-24-sqm-birch-plywood-micro-cabin-evgeny-makarenko-andris-shneps-shneppe/",
+      "source": "Designboom",
+      "published": "2026-10-23T09:25:26+00:00",
+      "summary": "یک کانتینر شیپ‌ینگ به‌صورت میکرو کابین ۲۴ متری با پلت‌وود بختی تبدیل شد. این پروژه با یک شل داخلی یکپارچه شامل آشپزخانه، شعله‌سوزی و مخازین پنهان طراحی شده است.",
+      "keywords": [
+        "کانتینر",
+        "پلت‌وود",
+        "میکرو کابین",
+        "طراحی پایدار"
+      ],
+      "category": "طراحی محصول",
+      "importance": "متوسط"
+    },
+    {
+      "title": "ران دور Rolls‑Royce Spectre Series II در استکهلم",
+      "url": "https://www.designboom.com/technology/first-drive-rolls-royce-spectre-series-ii-brings-more-range-speed-and-material-craft-to-stockholm/",
+      "source": "Designboom",
+      "published": "2026-10-23T08:55:49+00:00",
+      "summary": "Rolls‑Royce تست رینج ۳۹۰ مایل از سری سِیِک II در استکهلم انجام داد. این مدل جدید با سرعت و پیشرفت در تولید مواد به بازار اضافه شده است.",
+      "keywords": [
+        "رولز‌رویس",
+        "سِیِک II",
+        "استکهلم",
+        "دور زدن",
+        "مواد"
+      ],
+      "category": "طراحی محصول",
+      "importance": "متوسط"
+    },
+    {
+      "title": "رستوران پاریسی با نور قرمز به کلاب شنی تبدیل شد",
+      "url": "https://www.designboom.com/architecture/le-poisson-volant-red-restaurant-paris-nightclub-claves-france/",
+      "source": "Designboom",
+      "published": "2026-10-23T06:15:47+00:00",
+      "summary": "Red‑Lit Restaurant in Paris, called Le Poisson Volant, changes its ambience from dinner to nightclub after dark. The mirrored interior creates a moody atmosphere that supports both dining and dancing.",
+      "keywords": [
+        "Le Poisson",
+        "پاریس",
+        "نور قرمز",
+        "کلاب",
+        "طراحی داخلی"
+      ],
+      "category": "سایر",
+      "importance": "متوسط"
+    },
+    {
+      "title": "گرید فلزی پایلوت شخصي را به بازی مشارکت تبدیل می‌کند",
+      "url": "https://www.designboom.com/art/metal-pipe-grid-personal-rituals-control-participatory-playground-won-ji-lim-shifting-center/",
+      "source": "Designboom",
+      "published": "2026-10-23T02:10:25+00:00",
+      "summary": "سازتر Ji Lim، یک ساز South Korean، روتین‌های شخصی کنترل خود را به محیطی بازی مشارکت‌کنندهٔ پیوسته تبدیل می‌کند. این محیط با شبکه فلزی استادیوم به عنوان یک بازی برای کاربران عمل می‌کند.",
+      "keywords": [
+        "Ji Lim",
+        "فلزی",
+        "بازی",
+        "کنترل",
+        "سازندگی"
+      ],
+      "category": "طراحی محصول",
+      "importance": "متوسط"
+    },
+    {
+      "title": "سرپرست تيون X3 با کلمات دوقلو از تجهیزات استودیو قدیمی",
+      "url": "https://www.designboom.com/technology/tune-x3-headphones-pressec-vintage-studio-equipment/",
+      "source": "Designboom",
+      "published": "2026-10-22T20:35:10+00:00",
+      "summary": "سرپرست تيون X3، سرودی که از تجهیزات استودیو قدیمی الهام می‌گیرد، با فلز آلومینیوم شیک و قطعات آشکار طراحی شده است. این سرپرست صدای واضح و تنظیمات حسگرا ارائه می‌دهد.",
+      "keywords": [
+        "سرپرست",
+        "تيون X3",
+        "پیشSEC",
+        "سنگی",
+        "فلز"
+      ],
+      "category": "طراحی محصول",
+      "importance": "متوسط"
+    },
+    {
+      "title": "موتورسیکلت محدودیت‌دار برند Bandit9 با (RED)",
+      "url": "https://www.designboom.com/technology/bandit9-red-limited-edition-hand-brushed-aluminum-motorcycle-red800/",
+      "source": "Designboom",
+      "published": "2026-10-22T18:10:45+00:00",
+      "summary": "Bandit9 با (RED) یک موتوریک در edición محدود با فولاد آلومینیوم دست‌کش شده ارائه می‌دهد. این مدل با رنگ قرمز رست‌رنگ و سطح آلومینیوم دست‌کش شده تمایز می‌یابد.",
+      "keywords": [
+        "Bandit9",
+        "(RED)",
+        "موتورسیکلت",
+        "آلومینیوم",
+        "محدودیت‌دار"
+      ],
+      "category": "خودرو",
+      "importance": "متوسط"
+    },
+    {
+      "title": "هناید کلی ویلیامز اشیاء معمولی را به سازهای شیشه‌ای می‌کند",
+      "url": "https://www.designboom.com/art/hayden-clay-williams-everyday-objects-stained-glass-sculptures-surrealism/",
+      "source": "Designboom",
+      "published": "2026-10-22T17:00:55+00:00",
+      "summary": "هناید کلی ویلیامز اشیاء معمولی را به‌صورت شیشه‌ای درخشان بازآفرینی می‌کند. این اثر هنری، اشیاء روزمرهٔ مردم را به یک نمایش زیبا تبدیل می‌کند.",
+      "keywords": [
+        "هناید",
+        "کلی ویلیامز",
+        "شیشه",
+        "ساز",
+        "هنر"
+      ],
+      "category": "طراحی محصول",
+      "importance": "متوسط"
+    },
+    {
+      "title": "ایریس ван هرپن طبیعت‌ریتم‌ها را به فرم‌های زیستی برای Perrier‑Jouët",
+      "url": "https://www.designboom.com/design/iris-van-herpen-invisible-rhythms-nature-sculptural-forms-perrier-jouet/",
+      "source": "Designboom",
+      "published": "2026-10-22T14:44:53+00:00",
+      "summary": "ایریس ван هرپن، مپدپندنت، نغمه‌های نامرئی طبیعت را به فرم‌های زیستی برای Perrier‑Jouët تبدیل می‌کند. این پروژه به‌هم‌پوشانی بین طبیعت و طعم‌دار alcoholic beverage نشان می‌دهد.",
+      "keywords": [
+        "ایریس",
+        "van Herpen",
+        "طبیعت",
+        "Perrier‑Jouët",
+        "سازه"
+      ],
+      "category": "طراحی محصول",
+      "importance": "متوسط"
+    },
+    {
+      "title": "Softwall توسط Molo، دیوار پاره‌ای شنیس از پارچه‌ای شنیس",
+      "url": "https://www.designboom.com/design/molo-softwall-flexible-light-responsive-paper-partition-system/",
+      "source": "Designboom",
+      "published": "2026-10-22T10:00:14+00:00",
+      "summary": "Softwall توسط Molo، یک سیستم پارته‌ای شنیس و پاسخ به نور مبتنی بر رنگ‌های آبی طبیعتی طراحی شده است. این دیوار قابل انعطاف و سبک است که به‌صورت ملایم در محیط‌های مختلف استفاده می‌شود.",
+      "keywords": [
+        "Softwall",
+        "Molo",
+        "پارچه",
+        "نور",
+        "پارتیشن"
+      ],
+      "category": "طراحی محصول",
+      "importance": "متوسط"
+    },
+    {
+      "title": "Swizz Beatz با CB2 مجموعه‌ای خلاقانه برای خانه",
+      "url": "https://design-milk.com/swizz-beatz-cb2-casa-dean-collection/",
+      "source": "Design Milk",
+      "published": "2026-10-22T23:45:54+00:00",
+      "summary": "Swizz Beatz و CB2 با هم یک مجموعه خلاقانه برای خانهٔ مدرن طراحی کردند. این پروژه نشانگر ترکیب هنر موسیقی و طراحی داخلی است.",
+      "keywords": [
+        "Swizz Beatz",
+        "CB2",
+        "مجموعه",
+        "طراحی",
+        "خانه"
+      ],
+      "category": "طراحی محصول",
+      "importance": "متوسط"
+    },
+    {
+      "title": "How a Humble Clay Pot Redesigns the Ritual of Eating",
+      "url": "https://design-milk.com/donabe-cooking-singlethread-farm/",
+      "source": "Design Milk",
+      "published": "2026-10-22T22:38:14+00:00",
+      "summary": "A visit to SingleThread Farm for its annual FieldNotes gathering reveals the art of donabe cooking, a centuries-old Japanese tradition that transforms the rituals of preparing, serving, and sharing food.",
       "keywords": [],
       "category": "سایر",
       "importance": "پایین"
@@ -453,51 +679,81 @@
       "importance": "پایین"
     },
     {
-      "title": "Amoh Resort Brings Ancient Greek Craftsmanship to the Coast of Rhodes",
-      "url": "https://design-milk.com/amoh-resort-rhodes-studio-lost/",
-      "source": "Design Milk",
-      "published": "2026-10-22T01:19:11+00:00",
-      "summary": "Studio LOST draws on the history of an ancient coastal quarry through sculptural stone, bespoke timber joinery, and traditional Rhodian mosaics",
+      "title": "To the Red Dot Newsroom",
+      "url": "https://www.mynewsdesk.com/red-dot-design-award",
+      "source": "Red Dot",
+      "published": null,
+      "summary": "",
       "keywords": [],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "Roger Dubuis Gives Its Knights of the Round Table Watch a Samurai Spin",
-      "url": "https://design-milk.com/roger-dubuis-excalibur-kabuto-legacy/",
-      "source": "Design Milk",
-      "published": "2026-10-21T21:34:45+00:00",
-      "summary": "The Excalibur The Kabuto Legacy replaces miniature knights with 12 hand-engraved samurai helmets, bringing Japanese history and craftsmanship to Swiss watchmaking",
+      "title": "General press information on the Red Dot Design Award",
+      "url": "https://www.red-dot.org/fileadmin/bilder/Presse_Archiv/2026_PI_About_Red_Dot_Design_Award.pdf",
+      "source": "Red Dot",
+      "published": null,
+      "summary": "",
+      "keywords": [],
+      "category": "جوایز طراحی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "\"Getting people into space is one thing. Creating somewhere they actually want to live is quite another\"",
+      "url": "https://www.dezeen.com/2026/10/23/space-architecture-jonathan-morrison-opinion/",
+      "source": "Dezeen",
+      "published": "2026-10-23T09:00:00+00:00",
+      "summary": "With humans soon set to start living on the moon, now is the time for architects to work out how to design habitats that actually work, writes Jonathan Morrison. The post \"Getting people into space is one thing. Creating somewhere they actually want to live is quite another\" appeared first on Dezeen .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "Has Tesla really made a flying car?",
+      "url": "https://www.dezeen.com/2026/10/23/tesla-roadster-shanghai-opera-house-dezeen-weekly-podcast/",
+      "source": "Dezeen",
+      "published": "2026-10-23T08:30:00+00:00",
+      "summary": "Listen now to the latest episode of Dezeen Weekly. The post Has Tesla really made a flying car? appeared first on Dezeen .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "Galerie Patrick Seguin shows demountable Jean Prouvé house with Japanese tea room interior at Design Miami.Paris",
+      "url": "https://www.dezeen.com/2026/10/23/galerie-patrick-seguin-jean-prouve-design-miami-paris/",
+      "source": "Dezeen",
+      "published": "2026-10-23T08:00:00+00:00",
+      "summary": "Galerie Patrick Seguin in Paris has brought a 1944 house by architect Jean Prouvé to Design Miami.Paris, where it was reinterpreted as a Japanese pavilion. The 6×6 Demountable House was designed in the 1940s to be assembled at speed and function as housing for those who had been made homeless by war. It is currently […] The post Galerie Patrick Seguin shows demountable Jean Prouvé house with Japanese tea room interior at Design Miami.Paris appeared first on Dezeen .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "Shanghai tea shop Basao draws on \"Rockbund’s historic buildings\"",
+      "url": "https://www.dezeen.com/2026/10/23/shanghai-tea-shop-basao-rockbund-historic-buildings/",
+      "source": "Dezeen",
+      "published": "2026-10-23T05:00:00+00:00",
+      "summary": "Architect Keiji Ashizawa drew on the surrounding traditional architecture, as well as British studio David Chipperfield Architects' restoration of the district, when designing this tea shop and cafe in central Shanghai. The flagship store for Chinese tea brand Basao combines a retail space with a cafe section where visitors can enjoy the tea. Located in […] The post Shanghai tea shop Basao draws on \"Rockbund’s historic buildings\" appeared first on Dezeen .",
       "keywords": [],
       "category": "هوش مصنوعی در طراحی",
       "importance": "متوسط"
     },
     {
-      "title": "Apple Music's new logo was shaped by Fred Again and a bath of mineral oil",
-      "url": "https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/",
-      "source": "Creative Boom",
-      "published": "2026-10-22T06:15:00+00:00",
-      "summary": "Apple's streaming service has rebranded for the first time since launch. Created with TBWA\\Media Arts Lab, the new identity is full of ripples made by sound. We find out more.\nIt's hard to believe App...",
+      "title": "Autex Acoustics panels \"place sound at the heart\" of Manchester's Bar Shrimp",
+      "url": "https://www.dezeen.com/2026/10/22/autex-acoustics-panels-sound-manchesters-bar-shrimp/",
+      "source": "Dezeen",
+      "published": "2026-10-22T20:00:00+00:00",
+      "summary": "Acoustic brand Autex Acoustics has equipped Manchester's Bar Shrimp with sound-enhancing acoustic panels, creating an \"immersive and energetic space\" dedicated to music listening.  Bar Shrimp is a seafood-serving music destination designed to provide a high-quality music experience within a relaxed environment. The bar's interior combines luxury acoustic panels, layered textures, rich red tones, and atmospheric […] The post Autex Acoustics panels \"place sound at the heart\" of Manchester's Bar Shrimp appeared first on Dezeen .",
       "keywords": [],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "As Thought Bubble comic art festival turns 20, meet the indie creators who could be the next big thing",
-      "url": "https://www.creativeboom.com/news/as-thought-bubble-comics-festival-turns-20-meet-the-indie-creators-who-could-be-the-next-big-thing/",
-      "source": "Creative Boom",
-      "published": "2026-10-22T06:00:00+00:00",
-      "summary": "The organisers of the Yorkshire event pick the fresh names you shouldn't miss this year.\nBy definition, the big names in the creative world are few in number, and so we naturally tend to venerate them...",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Why is a creative agency in New York asking women to 'send nudes'?",
-      "url": "https://www.creativeboom.com/work/why-is-this-new-york-agency-asking-women-to-send-nudes/",
-      "source": "Creative Boom",
-      "published": "2026-10-22T05:45:00+00:00",
-      "summary": "This provocative campaign turns a familiar online request into a powerful reminder.\nCall me a cynic. (Most journalists are, or at least the good ones.) But whenever anyone starts to wax lyrical about...",
+      "title": "Facade of Mexican university building draws on Gothic architecture",
+      "url": "https://www.dezeen.com/2026/10/22/jonathan-corral-arquitectos-uad-alamedas-durango/",
+      "source": "Dezeen",
+      "published": "2026-10-22T19:45:28+00:00",
+      "summary": "Mexican studio Jonathan Corral Arquitectos has completed an educational building called the UAD Alamedas Tower, which features a faceted facade that takes cues from stained-glass windows found in Gothic cathedrals.  The building is part of the Universidad Durango Santander, or UAD, a private institution with campuses in several Mexican states.  For its Durango location, the […] The post Facade of Mexican university building draws on Gothic architecture appeared first on Dezeen .",
       "keywords": [],
       "category": "سایر",
       "importance": "پایین"
@@ -541,196 +797,6 @@
       "keywords": [],
       "category": "سایر",
       "importance": "پایین"
-    },
-    {
-      "title": "“Hydrofeminism” and leaky saints feature in Everything Moist Seems Alive installation",
-      "url": "https://www.dezeen.com/2026/10/22/hydrofeminism-everything-moist-seems-alive-installation/",
-      "source": "Dezeen",
-      "published": "2026-10-22T05:00:00+00:00",
-      "summary": "The technical minimalism of artist Boris Acket and the maximalism of fake fashion house Maison the Faux come together in the installation Everything Moist Seems Alive at MU Hybrid Art House during Dutch Design Week. The multidisciplinary creatives worked with MU to devise the large-scale installation, which fills a dark, cavernous room with kinetic water […] The post “Hydrofeminism” and leaky saints feature in Everything Moist Seems Alive installation appeared first on Dezeen .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Carminati lift-and-slide windows frame Dubai skyline at Bvlgari Hotel and Resort",
-      "url": "https://www.dezeen.com/2026/10/22/carminati-lift-slide-windows-frame-dubai-skyline-bvlgari-hotel-resort/",
-      "source": "Dezeen",
-      "published": "2026-10-22T04:00:00+00:00",
-      "summary": "Minimalist timber windows from luxury brand Carminati's Skyline Minimal Frames collection were chosen to frame views from the Bvlgari Hotel and Resort in Dubai. Designed to make the \"least possible visual impact\", Carminati's Skyline Minimal Frames range includes both windows and doors defined by minimal profiles, natural materials and modern, patented technology.  The frame's slimness […] The post Carminati lift-and-slide windows frame Dubai skyline at Bvlgari Hotel and Resort appeared first on Dezeen .",
-      "keywords": [],
-      "category": "هوش مصنوعی در طراحی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "Vectra: Medical Product Design for Nurses - Rochester Institute of Technology",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5sNGZHZVN1RGRZcFNKdDdyUUFmRU1XU2VjQVdtUk1ZZ19LZlBLa0JzOWhCN0FBeU44dkZfemU3bmtCMzBXMWxuYmJCR3RzM1FBVnFOcUVyN0w2bUlMTGg3eHhQM3BpSEJNci1kcEdvaWJvakk5M0E?oc=5",
-      "source": "Google News: industrial design",
-      "published": "2026-10-21T22:18:59+00:00",
-      "summary": "Vectra: Medical Product Design for Nurses Rochester Institute of Technology",
-      "keywords": [],
-      "category": "طراحی پزشکی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "What the New Apple’s Leadership Means for Products - Technology Org",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUWZ2Nk1DZHFQeGJheEFCZnppazB3eUNqcDVuYmhWdGdwSWZRd1lvMHEtS1ByNGNXVGVxdUdjQzFUNTNTcjVhUExtb1hvT09oT1U4ZTk4NWNfQldaV3MzdEdRYVQtTlVFYlktM1pEdnlncXNOY3NTeUQ1QUNRT3VkYm84WjRRRW9tZ1NzWnV6MDl3QQ?oc=5",
-      "source": "Google News: industrial design",
-      "published": "2026-10-22T10:35:50+00:00",
-      "summary": "What the New Apple’s Leadership Means for Products Technology Org",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "the planet is in the room: mutualism by design",
-      "url": "https://www.designboom.com/editorials/planet-mutualism-posthuman-utopias/",
-      "source": "Designboom",
-      "published": "2026-10-22T10:53:50+00:00",
-      "summary": "what does a house look like when it is designed from the perspective of a cat? what shape does a seawall take when the client is an oyster, a garden when it is planted for a bee’s vision rather than ours, or a bridge whose only users are deer and mountain lions? in posthuman utopias, we ask what a world looks like when we stop designing on the planet, and learn to design with it. the stories ahead look at what mutualism looks like in practice: studios working with bacteria and algae as collaborators rather than materials, sensors that turn forests into something that can be listened to, buildi",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "DOT-LINE: Sculptural Furniture for Inspired Living - Rochester Institute of Technology",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaDd2RzA5dFJLY3ZmbjZMaEFTdUZoYk9xcjVvV1pZNWhiaDNoMUJYdWNDMk9NU0stZzBpMXNMZVdNc1p3d1RGdkxSZmtROVBPMGc5YmVrZnNsbkJQX2dMcUFid0p6RXRTYzZZdUtZMXdkSi1BaWlfUzVJMmdLT1pBZ2dn?oc=5",
-      "source": "Google News: industrial design",
-      "published": "2026-10-22T06:17:53+00:00",
-      "summary": "DOT-LINE: Sculptural Furniture for Inspired Living Rochester Institute of Technology",
-      "keywords": [],
-      "category": "مبلمان",
-      "importance": "متوسط"
-    },
-    {
-      "title": "Compasso d’Oro International Design Award 2027 - Designboom",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTnhlOFhPc0JIbkFHbk1qSWZha2R4dk13ZWtBaGFUdHI1ckdhdVhHekhlaTQyRDY2LWFRTXUtbzRVNGZVdEZOYk1lTF9oeF9yMXowWXZXd1NYT2hKN0c0SVVkMmtiWWF2NVo5MzcycUV3eGN6dlFOb2taUXhYUS1NNXhXUUJXLWk0WU5QT3dB?oc=5",
-      "source": "Google News: industrial design",
-      "published": "2026-10-22T00:12:31+00:00",
-      "summary": "Compasso d’Oro International Design Award 2027 Designboom",
-      "keywords": [],
-      "category": "جوایز طراحی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "ADHD ONE: Kevin Noki’s 3D-Printed Brick Phone Fights Distraction - Parametric Architecture",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBWbmFNTGJJNDhpN19WR1RfYmQwaElmYnlCNkk1OFZSdU9hempPRF9sb2lIenVlaDNFQ1FpVjFJRTM3bkRtUWQ3M3V4YThDeFc1NlZLck40RFdSTFVTMGlNUDdNTVZ2eUJGX0hyUHVvV0RIYUQ4NzZHZjc0SXM2QQ?oc=5",
-      "source": "Google News: industrial design",
-      "published": "2026-10-22T10:52:34+00:00",
-      "summary": "ADHD ONE: Kevin Noki’s 3D-Printed Brick Phone Fights Distraction Parametric Architecture",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "bandit9 partners with (RED) for limited-edition hand-brushed aluminum motorcycle",
-      "url": "https://www.designboom.com/technology/bandit9-red-limited-edition-hand-brushed-aluminum-motorcycle-red800/",
-      "source": "Designboom",
-      "published": "2026-10-22T18:10:45+00:00",
-      "summary": "(RED)800 is a hand-built, limited-edition motorcycle featuring a striking racing red gradient that fades into luminous, hand-brushed aluminum. The post bandit9 partners with (RED) for limited-edition hand-brushed aluminum motorcycle appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "hayden clay williams reinterprets everyday objects as sparkling stained glass sculptures",
-      "url": "https://www.designboom.com/art/hayden-clay-williams-everyday-objects-stained-glass-sculptures-surrealism/",
-      "source": "Designboom",
-      "published": "2026-10-22T17:00:55+00:00",
-      "summary": "the artist brings 'suburban surrealism' to familiar throwaway objects by rebuilding their shapes in jewel-toned glass and soldered seams. The post hayden clay williams reinterprets everyday objects as sparkling stained glass sculptures appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "iris van herpen translates invisible rhythms of nature into sculptural forms for perrier-jouët",
-      "url": "https://www.designboom.com/design/iris-van-herpen-invisible-rhythms-nature-sculptural-forms-perrier-jouet/",
-      "source": "Designboom",
-      "published": "2026-10-22T14:44:53+00:00",
-      "summary": "the dutch couturier draws on vineyard soundscapes and art nouveau to explore how nature can be translated into material form. The post iris van herpen translates invisible rhythms of nature into sculptural forms for perrier-jouët appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "softwall by molo translates nature-inspired blues into a flexible, light-responsive paper partition system",
-      "url": "https://www.designboom.com/design/molo-softwall-flexible-light-responsive-paper-partition-system/",
-      "source": "Designboom",
-      "published": "2026-10-22T10:00:14+00:00",
-      "summary": "designers stephanie forsythe and todd macallen craft sculptural partitions with gmund's sustainably produced glacier and deep blue paper. The post softwall by molo translates nature-inspired blues into a flexible, light-responsive paper partition system appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "‘fungi are still going to be here’: how mushrooms inspire new ways of thinking about nature",
-      "url": "https://www.designboom.com/design/fungi-mushrooms-new-ways-thinking-nature-book-phaidon-francesca-gavin-interview/",
-      "source": "Designboom",
-      "published": "2026-10-22T09:35:54+00:00",
-      "summary": "in our interview, curator francesca gavin discusses how mushrooms have inspired artists and designers, from alice’s adventures in wonderland to contemporary art and experimental materials, and what fungi can teach us about our relationship with nature. The post ‘fungi are still going to be here’: how mushrooms inspire new ways of thinking about nature appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "architecture for extinction: where does nature go when its habitat disappears?",
-      "url": "https://www.designboom.com/architecture/architecture-extinction-where-nature-habitat-disappears/",
-      "source": "Designboom",
-      "published": "2026-10-22T08:45:06+00:00",
-      "summary": "as habitats disappear, buildings are being designed to shelter parts of the natural world from environmental changes taking place outside. The post architecture for extinction: where does nature go when its habitat disappears? appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "hélène fauquet overlays photographs with salvaged shells in ensemble of rococo-like curiosities",
-      "url": "https://www.designboom.com/art/helene-fauquet-vivresse-exhibition-lafayette-anticipations-paris/",
-      "source": "Designboom",
-      "published": "2026-10-22T08:16:35+00:00",
-      "summary": "at lafayette anticipations in paris, hélène fauquet's first institutional exhibition in france transforms photography, shell sculptures, and ornamental frames into an exploration of images and illusion. The post hélène fauquet overlays photographs with salvaged shells in ensemble of rococo-like curiosities appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "‘we are all marine animals, we just forgot’: photographer enzo barracco at the ocean&climate village",
-      "url": "https://www.designboom.com/design/we-are-all-marine-animals-we-just-forgot-photographer-enzo-barracco-at-the-oceanclimate-village/",
-      "source": "Designboom",
-      "published": "2026-10-22T07:15:12+00:00",
-      "summary": "from UNESCO IOC and prada's SEA BEYOND initiative, the science exhibition brings together ocean photography, interactive displays, and climate education for the next generation. The post ‘we are all marine animals, we just forgot’: photographer enzo barracco at the ocean&climate village appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "studio thusthat turns the rusty-red waste of aluminum production into delicate ceramics",
-      "url": "https://www.designboom.com/design/studio-thusthat-rusty-red-waste-aluminum-production-delicate-ceramics/",
-      "source": "Designboom",
-      "published": "2026-10-22T05:05:11+00:00",
-      "summary": "with billions of tons accumulating worldwide, the studio explores new uses for one of industry's most overlooked byproducts. The post studio thusthat turns the rusty-red waste of aluminum production into delicate ceramics appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "To the Red Dot Newsroom",
-      "url": "https://www.mynewsdesk.com/red-dot-design-award",
-      "source": "Red Dot",
-      "published": null,
-      "summary": "",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "General press information on the Red Dot Design Award",
-      "url": "https://www.red-dot.org/fileadmin/bilder/Presse_Archiv/2026_PI_About_Red_Dot_Design_Award.pdf",
-      "source": "Red Dot",
-      "published": null,
-      "summary": "",
-      "keywords": [],
-      "category": "جوایز طراحی",
-      "importance": "متوسط"
     }
   ]
 }
