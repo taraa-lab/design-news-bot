@@ -3,8 +3,8 @@ name: Tail Worker Logs
 on:
   workflow_dispatch:
     inputs:
-      test_chat_id:
-        description: "A real chat_id to simulate /news for"
+      update_json:
+        description: "Telegram update JSON to POST to the Worker"
         required: true
 
 permissions:
@@ -16,21 +16,10 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - run: |
-          npm install -g wrangler
-          pip install google-auth google-auth-httplib2 google-api-python-client
-
-      - name: Dump sheet contents (ground truth)
-        env:
-          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
-          GOOGLE_SHEET_ID:         ${{ secrets.GOOGLE_SHEET_ID }}
-        run: cd src && python debug_dump.py
+      - run: npm install -g wrangler
 
       - name: Start tail in background
         working-directory: worker
@@ -40,15 +29,14 @@ jobs:
         run: |
           nohup wrangler tail --format json > ../tail_output.json 2>&1 &
           echo $! > ../tail_pid.txt
-          sleep 8
+          sleep 10
 
-      - name: Send synthetic /news message via webhook
+      - name: Send update to Worker
         env:
           WEBHOOK_SECRET: ${{ secrets.WEBHOOK_SECRET }}
+          UPDATE_JSON:    ${{ inputs.update_json }}
         run: |
-          WORKER_URL=$(cat data/worker_url.txt 2>/dev/null || echo "https://design-news-bot.newsbot.workers.dev")
-          echo "Posting to: $WORKER_URL"
-          curl -s -X POST "$WORKER_URL" -H "Content-Type: application/json" -H "X-Telegram-Bot-Api-Secret-Token: ${WEBHOOK_SECRET}" -d "{\"update_id\":999999003,\"message\":{\"message_id\":3,\"chat\":{\"id\":${{ inputs.test_chat_id }}},\"from\":{\"id\":${{ inputs.test_chat_id }},\"first_name\":\"Tester\"},\"text\":\"/news\"}}"
+          curl -s -X POST "https://design-news-bot.newsbot.workers.dev" -H "Content-Type: application/json" -H "X-Telegram-Bot-Api-Secret-Token: ${WEBHOOK_SECRET}" -d "$UPDATE_JSON"
           echo ""
           sleep 12
 
@@ -62,9 +50,8 @@ jobs:
         run: |
           mkdir -p data
           cp tail_output.json data/tail_output.json
-          cp sheet_dump.json data/sheet_dump.json
           git config user.name "bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/tail_output.json data/sheet_dump.json
-          git commit -m "chore: record diagnostics [skip ci]" || echo "nothing to commit"
+          git add data/tail_output.json
+          git commit -m "chore: record worker tail logs [skip ci]" || echo "nothing to commit"
           git push
