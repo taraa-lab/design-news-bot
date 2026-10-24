@@ -1,113 +1,93 @@
-2026-10-23 09:30:25,655 [INFO] main: === Design News Bot starting ===
-2026-10-23 09:30:25,655 [INFO] main: Step 1/6 — Collecting...
-2026-10-23 09:30:25,931 [ERROR] collector: Scrape error [IDSA]: 403 Client Error: Forbidden for url: https://www.idsa.org/news
-2026-10-23 09:30:25,975 [ERROR] collector: Scrape error [iF Design]: 403 Client Error: Forbidden for url: https://ifdesign.com/en/news
-2026-10-23 09:30:26,181 [INFO] collector: RSS ArchDaily -> 12 recent articles
-2026-10-23 09:30:26,249 [INFO] collector: RSS Fast Company Design -> 0 recent articles
-2026-10-23 09:30:26,505 [INFO] collector: RSS Yanko Design -> 16 recent articles
-2026-10-23 09:30:26,784 [INFO] collector: RSS Google News: industrial design -> 5 recent articles
-2026-10-23 09:30:26,985 [INFO] collector: RSS Google News: product design award -> 5 recent articles
-2026-10-23 09:30:27,348 [INFO] collector: RSS Designboom -> 10 recent articles
-2026-10-23 09:30:27,359 [INFO] collector: RSS Core77 -> 0 recent articles
-2026-10-23 09:30:27,394 [INFO] collector: RSS Creative Boom -> 0 recent articles
-2026-10-23 09:30:27,424 [INFO] collector: RSS Design Milk -> 4 recent articles
-2026-10-23 09:30:27,465 [INFO] collector: Scraped Red Dot -> 2 recent articles
-2026-10-23 09:30:27,617 [INFO] collector: RSS Google News: design competition 2025 -> 0 recent articles
-2026-10-23 09:30:27,631 [INFO] collector: RSS Dezeen -> 11 recent articles
-2026-10-23 09:30:29,353 [INFO] collector: Scraped WDO -> 0 recent articles
-2026-10-23 09:30:29,356 [INFO] collector: Total collected (before dedup): 65
-2026-10-23 09:30:29,356 [INFO] main: Step 2/6 — Deduplicating...
-2026-10-23 09:30:29,362 [INFO] dedup: Dedup: removed 2 duplicates, kept 63
-2026-10-23 09:30:29,362 [INFO] main: 63 unique articles
-2026-10-23 09:30:29,362 [INFO] main: Step 3/6 — Enriching (fa)...
-2026-10-23 09:30:29,464 [INFO] summarizer: OpenRouter candidate models: ['google/gemma-4-31b-it:free', 'google/gemma-4-26b-a4b-it:free', 'nvidia/nemotron-3-super-120b-a12b:free', 'recursive/flint-v1.0:free', 'xingchen-agi/xing4.0-29b-a4b:free', 'dots-studio/dots-3-note-preview:free', 'openrouter/free']
-2026-10-23 09:30:29,832 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 8s
-2026-10-23 09:30:37,983 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 16s
-2026-10-23 09:30:54,173 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 8s
-2026-10-23 09:31:02,323 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 16s
-2026-10-23 09:31:18,468 [WARNING] summarizer: Model nvidia/nemotron-3-super-120b-a12b:free unavailable, skipping (404: {"error":{"message":"Provider returned error","code":404,"metadata":{"raw":"{\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'ac74040f-9fc9-4c5e-ac)
-2026-10-23 09:31:56,332 [WARNING] summarizer: Model recursive/flint-v1.0:free failed: no parsable JSON in model output
-2026-10-23 09:34:01,050 [INFO] summarizer: OpenRouter OK via xingchen-agi/xing4.0-29b-a4b:free (8 items)
-2026-10-23 09:34:01,051 [INFO] summarizer: Batch 1/6: 8/12 articles enriched by AI
-2026-10-23 09:34:04,397 [WARNING] summarizer: Model xingchen-agi/xing4.0-29b-a4b:free rate-limited, waiting 8s
-2026-10-23 09:34:12,936 [WARNING] summarizer: Model xingchen-agi/xing4.0-29b-a4b:free rate-limited, waiting 16s
-2026-10-23 09:34:29,081 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 8s
-2026-10-23 09:34:37,256 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 16s
-2026-10-23 09:34:53,438 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 8s
-2026-10-23 09:35:02,099 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 16s
-2026-10-23 09:36:00,045 [WARNING] summarizer: Model recursive/flint-v1.0:free failed: no parsable JSON in model output
-2026-10-23 09:36:57,023 [WARNING] summarizer: Model dots-studio/dots-3-note-preview:free failed: no parsable JSON in model output
-2026-10-23 09:38:00,323 [WARNING] summarizer: Model openrouter/free failed: no parsable JSON in model output
-2026-10-23 09:38:00,324 [ERROR] summarizer: All OpenRouter models failed for this batch
-2026-10-23 09:38:00,324 [INFO] summarizer: Batch 2/6: 0/12 articles enriched by AI
-2026-10-23 09:38:03,641 [WARNING] summarizer: Model xingchen-agi/xing4.0-29b-a4b:free rate-limited, waiting 8s
-2026-10-23 09:38:11,901 [WARNING] summarizer: Model xingchen-agi/xing4.0-29b-a4b:free rate-limited, waiting 16s
-2026-10-23 09:38:28,059 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 8s
-2026-10-23 09:38:36,265 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 16s
-2026-10-23 09:38:52,426 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 8s
-2026-10-23 09:39:36,247 [INFO] summarizer: OpenRouter OK via google/gemma-4-26b-a4b-it:free (12 items)
-2026-10-23 09:39:36,248 [INFO] summarizer: Batch 3/6: 12/12 articles enriched by AI
-2026-10-23 09:39:39,458 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 8s
-2026-10-23 09:39:47,652 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 16s
-2026-10-23 09:40:03,848 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 8s
-2026-10-23 09:40:12,317 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 16s
-2026-10-23 09:41:01,014 [WARNING] summarizer: Model recursive/flint-v1.0:free failed: no parsable JSON in model output
-2026-10-23 09:42:54,954 [WARNING] summarizer: Model xingchen-agi/xing4.0-29b-a4b:free failed: no parsable JSON in model output
-2026-10-23 09:43:48,644 [WARNING] summarizer: Model dots-studio/dots-3-note-preview:free failed: no parsable JSON in model output
-2026-10-23 09:46:44,701 [INFO] summarizer: OpenRouter OK via openrouter/free (12 items)
-2026-10-23 09:46:44,702 [INFO] summarizer: Batch 4/6: 12/12 articles enriched by AI
-2026-10-23 09:46:47,702 [WARNING] summarizer: Time budget exhausted — using fallback for batch 4
-2026-10-23 09:46:47,702 [INFO] summarizer: Batch 5/6: 0/12 articles enriched by AI
-2026-10-23 09:46:50,702 [WARNING] summarizer: Time budget exhausted — using fallback for batch 5
-2026-10-23 09:46:50,703 [INFO] summarizer: Batch 6/6: 0/3 articles enriched by AI
-2026-10-23 09:46:50,703 [INFO] summarizer: Enriched 63 articles via OpenRouter. Non-Other: 36/63. Importance: {'متوسط': 28, 'پایین': 31, 'بالا': 4}
-2026-10-23 09:46:50,703 [INFO] main: Step 4/6 — Enriching (en)...
-2026-10-23 09:46:52,277 [WARNING] summarizer: Model openrouter/free failed: no parsable JSON in model output
-2026-10-23 09:46:52,534 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 8s
-2026-10-23 09:47:01,109 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 16s
-2026-10-23 09:47:17,270 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 8s
-2026-10-23 09:47:25,467 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 16s
-2026-10-23 09:48:18,608 [INFO] summarizer: OpenRouter OK via recursive/flint-v1.0:free (12 items)
-2026-10-23 09:48:18,609 [INFO] summarizer: Batch 1/6: 12/12 articles enriched by AI
-2026-10-23 09:48:55,421 [INFO] summarizer: OpenRouter OK via recursive/flint-v1.0:free (6 items)
-2026-10-23 09:48:55,421 [INFO] summarizer: Batch 2/6: 6/12 articles enriched by AI
-2026-10-23 09:49:28,430 [WARNING] summarizer: Model recursive/flint-v1.0:free failed: no parsable JSON in model output
-2026-10-23 09:49:28,602 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 8s
-2026-10-23 09:49:36,829 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 16s
-2026-10-23 09:49:52,987 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 8s
-2026-10-23 09:50:01,156 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 16s
-2026-10-23 09:50:17,448 [WARNING] summarizer: Model xingchen-agi/xing4.0-29b-a4b:free rate-limited, waiting 8s
-2026-10-23 09:50:25,733 [WARNING] summarizer: Model xingchen-agi/xing4.0-29b-a4b:free rate-limited, waiting 16s
-2026-10-23 09:51:35,572 [WARNING] summarizer: Model dots-studio/dots-3-note-preview:free failed: no parsable JSON in model output
-2026-10-23 09:52:59,549 [INFO] summarizer: OpenRouter OK via openrouter/free (12 items)
-2026-10-23 09:52:59,550 [INFO] summarizer: Batch 3/6: 12/12 articles enriched by AI
-2026-10-23 09:53:56,075 [WARNING] summarizer: Model openrouter/free failed: no parsable JSON in model output
-2026-10-23 09:53:56,280 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 8s
-2026-10-23 09:54:04,436 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 16s
-2026-10-23 09:54:20,602 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 8s
-2026-10-23 09:54:28,784 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 16s
-2026-10-23 09:55:29,538 [WARNING] summarizer: Model recursive/flint-v1.0:free failed: no parsable JSON in model output
-2026-10-23 09:56:57,543 [INFO] summarizer: OpenRouter OK via xingchen-agi/xing4.0-29b-a4b:free (4 items)
-2026-10-23 09:56:57,543 [INFO] summarizer: Batch 4/6: 4/12 articles enriched by AI
-2026-10-23 09:57:00,544 [WARNING] summarizer: Time budget exhausted — using fallback for batch 4
-2026-10-23 09:57:00,544 [INFO] summarizer: Batch 5/6: 0/12 articles enriched by AI
-2026-10-23 09:57:03,544 [WARNING] summarizer: Time budget exhausted — using fallback for batch 5
-2026-10-23 09:57:03,544 [INFO] summarizer: Batch 6/6: 0/3 articles enriched by AI
-2026-10-23 09:57:03,544 [INFO] summarizer: Enriched 63 articles via OpenRouter. Non-Other: 26/63. Importance: {'Medium': 27, 'High': 5, 'Low': 31}
-2026-10-23 09:57:03,545 [INFO] main: Step 5/6 — Saving cache for instant on-demand responses...
-2026-10-23 09:57:03,548 [INFO] cache: Cache saved: fa (63 articles)
-2026-10-23 09:57:03,550 [INFO] cache: Cache saved: en (63 articles)
-2026-10-23 09:57:03,551 [INFO] main: Step 6/6 — Sending personalized digests...
-2026-10-23 09:57:03,939 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
-2026-10-23 09:57:05,018 [INFO] main: Found 6 registered users
-2026-10-23 09:57:05,060 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
-2026-10-23 09:57:05,463 [INFO] sender: Sending to 6 users
-2026-10-23 09:57:09,895 [INFO] sender: Sent to user 412692212 (fa, interests=['product'], 4 messages)
-2026-10-23 09:57:12,124 [INFO] sender: Sent to user 5390450833 (fa, interests=['service', 'jewelry', 'accessory'], 2 messages)
-2026-10-23 09:57:17,030 [INFO] sender: Sent to user 5921510087 (fa, interests=['product'], 4 messages)
-2026-10-23 09:57:21,599 [INFO] sender: Sent to user 46336391 (fa, interests=['product', 'automotive'], 4 messages)
-2026-10-23 09:57:26,675 [INFO] sender: Sent to user 1470641798 (fa, interests=['automotive', 'product', 'furniture', 'jewelry', 'accessory', 'service'], 4 messages)
-2026-10-23 09:57:27,763 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
-2026-10-23 09:57:28,312 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
-2026-10-23 09:57:28,313 [INFO] sender: Sent to user 8553938425 (fa, interests=['service'], 1 messages)
-2026-10-23 09:57:28,814 [INFO] main: === Done. ===
+2026-10-24 09:03:02,355 [INFO] main: === Design News Bot starting ===
+2026-10-24 09:03:02,355 [INFO] main: Step 1/6 — Collecting...
+2026-10-24 09:03:02,564 [INFO] collector: RSS Fast Company Design -> 0 recent articles
+2026-10-24 09:03:02,651 [ERROR] collector: Scrape error [iF Design]: 403 Client Error: Forbidden for url: https://ifdesign.com/en/news
+2026-10-24 09:03:02,706 [ERROR] collector: Scrape error [IDSA]: 403 Client Error: Forbidden for url: https://www.idsa.org/news
+2026-10-24 09:03:02,782 [INFO] collector: RSS ArchDaily -> 7 recent articles
+2026-10-24 09:03:03,121 [INFO] collector: RSS Core77 -> 3 recent articles
+2026-10-24 09:03:03,237 [INFO] collector: RSS Google News: design competition 2025 -> 0 recent articles
+2026-10-24 09:03:03,330 [INFO] collector: RSS Yanko Design -> 13 recent articles
+2026-10-24 09:03:03,365 [INFO] collector: RSS Design Milk -> 4 recent articles
+2026-10-24 09:03:03,487 [INFO] collector: RSS Designboom -> 8 recent articles
+2026-10-24 09:03:03,675 [INFO] collector: RSS Creative Boom -> 0 recent articles
+2026-10-24 09:03:03,983 [INFO] collector: RSS Dezeen -> 5 recent articles
+2026-10-24 09:03:03,988 [INFO] collector: RSS Google News: product design award -> 3 recent articles
+2026-10-24 09:03:04,016 [INFO] collector: RSS Google News: industrial design -> 9 recent articles
+2026-10-24 09:03:04,059 [INFO] collector: Scraped Red Dot -> 2 recent articles
+2026-10-24 09:03:05,806 [INFO] collector: Scraped WDO -> 0 recent articles
+2026-10-24 09:03:05,808 [INFO] collector: Total collected (before dedup): 54
+2026-10-24 09:03:05,809 [INFO] main: Step 2/6 — Deduplicating...
+2026-10-24 09:03:05,812 [INFO] dedup: Dedup: removed 4 duplicates, kept 50
+2026-10-24 09:03:05,812 [INFO] main: 50 unique articles
+2026-10-24 09:03:05,812 [INFO] main: Step 3/6 — Enriching (fa)...
+2026-10-24 09:03:05,895 [INFO] summarizer: OpenRouter candidate models: ['google/gemma-4-31b-it:free', 'google/gemma-4-26b-a4b-it:free', 'nvidia/nemotron-3-super-120b-a12b:free', 'recursive/flint-v1.0:free', 'xingchen-agi/xing4.0-29b-a4b:free', 'dots-studio/dots-3-note-preview:free', 'openrouter/free']
+2026-10-24 09:03:50,924 [INFO] summarizer: OpenRouter OK via google/gemma-4-31b-it:free (12 items)
+2026-10-24 09:03:50,924 [INFO] summarizer: Batch 1/5: 12/12 articles enriched by AI
+2026-10-24 09:03:54,092 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 8s
+2026-10-24 09:04:02,286 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 16s
+2026-10-24 09:04:18,489 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 8s
+2026-10-24 09:04:26,676 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 16s
+2026-10-24 09:04:42,769 [WARNING] summarizer: Model nvidia/nemotron-3-super-120b-a12b:free unavailable, skipping (404: {"error":{"message":"Provider returned error","code":404,"metadata":{"raw":"{\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'ac74040f-9fc9-4c5e-ac)
+2026-10-24 09:05:16,624 [WARNING] summarizer: Model recursive/flint-v1.0:free failed: no parsable JSON in model output
+2026-10-24 09:05:17,245 [WARNING] summarizer: Model xingchen-agi/xing4.0-29b-a4b:free rate-limited, waiting 8s
+2026-10-24 09:05:26,358 [WARNING] summarizer: Model xingchen-agi/xing4.0-29b-a4b:free rate-limited, waiting 16s
+2026-10-24 09:06:39,024 [INFO] summarizer: OpenRouter OK via dots-studio/dots-3-note-preview:free (2 items)
+2026-10-24 09:06:39,024 [INFO] summarizer: Batch 2/5: 2/12 articles enriched by AI
+2026-10-24 09:07:39,226 [WARNING] summarizer: Model dots-studio/dots-3-note-preview:free failed: no parsable JSON in model output
+2026-10-24 09:07:39,435 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 8s
+2026-10-24 09:07:47,608 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 16s
+2026-10-24 09:08:37,165 [INFO] summarizer: OpenRouter OK via google/gemma-4-26b-a4b-it:free (12 items)
+2026-10-24 09:08:37,165 [INFO] summarizer: Batch 3/5: 12/12 articles enriched by AI
+2026-10-24 09:08:40,346 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 8s
+2026-10-24 09:08:48,540 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 16s
+2026-10-24 09:09:45,453 [INFO] summarizer: OpenRouter OK via google/gemma-4-31b-it:free (12 items)
+2026-10-24 09:09:45,453 [INFO] summarizer: Batch 4/5: 12/12 articles enriched by AI
+2026-10-24 09:09:48,661 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 8s
+2026-10-24 09:09:56,850 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 16s
+2026-10-24 09:10:13,022 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 8s
+2026-10-24 09:10:21,209 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 16s
+2026-10-24 09:10:49,750 [INFO] summarizer: OpenRouter OK via recursive/flint-v1.0:free (2 items)
+2026-10-24 09:10:49,750 [INFO] summarizer: Batch 5/5: 2/2 articles enriched by AI
+2026-10-24 09:10:49,750 [INFO] summarizer: Enriched 50 articles via OpenRouter. Non-Other: 29/50. Importance: {'متوسط': 20, 'پایین': 27, 'بالا': 3}
+2026-10-24 09:10:49,750 [INFO] main: Step 4/6 — Enriching (en)...
+2026-10-24 09:11:31,719 [INFO] summarizer: OpenRouter OK via recursive/flint-v1.0:free (3 items)
+2026-10-24 09:11:31,720 [INFO] summarizer: Batch 1/5: 3/12 articles enriched by AI
+2026-10-24 09:12:13,623 [INFO] summarizer: OpenRouter OK via recursive/flint-v1.0:free (11 items)
+2026-10-24 09:12:13,623 [INFO] summarizer: Batch 2/5: 11/12 articles enriched by AI
+2026-10-24 09:12:54,294 [INFO] summarizer: OpenRouter OK via recursive/flint-v1.0:free (4 items)
+2026-10-24 09:12:54,295 [INFO] summarizer: Batch 3/5: 4/12 articles enriched by AI
+2026-10-24 09:13:34,534 [WARNING] summarizer: Model recursive/flint-v1.0:free failed: no parsable JSON in model output
+2026-10-24 09:13:34,736 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 8s
+2026-10-24 09:13:42,909 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 16s
+2026-10-24 09:13:59,097 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 8s
+2026-10-24 09:14:08,112 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 16s
+2026-10-24 09:15:11,647 [INFO] summarizer: OpenRouter OK via xingchen-agi/xing4.0-29b-a4b:free (10 items)
+2026-10-24 09:15:11,647 [INFO] summarizer: Batch 4/5: 10/12 articles enriched by AI
+2026-10-24 09:15:15,285 [WARNING] summarizer: Model xingchen-agi/xing4.0-29b-a4b:free rate-limited, waiting 8s
+2026-10-24 09:15:28,006 [WARNING] summarizer: Model xingchen-agi/xing4.0-29b-a4b:free rate-limited, waiting 16s
+2026-10-24 09:15:44,204 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 8s
+2026-10-24 09:15:52,368 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 16s
+2026-10-24 09:16:08,583 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 8s
+2026-10-24 09:16:16,773 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 16s
+2026-10-24 09:16:39,850 [INFO] summarizer: OpenRouter OK via recursive/flint-v1.0:free (2 items)
+2026-10-24 09:16:39,851 [INFO] summarizer: Batch 5/5: 2/2 articles enriched by AI
+2026-10-24 09:16:39,851 [INFO] summarizer: Enriched 50 articles via OpenRouter. Non-Other: 23/50. Importance: {'Medium': 22, 'Low': 26, 'High': 2}
+2026-10-24 09:16:39,851 [INFO] main: Step 5/6 — Saving cache for instant on-demand responses...
+2026-10-24 09:16:39,853 [INFO] cache: Cache saved: fa (50 articles)
+2026-10-24 09:16:39,856 [INFO] cache: Cache saved: en (50 articles)
+2026-10-24 09:16:39,856 [INFO] main: Step 6/6 — Sending personalized digests...
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+2026-10-24 09:16:40,256 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-10-24 09:16:41,007 [INFO] main: Found 6 registered users
+2026-10-24 09:16:41,048 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-10-24 09:16:41,458 [INFO] sender: Sending to 6 users
+2026-10-24 09:16:42,819 [INFO] sender: Sent to user 412692212 (fa, interests=['product'], 2 messages)
+2026-10-24 09:16:43,761 [INFO] sender: Sent to user 5390450833 (fa, interests=['service', 'jewelry', 'accessory'], 1 messages)
+2026-10-24 09:16:45,631 [INFO] sender: Sent to user 5921510087 (fa, interests=['product'], 2 messages)
+2026-10-24 09:16:47,534 [INFO] sender: Sent to user 46336391 (fa, interests=['product', 'automotive'], 2 messages)
+2026-10-24 09:16:49,434 [INFO] sender: Sent to user 1470641798 (fa, interests=['automotive', 'product', 'furniture', 'jewelry', 'accessory', 'service'], 2 messages)
+2026-10-24 09:16:50,238 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
+2026-10-24 09:16:50,571 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
+2026-10-24 09:16:50,572 [INFO] sender: Sent to user 8553938425 (fa, interests=['service'], 1 messages)
+2026-10-24 09:16:51,073 [INFO] main: === Done. ===
