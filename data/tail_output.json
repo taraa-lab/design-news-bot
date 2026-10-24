@@ -1,37 +1,17 @@
 {
-    "wallTime": 2181,
+    "wallTime": 1341,
     "cpuTime": 4,
     "truncated": false,
     "executionModel": "stateless",
     "outcome": "ok",
     "scriptVersion": {
-        "id": "dd12c9ef-6224-46fe-bd5c-8fb5b1e5ae3a"
+        "id": "cf47119e-6946-4802-a911-d1790b422840"
     },
     "scriptName": "design-news-bot",
     "diagnosticsChannelEvents": [],
     "exceptions": [],
-    "logs": [
-        {
-            "message": [
-                "triggerPersonalNews called, token length:",
-                40,
-                "chatId:",
-                412692212
-            ],
-            "level": "log",
-            "timestamp": 1783984500370
-        },
-        {
-            "message": [
-                "GitHub dispatch response:",
-                204,
-                ""
-            ],
-            "level": "log",
-            "timestamp": 1783984501334
-        }
-    ],
-    "eventTimestamp": 1783984499153,
+    "logs": [],
+    "eventTimestamp": 1792870304179,
     "event": {
         "request": {
             "url": "https://design-news-bot.newsbot.workers.dev/",
@@ -39,25 +19,35 @@
             "headers": {
                 "accept": "*/*",
                 "accept-encoding": "gzip, br",
-                "cf-connecting-ip": "172.184.211.83",
+                "cf-connecting-ip": "172.184.219.213",
                 "cf-ipcountry": "US",
-                "cf-ray": "a1abfcafaedb0c97",
+                "cf-ray": "a4fb6748fc2e8bdb",
                 "cf-visitor": "{\"scheme\":\"https\"}",
                 "connection": "Keep-Alive",
-                "content-length": "135",
+                "content-length": "188",
                 "content-type": "application/json",
                 "host": "design-news-bot.newsbot.workers.dev",
                 "user-agent": "curl/8.5.0",
                 "x-forwarded-proto": "https",
-                "x-real-ip": "172.184.211.83",
+                "x-real-ip": "172.184.219.213",
                 "x-telegram-bot-api-secret-token": "REDACTED"
             },
             "cf": {
                 "httpProtocol": "HTTP/2",
                 "requestPriority": "weight=16;exclusive=0;group=0;group-weight=0",
                 "edgeRequestKeepAliveStatus": 1,
-                "requestHeaderNames": {},
-                "clientTcpRtt": 1,
+                "requestHeaderNames": [
+                    ":method",
+                    ":scheme",
+                    ":authority",
+                    ":path",
+                    "user-agent",
+                    "accept",
+                    "content-type",
+                    "x-telegram-bot-api-secret-token",
+                    "content-length"
+                ],
+                "clientTcpRtt": 2,
                 "clientQuicRtt": 0,
                 "colo": "SJC",
                 "asn": 8075,
@@ -75,15 +65,15 @@
                 "metroCode": "807",
                 "tlsVersion": "TLSv1.3",
                 "tlsCipher": "AEAD-AES256-GCM-SHA384",
-                "tlsClientRandom": "KQ+vgt74hAze18GDFj1Bp+1xa8mrp6fjUlfwKCojlPE=",
+                "tlsClientRandom": "G+azV+gJIiWznHPcKp63GBWiijwo34PkOSqJN7w824o=",
                 "tlsClientCiphersSha1": "GXSPDLP4G3X+prK73a4wBuOaHRc=",
                 "tlsClientExtensionsSha1": "tlH5gnoC5Z1HF45J5OgHEi338V0=",
                 "tlsClientExtensionsSha1Le": "mRCkyUCRFDTLCNHGQsZNFhkU1/4=",
                 "tlsExportedAuthenticator": {
-                    "clientHandshake": "f1eb2e15cc997dd80c32b217e91d62cbf8123d1b2152a9a494a2512ba2648776e4d0d79d6b2a98a3a32b1c62f19e8a18",
-                    "serverHandshake": "b6271bb21fdbc3e79631c09ae58dcc9e099fc9a5fd81015497fa7b099a5ae20af6afdcb800c6a0d711b6480556237212",
-                    "clientFinished": "1e17392703eb9915652ac0dfc1f01e0d5b2ef9ef1df537660339280b1bf41ed2eee4823faff7936f01e9a68d610e553a",
-                    "serverFinished": "78a91bf98698c22da76f1b083480c073054e22392ed11ee15e4a8fa10ff5682e7c021cc9ea2eda1ceb38c3deae25a9e3"
+                    "clientHandshake": "0e780ddd56ee209dc1e1c0ce3e3394ece0798e6477709a34fa8817c7889585f733c8134b2f753078e58d22335827d17a",
+                    "serverHandshake": "565d51c9f6313897b3658a6c110ed9cc8a14136a731818082183c48c50b066a8a1807bb6761394a0611061e049ab864e",
+                    "clientFinished": "b4e5d36715f2d034a36147b467756ccc25cae1c6db2f2098e21e9582b2a8bdf5b85c0c416a6736dd6a41d44a9bb30189",
+                    "serverFinished": "ca92459d8e0519f0033d5cacc45ca414c06204b4cf5b0f3cab6437e86b3ca78561178d78663ef7e1c02899cbe4fbb31a"
                 },
                 "tlsClientHelloLength": "508",
                 "tlsClientAuth": {
@@ -111,7 +101,7 @@
                 },
                 "verifiedBotCategory": "",
                 "edgeL4": {
-                    "deliveryRate": 1531367
+                    "deliveryRate": 1543783
                 }
             }
         },
