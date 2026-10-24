@@ -46,7 +46,7 @@ def main():
         send_text(token, chat_id, no_news.get(lang, no_news["fa"]))
         return
 
-    send_chunks(token, chat_id, chunks)
+    send_chunks(token, chat_id, chunks, lang)
     logger.info("Done sending to %s (%d messages)", chat_id, len(chunks))
 
 
