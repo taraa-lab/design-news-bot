@@ -135,10 +135,18 @@ def build_personal_digest(articles: list, interests: list, lang: str) -> str:
 # ──────────────────────────────────────────────
 # Sending
 # ──────────────────────────────────────────────
-def _post_message(token: str, chat_id, text: str, parse_mode=None) -> bool:
+def competitions_keyboard(lang: str) -> dict:
+    """Inline ('glass') button shown under every digest; handled by the Cloudflare Worker."""
+    label = "🏆 مسابقات طراحی" if lang == "fa" else "🏆 Design Competitions"
+    return {"inline_keyboard": [[{"text": label, "callback_data": f"comp_{lang}"}]]}
+
+
+def _post_message(token: str, chat_id, text: str, parse_mode=None, reply_markup=None) -> bool:
     payload = {"chat_id": chat_id, "text": text, "disable_web_page_preview": True}
     if parse_mode:
         payload["parse_mode"] = parse_mode
+    if reply_markup:
+        payload["reply_markup"] = reply_markup
     try:
         r = requests.post(f"https://api.telegram.org/bot{token}/sendMessage",
                           json=payload, timeout=30)
@@ -159,13 +167,15 @@ def send_text(token: str, chat_id, text: str) -> bool:
     return _post_message(token, chat_id, text)
 
 
-def send_chunks(token: str, chat_id, chunks: list) -> bool:
+def send_chunks(token: str, chat_id, chunks: list, lang=None) -> bool:
+    """Send digest messages; the competitions button is attached to the LAST one."""
     ok_all = True
     for i, chunk in enumerate(chunks):
         if i:
             time.sleep(0.6)
-        if not _post_message(token, chat_id, chunk, "HTML"):
-            ok_all = _post_message(token, chat_id, _to_plain(chunk)) and ok_all
+        kb = competitions_keyboard(lang) if lang and i == len(chunks) - 1 else None
+        if not _post_message(token, chat_id, chunk, "HTML", kb):
+            ok_all = _post_message(token, chat_id, _to_plain(chunk), None, kb) and ok_all
     return ok_all
 
 
@@ -192,7 +202,7 @@ def send_to_all_users(articles_fa: list, articles_en: list):
                       "امروز خبری در حوزه‌های انتخابی تو پیدا نشد." if lang == "fa"
                       else "No news found for your selected areas today.")
         else:
-            send_chunks(token, chat_id, chunks)
+            send_chunks(token, chat_id, chunks, lang)
         logger.info("Sent to user %s (%s, interests=%s, %d messages)",
                     chat_id, lang, interests, len(chunks))
         time.sleep(0.5)
