@@ -93,6 +93,140 @@ function answerCallback(env, callback_id, text, alert) {
   return tg(env, "answerCallbackQuery", payload);
 }
 
+// ─────────────────────────────────────────────
+// 🏆 Competitions tab — reads the daily cache straight from the repo
+// (instant: no AI call, no GitHub Actions run)
+// ─────────────────────────────────────────────
+const CHANNEL_URL = "https://t.me/WIDD_Iran";
+const COMP_CATS = ["جوایز طراحی", "مسابقات طراحی", "Design Awards", "Design Competitions"];
+const IMP_ORDER = { "بالا": 0, "High": 0, "متوسط": 1, "Medium": 1, "پایین": 2, "Low": 2 };
+
+const COMP_TEXTS = {
+  fa: {
+    btn: "🏆 مسابقات طراحی",
+    head: "🏆 <b>مسابقات و جوایز طراحی</b>",
+    items: "مورد",
+    updated: "آخرین به‌روزرسانی",
+    cat: "🏷 دسته‌بندی",
+    link: "لینک خبر",
+    none: "در آخرین به‌روزرسانی خبری از مسابقات و جوایز طراحی نبود. فردا دوباره سر بزن.",
+    unavailable: "اخبار هنوز آماده نیست. چند دقیقه‌ی دیگر دوباره امتحان کن.",
+  },
+  en: {
+    btn: "🏆 Design Competitions",
+    head: "🏆 <b>Design Competitions &amp; Awards</b>",
+    items: "items",
+    updated: "Last updated",
+    cat: "🏷 Category",
+    link: "Read more",
+    none: "No design competition or award news in the latest update. Check back tomorrow.",
+    unavailable: "The news is not ready yet. Please try again in a few minutes.",
+  },
+};
+
+TEXTS.fa.saved2 = "از فردا هر روز ساعت ۸ صبح اخبار مرتبط با علاقه‌مندی‌هات می‌رسه.\n\n🏆 مسابقات طراحی — دکمه‌ی زیر یا /competitions\n/news — اخبار همین الان\n/start — تغییر تنظیمات\n/help — راهنما";
+TEXTS.en.saved2 = "From tomorrow you'll get relevant news every morning at 8AM Tehran time.\n\n🏆 Design Competitions — the button below or /competitions\n/news — Get news now\n/start — Change settings\n/help — Help";
+TEXTS.fa.help = "📚 راهنما\n/competitions — مسابقات و جوایز طراحی\n/news — اخبار همین الان\n/start — تغییر زبان یا علاقه‌مندی\n/help — این پیام\n\nهر روز ۸ صبح تهران اخبار می‌رسد.";
+TEXTS.en.help = "📚 Help\n/competitions — Design competitions & awards\n/news — Get news now\n/start — Change language/interests\n/help — This message\n\nNews sent daily at 8AM Tehran time.";
+
+function competitionsKeyboard(lang) {
+  return { inline_keyboard: [[{ text: COMP_TEXTS[lang].btn, callback_data: `comp_${lang}` }]] };
+}
+
+function escHtml(s) {
+  return String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+function shorten(text, limit) {
+  text = (text || "").trim();
+  if (text.length <= limit) return text;
+  const cut = text.slice(0, limit);
+  const sp = cut.lastIndexOf(" ");
+  return (sp > 0 ? cut.slice(0, sp) : cut).replace(/[.,،؛ ]+$/, "") + "…";
+}
+
+function compItemBlock(a, T) {
+  const title = (a.title || "").trim();
+  let summary = (a.summary || "").trim();
+  if (summary === title) summary = "";
+  const lines = [];
+  if (title) lines.push(`<b>${escHtml(title)}</b>`);
+  if (summary) lines.push(escHtml(shorten(summary, 380)));
+  lines.push(`${T.cat}: ${escHtml(a.category)}`);
+  lines.push(`<a href="${escHtml(a.url).replace(/"/g, "&quot;")}">${T.link}</a>`);
+  lines.push(CHANNEL_URL);
+  return lines.join("\n");
+}
+
+function packBlocks(blocks, max = 3800) {
+  const chunks = [];
+  let cur = "";
+  for (let b of blocks) {
+    b = b.slice(0, max);
+    if (cur && cur.length + 2 + b.length > max) { chunks.push(cur); cur = b; }
+    else cur = cur ? `${cur}\n\n${b}` : b;
+  }
+  if (cur) chunks.push(cur);
+  return chunks;
+}
+
+async function loadCache(lang) {
+  try {
+    const r = await fetch(`https://raw.githubusercontent.com/${GITHUB_REPO}/main/data/cache_${lang}.json`,
+      { headers: { "User-Agent": "design-news-bot-worker" } });
+    if (!r.ok) return null;
+    return await r.json();
+  } catch (e) {
+    console.error("cache load error:", e);
+    return null;
+  }
+}
+
+async function sendHtml(env, chat_id, text, keyboard) {
+  const payload = { chat_id, text, parse_mode: "HTML", disable_web_page_preview: true };
+  if (keyboard) payload.reply_markup = keyboard;
+  const res = await tg(env, "sendMessage", payload);
+  if (!res.ok) {
+    console.error("sendHtml failed:", JSON.stringify(res));
+    const plain = text
+      .replace(/<a href="([^"]+)">([^<]*)<\/a>/g, "$2: $1")
+      .replace(/<[^>]+>/g, "")
+      .replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&amp;/g, "&");
+    const p2 = { chat_id, text: plain, disable_web_page_preview: true };
+    if (keyboard) p2.reply_markup = keyboard;
+    await tg(env, "sendMessage", p2);
+  }
+}
+
+async function sendCompetitions(env, chatId, lang) {
+  if (lang !== "en") lang = "fa";
+  const T = COMP_TEXTS[lang];
+  const cache = await loadCache(lang);
+  if (!cache || !Array.isArray(cache.articles)) {
+    await sendHtml(env, chatId, T.unavailable);
+    return;
+  }
+
+  const seen = new Set();
+  const items = cache.articles.filter((a) => {
+    if (!COMP_CATS.includes(a.category) || !a.url || seen.has(a.url)) return false;
+    seen.add(a.url);
+    return true;
+  });
+  if (!items.length) {
+    await sendHtml(env, chatId, T.none);
+    return;
+  }
+
+  const ts = (a) => (a.published ? Date.parse(a.published) || 0 : 0);
+  items.sort((x, y) => ((IMP_ORDER[x.importance] ?? 2) - (IMP_ORDER[y.importance] ?? 2)) || (ts(y) - ts(x)));
+
+  const date = String(cache.generated_at || "").slice(0, 10);
+  const header = `${T.head}\n<i>${items.length} ${T.items}${date ? ` · ${T.updated}: ${date}` : ""}</i>`;
+  const chunks = packBlocks([header, ...items.map((a) => compItemBlock(a, T))]);
+  for (const chunk of chunks) await sendHtml(env, chatId, chunk);
+}
+
 function langKeyboard() {
   return { inline_keyboard: [[
     { text: "🇮🇷 فارسی", callback_data: "lang_fa" },
@@ -285,8 +419,13 @@ async function handleMessage(env, msg) {
     return;
   }
 
+  if (cmd === "/competitions") {
+    await sendCompetitions(env, chatId, lang);
+    return;
+  }
+
   if (cmd === "/help") {
-    await sendMessage(env, chatId, TEXTS[lang].help);
+    await sendMessage(env, chatId, TEXTS[lang].help, competitionsKeyboard(lang));
     return;
   }
 }
@@ -298,6 +437,13 @@ async function handleCallback(env, cq) {
   const name = cq.from.first_name || cq.from.username || "Unknown";
 
   await answerCallback(env, cq.id);
+
+  // Competitions tab: language is encoded in the button, so no Sheets lookup is needed.
+  if (data.startsWith("comp")) {
+    await sendCompetitions(env, chatId, data.split("_")[1] === "en" ? "en" : "fa");
+    return;
+  }
+
   const token = await getGoogleAccessToken(env);
 
   if (data.startsWith("lang_")) {
@@ -337,7 +483,7 @@ async function handleCallback(env, cq) {
 
     await editMessageText(env, chatId, messageId, TEXTS[lang].saved);
     await triggerPersonalNews(env, chatId, lang, interests);
-    await sendMessage(env, chatId, TEXTS[lang].saved2);
+    await sendMessage(env, chatId, TEXTS[lang].saved2, competitionsKeyboard(lang));
     return;
   }
 }
