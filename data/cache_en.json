@@ -1,454 +1,755 @@
 {
-  "generated_at": "2026-10-26T10:43:06.015133+00:00",
-  "count": 47,
+  "generated_at": "2026-10-27T10:18:48.372634+00:00",
+  "count": 68,
   "articles": [
     {
-      "title": "Stefano Boeri to Transform Tbilisi Locomotive Factory into Green Neighbourhood",
-      "url": "https://www.archdaily.com/1187468/stefano-boeri-architetti-selected-to-transform-former-locomotive-factory-into-green-neighbourhood-in-tbilisi",
+      "title": "Eight New Materials from Waste and Living Matter",
+      "url": "https://www.archdaily.com/1187576/from-asbestos-to-fungi-eight-new-materials-made-from-waste-and-living-matter",
       "source": "ArchDaily",
-      "published": "2026-10-26T05:30:00+00:00",
-      "summary": "Stefano Boeri Architetti won the LOCO Alliance competition in Tbilisi. The proposal will convert a former locomotive factory into a green neighborhood and cultural park. The project addresses a large brownfield site.",
+      "published": "2026-10-27T05:30:00+00:00",
+      "summary": "Researchers have developed eight novel materials using waste and living matter, replacing asbestos and traditional resources. These include fungal‑based composites and recycled industrial by‑products, offering sustainable alternatives for construction and design. The innovations could reduce environmental impact and open new circular‑economy pathways.",
       "keywords": [
-        "Stefano Boeri",
-        "Tbilisi",
-        "Green Neighborhood",
-        "Brownfield",
-        "Architecture"
-      ],
-      "category": "Design Competitions",
-      "importance": "High"
-    },
-    {
-      "title": "Four Brazilian Houses Frame the Sea Views",
-      "url": "https://www.archdaily.com/1186608/building-the-view-4-brazilian-houses-framing-the-sea",
-      "source": "ArchDaily",
-      "published": "2026-10-26T04:00:00+00:00",
-      "summary": "Four Brazilian houses are designed to frame views of the sea. The project explores how architecture can capture coastal perspectives. It highlights thoughtful residential design.",
-      "keywords": [
-        "Brazilian Houses",
-        "Sea View",
-        "Architecture",
-        "Perspective"
-      ],
-      "category": "Other",
-      "importance": "Medium"
-    },
-    {
-      "title": "Foomann Architects Design Mornington House",
-      "url": "https://www.archdaily.com/1187389/mornington-house-foomann-architects",
-      "source": "ArchDaily",
-      "published": "2026-10-26T03:00:00+00:00",
-      "summary": "Foomann Architects designed a holiday home for clients. It shares a block and pool with another house. The design focuses on the view and hosting guests.",
-      "keywords": [
-        "Foomann Architects",
-        "Mornington House",
-        "Holiday Home",
-        "Architecture"
-      ],
-      "category": "Other",
-      "importance": "Medium"
-    },
-    {
-      "title": "Tato Architects Designs House in Mibu",
-      "url": "https://www.archdaily.com/1186430/house-in-mibu-tato-architects",
-      "source": "ArchDaily",
-      "published": "2026-10-26T02:00:00+00:00",
-      "summary": "Tato Architects designed a house in Mibu. The project considers how architecture alters its surroundings. It asks whether interventions can heal rather than damage.",
-      "keywords": [
-        "Tato Architects",
-        "Mibu",
-        "Architecture",
-        "Healing"
-      ],
-      "category": "Other",
-      "importance": "Medium"
-    },
-    {
-      "title": "Material Choices Shape Historic Building Additions",
-      "url": "https://www.archdaily.com/1187153/how-material-choices-shape-contemporary-additions-to-historic-buildings",
-      "source": "ArchDaily",
-      "published": "2026-10-26T01:30:00+00:00",
-      "summary": "New additions to historic buildings raise questions about preserving character. Material selection helps contemporary interventions relate to old structures. The article examines this relationship.",
-      "keywords": [
-        "Materials",
-        "Historic Buildings",
-        "Architecture",
-        "Additions"
+        "waste materials",
+        "mycelium",
+        "sustainability",
+        "circular economy",
+        "biomaterials"
       ],
       "category": "Materials",
       "importance": "Medium"
     },
     {
-      "title": "MOVS Studio Designs SIP Coffee and Bakery",
-      "url": "https://www.archdaily.com/1187273/sip-coffee-and-bakery-movs-studio",
+      "title": "Grand Ethiopian Dam Sparks Energy‑Water Debate",
+      "url": "https://www.archdaily.com/1186770/dammed-between-energy-and-water-scarcity-the-grand-ethiopian-renaissance-dam-and-the-nile",
       "source": "ArchDaily",
-      "published": "2026-10-25T21:00:00+00:00",
-      "summary": "MOVS STUDIO designed a coffee and bakery shop in a shopping mall. The studio aimed to give visitors a short rest from busy spaces. The design responds to commercial context.",
+      "published": "2026-10-27T04:00:00+00:00",
+      "summary": "The Grand Ethiopian Renaissance Dam represents a massive engineering and architectural feat, aiming to generate hydropower and address water scarcity. However, it also intensifies regional tensions over water rights and sovereignty. The project highlights the complex trade‑offs between energy development and shared water resources.",
       "keywords": [
-        "MOVS Studio",
-        "SIP Coffee",
-        "Bakery",
-        "Retail Design"
+        "Grand Ethiopian Renaissance Dam",
+        "Nile River",
+        "hydropower",
+        "water scarcity",
+        "geopolitics"
       ],
-      "category": "Other",
-      "importance": "Low"
-    },
-    {
-      "title": "LJL Architects Designs Creasvalley Clubhouse",
-      "url": "https://www.archdaily.com/1187088/creasvalley-cc-clubhouse-ljl-architects",
-      "source": "ArchDaily",
-      "published": "2026-10-25T17:00:00+00:00",
-      "summary": "LJL Architects designed a clubhouse for Creasvalley. The site may be artificial but can become landscape over time. The clubhouse is conceived as part of its environment.",
-      "keywords": [
-        "LJL Architects",
-        "Creasvalley",
-        "Clubhouse",
-        "Landscape"
-      ],
-      "category": "Other",
-      "importance": "Low"
-    },
-    {
-      "title": "Estudio Balzano Designs Montana Farm",
-      "url": "https://www.archdaily.com/1187040/montana-farm",
-      "source": "ArchDaily",
-      "published": "2026-10-25T16:00:00+00:00",
-      "summary": "Estudio Balzano designed a horse breeding and training facility. The project combines architecture, landscape, and equine needs. It focuses on high-level show jumping horses.",
-      "keywords": [
-        "Estudio Balzano",
-        "Montana Farm",
-        "Equestrian",
-        "Architecture"
-      ],
-      "category": "Other",
-      "importance": "Low"
-    },
-    {
-      "title": "h3o Architects Designs Relámpago House",
-      "url": "https://www.archdaily.com/1010715/relampago-house-h3o-architects",
-      "source": "ArchDaily",
-      "published": "2026-10-25T15:00:00+00:00",
-      "summary": "The house materializes lightning as a central element. Lightning becomes wall and light, structuring interior spaces. The design uses weather as architectural inspiration.",
-      "keywords": [
-        "Relámpago House",
-        "h3o",
-        "Lightning",
-        "Architecture"
-      ],
-      "category": "Other",
-      "importance": "Low"
-    },
-    {
-      "title": "PROMONTORIO Designs Ombria Hotel in Algarve",
-      "url": "https://www.archdaily.com/1187100/ombria-hotel-and-apartments-loule-promontorio",
-      "source": "ArchDaily",
-      "published": "2026-10-25T13:00:00+00:00",
-      "summary": "The project is a hotel and apartments at Quinta da Ombria. It is set in a large estate with citrus groves and biodiversity. The design responds to dramatic landscape.",
-      "keywords": [
-        "Ombria Hotel",
-        "PROMONTORIO",
-        "Algarve",
-        "Hotel"
-      ],
-      "category": "Other",
-      "importance": "Low"
-    },
-    {
-      "title": "Dunhua Tower Redefines Residential High-Rise Design",
-      "url": "https://www.archdaily.com/1187401/dunhua-tower-oyler-wu-collaborative",
-      "source": "ArchDaily",
-      "published": "2026-10-25T11:00:00+00:00",
-      "summary": "Dunhua Tower is a 17-story residential tower in Taipei. It uses an L-shaped footprint to create contrasting facades. The design combines materiality, geometry, and sustainable design.",
-      "keywords": [
-        "Dunhua Tower",
-        "Oyler Wu",
-        "Sustainable Design",
-        "High-Rise"
-      ],
-      "category": "Sustainability",
+      "category": "Technology",
       "importance": "High"
+    },
+    {
+      "title": "Casa 9: A‑Frame Retreat Blends Nature and Urban Life",
+      "url": "https://www.archdaily.com/1187495/casa-9-hoang-gk",
+      "source": "ArchDaily",
+      "published": "2026-10-27T03:00:00+00:00",
+      "summary": "Casa 9 serves as a psychological retreat where indoor and outdoor spaces blend seamlessly for urban families. Its bold A‑frame roof shelters the whole house, creating a fluid connection to the tropical environment. The design dissolves boundaries between occupants, living areas, and nature.",
+      "keywords": [
+        "A‑frame architecture",
+        "tropical retreat",
+        "urban family",
+        "spatial fluidity",
+        "private residence"
+      ],
+      "category": "Other",
+      "importance": "Medium"
+    },
+    {
+      "title": "Village de Ananti Merges Sea, Forest, and Urban Energy",
+      "url": "https://www.archdaily.com/1187384/village-de-ananti-skm-architects",
+      "source": "ArchDaily",
+      "published": "2026-10-27T02:00:00+00:00",
+      "summary": "Village de Ananti is a 392‑room leisure and cultural resort set on a sloping seaside site in Busan. It merges the serenity of ocean and forest with the vibrancy of urban life across 160,324 m². The project offers a balanced blend of recreation, culture, and architectural integration with nature.",
+      "keywords": [
+        "sea‑forest resort",
+        "SKM Architects",
+        "leisure complex",
+        "urban integration",
+        "cultural venue"
+      ],
+      "category": "Other",
+      "importance": "Medium"
+    },
+    {
+      "title": "Casa Cardona Transcends Commercial Architecture",
+      "url": "https://www.archdaily.com/1187539/casa-cardona-sensacional-dinamica-mexicana",
+      "source": "ArchDaily",
+      "published": "2026-10-26T19:00:00+00:00",
+      "summary": "Casa Cardona began as a conventional 165 m² development but evolved into a spatially and culturally significant residence. Its design creates an intimate dialogue with the surrounding desert, transforming the living experience. The project demonstrates how architecture can generate human and cultural value beyond market constraints.",
+      "keywords": [
+        "desert architecture",
+        "spatial value",
+        "cultural residence",
+        "Mexican design",
+        "human‑centered"
+      ],
+      "category": "Other",
+      "importance": "Medium"
+    },
+    {
+      "title": "Project MMR Features Spiral Staircase and Interior Tree",
+      "url": "https://www.archdaily.com/1187456/project-mmr-david-ito-arquitetura",
+      "source": "ArchDaily",
+      "published": "2026-10-26T17:00:00+00:00",
+      "summary": "Project MMR is a house for a young couple featuring unconventional spatial demands and personal symbolism. Highlights include a spiral staircase, an interior‑integrated tree, and visual access to the roof slope from within. The design responds to the owners’ specific lifestyle needs while creating a unique residential experience.",
+      "keywords": [
+        "spiral staircase",
+        "integrated tree",
+        "roof view",
+        "custom residence",
+        "David Ito Arquitetura"
+      ],
+      "category": "Other",
+      "importance": "Medium"
+    },
+    {
+      "title": "Santa Rosa Social Housing Highlights Infrastructure Gaps",
+      "url": "https://www.archdaily.com/1187477/santa-rosa-social-housing-far-frohn-and-rojas",
+      "source": "ArchDaily",
+      "published": "2026-10-26T15:00:00+00:00",
+      "summary": "Santa Rosa Social Housing addresses Santiago’s growing peripheral settlements caused by rising land prices. Decades of development have left many units disconnected from essential social and technical infrastructure. The project highlights the need for integrated planning and equitable urban expansion.",
+      "keywords": [
+        "social housing",
+        "Santiago",
+        "infrastructure gap",
+        "urban periphery",
+        "FAR frohn&rojas"
+      ],
+      "category": "Other",
+      "importance": "Medium"
+    },
+    {
+      "title": "Coqueira House Uses Geometry and Suspended Volume",
+      "url": "https://www.archdaily.com/1187520/coqueira-house-tiago-sousa-arquitecto",
+      "source": "ArchDaily",
+      "published": "2026-10-26T13:00:00+00:00",
+      "summary": "Coqueira House is organized on two distinct levels, with the upper site accessed via the main road and the lower level carved out as a flat platform. The design features strong geometry, planes, and a suspended volume that contrast with the surrounding topography. The project demonstrates a thoughtful integration of site conditions and architectural form.",
+      "keywords": [
+        "geometric architecture",
+        "suspended volume",
+        "dual-level site",
+        "Tiago Sousa",
+        "spatial contrast"
+      ],
+      "category": "Other",
+      "importance": "Medium"
+    },
+    {
+      "title": "Ironwood Retreat Capitalizes on Oak Creek's Lush Habitat",
+      "url": "https://www.archdaily.com/1187398/ironwood-the-ranch-mine",
+      "source": "ArchDaily",
+      "published": "2026-10-26T12:00:00+00:00",
+      "summary": "Ironwood Retreat is situated along Oak Creek in Sedona, Arizona, where year‑round water flow creates a lush green canopy rare in the region. The wooden structure leverages the site’s natural setting, blending indoor living with the surrounding forest. The project offers a tranquil retreat that capitalizes on the creek’s ecological richness.",
+      "keywords": [
+        "Ironwood Retreat",
+        "Sedona",
+        "Oak Creek",
+        "wood architecture",
+        "nature retreat"
+      ],
+      "category": "Other",
+      "importance": "Medium"
+    },
+    {
+      "title": "Dondoh Restaurant Revives Izakaya Spirit in Chile",
+      "url": "https://www.archdaily.com/1177056/dondoh-restaurant-costa-plus-herrera-arquitectos",
+      "source": "ArchDaily",
+      "published": "2026-10-26T11:00:00+00:00",
+      "summary": "Dondoh is Chile’s first Japanese grill, recently opened in Santiago, featuring an imposing design inspired by traditional Izakayas. Wood, stone, and fire dominate the interior, creating an atmospheric space for communal dining. The name references an ancient Japanese farmer ceremony, linking culinary tradition with architectural storytelling.",
+      "keywords": [
+        "Japanese grill",
+        "Izakaya design",
+        "Santiago restaurant",
+        "wood and fire",
+        "Costa + Herrera"
+      ],
+      "category": "Other",
+      "importance": "Medium"
+    },
+    {
+      "title": "MOKUZAI Office Building Combines Timber and Concrete",
+      "url": "https://www.archdaily.com/1186694/mokuzai-its-studio",
+      "source": "ArchDaily",
+      "published": "2026-10-26T10:00:00+00:00",
+      "summary": "MOKUZAI is a mixed‑use office building incorporating public health services, featuring a hybrid timber and concrete structure. Designed by IT's Studio, the project showcases sustainable construction methods and modern aesthetics. The design balances durability with environmental considerations, offering flexible workspaces.",
+      "keywords": [
+        "timber‑concrete hybrid",
+        "office building",
+        "public health services",
+        "sustainable construction",
+        "IT's Studio"
+      ],
+      "category": "Materials",
+      "importance": "Medium"
+    },
+    {
+      "title": "Palazzo Sogni Revives Florence with Dreamlike Design",
+      "url": "https://design-milk.com/palazzo-sogni-florence-hotel-design/",
+      "source": "Design Milk",
+      "published": "2026-10-26T21:15:13+00:00",
+      "summary": "Palazzo Sogni revitalizes a centuries‑old palazzo in Florence through restored frescoes and custom furnishings. Designers Elena and Giulia Sella blend historic craftsmanship with contemporary identity, preserving heritage while adding modern flair. The project exemplifies adaptive reuse and the infusion of artisanal skills into historic architecture.",
+      "keywords": [
+        "Palazzo Sogni",
+        "Florence",
+        "restored frescoes",
+        "Florentine craftsmanship",
+        "adaptive reuse"
+      ],
+      "category": "Other",
+      "importance": "Medium"
+    },
+    {
+      "title": "Joyce Wang Studio Revisits Hong Kong's Mandarin Oriental",
+      "url": "https://design-milk.com/mandarin-oriental-the-landmark-renovation/",
+      "source": "Design Milk",
+      "published": "2026-10-26T14:00:05+00:00",
+      "summary": "Joyce Wang Studio returns to redesign the Mandarin Oriental The Landmark in Hong Kong after a decade. The new iteration draws inspiration from Hong Kong's architecture, landscape, and rich history to create a refined hospitality experience.",
+      "keywords": [
+        "Hospitality Design",
+        "Architecture",
+        "Heritage",
+        "Hong Kong",
+        "Interior Design"
+      ],
+      "category": "Industrial Design",
+      "importance": "Medium"
+    },
+    {
+      "title": "Narwal's Flow 2 White Reimagines Robot Vacuum Design",
+      "url": "https://design-milk.com/narwal-flow-2-white-robot-vacuum-design/",
+      "source": "Design Milk",
+      "published": "2026-10-26T13:00:08+00:00",
+      "summary": "Narwal introduces a refined white finish for its Flow 2 robot vacuum with subtle lighting and a cohesive docking station. The design presents a more thoughtful approach to integrating home technology into domestic spaces.",
+      "keywords": [
+        "Robot Vacuum",
+        "Home Technology",
+        "White Design",
+        "Docking Station",
+        "User Experience"
+      ],
+      "category": "Consumer Electronics",
+      "importance": "Low"
+    },
+    {
+      "title": "Crocs x BARK Launches $100 Giant Clog Dog Bed",
+      "url": "https://www.yankodesign.com/2026/10/27/crocs-x-barks-100-giant-clog-is-actually-a-dog-bed/?utm_source=rss&utm_medium=rss&utm_campaign=crocs-x-barks-100-giant-clog-is-actually-a-dog-bed",
+      "source": "Yanko Design",
+      "published": "2026-10-27T09:15:56+00:00",
+      "summary": "Crocs collaborates with BARK to create an oversized orange Croc that doubles as a functional dog bed. The whimsical design tests brand dedication while serving a practical pet care purpose.",
+      "keywords": [
+        "Dog Bed",
+        "Crocs",
+        "Collaboration",
+        "Pet Furniture",
+        "Lifestyle"
+      ],
+      "category": "Furniture",
+      "importance": "Low"
+    },
+    {
+      "title": "Lenovo Unveils Color Ink Tablet with Black and White Display",
+      "url": "https://www.yankodesign.com/2026/10/27/lenovos-color-ink-tablet-switches-its-lcd-from-full-color-to-black-and-white/?utm_source=rss&utm_medium=rss&utm_campaign=lenovos-color-ink-tablet-switches-its-lcd-from-full-color-to-black-and-white",
+      "source": "Yanko Design",
+      "published": "2026-10-27T08:15:32+00:00",
+      "summary": "Lenovo announces the Xiaoxin 10.1 Color Ink tablet featuring a unique approach to e-ink technology. Despite its name, the device switches from full color LCD to black and white display, offering a different reading experience.",
+      "keywords": [
+        "Tablet",
+        "E-Ink",
+        "LCD Display",
+        "Lenovo",
+        "Reading Device"
+      ],
+      "category": "Consumer Electronics",
+      "importance": "Medium"
+    },
+    {
+      "title": "Duramobi's Underwater Speaker Transforms Pool Spaces",
+      "url": "https://www.yankodesign.com/2026/10/26/duramobis-underwater-speaker-turns-your-pool-into-a-sound-system/?utm_source=rss&utm_medium=rss&utm_campaign=duramobis-underwater-speaker-turns-your-pool-into-a-sound-system",
+      "source": "Yanko Design",
+      "published": "2026-10-27T01:45:09+00:00",
+      "summary": "Duramobi releases an underwater Bluetooth speaker designed to turn swimming pools into immersive sound systems. The device addresses the need for waterproof audio solutions in outdoor recreational settings.",
+      "keywords": [
+        "Underwater Speaker",
+        "Pool Audio",
+        "Bluetooth",
+        "Waterproof",
+        "Recreational Technology"
+      ],
+      "category": "Consumer Electronics",
+      "importance": "Low"
+    },
+    {
+      "title": "AWOL Valerion Enhances NFL Viewing with Advanced Picture Control",
+      "url": "https://www.yankodesign.com/2026/10/26/awol-valerion-pairs-big-screen-nfl-viewing-with-more-picture-control/?utm_source=rss&utm_medium=rss&utm_campaign=awol-valerion-pairs-big-screen-nfl-viewing-with-more-picture-control",
+      "source": "Yanko Design",
+      "published": "2026-10-26T23:30:32+00:00",
+      "summary": "AWOL introduces the Valerion projector system designed for immersive big-screen sports viewing. The product emphasizes enhanced picture control options for optimal home entertainment during major sporting events.",
+      "keywords": [
+        "Home Theater",
+        "Sports Viewing",
+        "Picture Quality",
+        "Projector",
+        "NFL"
+      ],
+      "category": "Consumer Electronics",
+      "importance": "Medium"
+    },
+    {
+      "title": "Compact Yukon Cabin Fits King Bed Without Loft",
+      "url": "https://www.yankodesign.com/2026/10/26/the-296-square-foot-yukon-cabin-fits-a-king-bed-without-a-loft/?utm_source=rss&utm_medium=rss&utm_campaign=the-296-square-foot-yukon-cabin-fits-a-king-bed-without-a-loft",
+      "source": "Yanko Design",
+      "published": "2026-10-26T22:30:03+00:00",
+      "summary": "Zook Cabins presents the 296-square-foot Yukon Park Model that accommodates a king-size bed on the main floor without requiring a loft. The design maximizes space efficiency while maintaining residential comfort for temporary living.",
+      "keywords": [
+        "Tiny Home",
+        "Cabin Design",
+        "King Bed",
+        "Space Optimization",
+        "Off-Grid Living"
+      ],
+      "category": "Furniture",
+      "importance": "Medium"
+    },
+    {
+      "title": "Even Realities Debuts Elegant Tortoise Shell Smart Glasses",
+      "url": "https://www.yankodesign.com/2026/10/26/even-realities-new-tortoise-shell-frame-is-so-gorgeous-id-buy-the-smart-glasses-just-for-the-design/?utm_source=rss&utm_medium=rss&utm_campaign=even-realities-new-tortoise-shell-frame-is-so-gorgeous-id-buy-the-smart-glasses-just-for-the-design",
+      "source": "Yanko Design",
+      "published": "2026-10-26T21:30:50+00:00",
+      "summary": "Even Realities launches new smart glasses featuring a stunning tortoise shell frame design. The aesthetic focus positions the product as a premium wearable that prioritizes fashion alongside functionality.",
+      "keywords": [
+        "Smart Glasses",
+        "Wearable Technology",
+        "Tortoise Shell",
+        "Frame Design",
+        "Shenzhen Startup"
+      ],
+      "category": "Consumer Electronics",
+      "importance": "Medium"
+    },
+    {
+      "title": "Apple's iPad Mini Challenges High-End iPhone Pricing",
+      "url": "https://www.yankodesign.com/2026/10/26/apples-new-699-ipad-mini-makes-the-1999-iphone-duo-a-harder-sell/?utm_source=rss&utm_medium=rss&utm_campaign=apples-new-699-ipad-mini-makes-the-1999-iphone-duo-a-harder-sell",
+      "source": "Yanko Design",
+      "published": "2026-10-26T20:30:31+00:00",
+      "summary": "Apple releases a $699 iPad mini that makes the $1,999 iPhone Duo less compelling as a purchase. The new tablet offers strong value proposition while competing with Apple's own premium smartphone lineup.",
+      "keywords": [
+        "iPad Mini",
+        "Apple Products",
+        "Pricing Strategy",
+        "Tablet Market",
+        "iPhone Duo"
+      ],
+      "category": "Consumer Electronics",
+      "importance": "High"
+    },
+    {
+      "title": "28-Foot Tiny Home Features Living Room in Staircase",
+      "url": "https://www.yankodesign.com/2026/10/26/this-28-foot-tiny-home-fits-a-living-room-into-its-staircase/?utm_source=rss&utm_medium=rss&utm_campaign=this-28-foot-tiny-home-fits-a-living-room-into-its-staircase",
+      "source": "Yanko Design",
+      "published": "2026-10-26T19:20:06+00:00",
+      "summary": "The Wildscape tiny home incorporates a multi-functional staircase that serves as a living room area. Terraced timber seating provides lounge space, storage, and vertical circulation in an efficient 28-foot design.",
+      "keywords": [
+        "Tiny Home",
+        "Staircase Design",
+        "Living Room",
+        "Space Efficiency",
+        "Sustainable Design"
+      ],
+      "category": "Furniture",
+      "importance": "Low"
+    },
+    {
+      "title": "8bitdo Honors Tomb Raider with Nostalgic Gaming Controllers",
+      "url": "https://www.yankodesign.com/2026/10/26/8bitdo-celebrates-three-decades-of-tomb-raider-with-two-controllers-built-for-nostalgic-gaming/?utm_source=rss&utm_medium=rss&utm_campaign=8bitdo-celebrates-three-decades-of-tomb-raider-with-two-controllers-built-for-nostalgic-gaming",
+      "source": "Yanko Design",
+      "published": "2026-10-26T18:27:44+00:00",
+      "summary": "8bitdo celebrates 30 years of Tomb Raider with two specially designed controllers for nostalgic gamers. The products appeal to fans who want to revisit classic gaming experiences.",
+      "keywords": [
+        "Gaming Controller",
+        "Tomb Raider",
+        "Retro Gaming",
+        "8bitdo",
+        "Gaming Memorabilia"
+      ],
+      "category": "Consumer Electronics",
+      "importance": "Low"
+    },
+    {
+      "title": "Minisforum N5 Air 7640 Features Upgradeable Slide-Out Motherboard",
+      "url": "https://www.yankodesign.com/2026/10/26/minisforum-n5-air-7640-makes-room-for-upgrades-with-a-slide-out-motherboard/?utm_source=rss&utm_medium=rss&utm_campaign=minisforum-n5-air-7640-makes-room-for-upgrades-with-a-slide-out-motherboard",
+      "source": "Yanko Design",
+      "published": "2026-10-26T17:20:56+00:00",
+      "summary": "Minisforum introduces the N5 Air 7640 mini PC with a slide-out motherboard design enabling easy upgrades. The innovative approach addresses storage limitations and future-proofing needs for compact computing solutions.",
+      "keywords": [
+        "Mini PC",
+        "Upgradability",
+        "Motherboard Design",
+        "Minisforum",
+        "Computer Hardware"
+      ],
+      "category": "Consumer Electronics",
+      "importance": "Medium"
+    },
+    {
+      "title": "Hanger's Hidden Trick Turns Question Into Exclamation",
+      "url": "https://www.yankodesign.com/2026/10/26/a-hangers-hidden-trick-turns-a-question-into-an-exclamation/?utm_source=rss&utm_medium=rss&utm_campaign=a-hangers-hidden-trick-turns-a-question-into-an-exclamation",
+      "source": "Yanko Design",
+      "published": "2026-10-26T16:20:57+00:00",
+      "summary": "A closet full of clothes can leave you unsure which shirt fits best. This hanger design solves that problem with a clever hidden feature.",
+      "keywords": [
+        "hanger",
+        "design",
+        "innovation",
+        "smart storage"
+      ],
+      "category": "Product Design",
+      "importance": "Medium"
+    },
+    {
+      "title": "Logitech Pebble Up Mouse Transforms Vertically",
+      "url": "https://www.yankodesign.com/2026/10/26/logitech-pebble-up-mouse-transforms-into-a-vertical-configuration-for-power-users/?utm_source=rss&utm_medium=rss&utm_campaign=logitech-pebble-up-mouse-transforms-into-a-vertical-configuration-for-power-users",
+      "source": "Yanko Design",
+      "published": "2026-10-26T15:20:43+00:00",
+      "summary": "Logitech's new mouse offers a vertical configuration for power users who need more space. The design adapts to different workstation setups.",
+      "keywords": [
+        "mouse",
+        "vertical",
+        "ergonomic",
+        "Logitech"
+      ],
+      "category": "Product Design",
+      "importance": "Medium"
+    },
+    {
+      "title": "NUS Researchers Create Touchscreen Sleeve with Electronic Threads",
+      "url": "https://www.yankodesign.com/2026/10/26/nus-researchers-turn-electronic-threads-into-a-touchscreen-sleeve/?utm_source=rss&utm_medium=rss&utm_campaign=nus-researchers-turn-electronic-threads-into-a-touchscreen-sleeve",
+      "source": "Yanko Design",
+      "published": "2026-10-26T14:20:53+00:00",
+      "summary": "Researchers at NUS developed a sleeve that turns a sleeve into a touchscreen. The electronic threads enable interactive touch without a separate device.",
+      "keywords": [
+        "electronic threads",
+        "touchscreen",
+        "sleeve",
+        "NUS"
+      ],
+      "category": "Industrial Design",
+      "importance": "Medium"
+    },
+    {
+      "title": "DeWalt Tool Batteries Charge Laptops Without Outlet",
+      "url": "https://www.yankodesign.com/2026/10/26/dewalts-tool-batteries-can-charge-laptops-without-an-outlet/?utm_source=rss&utm_medium=rss&utm_campaign=dewalts-tool-batteries-can-charge-laptops-without-an-outlet",
+      "source": "Yanko Design",
+      "published": "2026-10-26T13:20:41+00:00",
+      "summary": "DeWalt's drill batteries can now charge laptops directly. This innovation eliminates the need for separate power adapters.",
+      "keywords": [
+        "tool batteries",
+        "laptop charging",
+        "DeWalt",
+        "innovation"
+      ],
+      "category": "Technology",
+      "importance": "Medium"
+    },
+    {
+      "title": "Lamp That Refuses to Need Outlet or Charger",
+      "url": "https://www.yankodesign.com/2026/10/26/the-lamp-that-refuses-to-need-an-outlet-or-a-charger/?utm_source=rss&utm_medium=rss&utm_campaign=the-lamp-that-refuses-to-need-an-outlet-or-a-charger",
+      "source": "Yanko Design",
+      "published": "2026-10-26T11:40:29+00:00",
+      "summary": "A lamp design that operates without traditional power sources. It reimagines how lighting can be used in portable settings.",
+      "keywords": [
+        "lamp",
+        "wireless",
+        "power-free",
+        "design"
+      ],
+      "category": "Product Design",
+      "importance": "Medium"
     },
     {
       "title": "Statik PowerStand Turns USB-C Cable into Phone Stand",
       "url": "https://www.yankodesign.com/2026/10/26/statik-powerstand-turns-a-usb-c-cable-into-a-folding-phone-stand/?utm_source=rss&utm_medium=rss&utm_campaign=statik-powerstand-turns-a-usb-c-cable-into-a-folding-phone-stand",
       "source": "Yanko Design",
       "published": "2026-10-26T10:07:05+00:00",
-      "summary": "The Statik PowerStand uses a USB-C cable as a folding phone stand. It aims to make charging and viewing more useful. The product converts cable into stand.",
+      "summary": "Statik's PowerStand repurposes a USB-C cable as a folding phone stand. It provides a stable surface for charging and viewing.",
       "keywords": [
-        "Statik",
-        "PowerStand",
+        "phone stand",
         "USB-C",
-        "Phone Stand",
-        "Accessory"
-      ],
-      "category": "Accessory Design",
-      "importance": "Low"
-    },
-    {
-      "title": "Slurptop DIY Laptop Pairs Power-Tool Styling With Swappable Battery",
-      "url": "https://www.yankodesign.com/2026/10/26/the-slurptop-diy-laptop-pairs-power-tool-styling-with-a-swappable-battery/?utm_source=rss&utm_medium=rss&utm_campaign=the-slurptop-diy-laptop-pairs-power-tool-styling-with-a-swappable-battery",
-      "source": "Yanko Design",
-      "published": "2026-10-26T09:15:03+00:00",
-      "summary": "The Slurptop DIY Laptop borrows its battery from a toolbox and wraps mini PC hardware in chunky power-tool styling. Its homemade cyberdeck design embraces a swappable battery system.",
-      "keywords": [
-        "DIY laptop",
-        "swappable battery",
-        "cyberdeck",
-        "power tools",
-        "custom PC"
-      ],
-      "category": "Technology",
-      "importance": "Medium"
-    },
-    {
-      "title": "HMD 2660 Flip Senior Edition Brings AI Conversations to Old-School Phone",
-      "url": "https://www.yankodesign.com/2026/10/26/hmd-2660-flip-senior-edition-brings-ai-conversations-to-an-old-school-phone/?utm_source=rss&utm_medium=rss&utm_campaign=hmd-2660-flip-senior-edition-brings-ai-conversations-to-an-old-school-phone",
-      "source": "Yanko Design",
-      "published": "2026-10-26T08:15:27+00:00",
-      "summary": "The HMD 2660 Flip Senior Edition adds AI conversations to a classic flip phone. It aims to make calling feel familiar rather than requiring new software skills.",
-      "keywords": [
-        "HMD",
-        "AI phone",
-        "senior edition",
-        "flip phone",
-        "conversational AI"
-      ],
-      "category": "Consumer Electronics",
-      "importance": "Medium"
-    },
-    {
-      "title": "Glow-in-the-Dark Carabiner Is $6 Camping EDC Upgrade",
-      "url": "https://www.yankodesign.com/2026/10/25/this-6-glow-in-the-dark-carabiner-might-be-camping-edcs-biggest-upgrade/?utm_source=rss&utm_medium=rss&utm_campaign=this-6-glow-in-the-dark-carabiner-might-be-camping-edcs-biggest-upgrade",
-      "source": "Yanko Design",
-      "published": "2026-10-26T01:45:36+00:00",
-      "summary": "This $6 glow-in-the-dark carabiner might be a big upgrade for camping EDC. The brand added glow to everyday carry items people fear losing in the dark.",
-      "keywords": [
-        "glow-in-the-dark",
-        "carabiner",
-        "EDC",
-        "camping",
-        "safety"
-      ],
-      "category": "Accessory Design",
-      "importance": "Low"
-    },
-    {
-      "title": "Five Pocket-Sized EDC Tools for Hating Bulky Multitools",
-      "url": "https://www.yankodesign.com/2026/10/25/5-pocket-sized-edc-for-people-who-hate-carrying-bulky-multitools/?utm_source=rss&utm_medium=rss&utm_campaign=5-pocket-sized-edc-for-people-who-hate-carrying-bulky-multitools",
-      "source": "Yanko Design",
-      "published": "2026-10-25T23:30:13+00:00",
-      "summary": "A collection of five pocket-sized EDC tools for people who dislike bulky multitools. The lineup includes pliers, blades, drivers, and openers in compact forms.",
-      "keywords": [
-        "EDC",
-        "multitool",
-        "pocket tools",
-        "compact",
-        "survival"
-      ],
-      "category": "Accessory Design",
-      "importance": "Low"
-    },
-    {
-      "title": "Spanish Home Uses Curved Roofs and Cork Walls for Natural Cooling",
-      "url": "https://www.yankodesign.com/2026/10/25/this-spanish-home-uses-curved-roofs-and-cork-walls-to-stay-naturally-cool/?utm_source=rss&utm_medium=rss&utm_campaign=this-spanish-home-uses-curved-roofs-and-cork-walls-to-stay-naturally-cool",
-      "source": "Yanko Design",
-      "published": "2026-10-25T22:30:15+00:00",
-      "summary": "Casa Vereda in Spain uses curved roofs and cork walls to stay naturally cool. The design blends bold architecture with sustainable climate control.",
-      "keywords": [
-        "Casa Vereda",
-        "cork walls",
-        "passive cooling",
-        "architecture",
-        "sustainability"
-      ],
-      "category": "Sustainability",
-      "importance": "Medium"
-    },
-    {
-      "title": "Titanium Watch Turns Yuri Gagarin’s First Orbit Into a Dial",
-      "url": "https://www.yankodesign.com/2026/10/25/this-titanium-watch-turns-yuri-gagarins-first-orbit-into-a-dial/?utm_source=rss&utm_medium=rss&utm_campaign=this-titanium-watch-turns-yuri-gagarins-first-orbit-into-a-dial",
-      "source": "Yanko Design",
-      "published": "2026-10-25T20:45:05+00:00",
-      "summary": "A titanium watch design transforms Yuri Gagarin's first orbit into its dial. It references the Speedmaster legend while adding space history to the face.",
-      "keywords": [
-        "titanium watch",
-        "Yuri Gagarin",
-        "space watch",
-        "orbit",
-        "Speedmaster"
-      ],
-      "category": "Jewelry Design",
-      "importance": "Low"
-    },
-    {
-      "title": "Jenga Tower Lamp Lights Up as You Stack It",
-      "url": "https://www.yankodesign.com/2026/10/25/this-jenga-tower-is-also-a-lamp-and-it-lights-up-as-you-stack-it/?utm_source=rss&utm_medium=rss&utm_campaign=this-jenga-tower-is-also-a-lamp-and-it-lights-up-as-you-stack-it",
-      "source": "Yanko Design",
-      "published": "2026-10-25T19:15:10+00:00",
-      "summary": "A Jenga tower that doubles as a lamp, lighting up as blocks are stacked. The Toronto architecture studio PARTISANS created the playful design.",
-      "keywords": [
-        "Jenga lamp",
-        "stackable lamp",
-        "architecture",
-        "lighting",
-        "blocks"
+        "folding",
+        "Statik"
       ],
       "category": "Product Design",
-      "importance": "Low"
+      "importance": "Medium"
     },
     {
-      "title": "Bellavista 11 Folds Concrete Planes Down Ibiza Hillside",
-      "url": "https://www.yankodesign.com/2026/10/25/bellavista-11-folds-thin-white-concrete-planes-down-an-ibiza-hillside-toward-the-sea/?utm_source=rss&utm_medium=rss&utm_campaign=bellavista-11-folds-thin-white-concrete-planes-down-an-ibiza-hillside-toward-the-sea",
-      "source": "Yanko Design",
-      "published": "2026-10-25T17:20:24+00:00",
-      "summary": "Bellavista 11 folds thin white concrete planes down an Ibiza hillside toward the sea. Designed by Fran Silvestre Arquitectos, it makes hillside living feel fluid.",
+      "title": "Reclaimed Timber Frames Shape Coastal Sauna and Hub",
+      "url": "https://www.designboom.com/architecture/reclaimed-timber-frames-skroget-coastal-sauna-community-hub-norway-rare-collectiv/",
+      "source": "Designboom",
+      "published": "2026-10-27T08:55:40+00:00",
+      "summary": "An arctic sauna and community hub built from reclaimed timber portal frames. The design showcases sustainable construction in Norway.",
       "keywords": [
-        "Bellavista 11",
-        "concrete",
-        "Ibiza",
+        "reclaimed timber",
+        "sauna",
         "architecture",
-        "folding design"
-      ],
-      "category": "Furniture",
-      "importance": "Medium"
-    },
-    {
-      "title": "Titanium Smart Glasses Concept Refuses to Hide Its Tech",
-      "url": "https://www.yankodesign.com/2026/10/25/titanium-smart-glasses-concept-refuses-to-hide-its-tech/?utm_source=rss&utm_medium=rss&utm_campaign=titanium-smart-glasses-concept-refuses-to-hide-its-tech",
-      "source": "Yanko Design",
-      "published": "2026-10-25T15:20:11+00:00",
-      "summary": "A titanium smart glasses concept integrates computer components without hiding them. The design tackles the challenge of making electronics belong in glasses.",
-      "keywords": [
-        "smart glasses",
-        "titanium",
-        "concept",
-        "AI",
-        "wearable tech"
-      ],
-      "category": "Technology",
-      "importance": "Medium"
-    },
-    {
-      "title": "Nine Red-to-Aluminum Ducati Customs Will Ever Exist",
-      "url": "https://www.yankodesign.com/2026/10/25/only-nine-of-these-gorgeous-red-to-aluminum-ducati-customs-will-ever-exist/?utm_source=rss&utm_medium=rss&utm_campaign=only-nine-of-these-gorgeous-red-to-aluminum-ducati-customs-will-ever-exist",
-      "source": "Yanko Design",
-      "published": "2026-10-25T13:20:39+00:00",
-      "summary": "Only nine red-to-aluminum Ducati customs will ever be made. The custom paint job replaces traditional covering on the vehicle.",
-      "keywords": [
-        "Ducati",
-        "custom",
-        "red aluminum",
-        "motorcycle",
-        "limited edition"
-      ],
-      "category": "Automotive",
-      "importance": "Low"
-    },
-    {
-      "title": "Lavvu Tiny Home Has Bathtub and Hidden Storage",
-      "url": "https://www.yankodesign.com/2026/10/25/lavvus-tiny-home-has-a-bathtub-and-hidden-storage/?utm_source=rss&utm_medium=rss&utm_campaign=lavvus-tiny-home-has-a-bathtub-and-hidden-storage",
-      "source": "Yanko Design",
-      "published": "2026-10-25T11:40:26+00:00",
-      "summary": "Lavvu's tiny home includes a full-size bathtub and hidden storage. The XL specification packs practical amenities into small living space.",
-      "keywords": [
-        "tiny home",
-        "bathtub",
-        "storage",
-        "Lavvu",
-        "compact living"
-      ],
-      "category": "Furniture",
-      "importance": "Low"
-    },
-    {
-      "title": "spacon Designs adidas Copenhagen Curtains and Sneaker Carpets",
-      "url": "https://www.designboom.com/design/spacon-perforated-aluminum-curtain-vintage-shoe-box-carpets-adidas-copenhagen/",
-      "source": "Designboom",
-      "published": "2026-10-26T09:45:14+00:00",
-      "summary": "spacon created perforated aluminum curtains and vintage shoe box carpets for adidas Copenhagen. The fitting room curtains map running paths and carpets document sneaker culture.",
-      "keywords": [
-        "adidas",
-        "spacon",
-        "curtain",
-        "carpet",
-        "sneaker"
-      ],
-      "category": "Product Design",
-      "importance": "Low"
-    },
-    {
-      "title": "STEFANO BOERI TRANSFORMS LOCOMOTIVE FACTORY INTO GREEN NEIGHBORHOOD",
-      "url": "https://www.designboom.com/architecture/stefano-boeri-architetti-loco-park-green-neighborhood-tbilisi/",
-      "source": "Designboom",
-      "published": "2026-10-26T07:55:37+00:00",
-      "summary": "The winning loco park masterplan reimagines a 73,600-square-meter industrial site in Tbilisi with nine residential buildings, public parks, and pedestrian routes. It transforms the abandoned site into a sustainable neighborhood.",
-      "keywords": [
-        "Stefano Boeri",
-        "green architecture",
-        "Tbilisi",
-        "residential buildings"
-      ],
-      "category": "Sustainability",
-      "importance": "High"
-    },
-    {
-      "title": "MASSIMODUTTI IN NEW YORK WITH PATTI SMITH PORTFOLIOS",
-      "url": "https://www.designboom.com/design/massimo-dutti-new-york-flagship-patti-smith-portraits-steven-sebring/",
-      "source": "Designboom",
-      "published": "2026-10-26T07:15:38+00:00",
-      "summary": "Massimo Dutti explores New York's cultural memory with an exhibition on Bowery alongside its multi-disciplinary SoHo debut.",
-      "keywords": [
-        "Massimo Dutti",
-        "fashion",
-        "Patti Smith",
-        "brand",
-        "retail"
+        "Norway"
       ],
       "category": "Industrial Design",
       "importance": "Medium"
     },
     {
-      "title": "STEPPED TIMBER PLATFORMS SHAPE CIRCULAR DÜSSLER HOME",
-      "url": "https://www.designboom.com/architecture/stepped-timber-platforms-operable-textiles-circular-dusseldorf-home-urselmann-interior/",
+      "title": "Fictional Beverage Campaign Raises Fake News Awareness",
+      "url": "https://www.designboom.com/design/fictional-beverage-warning-fake-news-dysturb-source-s-campaign/",
       "source": "Designboom",
-      "published": "2026-10-25T21:35:44+00:00",
-      "summary": "Urselmann Interior renovates a 1939 apartment in Düsseldorf using reversible dry joinery and nine take-back agreements for a circular interior.",
+      "published": "2026-10-27T07:37:43+00:00",
+      "summary": "A fictional drink campaign warns about misinformation in Paris and NYC. The project combines art with media literacy education.",
       "keywords": [
-        "circular design",
-        "timber",
-        "interior design",
-        "furniture",
-        "Düsseldorf"
+        "fake news",
+        "beverage",
+        "campaign",
+        "media literacy"
       ],
-      "category": "Furniture",
+      "category": "Other",
       "importance": "Medium"
     },
     {
-      "title": "THINKING WITH ANIMALS IN SICILIAN VILLAGE EXAMINES DIVIDE",
-      "url": "https://www.designboom.com/architecture/thinking-with-animals-in-the-sicilian-village-of-santo-pietro-explores-the-human-animal-divide/",
+      "title": "Jorge Diego Etienne Exhibits 15 Years of Design Prototypes",
+      "url": "https://www.designboom.com/design/jorge-diego-etienne-15-years-design-prototypes-mexico-city-museo-franz-mayer-mockups-before-fuckups/",
       "source": "Designboom",
-      "published": "2026-10-25T15:15:23+00:00",
-      "summary": "Co-director Marco Navarra discusses an ecological regeneration project connecting community life and design in the post-anthropocene era.",
+      "published": "2026-10-27T03:38:26+00:00",
+      "summary": "The designer's museum exhibition reveals nearly 15 years of sketches and prototypes. It showcases his long-term design practice.",
       "keywords": [
-        "animal design",
-        "ecological regeneration",
-        "design research",
-        "post-anthropocene"
+        "design prototypes",
+        "exhibition",
+        "Jorge Diego Etienne",
+        "museum"
       ],
-      "category": "Sustainability",
+      "category": "Design Competitions",
       "importance": "Medium"
     },
     {
-      "title": "TO THE RED DOT NEWSROOM",
+      "title": "MOLD Greek Island Residence with Seven Open-Air Courtyards",
+      "url": "https://www.designboom.com/architecture/mold-terracotta-greek-island-m-residence-courtyards/",
+      "source": "Designboom",
+      "published": "2026-10-27T00:57:03+00:00",
+      "summary": "A rose-colored home on Serifos features seven courtyards and curved passages. The design integrates nature and architecture on a Greek island.",
+      "keywords": [
+        "residence",
+        "Greek island",
+        "courtyard",
+        "MOLD"
+      ],
+      "category": "Industrial Design",
+      "importance": "Medium"
+    },
+    {
+      "title": "Aron Sanchez-Baranda Finds Otherworldly Forms in Marine Life",
+      "url": "https://www.designboom.com/art/aron-sanchez-baranda-otherworldly-forms-marine-life-interview/",
+      "source": "Designboom",
+      "published": "2026-10-26T21:35:14+00:00",
+      "summary": "An artist explores nonhuman life forms through sculpture and design. The work invites viewers to reconsider perception of marine organisms.",
+      "keywords": [
+        "marine life",
+        "sculpture",
+        "art",
+        "Aron Sanchez-Baranda"
+      ],
+      "category": "Other",
+      "importance": "Medium"
+    },
+    {
+      "title": "Ergonomic Chess Set with Tactile Contours and Weighted Bases",
+      "url": "https://www.designboom.com/design/tactile-contours-weighted-bases-ergonomic-chess-set-white-oak-walnut-lucy-aboonour-flora/",
+      "source": "Designboom",
+      "published": "2026-10-26T18:45:45+00:00",
+      "summary": "Lucy Aboonour's chess set uses wood and walnut with ergonomic features. The design optimizes tactile recognition and playability.",
+      "keywords": [
+        "chess set",
+        "ergonomic",
+        "wood",
+        "tactile design"
+      ],
+      "category": "Product Design",
+      "importance": "Medium"
+    },
+    {
+      "title": "Rima Dain Launches Custom Architectural Outdoor Rugs",
+      "url": "https://www.designboom.com/readers/rima-dain-exterior-living-zones-custom-architectural-outdoor-rugs/",
+      "source": "Designboom",
+      "published": "2026-10-26T16:30:02+00:00",
+      "summary": "Marbella-based studio Rima Dain creates custom outdoor rugs using UV-stabilized synthetic flatweaves and water-permeable backings. These architectural pieces frame exterior living zones for residential and hospitality terraces. The designs combine durability with functional zoning capabilities.",
+      "keywords": [
+        "outdoor rugs",
+        "architectural textiles",
+        "custom design",
+        "terrace design",
+        "UV-stabilized fabrics"
+      ],
+      "category": "Product Design",
+      "importance": "Medium"
+    },
+    {
+      "title": "Washable Electronic Fibers Turn Sleeve Into Touchscreen",
+      "url": "https://www.designboom.com/technology/electronic-fibers-touchscreen-sleeve-machine-washing-national-university-singapore-nus-tural-khudiyev/",
+      "source": "Designboom",
+      "published": "2026-10-26T16:15:44+00:00",
+      "summary": "New electronic fiber technology embeds touchscreen functionality into fabric sleeves that survive machine washing. The material can display images and video, respond to finger presses, and connect wirelessly to digital devices. It remains breathable and flexible like everyday fabric.",
+      "keywords": [
+        "electronic textiles",
+        "wearable technology",
+        "touchscreen fabric",
+        "smart clothing",
+        "washable electronics"
+      ],
+      "category": "Technology",
+      "importance": "High"
+    },
+    {
+      "title": "Architect Reimagines Design Beyond Human-Centered Perspectives",
+      "url": "https://www.designboom.com/architecture/ariel-andre-golem-guest-essay-architecture-beyond-human/",
+      "source": "Designboom",
+      "published": "2026-10-26T11:50:57+00:00",
+      "summary": "Architect Ariel André explores how shifting design perspectives toward animals and other non-human life forms can reshape inhabited spaces. The guest essay challenges anthropocentric approaches to architecture and urban design. It proposes new frameworks for designing with overlooked bodies and ecosystems in mind.",
+      "keywords": [
+        "architecture",
+        "non-human design",
+        "spatial theory",
+        "bio-inclusive design",
+        "architectural philosophy"
+      ],
+      "category": "Other",
+      "importance": "Medium"
+    },
+    {
+      "title": "Sagmeister Exhibition Uses Data to Show Global Progress",
+      "url": "https://www.designboom.com/design/stefan-sagmeisters-la-gaite-lyrique/",
+      "source": "Designboom",
+      "published": "2026-10-26T11:00:45+00:00",
+      "summary": "Stefan Sagmeister's Finally, Something Good exhibition at La Gaîté Lyrique reframes global metrics across health, democracy, and equality. The data-driven artworks invite visitors to view the current era through optimism rather than cynicism. The show transforms statistical information into compelling visual narratives.",
+      "keywords": [
+        "Stefan Sagmeister",
+        "data visualization",
+        "exhibition",
+        "optimism",
+        "graphic design"
+      ],
+      "category": "Other",
+      "importance": "Medium"
+    },
+    {
+      "title": "October 2026’s Best New Typefaces Revealed",
+      "url": "https://www.creativeboom.com/type-drop/the-best-new-typefaces-for-october-2026/",
+      "source": "Creative Boom",
+      "published": "2026-10-27T07:15:00+00:00",
+      "summary": "Creative Boom rounds up the best new typefaces released in October 2026. The selection includes an industrial slab named after a hardness scale and a display face inspired by lace. The list highlights fresh typography options for designers.",
+      "keywords": [
+        "typography",
+        "typefaces",
+        "fonts",
+        "graphic design",
+        "October 2026"
+      ],
+      "category": "Product Design",
+      "importance": "Low"
+    },
+    {
+      "title": "Photo Book Documents Soviet-Era Socialist Hotel Architecture",
+      "url": "https://www.creativeboom.com/books/socialist-hotels-relive-the-concrete-dreams-of-the-soviet-era-with-this-beautiful-photobook/",
+      "source": "Creative Boom",
+      "published": "2026-10-27T07:15:00+00:00",
+      "summary": "A new photo book documents the hospitality architecture of the Soviet era behind the Iron Curtain. The collection showcases concrete hotel designs from the socialist period. It offers a visual retrospective of Eastern Bloc accommodation architecture.",
+      "keywords": [
+        "Soviet architecture",
+        "hospitality design",
+        "photo book",
+        "concrete architecture",
+        "Eastern Bloc"
+      ],
+      "category": "Other",
+      "importance": "Low"
+    },
+    {
+      "title": "Artist Creates Playful Artphabet Featuring Famous Painters",
+      "url": "https://www.creativeboom.com/work/cesar-cid-turns-famous-artists-into-letters-in-his-playful-alphabet-series/",
+      "source": "Creative Boom",
+      "published": "2026-10-27T07:00:00+00:00",
+      "summary": "César Cid has created an Artphabet featuring 26 notable artists abstracted into letterforms. The playful series demonstrates how recognizable paintings can be transformed into abstract typography. The project blends art history with graphic design experimentation.",
+      "keywords": [
+        "typography",
+        "alphabet",
+        "art series",
+        "graphic design",
+        "artist letters"
+      ],
+      "category": "Other",
+      "importance": "Low"
+    },
+    {
+      "title": "Uncommon's rebrand of global powerhouse White & Case ditches every law firm cliché",
+      "url": "https://www.creativeboom.com/work/this-rebrand-ditches-every-law-firm-cliche-as-white-case-loses-the-navy-blue/",
+      "source": "Creative Boom",
+      "published": "2026-10-27T06:45:00+00:00",
+      "summary": "Uncommon Creative Studio's visual identity swaps corporate restraint for kinetic type. We find out more.\nFor decades now, it feels like there's been an unspoken rule about law firm branding. That thes...",
+      "keywords": [],
+      "category": "Other",
+      "importance": "Low"
+    },
+    {
+      "title": "Take a trip back to Perth’s rave scene in Simon Wright’s design retrospective",
+      "url": "https://www.creativeboom.com/books/take-a-trip-back-to-perths-rave-scene-in-simon-wrights-design-retrospective/",
+      "source": "Creative Boom",
+      "published": "2026-10-27T06:30:00+00:00",
+      "summary": "Drawing on the Future is a two-volume series that documents the Australian city's underground music scene at the turn of the millennium.\nIt may be hard to believe, but it's been 26 years since we ente...",
+      "keywords": [],
+      "category": "Other",
+      "importance": "Low"
+    },
+    {
+      "title": "International Assembly 2026: Glasgow's festival returns with a secret stage and a night in a castle",
+      "url": "https://www.creativeboom.com/news/international-assembly-2026-glasgows-design-festival-turns-with-a-secret-stage-and-a-night-in-a-medieval-castle/",
+      "source": "Creative Boom",
+      "published": "2026-10-26T14:00:00+00:00",
+      "summary": "Here's everything you need to know about the November event.\nWe get it: it's cold, raining, and you just want to stay inside for the next six months. But you know, in your heart of hearts, this only l...",
+      "keywords": [],
+      "category": "Other",
+      "importance": "Low"
+    },
+    {
+      "title": "A Good Idea for a Lamp for Ferrari Fanatics",
+      "url": "https://www.core77.com/posts/145730/A-Good-Idea-for-a-Lamp-for-Ferrari-Fanatics",
+      "source": "Core77",
+      "published": "2026-10-26T15:00:00+00:00",
+      "summary": "This vintage desk lamp is by VEB Zweckleuchtenbau, a state-owned East German lamp manufacturer of the 1970s. It's a pretty basic Communist-era design, with no mistaking where the switch is. You can adjust the lamp's tilt by moving the stalk in the little channel in the base. Which makes me think: If you took a vintage Ferrari shift gate, and made a lamp like this with a more Ferrari-esque shade, I bet you could sell it for an absurd amount of money.",
+      "keywords": [],
+      "category": "Other",
+      "importance": "Low"
+    },
+    {
+      "title": "Drawing with Absurdly Long Pencils",
+      "url": "https://www.core77.com/posts/145727/Drawing-with-Absurdly-Long-Pencils",
+      "source": "Core77",
+      "published": "2026-10-26T14:00:00+00:00",
+      "summary": "Scenic artist Nikolay Laukhin creates large-scale backdrops for the Mariinsky Theater in St. Petersburg. And I mean seriously large-scale: You might wonder how many levels of scaffolds he has to erect in order to paint one of those pieces. The answer is, none. Here's how he and his team do the work: I remember a Foundation Year exercise where they had us draw with a pencil on a stick, but it wasn't that long! Laukhin's got lots of behind-the-scenes footage here .",
+      "keywords": [],
+      "category": "Other",
+      "importance": "Low"
+    },
+    {
+      "title": "Improvised Tools: A Creative \"Juggad\" Leak Detector",
+      "url": "https://www.core77.com/posts/145725/Improvised-Tools-A-Creative-Juggad-Leak-Detector",
+      "source": "Core77",
+      "published": "2026-10-26T13:00:00+00:00",
+      "summary": "An innovative improvised method for detecting tire leaks using available materials instead of traditional tools. The jugaad concept encourages resourceful engineering when equipment is lacking.",
+      "keywords": [
+        "Juggad",
+        "improvised",
+        "leak detection",
+        "resourceful design"
+      ],
+      "category": "Product Design",
+      "importance": "Medium"
+    },
+    {
+      "title": "To the Red Dot Newsroom",
       "url": "https://www.mynewsdesk.com/red-dot-design-award",
       "source": "Red Dot",
       "published": null,
       "summary": "",
-      "keywords": [
-        "Red Dot",
-        "newsroom",
-        "press"
-      ],
+      "keywords": [],
       "category": "Other",
       "importance": "Low"
     },
@@ -463,232 +764,213 @@
       "importance": "Medium"
     },
     {
-      "title": "Lego and Daft Punk's team-up highlights exactly how brands should interact with fans",
-      "url": "https://www.creativeboom.com/insight/lego-and-daft-punks-team-up-highlights-exactly-how-brands-should-interact-with-fans/",
-      "source": "Creative Boom",
-      "published": "2026-10-26T07:30:00+00:00",
-      "summary": "From a cryptic teaser to a fan-designed set, this latest partnership is a masterclass in treating your audience as collaborators.\nRemember the old days, when companies were obsessed with nothing more...",
-      "keywords": [],
-      "category": "Other",
-      "importance": "Low"
-    },
-    {
-      "title": "Stocksy's 2027 Visual Insights Report explores why some images connect with audiences so well",
-      "url": "https://www.creativeboom.com/insight/stocksys-2027-visual-insights-report-explores-why-some-images-connect-with-audiences-and-others-dont/",
-      "source": "Creative Boom",
-      "published": "2026-10-26T07:15:00+00:00",
-      "summary": "In an era when any image can be generated, Stocksy's annual report argues that representation is no longer enough. So what is? The secret, it appears, lies in five small prepositions.\nSearch your typi...",
-      "keywords": [],
-      "category": "Other",
-      "importance": "Low"
-    },
-    {
-      "title": "This floating sauna's brand uses a simple typographic trick to stunning effect",
-      "url": "https://www.creativeboom.com/work/this-floating-saunas-brand-uses-a-simple-typographic-trick-to-stunning-effect/",
-      "source": "Creative Boom",
-      "published": "2026-10-26T07:00:00+00:00",
-      "summary": "DutchScot's identity for Fjord, a sauna and cold plunge on San Francisco Bay, makes hot and cold its defining idea.\nPersonally, I really don't like saunas. The idea of baking your body in a small, suf...",
-      "keywords": [],
-      "category": "Other",
-      "importance": "Low"
-    },
-    {
-      "title": "Michelle Gruppetta's riso-printed animation reveals what sound sensitivity actually feels like",
-      "url": "https://www.creativeboom.com/work/michelle-gruppettas-riso-printed-animation-reveals-what-sound-sensitivity-actually-feels-like/",
-      "source": "Creative Boom",
-      "published": "2026-10-26T06:45:00+00:00",
-      "summary": "The Maltese animator's debut short, Misophonia, combines risograph printing and an uncomfortable soundscape to draw us into a very different world.\nFor most of us, sounds like people slurping, chewing...",
-      "keywords": [],
-      "category": "Other",
-      "importance": "Low"
-    },
-    {
-      "title": "Madam Center as a Luxury Electric Facial Bed Supplier: What B2B Buyers Should Look for in Beauty Bed Design - EIN News",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNUFRuUUdvSHlMZThZWjlQTTRMWk1DWW91VjluYWd6MExvdkU4ZTF2MWthVm85S1dyTVROamZ1VDR6NEk3MFJkOS1BVjBQVGF2bmF3NHNLVkYtQ19lNXN1SUZ6MUs2LWxQRnFlTEczZmI2QTR3SjZ3MEpOWVQ4UEQzRmxhOGFfWVNUSHhicWxqSmdaNDBvXzkyeFZFeTVjTFd5THN0MVVKVnFUcUwydE4yeXp6bDFMNkdmSWx3c0NJcTJOYUJBbVZlUldHNlNra2RBM3JOSldVam43cTlfMUVxUWNB?oc=5",
-      "source": "Google News: industrial design",
-      "published": "2026-10-26T07:57:00+00:00",
-      "summary": "Madam Center as a Luxury Electric Facial Bed Supplier: What B2B Buyers Should Look for in Beauty Bed Design EIN News",
-      "keywords": [],
-      "category": "Other",
-      "importance": "Low"
-    },
-    {
-      "title": "Quote: \"Design must evoke emotion even before it serves a functional purpose.\" - italien.news",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYVJRX1R0OEF3ZkktWkkydnhZNWRKaUEwWEFXYXE4MHhaVDlvejI2emI5dTZ3LVFuLXNYNjNWSDVuOVc5MEhVbzdHclZYR3dKV05RODU5QzlPRHZuS0pBbGx6RlV4QkdPSUZfVm9CODZJYzEwZlRaZzZRanFxQlVUcFFFS2M0NXF0RDUzVkd4N2VudXhkcEd4VFM5QlJJVVFaS0ZJLU8yWDh4eFZGMzhMcTR2cw?oc=5",
-      "source": "Google News: industrial design",
-      "published": "2026-10-26T07:15:47+00:00",
-      "summary": "Quote: \"Design must evoke emotion even before it serves a functional purpose.\" italien.news",
-      "keywords": [],
-      "category": "Other",
-      "importance": "Low"
-    },
-    {
-      "title": "6 Non-Apple Gadgets By iPhone Designer",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9Qa2hMSU1Nc3hKV1dSVmtQRk5QaWQ3N05maUROTUdoMmh6OTJ5WkJHZXVWTlNlZHRWTjl5cFRYX1hrZVRGSHJRT0t6aERSUklBZ0wzX1hjbEk5N2I4SWFXZ3B2ZVRwVFp6T1dkYXAtTmt6Vlp2Q3hn?oc=5",
-      "source": "Google News: industrial design",
-      "published": "2026-10-25T13:45:00+00:00",
-      "summary": "The post showcases non-Apple gadgets crafted by the designer responsible for the iPhone. It emphasizes his broader portfolio beyond Apple. The list offers insight into modern industrial design trends.",
-      "keywords": [
-        "iPhone",
-        "gadgets",
-        "designer",
-        "Jony Ive"
-      ],
-      "category": "Industrial Design",
-      "importance": "Medium"
-    },
-    {
-      "title": "iPhone Duo Screen Cracking Surge",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1POTZUM2ppMFJrMkRPMnFVR2pzNlUwM1BPS3RKTEVpam5HdlZfR0hzRFotQmRLc1h5c01lT3NzMURvcG1MRWh6NjNHa09WdG1RTHhZ?oc=5",
-      "source": "Google News: industrial design",
-      "published": "2026-10-26T01:54:55+00:00",
-      "summary": "An analysis attributes recent screen failures to Apple's on-site supply chain oversight. The report focuses on industrial product quality control issues. This incident highlights challenges in maintaining hardware reliability for major tech products.",
-      "keywords": [
-        "iPhone",
-        "screen",
-        "supply chain",
-        "cracks",
-        "quality"
-      ],
-      "category": "Technology",
-      "importance": "Medium"
-    },
-    {
-      "title": "Sudhakar Nadkarni: India's Design Educator",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMno0c0Z2bjdmODVhdkJOTXRaa1FXQm4yQ05adXJVVU4yZ1gxQ2J2ZWE2Q0lrQldBWW9sTmFYTnZHM0NWX25VYlkwVlhZQ1VIdzltTjVCbWR4anRWaS1HWDZOeWJlWXc4d284bERoZ1A2ek5rQkJzVDUwelRYRldhY2EtenVOX0h0OGgwbVh1WFBzN1plaEVSVDltdHQtdmZiVE1VcERyV3A5MjRIcGplMXFIWlZSZnZyVmh4VnZLY2JZM2FZeVViT0pXNWRXTW9R0gHWAUFVX3lxTE9SdGlFZVFXZ3NEUkQ4VEZ1Yzc5M2ktaEI2d0tzUHdycmhnMV9nUmJTeDNjMExyM1QtaWsyR1ZVMmhOaE9YYndGb2h3b0dhZ1FHVXN4MzFYWVhOeC0wLVVUamR3c1BjTkRBR3JGNWpsX3NLUVpGYWExa285SlF5VkxqWWRaRXNXUHg0cUlqM1hLZGJCQjI4cExJUVM3TVBmSlNuNU9ReC0tUFJ4T2hwR1dqbXptTlUzanNlQkgzWmdEekZnaHFlUXFzTUVKZzlJYWwtTVNnWmc?oc=5",
-      "source": "Google News: industrial design",
-      "published": "2026-10-25T18:43:00+00:00",
-      "summary": "The article profiles Sudhakar Nadkarni, a prominent figure who taught India to approach problems through design thinking. His methods influence educational curricula across the country. The piece reflects on his lasting legacy in design education.",
-      "keywords": [
-        "India",
-        "design education",
-        "design thinker",
-        "Sudhakar Nadkarni"
-      ],
-      "category": "Design Education",
-      "importance": "Medium"
-    },
-    {
-      "title": "Streaming Library Shelf, Spill-Proof Curry Pot",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT3M3dEZtbHFOa2RwaC1RWVhheXRzaVNmd3VYXzdwd2cyU1kyQmhlRmxEMVhxZ0g5bmduY2U1S21TbHd5VlBSQUt5bTFkNFZYQ0ZQVG5iaEE4Q3J2a0o5bXFFTjMtSVNJNkNXQ3hVWURkSUl3bUlZVS0wS2Z2YTBacXQxTGxFTFFFM3ZicEt0N1F0bE9hQzR3alhCOXl4UlNlOTJnY0VBSW4zTlMzV056V0txb0JaN1ds?oc=5",
-      "source": "Google News: industrial design",
-      "published": "2026-10-26T05:40:56+00:00",
-      "summary": "Design Week features brief conceptual projects including a streaming library shelf and a spill-proof curry pot. The column also covers unrelated topics like spam zombies. Overall, it presents diverse everyday solutions.",
-      "keywords": [
-        "streaming",
-        "shelf",
-        "curry pot",
-        "spam"
-      ],
-      "category": "Product Design",
-      "importance": "Low"
-    },
-    {
-      "title": "Local Manufacturing Calls for Nigerian Design Jobs",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxON0RZVmdEZDBVWGRCeTN2WkxaZzViNjUyQUluRDVDSVVBT1BJbC1pSWJWd2VfN2F6dE5tc3FCbzI3RldnUkk0d3ljc3FxTXBkNUJPaDNTSFBpY2s3c3hyQmZzc1lXbnJjek96aXBWeVIwbUdiZG80X3k1X0lDbWY4enZDVF9Ubm9TVWE0ZjVKSGFJR2h2c1kw?oc=5",
-      "source": "Google News: industrial design",
-      "published": "2026-10-25T12:11:23+00:00",
-      "summary": "The article calls for local manufacturing to create employment opportunities for Nigerian designers. It discusses efforts to boost domestic design sector growth. The outlook points toward stronger regional economies.",
-      "keywords": [
-        "Nigeria",
-        "local manufacturing",
-        "jobs",
-        "designers",
-        "Ogufere"
-      ],
-      "category": "Business",
-      "importance": "Low"
-    },
-    {
-      "title": "Indian Design Education: Sudhakar Nadkarni’s Legacy",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZExObWdwbTdOaXVGNjk4X0Mydk5hdkJnTGxNRlQ0Z1dkLVFxMHJjQWpHdEI2Y0JDLVU0eGFZRzhjMHlTYS13UDItV01GNUxGa0NoVzFjVTdpMEdUV0p5eGRHZ3l5QmllSHYzZFRBNkdLNTFDUUNVSTE4VGdOOFlZYml3?oc=5",
-      "source": "Google News: industrial design",
-      "published": "2026-10-25T21:48:00+00:00",
-      "summary": "This piece examines the enduring impact of Indian design educator Sudhakar Nadkarni on contemporary design education. His teachings shape curricula and inspire new generations of designers. The coverage celebrates his contributions.",
-      "keywords": [
-        "Indian design",
-        "legacy",
-        "Sudhakar Nadkarni",
-        "education"
-      ],
-      "category": "Design Education",
-      "importance": "Medium"
-    },
-    {
-      "title": "Apple Music Logo Created Using Sound Waves",
-      "url": "https://www.dezeen.com/2026/10/26/apple-music-logo-physically-made-by-sound/",
+      "title": "OHLAB experiments with colour-blocking and cork in old and new buildings of Terreno Barrio Hotel in Mallorca",
+      "url": "https://www.dezeen.com/2026/10/27/ohlab-experiments-with-colour-blocking-and-cork-in-old-and-new-buildings-of-terreno-barrio-hotel-in-mallorca/",
       "source": "Dezeen",
-      "published": "2026-10-26T09:00:00+00:00",
-      "summary": "Apple has revealed a new logo for Apple Music generated through sound waves. The collaborative effort involved musician Fred Again and reflects creative branding techniques. This rebrand marks the service's first since its 2015 launch.",
-      "keywords": [
-        "Apple Music",
-        "logo",
-        "sound wave",
-        "rebrand"
-      ],
-      "category": "Industrial Design",
-      "importance": "Medium"
+      "published": "2026-10-27T09:30:00+00:00",
+      "summary": "Mallorca-based architecture and interiors studio OHLAB has overseen the design of a hotel in Palma, including a renovated heritage building from 1935 and a new structure built from cross-laminated timber and cork. The 41-room Terreno Barrio Hotel was envisioned as \"a catalyst for the neighbourhood\" of El Terreno, in the west of the Mallorcan city, […] The post OHLAB experiments with colour-blocking and cork in old and new buildings of Terreno Barrio Hotel in Mallorca appeared first on Dezeen .",
+      "keywords": [],
+      "category": "Other",
+      "importance": "Low"
     },
     {
-      "title": "19 Winners in Dezeen Architecture Public Vote",
+      "title": "\"Things start in really simple gestures\" says Es Devlin of her Design Museum retrospective",
+      "url": "https://www.dezeen.com/2026/10/27/other-worlds-es-devlin-exhibition-retrospective-design-museum-london-interview-video/",
+      "source": "Dezeen",
+      "published": "2026-10-27T08:00:00+00:00",
+      "summary": "Es Devlin explains how ambitious creative projects begin with simple ideas in this exclusive video interview with Dezeen, filmed at Es Devlin: Other Worlds, her first European retrospective at London's Design Museum. The post \"Things start in really simple gestures\" says Es Devlin of her Design Museum retrospective appeared first on Dezeen .",
+      "keywords": [],
+      "category": "Other",
+      "importance": "Low"
+    },
+    {
+      "title": "MVRDV designs Essen Central Library as public \"living room\" in Germany",
+      "url": "https://www.dezeen.com/2026/10/27/mvrdv-essen-central-library/",
+      "source": "Dezeen",
+      "published": "2026-10-27T06:00:00+00:00",
+      "summary": "Red bookshelves fill the multipurpose interiors of this city library, created by Dutch studio MVRDV in a former department store in Essen, in collaboration with German studio Meyer Architekten. The post MVRDV designs Essen Central Library as public \"living room\" in Germany appeared first on Dezeen .",
+      "keywords": [],
+      "category": "Other",
+      "importance": "Low"
+    },
+    {
+      "title": "Paralelo Transversal organises Chilean house under cantilever roof",
+      "url": "https://www.dezeen.com/2026/10/26/paralelo-transversal-casa-ensenada-chile/",
+      "source": "Dezeen",
+      "published": "2026-10-26T17:56:31+00:00",
+      "summary": "Chilean studio Paralelo Transversal has designed a rectangular house with a large hip roof and a terrace that cantilevers over a ravine in Puerto Varas, Chile. Completed in 2025 on a 1.2-acre site near Lago Llanquihue, the 155-square-metre house, known as Casa Ensenada, was oriented around its roof. “In southern Chile, rain is not an […] The post Paralelo Transversal organises Chilean house under cantilever roof appeared first on Dezeen .",
+      "keywords": [],
+      "category": "Other",
+      "importance": "Low"
+    },
+    {
+      "title": "Stone-covered roof provides \"absolute camouflage\" for Gamaya Farms eco-resort in India",
+      "url": "https://www.dezeen.com/2026/10/26/gamaya-farms-biome-environmental-solutions/",
+      "source": "Dezeen",
+      "published": "2026-10-26T11:30:00+00:00",
+      "summary": "Architecture studio Biome Environmental Solutions has used a hill-like roof covered in local stone and walls of compressed earth bricks to conceal this eco-resort within its site in India. The post Stone-covered roof provides \"absolute camouflage\" for Gamaya Farms eco-resort in India appeared first on Dezeen .",
+      "keywords": [],
+      "category": "Other",
+      "importance": "Low"
+    },
+    {
+      "title": "Dezeen readers decide 19 winners in Dezeen Awards architecture public vote",
       "url": "https://www.dezeen.com/2026/10/26/dezeen-awards-public-vote-winner-architecture-2026/",
       "source": "Dezeen",
-      "published": "2026-10-26T08:00:00+00:00",
-      "summary": "Readers of Dezeen selected 19 winning projects in the architecture awards public vote. The winners span renowned studios and local transformations. The results celebrate a mix of large-scale and community-focused architecture.",
+      "published": "2026-10-26T11:15:00+00:00",
+      "summary": "The 19 winners of the architecture public vote for Dezeen Awards 2026 have been revealed, with projects by Blight Rayner Architecture, Foster + Partners and Schemata Architects voted as readers' favourites. French studio Collectif Encore's transformation of a former industrial warehouse into an open civic infrastructure won the majority vote in each of its two […] The post Dezeen readers decide 19 winners in Dezeen Awards architecture public vote appeared first on Dezeen .",
+      "keywords": [],
+      "category": "Design Awards",
+      "importance": "Medium"
+    },
+    {
+      "title": "Stefano Boeri Architetti to transform industrial site into residential neighbourhood in Tbilisi",
+      "url": "https://www.dezeen.com/2026/10/26/loco-park-masterplan-stefano-boeri/",
+      "source": "Dezeen",
+      "published": "2026-10-26T10:00:00+00:00",
+      "summary": "Italian studio Stefano Boeri Architetti has revealed plans to overhaul a former factory and add a series of housing blocks to an industrial site in Tbilisi, Georgia. The post Stefano Boeri Architetti to transform industrial site into residential neighbourhood in Tbilisi appeared first on Dezeen .",
+      "keywords": [],
+      "category": "Other",
+      "importance": "Low"
+    },
+    {
+      "title": "2026 International Exchange Conference on Industrial Vertical Foundation Models, Industrial Design, and Intelligent Manufacturing of Precision Molds Held in Shenzhen - StreetInsider",
+      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQOFpSY1lXUUxORTBLYmFMc0V6Wlk2cTBOYWhhV2xEX042TkhZelBVRFh2ZjVRY0s0dDNRQXltdnlpTEt4ZTBBaTk1OGZGMEtfV3EyRWx2M2R2blp3YlhnY0lNbXktcUl1SEh5bnZkRHowcXkxekU1SnVva3NXR0J2LWlram1xbXZOQ3R1NTJsSl9zN0Z0OXBkMWhHRW9WTE10Q1Q2YjJtQnRlWlg0akJZcG4tVnRxNzFZMXdVdWJfeV9HM3M0RlhuYVdRMWNIWm84MzEyVm10ZVBWeDQxYVdycTJDYkpzOEU5b1NVZDRJWW5xNWRsSjZ0MXYyNGtfTGxUZ1k4Tko1Z3JsWkR3RnVSQmFpLXlwZzZmd3ZvUWFNZXNkVHlvdzhpMi1EcE5MOUhiR2VrUzZoUXRfTzdwLVdfUFhmcw?oc=5",
+      "source": "Google News: industrial design",
+      "published": "2026-10-27T03:10:42+00:00",
+      "summary": "2026 International Exchange Conference on Industrial Vertical Foundation Models, Industrial Design, and Intelligent Manufacturing of Precision Molds Held in Shenzhen StreetInsider",
+      "keywords": [],
+      "category": "Other",
+      "importance": "Low"
+    },
+    {
+      "title": "Siemens and Nvidia advance industrial AI for data center optimisation - ET Datacenters",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbTcyVzZMcDhvOXB2U1Y3QXNPemc4dExiOTh1d0VxR2o0MXlTdlNVc3VGTExrNUk3SUV4SEJMaUxXbmlWZVJSYkRGcmRVR3B2N0ZKYXVpRGYtazlHeGJIMzFpck5QbS1vN3hiRHZCRHVyNEJqbjR4dzczbWNTTDc4Mm9FdHd6MXNNT3MxSXdjaDN6WDFJZ0cwRmZIU2pRd1Z0WDQyaHpPUXFsaXBUTHhFSHhjVkFpZUVlNTlmTWtGaUhiOWo3cnRaRVJ6eFNJMVhXQ3NrYm1aX3J0NDZMaE9BalM3Z3BvNzkwT05RcmhUYTXSAfQBQVVfeXFMUFZHSFpwbUxWOGJqWjZKZVZ2dnFjWlk5WHJIdTdXbE1LeVMwUTNhTWo0Q1lfWEhyZXFIQ3YtaXdwSVNpUllYSkNQWWgxdk5jbm9xUk9DZHRKOUthLTlFd2tEeDRCWnB4VlNmUThtdUdibE5HN0h5YmcyR1FQb0ptYVdCMzR3anF2WVpNbjYxc2ZaWHRYLXh2amZYeTBVd2pOUlZoYTQtcDJTRHVDTE1QMnN1TTdsUXN0SXY5ZDQtMmo4N0sxUmhrR0RrcldWak1BNDBtVVNsM2xDRXV6TEwxUHAzWHZWc3JCN2NjVFptTzVvVzBCYQ?oc=5",
+      "source": "Google News: industrial design",
+      "published": "2026-10-27T05:58:06+00:00",
+      "summary": "Siemens and Nvidia advance industrial AI for data center optimisation ET Datacenters",
+      "keywords": [],
+      "category": "AI in Design",
+      "importance": "Medium"
+    },
+    {
+      "title": "Antaira Launches LanoSync Q-Series Industrial Switches",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPTDJKbkpDVkZIQ2Z3TDFhWDJBWjdtOXdGQXhKVHJvd01lZzNPMEdpNmExLVM2Und5TncyOWxMZnNiTmJJenZiZE4zaFM4ZWVmT0JOOG5YckFSeG9xLTFBMXBwcnAxT1lPVTJaak5HN0t5NDVjLXFWNU10WnBnVHpaYXpkenVvTlJrQVBLc0FIZDJxcEc0TTctQjJYU1h1M1pwYUQ5VERsOTZacGVhcTZaTG45UjB1ZkduNE02NFhwRFAyZEFkSUJnazVnbjVyblg3ZjB3R0d6dWN6aWdTNTN1ekRjdmJQTE5s?oc=5",
+      "source": "Google News: industrial design",
+      "published": "2026-10-26T13:55:07+00:00",
+      "summary": "Antaira has introduced the LanoSync Q-Series industrial network switches. The devices combine precision timing with rugged reliability for industrial environments.",
       "keywords": [
-        "Dezeen Awards",
-        "architecture",
-        "public vote",
-        "winners"
+        "industrial switch",
+        "network",
+        "precision timing",
+        "rugged reliability"
+      ],
+      "category": "Industrial Design",
+      "importance": "Medium"
+    },
+    {
+      "title": "Keene Named Industry Legend at Self-Driving Awards",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPM19SUDlFUmx3eFNsQXQzOEl1WFE2UlpLa0lxbE52ajVoNzVHNlo3NmFpdXVzR2hBREtfM29NZ0pxc3hpRlRuaHYxdnRQb2xRM043YmViSGE4cG5XUzA5YlU3b1oxdm13RkQ1cnFPQkZiS3Qwa0JjM2Y2ZmhEMklPYVpDRWdFSmlKNnJOXzFOWEJLZDJDbFVkaWQ2VXR4REdxZkFaY01BT0pQanFXR2E5SkctcVBubFRzTjQ3c0JzR3ZsYmFxZnhoYXhpSVhXXzdfZTFpdnJ1bjZxVTNqVTlrbUF6cmk1VGdwbFE?oc=5",
+      "source": "Google News: industrial design",
+      "published": "2026-10-27T08:07:00+00:00",
+      "summary": "Kenilworth’s Keene has been named an Industry Legend at the Self-Driving Industry Awards. Aurrigo also won two titles at the same event.",
+      "keywords": [
+        "Self-Driving Industry Awards",
+        "Industry Legend",
+        "Aurrigo",
+        "award"
+      ],
+      "category": "Design Awards",
+      "importance": "Medium"
+    },
+    {
+      "title": "Miyamoto to Receive Japanese Honour",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0wbHVEME1tY0duS2FtRHlKaGVWd3JpS2hmUVJzN3pVN2VocjhHbUhianhUVFZleGdSa3ZmdkRESmtNdkNuYnN0eHk0dVJyOEJSeVA1bUhTZWVfbU5jNzd0QzhXWnI?oc=5",
+      "source": "Google News: industrial design",
+      "published": "2026-10-26T15:34:04+00:00",
+      "summary": "Shigeru Miyamoto, the legendary Nintendo game designer, is set to receive a Japanese honour. The recognition celebrates his extensive contributions to video game design.",
+      "keywords": [
+        "Shigeru Miyamoto",
+        "Nintendo",
+        "Japanese honour",
+        "game design"
+      ],
+      "category": "Other",
+      "importance": "Low"
+    },
+    {
+      "title": "Etienne Prototype Exhibition at Museo Franz Mayer",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYjM2bVpMdHNWOHBCWU9RZUJJY3ptSUFvN1RfUkE5cVB2WGR3UlY1cTZoS1ZFZllLZGdaam95X0RqczN4eDlDUmQ1ck5MY05tRnQxV3pvV3ZfVzN2cy14TDdkbUI5Z05LaHFKeThzdXJCa0VyY1F4V3V3UDF5Qzg3LWltTlJkZw?oc=5",
+      "source": "Google News: industrial design",
+      "published": "2026-10-27T05:48:12+00:00",
+      "summary": "A decade-long prototype journey by Jorge Diego Etienne is being showcased at Museo Franz Mayer. The exhibition highlights his iterative design process and innovative concepts.",
+      "keywords": [
+        "Jorge Diego Etienne",
+        "prototype",
+        "exhibition",
+        "design process"
+      ],
+      "category": "Other",
+      "importance": "Medium"
+    },
+    {
+      "title": "FrogBox Wins Australian Good Design Award",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVWl4ejFDUzhjRUlfbm1ZVXc4ZkFUVHpCQkVnbGZkZ3h0LUlVNkhPSFF3M2Y5WjNZMEg3ZEpaakR2VjFva0pnTVAwRElCZ2syREVsalI3NFBISEVHRjhIRkQ2bml6UVZIa0lRdlhnT0dnUWNNWG90c2lkREdfZzQ0VGwxN2lGMDBLWnZNOU5zcmRwQWVVcHc?oc=5",
+      "source": "Google News: industrial design",
+      "published": "2026-10-27T03:01:00+00:00",
+      "summary": "FrogBox has won an Australian Good Design Award for its sports camera. The award recognizes the product’s innovative design and functionality.",
+      "keywords": [
+        "FrogBox",
+        "sports camera",
+        "Good Design Award",
+        "innovation"
+      ],
+      "category": "Design Awards",
+      "importance": "Medium"
+    },
+    {
+      "title": "Archiproducts Design Awards 2026 Longlist Announced",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPT2FyR2pmbmVTNXltNVlXNU5Db1NxTENHWlF2b2k3bWoteFBBZGl3QVFzelR6VDRraEo5R0pyandCSkVrSWpUMVpUcnY4WDFfR0JkclZOVFNOSFgzdm1HZkU1WmpNMDlWX3N2Q3JmenBYQjQ2MDhLWkVYdC1EOHVrYXNqSVMxOXl1azB2LVlxR2Z1NHVRRl85bDl1TTIxVWJDS1RsT1I3b1FpOE1HMVE?oc=5",
+      "source": "Google News: product design award",
+      "published": "2026-10-27T07:00:00+00:00",
+      "summary": "The longlist for the Archiproducts Design Awards 2026 has been revealed. It includes a diverse range of products and designs from around the world.",
+      "keywords": [
+        "Archiproducts",
+        "Design Awards",
+        "longlist",
+        "2026"
       ],
       "category": "Design Awards",
       "importance": "High"
     },
     {
-      "title": "Fragmented House Overlooks Lake Zurich",
-      "url": "https://www.dezeen.com/2026/10/26/think-architecture-hillside-house-lake-zurich/",
-      "source": "Dezeen",
-      "published": "2026-10-26T06:00:00+00:00",
-      "summary": "Thinly described as a cluster of interconnected volumes, the house in dark limestone and cedar overlooks Lake Zurich. Designed for harmony with surrounding terrain, it exemplifies innovative architectural form. The 1,000 square metre home showcases complex zoning.",
+      "title": "Verde Antico Marble Trophy for Archiproducts Winners",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNmFFRmUxM2hrTlQydTlOb2NSVGhKWW1rdmtYWWlGMXBicU1FcnJmM3RFVXRBWTQyVHF3V3RWdTRHVTJXZHhRM3RSYnJkUkxZR3lVSDFpNW5XaXBQVV94cm5URzBaczhXNXB6V2VKeW1ERzhFRU1NVXRMUGFYb3k2alZreDZ5UmxfTDVxU3NTbW5EUnFYR0xWZEJnUFY2X25teG0wRUZrTVBtSzZMUUxuOHVlUVpTcWxXVGthRFV5d3lOY05FQjVWTXh6b0F0b1FXaFpITExDM2c?oc=5",
+      "source": "Google News: product design award",
+      "published": "2026-10-26T11:00:00+00:00",
+      "summary": "Winning designers at the Archiproducts Design Awards will receive a Verde Antico marble trophy. The trophy symbolizes excellence in product design.",
       "keywords": [
-        "architecture",
-        "House on a Slope",
-        "lake",
-        "volumes"
+        "Verde Antico",
+        "marble trophy",
+        "Archiproducts",
+        "award"
       ],
-      "category": "Other",
-      "importance": "Medium"
+      "category": "Design Awards",
+      "importance": "Low"
     },
     {
-      "title": "All-in-One Avant Toilet Innovates Cistern",
-      "url": "https://www.dezeen.com/2026/10/26/roca-innovative-avant-toilet/",
-      "source": "Dezeen",
-      "published": "2026-10-26T05:00:00+00:00",
-      "summary": "Roca launches the Avant toilet integrating the cistern inside the bowl itself. This all-in-one design removes external plumbing components for a sleek form. It represents a rethink of traditional bathroom fixtures.",
+      "title": "DAME Design Awards Shortlist Announced",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd3A0N21XTzktSkhwbmFCOTJWcUlZOUFScV9HYkY4dmZDOTUzLUxKMzR4RzNza29nbEpScmFiNTljRHRlWFFITlA4WnFUXzhMdzlrY1NZaGl4NFB6ZHJpUDZPTUNFQzdGNGVVd0sxSHBFZHgwZThUTkRpcDFMTjFac1FNaUFWNWk2aDZPVXJXOHFvdWtEMklzUTJ4S3ZoM2EtZEFJbnhB0gGrAUFVX3lxTE00WUk0S09lbFpZX2NyUTZ5N3YxSmZhNm5CbDN3b213NEh0aTRIWnAwRFdpeGVLUnIxbk16UVdtbkJ0c3RyY21jMHVDbFN2QkdTNHV3akNSY1Z2UFZRTUZ0SWtUc2VXYjJYaGR0YV9faGc4STlvb2tZbnZyNHZtQ1NNOHowaFpTbVdzM0dlM1VmUmVubUNWOFNkczhsaUhwZGxIZ184YWFScHkxRQ?oc=5",
+      "source": "Google News: product design award",
+      "published": "2026-10-26T12:40:00+00:00",
+      "summary": "The DAME Design Awards have shortlisted 74 products from 153 entries. The shortlist highlights notable designs in the industry.",
       "keywords": [
-        "Roca",
-        "Avant",
-        "toilet",
-        "cistern",
-        "innovation"
+        "DAME",
+        "Design Awards",
+        "shortlist",
+        "products"
       ],
-      "category": "Industrial Design",
-      "importance": "Medium"
-    },
-    {
-      "title": "Arrow-Shaped Viewpoint for Fehmarnbelt Tunnel",
-      "url": "https://www.dezeen.com/2026/10/25/arup-pilen-viewpoint-fehmarnbelt-tunnel/",
-      "source": "Dezeen",
-      "published": "2026-10-25T11:00:00+00:00",
-      "summary": "Arup created a zigzagging arrow-shaped viewpoint atop the demountable Pilen structure in Denmark. The elevated platform gives viewers views during tunnel construction. The design balances accessibility with structural stability.",
-      "keywords": [
-        "Arup",
-        "arrow-shaped",
-        "viewpoint",
-        "tunnel",
-        "Denmark"
-      ],
-      "category": "Other",
+      "category": "Design Awards",
       "importance": "Medium"
     }
   ]
