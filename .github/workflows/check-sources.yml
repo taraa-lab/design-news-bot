@@ -1,0 +1,34 @@
+name: Check Sources
+
+on:
+  workflow_dispatch:
+    inputs:
+      extra_feeds:
+        description: "Extra feeds to test, one per line or separated by ; as  Name|url"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install feedparser requests beautifulsoup4 python-dateutil lxml
+      - name: Check sources
+        env:
+          EXTRA_FEEDS: ${{ inputs.extra_feeds }}
+        run: cd src && python check_sources.py
+      - name: Save status
+        run: |
+          git config user.name "bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/sources_status.json
+          git commit -m "chore: sources status [skip ci]" || echo "nothing to commit"
+          git push
