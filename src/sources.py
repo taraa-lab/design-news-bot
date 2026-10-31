@@ -104,3 +104,26 @@ GOOGLE_NEWS_QUERIES = [
 ]
 
 GOOGLE_NEWS_BASE = "https://news.google.com/rss/search?q={query}&hl=en-US&gl=US&ceid=US:en"
+
+
+# ── Overrides from data/sources.json (edited by the dashboard) ─────────────
+import json as _json, os as _os
+_JSON_PATH = _os.path.join(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))), "data", "sources.json")
+
+
+def _load_overrides():
+    global RSS_SOURCES, SCRAPE_SOURCES, GOOGLE_NEWS_QUERIES
+    try:
+        with open(_JSON_PATH, "r", encoding="utf-8") as f:
+            data = _json.load(f)
+    except Exception:
+        return
+    if isinstance(data.get("rss"), list):
+        RSS_SOURCES = data["rss"]
+    if isinstance(data.get("scrape"), list):
+        SCRAPE_SOURCES = data["scrape"]
+    if isinstance(data.get("google_news"), list):
+        GOOGLE_NEWS_QUERIES = [q for q in data["google_news"] if isinstance(q, str) and q.strip()]
+
+
+_load_overrides()
