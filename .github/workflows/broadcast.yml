@@ -1,0 +1,66 @@
+name: Broadcast
+
+on:
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: "message | manual_item"
+        required: true
+        default: "message"
+      text:
+        description: "Telegram-HTML message (kind=message)"
+        required: false
+        default: ""
+      item_id:
+        description: "Manual news id (kind=manual_item)"
+        required: false
+        default: ""
+      audience:
+        description: "test | all"
+        required: true
+        default: "test"
+      lang:
+        description: "all | fa | en"
+        required: true
+        default: "all"
+      test_chat_id:
+        description: "Recipient chat id when audience=test"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: |
+          python -m pip install --upgrade pip
+          pip install requests feedparser beautifulsoup4 python-dateutil lxml \
+                      google-auth google-auth-httplib2 google-api-python-client
+      - name: Send
+        env:
+          TELEGRAM_BOT_TOKEN:      ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+          GOOGLE_SHEET_ID:         ${{ secrets.GOOGLE_SHEET_ID }}
+          BROADCAST_KIND:          ${{ inputs.kind }}
+          BROADCAST_TEXT:          ${{ inputs.text }}
+          ITEM_ID:                 ${{ inputs.item_id }}
+          AUDIENCE:                ${{ inputs.audience }}
+          LANG_FILTER:             ${{ inputs.lang }}
+          TEST_CHAT_ID:            ${{ inputs.test_chat_id }}
+        run: cd src && python broadcast.py
+      - name: Save broadcast log (counts only)
+        if: always()
+        run: |
+          git config user.name "bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/broadcast_log.json || true
+          git commit -m "chore: broadcast log [skip ci]" || echo "nothing to commit"
+          git pull --rebase origin main && git push
