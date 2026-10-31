@@ -66,6 +66,6 @@ jobs:
         run: |
           RESP=$(curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/setMyCommands" \
             -H "Content-Type: application/json" \
-            -d '{"commands":[{"command":"start","description":"شروع / تغییر زبان و علاقه‌مندی‌ها"},{"command":"competitions","description":"🏆 مسابقات و جوایز طراحی"},{"command":"help","description":"راهنما"}]}')
+            -d '{"commands":[{"command":"start","description":"شروع / تغییر زبان و علاقه‌مندی‌ها"},{"command":"competitions","description":"🏆 مسابقات و جوایز طراحی"},{"command":"submit","description":"📨 ارسال خبر به تیم WIDD"},{"command":"help","description":"راهنما"}]}')
           echo "$RESP"
           echo "$RESP" | grep -q '"ok":true'
