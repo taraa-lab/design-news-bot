@@ -95,10 +95,23 @@ def fetch_rss(source: dict) -> list[Article]:
                     soup = BeautifulSoup(val, "html.parser")
                     summary = soup.get_text(" ", strip=True)[:600]
                     break
+            title = entry.get("title", "").strip()
+            src_name = source["name"]
+            if src_name.startswith("Google News"):
+                try:
+                    pub = (entry.get("source") or {}).get("title", "").strip()
+                except Exception:
+                    pub = ""
+                if pub:
+                    src_name = pub
+                    if title.endswith(" - " + pub):
+                        title = title[: -len(pub) - 3].rstrip()
+                if summary.startswith(title) or len(summary) < 40:
+                    summary = ""          # Google News descriptions only repeat the headline
             articles.append(Article(
-                title=entry.get("title", "").strip(),
+                title=title,
                 url=entry.get("link", "").strip(),
-                source=source["name"], published=published, summary=summary,
+                source=src_name, published=published, summary=summary,
             ))
         logger.info("RSS %s -> %d recent articles", source["name"], len(articles))
     except Exception as e:
