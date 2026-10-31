@@ -1,834 +1,597 @@
 {
-  "generated_at": "2026-10-30T11:20:58.521546+00:00",
-  "count": 61,
+  "generated_at": "2026-10-31T10:47:40.018504+00:00",
+  "count": 44,
   "articles": [
     {
-      "title": "بررسی معماری مدرن Assis Reis در باهیا",
-      "url": "https://www.archdaily.com/1187788/modern-architecture-in-bahia-climate-and-culture-in-the-work-of-assis-reis",
+      "title": "مجتمع اسب‌سواری Rancho del Abuelo",
+      "url": "https://www.archdaily.com/1187853/rancho-del-abuelo-mendiola-arregui",
       "source": "ArchDaily",
-      "published": "2026-10-30T04:00:00+00:00",
-      "summary": "مروری بر آثار معمار برزیلی Assis Reis در صدمین سالگرد تولد او. این آثار بر تعامل میان اقلیم گرم باهیا و فرهنگ محلی تأکید دارند.",
+      "published": "2026-10-30T19:00:00+00:00",
+      "summary": "طراحی یک مجموعه تخصصی برای نگهداری اسب‌ها در مکزیک. این پروژه فضاهای کاربردی مراقبت از حیوانات را با محیط‌های استراحت و تامل ترکیب کرده است.",
       "keywords": [
-        "معماری مدرن",
-        "برزیل",
-        "طراحی اقلیمی"
+        "معماری",
+        "طراحی فضای باز",
+        "مجتمع اسب‌سواری"
       ],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "خانه Vaastavya: تجربه‌ای از زندگی عمودی",
-      "url": "https://www.archdaily.com/1187510/vaastavya-residence-space-agency",
+      "title": "طراحی ویلای مدرن House in Vinhedo",
+      "url": "https://www.archdaily.com/1036541/house-in-vinhedo-apiacas-arquitetos",
       "source": "ArchDaily",
-      "published": "2026-10-30T03:00:00+00:00",
-      "summary": "طراحی یک مسکن شهری در زمین محدود برای یک خانواده سه نسلی. این پروژه بر حریم خصوصی و بهینه‌سازی فضاهای خلاقانه متمرکز است.",
+      "published": "2026-10-30T17:00:00+00:00",
+      "summary": "یک خانه مسکونی با متراژ ۲۵۰ متر مربع که بر maximizing ارتباط بین فضای داخلی و محیط بیرونی تمرکز دارد.",
       "keywords": [
         "طراحی مسکونی",
-        "زندگی عمودی",
-        "بهینه‌سازی فضا"
+        "معماری مدرن",
+        "فضای باز"
       ],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "بازسازی استودیو عکاسی به عنوان زیرساخت محلی",
-      "url": "https://www.archdaily.com/1186440/photography-studio-as-local-infrastructure-archtank",
+      "title": "خانه Casa Neblina؛ ادغامی با طبیعت",
+      "url": "https://www.archdaily.com/1187819/susana-lopez-gonzalez",
       "source": "ArchDaily",
-      "published": "2026-10-30T02:00:00+00:00",
-      "summary": "یک استودیو عکاسی در ژاپن پس از سیل تخریب و به صورت یک فضای شهری چندمنظوره بازسازی شد. این پروژه شامل کافه، رصدخانه و فروشگاه است.",
+      "published": "2026-10-30T15:00:00+00:00",
+      "summary": "ساختمانی تک‌سازه و مینیمال در منطقه El Pescadero که به گونه‌ای طراحی شده تا مانند تکه‌ای از صخره‌های بیابان به نظر برسد.",
+      "keywords": [
+        "معماری مینیمال",
+        "طراحی مفهومی",
+        "سازگاری با محیط"
+      ],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "بازسازی صومعه Arouca به هتل پنج ستاره",
+      "url": "https://www.archdaily.com/1187879/hotel-ms-collection-arouca-mimool-arquitectura-and-design-de-interiores",
+      "source": "ArchDaily",
+      "published": "2026-10-30T13:00:00+00:00",
+      "summary": "تبدیل یک بنای تاریخی و ملی به هتل لوکس در قالب برنامه REVIVE. این پروژه فراتر از یک تغییر کاربری ساده، یک بازسازی معماری دقیق است.",
       "keywords": [
         "بازسازی",
-        "فضای شهری",
-        "طراحی اجتماعی"
+        "معماری تاریخی",
+        "طراحی هتل"
       ],
       "category": "سایر",
       "importance": "متوسط"
     },
     {
-      "title": "خانه The Roca Views در ایبیزا",
-      "url": "https://www.archdaily.com/1187789/house-in-ibiza-the-roca-views-fran-silvestre-arquitectos",
+      "title": "خانه Turquoise House؛ بهینه‌سازی فضای محدود",
+      "url": "https://www.archdaily.com/1187611/the-turquoise-house-suprblk-studio",
       "source": "ArchDaily",
-      "published": "2026-10-29T19:00:00+00:00",
-      "summary": "طراحی جسورانه‌ای که از یک صفحه نازک ۱۵ سانتی‌متری برای سازگاری با شیب تند زمین استفاده کرده است. این پروژه محدودیت‌های قانونی را به فرصتی برای نوآوری تبدیل کرده است.",
+      "published": "2026-10-30T12:00:00+00:00",
+      "summary": "طراحی خلاقانه یک خانه خانوادگی و استودیو معماری در یک زمین باریک. استفاده از حیاط‌های داخلی برای تامین نور و حریم خصوصی.",
       "keywords": [
-        "طراحی مینیمال",
-        "معماری شیب‌دار",
-        "نوآوری ساختاری"
-      ],
-      "category": "سایر",
-      "importance": "متوسط"
-    },
-    {
-      "title": "ترکیب سازه چوبی و آجری در corpo atelier",
-      "url": "https://www.archdaily.com/1187639/wood-structure-on-top-of-brick-structure-corpo-atelier",
-      "source": "ArchDaily",
-      "published": "2026-10-29T17:00:00+00:00",
-      "summary": "ساختمانی دو طبقه که مانند یک کلاژ معماری طراحی شده است. هر بخش از ساختمان دارای سیستم سازه‌ای، متریال و زیبایی‌شناسی متفاوتی است.",
-      "keywords": [
-        "متریال ترکیبی",
-        "سازه چوبی",
-        "کلاژ معماری"
-      ],
-      "category": "مواد و متریال",
-      "importance": "پایین"
-    },
-    {
-      "title": "خانه Curicó با سقف‌های فرم‌دهنده فضا",
-      "url": "https://www.archdaily.com/1187776/curico-house-armstrong-arquitectos-plus-par-arquitectos",
-      "source": "ArchDaily",
-      "published": "2026-10-29T15:00:00+00:00",
-      "summary": "طراحی خانه‌ای در دره Curicó که در آن فرم سقف مستقیماً تعیین‌کننده سازماندهی فضاهای داخلی است.",
-      "keywords": [
-        "طراحی سقف",
-        "معماری مسکونی",
-        "فرم معماری"
+        "بهینه‌سازی فضا",
+        "معماری شهری",
+        "طراحی استودیو"
       ],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "طراحی میدان و دفتر گردشگری Piódão",
-      "url": "https://www.archdaily.com/1187554/piodao-plaza-and-tourist-office-branco-delrio-arquitectos",
+      "title": "ساختمان تجاری و اداری AEME",
+      "url": "https://www.archdaily.com/994469/edificio-aeme-paz-arquitectura",
       "source": "ArchDaily",
-      "published": "2026-10-29T13:00:00+00:00",
-      "summary": "ایجاد یک فضای باز و مسطح در روستایی با کوچه‌های تند و صخره‌ای. این پروژه به عنوان ورودی اصلی و مرکز اجتماعی روستا عمل می‌کند.",
+      "published": "2026-10-30T11:00:00+00:00",
+      "summary": "یک بنای چندمنظوره در گواتمالا با پلان باز در طبقه اول برای رستوران‌ها و فروشگاه‌ها و طبقات فوقانی برای دفاتر اداری.",
       "keywords": [
-        "طراحی شهری",
-        "گردشگری",
-        "معماری بومی"
+        "طراحی اداری",
+        "معماری تجاری",
+        "پلان باز"
       ],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "بازسازی کلبه سنتی توسط Archicraft",
-      "url": "https://www.archdaily.com/1187551/cottage-archicraft",
-      "source": "ArchDaily",
-      "published": "2026-10-29T12:00:00+00:00",
-      "summary": "جایگزینی یک کلبه فرسوده با سازه‌ای جدید بر اساس قوانین سخت‌گیرانه محلی. طرح جدید دقیقاً بر روی footprint سازه قدیمی بنا شده است.",
-      "keywords": [
-        "بازسازی",
-        "قوانین ساخت",
-        "معماری روستایی"
-      ],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Grey House: تجلی سادگی و هارمونی",
-      "url": "https://www.archdaily.com/1024034/grey-house-adam-kane-architects",
-      "source": "ArchDaily",
-      "published": "2026-10-29T11:00:00+00:00",
-      "summary": "خانه‌ای با محوریت رنگ خاکستری برای ایجاد حس آرامش و درون‌گرایی. استفاده از استیل ضدزنگ با پرداخت مات، تضادی نرم با سطوح خاکستری ایجاد کرده است.",
-      "keywords": [
-        "مینیمالیسم",
-        "روانشناسی رنگ",
-        "طراحی مدرن"
-      ],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "طراحی دوچرخه تاشوی Pocket Bici ایتالیایی",
-      "url": "https://www.core77.com/posts/145766/An-Italian-Folding-Bicycle-Design-that-Fits-Into-a-Suitcase",
+      "title": "مرور هفتگی Core77 از ترندهای طراحی",
+      "url": "https://www.core77.com/posts/145726/Core77-Weekly-Roundup-10-26-26-to-10-30-26",
       "source": "Core77",
-      "published": "2026-10-29T15:00:00+00:00",
-      "summary": "بررسی دوچرخه‌ای از سال ۱۹۶۳ که تمام قطعات آن در بدنه جمع شده و در یک چمدان جای می‌گیرد. این محصول نمونه‌ای نوآورانه از متالورژی ایتالیایی است.",
+      "published": "2026-10-30T15:00:00+00:00",
+      "summary": "بررسی ایده‌های متنوع از جمله چراغی برای طرفداران Ferrari، ابزارهای بداهه و مجسمه‌های شیشه‌ای dichroic.",
       "keywords": [
+        "روندهای طراحی",
         "طراحی محصول",
-        "دوچرخه تاشو",
-        "طراحی کلاسیک"
+        "هنرهای بصری"
       ],
-      "category": "طراحی محصول",
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "ایگلوهای شفاف Unidome برای رویدادها",
+      "url": "https://www.core77.com/posts/145772/Unidomes-Transparent-Igloos",
+      "source": "Core77",
+      "published": "2026-10-30T14:00:00+00:00",
+      "summary": "معرفی سازه‌های دایره‌ای شکل و شفاف برای برگزاری مراسم‌ها که بدون نیاز به ستون مرکزی برپا می‌شوند.",
+      "keywords": [
+        "سازه موقت",
+        "طراحی رویداد",
+        "معماری سبک"
+      ],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "هارد درایو ZO با نمایشگر بصری ظرفیت",
+      "url": "https://www.core77.com/posts/145770/Industrial-Design-Student-Work-A-Hard-Drive-that-Visually-Indicates-How-Full-It-Is",
+      "source": "Core77",
+      "published": "2026-10-30T13:00:00+00:00",
+      "summary": "طراحی مفهومی یک سرور شخصی ۱۲ ترابایتی توسط دانشجوی ENSCI که میزان پر بودن حافظه را به صورت فیزیکی و بصری نشان می‌دهد.",
+      "keywords": [
+        "طراحی صنعتی",
+        "گجت",
+        "تجربه کاربری"
+      ],
+      "category": "طراحی صنعتی",
       "importance": "متوسط"
     },
     {
-      "title": "فراخوان نهایی جایزه iF DESIGN AWARD 2027",
-      "url": "https://bit.ly/47GyY9j",
-      "source": "Core77",
-      "published": "2026-10-29T14:10:00+00:00",
-      "summary": "آخرین فرصت برای ثبت آثار در یکی از معتبرترین جوایز طراحی صنعتی جهان. این جایزه پیشروترین برندها مانند Apple و Herman Miller را معرفی کرده است.",
+      "title": "جوایز طراحی NYX 2027",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1BcFNXbzA5NFFhdDcyZEU5aW9VaU8wajRnRHBDd2F6eWlLbVdYRWQ4OUhJMThSU0RFTXU3MHF3eHpfMjdrMFNzbVJvZW81ZER3UXZyR0F2WUZwUy1QeV85M0htSlA0RGpFSXRZSGxDOA?oc=5",
+      "source": "Google News: product design award",
+      "published": "2026-10-30T13:47:33+00:00",
+      "summary": "اطلاعیه مربوط به یکی از معتبرترین جوایز جهانی در زمینه طراحی محصول.",
       "keywords": [
         "جوایز طراحی",
-        "مسابقه طراحی",
-        "iF Design"
+        "طراحی محصول",
+        "رقابت جهانی"
       ],
       "category": "جوایز طراحی",
       "importance": "بالا"
     },
     {
-      "title": "رونمایی از La Bagnole؛ خودروی الکتریکی فرانسوی",
-      "url": "https://www.core77.com/posts/145762/La-Bagnole-A-Funky-French-Utility-EV",
-      "source": "Core77",
-      "published": "2026-10-29T14:00:00+00:00",
-      "summary": "یک خودروی الکتریکی سبک‌وزن (۳۵۷ کیلوگرم) که ترکیبی از باگی و پیکاپ است. این وسیله برای کاربردهای تفریحی و خدماتی توسط برند Kilow طراحی شده است.",
+      "title": "کیبورد Neos 75 با پنل Hi-Fi داخلی",
+      "url": "https://www.yankodesign.com/2026/10/30/aulas-neos-75-keyboard-has-a-tiny-hi-fi-deck-bolted-to-the-side/?utm_source=rss&utm_medium=rss&utm_campaign=aulas-neos-75-keyboard-has-a-tiny-hi-fi-deck-bolted-to-the-side",
+      "source": "Yanko Design",
+      "published": "2026-10-31T00:30:32+00:00",
+      "summary": "رونمایی از کیبورد جدید برند AULA که دارای یک بخش صوتی Hi-Fi متصل به بدنه برای بهبود تجربه شنیداری است.",
       "keywords": [
-        "خودرو الکتریکی",
-        "طراحی خودرو",
-        "وسایل نقلیه سبک"
+        "لوازم الکترونیکی",
+        "طراحی سخت‌افزار",
+        "گجت"
+      ],
+      "category": "لوازم الکترونیکی",
+      "importance": "پایین"
+    },
+    {
+      "title": "دیوار چوبی نوار کاست با Sony Walkman",
+      "url": "https://www.yankodesign.com/2026/10/30/a-rare-sony-walkman-now-powers-this-gorgeous-wooden-cassette-tape-wall/?utm_source=rss&utm_medium=rss&utm_campaign=a-rare-sony-walkman-now-powers-this-gorgeous-wooden-cassette-tape-wall",
+      "source": "Yanko Design",
+      "published": "2026-10-30T23:30:21+00:00",
+      "summary": "طراحی یک سیستم ذخیره‌سازی دیواری زیبا برای نوار کاست‌ها که توسط یک Walkman قدیمی تغذیه می‌شود.",
+      "keywords": [
+        "طراحی مبلمان",
+        "نوستالژی",
+        "دکوراسیون"
+      ],
+      "category": "مبلمان",
+      "importance": "پایین"
+    },
+    {
+      "title": "صندلی طراحی شده به شکل چاپگر",
+      "url": "https://www.yankodesign.com/2026/10/30/this-printer-shaped-chair-has-receipts-literally/?utm_source=rss&utm_medium=rss&utm_campaign=this-printer-shaped-chair-has-receipts-literally",
+      "source": "Yanko Design",
+      "published": "2026-10-30T22:30:38+00:00",
+      "summary": "این صندلی منحصربه‌فرد با الهام از طراحی چاپگرها ساخته شده و جزئیات آن به نظر می‌رسد که برگه‌های چاپ شده را تقلید می‌کند. یک طراحی خلاقانه و شوخ‌طراحی شده برای فضای خلاق.",
+      "keywords": [
+        "طراحی محصول",
+        "شوخ‌طراحی",
+        "موبیل",
+        "طراحی داخلی"
+      ],
+      "category": "طراحی محصول",
+      "importance": "متوسط"
+    },
+    {
+      "title": "ماشین قهوه پورشه با جزئیات کاررا",
+      "url": "https://www.yankodesign.com/2026/10/30/porsche-made-an-espresso-machine-with-la-marzocco-and-this-one-has-the-carreras-ducktail/?utm_source=rss&utm_medium=rss&utm_campaign=porsche-made-an-espresso-machine-with-la-marzocco-and-this-one-has-the-carreras-ducktail",
+      "source": "Yanko Design",
+      "published": "2026-10-30T21:30:04+00:00",
+      "summary": "پورشه با همکاری لا مارزوکو، یک ماشین قهوه لوکس و باکیفیت تولید کرده که طراحی آن الهام گرفته از ماشین کاررا و دارای اسپریلر ducktail است. ترکیب طراحی خودرو و صنعت قهوه.",
+      "keywords": [
+        "پورشه",
+        "لا مارزوکو",
+        "ماشین قهوه",
+        "طراحی لوکس",
+        "خودرو"
+      ],
+      "category": "لوازم الکترونیکی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "دستبند EVOLIA بدون صفحه نمایش، سلامت را رهگیری می‌کند",
+      "url": "https://www.yankodesign.com/2026/10/30/evolias-sculptural-bracelet-tracks-wellness-without-a-screen/?utm_source=rss&utm_medium=rss&utm_campaign=evolias-sculptural-bracelet-tracks-wellness-without-a-screen",
+      "source": "Yanko Design",
+      "published": "2026-10-30T20:30:31+00:00",
+      "summary": "این دستبند زیبای و طرح‌گرانه، فعالیت بدنی و سلامت کاربر را بدون نیاز به صفحه نمایش دیجیتال رهگیری می‌کند. تمرکز بر طراحی زیبایی‌شناختی و تجربه کاربری ساده.",
+      "keywords": [
+        "سلامت",
+        "تکنولوژی پوشیدنی",
+        "طراحی جواهرات",
+        "کاربر پسند"
+      ],
+      "category": "طراحی محصول",
+      "importance": "بالا"
+    },
+    {
+      "title": "خانه تابستانی انتاریو با یک اتاق بیرونی سرپوشیده",
+      "url": "https://www.yankodesign.com/2026/10/30/this-ontario-cottage-puts-a-covered-outdoor-room-between-its-two-halves/?utm_source=rss&utm_medium=rss&utm_campaign=this-ontario-cottage-puts-a-covered-outdoor-room-between-its-two-halves",
+      "source": "Yanko Design",
+      "published": "2026-10-30T19:25:29+00:00",
+      "summary": "این ویلا در کنار دریاچه انتاریو، با قرار دادن یک فضای باز سرپوشیده در مرکز خود، طراحی هوشمندانه‌ای برای پیوند فضای داخلی و خارجی ایجاد کرده است. معماری مدرن با الهام از سنت.",
+      "keywords": [
+        "معماری",
+        "طراحی ویلا",
+        "فضای باز",
+        "تفریح"
+      ],
+      "category": "سایر",
+      "importance": "متوسط"
+    },
+    {
+      "title": "مازناتی گران‌توریموز با روکش مسی و درب‌های ک/framework",
+      "url": "https://www.yankodesign.com/2026/10/30/copper-clad-maserati-granturismo-brings-handcrafted-luxury-gullwing-doors-to-a-bespoke-grand-tourer/?utm_source=rss&utm_medium=rss&utm_campaign=copper-clad-maserati-granturismo-brings-handcrafted-luxury-gullwing-doors-to-a-bespoke-grand-tourer",
+      "source": "Yanko Design",
+      "published": "2026-10-30T18:20:32+00:00",
+      "summary": "یک مازناتی گران‌eturیموز سفارشی با روکش مسی دست‌ساز و درب‌های ک/framework باز‌شونده، ترکیبی بی‌نظیر از صنعتگری سنتی و طراحی مدرن خودرو ارائه می‌دهد.",
+      "keywords": [
+        "مازناتی",
+        "خودرو",
+        "صنعتگری",
+        "طراحی سفارشی",
+        "مس"
       ],
       "category": "خودرو",
       "importance": "متوسط"
     },
     {
-      "title": "پیچ‌گوشتی برقی با قابلیت تشخیص سری پیچ",
-      "url": "https://www.core77.com/posts/145760/An-Electric-Screwdriver-That-Identifies-Which-Bit-You-Need",
-      "source": "Core77",
-      "published": "2026-10-29T13:00:00+00:00",
-      "summary": "این ابزار نوآورانه با شناسایی نوع و اندازه پیچ، سری مناسب را پیشنهاد می‌دهد. این قابلیت باعث حذف مراحل تکراری انتخاب دستی بیت‌ها می‌شود و سرعت کار را افزایش می‌دهد.",
+      "title": "صندلی‌های قدیمی با پوشش رزینی جدید",
+      "url": "https://www.yankodesign.com/2026/10/30/old-chairs-get-a-resin-shell-without-hiding-their-scars/?utm_source=rss&utm_medium=rss&utm_campaign=old-chairs-get-a-resin-shell-without-hiding-their-scars",
+      "source": "Yanko Design",
+      "published": "2026-10-30T17:20:36+00:00",
+      "summary": "طراحی «یouth» با استفاده از رزین شفاف، جلوه‌ای منحصربه‌فرد به صندلی‌های قدیمی بخشیده و آسیب‌ها و رنگ‌های ناهمگون چوب را پوشش نمی‌دهد، بلکه آن‌ها را برجسته می‌کند.",
       "keywords": [
-        "ابزار برقی",
-        "طراحی صنعتی",
-        "نوآوری"
+        "بازیافت",
+        "طراحی مبلمان",
+        "رنبودی",
+        "صنعتگری"
       ],
-      "category": "لوازم الکترونیکی",
+      "category": "مبلمان",
       "importance": "متوسط"
     },
     {
-      "title": "کنترلر Stealth Flip از Turtle Beach با تاچ‌پد متغیر",
-      "url": "https://www.yankodesign.com/2026/10/30/turtle-beachs-stealth-flip-controller-switches-from-thumbsticks-to-touchpads/?utm_source=rss&utm_medium=rss&utm_campaign=turtle-beachs-stealth-flip-controller-switches-from-thumbsticks-to-touchpads",
+      "title": "سالن بیرونی بیابانی با سایه قابل تنظیم",
+      "url": "https://www.yankodesign.com/2026/10/30/this-desert-pavilion-concept-would-let-you-adjust-the-shade-by-remote/?utm_source=rss&utm_medium=rss&utm_campaign=this-desert-pavilion-concept-would-let-you-adjust-the-shade-by-remote",
       "source": "Yanko Design",
-      "published": "2026-10-30T10:07:52+00:00",
-      "summary": "این کنترلر قابلیت تغییر از استیک‌های آنالوگ به تاچ‌پد را دارد. این طراحی برای تسهیل جابجایی بین گیم‌پلی و منوهای پیچیده در بازی‌های PC ایده‌آل است.",
+      "published": "2026-10-30T16:20:39+00:00",
+      "summary": "این پاویون مفهومی، سایه‌بانی هوشمند دارد که کاربر می‌تواند با کنترل از راه دور، زاویه و میزان سایه آن را تنظیم کند. راه‌حلی نوآورانه برای راحتی در فضاهای باز.",
       "keywords": [
-        "گیمینگ",
-        "کنترلر",
-        "Turtle Beach"
-      ],
-      "category": "لوازم الکترونیکی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "ساونای جنگلی کوچک بدون نیاز به حفاری گسترده",
-      "url": "https://www.yankodesign.com/2026/10/30/a-tiny-forest-sauna-makes-room-for-rest-without-major-excavation/?utm_source=rss&utm_medium=rss&utm_campaign=a-tiny-forest-sauna-makes-room-for-rest-without-major-excavation",
-      "source": "Yanko Design",
-      "published": "2026-10-30T09:15:23+00:00",
-      "summary": "یک طراحی مینیمال برای ایجاد فضای استراحت در طبیعت بدون تخریب محیط زیست. این پروژه بر راحتی کاربر و حفظ ساختار زمین تمرکز دارد.",
-      "keywords": [
-        "ساونا",
-        "معماری کوچک",
-        "طراحی طبیعت"
-      ],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "گوشی تاشو Nokia 2360 با قابلیت تنظیمات از راه دور",
-      "url": "https://www.yankodesign.com/2026/10/30/nokias-2360-flip-phone-offers-remote-setup-but-sticks-with-2g/?utm_source=rss&utm_medium=rss&utm_campaign=nokias-2360-flip-phone-offers-remote-setup-but-sticks-with-2g",
-      "source": "Yanko Design",
-      "published": "2026-10-30T08:15:25+00:00",
-      "summary": "نوکیا مدلی ساده برای کاربرانی که تنها به تماس‌های ضروری نیاز دارند عرضه کرده است. این گوشی با وجود قابلیت‌های مدرن تنظیمات، همچنان از شبکه 2G استفاده می‌کند.",
-      "keywords": [
-        "Nokia",
-        "گوشی تاشو",
-        "تکنولوژی"
-      ],
-      "category": "لوازم الکترونیکی",
-      "importance": "پایین"
-    },
-    {
-      "title": "کیف دستی چرمی با نورپردازی داخلی",
-      "url": "https://www.yankodesign.com/2026/10/29/this-leather-handbag-has-a-built-in-light-so-you-can-easily-find-your-keys-and-airpods/?utm_source=rss&utm_medium=rss&utm_campaign=this-leather-handbag-has-a-built-in-light-so-you-can-easily-find-your-keys-and-airpods",
-      "source": "Yanko Design",
-      "published": "2026-10-30T01:45:45+00:00",
-      "summary": "این کیف با تعبیه یک سیستم نوری داخلی، مشکل پیدا کردن اشیاء کوچک در فضای تاریک کیف را حل کرده است. طراحی آن بر کاربردی بودن در زندگی روزمره متمرکز است.",
-      "keywords": [
-        "اکسسوری",
-        "طراحی کاربردی",
-        "کیف چرمی"
-      ],
-      "category": "طراحی اکسسوری",
-      "importance": "پایین"
-    },
-    {
-      "title": "اثر هنری LEGO از آثار Monet",
-      "url": "https://www.yankodesign.com/2026/10/29/this-lego-monet-artpiece-looks-better-when-you-take-your-glasses-off/?utm_source=rss&utm_medium=rss&utm_campaign=this-lego-monet-artpiece-looks-better-when-you-take-your-glasses-off",
-      "source": "Yanko Design",
-      "published": "2026-10-30T00:30:34+00:00",
-      "summary": "لگو نسخه‌ای از یکی از نقاشی‌های معروف مونه را بازسازی کرده است. این محصول ترکیبی از هنر کلاسیک و قطعات مدرن لگو است.",
-      "keywords": [
-        "LEGO",
-        "طراحی محصول",
-        "هنر"
-      ],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "خانه کوچک Avalon 32 تک‌طبقه",
-      "url": "https://www.yankodesign.com/2026/10/29/the-single-level-avalon-32%e2%80%b2-tiny-home-keeps-everyday-living-downstairs/?utm_source=rss&utm_medium=rss&utm_campaign=the-single-level-avalon-32%25e2%2580%25b2-tiny-home-keeps-everyday-living-downstairs",
-      "source": "Yanko Design",
-      "published": "2026-10-29T23:30:27+00:00",
-      "summary": "این خانه کوچک با حذف پله‌ها، تمام فضای زندگی را در یک سطح قرار داده است. تمرکز اصلی در طراحی آن بر ایجاد فضای کافی برای ایستادن و حرکت راحت است.",
-      "keywords": [
-        "Tiny Home",
         "معماری",
-        "طراحی داخلی"
-      ],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "نمایش لایه‌های دیواره زیستگاه مریخی AENARA",
-      "url": "https://www.yankodesign.com/2026/10/29/aenaras-mars-habitat-wall-reveals-the-layers-behind-a-future-off-world-home/?utm_source=rss&utm_medium=rss&utm_campaign=aenaras-mars-habitat-wall-reveals-the-layers-behind-a-future-off-world-home",
-      "source": "Yanko Design",
-      "published": "2026-10-29T22:30:17+00:00",
-      "summary": "این پروژه معماری، ساختار دیواره‌های مورد نیاز برای زندگی در مریخ را به صورت لایه لایه نمایش می‌دهد. طراحی شامل پوسته ضدتابش و لایه‌های عایق برای شرایط سخت فضایی است.",
-      "keywords": [
-        "زیستگاه فضایی",
-        "معماری آینده",
-        "AENARA"
-      ],
-      "category": "تکنولوژی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "هدفون‌های Open Ear جدید Xiaomi با طراحی جواهرگونه",
-      "url": "https://www.yankodesign.com/2026/10/29/these-xiaomi-open-earbuds-have-five-drivers-and-look-like-tech-jewelry/?utm_source=rss&utm_medium=rss&utm_campaign=these-xiaomi-open-earbuds-have-five-drivers-and-look-like-tech-jewelry",
-      "source": "Yanko Design",
-      "published": "2026-10-29T21:30:31+00:00",
-      "summary": "شیائومی هدفون‌های جدیدی با پنج درایور تولید کرده که بیشتر شبیه به اکسسوری‌های لوکس هستند تا گجت‌های الکترونیکی. این محصول مرز بین تکنولوژی و مد را جابجا می‌کند.",
-      "keywords": [
-        "Xiaomi",
-        "هدفون",
-        "طراحی محصول"
-      ],
-      "category": "لوازم الکترونیکی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "سری گوشی‌های تاشو لوکس و مخفی Samsung",
-      "url": "https://www.yankodesign.com/2026/10/29/samsung-has-a-secret-luxury-foldable-phone-line-and-its-newest-model-is-gorgeous/?utm_source=rss&utm_medium=rss&utm_campaign=samsung-has-a-secret-luxury-foldable-phone-line-and-its-newest-model-is-gorgeous",
-      "source": "Yanko Design",
-      "published": "2026-10-29T20:30:49+00:00",
-      "summary": "سامسونگ یک خط تولید اختصاصی برای گوشی‌های تاشو لوکس در بازار چین دارد. جدیدترین مدل این سری با متریال‌های گران‌بها و طراحی خیره‌کننده معرفی شده است.",
-      "keywords": [
-        "Samsung",
-        "گوشی تاشو",
-        "لوکس"
-      ],
-      "category": "لوازم الکترونیکی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "نمایشگر سه بعدی بدون عینک ELF-MN1 از Sony",
-      "url": "https://www.yankodesign.com/2026/10/29/sony-puts-a-glass-free-3d-anime-display-on-your-desk-with-elf-mn1/?utm_source=rss&utm_medium=rss&utm_campaign=sony-puts-a-glass-free-3d-anime-display-on-your-desk-with-elf-mn1",
-      "source": "Yanko Design",
-      "published": "2026-10-29T19:20:13+00:00",
-      "summary": "سونی نمایشگری کوچک برای میز کار عرضه کرده که تصاویر سه بعدی و آواتارهای انیمه‌ای را بدون نیاز به عینک نمایش می‌دهد. این دستگاه تجربه‌ای جدید از تعامل با محتوای دیجیتال است.",
-      "keywords": [
-        "Sony",
-        "نمایشگر سه بعدی",
-        "تکنولوژی"
-      ],
-      "category": "لوازم الکترونیکی",
-      "importance": "بالا"
-    },
-    {
-      "title": "دوربین یک‌بار مصرف ساخته شده از Mycelium",
-      "url": "https://www.yankodesign.com/2026/10/29/this-disposable-camera-is-made-from-mycelium-not-single-use-plastic/?utm_source=rss&utm_medium=rss&utm_campaign=this-disposable-camera-is-made-from-mycelium-not-single-use-plastic",
-      "source": "Yanko Design",
-      "published": "2026-10-29T18:20:52+00:00",
-      "summary": "به جای استفاده از پلاستیک‌های مضر، این دوربین از قارچ (Mycelium) ساخته شده است. این نوآوری گامی بزرگ در جهت جایگزینی متریال‌های زیست‌تخریب‌پذیر در صنعت الکترونیک است.",
-      "keywords": [
-        "پایداری",
-        "متریال‌های زیستی",
-        "طراحی سبز"
-      ],
-      "category": "پایداری و محیط زیست",
-      "importance": "بالا"
-    },
-    {
-      "title": "صندلی 1.2 پوندی Nike ACG با Helinox به سبک کارگاهی طراحی شده",
-      "url": "https://www.yankodesign.com/2026/10/29/nike-acg-x-helinoxs-1-2-pound-chair-refuses-to-blend-in/?utm_source=rss&utm_medium=rss&utm_campaign=nike-acg-x-helinoxs-1-2-pound-chair-refuses-to-blend-in",
-      "source": "Yanko Design",
-      "published": "2026-10-29T17:20:26+00:00",
-      "summary": "صندلی هلیمینوس در همکاری با برند اسپورتی Nike ACG طراحی شده که وزن کمی دارد ولی کیفیت بالایی در بر می‌گیرد. این محصول برای مسافران و ورزش‌گران که به دنبال راحتی و سبک بودن هستند مناسب است. ترکیب استایل کارگاهی با عملکرد مناسب در فضای بیرونی نشان‌دهنده نوآوری در طراحی محصولات اسپورتی است.",
-      "keywords": [
         "طراحی محصول",
-        "ورزشی",
-        "نوآوری",
-        "صندلی",
-        "سبک"
+        "تکنولوژی هوشمند",
+        "فضای باز"
+      ],
+      "category": "طراحی صنعتی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "MyGlamper چادر ۱۲ نفره برای ماشین",
+      "url": "https://www.yankodesign.com/2026/10/30/myglamper-mounts-on-your-suv-hitch-and-inflates-into-a-large-12-person-tent-at-the-campsite/?utm_source=rss&utm_medium=rss&utm_campaign=myglamper-mounts-on-your-suv-hitch-and-inflates-into-a-large-12-person-tent-at-the-campsite",
+      "source": "Yanko Design",
+      "published": "2026-10-30T15:20:30+00:00",
+      "summary": "این دستگاه به بسته‌بندی ماشین متصل می‌شود و به راحتی باز می‌شود تا یک چادر بزرگ برای ۱۲ نفر ایجاد کند. راه‌حلی راحت و فضای‌ Saving برای کمپ‌های خانوادگی.",
+      "keywords": [
+        "چادر",
+        "کمپ",
+        "ماشین",
+        "طراحی محصول",
+        "تفریح"
       ],
       "category": "طراحی محصول",
       "importance": "متوسط"
     },
     {
-      "title": "جعبه SOOOT با کارت‌های دوخته‌شده کنترل صدا فراهم می‌کند",
-      "url": "https://www.yankodesign.com/2026/10/29/sooot-box-prototype-turns-punched-paper-cards-into-audio-controls/?utm_source=rss&utm_medium=rss&utm_campaign=sooot-box-prototype-turns-punched-paper-cards-into-audio-controls",
+      "title": "Compath، راهنمایی بدون صفحه نمایش برای افراد مبتلا به زوال عقل",
+      "url": "https://www.yankodesign.com/2026/10/30/compath-imagines-dementia-navigation-without-a-touchscreen/?utm_source=rss&utm_medium=rss&utm_campaign=compath-imagines-dementia-navigation-without-a-touchscreen",
       "source": "Yanko Design",
-      "published": "2026-10-29T16:20:01+00:00",
-      "summary": "این پروتوتایپ جدید با استفاده از کارت‌های دوخته‌شده از روی کاغذ، کنترل‌های صوتی را بدون نیاز به دستگاه‌های الکترونیکی پیچیده ایجاد می‌کند. هدف آسان‌سازی استفاده از دستگاه‌های پخش موسیقی برای کاربران است. این پروژه نشان‌دهنده ترکیب طراحی دستی و فناوری برای تجربه کاربری ساده است.",
+      "published": "2026-10-30T14:20:02+00:00",
+      "summary": "این سیستم راهنمایی مسیر، برای افراد مبتلا به زوال عقل طراحی شده و بدون استفاده از صفحه نمایش لمسی، امنیت و آرامش خاصی را برای آن‌ها فراهم می‌کند. طراحی مبتنی بر نیاز کاربر.",
       "keywords": [
-        "طراحی محصول",
-        "کنترل صوت",
-        "پروتوتایپ",
-        "دست‌ساز",
-        "تعامل انسان-فناوری"
+        "طراحی پزشکی",
+        "کاربر پسند",
+        "زوال عقل",
+        "نوآوری اجتماعی"
       ],
-      "category": "طراحی محصول",
-      "importance": "متوسط"
-    },
-    {
-      "title": "مجموعه Prism از PlayStation 5 با طراحی شفاف الهام گرفته از دهه ۹۰",
-      "url": "https://www.yankodesign.com/2026/10/29/playstation-5-prism-collection-revives-the-nostalgia-of-see-through-designs-in-a-modern-interpretation/?utm_source=rss&utm_medium=rss&utm_campaign=playstation-5-prism-collection-revives-the-nostalgia-of-see-through-designs-in-a-modern-interpretation",
-      "source": "Yanko Design",
-      "published": "2026-10-29T15:20:31+00:00",
-      "summary": "مجموعه جدید PlayStation 5 با طراحی شفاف و شیشه‌ای، طراحی‌های دوره پیشرفته را با تکنولوژی مدرن ترکیب می‌کند. این طراحی هویت نسل‌های قدیم را بازنویسی می‌کند. ترکیب عملکرد پیشرفته با ظاهر جذاب، یک گام مهم در تجربه کاربری است.",
-      "keywords": [
-        "طراحی صنعتی",
-        "لوازم الکترونیکی",
-        "طراحی شفاف",
-        "نوآوری طراحی",
-        "پلتفرم بازی"
-      ],
-      "category": "طراحی صنعتی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "کاخ کوچک ژاپنی با تخت‌های پنهان و قفل‌های با شاخه درخت",
-      "url": "https://www.yankodesign.com/2026/10/29/a-tiny-japanese-pavilion-has-hidden-benches-and-twig-locks/?utm_source=rss&utm_medium=rss&utm_campaign=a-tiny-japanese-pavilion-has-hidden-benches-and-twig-locks",
-      "source": "Yanko Design",
-      "published": "2026-10-29T14:20:00+00:00",
-      "summary": "این پروژه معماری کوچک با استفاده از عناصر طبیعی مانند شاخه‌های درخت و فضاهای پنهان طراحی شده است. اهداف اصلی آن ایجاد مکان آرامش بین‌الملکی است. این کار نشان‌دهنده ترکیب طراحی معماری با کارایی محلی است.",
-      "keywords": [
-        "طراحی صنعتی",
-        "معماری",
-        "طراحی محلی",
-        "فضاهای پنهان",
-        "ژاپن"
-      ],
-      "category": "طراحی صنعتی",
-      "importance": "پایین"
-    },
-    {
-      "title": "۵ طرح الهام‌گرفته از هالووین برای جلوه‌گیری از فصل ترسناک",
-      "url": "https://www.yankodesign.com/2026/10/29/5-halloween-inspired-designs-to-get-you-into-the-spooky-spirit/?utm_source=rss&utm_medium=rss&utm_campaign=5-halloween-inspired-designs-to-get-you-into-the-spooky-spirit",
-      "source": "Yanko Design",
-      "published": "2026-10-29T11:40:28+00:00",
-      "summary": "این مجموعه طرح‌ها برای ایجاد فضای ترسناک در منازل با طراحی‌های خاص و جذاب استوار است. هدف ایجاد حس جشن و بویای هالووین است. این محتوا برای علاقه‌مندان به دکوراسیون فصلی مناسب است.",
-      "keywords": [
-        "طراحی جواهرات",
-        "دکوراسیون",
-        "طرح هالووین",
-        "فضای ترسناک",
-        "طراحی جذاب"
-      ],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "تبدیل انبار قدیم برکنستوک توسط هرزوگ و دی مئوریون به موزه ایمی آیز",
-      "url": "https://www.designboom.com/architecture/herzog-de-meuron-eames-institute-museum-birkenstock-warehouse-novato/",
-      "source": "Designboom",
-      "published": "2026-10-30T10:03:38+00:00",
-      "summary": "هرزوگ و دی مئوریون برنامه دارند که انبار تاریخی برکنستوک را به موزه‌ای برای ایمی آیز تبدیل کنند. این پروژه با هدف نگهداری میراث طراحی انجام می‌شود. بازسازی یک ساختمان با اصول معماری مدرن و حفظ تاریخ یک فرصت منحصربه‌فرد است.",
-      "keywords": [
-        "معماری",
-        "طراحی صنعتی",
-        "موزه",
-        "بازسازی تاریخی",
-        "برکنستوک"
-      ],
-      "category": "همایش‌ها و رویدادها",
+      "category": "طراحی پزشکی",
       "importance": "بالا"
     },
     {
-      "title": "خانه ماژولار ۱۹۵۰ توسط جان و شوآن پروه در فرانسه جابجا شد",
-      "url": "https://www.designboom.com/architecture/1950s-modular-house-jean-claude-prouve-saint-paul-de-vence-france-maison-prouve-58/",
-      "source": "Designboom",
-      "published": "2026-10-30T09:25:44+00:00",
-      "summary": "خانه ماژولاری که در دهه ۱۹۵۰ طراحی شده توسط جان و شوآن پروه، پس از تخلیه و بازسازی، به عنوان اجاره‌نوزادی در میان درختان زیتون در فرانسه جدید شد. این پروژه نشان‌دهنده حفظ طراحی مدرن است. جابجایی این ساختمان تحولی در معماری پیش‌صنعتی است.",
-      "keywords": [
-        "معماری",
-        "طراحی صنعتی",
-        "خانه ماژولار",
-        "پروه",
-        "فرانسه"
-      ],
-      "category": "طراحی صنعتی",
-      "importance": "بالا"
-    },
-    {
-      "title": "سابیل مارسلیس در موزه فرم استیجاردینگ در زوریخ نور و رنگ را به فضاهای باز می‌کند",
-      "url": "https://www.designboom.com/design/sabine-marcelis-light-color-exhibition-museum-gestaltung-zurich/",
-      "source": "Designboom",
-      "published": "2026-10-30T07:44:11+00:00",
-      "summary": "سابیل مارسلیس با ترکیب نور، رنگ و مواد، فضاهای تعاملی خلق می‌کند که تجربه‌ای بصری و حسی ایجاد می‌کند. این نمایشگاه از پروژه‌های متعدد با هنرمندان دیگر همکاری دارد. این کار نشان‌دهنده تکامل فضاهای بصری است.",
-      "keywords": [
-        "طراحی فضا",
-        "نور",
-        "رنگ",
-        "موزه",
-        "زوریخ"
-      ],
-      "category": "طراحی صنعتی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "رستوران ایزابل می‌فیر در ابوظبی با جزئیات پر جزئیات از جنس مس و حریر",
-      "url": "https://www.designboom.com/readers/sculptural-brass-petals-silk-embroideries-isabel-mayfair-restaurant-abu-dhabi-dbm/",
-      "source": "Designboom",
-      "published": "2026-10-30T03:10:58+00:00",
-      "summary": "رستوران ایزابل می‌فیر با ترکیب عناصر لوکس مانند مس پر جزئیات و پارچه‌های پر رنگ، فضایی خاص ایجاد می‌کند. این کار نشان‌دهنده توجه به جزئیات در طراحی داخلی است. ترکیب رنگ‌ها و متریال‌ها یک تجربه طراحی منحصربه‌فرد فراهم می‌کند.",
+      "title": "کورد و بارک، برق را با جعبه چوبی زیبا می‌کند",
+      "url": "https://www.yankodesign.com/2026/10/30/kord-and-bark-give-a-power-strip-a-wooden-case-worth-leaving-on-display/?utm_source=rss&utm_medium=rss&utm_campaign=kord-and-bark-give-a-power-strip-a-wooden-case-worth-leaving-on-display",
+      "source": "Yanko Design",
+      "published": "2026-10-30T13:20:05+00:00",
+      "summary": "این دو برند، برد برق معمولی را با یک جعبه چوبی زیبا و طراحی شده برای نمایش، تبدیل به یک دکوراسیون جذاب کرده‌اند. طراحی برای جزئیات و زیبایی‌شناختی.",
       "keywords": [
         "طراحی داخلی",
-        "مبلمان",
-        "رنگ",
-        "متریال",
-        "فضای بیرونی"
-      ],
-      "category": "طراحی صنعتی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "آلژارو اوربANO در موزه جومکس، ترکیب خاطرات گیاهی را کهکانی به زندگی می‌آورد",
-      "url": "https://www.designboom.com/art/alvaro-urbano-helen-casa-cueva-museo-jumex/",
-      "source": "Designboom",
-      "published": "2026-10-29T21:23:44+00:00",
-      "summary": "آلژارو اوربANO با تحلیل ارث هلن فولراوئر، فضایی فرضی از خاطرات گیاهی بازآفرینی می‌کند. این پروژه از طریق گفت‌وگو در موزه جومکس به نمایش در می‌آید. این کار ترکیبی از خیال و حقیقت در آرایش فضا است.",
-      "keywords": [
-        "طراحی فضا",
-        "گیاه",
-        "موزه",
-        "جومکس",
-        "تحلیل تاریخی"
-      ],
-      "category": "طراحی صنعتی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "اپل با اولین مک بوک پرو با صفحه‌ لمسی، قاعده ۱۶ ساله طراحی را شکسته است",
-      "url": "https://www.designboom.com/technology/apple-first-touchscreen-macbook-pro-proled-xdr-display/",
-      "source": "Designboom",
-      "published": "2026-10-29T18:19:00+00:00",
-      "summary": "اپل برای اولین بار صفحه‌ لمسی در مک بوک پرو اضافه کرده که پیش از این فقط در دستگاه‌های موبایل وجود داشت. این تغییر برای خلاقان امکان کار مستقیم روی صفحه را می‌دهد. این یک تحول بزرگ در تجربه کاربری است.",
-      "keywords": [
-        "لوازم الکترونیکی",
-        "طراحی صنعتی",
-        "مک بوک",
-        "صفحه‌ لمسی",
-        "تکنولوژی"
-      ],
-      "category": "طراحی صنعتی",
-      "importance": "بالا"
-    },
-    {
-      "title": "نیویکیشن تاریخی پرگیا به اسکینک‌ها و مبلمان از جنس اک دوقلو ریک می‌رسد",
-      "url": "https://www.designboom.com/architecture/historic-perugia-newsstand-stepped-red-oak-mini-reading-kiosk-edicola-518-giuseppe-arezzi/",
-      "source": "Designboom",
-      "published": "2026-10-29T16:15:18+00:00",
-      "summary": "سنتی در خیابان سانت‌ارکلان در پرگیا با استفاده از مبلمان از جنس اک و فضاهای پنهان تبدیل به یک فضای کتابخانه کوچک شده است. این پروژه نشان‌دهنده بازخلاف هوشمندانه‌ای است. این کار ترکیبی از طراحی و کارایی منطقی است.",
-      "keywords": [
-        "طراحی محیط شهری",
-        "مبلمان",
-        "پرگیا",
-        "کتابخانه",
-        "فضای عمومی"
-      ],
-      "category": "طراحی صنعتی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "مجسمه‌های янبر درخشان با پلیمر طبیعی حشرات",
-      "url": "https://www.designboom.com/design/glowing-amber-sculptures-polymer-insects-ori-orisun-merhav/",
-      "source": "Designboom",
-      "published": "2026-10-29T11:50:05+00:00",
-      "summary": "این پروژه طراحی چندگونه، پلیمر طبیعی تولید شده توسط حشرات را برای خلق مجسمه‌های янبر درخشان به کار می‌برد. طراحی‌گان فرآیندهای بیولوژیک را با تولید مدرن ترکیب کرده‌اند. نتیجه اثرات نقاشی‌های طبیعی است که مرزهای طراحی و زیست را می‌شکند.",
-      "keywords": [
-        "طراحی چندگونه",
-        "پلیمر طبیعی",
-        "حشرات",
-        "متریال‌های زیستی",
-        "نوآوری متریال"
-      ],
-      "category": "مواد و متریال",
-      "importance": "متوسط"
-    },
-    {
-      "title": "McDonald's بازی‌های هپی میل را به موس بی سیم تبدیل کرد",
-      "url": "https://www.designboom.com/technology/mcdonalds-lenovo-french-fries-wireless-mouse-recycled-happy-meal-toys/",
-      "source": "Designboom",
-      "published": "2026-10-29T11:49:50+00:00",
-      "summary": "مک‌دونالدز در همکاری با لینوو، بازی‌های هپی میل بازیافتی را به موس‌های بی‌سیم شکل کارتن سیب‌زمینی تبدیل کرده است. این محصول پلاستیک بازیافتی را به یک لوازم جانبی دسکتاپ کاربردی مبدل می‌کند. پروژه نمادینی از اقتصاد دایره در برندهای بزرگ است.",
-      "keywords": [
-        "اقتصاد دایره",
-        "بازیافت پلاستیک",
-        "McDonald's",
-        "Lenovo",
+        "دکوراسیون",
+        "چوب",
         "طراحی محصول"
       ],
       "category": "طراحی محصول",
       "importance": "متوسط"
     },
     {
-      "title": "LAUFEN فولاد VITREON را برای سینک‌ها معرفی کرد",
-      "url": "https://www.designboom.com/design/laufen-vitreon-steel-contemporary-washbasin/",
-      "source": "Designboom",
-      "published": "2026-10-29T11:00:28+00:00",
-      "summary": "لاؤفن فولاد VITREON را با هندسه‌های ظریف، بافت‌های لمسی و تغییرات رنگی ظریف برای طراحی سینک‌های معاصر معرفی کرد. این متریال جدید بیان متریالی نوین در تجهیزات حمام را ارائه می‌دهد. ترکیب دوام و زیبایی‌شناسی در یک الیاف واحد محقق شده است.",
+      "title": "۹ هدیه کمتر از ۱۰۰ دلار برای نمایشگران دیجیتال",
+      "url": "https://www.yankodesign.com/2026/10/30/9-useful-gifts-under-100-for-digital-nomads-who-already-have-the-tech/?utm_source=rss&utm_medium=rss&utm_campaign=9-useful-gifts-under-100-for-digital-nomads-who-already-have-the-tech",
+      "source": "Yanko Design",
+      "published": "2026-10-30T11:40:19+00:00",
+      "summary": "برای کسی که همه تکنولوژی لازم را دارد، این هدایای کمتر از ۱۰۰ دلار می‌تواند مفید و کاربردی باشد. تمرکز بر کارایی و تجربه کاربر به جای تکنولوژی جدید.",
       "keywords": [
-        "فولاد VITREON",
-        "لاؤفن",
-        "تجهیزات حمام",
-        "متریال نوین",
-        "طراحی سینک"
+        "هدیه",
+        "نمایشگر دیجیتال",
+        "کاربردی",
+        "طراحی"
       ],
-      "category": "مواد و متریال",
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "فریزر جردن با الهام از معماری به فرش لولوئی",
+      "url": "https://design-milk.com/jeremiah-brent-loloi-collection/",
+      "source": "Design Milk",
+      "published": "2026-10-30T20:46:19+00:00",
+      "summary": "طراح داخلی جردن فریزر، برای مجموعه فرش و بالش لولوئی از معماری میس ون دیر روه و رم باستان الهام گرفته است. ترکیب هنر و معماری در فضای داخلی.",
+      "keywords": [
+        "طراحی داخلی",
+        "فرش",
+        "معماری",
+        "لولوئی"
+      ],
+      "category": "سایر",
       "importance": "متوسط"
     },
     {
-      "title": "به سمت دفتر خبری رد دات",
+      "title": "A 1910 Seattle Beach House Gets a Colorful Makeover",
+      "url": "https://design-milk.com/alki-lookout-seattle-beach-house/",
+      "source": "Design Milk",
+      "published": "2026-10-30T17:35:23+00:00",
+      "summary": "Shed reimagines a century-old home above Alki Beach with a surf-inspired palette, inventive storage, patterned tile, and a wildlife mural by artist Stevie Shao",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "Friday Five with Bram Vanderbeke: Finding Inspiration in Ancient Ruins and Architecture",
+      "url": "https://design-milk.com/friday-five-bram-vanderbeke-anthology-side-table/",
+      "source": "Design Milk",
+      "published": "2026-10-30T16:47:41+00:00",
+      "summary": "The Belgian artist and designer shares what inspired the Anthology Side Table/Stool, created in collaboration with jeweler Lore Van Keer",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "A Room-by-Room Layered Lighting Guide for Fall",
+      "url": "https://design-milk.com/govee-room-by-room-layered-lighting-guide-for-fall/",
+      "source": "Design Milk",
+      "published": "2026-10-30T14:00:35+00:00",
+      "summary": "Explore design inspo for cozy bedroom lighting, focused-office illumination, and more from Govee",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "in this video game, moths and wolves play out a nearby climate future",
+      "url": "https://www.designboom.com/art/in-this-video-game-moths-and-wolves-play-out-a-nearby-climate-future/",
+      "source": "Designboom",
+      "published": "2026-10-31T08:45:04+00:00",
+      "summary": "alice bucknell's, the alluvials, take players through burning forests and a sand-covered los angeles to explore a speculative future through non-human lenses. The post in this video game, moths and wolves play out a nearby climate future appeared first on designboom | architecture & design magazine .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "woven bamboo armchair clad in UV-reactive crocheted blooms glows in the dark",
+      "url": "https://www.designboom.com/design/woven-bamboo-armchair-uv-reactive-crocheted-blooms-dark-peiyang-camille-li/",
+      "source": "Designboom",
+      "published": "2026-10-31T03:10:14+00:00",
+      "summary": "peiyang (camille) li designs she blooms in the dark, an intimate woven bamboo armchair clad in hand-crocheted blossoms made from uv-reactive yarn that absorb daylight and emit a soft nocturnal glow. The post woven bamboo armchair clad in UV-reactive crocheted blooms glows in the dark appeared first on designboom | architecture & design magazine .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "we drove volvo’s electric EX60 to russel wright’s modernist woodland home at manitoga",
+      "url": "https://www.designboom.com/technology/volvo-electric-ex60-russel-wright-manitoga-car-suv/",
+      "source": "Designboom",
+      "published": "2026-10-30T21:35:59+00:00",
+      "summary": "from seasonal color studies to an interior that projects leaves onto its seats, volvo’s electric EX60 draws design inspiration from nature. The post we drove volvo’s electric EX60 to russel wright’s modernist woodland home at manitoga appeared first on designboom | architecture & design magazine .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "retro cocktail bar with multi-chrome lighting and curved steel hides behind barcelona focacceria",
+      "url": "https://www.designboom.com/architecture/retro-cocktail-bar-multi-chrome-lighting-curved-steel-barcelona-focacceria-isern-serra-focacha/",
+      "source": "Designboom",
+      "published": "2026-10-30T19:10:27+00:00",
+      "summary": "behind a neighborhood focacceria storefront on barcelona's carrer tuset, designer isern serra completes focacha, a speakeasy cocktail lounge inspired by space age and verner panton's visiona. The post retro cocktail bar with multi-chrome lighting and curved steel hides behind barcelona focacceria appeared first on designboom | architecture & design magazine .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "foster + partners’ generali stadium references the intricate stonework of milan’s duomo",
+      "url": "https://www.designboom.com/architecture/foster-partners-generali-stadium-milan-duomo-manica-san-siro-italy/",
+      "source": "Designboom",
+      "published": "2026-10-30T16:45:26+00:00",
+      "summary": "two towering walls of 11,700 fans will rise behind the goals, all beneath a roof engineered to channel their roar back toward the pitch. The post foster + partners’ generali stadium references the intricate stonework of milan’s duomo appeared first on designboom | architecture & design magazine .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "‘dismantling should be designed, not improvised’: THISS studio on radical reuse in architecture",
+      "url": "https://www.designboom.com/architecture/thiss-studio-tamsin-hanke-radical-reuse-exhibition-design-interview/",
+      "source": "Designboom",
+      "published": "2026-10-30T11:50:54+00:00",
+      "summary": "from salvaged barn beams to an upturned boat, the london practice lets available materials shape the design while embracing uncertainty as part of the process. The post ‘dismantling should be designed, not improvised’: THISS studio on radical reuse in architecture appeared first on designboom | architecture & design magazine .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "podcast: architecture that listens through nature and site intelligence",
+      "url": "https://www.designboom.com/architecture/podcast-room-for-utopias-01-02/",
+      "source": "Designboom",
+      "published": "2026-10-30T11:00:47+00:00",
+      "summary": "the room for utopias podcast debuts with indian architects and designers examining an architecture that begins by listening rather than imposing. The post podcast: architecture that listens through nature and site intelligence appeared first on designboom | architecture & design magazine .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "To the Red Dot Newsroom",
       "url": "https://www.mynewsdesk.com/red-dot-design-award",
       "source": "Red Dot",
       "published": null,
-      "summary": "این صفحه به بخش خبری رد دات هدایت می‌کند برای اطلاع از اخبار و انتشارهای مربوط به جائزة طراحی. محتوای خاصی در خلاصه موجود نیست.",
-      "keywords": [
-        "Red Dot",
-        "جایزه طراحی",
-        "اخبار طراحی"
-      ],
-      "category": "جوایز طراحی",
+      "summary": "",
+      "keywords": [],
+      "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "اطلاعات عمومی جایزه رد دات",
+      "title": "General press information on the Red Dot Design Award",
       "url": "https://www.red-dot.org/fileadmin/bilder/Presse_Archiv/2026_PI_About_Red_Dot_Design_Award.pdf",
       "source": "Red Dot",
       "published": null,
-      "summary": "اطلاعات عمومیه برای رسانه‌ها درباره جائزة رد دات طراحی، شامل جزئیات ثبت‌نام، دسته‌ها و مواعید. این سند راهنمای شرکت‌کنندگان و خبرنگاران است. جزئیات فنی و اداری در متن کامل قابل دسترس است.",
-      "keywords": [
-        "Red Dot",
-        "جایزه طراحی",
-        "اطلاعات پرس"
-      ],
+      "summary": "",
+      "keywords": [],
       "category": "جوایز طراحی",
-      "importance": "پایین"
+      "importance": "متوسط"
     },
     {
-      "title": "Voltex ARIA کلیدهای مدرن را به استرالیا عرضه کرد",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTUI5MWFIY2Vodk9hOERkUnFWdWw2X3hxeV9aRVJfSU1Eekh2ZEtWZ1UxeElxZmNHb292MFh0ZUlzQnBKMENTYzN2X2JFcjBzZTVjdTFZRElsR3hFRTdRY3RMb1ZNaU13Y0JNRmh4ZkZxMlRQLU9uNWRkVGwyUUNwZThhZDh6QWtSbFlPajF4bXF6VWhFUGt0OVdFM3Rad1NMS0NxY0Znb1pMLXc?oc=5",
-      "source": "Google News: product design award",
-      "published": "2026-10-30T06:29:39+00:00",
-      "summary": "ولکس سری ARIA کلیدهای برقی مدرن و ظریف را برای بازار استرالیا عرضه کرده است. این محصولات با طراحی مینیمال و تکنولوژی پیشرفته، تجربه کنترل نور را ارتقا می‌دهند. رونمایی در نشریه معماری و طراحی استرالیا انجام شده.",
+      "title": "پنج خانه برتر اکتبر ۲۰۲۶ Dezeen",
+      "url": "https://www.dezeen.com/2026/10/31/top-houses-october-2026/",
+      "source": "Dezeen",
+      "published": "2026-10-31T10:00:00+00:00",
+      "summary": "Dezeen pięciu منهای معماریuaire خانه‌های برتر ماه اکتبر را معرفی کرده است. این مجموعه شامل یک خانه رویایی پاستل‌رنگ و مسکنی شبیه کمد چوبی برای کودکان می‌شود.",
       "keywords": [
-        "Voltex",
-        "کلید برقی",
-        "استرالیا",
-        "طراحی مدرن",
-        "لوازم الکترونیکی"
+        "معماری",
+        "خانه",
+        "Dezeen",
+        "انتخاب ماهانه"
       ],
-      "category": "لوازم الکترونیکی",
+      "category": "طراحی صنعتی",
       "importance": "پایین"
     },
     {
-      "title": "۱۱ پروژه برجسته از هفته طراحی هلند ۲۰۲۶",
-      "url": "https://design-milk.com/dutch-design-week-2026-highlights/",
-      "source": "Design Milk",
-      "published": "2026-10-29T20:17:08+00:00",
-      "summary": "هفته طراحی هلند ۲۰۲۶، ۱۱ پروژه برجسته از مواد تجربی، مبل‌های скульпورال و نصب‌های پرسش‌گر تکنولوژی و نظارت را به نمایش گذاشت. این آثار ایده‌های شکل‌دهنده طراحی معاصر را منعکس می‌کنند. رویداد به عنوان پلتفرم نوآوری جهانی شناخته می‌شود.",
+      "title": "Foster + Partners جایگزین ورزشگاه سان‌سیرو را كشف کرد",
+      "url": "https://www.dezeen.com/2026/10/31/foster-partners-replacement-san-siro-stadium/",
+      "source": "Dezeen",
+      "published": "2026-10-31T06:00:00+00:00",
+      "summary": "استودیو معماری Foster + Partners با همکاری Manica طراحی ورزشگاه جنرالی در میلان را به عنوان جایگزینسان‌سیرو معرفی کرد. این طرح مدرن قرار است آینده فوتبال ایتالیایی را شکل دهد.",
       "keywords": [
-        "هفته طراحی هلند",
-        "DDW 2026",
-        "طراحی تجربی",
-        "مبلمان скульпورال",
-        "نصب‌های تعاملی"
+        "ورزشگاه",
+        "معماری",
+        "Foster + Partners",
+        "میلان"
+      ],
+      "category": "طراحی صنعتی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "دبیانه طراحی دبی، طراحی خاورمیانه را جشن می‌گیرد",
+      "url": "https://www.dezeen.com/2026/10/30/dubai-design-week-downtown-design-12-edition/",
+      "source": "Dezeen",
+      "published": "2026-10-30T21:00:00+00:00",
+      "summary": "دوازدهمین دوره دبیانه طراحی دبی با نمایشگاه‌هایی بر فرم‌های هندسی و نصب‌های معماری‌گان آغاز شد. این رویداد در محل دبیانه طراحی دبی (d3) برگزار می‌شود.",
+      "keywords": [
+        "دبیانه طراحی",
+        "خاورمیانه",
+        "نمایشگاه",
+        "فرم‌های هندسی"
       ],
       "category": "همایش‌ها و رویدادها",
       "importance": "متوسط"
     },
     {
-      "title": "خانه مدرنیستی در بریتیش کلمبیا با دیدگاه ساحلی",
-      "url": "https://design-milk.com/west-coast-modern-architecture/",
-      "source": "Design Milk",
-      "published": "2026-10-29T18:30:18+00:00",
-      "summary": "این خانه سه‌طبقه مدرنیستی در ویکتوریا، بریتیش کلمبیا، با دیدهای وسیع دریای سلیش طراحی شده. معماری بوفرم و طراحی داخلی بیدگود، الگوهای مدرنیسم کالیفرنیا را با بافت ساحلی ترکیب کرده‌اند. فضای باز و مواد طبیعی همگامی با طبیعت ایجاد می‌کنند.",
+      "title": "ده محصول برای ارتقای داخلی‌های اداری",
+      "url": "https://www.dezeen.com/2026/10/30/nine-products-task-chairs-desks-tables-furniture-office-interiors-workplaces/",
+      "source": "Dezeen",
+      "published": "2026-10-30T19:00:00+00:00",
+      "summary": "مجموعه‌ای از ده محصول اداری شامل میزها، صندلی‌های ارگونومیک و سیستم‌های صندلی ماژولار منتشر شد. این محصولات زیبایی و کارایی را در محیط کار ترکیب می‌کنند.",
       "keywords": [
-        "معماری مدرنیستی",
-        "بریتیش کلمبیا",
-        "خانه ساحلی",
-        "طراحی داخلی",
-        "مدرنیسم کالیفرنیا"
+        "مبلمان اداری",
+        "ارگونومی",
+        "ماژولار",
+        "محصول"
       ],
-      "category": "سایر",
+      "category": "مبلمان",
       "importance": "پایین"
     },
     {
-      "title": "ویکینگ طراحی اسکاندیناوی را به دریا می‌آورد",
-      "url": "https://design-milk.com/viking-ships-scandinavian-design/",
-      "source": "Design Milk",
-      "published": "2026-10-29T14:00:48+00:00",
-      "summary": "استودیو روتت برای ناوگان وایکینگ، طراحی‌های داخلی با مواد طبیعی، میراث نوردیک و فضاهای مقیاس‌بندی شده خلق کرده. هدف آوردن گرمی مسکونی به محیط دریایی است. طراحی اسکاندیناوی در مقیاس کشتی‌های سیاحتی پیاده‌سازی شده.",
+      "title": "Atelier Zébulon Perron از متابولیسم برای بیسترو مونترال الهام گرفت",
+      "url": "https://www.dezeen.com/2026/10/30/atelier-zebulon-perron-bistrot-franky-montreal/",
+      "source": "Dezeen",
+      "published": "2026-10-30T16:30:00+00:00",
+      "summary": "بیسترو فرانکی در مونترال با پالت تک‌رنگ و تأثیر معماری متابولیسم ژاپنی طراحی شده. استودیو محلی Atelier Zébulon Perron schiz این فضا را خلق کرده است.",
       "keywords": [
-        "ویکینگ",
-        "طراحی اسکاندیناوی",
-        "ناوگان دریایی",
+        "بیسترو",
+        "متابولیسم",
         "معماری داخلی",
-        "مواد طبیعی"
+        "مونترال"
+      ],
+      "category": "طراحی صنعتی",
+      "importance": "پایین"
+    },
+    {
+      "title": "Olaver استودیو Laneway با نما شیشه‌بлокی فانوس‌گونه رونمایی کرد",
+      "url": "https://www.dezeen.com/2026/10/30/olaver-laneway-studio-glass-block-facade-melbourne/",
+      "source": "Dezeen",
+      "published": "2026-10-30T11:30:00+00:00",
+      "summary": "معماری‌هایस्ट्रेलین Olaver استودیو دوطبقه‌ای در حیاط خانه‌ای در ملبرن طراحی کرد. نما از بلوک‌های شیشه‌ای در آجر سفید بازیافت‌شده و تیر بتنی ساخته شده است.",
+      "keywords": [
+        "استودیو",
+        "نما شیشه‌ای",
+        "بازیافت",
+        "ملبرن"
+      ],
+      "category": "طراحی صنعتی",
+      "importance": "پایین"
+    },
+    {
+      "title": "مجسمه Lady in Blue در میدان ترافالگار",
+      "url": "https://www.dezeen.com/2026/10/30/lady-in-blue-trafalgar-square-priya-khanchandani-opinion/",
+      "source": "Dezeen",
+      "published": "2026-10-30T11:00:00+00:00",
+      "summary": "پریا خانچندانی نقدی بر مجسمه تشرا بالالا سلف در میدان ترافالگار لندن نوشت. او معتقد است این اثر به عنوان یادمانی برای عصر ما کاملاً مناسب است.",
+      "keywords": [
+        "مجسمه",
+        "هنر عمومی",
+        "ترافالگار",
+        "نقد"
       ],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "Mimi Kakushi Brings Japanese Glamour to Miami Beach",
-      "url": "https://design-milk.com/mimi-kakushi-delano-miami-pirajean-lees/",
-      "source": "Design Milk",
-      "published": "2026-10-29T13:00:26+00:00",
-      "summary": ".Pirajean Lees blends 1920s Osaka, old Hollywood glamour, and Miami’s coastal spirit in an intimate indoor-outdoor restaurant",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "E Ian Siew – ‘Sometimes I Begin Making Before I Can Fully Explain What I Am Looking For’ - Branding in Asia",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaFJPWkd1all4a0syWkZZQUFwdzdhWFdmQmx4NUdMYzlPeXNsYjVmeW1fVXFGUUZ4R1EyU05VN3huNVM5aFN5aVphYjBaT0lLUE14MjRTUzZrQUFEV2VzV2JxMng2Snd0aWNxZlkydFF0d3lfVzVxaVJ2WHV1czJ6MEVpOFdZLXJFbGxtQ3F4Qjd5STdkNEJOQWRkd1hwSWpzRnB0blhmM3J1aHpZSDYyMEhIaEhaR0E?oc=5",
-      "source": "Google News: industrial design",
-      "published": "2026-10-30T07:41:09+00:00",
-      "summary": "E Ian Siew – ‘Sometimes I Begin Making Before I Can Fully Explain What I Am Looking For’ Branding in Asia",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "SME-Design Collaboration Unlocks New Markets - 조선일보",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbUQ5QnhYbE84NkozWXA4T3JYNGhmVnhQaHd4V0dzckFDRWc1MDJMcGlTbE9XWHQzTnJoWXpYeEJHdm9hQzFrSmRGY3RTMVRFSXRxMWktM2ZxOWFrWlF1UDJ0dkNPOVNZUUhSU3lvelhkNm5CRkpZSFNpWFJoNHpGRzAxeUR1ams2?oc=5",
-      "source": "Google News: industrial design",
-      "published": "2026-10-29T15:32:39+00:00",
-      "summary": "SME-Design Collaboration Unlocks New Markets 조선일보",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "SME Design Project Values Experience Over Results - 조선일보",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOGFyS3p4dUtKYjlIam5HaTMtcUNuWVduVDF1RFppZEYzakRnd2FHV2FkcXdkZG93dzE0eG8yZmRBVnZtNkFTTExKRU1wQjFRSC1nY0pQUTBVeWptRmktQkdyZE8xcWF1bjJtcG1jVk5NVTJoTDlRUEFsVG9CNlpFMGJLbGc1X1RB?oc=5",
-      "source": "Google News: industrial design",
-      "published": "2026-10-29T15:32:39+00:00",
-      "summary": "SME Design Project Values Experience Over Results 조선일보",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Dugurobotics, Noknok Design Friendly Patrol Robot Under Seoul Project - 조선일보",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY3dlSVZGWUtwVDR6TFNoUmpZbERaUzlUR3RjZEduSzJWcUVxd21NcTJfQUloYkROalhKaWQ3MGE1U096bDBoZHY2Ylk3VWctWDY5LTJHTDVWbHVWNXhaMkladXNQV1Q5X1hzTkZCdTBmSDgwQ2lHQUlXcktaUWNSOUoyc24tWDJj?oc=5",
-      "source": "Google News: industrial design",
-      "published": "2026-10-29T15:34:10+00:00",
-      "summary": "Dugurobotics, Noknok Design Friendly Patrol Robot Under Seoul Project 조선일보",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Masters in Design Courses: List of programes, Fees and Exams - Shiksha.com",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY2NoUGlJZ05ESWVfbDBDVk1YMHQtaUpoT2tJdEs4YWhkYUNOOTRPQjdjbzVNcE03NXM0U1dXa1FneEk3b1lnelVnRUZzUnVkVDdWQ2lBS2lBMC1famN2NUxtUzdLNTdNQmYwRG1vRnhXM0JDTUNLUW5oREw3S3VYRXhnYkwtZw?oc=5",
-      "source": "Google News: industrial design",
-      "published": "2026-10-29T12:00:21+00:00",
-      "summary": "Masters in Design Courses: List of programes, Fees and Exams Shiksha.com",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Oxford Street pedestrianisation: what happens next?",
-      "url": "https://www.dezeen.com/2026/10/30/oxford-street-pedestrianisation-albania-resort-protests/",
+      "title": "اپل مک‌باک پرو با تاچ‌اسکرین اولین قدم велиک را برداشت",
+      "url": "https://www.dezeen.com/2026/10/30/macbook-pro-touchscreen-apple/",
       "source": "Dezeen",
-      "published": "2026-10-30T10:00:00+00:00",
-      "summary": "Why have bum-sensing picnic benches been installed on Oxford Street? And how could architecture bring down the Albanian government? Listen now to the latest episode of Dezeen Weekly. The post Oxford Street pedestrianisation: what happens next? appeared first on Dezeen .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Rotterdam's Echo is a Tokyo-inspired listening bar inside the brutalist Groot Handelsgebouw",
-      "url": "https://www.dezeen.com/2026/10/30/echo-rotterdam-listening-bar/",
-      "source": "Dezeen",
-      "published": "2026-10-30T09:00:00+00:00",
-      "summary": "Echo is a listening bar in Rotterdam featuring a bar made from shipping crates and ombré mirrors by Sabine Marcelis. The post Rotterdam's Echo is a Tokyo-inspired listening bar inside the brutalist Groot Handelsgebouw appeared first on Dezeen .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Al-Jawad Pike refreshes Aesop store with terracotta-tiled counter evoking ancient Persia",
-      "url": "https://www.dezeen.com/2026/10/30/al-jawad-pike-aesop-store-harrods-terracotta-counter/",
-      "source": "Dezeen",
-      "published": "2026-10-30T06:00:00+00:00",
-      "summary": "Local studio Al-Jawad Pike has given skincare brand Aesop's shop in London department store Harrods an update, creating a terracotta-clad counter designed to have \"the qualities of a miniature building\". The post Al-Jawad Pike refreshes Aesop store with terracotta-tiled counter evoking ancient Persia appeared first on Dezeen .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Lighting design a \"strategic economic investment\" says Signify's Sameer Sodhi",
-      "url": "https://www.dezeen.com/2026/10/30/lighting-design-strategic-economic-signifys-sameer-sodhi/",
-      "source": "Dezeen",
-      "published": "2026-10-30T05:00:00+00:00",
-      "summary": "According to business leader of entertainment and colour kinetics at lighting brand Signify, Sameer Sodhi, lit-up architecture and public installations can encourage interaction, strengthen local identity and support overall wellbeing. Sodhi explained that for decades, the value of a building has been measured by appearance, energy performance, return on investment and construction costs. A building's […] The post Lighting design a \"strategic economic investment\" says Signify's Sameer Sodhi appeared first on Dezeen .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Foster + Partners unveils replacement for landmark San Siro stadium in Milan",
-      "url": "https://www.dezeen.com/2026/10/29/foster-partners-manica-generali-stadium/",
-      "source": "Dezeen",
-      "published": "2026-10-29T21:15:00+00:00",
-      "summary": "British architecture studio Foster + Partners and US studio Manica have unveiled their design for Generali Stadium, a new football stadium for clubs AC Milan and Inter Milan, set to replace Italy's iconic San Siro. The post Foster + Partners unveils replacement for landmark San Siro stadium in Milan appeared first on Dezeen .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Henry Holland creates wallpaper and fabric collection with a \"language developed through ceramics\"",
-      "url": "https://www.dezeen.com/2026/10/29/henry-holland-wallpaper-fabric-collection-ceramics/",
-      "source": "Dezeen",
-      "published": "2026-10-29T21:00:00+00:00",
-      "summary": "Designer Henry Holland's textual fabric and textile collection for luxury interior furnishings company Harlequin was informed by his work as a ceramicist, he tells Dezeen in this interview. Simply named Harlequin x Henry Holland, the collection of wallpapers and fabrics was heavily influenced by both the extensive archive of Harlequin's parent company Sanderson and Holland's […] The post Henry Holland creates wallpaper and fabric collection with a \"language developed through ceramics\" appeared first on Dezeen .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Herzog & de Meuron and Field Operations release visuals of Eames Institute of Infinite Curiosity",
-      "url": "https://www.dezeen.com/2026/10/29/herzog-de-meuron-field-operations-ehdd-eames-institute-infinite-curiosity/",
-      "source": "Dezeen",
-      "published": "2026-10-29T17:00:00+00:00",
-      "summary": "Master plan designs for the Eames Institute of Infinite Curiosity museum in California have been released, showing galleries connected via a bridge in an adapted 1960s warehouse and a landscape designed by Field Operations. The post Herzog & de Meuron and Field Operations release visuals of Eames Institute of Infinite Curiosity appeared first on Dezeen .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Get featured in Dezeen's digital guide to Miami art week 2026",
-      "url": "https://www.dezeen.com/2026/10/29/get-featured-in-dezeens-digital-guide-to-miami-art-week-2026/",
-      "source": "Dezeen",
-      "published": "2026-10-29T16:00:00+00:00",
-      "summary": "If you're hosting an event during Miami art week, you could be featured in Dezeen Events Guide's digital guide to the festival. The guide highlights the key events taking place in Miami from 30 November to 6 December 2026, including art and design fairs, exhibitions, talks, open showrooms, tours, launches, pop-up shops and parties. Events […] The post Get featured in Dezeen's digital guide to Miami art week 2026 appeared first on Dezeen .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Minimalist House in Japan by FORM/Kouichi Kimura is \"reduced to the essentials\"",
-      "url": "https://www.dezeen.com/2026/10/29/minimalist-house-form-kouichi-kimura/",
-      "source": "Dezeen",
-      "published": "2026-10-29T11:30:00+00:00",
-      "summary": "A monochrome palette and pared-back, open interiors define the aptly named Minimalist House, a home in Japan designed by local studio FORM/Kouichi Kimura Architects. The post Minimalist House in Japan by FORM/Kouichi Kimura is \"reduced to the essentials\" appeared first on Dezeen .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "\"If AI can do most of what we think an architect does, maybe we have defined the profession too narrowly\"",
-      "url": "https://www.dezeen.com/2026/10/29/ai-piers-taylor-opinion/",
-      "source": "Dezeen",
-      "published": "2026-10-29T11:00:00+00:00",
-      "summary": "With the profession as we know it under threat, it's time to rethink what architects get paid for, writes Piers Taylor. The post \"If AI can do most of what we think an architect does, maybe we have defined the profession too narrowly\" appeared first on Dezeen .",
-      "keywords": [],
-      "category": "هوش مصنوعی در طراحی",
-      "importance": "متوسط"
+      "published": "2026-10-30T10:50:00+00:00",
+      "summary": "اپل مدل جدید مک‌باک پرو را با اولین تاچ‌اسکرین لپ‌تاپ خود و نمایه جهانی ترین نمایشگر معرفی کرد. این تغییر یک گام مهم در'évolution لپ‌تاپ‌های اپل محسوب می‌شود.",
+      "keywords": [
+        "اپل",
+        "مک‌باک",
+        "تاچ‌اسکرین",
+        "لپ‌تاپ"
+      ],
+      "category": "لوازم الکترونیکی",
+      "importance": "بالا"
     }
   ]
 }
