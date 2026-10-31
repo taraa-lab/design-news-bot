@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "rss": [
+    {
+      "name": "Core77",
+      "url": "https://www.core77.com/rss.xml",
+      "enabled": true
+    },
+    {
+      "name": "Dezeen",
+      "url": "https://www.dezeen.com/feed/",
+      "enabled": true
+    },
+    {
+      "name": "Designboom",
+      "url": "https://www.designboom.com/feed/",
+      "enabled": true
+    },
+    {
+      "name": "Yanko Design",
+      "url": "https://www.yankodesign.com/feed/",
+      "enabled": true
+    },
+    {
+      "name": "Dexigner",
+      "url": "https://www.dexigner.com/rss/news.xml",
+      "enabled": false,
+      "note": "HTTP 404 (checked 2026-10-29)"
+    },
+    {
+      "name": "Design Milk",
+      "url": "https://design-milk.com/feed/",
+      "enabled": true
+    },
+    {
+      "name": "Fast Company Design",
+      "url": "https://www.fastcompany.com/section/design/rss",
+      "enabled": true
+    },
+    {
+      "name": "ArchDaily",
+      "url": "https://www.archdaily.com/feed",
+      "enabled": true
+    },
+    {
+      "name": "Creative Boom",
+      "url": "https://www.creativeboom.com/feed/",
+      "enabled": true
+    },
+    {
+      "name": "Dezeen Jobs",
+      "url": "https://www.dezeen.com/jobs/feed/",
+      "enabled": false,
+      "note": "HTTP 403"
+    },
+    {
+      "name": "Wallpaper",
+      "url": "https://www.wallpaper.com/rss",
+      "enabled": true,
+      "note": "added 2026-10-29"
+    },
+    {
+      "name": "The Dieline",
+      "url": "https://thedieline.com/feed",
+      "enabled": true,
+      "note": "packaging"
+    },
+    {
+      "name": "Gessato",
+      "url": "https://www.gessato.com/feed/",
+      "enabled": true,
+      "note": "furniture / product"
+    },
+    {
+      "name": "Surface",
+      "url": "https://www.surfacemag.com/feed/",
+      "enabled": true,
+      "note": ""
+    },
+    {
+      "name": "Dezeen Competitions",
+      "url": "https://www.dezeen.com/competitions/feed/",
+      "enabled": true,
+      "note": "competitions"
+    }
+  ],
+  "scrape": [
+    {
+      "name": "IDSA",
+      "url": "https://www.idsa.org/news",
+      "article_selector": "article",
+      "title_selector": "h2,h3",
+      "link_selector": "a",
+      "date_selector": "time",
+      "enabled": false,
+      "note": "selector matched nothing (checked 2026-10-29)"
+    },
+    {
+      "name": "WDO",
+      "url": "https://wdo.org/news/",
+      "article_selector": ".entry-content article, .news-item, article",
+      "title_selector": "h2,h3",
+      "link_selector": "a",
+      "date_selector": "time,.date",
+      "enabled": false,
+      "note": "selector matched nothing (checked 2026-10-29)"
+    },
+    {
+      "name": "Red Dot",
+      "url": "https://www.red-dot.org/press",
+      "article_selector": "article,.press-item",
+      "title_selector": "h2,h3",
+      "link_selector": "a",
+      "date_selector": "time,.date",
+      "enabled": true
+    },
+    {
+      "name": "iF Design",
+      "url": "https://ifdesign.com/en/news",
+      "article_selector": "article,.news-card",
+      "title_selector": "h2,h3",
+      "link_selector": "a",
+      "date_selector": "time,.date",
+      "enabled": false,
+      "note": "HTTP 403 (checked 2026-10-29)"
+    }
+  ],
+  "google_news": [
+    "industrial design",
+    "product design award",
+    "design competition",
+    "design award winners",
+    "automotive design",
+    "furniture design",
+    "jewelry design",
+    "accessory design",
+    "service design"
+  ]
+}
