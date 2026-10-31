@@ -27,6 +27,7 @@ from report     import build_markdown, save_report
 from sender     import send_to_all_users
 from sheets     import SheetsDB
 from cache      import save_cache
+from manual     import load_manual_articles
 
 
 def main():
@@ -42,22 +43,32 @@ def main():
     articles_raw = deduplicate(articles_raw)
     logger.info("%d unique articles", len(articles_raw))
 
+    users = SheetsDB().get_all_users()
+    langs = {(u.get("lang") or "fa") for u in users} | {"fa"}
+    logger.info("Registered users: %d | languages needed: %s", len(users), sorted(langs))
+
     logger.info("Step 3/6 — Enriching (fa)...")
     articles_fa = enrich_articles(copy.deepcopy(articles_raw), lang="fa")
-
-    logger.info("Step 4/6 — Enriching (en)...")
-    articles_en = enrich_articles(copy.deepcopy(articles_raw), lang="en")
+    articles_en = []
+    if "en" in langs:
+        logger.info("Step 4/6 — Enriching (en)...")
+        articles_en = enrich_articles(copy.deepcopy(articles_raw), lang="en")
+    else:
+        logger.info("Step 4/6 — No English users: skipping English enrichment (saves AI quota).")
 
     logger.info("Step 5/6 — Saving cache for instant on-demand responses...")
     save_cache("fa", articles_fa)
-    save_cache("en", articles_en)
+    if articles_en:
+        save_cache("en", articles_en)
+
+    # Admin-curated news is merged AFTER caching so the cache stays "automatic news only".
+    articles_fa = articles_fa + load_manual_articles("fa")
+    articles_en = articles_en + load_manual_articles("en")
 
     if os.environ.get("SKIP_SEND", "").lower() == "true":
         logger.info("Step 6/6 — SKIP_SEND=true: cache refreshed, not sending to users.")
     else:
         logger.info("Step 6/6 — Sending personalized digests...")
-        users = SheetsDB().get_all_users()
-        logger.info("Found %d registered users", len(users))
         send_to_all_users(articles_fa, articles_en)
 
     markdown = build_markdown(articles_fa)
