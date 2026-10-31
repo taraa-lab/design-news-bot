@@ -129,8 +129,121 @@ TEXTS.en.saved2 = "From tomorrow you'll get relevant news every morning at 8AM T
 TEXTS.fa.help = "📚 راهنما\n/competitions — مسابقات و جوایز طراحی\n/news — اخبار همین الان\n/start — تغییر زبان یا علاقه‌مندی\n/help — این پیام\n\nهر روز ۸ صبح تهران اخبار می‌رسد.";
 TEXTS.en.help = "📚 Help\n/competitions — Design competitions & awards\n/news — Get news now\n/start — Change language/interests\n/help — This message\n\nNews sent daily at 8AM Tehran time.";
 
+// ─────────────────────────────────────────────
+// 📨 Audience submissions → admin review (@widd_iran_admin)
+// ─────────────────────────────────────────────
+const SUBMIT_MARK = "📨";
+const SUBMIT_TEXTS = {
+  fa: {
+    btn: "📨 ارسال خبر",
+    prompt: "📨 ارسال خبر\n\nخبر، لینک یا عکسِ خبرت را همین‌جا به‌صورت «پاسخ (Reply)» به همین پیام بفرست.\nبعد از بررسی تیم WIDD، در صورت تأیید منتشر می‌شود.",
+    placeholder: "متن یا لینک خبر…",
+    thanks: "✅ ممنون! خبرت برای بررسی به تیم WIDD رسید.",
+    unavailable: "فعلاً امکان دریافت خبر فعال نیست. کمی بعد دوباره امتحان کن.",
+    empty: "پیام خالی بود. متن، لینک یا عکس خبر را بفرست.",
+    adminOk: "✅ شما به‌عنوان ادمین دریافت خبرِ مخاطبین ثبت شدید. از این پس خبرهای ارسالی مخاطبین در همین گفتگو می‌آید.",
+  },
+  en: {
+    btn: "📨 Submit news",
+    prompt: "📨 Submit news\n\nSend your news item, link or photo here as a Reply to this message.\nThe WIDD team will review it and publish it if approved.",
+    placeholder: "News text or link…",
+    thanks: "✅ Thank you! Your submission was sent to the WIDD team for review.",
+    unavailable: "News submissions are not available right now. Please try again later.",
+    empty: "The message was empty. Send the news text, a link or a photo.",
+    adminOk: "✅ You are registered as the admin who receives audience submissions.",
+  },
+};
+
+TEXTS.fa.help = "📚 راهنما\n/competitions — مسابقات و جوایز طراحی\n/submit — ارسال خبر به تیم WIDD\n/news — اخبار همین الان\n/start — تغییر زبان یا علاقه‌مندی\n/help — این پیام\n\nهر روز ۸ صبح تهران اخبار می‌رسد.";
+TEXTS.en.help = "📚 Help\n/competitions — Design competitions & awards\n/submit — Send news to the WIDD team\n/news — Get news now\n/start — Change language/interests\n/help — This message\n\nNews sent daily at 8AM Tehran time.";
+
+function isAdminUser(env, from) {
+  const admin = String(env.ADMIN_USERNAME || "widd_iran_admin").toLowerCase();
+  return !!(from && from.username && from.username.toLowerCase() === admin);
+}
+
+function isSubmitReply(msg) {
+  const r = msg.reply_to_message;
+  return !!(r && r.from && r.from.is_bot && typeof r.text === "string" && r.text.startsWith(SUBMIT_MARK));
+}
+
+function userLang(msg) {
+  return String(msg.from?.language_code || "").toLowerCase().startsWith("en") ? "en" : "fa";
+}
+
+async function sendSubmitPrompt(env, chatId, lang) {
+  const T = SUBMIT_TEXTS[lang];
+  await tg(env, "sendMessage", {
+    chat_id: chatId,
+    text: T.prompt,
+    reply_markup: { force_reply: true, input_field_placeholder: T.placeholder },
+  });
+}
+
+async function getAdminIds(env, token) {
+  const ids = new Set(String(env.ADMIN_CHAT_IDS || "").split(",").map((s) => s.trim()).filter(Boolean));
+  try {
+    const r = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${env.GOOGLE_SHEET_ID}/values/admins!A:C`,
+      { headers: { Authorization: `Bearer ${token}` } });
+    if (r.ok) {
+      const d = await r.json();
+      for (const row of (d.values || []).slice(1)) if (row[0]) ids.add(String(row[0]));
+    }
+  } catch (e) { console.error("admins read error:", e); }
+  return [...ids];
+}
+
+async function registerAdmin(env, token, msg) {
+  const id = String(msg.chat.id);
+  if ((await getAdminIds(env, token)).includes(id)) return false;
+  const base = `https://sheets.googleapis.com/v4/spreadsheets/${env.GOOGLE_SHEET_ID}`;
+  const auth = { Authorization: `Bearer ${token}`, "Content-Type": "application/json" };
+  const meta = await (await fetch(`${base}?fields=sheets.properties.title`, { headers: auth })).json();
+  const titles = (meta.sheets || []).map((s) => s.properties.title);
+  if (!titles.includes("admins")) {
+    await fetch(`${base}:batchUpdate`, { method: "POST", headers: auth,
+      body: JSON.stringify({ requests: [{ addSheet: { properties: { title: "admins" } } }] }) });
+    await fetch(`${base}/values/admins!A1?valueInputOption=RAW`, { method: "PUT", headers: auth,
+      body: JSON.stringify({ values: [["chat_id", "username", "registered_at"]] }) });
+  }
+  await fetch(`${base}/values/admins!A:C:append?valueInputOption=RAW&insertDataOption=INSERT_ROWS`, { method: "POST", headers: auth,
+    body: JSON.stringify({ values: [[id, msg.from.username || "", new Date().toISOString()]] }) });
+  return true;
+}
+
+async function handleSubmission(env, msg, inlineText) {
+  const lang = userLang(msg);
+  const T = SUBMIT_TEXTS[lang];
+  const chatId = msg.chat.id;
+  const hasMedia = !!(msg.photo || msg.document || msg.video || msg.animation);
+  if (!inlineText && !(msg.text || msg.caption) && !hasMedia) { await sendHtml(env, chatId, T.empty); return; }
+
+  const token = await getGoogleAccessToken(env);
+  const admins = await getAdminIds(env, token);
+  if (!admins.length) {
+    console.error("submission received but no admin is registered");
+    await sendHtml(env, chatId, T.unavailable);
+    return;
+  }
+
+  const u = msg.from || {};
+  const name = [u.first_name, u.last_name].filter(Boolean).join(" ") || "—";
+  const info = `📨 <b>خبر جدید از مخاطب</b>\nنام: ${escHtml(name)}\nیوزرنیم: ${u.username ? "@" + escHtml(u.username) : "—"}\nشناسه: <code>${escHtml(u.id)}</code>`;
+  let delivered = 0;
+  for (const aid of admins) {
+    const r1 = await tg(env, "sendMessage", { chat_id: aid, text: info, parse_mode: "HTML" });
+    if (r1.ok) delivered++;
+    if (inlineText) await tg(env, "sendMessage", { chat_id: aid, text: inlineText.slice(0, 3500), disable_web_page_preview: true });
+    else await tg(env, "copyMessage", { chat_id: aid, from_chat_id: chatId, message_id: msg.message_id });
+  }
+  await sendHtml(env, chatId, delivered > 0 ? T.thanks : T.unavailable);
+}
+
 function competitionsKeyboard(lang) {
-  return { inline_keyboard: [[{ text: COMP_TEXTS[lang].btn, callback_data: `comp_${lang}` }]] };
+  return { inline_keyboard: [
+    [{ text: COMP_TEXTS[lang].btn, callback_data: `comp_${lang}` }],
+    [{ text: SUBMIT_TEXTS[lang].btn, callback_data: `submit_${lang}` }],
+  ] };
 }
 
 function escHtml(s) {
@@ -396,9 +509,30 @@ async function triggerPersonalNews(env, chatId, lang, interests) {
 // Update handlers
 // ─────────────────────────────────────────────
 async function handleMessage(env, msg) {
+  if (msg.chat.type && msg.chat.type !== "private") return;
   const chatId = msg.chat.id;
-  const text = (msg.text || "").trim();
-  const cmd = text.split(" ")[0].toLowerCase();
+  const text = (msg.text || msg.caption || "").trim();
+  const cmd = text.startsWith("/") ? text.split(/\s/)[0].toLowerCase() : "";
+
+  // Audience submissions: a Reply to the "📨" prompt (text/photo/…), or "/submit <text>"
+  if (isSubmitReply(msg)) { await handleSubmission(env, msg, null); return; }
+  if (cmd === "/submit") {
+    const inline = text.slice(cmd.length).trim();
+    if (inline) await handleSubmission(env, msg, inline);
+    else await sendSubmitPrompt(env, chatId, userLang(msg));
+    return;
+  }
+
+  // Admin auto-registration: the @ADMIN_USERNAME account presses /start (or /admin) once.
+  if ((cmd === "/start" || cmd === "/admin") && isAdminUser(env, msg.from)) {
+    try {
+      const token = await getGoogleAccessToken(env);
+      if (await registerAdmin(env, token, msg)) await sendHtml(env, chatId, SUBMIT_TEXTS[userLang(msg)].adminOk);
+    } catch (e) { console.error("admin registration error:", e); }
+    if (cmd === "/admin") return;
+  }
+
+  if (!cmd) return;   // ordinary chatter: nothing to do (and no Sheets calls)
 
   if (cmd === "/start" || cmd === "/lang") {
     await sendMessage(env, chatId, TEXTS.fa.welcome, langKeyboard());
@@ -441,6 +575,11 @@ async function handleCallback(env, cq) {
   // Competitions tab: language is encoded in the button, so no Sheets lookup is needed.
   if (data.startsWith("comp")) {
     await sendCompetitions(env, chatId, data.split("_")[1] === "en" ? "en" : "fa");
+    return;
+  }
+
+  if (data.startsWith("submit_")) {
+    await sendSubmitPrompt(env, chatId, data.split("_")[1] === "en" ? "en" : "fa");
     return;
   }
 
@@ -511,7 +650,7 @@ export default {
     }
 
     try {
-      if (update.message && update.message.text) {
+      if (update.message) {
         await handleMessage(env, update.message);
       } else if (update.callback_query) {
         await handleCallback(env, update.callback_query);
