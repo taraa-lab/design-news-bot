@@ -1,17 +1,25 @@
 {
-    "wallTime": 1341,
+    "wallTime": 1509,
     "cpuTime": 4,
     "truncated": false,
     "executionModel": "stateless",
     "outcome": "ok",
     "scriptVersion": {
-        "id": "cf47119e-6946-4802-a911-d1790b422840"
+        "id": "d1dcf252-9494-4790-9674-10029749f15f"
     },
     "scriptName": "design-news-bot",
     "diagnosticsChannelEvents": [],
     "exceptions": [],
-    "logs": [],
-    "eventTimestamp": 1792870304179,
+    "logs": [
+        {
+            "message": [
+                "submission received but no admin is registered"
+            ],
+            "level": "error",
+            "timestamp": 1793533769966
+        }
+    ],
+    "eventTimestamp": 1793533769316,
     "event": {
         "request": {
             "url": "https://design-news-bot.newsbot.workers.dev/",
@@ -19,17 +27,17 @@
             "headers": {
                 "accept": "*/*",
                 "accept-encoding": "gzip, br",
-                "cf-connecting-ip": "172.184.219.213",
+                "cf-connecting-ip": "20.189.186.1",
                 "cf-ipcountry": "US",
-                "cf-ray": "a4fb6748fc2e8bdb",
+                "cf-ray": "a53aad2a1f007834",
                 "cf-visitor": "{\"scheme\":\"https\"}",
                 "connection": "Keep-Alive",
-                "content-length": "188",
+                "content-length": "463",
                 "content-type": "application/json",
                 "host": "design-news-bot.newsbot.workers.dev",
-                "user-agent": "curl/8.5.0",
+                "user-agent": "curl/8.18.0",
                 "x-forwarded-proto": "https",
-                "x-real-ip": "172.184.219.213",
+                "x-real-ip": "20.189.186.1",
                 "x-telegram-bot-api-secret-token": "REDACTED"
             },
             "cf": {
@@ -47,11 +55,11 @@
                     "x-telegram-bot-api-secret-token",
                     "content-length"
                 ],
-                "clientTcpRtt": 2,
+                "clientTcpRtt": 1,
                 "clientQuicRtt": 0,
                 "colo": "SJC",
                 "asn": 8075,
-                "asOrganization": "Microsoft Limited",
+                "asOrganization": "Microsoft Corporation",
                 "country": "US",
                 "isEUCountry": false,
                 "city": "San Jose",
@@ -65,17 +73,17 @@
                 "metroCode": "807",
                 "tlsVersion": "TLSv1.3",
                 "tlsCipher": "AEAD-AES256-GCM-SHA384",
-                "tlsClientRandom": "G+azV+gJIiWznHPcKp63GBWiijwo34PkOSqJN7w824o=",
-                "tlsClientCiphersSha1": "GXSPDLP4G3X+prK73a4wBuOaHRc=",
-                "tlsClientExtensionsSha1": "tlH5gnoC5Z1HF45J5OgHEi338V0=",
-                "tlsClientExtensionsSha1Le": "mRCkyUCRFDTLCNHGQsZNFhkU1/4=",
+                "tlsClientRandom": "hrjtg3rY3qB7Qd13rU+Trrmu4EVjyqqx3mn9Z5mAmSM=",
+                "tlsClientCiphersSha1": "hCCNuWP9ky6AR69i97wdKYbhFQo=",
+                "tlsClientExtensionsSha1": "4oF0LRxQXUDhrRY0MazQAVJh7Go=",
+                "tlsClientExtensionsSha1Le": "Ea9swA+X7+AQtmDnJ28MlyPK/Fg=",
                 "tlsExportedAuthenticator": {
-                    "clientHandshake": "0e780ddd56ee209dc1e1c0ce3e3394ece0798e6477709a34fa8817c7889585f733c8134b2f753078e58d22335827d17a",
-                    "serverHandshake": "565d51c9f6313897b3658a6c110ed9cc8a14136a731818082183c48c50b066a8a1807bb6761394a0611061e049ab864e",
-                    "clientFinished": "b4e5d36715f2d034a36147b467756ccc25cae1c6db2f2098e21e9582b2a8bdf5b85c0c416a6736dd6a41d44a9bb30189",
-                    "serverFinished": "ca92459d8e0519f0033d5cacc45ca414c06204b4cf5b0f3cab6437e86b3ca78561178d78663ef7e1c02899cbe4fbb31a"
+                    "clientHandshake": "69093029f074e5db4cc22b17908b1785011dde99d236679a22142d48bfcbf9e99cb7bf0a39f30ddf5cbb9d1a0d5679bf",
+                    "serverHandshake": "2a201638356e9a61a8e015cce3c23f63714022e6dc3504feb78c84536fb8548b0f00912881f93e32f860cefc56edd796",
+                    "clientFinished": "2f57d247d7892c61e1ca3ef12b49a14756462a6e61396ca0ff1f4f17511d137abb047f64c0a8a4f958284854dc94463a",
+                    "serverFinished": "80980d47f79f4507714646ed68521185a054f891d43b60bbcd33c9020654e39bc4a41dc8827566a1204048fe15fc13a5"
                 },
-                "tlsClientHelloLength": "508",
+                "tlsClientHelloLength": "1586",
                 "tlsClientAuth": {
                     "certPresented": "0",
                     "certVerified": "NONE",
@@ -101,7 +109,7 @@
                 },
                 "verifiedBotCategory": "",
                 "edgeL4": {
-                    "deliveryRate": 1543783
+                    "deliveryRate": 3277735
                 }
             }
         },
