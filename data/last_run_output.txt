@@ -1,115 +1,88 @@
-2026-11-02 12:47:45,202 [INFO] main: === Design News Bot starting ===
-2026-11-02 12:47:45,203 [INFO] main: Step 1/6 — Collecting...
-2026-11-02 12:47:45,268 [INFO] collector: RSS Fast Company Design -> 0 recent articles
-2026-11-02 12:47:45,297 [INFO] collector: RSS Gessato -> 0 recent articles
-2026-11-02 12:47:45,331 [INFO] collector: RSS The Dieline -> 4 recent articles
-2026-11-02 12:47:45,363 [INFO] collector: RSS ArchDaily -> 15 recent articles
-2026-11-02 12:47:45,625 [INFO] collector: RSS Yanko Design -> 12 recent articles
-2026-11-02 12:47:45,736 [INFO] collector: RSS Core77 -> 0 recent articles
-2026-11-02 12:47:45,832 [INFO] collector: RSS Design Milk -> 0 recent articles
-2026-11-02 12:47:45,904 [INFO] collector: RSS Google News: industrial design -> 7 recent articles
-2026-11-02 12:47:45,944 [INFO] collector: RSS Google News: product design award -> 0 recent articles
-2026-11-02 12:47:46,050 [INFO] collector: RSS Dezeen -> 7 recent articles
-2026-11-02 12:47:46,124 [INFO] collector: RSS Surface -> 3 recent articles
-2026-11-02 12:47:46,142 [INFO] collector: RSS Creative Boom -> 5 recent articles
-2026-11-02 12:47:46,177 [INFO] collector: RSS Designboom -> 6 recent articles
-2026-11-02 12:47:46,337 [INFO] collector: RSS Google News: design competition -> 2 recent articles
-2026-11-02 12:47:46,486 [INFO] collector: RSS Dezeen Competitions -> 0 recent articles
-2026-11-02 12:47:46,609 [INFO] collector: Scraped Red Dot -> 2 recent articles
-2026-11-02 12:47:46,649 [INFO] collector: RSS Wallpaper -> 6 recent articles
-2026-11-02 12:47:46,715 [INFO] collector: RSS Google News: automotive design -> 1 recent articles
-2026-11-02 12:47:46,739 [INFO] collector: RSS Google News: design award winners -> 0 recent articles
-2026-11-02 12:47:46,761 [INFO] collector: RSS Google News: jewelry design -> 9 recent articles
-2026-11-02 12:47:46,803 [INFO] collector: RSS Google News: furniture design -> 6 recent articles
-2026-11-02 12:47:46,842 [INFO] collector: RSS Google News: accessory design -> 0 recent articles
-2026-11-02 12:47:47,022 [INFO] collector: RSS Google News: service design -> 1 recent articles
-2026-11-02 12:47:47,024 [INFO] collector: Total collected (before dedup): 86
-2026-11-02 12:47:47,024 [INFO] main: Step 2/6 — Deduplicating...
-2026-11-02 12:47:47,028 [INFO] dedup: Dedup: removed 1 duplicates, kept 85
-2026-11-02 12:47:47,028 [INFO] main: 85 unique articles
-2026-11-02 12:47:47,405 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
-2026-11-02 12:47:48,105 [INFO] main: Registered users: 6 | languages needed: ['fa']
-2026-11-02 12:47:48,105 [INFO] main: Step 3/6 — Enriching (fa)...
-2026-11-02 12:47:48,157 [INFO] summarizer: OpenRouter candidate models: ['google/gemma-4-31b-it:free', 'google/gemma-4-26b-a4b-it:free', 'openrouter/free']
-2026-11-02 12:47:48,384 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 8s
-2026-11-02 12:47:56,587 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 16s
-2026-11-02 12:48:12,753 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 8s
-2026-11-02 12:48:20,925 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 16s
-2026-11-02 12:49:24,220 [WARNING] summarizer: Model openrouter/free failed: no parsable JSON
-2026-11-02 12:49:24,221 [ERROR] summarizer: All OpenRouter models failed for this batch
-2026-11-02 12:49:27,385 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 8s
-2026-11-02 12:49:35,557 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 16s
-2026-11-02 12:49:51,738 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 8s
-2026-11-02 12:49:59,920 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 16s
-2026-11-02 12:51:05,185 [WARNING] summarizer: Model openrouter/free failed: no parsable JSON
-2026-11-02 12:51:05,186 [ERROR] summarizer: All OpenRouter models failed for this batch
-2026-11-02 12:51:05,186 [INFO] summarizer: Batch 1/11: 0/8 enriched with valid output
-2026-11-02 12:51:08,382 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 8s
-2026-11-02 12:51:16,536 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 16s
-2026-11-02 12:51:32,710 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 8s
-2026-11-02 12:51:40,924 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 16s
-2026-11-02 12:52:52,473 [WARNING] summarizer: Model openrouter/free failed: no parsable JSON
-2026-11-02 12:52:52,474 [ERROR] summarizer: All OpenRouter models failed for this batch
-2026-11-02 12:52:55,641 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 8s
-2026-11-02 12:53:03,799 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 16s
-2026-11-02 12:53:19,993 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 8s
-2026-11-02 12:53:28,160 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 16s
-2026-11-02 12:54:37,152 [WARNING] summarizer: Model openrouter/free failed: no parsable JSON
-2026-11-02 12:54:37,153 [ERROR] summarizer: All OpenRouter models failed for this batch
-2026-11-02 12:54:37,153 [INFO] summarizer: Batch 2/11: 0/8 enriched with valid output
-2026-11-02 12:54:40,343 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 8s
-2026-11-02 12:54:48,509 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 16s
-2026-11-02 12:55:04,674 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 8s
-2026-11-02 12:55:12,858 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 16s
-2026-11-02 12:56:05,880 [INFO] summarizer: OpenRouter OK via openrouter/free (8 items)
-2026-11-02 12:56:09,099 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 8s
-2026-11-02 12:56:17,268 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 16s
-2026-11-02 12:56:33,454 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 8s
-2026-11-02 12:56:42,013 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 16s
-2026-11-02 12:57:06,476 [INFO] summarizer: OpenRouter OK via openrouter/free (2 items)
-2026-11-02 12:57:06,476 [INFO] summarizer: Batch 3/11: 7/8 enriched with valid output
-2026-11-02 12:57:39,180 [WARNING] summarizer: Model openrouter/free failed: no parsable JSON
-2026-11-02 12:57:39,384 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 8s
-2026-11-02 12:57:47,591 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 16s
-2026-11-02 12:58:03,764 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 8s
-2026-11-02 12:58:11,924 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 16s
-2026-11-02 12:58:27,925 [ERROR] summarizer: All OpenRouter models failed for this batch
-2026-11-02 12:58:31,100 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 8s
-2026-11-02 12:58:39,295 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 16s
-2026-11-02 12:58:55,448 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 8s
-2026-11-02 12:59:22,777 [INFO] summarizer: OpenRouter OK via google/gemma-4-26b-a4b-it:free (8 items)
-2026-11-02 12:59:22,777 [INFO] summarizer: Batch 4/11: 7/8 enriched with valid output
-2026-11-02 12:59:25,962 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 8s
-2026-11-02 12:59:34,179 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 16s
-2026-11-02 12:59:50,357 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 8s
-2026-11-02 12:59:58,534 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 16s
-2026-11-02 13:02:16,144 [INFO] summarizer: OpenRouter OK via openrouter/free (8 items)
-2026-11-02 13:02:16,145 [INFO] summarizer: Batch 5/11: 8/8 enriched with valid output
-2026-11-02 13:03:10,315 [WARNING] summarizer: Model openrouter/free failed: no parsable JSON
-2026-11-02 13:03:10,513 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 8s
-2026-11-02 13:03:18,715 [WARNING] summarizer: Model google/gemma-4-31b-it:free rate-limited, waiting 16s
-2026-11-02 13:03:34,887 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 8s
-2026-11-02 13:03:43,114 [WARNING] summarizer: Model google/gemma-4-26b-a4b-it:free rate-limited, waiting 16s
-2026-11-02 13:03:59,115 [ERROR] summarizer: All OpenRouter models failed for this batch
-2026-11-02 13:03:59,115 [INFO] summarizer: Batch 6/11: 0/8 enriched with valid output
-2026-11-02 13:04:02,116 [INFO] summarizer: Batch 7/11: 0/8 enriched with valid output
-2026-11-02 13:04:05,116 [INFO] summarizer: Batch 8/11: 0/8 enriched with valid output
-2026-11-02 13:04:08,116 [INFO] summarizer: Batch 9/11: 0/8 enriched with valid output
-2026-11-02 13:04:11,117 [INFO] summarizer: Batch 10/11: 0/8 enriched with valid output
-2026-11-02 13:04:14,117 [INFO] summarizer: Batch 11/11: 0/5 enriched with valid output
-2026-11-02 13:04:14,117 [INFO] summarizer: Enriched 85 articles via OpenRouter. Non-Other: 24/85. Importance: {'پایین': 59, 'متوسط': 24, 'بالا': 2}
-2026-11-02 13:04:14,117 [INFO] main: Step 4/6 — No English users: skipping English enrichment (saves AI quota).
-2026-11-02 13:04:14,117 [INFO] main: Step 5/6 — Saving cache for instant on-demand responses...
-2026-11-02 13:04:14,120 [INFO] cache: Cache saved: fa (85 articles)
-2026-11-02 13:04:14,120 [INFO] main: Step 6/6 — Sending personalized digests...
-2026-11-02 13:04:14,151 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
-2026-11-02 13:04:14,878 [INFO] sender: Sending to 6 users
-2026-11-02 13:04:15,220 [INFO] sender: Sent digest (fa, interests=['product'], 1 messages)
-2026-11-02 13:04:16,034 [INFO] sender: Sent digest (fa, interests=['service', 'jewelry', 'accessory'], 1 messages)
-2026-11-02 13:04:17,020 [INFO] sender: Sent digest (fa, interests=['product'], 1 messages)
-2026-11-02 13:04:18,860 [INFO] sender: Sent digest (fa, interests=['product', 'automotive'], 2 messages)
-2026-11-02 13:04:21,510 [INFO] sender: Sent digest (fa, interests=['automotive', 'product', 'furniture', 'jewelry', 'accessory', 'service'], 3 messages)
-2026-11-02 13:04:22,295 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
-2026-11-02 13:04:22,557 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
-2026-11-02 13:04:22,558 [INFO] sender: Sent digest (fa, interests=['service'], 1 messages)
-2026-11-02 13:04:23,059 [INFO] main: === Done. ===
+2026-11-03 12:14:27,134 [INFO] main: === Design News Bot starting ===
+2026-11-03 12:14:27,134 [INFO] main: Step 1/6 — Collecting...
+2026-11-03 12:14:27,244 [INFO] collector: RSS Fast Company Design -> 0 recent articles
+2026-11-03 12:14:27,276 [INFO] collector: RSS Gessato -> 2 recent articles
+2026-11-03 12:14:27,315 [INFO] collector: RSS The Dieline -> 5 recent articles
+2026-11-03 12:14:27,504 [INFO] collector: RSS ArchDaily -> 7 recent articles
+2026-11-03 12:14:27,683 [INFO] collector: RSS Wallpaper -> 9 recent articles
+2026-11-03 12:14:27,820 [INFO] collector: RSS Yanko Design -> 16 recent articles
+2026-11-03 12:14:27,892 [INFO] collector: RSS Google News: industrial design -> 7 recent articles
+2026-11-03 12:14:27,933 [INFO] collector: RSS Dezeen Competitions -> 0 recent articles
+2026-11-03 12:14:27,947 [INFO] collector: RSS Designboom -> 10 recent articles
+2026-11-03 12:14:27,970 [INFO] collector: RSS Core77 -> 3 recent articles
+2026-11-03 12:14:28,068 [INFO] collector: RSS Google News: product design award -> 2 recent articles
+2026-11-03 12:14:28,072 [INFO] collector: RSS Design Milk -> 5 recent articles
+2026-11-03 12:14:28,176 [INFO] collector: RSS Creative Boom -> 3 recent articles
+2026-11-03 12:14:28,187 [INFO] collector: Scraped Red Dot -> 2 recent articles
+2026-11-03 12:14:28,229 [INFO] collector: RSS Google News: design competition -> 2 recent articles
+2026-11-03 12:14:28,478 [INFO] collector: RSS Google News: furniture design -> 11 recent articles
+2026-11-03 12:14:28,518 [INFO] collector: RSS Google News: accessory design -> 2 recent articles
+2026-11-03 12:14:28,722 [INFO] collector: RSS Google News: design award winners -> 9 recent articles
+2026-11-03 12:14:28,742 [INFO] collector: RSS Google News: jewelry design -> 5 recent articles
+2026-11-03 12:14:28,749 [INFO] collector: RSS Surface -> 5 recent articles
+2026-11-03 12:14:28,834 [INFO] collector: RSS Google News: service design -> 2 recent articles
+2026-11-03 12:14:28,862 [INFO] collector: RSS Dezeen -> 6 recent articles
+2026-11-03 12:14:28,871 [INFO] collector: RSS Google News: automotive design -> 0 recent articles
+2026-11-03 12:14:28,872 [INFO] collector: Total collected (before dedup): 113
+2026-11-03 12:14:28,872 [INFO] main: Step 2/6 — Deduplicating...
+2026-11-03 12:14:28,879 [INFO] dedup: Dedup: removed 4 duplicates, kept 109
+2026-11-03 12:14:28,879 [INFO] main: 109 unique articles
+2026-11-03 12:14:29,099 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-11-03 12:14:29,760 [INFO] main: Registered users: 6 | languages needed: ['fa']
+2026-11-03 12:14:29,761 [INFO] main: Step 3/6 — Enriching (fa)...
+2026-11-03 12:14:36,019 [WARNING] summarizer: Model gemini-flash-latest failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
+2026-11-03 12:14:36,189 [WARNING] summarizer: Model gemini-2.5-flash unavailable, skipping (404: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/ge)
+2026-11-03 12:16:11,295 [WARNING] summarizer: Model gemini-flash-latest failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)
+2026-11-03 12:16:11,295 [INFO] summarizer: Batch 1/11: 0/10 enriched with valid output
+2026-11-03 12:17:46,365 [WARNING] summarizer: Model gemini-flash-latest failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)
+2026-11-03 12:17:51,819 [WARNING] summarizer: Model gemini-flash-latest failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
+2026-11-03 12:17:51,820 [INFO] summarizer: Batch 2/11: 0/10 enriched with valid output
+2026-11-03 12:17:57,607 [WARNING] summarizer: Model gemini-flash-latest failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
+2026-11-03 12:18:12,349 [WARNING] summarizer: Model gemini-flash-latest failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
+2026-11-03 12:18:12,350 [INFO] summarizer: Batch 3/11: 0/10 enriched with valid output
+2026-11-03 12:18:23,144 [WARNING] summarizer: Model gemini-flash-latest failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
+2026-11-03 12:18:29,040 [WARNING] summarizer: Model gemini-flash-latest failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
+2026-11-03 12:18:29,041 [INFO] summarizer: Batch 4/11: 0/10 enriched with valid output
+2026-11-03 12:18:34,454 [WARNING] summarizer: Model gemini-flash-latest failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
+2026-11-03 12:18:40,117 [WARNING] summarizer: Model gemini-flash-latest failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
+2026-11-03 12:18:40,118 [INFO] summarizer: Batch 5/11: 0/10 enriched with valid output
+2026-11-03 12:18:45,569 [WARNING] summarizer: Model gemini-flash-latest failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
+2026-11-03 12:18:50,960 [WARNING] summarizer: Model gemini-flash-latest failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
+2026-11-03 12:18:50,961 [INFO] summarizer: Batch 6/11: 0/10 enriched with valid output
+2026-11-03 12:19:30,464 [WARNING] summarizer: Model gemini-flash-latest failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
+2026-11-03 12:19:35,867 [WARNING] summarizer: Model gemini-flash-latest failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
+2026-11-03 12:19:35,868 [INFO] summarizer: Batch 7/11: 0/10 enriched with valid output
+2026-11-03 12:19:41,498 [WARNING] summarizer: Model gemini-flash-latest failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
+2026-11-03 12:19:46,870 [WARNING] summarizer: Model gemini-flash-latest failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
+2026-11-03 12:19:46,871 [INFO] summarizer: Batch 8/11: 0/10 enriched with valid output
+2026-11-03 12:19:52,478 [WARNING] summarizer: Model gemini-flash-latest failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
+2026-11-03 12:19:57,967 [WARNING] summarizer: Model gemini-flash-latest failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
+2026-11-03 12:19:57,968 [INFO] summarizer: Batch 9/11: 0/10 enriched with valid output
+2026-11-03 12:20:03,399 [WARNING] summarizer: Model gemini-flash-latest failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
+2026-11-03 12:20:09,969 [WARNING] summarizer: Model gemini-flash-latest failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
+2026-11-03 12:20:09,970 [INFO] summarizer: Batch 10/11: 0/10 enriched with valid output
+2026-11-03 12:20:17,983 [WARNING] summarizer: Model gemini-flash-latest failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
+2026-11-03 12:20:23,115 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 15s
+2026-11-03 12:20:38,741 [WARNING] summarizer: Model gemini-flash-latest failed: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
+2026-11-03 12:20:38,742 [INFO] summarizer: Batch 11/11: 0/9 enriched with valid output
+2026-11-03 12:20:38,742 [INFO] summarizer: Enriched 109 articles via Gemini. Non-Other: 21/109. Importance: {'پایین': 88, 'متوسط': 21}
+2026-11-03 12:20:38,742 [INFO] main: Step 4/6 — No English users: skipping English enrichment (saves AI quota).
+2026-11-03 12:20:38,742 [INFO] main: Step 5/6 — Saving cache for instant on-demand responses...
+2026-11-03 12:20:38,746 [INFO] cache: Cache saved: fa (109 articles)
+2026-11-03 12:20:38,747 [INFO] main: Step 6/6 — Sending personalized digests...
+2026-11-03 12:20:38,783 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-11-03 12:20:39,518 [INFO] sender: Sending to 6 users
+2026-11-03 12:20:40,807 [INFO] sender: Sent digest (fa, interests=['product'], 2 messages)
+2026-11-03 12:20:42,572 [INFO] sender: Sent digest (fa, interests=['service', 'jewelry', 'accessory'], 2 messages)
+2026-11-03 12:20:44,354 [INFO] sender: Sent digest (fa, interests=['product'], 2 messages)
+2026-11-03 12:20:46,175 [INFO] sender: Sent digest (fa, interests=['product', 'automotive'], 2 messages)
+2026-11-03 12:20:48,942 [INFO] sender: Sent digest (fa, interests=['automotive', 'product', 'furniture', 'jewelry', 'accessory', 'service'], 3 messages)
+2026-11-03 12:20:49,762 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
+2026-11-03 12:20:50,056 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
+2026-11-03 12:20:50,959 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
+2026-11-03 12:20:52,453 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
+2026-11-03 12:20:52,454 [INFO] sender: Sent digest (fa, interests=['service'], 2 messages)
+2026-11-03 12:20:52,954 [INFO] main: === Done. ===
