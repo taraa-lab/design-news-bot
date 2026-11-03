@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>پنل مدیریت ربات اخبار دیزاین — WIDD</title>
+<style>
+:root{--bg:#f4f3ef;--card:#fff;--ink:#1c1b19;--mut:#6c6a64;--line:#e2dfd7;--acc:#1f6feb;--acc-ink:#fff;--ok:#1a7f37;--warn:#9a6700;--bad:#cf222e;--chip:#eceff3;--bubble:#e8f1fb}
+@media (prefers-color-scheme:dark){:root{--bg:#121212;--card:#1c1c1c;--ink:#ececec;--mut:#9a9a9a;--line:#2e2e2e;--acc:#4c8dff;--acc-ink:#0b0b0b;--ok:#3fb950;--warn:#d29922;--bad:#f85149;--chip:#262626;--bubble:#1e2a38}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.7 Tahoma,"Segoe UI",system-ui,sans-serif}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 20px;background:var(--card);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+header h1{font-size:17px;margin:0}
+nav{display:flex;gap:6px;flex-wrap:wrap;padding:12px 20px 0}
+nav button{background:var(--card);border:1px solid var(--line);color:var(--ink);padding:8px 14px;border-radius:10px 10px 0 0;cursor:pointer;font:inherit}
+nav button.active{background:var(--acc);color:var(--acc-ink);border-color:var(--acc)}
+main{max-width:980px;margin:0 auto;padding:0 16px 60px}
+section{display:none;background:var(--card);border:1px solid var(--line);border-radius:0 12px 12px 12px;padding:20px;margin-top:-1px}
+section.active{display:block}
+h2{font-size:16px;margin:0 0 12px}
+.grid{display:grid;gap:14px}.g2{grid-template-columns:1fr 1fr}
+@media(max-width:760px){.g2{grid-template-columns:1fr}}
+label{display:block;font-size:13px;color:var(--mut);margin:10px 0 4px}
+input,select,textarea{width:100%;padding:9px 11px;border:1px solid var(--line);border-radius:9px;background:var(--bg);color:var(--ink);font:inherit}
+textarea{min-height:150px;resize:vertical}
+input[dir=ltr]{text-align:left}
+button.btn{background:var(--acc);color:var(--acc-ink);border:0;padding:9px 16px;border-radius:9px;cursor:pointer;font:inherit}
+button.btn.sec{background:var(--chip);color:var(--ink)}button.btn.danger{background:var(--bad);color:#fff}
+button.btn:disabled{opacity:.5;cursor:not-allowed}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:12px}
+.chip{display:inline-block;padding:1px 9px;border-radius:99px;background:var(--chip);font-size:12px}
+.chip.ok{color:var(--ok)}.chip.warn{color:var(--warn)}.chip.bad{color:var(--bad)}
+.mut{color:var(--mut);font-size:13px}
+.bubble{background:var(--bubble);border-radius:14px;padding:12px 14px;white-space:pre-wrap;word-break:break-word;min-height:60px}
+.bubble blockquote{margin:6px 0;padding:2px 10px;border-inline-start:3px solid var(--acc);background:rgba(127,127,127,.1);border-radius:4px}
+.bubble a{color:var(--acc)}
+.tools{display:flex;gap:6px;margin-bottom:6px}.tools button{padding:4px 10px}
+table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:7px 6px;border-bottom:1px solid var(--line);text-align:start;vertical-align:middle}
+td.url{direction:ltr;text-align:left;word-break:break-all;color:var(--mut);font-size:12px}
+.item{border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin-top:10px}
+.item-head{display:flex;justify-content:space-between;gap:8px}.item-actions{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.item-actions button{padding:4px 10px;font-size:12px}
+.warnbox{background:rgba(154,103,0,.12);border:1px solid var(--warn);border-radius:10px;padding:10px 12px;font-size:13px;margin:10px 0}
+#toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 18px;border-radius:10px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:20;max-width:90vw}
+#toast.show{opacity:.95}
+#modal{position:fixed;inset:0;background:rgba(0,0,0,.5);display:none;align-items:center;justify-content:center;z-index:30}
+#modal.show{display:flex}#modal .box{background:var(--card);padding:20px;border-radius:12px;max-width:420px;width:90%}
+</style>
+</head>
+<body>
+<header>
+  <h1>🎨 پنل مدیریت ربات اخبار دیزاین</h1>
+  <span id="conn-chip" class="chip bad">وصل نشده</span>
+</header>
+<nav id="tabs">
+  <button data-tab="connect" class="active">اتصال</button>
+  <button data-tab="broadcast">پیام همگانی</button>
+  <button data-tab="news">خبر دستی</button>
+  <button data-tab="sources">منابع خبری</button>
+  <button data-tab="audience">مخاطبین و اجراها</button>
+</nav>
+<main>
+
+<section id="tab-connect" class="active">
+  <h2>اتصال به GitHub</h2>
+  <div class="warnbox">توکن فقط در مرورگر همین دستگاه ذخیره می‌شود. بهتر است یک توکن <b>Fine-grained</b> فقط برای همین ریپو بسازی با دسترسی <b>Contents: Read and write</b> و <b>Actions: Read and write</b>، و بعد از اتمام کار آن را حذف کنی.</div>
+  <div class="grid g2">
+    <div><label for="in-token">توکن GitHub</label><input id="in-token" type="password" dir="ltr" placeholder="github_pat_… یا ghp_…" autocomplete="off"></div>
+    <div><label for="in-repo">ریپو</label><input id="in-repo" dir="ltr" value="taraa-lab/design-news-bot"></div>
+    <div><label for="in-testchat">شناسهٔ تلگرام خودت (برای ارسال آزمایشی)</label><input id="in-testchat" dir="ltr" placeholder="مثلاً 412692212" inputmode="numeric"></div>
+  </div>
+  <div class="row"><button class="btn" id="btn-connect">اتصال</button><button class="btn sec" id="btn-logout">خروج و پاک‌کردن توکن</button><span id="connect-status" class="mut"></span></div>
+</section>
+
+<section id="tab-broadcast">
+  <h2>پیام همگانی</h2>
+  <div class="grid g2">
+    <div>
+      <label for="bc-text">متن پیام</label>
+      <div class="tools"><button class="btn sec" data-wrap="**|**" title="درشت">B</button><button class="btn sec" data-wrap="__|__" title="کج">I</button><button class="btn sec" data-wrap="[متن لینک](https://|)" title="لینک">🔗</button><button class="btn sec" data-wrap="> |" title="نقل‌قول">❝</button></div>
+      <textarea id="bc-text" placeholder="مثلاً: سلام، روز بخیر ☀️"></textarea>
+      <div class="mut">قالب: <code>**درشت**</code> · <code>__کج__</code> · <code>[متن](https://لینک)</code> · خطی که با <code>&gt; </code> شروع شود = نقل‌قول. <span id="bc-count"></span></div>
+    </div>
+    <div><label>پیش‌نمایش (تقریبی)</label><div id="bc-preview" class="bubble"></div><div id="bc-warn" class="mut"></div></div>
+  </div>
+  <div class="grid g2"><div><label for="bc-lang">زبان مخاطبین</label><select id="bc-lang"><option value="all">همه</option><option value="fa">فقط فارسی</option><option value="en">فقط انگلیسی</option></select></div></div>
+  <div class="row"><button class="btn sec" id="bc-test">ارسال آزمایشی به خودم</button><button class="btn" id="bc-all">ارسال به همهٔ کاربران</button><span id="bc-status" class="mut"></span></div>
+  <h2 style="margin-top:22px">تاریخچهٔ ارسال‌ها</h2><div id="bc-log" class="mut">—</div>
+</section>
+
+<section id="tab-news">
+  <h2>خبر دستی</h2>
+  <div class="grid g2">
+    <div>
+      <label for="mn-title">عنوان (فارسی) *</label><input id="mn-title">
+      <label for="mn-summary">خلاصه (فارسی) *</label><textarea id="mn-summary" style="min-height:100px"></textarea>
+      <label for="mn-url">لینک خبر *</label><input id="mn-url" dir="ltr" placeholder="https://…">
+      <div class="grid g2">
+        <div><label for="mn-cat">دسته‌بندی</label><select id="mn-cat"></select></div>
+        <div><label for="mn-imp">اهمیت</label><select id="mn-imp"><option value="high">بالا</option><option value="medium" selected>متوسط</option><option value="low">پایین</option></select></div>
+        <div><label for="mn-source">منبع</label><input id="mn-source" value="WIDD Iran"></div>
+        <div><label for="mn-ttl">ماندن در دایجست (ساعت)</label><input id="mn-ttl" type="number" min="1" max="168" value="30"></div>
+      </div>
+      <details style="margin-top:10px"><summary class="mut">نسخهٔ انگلیسی (اختیاری)</summary>
+        <label for="mn-title-en">Title</label><input id="mn-title-en" dir="ltr"><label for="mn-summary-en">Summary</label><textarea id="mn-summary-en" dir="ltr" style="min-height:70px"></textarea></details>
+      <div class="row"><button class="btn" id="mn-save">ذخیره به‌عنوان پیش‌نویس</button></div>
+    </div>
+    <div><label>پیش‌نمایش (تقریبی)</label><div id="mn-preview" class="bubble"></div>
+      <div class="warnbox">خبر ابتدا پیش‌نویس ذخیره می‌شود. از لیست پایین می‌توانی آن را <b>آزمایشی</b> برای خودت بفرستی، به <b>دایجست بعدی</b> اضافه کنی، یا <b>فوری</b> برای همه بفرستی.</div></div>
+  </div>
+  <div id="mn-status" class="mut"></div>
+  <h2 style="margin-top:22px">خبرهای ذخیره‌شده</h2><div id="mn-list" class="mut">—</div>
+</section>
+
+<section id="tab-sources">
+  <h2>منابع خبری</h2>
+  <div class="row" style="margin-top:0"><button class="btn sec" id="src-load">بارگذاری</button><button class="btn" id="src-save" disabled>ذخیرهٔ تغییرات</button><button class="btn sec" id="src-check">بررسی سلامت منابع</button><span id="src-status" class="mut"></span></div>
+  <h2 style="margin-top:18px">RSS</h2><div id="src-rss" class="mut">—</div>
+  <div class="grid g2"><div><label for="src-name">نام منبع جدید</label><input id="src-name"></div><div><label for="src-url">آدرس RSS</label><input id="src-url" dir="ltr" placeholder="https://…/feed"></div></div>
+  <div class="row"><button class="btn sec" id="src-add">افزودن RSS</button></div>
+  <h2 style="margin-top:18px">جستجوهای Google News</h2><div id="src-gn" class="mut">—</div>
+  <div class="row"><input id="src-gnq" placeholder="عبارت جستجو (انگلیسی)" style="max-width:320px"><button class="btn sec" id="src-gnadd">افزودن</button></div>
+  <h2 style="margin-top:18px">منابع اسکرپ (فقط فعال/غیرفعال)</h2><div id="src-scrape" class="mut">—</div>
+  <h2 style="margin-top:18px">آزمون منبع کاندید</h2>
+  <label for="src-cands">هر خط: <code>نام|آدرس</code> — در «بررسی سلامت» همراه بقیه تست می‌شود</label>
+  <textarea id="src-cands" dir="ltr" style="min-height:70px"></textarea><div id="src-cand-res" class="mut"></div>
+</section>
+
+<section id="tab-audience">
+  <h2>دریافت خبر از مخاطبین</h2>
+  <p>مخاطب با دکمهٔ «📨 ارسال خبر» یا دستور <code>/submit</code> خبرش را می‌فرستد و ربات آن را برای ادمین (<code>@widd_iran_admin</code>) فوروارد می‌کند. بعد از بررسی، خبر را در بخش «خبر دستی» ثبت و منتشر کن.</p>
+  <div class="warnbox">ادمین باید <b>یک‌بار</b> در ربات <code>/start</code> بزند تا شناسه‌اش خودکار ثبت شود. بدون آن، ربات خبرها را جایی نمی‌تواند بفرستد.</div>
+  <h2 style="margin-top:18px">اجراهای اخیر</h2><div class="row" style="margin-top:0"><button class="btn sec" id="runs-load">بارگذاری</button></div><div id="runs" class="mut">—</div>
+</section>
+</main>
+<div id="toast"></div>
+<div id="modal"><div class="box"><p id="modal-msg"></p><div class="row"><button class="btn" id="modal-ok">تأیید</button><button class="btn sec" id="modal-cancel">انصراف</button></div></div></div>
+
+<script>
+const CATEGORIES_FA = ["طراحی محصول","طراحی صنعتی","جوایز طراحی","مسابقات طراحی","همایش‌ها و رویدادها","آموزش طراحی","پایداری و محیط زیست","تکنولوژی","مواد و متریال","هوش مصنوعی در طراحی","کسب‌وکار","استارتاپ","خودرو","مبلمان","لوازم الکترونیکی","طراحی پزشکی","بسته‌بندی","UX و طراحی خدمات","طراحی جواهرات","طراحی اکسسوری","سایر"];
+const CHANNEL = "https://t.me/WIDD_Iran";
+const MAX_HTML = 3800;
+const App = { pollMs: 5000, maxPolls: 40, state: { token: "", repo: "", testChat: "", connected: false, sources: null, srcDirty: false, status: null } };
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+App.sleep = sleep;
+
+/* ───────── UI helpers ───────── */
+function toast(msg, ms = 3500) { const t = $("#toast"); t.textContent = msg; t.classList.add("show"); clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove("show"), ms); }
+function ask(msg) { return new Promise((res) => { $("#modal-msg").textContent = msg; $("#modal").classList.add("show");
+  const done = (v) => { $("#modal").classList.remove("show"); $("#modal-ok").onclick = $("#modal-cancel").onclick = null; res(v); };
+  $("#modal-ok").onclick = () => done(true); $("#modal-cancel").onclick = () => done(false); }); }
+function showTab(name) { document.querySelectorAll("#tabs button").forEach((b) => b.classList.toggle("active", b.dataset.tab === name));
+  document.querySelectorAll("main section").forEach((s) => s.classList.toggle("active", s.id === "tab-" + name)); }
+
+/* ───────── mini-markup → Telegram HTML ───────── */
+function mdToTelegramHtml(text) {
+  let s = String(text || "").replace(/\r\n/g, "\n").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  const lines = s.split("\n"), out = []; let quote = [];
+  const flush = () => { if (quote.length) { out.push("<blockquote>" + quote.join("\n") + "</blockquote>"); quote = []; } };
+  for (const ln of lines) { if (ln.startsWith("&gt; ") || ln === "&gt;") quote.push(ln.replace(/^&gt;\s?/, "")); else { flush(); out.push(ln); } }
+  flush(); s = out.join("\n");
+  const links = [];
+  s = s.replace(/\[([^\]\n]+)\]\((https?:\/\/[^\s)"]+)\)/g, (_, t, u) => { links.push(`<a href="${u}">${t}</a>`); return `\u0000${links.length - 1}\u0000`; });
+  s = s.replace(/\*\*([^*\n]+?)\*\*/g, "<b>$1</b>").replace(/__([^_\n]+?)__/g, "<i>$1</i>");
+  s = s.replace(/\u0000(\d+)\u0000/g, (_, i) => links[+i]);
+  return s.replace(/<\/blockquote>\n/g, "</blockquote>");
+}
+function isBalanced(html) { const st = []; const re = /<(\/?)(b|i|a|blockquote)(?:\s[^>]*)?>/g; let m;
+  while ((m = re.exec(html))) { if (!m[1]) st.push(m[2]); else if (st.pop() !== m[2]) return false; } return st.length === 0; }
+
+/* ───────── item layout preview (mirrors src/sender.py item_block) ───────── */
+function hashtag(cat) { const t = String(cat || "").replace(/[^\p{L}\p{N}_]+/gu, "_").replace(/^_+|_+$/g, ""); return t ? "#" + t : ""; }
+function itemPreviewHtml(it) {
+  const L = [];
+  if (it.title_fa) L.push(`<b>${esc(it.title_fa)}</b>`);
+  if (it.summary_fa) L.push(`<blockquote>${esc(it.summary_fa)}</blockquote>`);
+  const meta = []; if (hashtag(it.category)) meta.push("🏷 " + hashtag(it.category)); if (it.source) meta.push("📰 " + esc(it.source));
+  if (meta.length) L.push(meta.join("   "));
+  L.push(`<a href="${esc(it.url || "#")}">🔗 لینک خبر</a>`); L.push(CHANNEL);
+  return L.join("\n");
+}
+
+/* ───────── GitHub API ───────── */
+function b64enc(str) { const bytes = new TextEncoder().encode(str); let bin = ""; bytes.forEach((b) => (bin += String.fromCharCode(b))); return btoa(bin); }
+function b64dec(b64) { const bin = atob(String(b64).replace(/\n/g, "")); return new TextDecoder().decode(Uint8Array.from(bin, (c) => c.charCodeAt(0))); }
+async function gh(method, path, body) {
+  const res = await fetch("https://api.github.com" + path, { method, headers: { Authorization: "Bearer " + App.state.token, Accept: "application/vnd.github+json", "Content-Type": "application/json" }, body: body ? JSON.stringify(body) : undefined });
+  const txt = await res.text(); let data = null; try { data = txt ? JSON.parse(txt) : null; } catch { data = txt; }
+  if (!res.ok) { const e = new Error((data && data.message) || res.statusText || "خطا"); e.status = res.status; throw e; }
+  return data;
+}
+const repoPath = (p) => `/repos/${App.state.repo}/${p}`;
+async function readJson(path, fallback) {
+  try { const d = await gh("GET", repoPath(`contents/${path}?ref=main&t=${Date.now()}`)); return { data: JSON.parse(b64dec(d.content)), sha: d.sha }; }
+  catch (e) { if (e.status === 404) return { data: fallback, sha: null }; throw e; }
+}
+async function writeJson(path, data, sha, message) {
+  const body = { message, content: b64enc(JSON.stringify(data, null, 2) + "\n"), branch: "main" }; if (sha) body.sha = sha;
+  return gh("PUT", repoPath(`contents/${path}`), body);
+}
+async function updateJson(path, fallback, mutate, message) {
+  for (let i = 0; i < 2; i++) {
+    const { data, sha } = await readJson(path, fallback);
+    const next = mutate(structuredClone(data));
+    try { await writeJson(path, next, sha, message); return next; } catch (e) { if (i === 1 || ![409, 422].includes(e.status)) throw e; }
+  }
+}
+async function dispatch(file, inputs) { await gh("POST", repoPath(`actions/workflows/${file}/dispatches`), { ref: "main", inputs }); }
+async function trackRun(file, since, el) {
+  el.textContent = "⏳ در صف…";
+  for (let i = 0; i < App.maxPolls; i++) {
+    await App.sleep(App.pollMs);
+    try {
+      const d = await gh("GET", repoPath(`actions/workflows/${file}/runs?per_page=5&event=workflow_dispatch`));
+      const run = (d.workflow_runs || []).find((r) => Date.parse(r.created_at) >= since - 20000);
+      if (!run) continue;
+      if (run.status !== "completed") { el.textContent = "⏳ در حال اجرا…"; continue; }
+      el.innerHTML = run.conclusion === "success" ? `✅ انجام شد` : `❌ ناموفق (${esc(run.conclusion)}) — <a href="${esc(run.html_url)}" target="_blank" rel="noopener">جزئیات</a>`;
+      return run;
+    } catch (e) { el.textContent = "خطا در پیگیری: " + e.message; return null; }
+  }
+  el.textContent = "هنوز تمام نشده؛ بعداً در تب «اجراها» ببین."; return null;
+}
+function needConnection() { if (!App.state.connected) { toast("اول در تب «اتصال» وصل شو."); return true; } return false; }
+
+/* ───────── connection ───────── */
+async function connect() {
+  App.state.token = $("#in-token").value.trim(); App.state.repo = $("#in-repo").value.trim(); App.state.testChat = $("#in-testchat").value.trim();
+  if (!App.state.token || !App.state.repo) { toast("توکن و ریپو را وارد کن."); return; }
+  try {
+    const r = await gh("GET", `/repos/${App.state.repo}`);
+    App.state.connected = true;
+    localStorage.setItem("dash_cfg", JSON.stringify({ token: App.state.token, repo: App.state.repo, testChat: App.state.testChat }));
+    $("#conn-chip").className = "chip ok"; $("#conn-chip").textContent = "وصل: " + r.full_name;
+    $("#connect-status").textContent = r.permissions && r.permissions.push === false ? "⚠️ دسترسی نوشتن ندارد" : "✅ اتصال برقرار شد";
+    loadBroadcastLog(); loadNews();
+  } catch (e) { App.state.connected = false; $("#conn-chip").className = "chip bad"; $("#conn-chip").textContent = "خطا"; $("#connect-status").textContent = "❌ " + e.message; }
+}
+function logout() { localStorage.removeItem("dash_cfg"); App.state.token = ""; App.state.connected = false; $("#in-token").value = ""; $("#conn-chip").className = "chip bad"; $("#conn-chip").textContent = "وصل نشده"; toast("توکن پاک شد."); }
+
+/* ───────── broadcast ───────── */
+function renderBroadcastPreview() {
+  const html = mdToTelegramHtml($("#bc-text").value); $("#bc-preview").innerHTML = html || '<span class="mut">پیش‌نمایش اینجا…</span>';
+  const ok = isBalanced(html), long = html.length > MAX_HTML;
+  $("#bc-count").textContent = `(${html.length}/${MAX_HTML})`;
+  $("#bc-warn").textContent = !ok ? "⚠️ فرمت درشت/کج/لینک درست بسته نشده." : long ? "⚠️ متن بیش از حد طولانی است." : "";
+  return { html, ok: ok && !long && html.trim().length > 0 };
+}
+async function sendBroadcast(audience) {
+  if (needConnection()) return;
+  const { html, ok } = renderBroadcastPreview(); if (!ok) { toast("متن خالی یا فرمت نامعتبر است."); return; }
+  const chat = App.state.testChat || $("#in-testchat").value.trim();
+  if (audience === "test" && !chat) { toast("شناسهٔ تلگرام خودت را در تب «اتصال» وارد کن."); return; }
+  if (audience === "all" && !(await ask("این پیام برای همهٔ کاربران ربات ارسال می‌شود و قابل بازگشت نیست. ادامه می‌دهی؟"))) return;
+  const since = Date.now();
+  try { await dispatch("broadcast.yml", { kind: "message", text: html, item_id: "", audience, lang: $("#bc-lang").value, test_chat_id: audience === "test" ? chat : "" }); }
+  catch (e) { toast("ارسال نشد: " + e.message); return; }
+  await trackRun("broadcast.yml", since, $("#bc-status")); loadBroadcastLog();
+}
+async function loadBroadcastLog() {
+  if (!App.state.connected) return;
+  try { const { data } = await readJson("data/broadcast_log.json", { entries: [] }); const rows = (data.entries || []).slice(0, 10);
+    $("#bc-log").innerHTML = rows.length ? "<table><tr><th>زمان</th><th>نوع</th><th>مخاطب</th><th>ارسال‌شده</th><th>ناموفق</th><th>متن</th></tr>" + rows.map((e) =>
+      `<tr><td>${esc(new Date(e.at).toLocaleString("fa-IR"))}</td><td>${esc(e.kind)}</td><td>${esc(e.audience)}/${esc(e.lang)}</td><td>${e.sent}</td><td>${e.failed}</td><td>${esc((e.preview || "").slice(0, 40))}</td></tr>`).join("") + "</table>" : "هنوز ارسالی ثبت نشده.";
+  } catch (e) { $("#bc-log").textContent = "خطا: " + e.message; }
+}
+
+/* ───────── manual news ───────── */
+const IMP_LABEL = { high: "بالا", medium: "متوسط", low: "پایین" };
+const MODE_LABEL = { draft: ["پیش‌نویس", ""], digest: ["در دایجست بعدی", "ok"], instant: ["ارسال فوری شد", "warn"] };
+function formItem() { return { title_fa: $("#mn-title").value.trim(), summary_fa: $("#mn-summary").value.trim(), url: $("#mn-url").value.trim(), category: $("#mn-cat").value,
+  importance: $("#mn-imp").value, source: $("#mn-source").value.trim() || "WIDD Iran", title_en: $("#mn-title-en").value.trim(), summary_en: $("#mn-summary-en").value.trim(), ttl_hours: Math.max(1, +$("#mn-ttl").value || 30) }; }
+function renderNewsPreview() { $("#mn-preview").innerHTML = itemPreviewHtml(formItem()); }
+function newId() { const d = new Date(); const p = (n) => String(n).padStart(2, "0"); return `m-${d.getUTCFullYear()}${p(d.getUTCMonth() + 1)}${p(d.getUTCDate())}-${p(d.getUTCHours())}${p(d.getUTCMinutes())}${p(d.getUTCSeconds())}-${Math.random().toString(36).slice(2, 5)}`; }
+async function saveDraft() {
+  if (needConnection()) return;
+  const f = formItem();
+  if (!f.title_fa || !f.summary_fa) { toast("عنوان و خلاصه الزامی است."); return; }
+  if (!/^https?:\/\/\S+$/.test(f.url)) { toast("لینک خبر باید با http(s):// شروع شود."); return; }
+  const now = new Date(); const item = { id: newId(), ...f, created_at: now.toISOString(), expires_at: new Date(+now + f.ttl_hours * 3600e3).toISOString(), mode: "draft" };
+  try { await updateJson("data/manual_news.json", { items: [] }, (d) => { d.items = [item, ...(d.items || [])]; return d; }, "dashboard: add manual news draft"); toast("پیش‌نویس ذخیره شد."); $("#mn-title").value = $("#mn-summary").value = $("#mn-url").value = ""; renderNewsPreview(); loadNews(); }
+  catch (e) { toast("ذخیره نشد: " + e.message); }
+}
+async function loadNews() {
+  if (!App.state.connected) return;
+  try { const { data } = await readJson("data/manual_news.json", { items: [] }); App.state.items = data.items || [];
+    $("#mn-list").innerHTML = App.state.items.length ? App.state.items.map((it) => { const [ml, mc] = MODE_LABEL[it.mode] || MODE_LABEL.draft;
+      return `<div class="item" data-id="${esc(it.id)}"><div class="item-head"><b>${esc(it.title_fa || it.title_en)}</b><span class="chip ${mc}">${ml}</span></div>
+      <div class="mut">${esc(it.category)} · اهمیت ${IMP_LABEL[it.importance] || ""} · ${esc(it.source)}</div>
+      <div class="item-actions"><button class="btn sec" data-act="test">ارسال آزمایشی</button><button class="btn sec" data-act="digest">در دایجست بعدی</button><button class="btn danger" data-act="instant">ارسال فوری به همه</button><button class="btn sec" data-act="del">حذف</button></div></div>`; }).join("") : "هنوز خبری ثبت نشده.";
+  } catch (e) { $("#mn-list").textContent = "خطا: " + e.message; }
+}
+async function itemAction(act, id) {
+  if (needConnection()) return;
+  const el = $("#mn-status"); const chat = App.state.testChat || $("#in-testchat").value.trim();
+  try {
+    if (act === "del") { if (!(await ask("این خبر حذف شود؟"))) return; await updateJson("data/manual_news.json", { items: [] }, (d) => { d.items = (d.items || []).filter((i) => i.id !== id); return d; }, "dashboard: delete manual news"); toast("حذف شد."); return loadNews(); }
+    if (act === "test") { if (!chat) { toast("شناسهٔ تلگرام خودت را در تب «اتصال» وارد کن."); return; } const since = Date.now(); await dispatch("broadcast.yml", { kind: "manual_item", text: "", item_id: id, audience: "test", lang: "all", test_chat_id: chat }); return void (await trackRun("broadcast.yml", since, el)); }
+    if (act === "digest") { await updateJson("data/manual_news.json", { items: [] }, (d) => { const it = (d.items || []).find((i) => i.id === id); if (it) { const now = new Date(); it.mode = "digest"; it.created_at = now.toISOString(); it.expires_at = new Date(+now + (it.ttl_hours || 30) * 3600e3).toISOString(); } return d; }, "dashboard: queue manual news for next digest"); toast("به دایجست بعدی اضافه شد."); return loadNews(); }
+    if (act === "instant") {
+      if (!(await ask("این خبر همین الان برای همهٔ کاربران ارسال می‌شود. ادامه می‌دهی؟"))) return;
+      await updateJson("data/manual_news.json", { items: [] }, (d) => { const it = (d.items || []).find((i) => i.id === id); if (it) { it.mode = "instant"; it.sent_at = new Date().toISOString(); } return d; }, "dashboard: mark manual news as sent instantly");
+      const since = Date.now(); await dispatch("broadcast.yml", { kind: "manual_item", text: "", item_id: id, audience: "all", lang: "all", test_chat_id: "" });
+      loadNews(); await trackRun("broadcast.yml", since, el); loadBroadcastLog();
+    }
+  } catch (e) { toast("خطا: " + e.message); }
+}
+
+/* ───────── sources ───────── */
+async function loadSources() {
+  if (needConnection()) return;
+  try { const { data } = await readJson("data/sources.json", { version: 1, rss: [], scrape: [], google_news: [] }); App.state.sources = data; App.state.srcDirty = false;
+    try { App.state.status = (await readJson("data/sources_status.json", null)).data; } catch { App.state.status = null; }
+    renderSources(); } catch (e) { toast("خطا: " + e.message); }
+}
+function statusChip(url) { const s = App.state.status; if (!s) return ""; const r = [...(s.results || []), ...(s.google_news || [])].find((x) => x.url === url); if (!r) return "";
+  return r.ok ? `<span class="chip ${r.last_24h > 0 ? "ok" : "warn"}">${r.entries} خبر · ${r.last_24h ?? "-"} در ۲۴ساعت</span>` : `<span class="chip bad">${esc(r.error || "خراب")}</span>`; }
+function renderSources() {
+  const S = App.state.sources; if (!S) return;
+  $("#src-rss").innerHTML = "<table><tr><th>فعال</th><th>نام</th><th>آدرس</th><th>وضعیت</th><th></th></tr>" + (S.rss || []).map((s, i) => `<tr><td><input type="checkbox" data-src="rss" data-i="${i}" ${s.enabled !== false ? "checked" : ""}></td><td>${esc(s.name)}${s.note ? `<div class="mut">${esc(s.note)}</div>` : ""}</td><td class="url">${esc(s.url)}</td><td>${statusChip(s.url)}</td><td><button class="btn sec" data-del="rss" data-i="${i}">حذف</button></td></tr>`).join("") + "</table>";
+  $("#src-scrape").innerHTML = "<table>" + (S.scrape || []).map((s, i) => `<tr><td><input type="checkbox" data-src="scrape" data-i="${i}" ${s.enabled !== false ? "checked" : ""}></td><td>${esc(s.name)}${s.note ? `<div class="mut">${esc(s.note)}</div>` : ""}</td><td class="url">${esc(s.url)}</td><td>${statusChip(s.url)}</td></tr>`).join("") + "</table>";
+  $("#src-gn").innerHTML = (S.google_news || []).map((q, i) => `<span class="chip" style="margin:3px">${esc(q)} <a href="#" data-del="gn" data-i="${i}" style="color:var(--bad);text-decoration:none">✕</a></span>`).join("") || "—";
+  $("#src-save").disabled = !App.state.srcDirty;
+  const c = (App.state.status && App.state.status.candidates) || [];
+  $("#src-cand-res").innerHTML = c.length ? "<table><tr><th>نام</th><th>وضعیت</th><th></th></tr>" + c.map((r, i) => `<tr><td>${esc(r.name)}</td><td>${r.ok ? `<span class="chip ${r.last_7d > 0 ? "ok" : "warn"}">${r.entries} خبر · ${r.last_7d} در ۷ روز</span>` : `<span class="chip bad">${esc(r.error)}</span>`}</td><td>${r.ok ? `<button class="btn sec" data-addcand="${i}">افزودن</button>` : ""}</td></tr>`).join("") + "</table>" : "";
+}
+function markDirty() { App.state.srcDirty = true; $("#src-save").disabled = false; }
+async function saveSources() {
+  if (needConnection() || !App.state.sources) return;
+  try { const { sha } = await readJson("data/sources.json", null); await writeJson("data/sources.json", App.state.sources, sha, "dashboard: update news sources"); App.state.srcDirty = false; $("#src-save").disabled = true; toast("منابع ذخیره شد؛ از اجرای بعدی اعمال می‌شود."); }
+  catch (e) { toast("ذخیره نشد: " + e.message); }
+}
+function addRss() { const n = $("#src-name").value.trim(), u = $("#src-url").value.trim();
+  if (!n || !/^https?:\/\/\S+$/.test(u)) { toast("نام و آدرس معتبر لازم است."); return; }
+  if (!App.state.sources) { toast("اول «بارگذاری» را بزن."); return; }
+  App.state.sources.rss.push({ name: n, url: u, enabled: true, note: "added via dashboard" }); $("#src-name").value = $("#src-url").value = ""; markDirty(); renderSources(); }
+async function runHealthCheck() {
+  if (needConnection()) return; const since = Date.now();
+  try { await dispatch("check-sources.yml", { extra_feeds: $("#src-cands").value.trim() }); } catch (e) { toast("اجرا نشد: " + e.message); return; }
+  const run = await trackRun("check-sources.yml", since, $("#src-status")); if (run && run.conclusion === "success") loadSources();
+}
+
+/* ───────── recent runs ───────── */
+async function loadRuns() {
+  if (needConnection()) return;
+  try { const d = await gh("GET", repoPath("actions/runs?per_page=12"));
+    $("#runs").innerHTML = "<table>" + d.workflow_runs.map((r) => `<tr><td>${esc(r.name)}</td><td>${esc(new Date(r.created_at).toLocaleString("fa-IR"))}</td><td><span class="chip ${r.conclusion === "success" ? "ok" : r.status !== "completed" ? "warn" : "bad"}">${esc(r.conclusion || r.status)}</span></td><td><a href="${esc(r.html_url)}" target="_blank" rel="noopener">باز کردن</a></td></tr>`).join("") + "</table>";
+  } catch (e) { $("#runs").textContent = "خطا: " + e.message; }
+}
+
+/* ───────── wiring ───────── */
+function wrapSelection(spec) { const ta = $("#bc-text"); const [a, b] = spec.split("|"); const s = ta.selectionStart, e = ta.selectionEnd; const sel = ta.value.slice(s, e);
+  ta.value = ta.value.slice(0, s) + a + sel + b + ta.value.slice(e); ta.focus(); renderBroadcastPreview(); }
+function init() {
+  $("#mn-cat").innerHTML = CATEGORIES_FA.map((c) => `<option>${esc(c)}</option>`).join("");
+  $("#tabs").addEventListener("click", (e) => { const b = e.target.closest("button[data-tab]"); if (b) showTab(b.dataset.tab); });
+  $("#btn-connect").onclick = connect; $("#btn-logout").onclick = logout;
+  $("#bc-text").addEventListener("input", renderBroadcastPreview);
+  document.querySelectorAll(".tools button").forEach((b) => (b.onclick = () => wrapSelection(b.dataset.wrap)));
+  $("#bc-test").onclick = () => sendBroadcast("test"); $("#bc-all").onclick = () => sendBroadcast("all");
+  ["mn-title", "mn-summary", "mn-url", "mn-cat", "mn-source"].forEach((id) => $("#" + id).addEventListener("input", renderNewsPreview));
+  $("#mn-save").onclick = saveDraft;
+  $("#mn-list").addEventListener("click", (e) => { const b = e.target.closest("button[data-act]"); if (b) itemAction(b.dataset.act, b.closest(".item").dataset.id); });
+  $("#src-load").onclick = loadSources; $("#src-save").onclick = saveSources; $("#src-add").onclick = addRss; $("#src-check").onclick = runHealthCheck;
+  $("#src-gnadd").onclick = () => { const q = $("#src-gnq").value.trim(); if (!q || !App.state.sources) return; App.state.sources.google_news.push(q); $("#src-gnq").value = ""; markDirty(); renderSources(); };
+  document.querySelector("#tab-sources").addEventListener("click", (e) => {
+    const del = e.target.closest("[data-del]"); if (del) { e.preventDefault(); const k = del.dataset.del === "gn" ? "google_news" : "rss"; App.state.sources[k].splice(+del.dataset.i, 1); markDirty(); renderSources(); return; }
+    const add = e.target.closest("[data-addcand]"); if (add) { const c = App.state.status.candidates[+add.dataset.addcand]; App.state.sources.rss.push({ name: c.name, url: c.url, enabled: true, note: "added from candidate test" }); markDirty(); renderSources(); }
+  });
+  document.querySelector("#tab-sources").addEventListener("change", (e) => { const c = e.target.closest("input[data-src]"); if (!c) return; App.state.sources[c.dataset.src][+c.dataset.i].enabled = c.checked; markDirty(); });
+  $("#runs-load").onclick = loadRuns;
+  try { const cfg = JSON.parse(localStorage.getItem("dash_cfg") || "null"); if (cfg) { $("#in-token").value = cfg.token || ""; $("#in-repo").value = cfg.repo || $("#in-repo").value; $("#in-testchat").value = cfg.testChat || ""; if (cfg.token) connect(); } } catch {}
+  renderBroadcastPreview(); renderNewsPreview();
+}
+Object.assign(App, { mdToTelegramHtml, isBalanced, itemPreviewHtml, hashtag, connect, sendBroadcast, saveDraft, itemAction, loadSources, saveSources, runHealthCheck, loadNews, init });
+window.App = App;
+document.addEventListener("DOMContentLoaded", init);
+</script>
+</body>
+</html>
