@@ -1,0 +1,32 @@
+{
+  "at": "2026-11-03T08:46:50.594485+00:00",
+  "key_prefix": "AQ.",
+  "studio": {
+    "gemini-flash-latest": {
+      "status": 503,
+      "error": "{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+    },
+    "gemini-2.5-flash": {
+      "status": 404,
+      "error": "{\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We "
+    },
+    "gemini-2.0-flash": {
+      "status": 404,
+      "error": "{\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you"
+    }
+  },
+  "vertex": {
+    "gemini-flash-latest": {
+      "status": 403,
+      "error": "{\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Agent Platform API has not been used in project 290480809959 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/aiplatform.googl"
+    },
+    "gemini-2.5-flash": {
+      "status": 403,
+      "error": "{\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Agent Platform API has not been used in project 290480809959 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/aiplatform.googl"
+    },
+    "gemini-2.0-flash": {
+      "status": 403,
+      "error": "{\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Agent Platform API has not been used in project 290480809959 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/aiplatform.googl"
+    }
+  }
+}
