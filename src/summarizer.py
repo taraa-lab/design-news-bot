@@ -255,12 +255,46 @@ def _enrich_claude(articles, lang):
 
 
 # ───────────── Gemini (free tier) ─────────────
-_gem = {"dead": set(), "last_good": None}
+_gem = {"dead": set(), "last_good": None, "models": None}
+
+
+_GEM_SKIP = ("image", "tts", "live", "audio", "embed", "robotics", "computer", "imagen", "veo", "gemma")
+
+
+def _gem_rank(name):
+    """Lower is better: -latest alias first, then newest version, stable before preview, full before lite."""
+    m = re.search(r"gemini-(\d+(?:\.\d+)?)", name)
+    version = float(m.group(1)) if m else 0.0
+    return (0 if name.endswith("-latest") else 1, -version,
+            1 if ("preview" in name or "exp" in name) else 0, 1 if "lite" in name else 0, name)
+
+
+def _discover_gemini_models():
+    names = []
+    try:
+        r = requests.get("https://generativelanguage.googleapis.com/v1beta/models", params={"pageSize": 200},
+                         headers={"x-goog-api-key": os.environ.get("GEMINI_API_KEY", "")}, timeout=20)
+        r.raise_for_status()
+        for m in r.json().get("models", []):
+            n = str(m.get("name", "")).replace("models/", "")
+            if ("generateContent" in (m.get("supportedGenerationMethods") or []) and "flash" in n
+                    and not any(w in n for w in _GEM_SKIP)):
+                names.append(n)
+    except Exception as e:
+        logger.warning("Could not list Gemini models: %s", e)
+    ordered = sorted(set(names), key=_gem_rank)[:4]
+    logger.info("Gemini candidate models: %s", ordered)
+    return ordered or ["gemini-flash-latest"]
 
 
 def _gemini_models():
     env = os.environ.get("GEMINI_MODELS", "")
-    return [m.strip() for m in env.split(",") if m.strip()] or ["gemini-flash-latest", "gemini-2.5-flash"]
+    forced = [m.strip() for m in env.split(",") if m.strip()]
+    if forced:
+        return forced
+    if _gem.get("models") is None:
+        _gem["models"] = _discover_gemini_models()
+    return _gem["models"]
 
 
 def _call_gemini_model(model, user_msg, lang):
@@ -272,7 +306,7 @@ def _call_gemini_model(model, user_msg, lang):
               "generationConfig": {"temperature": 0.2, "maxOutputTokens": 8192,
                                    "responseMimeType": "application/json"}},
         timeout=90)
-    if resp.status_code == 429:
+    if resp.status_code in (429, 500, 502, 503, 504):       # rate limit or temporary overload -> wait, retry
         raise _RateLimited()
     if resp.status_code in (400, 401, 403, 404):
         raise _ModelGone(f"{resp.status_code}: {resp.text[:160]}")
