@@ -50,8 +50,9 @@ td.url{direction:ltr;text-align:left;word-break:break-all;color:var(--mut);font-
 <body>
 <header>
   <h1>🎨 پنل مدیریت ربات اخبار دیزاین</h1>
-  <span id="conn-chip" class="chip bad">وصل نشده</span>
+  <span><span class="mut">v2</span> <span id="conn-chip" class="chip bad">وصل نشده</span></span>
 </header>
+<div id="errbar" class="warnbox" style="display:none;margin:10px 20px 0"><b>⚠️ خطا:</b> <span id="errtext"></span> <button class="btn sec" id="errclose" style="padding:2px 10px;margin-inline-start:8px">بستن</button></div>
 <nav id="tabs">
   <button data-tab="connect" class="active">اتصال</button>
   <button data-tab="broadcast">پیام همگانی</button>
@@ -219,24 +220,51 @@ async function trackRun(file, since, el) {
       if (run.status !== "completed") { el.textContent = "⏳ در حال اجرا…"; continue; }
       el.innerHTML = run.conclusion === "success" ? `✅ انجام شد` : `❌ ناموفق (${esc(run.conclusion)}) — <a href="${esc(run.html_url)}" target="_blank" rel="noopener">جزئیات</a>`;
       return run;
-    } catch (e) { el.textContent = "خطا در پیگیری: " + e.message; return null; }
+    } catch (e) { el.textContent = "خطا در پیگیری: " + explain(e); return null; }
   }
   el.textContent = "هنوز تمام نشده؛ بعداً در تب «اجراها» ببین."; return null;
 }
-function needConnection() { if (!App.state.connected) { toast("اول در تب «اتصال» وصل شو."); return true; } return false; }
+function showError(msg) { $("#errtext").textContent = msg; $("#errbar").style.display = "block"; }
+function explain(e) {
+  const m = String((e && e.message) || e || ""), st = e && e.status;
+  if (st === 401) return "توکن نامعتبر یا منقضی است. یک توکن تازه بساز و دوباره «اتصال» را بزن.";
+  if (/not accessible|forbidden/i.test(m) || st === 403) return "توکن اجازهٔ این کار را ندارد. باید برای همین ریپو «Contents» و «Actions» روی Read and write باشد. (پیام GitHub: " + m + ")";
+  if (st === 404) return "پیدا نشد (ریپو، فایل یا ورک‌فلو) یا توکن به آن دسترسی ندارد. (پیام GitHub: " + m + ")";
+  if (st === 422) return "GitHub ورودی را نپذیرفت: " + m;
+  return m || "خطای ناشناخته";
+}
+function needConnection() {
+  const st = App.state;
+  if (!st.token) st.token = $("#in-token").value.trim();
+  if (!st.repo) st.repo = $("#in-repo").value.trim();
+  if (!st.testChat) st.testChat = $("#in-testchat").value.trim();
+  if (!st.token || !st.repo) { showError("توکن و ریپو را در تب «اتصال» وارد کن و «اتصال» را بزن."); showTab("connect"); return true; }
+  $("#errbar").style.display = "none"; return false;
+}
 
 /* ───────── connection ───────── */
+async function probe(kind) {
+  try {
+    if (kind === "read") { await gh("GET", repoPath("contents/data/sources.json?ref=main")); return true; }
+    if (kind === "files") { await gh("PUT", repoPath("contents/data/.write-probe"), { message: "probe", content: "eA==", branch: "__probe__" }); return true; }
+    await gh("POST", repoPath("actions/workflows/broadcast.yml/dispatches"), { ref: "__probe__" }); return true;
+  } catch (e) { return ![401, 403].includes(e.status); }      // 404/422 => authorised, probe target intentionally invalid
+}
 async function connect() {
   App.state.token = $("#in-token").value.trim(); App.state.repo = $("#in-repo").value.trim(); App.state.testChat = $("#in-testchat").value.trim();
-  if (!App.state.token || !App.state.repo) { toast("توکن و ریپو را وارد کن."); return; }
+  if (!App.state.token || !App.state.repo) { showError("توکن و ریپو را وارد کن."); return; }
+  $("#errbar").style.display = "none"; $("#connect-status").textContent = "در حال بررسی…";
   try {
     const r = await gh("GET", `/repos/${App.state.repo}`);
     App.state.connected = true;
-    localStorage.setItem("dash_cfg", JSON.stringify({ token: App.state.token, repo: App.state.repo, testChat: App.state.testChat }));
+    try { localStorage.setItem("dash_cfg", JSON.stringify({ token: App.state.token, repo: App.state.repo, testChat: App.state.testChat })); } catch {}
     $("#conn-chip").className = "chip ok"; $("#conn-chip").textContent = "وصل: " + r.full_name;
-    $("#connect-status").textContent = r.permissions && r.permissions.push === false ? "⚠️ دسترسی نوشتن ندارد" : "✅ اتصال برقرار شد";
+    const [rd, wr, ac] = [await probe("read"), await probe("files"), await probe("actions")];
+    const mark = (ok) => (ok ? "✅" : "❌");
+    $("#connect-status").textContent = `خواندن فایل‌ها ${mark(rd)} · نوشتن فایل‌ها ${mark(wr)} · اجرای ورک‌فلو ${mark(ac)}`;
+    if (!(rd && wr && ac)) { $("#conn-chip").className = "chip warn"; showError("اتصال برقرار شد ولی توکن دسترسی کامل ندارد. در GitHub توکن را ویرایش کن: Contents = Read and write و Actions = Read and write، و ریپو design-news-bot انتخاب شده باشد."); }
     loadBroadcastLog(); loadNews();
-  } catch (e) { App.state.connected = false; $("#conn-chip").className = "chip bad"; $("#conn-chip").textContent = "خطا"; $("#connect-status").textContent = "❌ " + e.message; }
+  } catch (e) { App.state.connected = false; $("#conn-chip").className = "chip bad"; $("#conn-chip").textContent = "خطا"; $("#connect-status").textContent = ""; showError(explain(e)); }
 }
 function logout() { localStorage.removeItem("dash_cfg"); App.state.token = ""; App.state.connected = false; $("#in-token").value = ""; $("#conn-chip").className = "chip bad"; $("#conn-chip").textContent = "وصل نشده"; toast("توکن پاک شد."); }
 
@@ -256,7 +284,7 @@ async function sendBroadcast(audience) {
   if (audience === "all" && !(await ask("این پیام برای همهٔ کاربران ربات ارسال می‌شود و قابل بازگشت نیست. ادامه می‌دهی؟"))) return;
   const since = Date.now();
   try { await dispatch("broadcast.yml", { kind: "message", text: html, item_id: "", audience, lang: $("#bc-lang").value, test_chat_id: audience === "test" ? chat : "" }); }
-  catch (e) { toast("ارسال نشد: " + e.message); return; }
+  catch (e) { showError("ارسال نشد: " + explain(e)); return; }
   await trackRun("broadcast.yml", since, $("#bc-status")); loadBroadcastLog();
 }
 async function loadBroadcastLog() {
@@ -264,7 +292,7 @@ async function loadBroadcastLog() {
   try { const { data } = await readJson("data/broadcast_log.json", { entries: [] }); const rows = (data.entries || []).slice(0, 10);
     $("#bc-log").innerHTML = rows.length ? "<table><tr><th>زمان</th><th>نوع</th><th>مخاطب</th><th>ارسال‌شده</th><th>ناموفق</th><th>متن</th></tr>" + rows.map((e) =>
       `<tr><td>${esc(new Date(e.at).toLocaleString("fa-IR"))}</td><td>${esc(e.kind)}</td><td>${esc(e.audience)}/${esc(e.lang)}</td><td>${e.sent}</td><td>${e.failed}</td><td>${esc((e.preview || "").slice(0, 40))}</td></tr>`).join("") + "</table>" : "هنوز ارسالی ثبت نشده.";
-  } catch (e) { $("#bc-log").textContent = "خطا: " + e.message; }
+  } catch (e) { $("#bc-log").textContent = "خطا: " + explain(e); }
 }
 
 /* ───────── manual news ───────── */
@@ -281,7 +309,7 @@ async function saveDraft() {
   if (!/^https?:\/\/\S+$/.test(f.url)) { toast("لینک خبر باید با http(s):// شروع شود."); return; }
   const now = new Date(); const item = { id: newId(), ...f, created_at: now.toISOString(), expires_at: new Date(+now + f.ttl_hours * 3600e3).toISOString(), mode: "draft" };
   try { await updateJson("data/manual_news.json", { items: [] }, (d) => { d.items = [item, ...(d.items || [])]; return d; }, "dashboard: add manual news draft"); toast("پیش‌نویس ذخیره شد."); $("#mn-title").value = $("#mn-summary").value = $("#mn-url").value = ""; renderNewsPreview(); loadNews(); }
-  catch (e) { toast("ذخیره نشد: " + e.message); }
+  catch (e) { showError("ذخیره نشد: " + explain(e)); }
 }
 async function loadNews() {
   if (!App.state.connected) return;
@@ -290,7 +318,7 @@ async function loadNews() {
       return `<div class="item" data-id="${esc(it.id)}"><div class="item-head"><b>${esc(it.title_fa || it.title_en)}</b><span class="chip ${mc}">${ml}</span></div>
       <div class="mut">${esc(it.category)} · اهمیت ${IMP_LABEL[it.importance] || ""} · ${esc(it.source)}</div>
       <div class="item-actions"><button class="btn sec" data-act="test">ارسال آزمایشی</button><button class="btn sec" data-act="digest">در دایجست بعدی</button><button class="btn danger" data-act="instant">ارسال فوری به همه</button><button class="btn sec" data-act="del">حذف</button></div></div>`; }).join("") : "هنوز خبری ثبت نشده.";
-  } catch (e) { $("#mn-list").textContent = "خطا: " + e.message; }
+  } catch (e) { $("#mn-list").textContent = "خطا: " + explain(e); }
 }
 async function itemAction(act, id) {
   if (needConnection()) return;
@@ -305,7 +333,7 @@ async function itemAction(act, id) {
       const since = Date.now(); await dispatch("broadcast.yml", { kind: "manual_item", text: "", item_id: id, audience: "all", lang: "all", test_chat_id: "" });
       loadNews(); await trackRun("broadcast.yml", since, el); loadBroadcastLog();
     }
-  } catch (e) { toast("خطا: " + e.message); }
+  } catch (e) { showError("خطا: " + explain(e)); }
 }
 
 /* ───────── sources ───────── */
@@ -313,7 +341,7 @@ async function loadSources() {
   if (needConnection()) return;
   try { const { data } = await readJson("data/sources.json", { version: 1, rss: [], scrape: [], google_news: [] }); App.state.sources = data; App.state.srcDirty = false;
     try { App.state.status = (await readJson("data/sources_status.json", null)).data; } catch { App.state.status = null; }
-    renderSources(); } catch (e) { toast("خطا: " + e.message); }
+    renderSources(); } catch (e) { showError("خطا: " + explain(e)); }
 }
 function statusChip(url) { const s = App.state.status; if (!s) return ""; const r = [...(s.results || []), ...(s.google_news || [])].find((x) => x.url === url); if (!r) return "";
   return r.ok ? `<span class="chip ${r.last_24h > 0 ? "ok" : "warn"}">${r.entries} خبر · ${r.last_24h ?? "-"} در ۲۴ساعت</span>` : `<span class="chip bad">${esc(r.error || "خراب")}</span>`; }
@@ -330,7 +358,7 @@ function markDirty() { App.state.srcDirty = true; $("#src-save").disabled = fals
 async function saveSources() {
   if (needConnection() || !App.state.sources) return;
   try { const { sha } = await readJson("data/sources.json", null); await writeJson("data/sources.json", App.state.sources, sha, "dashboard: update news sources"); App.state.srcDirty = false; $("#src-save").disabled = true; toast("منابع ذخیره شد؛ از اجرای بعدی اعمال می‌شود."); }
-  catch (e) { toast("ذخیره نشد: " + e.message); }
+  catch (e) { showError("ذخیره نشد: " + explain(e)); }
 }
 function addRss() { const n = $("#src-name").value.trim(), u = $("#src-url").value.trim();
   if (!n || !/^https?:\/\/\S+$/.test(u)) { toast("نام و آدرس معتبر لازم است."); return; }
@@ -338,7 +366,7 @@ function addRss() { const n = $("#src-name").value.trim(), u = $("#src-url").val
   App.state.sources.rss.push({ name: n, url: u, enabled: true, note: "added via dashboard" }); $("#src-name").value = $("#src-url").value = ""; markDirty(); renderSources(); }
 async function runHealthCheck() {
   if (needConnection()) return; const since = Date.now();
-  try { await dispatch("check-sources.yml", { extra_feeds: $("#src-cands").value.trim() }); } catch (e) { toast("اجرا نشد: " + e.message); return; }
+  try { await dispatch("check-sources.yml", { extra_feeds: $("#src-cands").value.trim() }); } catch (e) { showError("اجرا نشد: " + explain(e)); return; }
   const run = await trackRun("check-sources.yml", since, $("#src-status")); if (run && run.conclusion === "success") loadSources();
 }
 
@@ -347,7 +375,7 @@ async function loadRuns() {
   if (needConnection()) return;
   try { const d = await gh("GET", repoPath("actions/runs?per_page=12"));
     $("#runs").innerHTML = "<table>" + d.workflow_runs.map((r) => `<tr><td>${esc(r.name)}</td><td>${esc(new Date(r.created_at).toLocaleString("fa-IR"))}</td><td><span class="chip ${r.conclusion === "success" ? "ok" : r.status !== "completed" ? "warn" : "bad"}">${esc(r.conclusion || r.status)}</span></td><td><a href="${esc(r.html_url)}" target="_blank" rel="noopener">باز کردن</a></td></tr>`).join("") + "</table>";
-  } catch (e) { $("#runs").textContent = "خطا: " + e.message; }
+  } catch (e) { $("#runs").textContent = "خطا: " + explain(e); }
 }
 
 /* ───────── wiring ───────── */
@@ -356,7 +384,7 @@ function wrapSelection(spec) { const ta = $("#bc-text"); const [a, b] = spec.spl
 function init() {
   $("#mn-cat").innerHTML = CATEGORIES_FA.map((c) => `<option>${esc(c)}</option>`).join("");
   $("#tabs").addEventListener("click", (e) => { const b = e.target.closest("button[data-tab]"); if (b) showTab(b.dataset.tab); });
-  $("#btn-connect").onclick = connect; $("#btn-logout").onclick = logout;
+  $("#errclose").onclick = () => ($("#errbar").style.display = "none"); $("#btn-connect").onclick = connect; $("#btn-logout").onclick = logout;
   $("#bc-text").addEventListener("input", renderBroadcastPreview);
   document.querySelectorAll(".tools button").forEach((b) => (b.onclick = () => wrapSelection(b.dataset.wrap)));
   $("#bc-test").onclick = () => sendBroadcast("test"); $("#bc-all").onclick = () => sendBroadcast("all");
