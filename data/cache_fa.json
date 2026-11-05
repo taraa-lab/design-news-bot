@@ -1,445 +1,421 @@
 {
-  "generated_at": "2026-11-05T02:55:45.324305+00:00",
-  "count": 111,
+  "generated_at": "2026-11-05T13:07:01.164796+00:00",
+  "count": 103,
   "articles": [
     {
-      "title": "بازسازی آپارتمان ۹۰ متری توسط CAAM Arquitectos",
-      "url": "https://www.archdaily.com/1188090/tabasco-267-apartment-caam-arquitectos",
-      "source": "ArchDaily",
-      "published": "2026-11-04T19:00:00+00:00",
-      "summary": "استودیوی CAAM Arquitectos یک آپارتمان ۹۰ متری را در محله‌ی Roma Norte در Mexico City بازسازی کرد. در این پروژه از ساختار موجود به عنوان متریال اصلی استفاده شده است. تغییرات شامل بهبود چیدمان، سقف‌ها، نورپردازی و مبلمان می‌شود.",
-      "keywords": [
-        "بازسازی آپارتمان",
-        "طراحی داخلی",
-        "چیدمان فضایی"
-      ],
-      "category": "سایر",
-      "importance": "متوسط"
-    },
-    {
-      "title": "طراحی آتلیه خیاطی توسط Atelier 77 و Matéria Base",
-      "url": "https://www.archdaily.com/1034969/sewing-atelier-studio-atelier-77-plus-materia-base",
-      "source": "ArchDaily",
-      "published": "2026-11-04T17:00:00+00:00",
-      "summary": "این آتلیه‌ی خیاطی در محله‌ی تاریخی Santa Teresa در Rio de Janeiro قرار دارد. پروژه روی سکویی محصور با دیواری سنگی با قدمت بیش از ۲۰۰ سال ساخته شده است. این دیوار تاریخی نقش اصلی را در شکل‌گیری مفهوم معماری پروژه دارد.",
-      "keywords": [
-        "آتلیه خیاطی",
-        "دیوار تاریخی",
-        "طراحی فضایی"
-      ],
-      "category": "سایر",
-      "importance": "متوسط"
-    },
-    {
-      "title": "طراحی خانه Coco توسط استودیوی CVA Arquitectos",
-      "url": "https://www.archdaily.com/1188096/coco-house-cva-arquitectos",
-      "source": "ArchDaily",
-      "published": "2026-11-04T15:00:00+00:00",
-      "summary": "خانه Coco به عنوان یک پناهگاه آخر هفته برای طراح و سگش Coco طراحی شده است. این پروژه بر پیوند ناگسستنی میان خانه و طبیعت تمرکز دارد. حجم بنا به گونه‌ای طراحی شده که کمترین آسیب را به طبیعت اطراف بزند.",
-      "keywords": [
-        "خانه تعطیلاتی",
-        "طبیعت",
-        "طراحی معماری"
-      ],
-      "category": "سایر",
-      "importance": "متوسط"
-    },
-    {
-      "title": "ویلای جدید ARX Portugal Arquitectos با نمای دریا",
-      "url": "https://www.archdaily.com/1035360/house-in-beloura-arx-portugal-arquitectos",
-      "source": "ArchDaily",
-      "published": "2026-11-04T13:00:00+00:00",
-      "summary": "این خانه توسط ARX Portugal Arquitectos برای پاسخ به دو چالش اصلی طراحی شده است. پروژه دید پانوراما به افق و دریا را حفظ می‌کند. همچنین فضاهای بیرونی به گونه‌ای طراحی شده‌اند که حریم خصوصی ساکنان تامین شود.",
-      "keywords": [
-        "ویلا",
-        "دید دریا",
-        "حریم خصوصی"
-      ],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "اقامتگاه طبیعی Wittman Estes در پناهگاه سابق حیوانات",
-      "url": "https://www.archdaily.com/1035169/french-creek-workshops-house-wittman-estes",
-      "source": "ArchDaily",
-      "published": "2026-11-04T12:00:00+00:00",
-      "summary": "استودیوی Wittman Estes این اقامتگاه را برای یک زوج بازنشسته طراحی کرده است. پروژه در زمینی ۴.۵ اکری در کنار یک تالاب قرار دارد. این خانه به عنوان پناهگاهی آرام در دل طبیعت طراحی شده است.",
-      "keywords": [
-        "اقامتگاه آرامش",
-        "طراحی اقلیمی",
-        "تالاب"
-      ],
-      "category": "پایداری و محیط زیست",
-      "importance": "متوسط"
-    },
-    {
-      "title": "بازسازی فروشگاه MKR توسط Guillermo Vázquez Consuegra",
-      "url": "https://www.archdaily.com/967725/mkr-store-in-seville-guillermo-vazquez-consuegra",
-      "source": "ArchDaily",
-      "published": "2026-11-04T11:00:00+00:00",
-      "summary": "این پروژه شامل بازسازی فروشگاه چندبرندی MKR در Seville است. هدف اصلی ساماندهی دوباره و ارائه تصویر بصری تازه به فضای تجاری بود. ساختار قبلی غیرانسجام و محدود بود که با قوانین جدید مطابقت نداشت.",
-      "keywords": [
-        "طراحی فروشگاهی",
-        "بازسازی",
-        "فضای تجاری"
-      ],
-      "category": "سایر",
-      "importance": "متوسط"
-    },
-    {
-      "title": "پروژه مسکن اجتماعی Dijledal با پوشش تراکوتا",
-      "url": "https://www.archdaily.com/1187769/rustoordlaan-atelier-m-architects-plus-planners-bv",
-      "source": "ArchDaily",
-      "published": "2026-11-04T10:00:00+00:00",
-      "summary": "پروژه Rustoordlaan توسط Atelier M Architects + Planners bv در Kessel-Lo ساخته شد. برای حفظ درختان پارک Heuvelhofpark، پلن ساختمان کاملاً فشرده و ۱۷ درجه چرخانده شد. نمای این بنا با تراکوتای سبز روشن پوشانده شده است.",
-      "keywords": [
-        "مسکن اجتماعی",
-        "تراکوتای سبز",
-        "پایداری"
-      ],
-      "category": "مواد و متریال",
-      "importance": "متوسط"
-    },
-    {
-      "title": "بررسی نقش Human-Centered Design در کیفیت زندگی",
-      "url": "https://www.archdaily.com/1188071/human-centered-design-how-does-design-shape-the-way-we-live-feel-and-connect",
-      "source": "ArchDaily",
-      "published": "2026-11-04T09:15:00+00:00",
-      "summary": "رویکرد Human-Centered Design به بررسی نحوه شکل‌گیری شیوه زندگی و ارتباطات انسانی می‌پردازد. این مقاله پرسش‌هایی درباره پرسونای مخاطب در تصمیم‌گیری‌های طراحی مطرح می‌کند. طراحی برای انسان نیازمند شناخت تنوع رفتاری و نیازمندی‌های افراد است.",
-      "keywords": [
-        "طراحی انسان‌محور",
-        "ارتباطات",
-        "تجربه کاربری"
-      ],
-      "category": "UX و طراحی خدمات",
-      "importance": "بالا"
-    },
-    {
-      "title": "برگزاری هفتمین سمینار شهرسازان در برزیل",
-      "url": "https://www.archdaily.com/1188067/7th-seminar-on-urbanists-and-urbanism-in-brazil-7th-suub",
-      "source": "ArchDaily",
-      "published": "2026-11-04T09:10:00+00:00",
-      "summary": "دانشگاه FAUFBA و UNEB از پژوهشگران برای شرکت در هفتمین دوره SUUB دعوت کرده‌اند. موضوع این سمینار بررسی کارکرد شهرسازی در حوزه‌های توسعه‌یافته است. این رویداد بستری برای تبادل نظر استادان و فعالان این حرفه فراهم می‌کند.",
-      "keywords": [
-        "شهرسازی",
-        "سمینار علمی",
-        "رویداد معماری"
-      ],
-      "category": "همایش‌ها و رویدادها",
-      "importance": "پایین"
-    },
-    {
-      "title": "گفتگوی مدیران موزه‌های DMA و Nasher در تگزاس",
-      "url": "https://www.archdaily.com/1188062/dma-nasher-and-modern-art-museum-fort-worth-directors-in-conversation",
-      "source": "ArchDaily",
-      "published": "2026-11-04T09:05:00+00:00",
-      "summary": "مدیران موزه‌های DMA و Nasher و Modern Art Museum Fort Worth گردهم می‌آیند. این نشست به تحول چشم‌انداز فرهنگی و مخاطبان نسل جدید در North Texas می‌پردازد. موزه در تلاشند تا خود را با نیازهای جدید بازدیدکنندگان همگام کنند.",
-      "keywords": [
-        "گفتگوی تخصصی",
-        "مدیریت موزه",
-        "چشم‌انداز فرهنگی"
-      ],
-      "category": "همایش‌ها و رویدادها",
-      "importance": "پایین"
-    },
-    {
-      "title": "تاثیر نیازهای آزمایشگاهی بر طراحی ساختمان‌های تحقیقاتی",
-      "url": "https://www.archdaily.com/1187930/the-invisible-brief-how-laboratory-needs-shape-research-buildings",
-      "source": "ArchDaily",
-      "published": "2026-11-04T07:30:00+00:00",
-      "summary": "ارتعاشات میکروسکوپی زمین بر تجهیزات اندازه‌گیری در مقیاس نانو در آزمایشگاه‌ها تاثیر می‌گذارند. نیازهای خاص این ابزارها نحوه طراحی و ساخت بناهای پژوهشی را تغییر می‌دهد. این الزامات پنهان، نقش مهمی در معماری آزمایشگاهی ایفا می‌کنند.",
-      "keywords": [
-        "طراحی آزمایشگاه",
-        "ساختمان تحقیقاتی",
-        "ارتعاشات زمین",
-        "طراحی صنعتی"
-      ],
-      "category": "طراحی صنعتی",
-      "importance": "پایین"
-    },
-    {
-      "title": "معرفی پروژه Black Miller House اثر Three Sixty Architecture",
-      "url": "https://www.archdaily.com/1187590/black-miller-house-three-sixty-architecture",
-      "source": "ArchDaily",
-      "published": "2026-11-04T07:00:00+00:00",
-      "summary": "خانه Black Miller House به شکل مجموعه‌ای از کوشک‌های مدرن در زمینی ۳۲ هکتاری در خط ساحلی طراحی شده است. استودیوی Three Sixty Architecture بخش‌هایی از بنای قبلی را حفظ کرده و بال‌های جدیدی به آن افزوده است. این پروژه بازتابی از معماری سازگار با اقلیم و طبیعت اطراف است.",
-      "keywords": [
-        "اقلیم ساحلی",
-        "کوشک مدرن",
-        "بازسازی خانه",
-        "معماری ساحلی"
-      ],
-      "category": "سایر",
-      "importance": "متوسط"
-    },
-    {
-      "title": "چالش‌های مدیریت متریال در نرم‌افزار Revit و BIM",
-      "url": "https://www.archdaily.com/1187161/why-bim-still-doesnt-know-what-your-building-is-made-of",
-      "source": "ArchDaily",
-      "published": "2026-11-04T06:45:00+00:00",
-      "summary": "جابه‌جایی یک دیوار در Revit تمامی پلان‌ها و مقاطع را به روز می‌کند. با این حال تغییر متریال همچنان تیم‌ها را درگیر چک کردن دستی اسناد و جداول می‌سازد. روند مدیریت مشخصات مواد در BIM هنوز با چالش‌های فنی روبرو است.",
-      "keywords": [
-        "نرم‌افزار Revit",
-        "مدل‌سازی BIM",
-        "مدیریت متریال",
-        "تکنولوژی"
-      ],
-      "category": "تکنولوژی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "بررسی معماری و مسکن اجتماعی در آمریکای لاتین",
-      "url": "https://www.archdaily.com/1188054/latin-america-in-focus-this-month-in-architecture-social-housing-and-heritage-recovery",
-      "source": "ArchDaily",
-      "published": "2026-11-04T06:30:00+00:00",
-      "summary": "معماری در آمریکای لاتین به بستری برای گفتگو درباره سکونت و هویت فرهنگی تبدیل شده است. این رویدادها بر بازآفرینی میراث تاریخی و شیوه‌های نوین معماری تمرکز دارند. ارتباط میان محیط ساخته‌شده و بستر آن از محورهای اصلی این مباحث است.",
-      "keywords": [
-        "مسکن اجتماعی",
-        "میراث فرهنگی",
-        "آمریکای لاتین",
-        "هویت فرهنگی"
-      ],
-      "category": "همایش‌ها و رویدادها",
-      "importance": "پایین"
-    },
-    {
-      "title": "طراحی پروژه Súria Library توسط Javier de las Heras Solé",
-      "url": "https://www.archdaily.com/1187981/suria-library-javier-de-las-heras-sole",
-      "source": "ArchDaily",
-      "published": "2026-11-04T06:00:00+00:00",
-      "summary": "کتابخانه Súria Library فضایی عمومی برای تجمع و تعامل شهروندان فراهم کرده است. طراح آن Javier de las Heras Solé با تکرار الگوها از فرم‌های پیچیده پرهیز کرده است. تمرکز اصلی این معماری بر نحوه استفاده مردم از فضای شهری معطوف شده است.",
-      "keywords": [
-        "کتابخانه عمومی",
-        "فضای شهری",
-        "الگوی معماری",
-        "طراحی عمومی"
-      ],
-      "category": "سایر",
-      "importance": "متوسط"
-    },
-    {
-      "title": "معرفی ۱۱ برنده مسابقه The Architecture Drawing Prize ۲۰۲۶",
-      "url": "https://www.archdaily.com/1188046/the-architecture-drawing-prize-2026-recognizes-11-distinct-drawings",
-      "source": "ArchDaily",
-      "published": "2026-11-04T05:30:00+00:00",
-      "summary": "جایزه The Architecture Drawing Prize از سال ۲۰۱۷ با هدف تجلیل از هنر ترسیم معماری برگزار می‌شود. ۱۱ برنده دوره ۲۰۲۶ این رویداد مشخص شده‌اند. این مسابقه با همکاری Make Architects و Sir John Soane's Museum و WAF و Iris Ceramica برگزار می‌شود.",
-      "keywords": [
-        "ترسیم معماری",
-        "مسابقه معماری",
-        "جایزه طراحی",
-        "برندگان ۲۰۲۶"
-      ],
-      "category": "مسابقات طراحی",
-      "importance": "بالا"
-    },
-    {
-      "title": "آغاز هشتمین دوره نمایشگاه معماری Time Space Existence ۲۰۲۷",
-      "url": "https://www.archdaily.com/1187828/time-space-existence-2027-asks-what-it-means-to-design-with-change",
-      "source": "ArchDaily",
-      "published": "2026-11-04T05:00:00+00:00",
-      "summary": "بینال معماری Time Space Existence برای هشتمین دوره خود با بیش از ۲۰۰ شرکت‌کننده بازمی‌گردد. این رویداد در سه بنای تاریخی از جمله Palazzo Mora و Palazzo Bembo برگزار خواهد شد. موضوع اصلی این دوره بررسی مفهوم طراحی بر اساس تغییرات است.",
-      "keywords": [
-        "بینال معماری",
-        "نمایشگاه معماری",
-        "طراحی با تغییر",
-        "رویداد بین‌المللی"
-      ],
-      "category": "همایش‌ها و رویدادها",
-      "importance": "بالا"
-    },
-    {
-      "title": "بررسی حیاتی دوباره بنای عمومی Drill Hall در Johannesburg",
-      "url": "https://www.archdaily.com/1187924/the-work-of-keeping-a-public-building-public-the-drill-hall-in-johannesburg",
-      "source": "ArchDaily",
-      "published": "2026-11-04T04:00:00+00:00",
-      "summary": "پایداری و حیات یک بنای عمومی پس از اتمام ساخت به نحوه استفاده و روابط درون آن بستگی دارد. پروژه Drill Hall در Johannesburg نمونه‌ای از حفظ ماهیت عمومی بنا در طول زمان است. مدیریت تعاملات اجتماعی نقش مهمی در زنده نگه‌داشتن این معمار‌ی‌ها ایفا می‌کند.",
-      "keywords": [
-        "بنای عمومی",
-        "تعاملات اجتماعی",
-        "حفظ معماری",
-        "فضای شهری"
-      ],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "رونمایی از پروژه Villa Sahar اثر Mahfoud Laasri Architecte - MLA",
-      "url": "https://www.archdaily.com/1187663/villa-sahar-mahfoud-laasri-architecte-mla",
-      "source": "ArchDaily",
-      "published": "2026-11-04T03:00:00+00:00",
-      "summary": "خانه ویلایی Villa Sahar توسط دفتر Mahfoud Laasri Architecte - MLA در Casablanca طراحی شده است. نمای اصلی این بنا رو به شرق قرار دارد و نور صبحگاهی را به داخل هدایت می‌کند. مفهوم کلی طرح بر اساس تعادل میان جِرم، شفافیت و طبیعت شکل گرفته است.",
-      "keywords": [
-        "خانه ویلایی",
-        "طراحی نما",
-        "تعادل و شفافیت",
-        "معماری مسکونی"
-      ],
-      "category": "سایر",
-      "importance": "متوسط"
-    },
-    {
-      "title": "مخالفت شدید رای‌دهندگان با توسعه مراکز داده و AI",
+      "title": "نارضایتی رای‌دهندگان از مراکز داده و توسعه AI",
       "url": "https://thedieline.com/what-we-learned-from-the-2026-midterms-about-data-centers-and-ai-voters-really-hate-them/",
       "source": "The Dieline",
       "published": "2026-11-04T22:41:27+00:00",
-      "summary": "نتایج انتخابات میان‌دوره‌ای ۲۰۲۶ نشان‌دهنده واکنش منفی شدید مردم به افزایش مراکز داده و فناوری AI است. مصرف بالای انرژی و هزینه‌های اقتصادی از دلایل اصلی نگرانی مردم به شمار می‌روند. این مسئله می‌تواند سیاست‌گذاری‌های آینده در حوزه تکنولوژی را تحت تاثیر قرار دهد.",
+      "summary": "نتایج میان‌دوره‌ای ۲۰۲۶ نشان می‌دهد رای‌دهندگان علاوه بر تورم، از توسعه مراکز داده و تکنولوژی AI ناراضی هستند. این گزارش به تحلیل واکنش‌های عمومی پرداخته است.",
       "keywords": [
         "مراکز داده",
         "هوش مصنوعی",
-        "مصرف انرژی",
-        "سیاست‌گذاری تکنولوژی"
+        "افکار عمومی"
       ],
       "category": "هوش مصنوعی در طراحی",
       "importance": "متوسط"
     },
     {
-      "title": "Canva Latest Tech Company To Announce Major Layoffs As Demand Weakens",
+      "title": "تعدیل نیروی گسترده در شرکت Canva به دلیل کاهش تقاضا",
       "url": "https://thedieline.com/canva-latest-tech-company-to-announce-major-layoffs-as-demand-weakens/",
       "source": "The Dieline",
       "published": "2026-11-04T18:06:40+00:00",
-      "summary": "Creative software firm Canva is the latest tech company announcing significant layoffs. The post Canva Latest Tech Company To Announce Major Layoffs As Demand Weakens appeared first on DIELINE .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
+      "summary": "شرکت Canva جدیدترین کمپانی فناوری است که تعدیل نیروی گسترده‌ای را اعلام کرد. کاهش تقاضا در بازار نرم‌افزارهای خلاقانه علت اصلی این تصمیم است.",
+      "keywords": [
+        "تعدیل نیرو",
+        "نرم‌افزار خلاقیت",
+        "بازار فناوری"
+      ],
+      "category": "کسب‌وکار",
+      "importance": "متوسط"
     },
     {
-      "title": "Young Jerks Adds Tropical Vibes To Sunr Flavor Crystal Drink Mixes",
+      "title": "طراحی جدید استودیوی Young Jerks برای نوشیدنی‌های Sunr",
       "url": "https://thedieline.com/young-jerks-adds-tropical-vibes-to-sunr-flavor-crystal-drink-mixes/",
       "source": "The Dieline",
       "published": "2026-11-04T16:21:17+00:00",
-      "summary": "Premixed cocktails are popular in part because they don’t require buying all the ingredients to make one or two drinks. Depending on the recipe, a drink might require one (or several) juices, bottles of premixes, often expensive spirits and liqueurs, and perhaps a bottle of bitters that will sit around forever. Ready-to-drink (RTD) cocktails, however, […] The post Young Jerks Adds Tropical Vibes To Sunr Flavor Crystal Drink Mixes appeared first on DIELINE .",
-      "keywords": [],
-      "category": "سایر",
+      "summary": "استودیوی Young Jerks بسته‌بندی جدیدی با حس‌و‌حال استوایی برای پودرهای نوشیدنی Sunr طراحی کرد. این طرح برای جلب توجه در بازار نوشیدنی‌های آماده ارائه شده است.",
+      "keywords": [
+        "طراحی بسته‌بندی",
+        "نوشیدنی",
+        "هویت بصری"
+      ],
+      "category": "بسته‌بندی",
       "importance": "پایین"
     },
     {
-      "title": "Stout Collective’s Matt Tanaka Charts American Beer Branding Over the Last Decade",
+      "title": "بررسی روند ۱۰ ساله برندسازی آبجو توسط Matt Tanaka",
       "url": "https://thedieline.com/stout-collectives-matt-tanaka-charts-american-beer-branding-over-the-last-decade/",
       "source": "The Dieline",
       "published": "2026-11-04T14:23:06+00:00",
-      "summary": "The founder and CEO of Stout Collective in Chicago reflects on the evolution of beer branding and packaging design he's experienced firsthand throughout his career. The post Stout Collective’s Matt Tanaka Charts American Beer Branding Over the Last Decade appeared first on DIELINE .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
+      "summary": "بنیان‌گذار Stout Collective تحولات برندسازی و طراحی بسته‌بندی را در یک دهه اخیر بررسی کرده است. این نگاه به تغییرات ذائقه بصری مخاطبان اشاره دارد.",
+      "keywords": [
+        "برندسازی",
+        "طراحی بسته‌بندی",
+        "هویت بصری"
+      ],
+      "category": "بسته‌بندی",
+      "importance": "متوسط"
     },
     {
-      "title": "Americans Are Drinking Less, So Poco Vino Bet on a Smaller Bottle and Sold 2 Million Right Away",
+      "title": "فروش ۲ میلیونی Poco Vino با طراحی شیشه تک‌نفره",
       "url": "https://thedieline.com/americans-are-drinking-less-so-poco-vino-bet-on-a-smaller-bottle-and-sold-2-million-right-away/",
       "source": "The Dieline",
       "published": "2026-11-04T12:54:07+00:00",
-      "summary": "Soft Machine built Poco Vino, a single-serve wine in a perfume-vial bottle, from scratch, and it sold two million units across 12 countries in year one. The post Americans Are Drinking Less, So Poco Vino Bet on a Smaller Bottle and Sold 2 Million Right Away appeared first on DIELINE .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
+      "summary": "آژانس Soft Machine برند Poco Vino را در شیشه‌هایی شبیه عطر برای نوشیدنی تک‌نفره طراحی کرد. این محصول در سال اول بیش از ۲ میلیون عدد در ۱۲ کشور فروخت.",
+      "keywords": [
+        "طراحی بسته‌بندی",
+        "نوآوری در محصول",
+        "بطری تک‌نفره"
+      ],
+      "category": "بسته‌بندی",
+      "importance": "بالا"
     },
     {
-      "title": "Are the Most Confident Wine Labels Getting Quieter?",
+      "title": "طراحی برجسته و مینیمال برچسب توسط آژانس Atipus",
       "url": "https://thedieline.com/are-the-most-confident-wine-labels-getting-quieter/",
       "source": "The Dieline",
       "published": "2026-11-04T12:50:52+00:00",
-      "summary": "Atipus refreshed Celler Hidalgo Albert’s Manel Priorat label with blind embossing, textured paper, typewriter type, and a serrated edge that rewards a closer look. The post Are the Most Confident Wine Labels Getting Quieter? appeared first on DIELINE .",
+      "summary": "آژانس Atipus برچسب جدیدی برای Celler Hidalgo Albert با کاغذ بافت‌دار و حک برجسته بدون رنگ طراحی کرد. این طرح بر سادگی و جزئیات ملموس تمرکز دارد.",
+      "keywords": [
+        "طراحی لیبل",
+        "بسته‌بندی مینیمال",
+        "حک برجسته"
+      ],
+      "category": "بسته‌بندی",
+      "importance": "پایین"
+    },
+    {
+      "title": "پروژه مسکونی جدید استودیوی Förstberg Ling در سوئد",
+      "url": "https://www.archdaily.com/1187773/house-with-rope-and-ladder-forstberg-ling",
+      "source": "ArchDaily",
+      "published": "2026-11-05T06:00:00+00:00",
+      "summary": "استودیوی Förstberg Ling پروژه‌ای شامل بنای سنتی و حیاط دایره‌ای در سوئد طراحی کرد. این طرح محدودیت‌های سخت‌گیرانه ساخت‌وساز منطقه‌ای را رعایت کرده است.",
+      "keywords": [
+        "طراحی معماری",
+        "خانه مسکونی",
+        "حیاط دایره‌ای"
+      ],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "معرفی ۱۲ پروژه برنده جایزه BIAU و استادیوم San Siro",
+      "url": "https://www.archdaily.com/1188109/milans-new-san-siro-stadium-and-the-biaus-12-awarded-projects-this-weeks-review",
+      "source": "ArchDaily",
+      "published": "2026-11-05T05:30:00+00:00",
+      "summary": "به مناسبت World Cities Day پروژه‌های برتر مسابقه BIAU و طرح استادیوم San Siro مرور شدند. این رویداد بر بهبود شرایط مسکن و خدمات شهری تمرکز داشت.",
+      "keywords": [
+        "جوایز معماری",
+        "طراحی شهری",
+        "استادیوم"
+      ],
+      "category": "جوایز طراحی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "ورود بافت‌های هتلی به طراحی داخلی محیط‌های کار",
+      "url": "https://www.archdaily.com/1187552/bringing-hospitality-inspired-textures-into-workplace-interiors",
+      "source": "ArchDaily",
+      "published": "2026-11-05T05:00:00+00:00",
+      "summary": "مدیر طراحی شرکت Gensler از گرایش جدید به استفاده از حس‌وحال هتل‌ها در دفاتر کار می‌گوید. چوب، چرم و متریال‌های لمسی فضای کاری گرم‌تری ایجاد می‌کنند.",
+      "keywords": [
+        "طراحی داخلی",
+        "محیط کار",
+        "متریال"
+      ],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "برنامه‌ریزی شهر باغی Belmopan در پایتخت جدید Belize",
+      "url": "https://www.archdaily.com/1187926/a-garden-city-in-the-caribbean-planning-belizes-new-capital-belmopan",
+      "source": "ArchDaily",
+      "published": "2026-11-05T04:00:00+00:00",
+      "summary": "تاریخچه برنامه‌ریزی شهری Belmopan به عنوان پایتخت جدید کشور Belize بررسی شده است. این طرح الگوی شهر باغی را در حوزه کارائیب پیاده کرد.",
+      "keywords": [
+        "شهرسازی",
+        "برنامه‌ریزی شهری",
+        "شهر باغی"
+      ],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "طراحی خانه Khao Phra Tamnak توسط SPACE | STORY | STUDIO",
+      "url": "https://www.archdaily.com/1187736/khao-phra-tamnak-house-space-story-studio",
+      "source": "ArchDaily",
+      "published": "2026-11-05T03:00:00+00:00",
+      "summary": "این خانه بر روی تپه‌ای آرام و بر اساس یک دیاگرام طراحی انعطاف‌پذیر شکل گرفته است. پروژه با توجه به توپوگرافی زمین و نیازهای خانواده به فضای وسیع توسعه یافته است.",
+      "keywords": [
+        "طراحی معماری",
+        "خانه مسکونی",
+        "شیب زمین"
+      ],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "پروژه مسکونی Homes Around Trees توسط architectureRED",
+      "url": "https://www.archdaily.com/1187952/homes-around-trees-architecturered",
+      "source": "ArchDaily",
+      "published": "2026-11-05T02:00:00+00:00",
+      "summary": "این پروژه مسکونی در هند، رویکرد متفاوتی نسبت به شهرنشینی سریع و کمبود زمین ارائه می‌دهد. استودیوی architectureRED بر حفظ درختان و احیای مفهوم واقعی خانه تمرکز کرده است.",
+      "keywords": [
+        "مسکن شهری",
+        "معماری سبز",
+        "حفظ درختان"
+      ],
+      "category": "پایداری و محیط زیست",
+      "importance": "متوسط"
+    },
+    {
+      "title": "بازسازی آپارتمان Tabasco 267 توسط CAAM Arquitectos",
+      "url": "https://www.archdaily.com/1188090/tabasco-267-apartment-caam-arquitectos",
+      "source": "ArchDaily",
+      "published": "2026-11-04T19:00:00+00:00",
+      "summary": "این پروژه شامل بازسازی یک آپارتمان ۹۰ متر مربعی در محله Roma Norte است. استودیوی CAAM Arquitectos با استفاده از ساختار موجود، پلان، نورپردازی و مبلمان را بازطراحی کرده است.",
+      "keywords": [
+        "بازسازی داخلی",
+        "آپارتمان کوچک",
+        "طراحی داخلی"
+      ],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "استودیوی Sewing Atelier توسط Atelier 77 و Matéria Base",
+      "url": "https://www.archdaily.com/1034969/sewing-atelier-studio-atelier-77-plus-materia-base",
+      "source": "ArchDaily",
+      "published": "2026-11-04T17:00:00+00:00",
+      "summary": "این کارگاه خیاطی در محله تاریخی Santa Teresa در ریو دو ژانیرو واقع شده است. پروژه بر روی سکویی با دیوار سنگی باقدمت بیش از ۲۰۰ سال ساخته شده که مفهوم اصلی طرح را شکل می‌دهد.",
+      "keywords": [
+        "استودیو خیاطی",
+        "بافت تاریخی",
+        "طراحی فضای کار"
+      ],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "طراحی خانه Coco House توسط CVA Arquitectos",
+      "url": "https://www.archdaily.com/1188096/coco-house-cva-arquitectos",
+      "source": "ArchDaily",
+      "published": "2026-11-04T15:00:00+00:00",
+      "summary": "این پروژه به عنوان یک پناهگاه آخر هفته با هدف همزیستی کامل معماری و طبیعت طراحی شده است. معمار پروژه آن را برای زندگی شخصی خود و سگش Coco خلق کرده است.",
+      "keywords": [
+        "خانه طبیعت محور",
+        "پناهگاه آخر هفته",
+        "معماری همساز با اقلیم"
+      ],
+      "category": "پایداری و محیط زیست",
+      "importance": "متوسط"
+    },
+    {
+      "title": "House in Beloura / ARX Portugal Arquitectos",
+      "url": "https://www.archdaily.com/1035360/house-in-beloura-arx-portugal-arquitectos",
+      "source": "ArchDaily",
+      "published": "2026-11-04T13:00:00+00:00",
+      "summary": "The house is positioned on the site with the aim of responding in a relatively simple way to two central questions: How can it capture a panoramic view of the horizon, which also brings us the presence of the sea? How can it embrace outdoor spaces that simultaneously protect the residents' privacy from neighbors' views and ensure comfort on days of strong wind?",
       "keywords": [],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "LEGO’s Biggest Ever “Godzilla” Build Hits The Shelves, Defeating Even The Sagrada Familia In Size",
+      "title": "کیبورد جدید Casio امکان نواختن بدون نت را فراهم می‌کند",
+      "url": "https://www.yankodesign.com/2026/11/05/casios-keyboard-lets-you-jam-without-knowing-the-notes/?utm_source=rss&utm_medium=rss&utm_campaign=casios-keyboard-lets-you-jam-without-knowing-the-notes",
+      "source": "Yanko Design",
+      "published": "2026-11-05T11:07:53+00:00",
+      "summary": "شرکت Casio کیبورد جدیدی طراحی کرده که فاصله بین علاقه به موسیقی و مهارت نواختن را پر می‌کند. این ابزار به کاربران اجازه می‌دهد بدون دانش قبلی نت‌ها به نواختن بپردازند.",
+      "keywords": [
+        "کیبورد Casio",
+        "ساز موسیقی",
+        "طراحی تعاملی"
+      ],
+      "category": "لوازم الکترونیکی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "ساعت Gradient Watch برند LAWA با دیسک‌های چرخان",
+      "url": "https://www.yankodesign.com/2026/11/05/lawas-gradient-watch-uses-rotating-discs-instead-of-hands/?utm_source=rss&utm_medium=rss&utm_campaign=lawas-gradient-watch-uses-rotating-discs-instead-of-hands",
+      "source": "Yanko Design",
+      "published": "2026-11-05T10:15:19+00:00",
+      "summary": "ساعت مچی Gradient Watch محصول استودیوی LAWA Design عقربه‌های سنتی و شماره‌ها را حذف کرده است. این ساعت از دیسک‌های چرخان رنگی برای نمایش زمان استفاده می‌کند.",
+      "keywords": [
+        "ساعت مچی",
+        "LAWA Design",
+        "طراحی مینیمال"
+      ],
+      "category": "طراحی اکسسوری",
+      "importance": "متوسط"
+    },
+    {
+      "title": "افشای مشخصات دوربین Insta360 Ace Pro 3 برای ولگ",
+      "url": "https://www.yankodesign.com/2026/11/05/insta360-ace-pro-3-leak-teases-vlogs-without-a-screen-flip/?utm_source=rss&utm_medium=rss&utm_campaign=insta360-ace-pro-3-leak-teases-vlogs-without-a-screen-flip",
+      "source": "Yanko Design",
+      "published": "2026-11-05T09:15:13+00:00",
+      "summary": "تصاویر افشاشده از Insta360 Ace Pro 3 قاب هشت‌ضلعی لنز با برند Leica را نشان می‌دهد. این دوربین اکشن فرایند فیلمبرداری ولگ را تسهیل می‌کند.",
+      "keywords": [
+        "دوربین اکشن",
+        "Insta360",
+        "فیلمبرداری ولگ"
+      ],
+      "category": "لوازم الکترونیکی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "ویدیو پروژکتور تاشو Aurzen ZIP Pro با طرح Basquiat",
+      "url": "https://www.yankodesign.com/2026/11/04/aurzen-zip-pro-puts-a-foldable-projector-and-basquiat-art-on-your-holiday-gift-list/?utm_source=rss&utm_medium=rss&utm_campaign=aurzen-zip-pro-puts-a-foldable-projector-and-basquiat-art-on-your-holiday-gift-list",
+      "source": "Yanko Design",
+      "published": "2026-11-05T02:45:49+00:00",
+      "summary": "پروژکتور جدید Aurzen ZIP Pro دارای پایه تاشو و بدنه مجهز به اثر هنری Basquiat است. این دستگاه قابل حمل گزینه‌ای مناسب برای پخش فیلم در محیط‌های مختلف به شمار می‌رود.",
+      "keywords": [
+        "پروژکتور تاشو",
+        "Aurzen",
+        "هنر و طراحی"
+      ],
+      "category": "لوازم الکترونیکی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "رونمایی LEGO از بزرگ‌ترین ست تاریخ خود با مدل Godzilla",
       "url": "https://www.yankodesign.com/2026/11/04/legos-biggest-ever-godzilla-build-hits-the-shelves-defeating-even-the-sagrada-familia-in-size/?utm_source=rss&utm_medium=rss&utm_campaign=legos-biggest-ever-godzilla-build-hits-the-shelves-defeating-even-the-sagrada-familia-in-size",
       "source": "Yanko Design",
       "published": "2026-11-05T01:30:24+00:00",
-      "summary": "LEGO’s Biggest Ever “Godzilla” Build Hits The Shelves, Defeating Even The Sagrada Familia In Size If you bought LEGO’s Sagrada Família 3 days ago and cleared a whole shelf for it, I have bad news. LEGO just revealed something taller....",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
+      "summary": "شرکت LEGO بزرگ‌ترین ست تاریخ خود را با الهام از Godzilla معرفی کرد. این مدل حتی از نظر ارتفاع از ست Sagrada Familia نیز بزرگ‌تر است. این محصول غول‌پیکر به‌زودی وارد بازار می‌شود.",
+      "keywords": [
+        "ست LEGO",
+        "مدل‌سازی",
+        "طراحی اسباب‌بازی"
+      ],
+      "category": "طراحی محصول",
+      "importance": "متوسط"
     },
     {
-      "title": "This Minimalist House in Japan Turns the Walk to the Shower Into a Landscape Moment",
+      "title": "طراحی خانه‌ای مینیمالیستی در ژاپن با راهروی شیشه‌ای حمام",
       "url": "https://www.yankodesign.com/2026/11/04/this-minimalist-house-in-japan-turns-the-walk-to-the-shower-into-a-landscape-moment/?utm_source=rss&utm_medium=rss&utm_campaign=this-minimalist-house-in-japan-turns-the-walk-to-the-shower-into-a-landscape-moment",
       "source": "Yanko Design",
       "published": "2026-11-05T00:30:32+00:00",
-      "summary": "This Minimalist House in Japan Turns the Walk to the Shower Into a Landscape Moment At Minimalist House in Japan, the route to the shower passes through a glass corridor between two buildings. That short journey captures the thinking behind...",
-      "keywords": [],
+      "summary": "در این خانه مینیمالیستی، مسیر دسترسی به حمام از میان یک راهروی شیشه‌ای بین دو ساختمان می‌گذرد. این پیاده‌روی کوتاه تجربه ملموسی از طبیعت و چشم‌انداز را ایجاد می‌کند. این طرح پیوند میان معماری و محیط را تقویت می‌کند.",
+      "keywords": [
+        "معماری مینیمال",
+        "راهروی شیشه‌ای",
+        "طراحی خانه"
+      ],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "This AirPods Open concept puts Apple’s famous stem behind your ear",
+      "title": "طرح مفهومی AirPods Open با پایه پشت گوش",
       "url": "https://www.yankodesign.com/2026/11/04/this-airpods-open-concept-puts-apples-famous-stem-behind-your-ear/?utm_source=rss&utm_medium=rss&utm_campaign=this-airpods-open-concept-puts-apples-famous-stem-behind-your-ear",
       "source": "Yanko Design",
       "published": "2026-11-04T23:30:37+00:00",
-      "summary": "This AirPods Open concept puts Apple’s famous stem behind your ear Apple has a long habit of showing up late to the party and somehow leaving with everyone’s attention. It wasn’t first to MP3 players, smartwatches,...",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
+      "summary": "یک طرح مفهومی جدید برای AirPods Open پایه‌ی معروف محصولات Apple را به پشت گوش منتقل کرده است. این تغییر، ارگونومی بهتری هنگام تحرک و فعالیت ایجاد می‌کند. این کانسبت نگاه جدیدی به ساختار ایرفون‌های باز ارائه می‌دهد.",
+      "keywords": [
+        "طراحی مفهومی",
+        "ارگونومی",
+        "ایرفون"
+      ],
+      "category": "لوازم الکترونیکی",
+      "importance": "متوسط"
     },
     {
-      "title": "iPhone Duo 2 images leak online, hinting at a 3-camera setup and even thinner body",
+      "title": "افشای تصاویر iPhone Duo 2 با بدنه باریک‌تر",
       "url": "https://www.yankodesign.com/2026/11/04/iphone-duo-2-images-leak-online-hinting-at-a-3-camera-setup-and-even-thinner-body/?utm_source=rss&utm_medium=rss&utm_campaign=iphone-duo-2-images-leak-online-hinting-at-a-3-camera-setup-and-even-thinner-body",
       "source": "Yanko Design",
       "published": "2026-11-04T21:30:50+00:00",
-      "summary": "iPhone Duo 2 images leak online, hinting at a 3-camera setup and even thinner body Apple’s first foldable has been on shelves for about two weeks, and the internet has already moved on to the sequel. A purported prototype of...",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
+      "summary": "تصاویر افشاشده از iPhone Duo 2 بدنه‌ای باریک‌تر و سیستم دوربین سه‌گانه را نشان می‌دهند. تنها چند هفته پس از عرضه نخستین گوشی تاشوی Apple، شایعات نسل بعدی آن آغاز شده است. این تغییرات بر بهینه‌سازی ضخامت بدنه تمرکز دارند.",
+      "keywords": [
+        "گوشی تاشو",
+        "طراحی گوشی",
+        "پروتوتایپ"
+      ],
+      "category": "لوازم الکترونیکی",
+      "importance": "متوسط"
     },
     {
-      "title": "Razer’s Limited-Edition PS5 Controller combines magnesium alloy frame with pro-level precision",
+      "title": "رونمایی Razer از کنترلر PS5 با فریم منیزیمی",
       "url": "https://www.yankodesign.com/2026/11/04/razers-limited-edition-ps5-controller-combines-magnesium-alloy-frame-with-pro-level-precision/?utm_source=rss&utm_medium=rss&utm_campaign=razers-limited-edition-ps5-controller-combines-magnesium-alloy-frame-with-pro-level-precision",
       "source": "Yanko Design",
       "published": "2026-11-04T20:20:01+00:00",
-      "summary": "Razer’s Limited-Edition PS5 Controller combines magnesium alloy frame with pro-level precision Razer is taking its high-performance PlayStation controller lineup into premium collector territory with the Raiju V3 Pro Signature Edition. Combining a magnesium alloy frame, an...",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
+      "summary": "برند Razer از کنترلر نسخه محدود Raiju V3 Pro Signature Edition برای PS5 رونمایی کرد. این محصول دارای فریمی از جنس آلیاژ منیزیم و دقت ساخت بسیار بالا است. این متریال موجب کاهش وزن و افزایش مقاومت بدنه می‌شود.",
+      "keywords": [
+        "کنترلر بازی",
+        "آلیاژ منیزیم",
+        "تجهیزات گیمینگ"
+      ],
+      "category": "لوازم الکترونیکی",
+      "importance": "متوسط"
     },
     {
-      "title": "DA1 Camera Prints Photos to Give Away Without a Screen or App",
+      "title": "دوربین DA1 Camera بدون نیاز به صفحه نمایش عکس می‌چاپد",
       "url": "https://www.yankodesign.com/2026/11/04/da1-camera-prints-photos-to-give-away-without-a-screen-or-app/?utm_source=rss&utm_medium=rss&utm_campaign=da1-camera-prints-photos-to-give-away-without-a-screen-or-app",
       "source": "Yanko Design",
       "published": "2026-11-04T19:20:52+00:00",
-      "summary": "DA1 Camera Prints Photos to Give Away Without a Screen or App I take a lot of pictures wherever I go or even when I just stay at home and find something interesting I want to capture....",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
+      "summary": "دوربین DA1 Camera بدون نیاز به صفحه نمایش یا اپلیکیشن موبایل عکس‌ها را فوری چاپ می‌کند. این محصول برای اشتراک‌گذاری سریع و فیزیکی تصاویر طراحی شده است. عملکرد ساده آن حس عکاسی آنالوگ را بازآفرینی می‌کند.",
+      "keywords": [
+        "دوربین فوری",
+        "چاپ عکس",
+        "طراحی ساده"
+      ],
+      "category": "لوازم الکترونیکی",
+      "importance": "متوسط"
     },
     {
-      "title": "From a Huggable Panda to a Bird-Shaped Chime: 5 Designs for Slower Living",
+      "title": "معرفی ۵ طرح خلاقانه برای سبک زندگی آرام",
       "url": "https://www.yankodesign.com/2026/11/04/from-a-huggable-panda-to-a-bird-shaped-chime-5-designs-for-slower-living/?utm_source=rss&utm_medium=rss&utm_campaign=from-a-huggable-panda-to-a-bird-shaped-chime-5-designs-for-slower-living",
       "source": "Yanko Design",
       "published": "2026-11-04T18:20:31+00:00",
-      "summary": "From a Huggable Panda to a Bird-Shaped Chime: 5 Designs for Slower Living As digital technologies accelerate daily life, there is a growing cultural shift toward products that encourage slower, more intentional experiences. Designers are responding by creating...",
-      "keywords": [],
-      "category": "سایر",
+      "summary": "طراحان با خلق محصولاتی مانند زنگوله پرنده‌ای و عروسک پاندا به دنبال تعامل آرام‌تر با اشیاء هستند. این ۵ پروژه برای کاهش سرعت زندگی دیجیتال طراحی شده‌اند. این رویکرد به نقش پررنگ طراحی احساس‌گرا می‌پردازد.",
+      "keywords": [
+        "طراحی احساس‌گرا",
+        "سبک زندگی",
+        "طراحی محصول"
+      ],
+      "category": "طراحی محصول",
       "importance": "پایین"
     },
     {
-      "title": "MTPEAK One-All is a limited edition trike sports car with a turbo engine and carbon-fiber body",
+      "title": "خودروی سه چرخ اسپرت MTPEAK One-All با بدنه کربنی",
       "url": "https://www.yankodesign.com/2026/11/04/mtpeak-one-all-is-a-limited-edition-trike-sports-car-with-a-turbo-engine-and-carbon-fiber-body/?utm_source=rss&utm_medium=rss&utm_campaign=mtpeak-one-all-is-a-limited-edition-trike-sports-car-with-a-turbo-engine-and-carbon-fiber-body",
       "source": "Yanko Design",
       "published": "2026-11-04T16:20:10+00:00",
-      "summary": "MTPEAK One-All is a limited edition trike sports car with a turbo engine and carbon-fiber body Four wheels have long been the standard for sports cars, but MTPEAK is exploring a different territory with its first vehicle, the One-All. Making its...",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
+      "summary": "برند MTPEAK با معرفی خودروی سه چرخ One-All وارد دنیای خودروهای اسپرت شد. این محصول دارای بدنه فیبر کربنی و موتور توربوشارژ است. طراحی آن ساختار سنتی خودروهای چهارچرخ را به چالش می‌کشد.",
+      "keywords": [
+        "خودروی سه چرخ",
+        "فیبر کربن",
+        "طراحی خودرو"
+      ],
+      "category": "خودرو",
+      "importance": "متوسط"
     },
     {
-      "title": "Peak Design’s Charging Station Folds Flat to Charge Two Phones",
+      "title": "پایه شارژ تاشوی Peak Design برای شارژ دو گوشی",
       "url": "https://www.yankodesign.com/2026/11/04/peak-designs-charging-station-folds-flat-to-charge-two-phones/?utm_source=rss&utm_medium=rss&utm_campaign=peak-designs-charging-station-folds-flat-to-charge-two-phones",
       "source": "Yanko Design",
       "published": "2026-11-04T15:20:51+00:00",
-      "summary": "Peak Design’s Charging Station Folds Flat to Charge Two Phones Charging a phone and a pair of earbuds is easy enough, but sharing that same stand with another phone is a different matter. Peak Design’s...",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
+      "summary": "شرکت Peak Design یک پایه شارژ جدید طراحی کرده که به صورت کامل جمع و تخت می‌شود. این استند امکان شارژ هم‌زمان دو گوشی هوشمند را فراهم می‌کند. ساختار تاشو و کم‌حجم آن مناسب حمل در سفر است.",
+      "keywords": [
+        "پایه شارژ",
+        "طراحی تاشو",
+        "لوازم جانبی"
+      ],
+      "category": "لوازم الکترونیکی",
+      "importance": "متوسط"
     },
     {
-      "title": "Xbox Put a Working Series X Inside a Giant Fake Alligator",
+      "title": "جاسازی کنسول Xbox Series X در مجسمه تمساح",
       "url": "https://www.yankodesign.com/2026/11/04/xbox-put-a-working-series-x-inside-a-giant-fake-alligator/?utm_source=rss&utm_medium=rss&utm_campaign=xbox-put-a-working-series-x-inside-a-giant-fake-alligator",
       "source": "Yanko Design",
       "published": "2026-11-04T14:20:30+00:00",
-      "summary": "Xbox Put a Working Series X Inside a Giant Fake Alligator Finding a place for a game console usually means clearing a shelf, not making room for a reptile. Microsoft’s Xbox Series X-BITE puts a working...",
-      "keywords": [],
-      "category": "سایر",
+      "summary": "شرکت Microsoft در اقدامی خلاقانه یک کنسول فعال Xbox Series X را درون مجسمه تمساح قرار داد. این پروژه با نام Xbox Series X-BITE کانسپتی متفاوت از کیس بازی ارائه می‌دهد. قطعات کنسول بدون مشکل درون این سازه کار می‌کنند.",
+      "keywords": [
+        "کنسول بازی",
+        "کیس سفارشی",
+        "طراحی خلاقانه"
+      ],
+      "category": "لوازم الکترونیکی",
       "importance": "پایین"
     },
     {
@@ -453,41 +429,21 @@
       "importance": "پایین"
     },
     {
-      "title": "Pillowy Steel Furniture Without a Stitch of Upholstery",
-      "url": "https://www.yankodesign.com/2026/11/04/pillowy-steel-furniture-without-a-stitch-of-upholstery/?utm_source=rss&utm_medium=rss&utm_campaign=pillowy-steel-furniture-without-a-stitch-of-upholstery",
-      "source": "Yanko Design",
-      "published": "2026-11-04T11:07:08+00:00",
-      "summary": "Pillowy Steel Furniture Without a Stitch of Upholstery The steel in Sarah Naghawi’s JAWF collection looks caught halfway between a box and a balloon. Surfaces bulge, dip, and crease, giving rigid metal the...",
-      "keywords": [],
-      "category": "مبلمان",
-      "importance": "متوسط"
-    },
-    {
-      "title": "San Siro’s Proposed Replacement Uses a Concrete X-Frame to Support Its Sweeping Roof",
-      "url": "https://www.yankodesign.com/2026/11/04/san-siros-proposed-replacement-uses-a-concrete-x-frame-to-support-its-sweeping-roof/?utm_source=rss&utm_medium=rss&utm_campaign=san-siros-proposed-replacement-uses-a-concrete-x-frame-to-support-its-sweeping-roof",
-      "source": "Yanko Design",
-      "published": "2026-11-04T10:15:58+00:00",
-      "summary": "San Siro’s Proposed Replacement Uses a Concrete X-Frame to Support Its Sweeping Roof I’m not a fan of either AC Milan or Inter Milan, but as a football fan, visiting Stadio Giuseppe Meazza, more popularly known as San...",
+      "title": "Tatiana Egoshina finds beauty in bad typography, Italian folklore and happy accidents",
+      "url": "https://www.creativeboom.com/inspiration/tatiana-egoshina-finds-beauty-in-bad-typography-italian-folklore-and-happy-accidents/",
+      "source": "Creative Boom",
+      "published": "2026-11-05T09:00:00+00:00",
+      "summary": "From lovingly arranged shop windows to mountains illuminated with local legends, the Milan-based designer finds inspiration in unexpected places, turning everyday observations into colourful identitie...",
       "keywords": [],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "A Real Eiffel Tower Light Becomes a Lamp Without the Kitsch",
-      "url": "https://www.yankodesign.com/2026/11/04/a-real-eiffel-tower-light-becomes-a-lamp-without-the-kitsch/?utm_source=rss&utm_medium=rss&utm_campaign=a-real-eiffel-tower-light-becomes-a-lamp-without-the-kitsch",
-      "source": "Yanko Design",
-      "published": "2026-11-04T09:15:24+00:00",
-      "summary": "A Real Eiffel Tower Light Becomes a Lamp Without the Kitsch A miniature Eiffel Tower tells you where someone went, but rarely gives you much reason to look closer. I’m more interested in souvenirs that carry...",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Buy the printer, make the presents: Snapmaker’s U1 drops to $699 for Black Friday",
-      "url": "https://www.yankodesign.com/2026/11/03/buy-the-printer-make-the-presents-snapmakers-u1-drops-to-699-for-black-friday/?utm_source=rss&utm_medium=rss&utm_campaign=buy-the-printer-make-the-presents-snapmakers-u1-drops-to-699-for-black-friday",
-      "source": "Yanko Design",
-      "published": "2026-11-04T02:45:58+00:00",
-      "summary": "Buy the printer, make the presents: Snapmaker’s U1 drops to $699 for Black Friday The Snapmaker U1 drops to $699 this Black Friday, down 30% from its $999 list price, and it might be the smartest buy on your...",
+      "title": "Tomáš Brousil on how to choose typefaces that work in the real world",
+      "url": "https://www.creativeboom.com/insight/tomas-brousil-on-what-separates-a-true-type-system-from-a-merely-large-font-family/",
+      "source": "Creative Boom",
+      "published": "2026-11-05T07:00:00+00:00",
+      "summary": "The founder of Prague's Suitcase Type Foundry shares his four best tips for selecting the right fonts for your projects.\nEvery company that designs typefaces wants to show them off in the best light....",
       "keywords": [],
       "category": "سایر",
       "importance": "پایین"
@@ -518,6 +474,628 @@
       "source": "Core77",
       "published": "2026-11-04T14:05:00+00:00",
       "summary": "Las-Vegas-based robotics company Realbotix is developing these Echo robots. These are companionship robots, imbued with AI software designed to carry conversations. To cut down on costs, the 'bots are just a head and torso, absent expensive joints and limbs. Four models are in the works, named Aria, Mila, Dave and Amar. \"Every Echo talks, listens, and reacts with a personality of its own,\" the company writes. Their silicone-skinned faces are said to be lifelike, their voices natural-sounding. Here's what one of the things looks and sounds like, supposedly—this appears to be AI video rather tha",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "With a first monograph, design duo Formafantasma offer an honest look back",
+      "url": "https://www.wallpaper.com/design-interiors/formafantasma-monograph-phaidon-simone-farresin-interview",
+      "source": "Wallpaper",
+      "published": "2026-11-05T12:20:20+00:00",
+      "summary": "As the Italian design studio’s new book is released, co-founder Simone Farresin reveals the moment the meaning of design changed for him – plus what’s on his own bookshelf",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "Feast your eyes on the Wallpaper* Entertaining Issue – on sale now",
+      "url": "https://www.wallpaper.com/entertaining/december-2026-entertaining-issue-read-more",
+      "source": "Wallpaper",
+      "published": "2026-11-05T11:03:10+00:00",
+      "summary": "See out 2026 with decadent dining, homes made for hosting and a wonderful winter wardrobe, and embrace 2027 with your exclusive design horoscope; find December Wallpaper* on newsstands",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "Piaget’s new Andy Warhol watch is a tribute in ornamental stone marquetry",
+      "url": "https://www.wallpaper.com/watches-jewellery/piaget-andy-warhol-camouflage-watch",
+      "source": "Wallpaper",
+      "published": "2026-11-05T10:29:20+00:00",
+      "summary": "The new watch sees the pop artist’s Camouflage series ‘deconstructed and reinterpreted through the contemporary lens of Piaget’",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "Ones to watch: Betyle Studio searches for a talisman in every project",
+      "url": "https://www.wallpaper.com/design-interiors/interior-design/ones-to-watch-betyle-studio",
+      "source": "Wallpaper",
+      "published": "2026-11-05T08:00:00+00:00",
+      "summary": "The Marseille-based studio investigates history and archives to inform its interior design work",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "In Barcelona, a historical washerwomen’s house is restored with a clean new look",
+      "url": "https://www.wallpaper.com/architecture/residential/washerwomens-house-raul-sanchez-barcelona-spain",
+      "source": "Wallpaper",
+      "published": "2026-11-05T05:00:00+00:00",
+      "summary": "Architect Raúl Sánchez has transformed a property shaped by its history of wells and washing – Casa de las Lavanderas scrubs up beautifully",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "Lady White Co’s refreshed Los Angeles store is a minimalist haven inspired by the modernist masters",
+      "url": "https://www.wallpaper.com/fashion-beauty/lady-white-co-renovated-la-silverlake-store-woe",
+      "source": "Wallpaper",
+      "published": "2026-11-04T18:00:00+00:00",
+      "summary": "The brand, known for perfecting the classic white T-shirt, worked with WOE (Width Over Ears) on the design, which was inspired by the work of Eileen Gray, Pierre Chareau, Juliaan Lampens and Charlotte Perriand",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "‘By changing the scale, I began to see these pieces differently’: Sarah Emilie Müllertz presents a new drop of tiny Kinraden jewellery",
+      "url": "https://www.wallpaper.com/watches-jewellery/kinraden-all-things-tiny-jewellery",
+      "source": "Wallpaper",
+      "published": "2026-11-04T16:20:00+00:00",
+      "summary": "Available at the Danish brand’s space at Liberty London, the new ‘All Things Tiny’ pieces include chains, bracelets and earrings made small",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "On his travels across the American West, Ivan McClellan dives into Black cowboy culture",
+      "url": "https://www.wallpaper.com/art/photography/eight-seconds-legacy-in-motion-book-by-ivan-mcclellan",
+      "source": "Wallpaper",
+      "published": "2026-11-04T16:09:15+00:00",
+      "summary": "In a second edition of his ‘Eight Seconds’ book, with 91 previously unpublished images, the photographer reveals what Black rodeo culture looks like now",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "The new Fender x Loog Precision Bass offers ultra-compact access to the low end",
+      "url": "https://www.wallpaper.com/tech/fender-x-loog-precision-bass-and-tiny-telecaster",
+      "source": "Wallpaper",
+      "published": "2026-11-04T14:00:00+00:00",
+      "summary": "Toy or tonic? Loog is a children’s instrument brand that doesn’t skimp on quality. The company’s latest tie-in with Fender includes a tiny Telecaster and its first foray into bass",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "Damaso Mayer on offsetting geological histories with industrial finesse in design",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPakJleldad2o0QzlQdzRpVWxWdmhPdEdsaG1XUzVGTU90TzJKR2xmTV9hTW9JVnhOU2hhU0xjbXdpeTdqaTEwZXlQaG50VUM2aDFuU24xWTh3Y0VJS3lIX016c2NoZEh6R1ZKNU1xV1B2ajBxbkttWEtMS0lFZDd4aS1RSjF1dFoteXdQQ253a0FtekcycnRGR0VmWURRZ0kzMndnT1ZSaFl1N0o5UXBxUHBJVVZ5eVp0ZGVYRnZlVQ?oc=5",
+      "source": "STIRworld",
+      "published": "2026-11-05T10:06:50+00:00",
+      "summary": "",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "Industry Analysis Profiles 10 Wearable Device Manufacturers in Rapidly Expanding Global Market",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNNGJIWXZ4bHduVmprakpoZmZOai1taUpxbUhxT1kteFVUQkhlMlc0dEVDV0ZVQ2kxOG16c1FGXzlRbVNvcEFpd0VfQ1BjOGUyTGdQdkwwcUl6S21MZERpSVFHUC02UDQySXVUa3VfMTBYUHUwSW81OUFTMjRRakYycGZ5S0JPVXBzUXBQemxTRFMtZmZ6c3ZScUtJZVUwcmZXSlozX0I3b002MEUzck14LUhVU01Ya1daY1ZWeUhqeGpqWDlhRVZNVXZWdUtFTlRTUTFuM2xEWXVPdjZDSmRremNBVjI0UUk?oc=5",
+      "source": "Akron Beacon Journal",
+      "published": "2026-11-05T09:30:13+00:00",
+      "summary": "",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "Complete Buyer's Guide to Preventing Layer Delamination, Jgmaker's Top Rated ASA Filament for Industrial Design",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPYVUweDVfUE5WSE85bThrV0hvSXBCeWhWa2lJdjZjVHVGelhCblNqMlY0clNnYnJIdG9rb0dscC02TzNjU2NPS29BaVZucWF6b2ZyU2s1d1pWbkNuanBSVzBUamc1RjZjT3NCbGtFajh3UTFiOXFzTlp2SjJmVXNRcWM1VzhNOEhmOFBrZUxNaTA4cVdYSUNJRGlKUEZsaWM2emE5TXpGT3hhczA3MHh4MTR1ZWY0bUFacWJiUGdLY19xQS1YX0dpVnBLaXpKa1NGa29vdUFjbzVCakhHLXpGaWMxNE9LUW8?oc=5",
+      "source": "EIN News",
+      "published": "2026-11-05T08:36:00+00:00",
+      "summary": "",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "AI Taming Humans... \"Let's Enthusiastically Collide and Fail\" (Professor Yiyun Kang, KAIST Department of Industrial Design)",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE95aGJyVEhLV01LNlhIczZaU05XeEF4TEhTVjVDR05MQ3R0R0U3R3dqNEJ2TVhneTBfMVhVdjhYYU9idkpKQVVHYXJxTk94MXFMSHVmTnQ3Q2ZaVkFWUk5tdE5hR0l5TUxSTnZLV01n0gFmQVVfeXFMTVdCeklhWlJicFhISXFOV2RVLWRBdG5Tc1h2VlVoZUs2aWZLQ0U2eEhEbU4tNXZRME9DNFhGeFpZamNnYWlrMmdXUDFNRDREemdId2JBZEt4SjJMbHZDR2k3WHlfcnNB?oc=5",
+      "source": "SBS 뉴스",
+      "published": "2026-11-05T08:02:30+00:00",
+      "summary": "",
+      "keywords": [],
+      "category": "هوش مصنوعی در طراحی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "Business of Design Week 2026: Design in Dialogue",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNWdoVzdITEd4cDhJdE03NUFpRlloNXUwZll2cFFrblZiY08wWTJIX3JXUTFLX3ZNeWs0MHM3QnE3NXFfdlhHb3k1NVA3RWJabFNyZEhXdEhEM0JXT09lajU5SnlWMndFUjdCRjJReVh2U0FHakk5OUp4R3Z0Q3luZjhpUmw5c2JGOHc?oc=5",
+      "source": "DesignWanted",
+      "published": "2026-11-04T18:08:43+00:00",
+      "summary": "",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "مفهوم جدید AirPods پایه دستگاه را به پشت گوش منتقل می‌کند",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMXRqNmJPeHZnVTFMbURvd2RiTUdCM2t6THAtbF9LcXZ2cHJsMG9sVzR5NEI3T2dHUTAtS2lJcHpCR2sxY004NTkwVlpjakhWQWtfcmVBVmlkblVza3hiRVpVVnlmRC10VUp2ZFp0V2NrSmhZZVdRa0xsZjFXX1hIU1NLTG8?oc=5",
+      "source": "The Eastern Herald",
+      "published": "2026-11-05T11:06:45+00:00",
+      "summary": "این طرح مفهومی جدید، پایه AirPods را به بدنه پشت گوش منتقل کرده است. این تغییر باعث راحتی بیشتر و ظاهر بازتر دستگاه می‌شود. این پروژه تنها یک طرح مفهومی است و وارد بازار نخواهد شد.",
+      "keywords": [
+        "طرح مفهومی",
+        "هندزفری",
+        "طراحی ارگونومیک"
+      ],
+      "category": "لوازم الکترونیکی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "نگاهی به رویداد LA Design Week/end 2026 و ارتباطات خلاقانه آن",
+      "url": "https://design-milk.com/la-design-week-2026/",
+      "source": "Design Milk",
+      "published": "2026-11-05T12:00:26+00:00",
+      "summary": "رویداد LA Design Week/end 2026 بازدیدکنندگان را به کشف جامعه خلاق شهر دعوت می‌کند. این رویداد شامل سرامیک‌های تجربی، مبلمان قرن بیستمی و ابزارهای تعاملی است. برنامه‌های آن در محله‌های مختلف شهر برگزار می‌شوند.",
+      "keywords": [
+        "رویداد طراحی",
+        "سرامیک",
+        "مبلمان",
+        "طراحی خلاقانه"
+      ],
+      "category": "همایش‌ها و رویدادها",
+      "importance": "متوسط"
+    },
+    {
+      "title": "معرفی 2027 Colors of the Year توسط برندهای برتر رنگ",
+      "url": "https://design-milk.com/2027-colors-of-the-year/",
+      "source": "Design Milk",
+      "published": "2026-11-04T18:53:06+00:00",
+      "summary": "برندهای پیشرو تولید رنگ، طیف‌های برتر 2027 Colors of the Year را معرفی کردند. این رنگ‌ها شامل قهوه‌ای‌های خاکی، سبزهای غنی و آبی‌های ملایم هستند. این پلت‌ها روند جدید طراحی را مشخص می‌کنند.",
+      "keywords": [
+        "رنگ سال",
+        "پلت رنگی",
+        "روند طراحی",
+        "طراحی داخلی"
+      ],
+      "category": "مواد و متریال",
+      "importance": "متوسط"
+    },
+    {
+      "title": "همکاری Louis Erard و Vianney Halter برای ساخت یک ساعت خاص",
+      "url": "https://design-milk.com/louis-erard-vianney-halter-futur-anterieur/",
+      "source": "Design Milk",
+      "published": "2026-11-04T14:00:07+00:00",
+      "summary": "مدل جدید Futur Antérieur حاصل همکاری Louis Erard و Vianney Halter است. این ساعت محدود از دو موتور اتوماتیک در یک بدنه باریک بهره می‌برد. طراحی پنجره‌ای شکل آن امضای خاص Vianney Halter را به همراه دارد.",
+      "keywords": [
+        "ساعت مچی",
+        "طراحی ساعت",
+        "نسخه محدود"
+      ],
+      "category": "طراحی اکسسوری",
+      "importance": "متوسط"
+    },
+    {
+      "title": "طراحی خانه شناور مدرن در Seattle با معماری ویژه ساحلی",
+      "url": "https://design-milk.com/seattle-floating-home-hoshide-wanzer/",
+      "source": "Design Milk",
+      "published": "2026-11-04T13:00:43+00:00",
+      "summary": "این خانه شناور در Lake Union تجربه زندگی روی آب را ارتقا داده است. دکوراسیون داخلی آن از سبک Nantucket الهام گرفته شده است. سازه از مهندسی پیشرفته برای پایداری روی آب بهره می‌برد.",
+      "keywords": [
+        "خانه شناور",
+        "معماری داخلی",
+        "زندگی ساحلی"
+      ],
+      "category": "سایر",
+      "importance": "متوسط"
+    },
+    {
+      "title": "فروشگاه TirTir در Seongsu برنده جایزه Red Dot Design Award شد",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5zYVpCdjRPWU92QkVvUmZmVWgySTI0Q1hRMG9RMlhwMXN1UUJsa3VqcTN4cFpMd1YyWUtncVN1Mk54XzA4czFSMl9Qam9UZEtlZVVzVE9CYw?oc=5",
+      "source": "The Korea Herald",
+      "published": "2026-11-05T06:04:36+00:00",
+      "summary": "فروشگاه پرچمدار TirTir در منطقه Seongsu موفق به کسب جایزه شد. این جایزه معتبر در رویداد Red Dot Design Award به طراحی این فروشگاه اختصاص یافت. این موفقیت جایگاه طراحی این برند را تثبیت می‌کند.",
+      "keywords": [
+        "Red Dot Design Award",
+        "معماری فروشگاهی",
+        "طراحی فضایی"
+      ],
+      "category": "جوایز طراحی",
+      "importance": "بالا"
+    },
+    {
+      "title": "تقدیر از سیستم FRAGTrack™ برای برتری در طراحی استرالیایی",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUjlWUW4tLTRSQTlVSjhLRDZsWi14NjhnbVZSUkNzeXExUUJtc3Rjd1dDTVRxdTVwcWQ3Y0JDcHlMTXZfSjFVeEJfeE9CMXFZZ1NSYWl5bE8walQwaGJ3enVsVXI4RkVmdlZBSVZQeTdra0oybVRDOS1TenpiTTVISTNveEYtYlM4NjA4ckJjUXFEYzNYQm10ZDh2T1l6SnZsb2dDR09HcnQ?oc=5",
+      "source": "Global Mining Review",
+      "published": "2026-11-05T12:09:10+00:00",
+      "summary": "سیستم FRAGTrack™ به دلیل کیفیت و نوآوری در طراحی مورد تقدیر قرار گرفت. این افتخار برای برتری در بخش طراحی صنعتی اعطا شده است. این سیستم در صنایع معدن و سنجش مواد کاربرد دارد.",
+      "keywords": [
+        "طراحی صنعتی",
+        "معدن",
+        "تکنولوژی"
+      ],
+      "category": "طراحی صنعتی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "اعلام برندگان جوایز جشنواره SCAD Savannah Film Festival",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQ1FHNU1qNXdMQlJsRmFJODBVS0syMk1WNnVabUM2aGR2My1UQ2w4MUMycldNWDR6RU1rdnNEZDBBWTV3WTVOMjhGSWZDVGV2SzBTQ3BuaUwzaU5KVGIzUmxiMzNhU2N4cE16MC1sY3pHZ2hpY3lYODE1Y2pqd2FqOHdLOUR4aFFmblpWcWpZUE1Gd1pHdS1kblJFQ1o2VVVsREdtT2FsTDJwWjMteUVicUpNdlYxMkJsYjVMeG9uWkM?oc=5",
+      "source": "The Savannah Tribune",
+      "published": "2026-11-04T14:16:46+00:00",
+      "summary": "جشنواره SCAD Savannah Film Festival برندگان بخش‌های مختلف خود را معرفی کرد. این جوایز شامل بخش‌های داوری و تماشاگران می‌شوند. برندگان از میان آثار برجسته رقابت انتخاب شده‌اند.",
+      "keywords": [
+        "جشنواره فیلم",
+        "جوایز",
+        "رویداد"
+      ],
+      "category": "همایش‌ها و رویدادها",
+      "importance": "پایین"
+    },
+    {
+      "title": "برگذاری مسابقه طراحی صنعتی DeKlop Dredge Design Competition",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Pd25rSFRGLWdCR1c0NWFTendNVnd2bVh3eXExa1I1X3lBZjQ4dFNSRTNoMEpqWDJVU2lGUzdkanA4d29sTmV2cVZEMEtCbkV0SDRLbWRrWFJtN05WRlZxcm9PR0hJakU?oc=5",
+      "source": "DredgeWire",
+      "published": "2026-11-04T15:11:30+00:00",
+      "summary": "مسابقه DeKlop Dredge Design Competition برای طراحان و مهندسان برگزار می‌شود. این رقابت بر نوآوری در تجهیزات و شناورهای لایروبی تمرکز دارد. طراحان صنعتی می‌توانند طرح‌های پیشرفته خود را ارسال کنند.",
+      "keywords": [
+        "مسابقه طراحی",
+        "لایروبی",
+        "طراحی صنعتی"
+      ],
+      "category": "مسابقات طراحی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "انجمن KCMA داوران مسابقه Kitchen Design Awards Competition را معرفی کرد",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaUQwbVFOc2ZidVdTMmVodmxkVVl4UEFkWFJ0RUxIb1NBQWEwRVZMUmFOVFo1Q0pmQW9KeXd0RmlTdGdjLUlZTVR0NHdhMUttdjFScWNyZEtMNmlnTC02VWduZV8wTkRpaGk3SkVqenViVTNJUUhoUHRpMGwwODk2dENTblN6UWRCRXR0SEtnWUttTGMzNHl1WHZiX2haT2hFU3c?oc=5",
+      "source": "Woodworking Network",
+      "published": "2026-11-04T19:48:17+00:00",
+      "summary": "انجمن KCMA فهرست داوران مسابقه Kitchen Design Awards Competition را اعلام کرد. این داوران از متخصصان برجسته صنعت کابینت و آشپزخانه هستند. این مسابقه به ارزیابی بهترین طرح‌های آشپزخانه می‌پردازد.",
+      "keywords": [
+        "طراحی آشپزخانه",
+        "داوران",
+        "مسابقه طراحی"
+      ],
+      "category": "مسابقات طراحی",
+      "importance": "پایین"
+    },
+    {
+      "title": "Unimas trio produce Sarawak’s first semiconductor chip in IC design competition",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaXlSb0kyaF84NDFGck1LbENTSWpuVDA3VndvZ0VmSXEydnRIaGRFQUNKNlZEOHJ0YjY1UUVfUUpQc29XZmJ2cW10Sm9DX3lFLU5XRG9TVmlrTUVrX2phaldUNkkxRjg5YkkzZ19iRWUwd1VNZGkxVEJzNmdObU16TWNKZXJFeGRiWGZRREU3SWRzOTBsUjluZ2lhb21HNi1uSjFtSA?oc=5",
+      "source": "DayakDaily",
+      "published": "2026-11-05T04:58:20+00:00",
+      "summary": "",
+      "keywords": [],
+      "category": "مسابقات طراحی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "Northamptonshire girl, four, wins nationwide doodling competition with her 'joyful' design",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNNDkxekxkME82R2ZXZHpPRFl5bFFya0lwSTBzV2hHaVBIVmFobmowdnhzYzBGOEQwNk9uWlBNT0ZKNkJKT3BMTWJuTEZzb25hOVpRYnYzanQtTWZFV3ppZWN1Z3MzelU1bW1qd2ozQWJla09wTzFzUTMzWmE2MHZuMjc0b0R1UC03Y25BSzE0bkNHaUlMWk9VdEoxbzF1aDhOdG9LMGRYWGs0QThWTGZuMVUzVlV0eXJmQl9ERWh6X042eVl3cC0yMUVJamRpaGZRNkZhSnEyUUJZZWc?oc=5",
+      "source": "Northamptonshire Telegraph",
+      "published": "2026-11-04T15:31:00+00:00",
+      "summary": "",
+      "keywords": [],
+      "category": "مسابقات طراحی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "making room for nature: the urban landscapes of kongjian yu",
+      "url": "https://www.designboom.com/architecture/room-nature-urban-landscapes-kongjian-yu-turenscape-adaptation-evidence-china-charles-waldheim/",
+      "source": "Designboom",
+      "published": "2026-11-05T11:50:28+00:00",
+      "summary": "turenscape’s ecological landscapes show how wetlands, waterways, and restored habitats can become part of urban infrastructure, making room for both people and other forms of life. The post making room for nature: the urban landscapes of kongjian yu appeared first on designboom | architecture & design magazine .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "meet the wienermobile, the 1930s quirky pedal car that put hot dogs on wheels",
+      "url": "https://www.designboom.com/technology/wienermobile-1930s-quirky-pedal-car-hot-dogs-wheels-oscar-mayer-bringatrailer/",
+      "source": "Designboom",
+      "published": "2026-11-05T11:00:26+00:00",
+      "summary": "from its first appearance on american roads in 1936 to its miniature interpretations by bird corporation and konek, the oversized hot dog has become an enduring piece of advertising and automotive culture. The post meet the wienermobile, the 1930s quirky pedal car that put hot dogs on wheels appeared first on designboom | architecture & design magazine .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "landmark james turrell exhibition to inaugurate superblue kyoto in early 2027",
+      "url": "https://www.designboom.com/art/landmark-james-turrell-exhibition-superblue-kyoto-early-2027-teamlab/",
+      "source": "Designboom",
+      "published": "2026-11-05T09:48:59+00:00",
+      "summary": "opening opposite teamLab biovortex kyoto, the new venue places one of the most influential explorations of light in contemporary art within a growing cultural district. The post landmark james turrell exhibition to inaugurate superblue kyoto in early 2027 appeared first on designboom | architecture & design magazine .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "angelo renna proposes floating modular island with 39-tree ring on florence’s river",
+      "url": "https://www.designboom.com/architecture/angelo-renna-floating-modular-island-39-tree-ring-florence-river-firenze-little-island/",
+      "source": "Designboom",
+      "published": "2026-11-05T07:15:27+00:00",
+      "summary": "combining a modular structure with a circular green perimeter of trees, the project reimagines the relationship between florence and its river through a seasonal, reversible, and ecological intervention. The post angelo renna proposes floating modular island with 39-tree ring on florence’s river appeared first on designboom | architecture & design magazine .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "SpY installs giant black triangle in madrid square to explore urban surveillance",
+      "url": "https://www.designboom.com/art/spy-giant-black-triangle-madrid-square-urban-surveillance-panopticon/",
+      "source": "Designboom",
+      "published": "2026-11-05T03:15:28+00:00",
+      "summary": "the 20-meter black triangular intervention is equipped with concealed viewing apertures and apex-mounted CCTV cameras that return fragmented live feeds of the surrounding plaza. The post SpY installs giant black triangle in madrid square to explore urban surveillance appeared first on designboom | architecture & design magazine .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "PP-2 turntable reads vinyls without tonearm and inspires glass listening room in tokyo",
+      "url": "https://www.designboom.com/technology/pp-2-turntable-reads-vinyls-without-tonearm-glass-listening-room-tokyo-waiting-for-ideas/",
+      "source": "Designboom",
+      "published": "2026-11-05T00:30:27+00:00",
+      "summary": "engraved floor hatches reveal a hidden record collection inside a conceptual listening room by paris-based studio waiting for ideas. The post PP-2 turntable reads vinyls without tonearm and inspires glass listening room in tokyo appeared first on designboom | architecture & design magazine .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "andrés jaque questions the politics of utopia in an age of permanent connectivity",
+      "url": "https://www.designboom.com/architecture/andres-jaque-offpolinn-politics-utopia-age-permanent-connectivity-guest-essay/",
+      "source": "Designboom",
+      "published": "2026-11-04T21:35:34+00:00",
+      "summary": "from archigram’s technological utopias to today’s infrastructures of control, OFFPOLINN's founder explores how architecture can challenge the systems shaping our collective and environmental realities. The post andrés jaque questions the politics of utopia in an age of permanent connectivity appeared first on designboom | architecture & design magazine .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "coperni closes: revisiting the fashion label’s strangest experiments in design and technology",
+      "url": "https://www.designboom.com/design/coperni-closes-revisiting-fashion-label-strangest-experiments-technology/",
+      "source": "Designboom",
+      "published": "2026-11-04T16:37:13+00:00",
+      "summary": "from liquid textiles to garments embedded with microorganisms, coperni's experiments treated fashion as a platform for scientific research. The post coperni closes: revisiting the fashion label’s strangest experiments in design and technology appeared first on designboom | architecture & design magazine .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "cantilevered pavilion by APAP extends 1970s woodland house in nicosia",
+      "url": "https://www.designboom.com/architecture/cantilevered-glass-concrete-pavilion-apap-1970s-woodland-house-nicosia-diagonal/",
+      "source": "Designboom",
+      "published": "2026-11-04T16:15:03+00:00",
+      "summary": "defined by shifting woodland shadows by day, the glass and concrete pavilion transforms at night through a tailored lighting installation that recasts its architectural geometry. The post cantilevered pavilion by APAP extends 1970s woodland house in nicosia appeared first on designboom | architecture & design magazine .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "Heidi Latsky Dance To Premiere “Days of Awe” at Lincoln Center",
+      "url": "https://www.surfacemag.com/articles/heidi-latsky-dance-premiere-days-of-awe-at-lincoln-center/",
+      "source": "Surface",
+      "published": "2026-11-05T11:00:00+00:00",
+      "summary": "Courtesy of Heidi Latsky Dance On January 9, 2027, Lincoln Center will host the world premiere of Heidi Latsky Dance's Days of Awe. Company founder, artistic director, and choreographer Heidi Latsky will be joined by nine other dancers in the work, which expresses the beauty and complexity of disruption and upheaval. Presented as part of […]",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "Jane Birkin’s Inscribed Hermès Birkin Heads to Auction, and Other News.",
+      "url": "https://www.surfacemag.com/articles/jane-birkins-inscribed-hermes-birkin-heads-to-auction/",
+      "source": "Surface",
+      "published": "2026-11-05T10:52:00+00:00",
+      "summary": "Plus, The Rock & Roll Hall of Fame opens its $135 million expansion this month, and a Duyster painting stolen in 1940 returns to Orleans after 85 years Courtesy of Bonhams. Jane Birkin's inscribed Hermes Birkin heads to auction at Bonhams Paris. A one-of-a-kind Hermes Birkin 30 once owned by Jane Birkin will be offered […]",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "Miles Greenberg’s “WAR” Channels China’s Terracotta Army In a Six-Hour Performance",
+      "url": "https://www.surfacemag.com/articles/miles-greenbergs-war-channels-chinas-terracotta-army-in-a-six-hour-performance/",
+      "source": "Surface",
+      "published": "2026-11-05T10:33:00+00:00",
+      "summary": "Photo by Julia Drummond. Performa, the nonprofit arts organization dedicated to 20th- and 21st-century performance art, presented the New York premiere of Miles Greenberg's WAR in partnership with CAP99, Elephant, and Library Fetish. Taking place at the former 86th Street Cinema and curated by Zoe Lukov, the six-hour piece was the artist's first in New […]",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "As Cars Think Faster, Thermal Design Becomes the Next Engineering Frontier",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaFlJYXhULUlxZTlPZ00xTEtPYnBiR01WUmNETXBnNEdWdU5DYnE5cmlhc3JvN3lIMUxWZEppWUxyQ2VPRmp4eDMxWENZOWd3SUVHZERUOHNKTG95QWhYLTNxTms5cDVpb2VfR1dibzNFb05mNFBqZlBPS0ZSSDIzc0VyNHBzbWJYRFJRQTJjQzZvMm9Rd2lWeTdFWlBnaEtocXdNT3RndzU3bFVJR3BGMldYQmE5cWM?oc=5",
+      "source": "Design News",
+      "published": "2026-11-04T23:35:15+00:00",
+      "summary": "",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "JEEP DESIGN, CAMBIARE SENZA TRADIRE",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUFdTaE5OWm44Q2Vod3FCSkpZQ2FtNmxyMTIxcGxOR0FBcWMwM2pPb2V6UEtZeWVWbFRLSVdxVXlvTGM1bGItNmhCcFlmelA4cEszUXZKLUJFYVVERktOVERGeDByZ2plT0Mxa0ZrRFJhVW1FaHFIM25pZWFSQVhCS2NONA?oc=5",
+      "source": "Auto&Design",
+      "published": "2026-11-05T07:10:10+00:00",
+      "summary": "",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "HYUNDAI TUCSON, L'ARTE DEL METALLO E DEL COMFORT",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNlhDTTZPTTRzbWhWdEV6Nzhoa2RJdlZiVEhhX1AxV2RLbkZrNmxLZXJFQ3R4V1kySUpSUWpEQ1ZoNFF1RGlPUlU2MGVoRkhva25HNUpWeWFWYlVrcEFVaVJ1aHg4dW1udVRmWHQ4c2FkOWlwenVsbFM3NUtvajFZZ0NRRWJqYS1wZWdGV01ubzBIbE0?oc=5",
+      "source": "Auto&Design",
+      "published": "2026-11-05T07:09:46+00:00",
+      "summary": "",
+      "keywords": [],
+      "category": "هوش مصنوعی در طراحی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "NADDC targets Nigeria’s automotive industry growth with new law - Tribune Online",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOa2JvNmJka3dpdF94akxYUFNCSHo5ams1bjJuaGh6SkdiektKLVpxbTBhVFFoWmxSTkljaS1paUNsX3gxdi12V0U0MkluTlZ1NWhnUXVaemNCT19NQ0J2c1lROGV6b19EYmVmT1Eyb1BDT1FwTXFEMW1tRDJGcl9TeW9ZQXlmbjg4WkxqTDBOckRRRmIzanfSAZsBQVVfeXFMTnFxYU5VdkNTYWJMdS02emhTZ1RQVkZHVnJUWTZlMy10Ri0yQnU4SUE2Y2QwZ19NR2kySlVkR2k4VjFXZnladkpyOG13eDlpOFlzMGZ1TmVqT19GaHlHc2JndFZ2Ti1QVmF2NHZueEozUU5RRVlaOXhBR1B2eEZUY1Y3T08teWlUY25KZ0lFWHlhWGZOTmJveEpFWDA?oc=5",
+      "source": "Tribune Online",
+      "published": "2026-11-04T16:22:04+00:00",
+      "summary": "",
+      "keywords": [],
+      "category": "خودرو",
+      "importance": "متوسط"
+    },
+    {
+      "title": "Peak Design Unleashes a Dual-Threat EDC Travel Accessory for Your iPhone",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB5b2F4YnZwQndCLXZqd21yT19XQnVxVjBzRTZZSElXa0prek90MFlRaGxseXFIbnplWmhXRndNYlUyeGg1WVBtcDVPai01b05tUEh6RTFURTJaR2JPb0NlVFRWeUlhMTd2VlpBY2JwY25LTDFFRTkyRA?oc=5",
+      "source": "Gear Patrol",
+      "published": "2026-11-04T18:50:02+00:00",
+      "summary": "",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "DSCENE Fall 2026 Edit: Fashion, Design and Everything Else",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1YWldzTUZyek1kWVF6ZjFBeGYwdHVTR0tDS3FUQWY2Um9pS1lqT2ozWk1DZTJVNGxVOU1TZHB1b3Nsd2FzSmJ2R2FXc3AxR2FnYWFfcHh1eUFnTVpjejdObDN6ZHdMYjhlT2dSY1hYVzY?oc=5",
+      "source": "dscene magazine",
+      "published": "2026-11-05T02:16:44+00:00",
+      "summary": "",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "US Postal Service Unveils New Diwali Forever Stamp Featuring Vibrant Rangoli Design, Marking Second",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPb25kZ043czJBZVZaVHhvaGhLcGxscFZOUkR1RlV4ekJ2T3pneUszbGVsTUcxUWJqZnBjSGJiZ3VjRzMtRnZVZDk3YTFqSGNZeFNSWW1aSHloX2Fid0g4azFuekRlZlQtVm9qaVF5SWtPVFdpNExLR1NhNjRuUU1aZWQxZEdONGk5Rjc3SWk0ZFZlWkpxTXRzVkNPN1dVR1B6ZEdieFJta0xuYjFxeGEwOE5kNWRtX3ZsVWtCN0FhWFJBQUZ0ZHJ4Tl9SdHV1c0xUQnJrWnZKRTZETDZjLUJkRFJaektKbFV3UW1zQ2hYa3JuekFoYTU5X0kzUnFTd9IBgwJBVV95cUxQMzh3MmhKWWp3Q2RWb2pFV19fOG5FVFZ1Yjd6dWNnLWtOM1BpNjJQZjh4c19OZllva3RhcTBsSEt0M0YwVTFIQ0xyUXFhMHVfbjczeFpRU1dEQ1N4bWFFbDEwNExHd1pSdHdQWnNUblg4RE1Td3ZyMGhZSU14RXF3clJJWXRCeEZtQ1puSlRTZmJwVEtnYXp5dl9NdlhnZ2d5MEwxX3l6aFJtSVVmRmtEaUNuUmRWdXUtRVJYUlQtUmlDeFd5andLanU3XzZhbUltdG5jVGs2RFpRMjVuek1MWkF0MUEyRmdlVTlvZ0YtMUs3MTJac29YYjZJVXphN1BXeTRz?oc=5",
+      "source": "Free Press Journal",
+      "published": "2026-11-05T07:28:30+00:00",
+      "summary": "",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "CEO/designer highlights ‘longevity’ marketplace with a nod to HPMKT furniture products that fit the bill",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOUzRyMW1jWXFnTUNCOUNxVEIzSE5OTWlwU1F0X1JiVEdjNjJ0ZndNU3dmblRCTXhVa1dmbHZtc1U3UzFGOWdpYk54NDR0c2Rfbm44NEYzekNLOGlkdC1TQlprWEtwNFhSc0UzbThXSEpWWk8xUXl3QlhLNHVRaHJ0dG5PVXZza2dmSU5wTllQdkdLMHRfUTdNTHFEYVpjOGxQV1BBaFVGYTVtbHJyS1dlc3luNF9LSUNYTjh5bVhlWmV0a2luWHJpc25qSVBfRnlYRWMzS3NKdnVibGxtY0kxc1ZWVQ?oc=5",
+      "source": "Designers Today",
+      "published": "2026-11-04T17:53:19+00:00",
+      "summary": "",
+      "keywords": [],
+      "category": "مبلمان",
+      "importance": "متوسط"
+    },
+    {
+      "title": "5 Furniture Trends That Will Be Everywhere in 2027, According to an Expert",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SdVczc3BzektsY3FRREx1bWtHTTJTR25JTWtsa0dBYVlqdWlaaHZsUGl6Vl81bEdrTFpYeDRQak1aVXJCeU42RTJFSFZhWFF6MGNrSTJnTTc2N2ZmOUJlOGk0Z2ROUjJBWkVSZA?oc=5",
+      "source": "Martha Stewart",
+      "published": "2026-11-04T17:22:53+00:00",
+      "summary": "",
+      "keywords": [],
+      "category": "مبلمان",
+      "importance": "متوسط"
+    },
+    {
+      "title": "Pressure-Formed Steel Furniture: Sarah Naghawi Inflates Stainless Sheets Into Hollow Forms",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNelhvVVkzLWpHdi1EaDFhaEZoa253LWlINEpGV3A2R2JMMXRPcmhkWlpBd2xoeVNJLTlkejViMjFYQTV2WnJrQUx0UGZTaW54SEN3QWluTHkxT0xyOUdXMUl3amJLVmZrV05BWWJvWDJBMWhW?oc=5",
+      "source": "Trend Hunter",
+      "published": "2026-11-05T11:29:42+00:00",
+      "summary": "",
+      "keywords": [],
+      "category": "مبلمان",
+      "importance": "متوسط"
+    },
+    {
+      "title": "Flaer Debuts Premium Furniture Collection at Downtown Design Dubai - News and Statistics",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQalJ0VldzN0lmRG9QODFUM0k5RS1wSkJfNTJsQUNzODBET2szanNRNlFFbXBCY1pSZkw1RWp2amUySjkyR0loVGxJTjZHV1VrYkdXZjlURE9uSk1DaWs1OWpVc2NTRDdIVUhycWJtbS0xQ0d1dkZkRUdsdlF3WkFBRHkzNW4zSDFGMDhVLVBjZGsxVko4TklWWkczeTVJMVJE?oc=5",
+      "source": "IndexBox",
+      "published": "2026-11-04T15:42:26+00:00",
+      "summary": "",
+      "keywords": [],
+      "category": "هوش مصنوعی در طراحی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "Lapalma Maps Its Furniture Range, From Kili Tables to HUB Modular Seating",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9HTkpZNTMyWWVTaE9URzBUTHU1VXptSmhvNTNqcHBGMFpyc3JWdTFuYTFQWFBFbDF6bGFMLTM4QVd0cllGUG5zMHNnZ2pjYjlPdl9TenVBZlhFQnI1YXRKTGQzY1dzS2Y2d1pwTjlVT183ZXBEUWJCc0VB?oc=5",
+      "source": "freeyork",
+      "published": "2026-11-05T00:29:17+00:00",
+      "summary": "",
+      "keywords": [],
+      "category": "مبلمان",
+      "importance": "متوسط"
+    },
+    {
+      "title": "Misha Kahn Carves Marble Into Drapery and Rebuilds Painted Sofas in Wool",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdEpidDVrbGhrYUJzRjFOY2lxR3dDLWExdGd3YTI5WkpRYU9WaWUxSnhQc1g0TV9vQllMMmxBbEVhQUowRF9FMU5MVHVQcHNTSUI2d1NRcUlpdGR4dEZfM3daQzIyQmV0YkFMNHN3T0Z3ak55MEFGVm1zV29lNHZMUWN3aWhxTDE5?oc=5",
+      "source": "freeyork",
+      "published": "2026-11-04T15:15:51+00:00",
+      "summary": "",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "Young furniture maker Cole is a national finalist yet again",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQalloVnZaN1dwS1NRRFQ1OW9CeUdsdDNJM2Z0REEyRkdNcWZ5YVNDc3NmSENpUDFUeFVsSVgxMU44Y2tLQ2ZLQ3E2S21ORk1KZVJRNmo5MmdvZzBGZ0lpaTVWQVo4UFlaQVB2eXJKa2xFWWlJZG9YQV92SzZibVBETjNtMEg2Y1dGNGU1dFUwNjhyNDJUQ2J3WEM3Umg1VXk4ZDctVjRxX1E0VXdnTUloLU9aMGwwcURLVHdOX2hKMEstZzVQSFlEcQ?oc=5",
+      "source": "Northumberland Gazette",
+      "published": "2026-11-04T12:41:00+00:00",
+      "summary": "",
+      "keywords": [],
+      "category": "مبلمان",
+      "importance": "متوسط"
+    },
+    {
+      "title": "Linehouse reimagines industrial aesthetics for Jen Hangzhou hotel in Kohn Pedersen Fox-designed building",
+      "url": "https://www.dezeen.com/2026/11/05/linehouse-jen-hotel-hangzhou/",
+      "source": "Dezeen",
+      "published": "2026-11-05T11:30:00+00:00",
+      "summary": "International studio Linehouse has completed the interiors of the Jen hotel in Hangzhou, China, which features details that nod to local craft and the area's industrial heritage. The post Linehouse reimagines industrial aesthetics for Jen Hangzhou hotel in Kohn Pedersen Fox-designed building appeared first on Dezeen .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "Lagoons will weave through new Egyptian city masterplanned by SOM",
+      "url": "https://www.dezeen.com/2026/11/05/alam-al-roum-city-egypt-som/",
+      "source": "Dezeen",
+      "published": "2026-11-05T10:30:00+00:00",
+      "summary": "International architecture studio SOM has unveiled plans for a new city in Egypt named Alam Al Roum, which will stretch 7.2 kilometres along the Mediterranean coastline. The post Lagoons will weave through new Egyptian city masterplanned by SOM appeared first on Dezeen .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "Six standout projects unveiled at Designart Tokyo 2026",
+      "url": "https://www.dezeen.com/2026/11/05/designart-tokyo-2026-highlights/",
+      "source": "Dezeen",
+      "published": "2026-11-05T10:00:00+00:00",
+      "summary": "As the 10th anniversary edition of Designart Tokyo gets underway, Jane Englefield reports on six highlights from the citywide festival of Japanese creativity. The post Six standout projects unveiled at Designart Tokyo 2026 appeared first on Dezeen .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "\"Commitment of the design community remains strong\" say Ukrainian design week founders",
+      "url": "https://www.dezeen.com/2026/11/05/ukrainian-design-innovation-week-kyiv/",
+      "source": "Dezeen",
+      "published": "2026-11-05T09:00:00+00:00",
+      "summary": "This year's Ukrainian Design and Innovation Week went ahead despite Russian strikes affecting the local design community. The event's founders share their top picks of exhibited brands that have continued production amid the war. The post \"Commitment of the design community remains strong\" say Ukrainian design week founders appeared first on Dezeen .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "Design Doha Biennial 2026 set to explore how traditional crafts can shape the future of design",
+      "url": "https://www.dezeen.com/2026/11/05/design-doha-biennial-2026-open/",
+      "source": "Dezeen",
+      "published": "2026-11-05T08:00:00+00:00",
+      "summary": "Design Doha Biennial 2026 opens in Doha, Qatar, today, bringing together more than 19 exhibitions, five installations and over 80 designers, featuring projects that use traditional water systems and building techniques to tackle urban heat. Following a postponement earlier this year due to war in the Gulf, the event will now run from today until […] The post Design Doha Biennial 2026 set to explore how traditional crafts can shape the future of design appeared first on Dezeen .",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "Concept car that transforms from SUV to pickup is \"a symbol of freedom\" says Fiat CEO",
+      "url": "https://www.dezeen.com/2026/11/05/fiat-multiplay-multipilina-concept-car-video-interview/",
+      "source": "Dezeen",
+      "published": "2026-11-05T06:00:00+00:00",
+      "summary": "Fiat's new Multiplay concept car can transform from an SUV into a pickup, with movable seats and a flexible interior designed to accommodate different uses, explains the brand's CEO Arnaud Belloni in this exclusive video interview produced by Dezeen. The post Concept car that transforms from SUV to pickup is \"a symbol of freedom\" says Fiat CEO appeared first on Dezeen .",
       "keywords": [],
       "category": "سایر",
       "importance": "پایین"
@@ -563,434 +1141,34 @@
       "importance": "پایین"
     },
     {
-      "title": "OEB Architects channels 1980s interiors for London extension",
-      "url": "https://www.dezeen.com/2026/11/04/oeb-architects-london-tropical-house-extension/",
-      "source": "Dezeen",
-      "published": "2026-11-04T11:30:00+00:00",
-      "summary": "Glossy ceramic tiles, a glass-block wall and a leafy garden feature in this extension to a Victorian terrace in London by OEB Architects. The post OEB Architects channels 1980s interiors for London extension appeared first on Dezeen .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "SOM unveils design for luxury waterfront development on Australian pier",
-      "url": "https://www.dezeen.com/2026/11/04/cunningham-pier-development-som-australia/",
-      "source": "Dezeen",
-      "published": "2026-11-04T10:00:00+00:00",
-      "summary": "International architecture studio SOM is set to transform a historic pier in Geelong, Victoria, into a waterfront destination culminating in a rounded high-rise. The post SOM unveils design for luxury waterfront development on Australian pier appeared first on Dezeen .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Alter design exhibition returns to Tokyo with AI-powered tea ceremony and washi paper furniture",
-      "url": "https://www.dezeen.com/2026/11/04/alter-design-exhibition-tokyo/",
-      "source": "Dezeen",
-      "published": "2026-11-04T09:00:00+00:00",
-      "summary": "The second edition of young designers' exhibition Alter has opened in central Tokyo, featuring a glowing lung-like lamp and Japanese cedar stools made from every part of the log. The post Alter design exhibition returns to Tokyo with AI-powered tea ceremony and washi paper furniture appeared first on Dezeen .",
-      "keywords": [],
-      "category": "مبلمان",
-      "importance": "متوسط"
-    },
-    {
-      "title": "SCAD alumni transform 18th-century staircase into colourful installation during Design Miami Paris",
-      "url": "https://www.dezeen.com/2026/11/04/scad-installation-design-miami-paris/",
-      "source": "Dezeen",
-      "published": "2026-11-04T08:00:00+00:00",
-      "summary": "Savannah College of Art and Design (SCAD) has revealed a colourful tufted flooring installation at this year's Design Miami.Paris, as seen in this exclusive video produced by Dezeen. The post SCAD alumni transform 18th-century staircase into colourful installation during Design Miami Paris appeared first on Dezeen .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "\"Direct and unrefined\" materials create tactile interior at Jeju restaurant by &Daughters",
-      "url": "https://www.dezeen.com/2026/11/04/jeju-restaurant-daughters/",
-      "source": "Dezeen",
-      "published": "2026-11-04T06:00:00+00:00",
-      "summary": "Canadian studio &Daughters used basalt, cork, concrete, thatch and wood to design Jeju, a Korean restaurant in Vancouver that features traditional touches in a contemporary interior. The post \"Direct and unrefined\" materials create tactile interior at Jeju restaurant by &Daughters appeared first on Dezeen .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Business of Design Week 2026 connects design, brands and cross-cultural exchange",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNWdoVzdITEd4cDhJdE03NUFpRlloNXUwZll2cFFrblZiY08wWTJIX3JXUTFLX3ZNeWs0MHM3QnE3NXFfdlhHb3k1NVA3RWJabFNyZEhXdEhEM0JXT09lajU5SnlWMndFUjdCRjJReVh2U0FHakk5OUp4R3Z0Q3luZjhpUmw5c2JGOHc?oc=5",
-      "source": "DesignWanted",
-      "published": "2026-11-04T18:08:43+00:00",
+      "title": "Pandora’s Q3 Sales Up 7% Amid Focus on Design",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWXU0eWM5c3VodmwxNm4yLUVucUtYcS1fRjdUZldFQWFBWThpOGZqN3owNlhwNkYtQnNOUXhxa1BEd1pnX3UxMFR3MUJhRHlvQ1FwTGxsdXV2ZXhnRjMzN3hrX1Q2UkhORHlUV293QjJZR3lBZTU3aUwxWVg1TGdXLXozUEI3cDU0dWtKQzl0dlI?oc=5",
+      "source": "nationaljeweler.com",
+      "published": "2026-11-04T19:39:56+00:00",
       "summary": "",
       "keywords": [],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "Six new motorcycle models may enter the Vietnamese market in the near future.",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOTFrN3BCaTZHMWkzcDBZVGozYzlaMzZHM0pGaUZyWDNac2tGSFpsa3dHb1ViLUh3VEhOMV8wZTdQMGFxMmdDTmItWE5ZWGFTWVlGWlBqTnJmWGpQZU9lMWdJT0dLMlJScXE4eDhuRWF2NnVpMGFlTlJ5X19mX1FPOEtUbWJfUTdpNE0wOXF4bFBXbnZidmxmZzIyN0hwQlU?oc=5",
-      "source": "Vietnam.vn",
-      "published": "2026-11-04T07:08:08+00:00",
+      "title": "Explore Neiman Marcus’s ultra-luxury Fantasy Gifts, from $860K tours to custom jewelry.",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORTB5RGFLWUJ1T0RtVGkxMUNUMUlpU2ZBanc3R05CYUtlM2hrOWVfQUJQdUZ2bThBeDhyX0xldXVhdlJVUWhTM0xKRmxrQXAzYXpZbmtBczliQndfT1RWemRaSi1xbklkSG5ocEVGZ0E5S1U5OUR0WktEVWtsSEE1cVdybi05aVZkZXlJYUhIdFNHWHhNR29LMkRKVnQzdHVfWG84MExuZFJyek55NURqbzZtM0hJMmxnUlhYZkoteC1Xd21BZkhMRWdfZ2E0Uk02dXZpdzhvN3FxQQ?oc=5",
+      "source": "Facebook",
+      "published": "2026-11-04T19:36:04+00:00",
       "summary": "",
       "keywords": [],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "tna's food packaging solution wins gold at the Good Design Awards 2026",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPT0laN1FNZGt6VHE5QXVWX0dkbk82cFRlR0VLVExSbk1LVnctdjNrUWZNd0JZSV9IOV9GQWlZei1KQmRIeFBBdFVqbzNUci0tMFdhNEV4QjlpTEgwdVFCZmVYblFLY3M5a3p3LVBiQ3hJaXhHNG8xQU9ZcGFSb1lnVmc3bVdnVzZhZU1EOFdiU1RLRlFtVkp6a0F5SElEbS1rZnRDZzdBMVJPU0VPNjVKd3B6akpfdTJkQVVLbTl4dmRwZllFbW1VNGNfUm1YaWF3Q1BtV2FMVTdkd3QwWklzZg?oc=5",
-      "source": "FoodProcessing.com.au",
-      "published": "2026-11-04T04:17:47+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "جوایز طراحی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "Zip Accessible Remote: For easier, safer access to drinking water",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUkdpaGtiNXc4RkNaYnlLU1pjTjhaaU0yendXTDNtVklXbmphS21Lam51YlRuWGJuZnN4MVJaTXljVHc3MEtuVXFXRjdqUlh4OGpQOTFMSmRaZDQtZlRFcWZNZDhhWm05M2RQTTJ0UGJwUUpSeTZ4enpfNkpJSmR5ZUdwQ0RYbUwzalV3NDZIa3NKQXBXNGZKYjA1enJobXdScFgtNDJfU3lwR1BB?oc=5",
-      "source": "Architecture & Design",
-      "published": "2026-11-04T05:27:48+00:00",
+      "title": "NYC Jewelry Week 2026 Is the Largest Edition Yet",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaGEwNmtSa0pQYTktRGNLNVhZOG9tbTlzZGNHTjQxQ3V5UXpMQy02Z0RlV3R4bTN3czBlSnhEWVRkSDAtdzlHUWZROTM0emRiN1dMNWVValVKYzRGZ0kzV2hWd3M1UVBKcXRHY0NhTFNtNE9mT1poZFlCMHg0Z2xBWU4yajliQmg2c3ZlM3p0S3pfNktHZWc?oc=5",
+      "source": "nationaljeweler.com",
+      "published": "2026-11-04T20:09:57+00:00",
       "summary": "",
       "keywords": [],
       "category": "سایر",
       "importance": "پایین"
-    },
-    {
-      "title": "2027 Colors of the Year: The Shades Defining Design",
-      "url": "https://design-milk.com/2027-colors-of-the-year/",
-      "source": "Design Milk",
-      "published": "2026-11-04T18:53:06+00:00",
-      "summary": "From earthy browns and rich greens to soft blues and grounded pinks, explore the 2027 Colors of the Year from leading paint brands",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Two Movements, One Striking Watch From Louis Erard × Vianney Halter",
-      "url": "https://design-milk.com/louis-erard-vianney-halter-futur-anterieur/",
-      "source": "Design Milk",
-      "published": "2026-11-04T14:00:07+00:00",
-      "summary": "The Futur Antérieur brings Vianney Halter's signature porthole design to a new limited-edition watch, pairing two automatic movements with an unexpectedly slim case",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "A Modern Seattle Floating Home Takes Coastal Living to New Heights",
-      "url": "https://design-milk.com/seattle-floating-home-hoshide-wanzer/",
-      "source": "Design Milk",
-      "published": "2026-11-04T13:00:43+00:00",
-      "summary": "This Lake Union residence combines Nantucket-inspired interiors with the engineering required to live directly on the water",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Andstudio on the challenges of building a global studio from Lithuania",
-      "url": "https://www.creativeboom.com/insight/andstudios-augustinas-paukste-on-10-years-of-building-a-global-studio-from-vilnius/",
-      "source": "Creative Boom",
-      "published": "2026-11-04T12:00:00+00:00",
-      "summary": "As the Vilnius agency celebrates its 10th birthday, co-founder Augustinas Paukštė discusses transforming a local firm into an international player.\nTen years ago, two designers in Vilnius, Augustinas...",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Yinka Ilori brings joy and colour to the Tottenham Hotspur away shirt",
-      "url": "https://www.creativeboom.com/news/yinka-ilori-brings-his-joyful-love-of-colour-to-reimagine-the-tottenham-hotspur-away-shirt/",
-      "source": "Creative Boom",
-      "published": "2026-11-04T09:00:00+00:00",
-      "summary": "The British-Nigerian artist harnesses his signature colour, pattern and storytelling in a shirt design that celebrates North London's community.\nLet's start with some honesty. I'm not really intereste...",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Burger trees, spying fruit and flying taxis: the digital clay world of Daniel Jurman",
-      "url": "https://www.creativeboom.com/inspiration/burger-trees-spying-fruit-and-flying-taxis-discover-the-digital-clay-world-of-daniel-jurman/",
-      "source": "Creative Boom",
-      "published": "2026-11-04T08:15:00+00:00",
-      "summary": "The New York illustrator channels 1990s MTV bumpers and retro claymation in these gloriously odd mini-animations.\nIf you're old enough to remember the 1990s, you may recall the strange little animated...",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Film is breaking out of its box, and this orchestral tour is showing the way",
-      "url": "https://www.creativeboom.com/news/film-is-breaking-out-of-its-box-and-this-cathedral-tour-is-showing-the-way/",
-      "source": "Creative Boom",
-      "published": "2026-11-04T08:00:00+00:00",
-      "summary": "Forty-four years after it first aired, The Snowman is touring with an orchestra, including shows in four cathedrals. And I think this tells us a lot about where we are as a culture.\nIt's been 44 years...",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "PP-2 turntable reads vinyls without tonearm and inspires glass listening room in tokyo",
-      "url": "https://www.designboom.com/technology/pp-2-turntable-reads-vinyls-without-tonearm-glass-listening-room-tokyo-waiting-for-ideas/",
-      "source": "Designboom",
-      "published": "2026-11-05T00:30:27+00:00",
-      "summary": "engraved floor hatches reveal a hidden record collection inside a conceptual listening room by paris-based studio waiting for ideas. The post PP-2 turntable reads vinyls without tonearm and inspires glass listening room in tokyo appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "andrés jaque questions the politics of utopia in an age of permanent connectivity",
-      "url": "https://www.designboom.com/architecture/andres-jaque-offpolinn-politics-utopia-age-permanent-connectivity-guest-essay/",
-      "source": "Designboom",
-      "published": "2026-11-04T21:35:34+00:00",
-      "summary": "from archigram’s technological utopias to today’s infrastructures of control, OFFPOLINN's founder explores how architecture can challenge the systems shaping our collective and environmental realities. The post andrés jaque questions the politics of utopia in an age of permanent connectivity appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "coperni closes: revisiting the fashion label’s strangest experiments in design and technology",
-      "url": "https://www.designboom.com/design/coperni-closes-revisiting-fashion-label-strangest-experiments-technology/",
-      "source": "Designboom",
-      "published": "2026-11-04T16:37:13+00:00",
-      "summary": "from liquid textiles to garments embedded with microorganisms, coperni's experiments treated fashion as a platform for scientific research. The post coperni closes: revisiting the fashion label’s strangest experiments in design and technology appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "cantilevered glass and concrete pavilion by APAP extends 1970s woodland house in nicosia",
-      "url": "https://www.designboom.com/architecture/cantilevered-glass-concrete-pavilion-apap-1970s-woodland-house-nicosia-diagonal/",
-      "source": "Designboom",
-      "published": "2026-11-04T16:15:03+00:00",
-      "summary": "defined by shifting woodland shadows by day, the pavilion transforms at night through a tailored lighting installation that recasts its architectural geometry. The post cantilevered glass and concrete pavilion by APAP extends 1970s woodland house in nicosia appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "this installation by jakob kudsk steensen considers the origins and agency of life",
-      "url": "https://www.designboom.com/art/this-installation-by-jakob-kudsk-steensen-considers-the-origins-and-agency-of-life/",
-      "source": "Designboom",
-      "published": "2026-11-04T11:50:57+00:00",
-      "summary": "years of extensive underwater documentation comes together to question human-centered ideas of nature and the exploitation of ocean resources. The post this installation by jakob kudsk steensen considers the origins and agency of life appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "meet six rings, a cultural-retail space by onassis foundation in the heart of athens",
-      "url": "https://www.designboom.com/architecture/onassis-foundation-global-fashion-greek-creativity-historic-athens-arcade-six-rings-tim-etchells-loukas-bakas/",
-      "source": "Designboom",
-      "published": "2026-11-04T11:30:56+00:00",
-      "summary": "with interiors designed by loukas bakas, the two-story space features a neon facade by british artist tim etchells and brings international fashion labels, emerging greek designers, contemporary art, and independent local businesses under one roof. The post meet six rings, a cultural-retail space by onassis foundation in the heart of athens appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "podcast: curing urban isolation through collective care and architectural intuition",
-      "url": "https://www.designboom.com/architecture/podcast-room-for-utopias-03-04/",
-      "source": "Designboom",
-      "published": "2026-11-04T11:00:48+00:00",
-      "summary": "the room for utopias podcast continues with indian architects and designers examining how spatial layouts foster connection and decode desires clients never think to ask for. The post podcast: curing urban isolation through collective care and architectural intuition appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "sharjah design centre announces opening with seven specialist labs in the UAE",
-      "url": "https://www.designboom.com/architecture/sharjah-design-centre-uae-united-arab-emirates-seven-specialist-labs-2029-mauricio-rocha-daniel-rossello/",
-      "source": "Designboom",
-      "published": "2026-11-04T09:35:37+00:00",
-      "summary": "designed by taller de arquitectura – mauricio rocha with daniel rosselló, the forthcoming institution explores how local resources, experimental materials and manufacturing capabilities can shape the future of design in the region. The post sharjah design centre announces opening with seven specialist labs in the UAE appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "pixelated ceramic tiles and folded aluminum compose electrical substation’s facade in virginia",
-      "url": "https://www.designboom.com/architecture/pixelated-ceramic-tiles-folded-aluminum-electrical-substation-facade-virginia-atelier-manferdini-invisible/",
-      "source": "Designboom",
-      "published": "2026-11-04T07:45:26+00:00",
-      "summary": "atelier manferdini wraps the crystal substation in arlington, with invisible, an infrastructural facade that pairs generative ceramic tilework and folded anodized aluminum panels with programmable RGB LEDs. The post pixelated ceramic tiles and folded aluminum compose electrical substation’s facade in virginia appeared first on designboom | architecture & design magazine .",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Lady White Co’s refreshed Los Angeles store is a minimalist haven inspired by the modernist masters",
-      "url": "https://www.wallpaper.com/fashion-beauty/lady-white-co-renovated-la-silverlake-store-woe",
-      "source": "Wallpaper",
-      "published": "2026-11-04T18:00:00+00:00",
-      "summary": "The brand, known for perfecting the classic white T-shirt, worked with WOE (Width Over Ears) on the design, which was inspired by the work of Eileen Gray, Pierre Chareau, Juliaan Lampens and Charlotte Perriand",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "‘By changing the scale, I began to see these pieces differently’: Sarah Emilie Müllertz presents a new drop of tiny Kinraden jewellery",
-      "url": "https://www.wallpaper.com/watches-jewellery/kinraden-all-things-tiny-jewellery",
-      "source": "Wallpaper",
-      "published": "2026-11-04T16:20:00+00:00",
-      "summary": "Available at the Danish brand’s space at Liberty London, the new ‘All Things Tiny’ pieces include chains, bracelets and earrings made small",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "On his travels across the American West, Ivan McClellan dives into Black Cowboy culture",
-      "url": "https://www.wallpaper.com/art/photography/eight-seconds-legacy-in-motion-book-by-ivan-mcclellan",
-      "source": "Wallpaper",
-      "published": "2026-11-04T16:09:15+00:00",
-      "summary": "In a second edition of his ‘Eight Seconds’ book, with 91 previously unpublished images, the photographer reveals what Black rodeo culture looks like now",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "The new Fender x Loog Precision Bass offers ultra-compact access to the low end",
-      "url": "https://www.wallpaper.com/tech/fender-x-loog-precision-bass-and-tiny-telecaster",
-      "source": "Wallpaper",
-      "published": "2026-11-04T14:00:00+00:00",
-      "summary": "Toy or tonic? Loog is a children’s instrument brand that doesn’t skimp on quality. The company’s latest tie-in with Fender includes a tiny Telecaster and its first foray into bass",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Winter nights just got interesting – step inside Amsterdam’s Gashouder and join the party",
-      "url": "https://www.wallpaper.com/architecture/public-buildings/gashouder-inside-outside-amsterdam-netherlands",
-      "source": "Wallpaper",
-      "published": "2026-11-04T10:47:32+00:00",
-      "summary": "Gashouder, a former ‘temple to techno’, matures into a dynamic city concert hall, retaining its 19th-century architecture and experimental character with an immersive interior by Inside Outside",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "The new Palace flagship in London is a cathedral to skate culture",
-      "url": "https://www.wallpaper.com/design-interiors/the-new-palace-flagship-in-london-is-a-cathedral-to-skate-culture",
-      "source": "Wallpaper",
-      "published": "2026-11-04T09:00:00+00:00",
-      "summary": "Designed by Seoul-based designer Steve Oh, the new Palace skateboards flagship in London's Soho is a community-building space and an opportunity to display the history of the brand",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "At Lunette, Florence Knight brings an artist’s eye to the table",
-      "url": "https://www.wallpaper.com/travel/restaurants/lunette-florence-knight-london-review",
-      "source": "Wallpaper",
-      "published": "2026-11-04T07:00:00+00:00",
-      "summary": "Florence Knight’s first solo project, Lunette at London’s St Clement hotel, serves up beautifully framed riverside views and picture-perfect dishes",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Connaught House is a north London landmark reborn as five boutique homes",
-      "url": "https://www.wallpaper.com/architecture/residential/connaught-house-valouran-london-uk",
-      "source": "Wallpaper",
-      "published": "2026-11-04T06:00:00+00:00",
-      "summary": "In St John's Wood, Connaught House and its long history live on, brought into the 21st century by architects Darling Associates and interiors studio Gunter and Co for owner Marcus Cooper Group and developers Valouran",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Interior Architect Tristan Auer’s Made-to-Measure Approach",
-      "url": "https://www.surfacemag.com/articles/interior-architect-tristan-auers-made-to-measure-approach/",
-      "source": "Surface",
-      "published": "2026-11-04T10:52:00+00:00",
-      "summary": "The Paris-based designer behind the restorations of Hotel de Crillon and the upcoming Jumeirah Burj Al Arab sits down with Surface ahead of his keynote at Downtown Design Dubai Credit: Amaury Laparra Tristan Auer has spent his career immersed in details, whether tailoring vintage Ferrari interiors or reimagining landmarks like the Four Seasons Hotel George […]",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Ralph Lauren and Diotima’s Rachel Scott Win Top Prizes at the 2026 CFDA Awards, and Other News.",
-      "url": "https://www.surfacemag.com/articles/rachel-scott-and-ralph-lauren-win-top-prizes-at-the-2026-cfda-awards/",
-      "source": "Surface",
-      "published": "2026-11-04T10:48:00+00:00",
-      "summary": "Plus, The Hirshhorn reopens its sculpture garden after a four-year renovation, and Arcature Fine Art / Ross + Co opens two new spaces on Palm Beach's Worth Avenue Courtesy of Carl Timpone/BFA.com Ralph Lauren and Diotima's Rachel Scott win top prizes at the 2026 CFDA Awards. The Council of Fashion Designers of America (CFDA) handed […]",
-      "keywords": [],
-      "category": "جوایز طراحی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "ODDOBODY Turns Ten With a Brooklyn Dance Party",
-      "url": "https://www.surfacemag.com/articles/oddobody-turns-ten-with-a-brooklyn-dance-party/",
-      "source": "Surface",
-      "published": "2026-11-04T10:38:00+00:00",
-      "summary": "ODDOBODY, the independent, women-owned New York brand known for its organic cotton basics, celebrated its tenth anniversary with a party at Nightmoves in Williamsburg, Brooklyn. Hosted by co-founders Shira Wheeler and Abby Gerow, the event's guests were treated to empanadas, signature cocktails, and a custom oversized pavlova by chef and food designer Jen Monroe of […]",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "IKEA Singapore’s Home Design Service now coordinates kitchen installations with City Energy",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM05JcFVPbmp0MlVuTVlIOS1BV1B6Y3Z2MC1WSlhrdGxoMzBpMXBjV3pGNVZaaGVKT3ZteGZtQkZuUkU4a2NhX2t0QVRmbDBXc2VkSlREVjl5QWlWMDVDdUl3TDl0dTV6anJFR3ZNanlnenNYeXlhOElGN0JrTV9scFd3NmFsNEV0ZGNqLXRR?oc=5",
-      "source": "https://potions.sg/",
-      "published": "2026-11-04T10:16:30+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "DeKlop Dredge Design Competition",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Pd25rSFRGLWdCR1c0NWFTendNVnd2bVh3eXExa1I1X3lBZjQ4dFNSRTNoMEpqWDJVU2lGUzdkanA4d29sTmV2cVZEMEtCbkV0SDRLbWRrWFJtN05WRlZxcm9PR0hJakU?oc=5",
-      "source": "DredgeWire",
-      "published": "2026-11-04T15:11:30+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "مسابقات طراحی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "KCMA names judges for 2027 Kitchen Design Awards Competition",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaUQwbVFOc2ZidVdTMmVodmxkVVl4UEFkWFJ0RUxIb1NBQWEwRVZMUmFOVFo1Q0pmQW9KeXd0RmlTdGdjLUlZTVR0NHdhMUttdjFScWNyZEtMNmlnTC02VWduZV8wTkRpaGk3SkVqenViVTNJUUhoUHRpMGwwODk2dENTblN6UWRCRXR0SEtnWUttTGMzNHl1WHZiX2haT2hFU3c?oc=5",
-      "source": "Woodworking Network",
-      "published": "2026-11-04T19:48:17+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "جوایز طراحی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "Art students given chance to showcase creativity and win £100 prize",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeGgxMmtzVEZGNG55NGphUkctR29yTngzWENLVkZySFQtYmxsUkQ5X2FyaFFUajNndmhqODlndFl4dVJtY1NYOHJXd01XanhCaTItdWRUR09sMUExRVBvNW5xSW04TVlSdkRpRDIzWnlrSnB3TXJ4blJFenhEU3VKVGYyOEtYaGJqdHYwSU1tbnZFSmd6Yk5sTzliUQ?oc=5",
-      "source": "The Argus",
-      "published": "2026-11-04T05:00:00+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Northamptonshire girl, four, wins nationwide doodling competition with her 'joyful' design",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNNDkxekxkME82R2ZXZHpPRFl5bFFya0lwSTBzV2hHaVBIVmFobmowdnhzYzBGOEQwNk9uWlBNT0ZKNkJKT3BMTWJuTEZzb25hOVpRYnYzanQtTWZFV3ppZWN1Z3MzelU1bW1qd2ozQWJla09wTzFzUTMzWmE2MHZuMjc0b0R1UC03Y25BSzE0bkNHaUlMWk9VdEoxbzF1aDhOdG9LMGRYWGs0QThWTGZuMVUzVlV0eXJmQl9ERWh6X042eVl3cC0yMUVJamRpaGZRNkZhSnEyUUJZZWc?oc=5",
-      "source": "Northamptonshire Telegraph",
-      "published": "2026-11-04T15:31:00+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "مسابقات طراحی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "SCAD Savannah Film Festival Announces 2026 Audience and Competition Award Winners",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQ1FHNU1qNXdMQlJsRmFJODBVS0syMk1WNnVabUM2aGR2My1UQ2w4MUMycldNWDR6RU1rdnNEZDBBWTV3WTVOMjhGSWZDVGV2SzBTQ3BuaUwzaU5KVGIzUmxiMzNhU2N4cE16MC1sY3pHZ2hpY3lYODE1Y2pqd2FqOHdLOUR4aFFmblpWcWpZUE1Gd1pHdS1kblJFQ1o2VVVsREdtT2FsTDJwWjMteUVicUpNdlYxMkJsYjVMeG9uWkM?oc=5",
-      "source": "The Savannah Tribune",
-      "published": "2026-11-04T14:16:46+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "جوایز طراحی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "NADDC targets Nigeria’s automotive industry growth with new law - Tribune Online",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOa2JvNmJka3dpdF94akxYUFNCSHo5ams1bjJuaGh6SkdiektKLVpxbTBhVFFoWmxSTkljaS1paUNsX3gxdi12V0U0MkluTlZ1NWhnUXVaemNCT19NQ0J2c1lROGV6b19EYmVmT1Eyb1BDT1FwTXFEMW1tRDJGcl9TeW9ZQXlmbjg4WkxqTDBOckRRRmIzanfSAZsBQVVfeXFMTnFxYU5VdkNTYWJMdS02emhTZ1RQVkZHVnJUWTZlMy10Ri0yQnU4SUE2Y2QwZ19NR2kySlVkR2k4VjFXZnladkpyOG13eDlpOFlzMGZ1TmVqT19GaHlHc2JndFZ2Ti1QVmF2NHZueEozUU5RRVlaOXhBR1B2eEZUY1Y3T08teWlUY25KZ0lFWHlhWGZOTmJveEpFWDA?oc=5",
-      "source": "Tribune Online",
-      "published": "2026-11-04T16:22:04+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "خودرو",
-      "importance": "متوسط"
     },
     {
       "title": "To the Red Dot Newsroom",
@@ -1010,196 +1188,6 @@
       "summary": "",
       "keywords": [],
       "category": "جوایز طراحی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "Peak Design Unleashes a Dual-Threat EDC Travel Accessory for Your iPhone",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB5b2F4YnZwQndCLXZqd21yT19XQnVxVjBzRTZZSElXa0prek90MFlRaGxseXFIbnplWmhXRndNYlUyeGg1WVBtcDVPai01b05tUEh6RTFURTJaR2JPb0NlVFRWeUlhMTd2VlpBY2JwY25LTDFFRTkyRA?oc=5",
-      "source": "Gear Patrol",
-      "published": "2026-11-04T18:50:02+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "DSCENE Fall 2026 Edit: Fashion, Design and Everything Else",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1YWldzTUZyek1kWVF6ZjFBeGYwdHVTR0tDS3FUQWY2Um9pS1lqT2ozWk1DZTJVNGxVOU1TZHB1b3Nsd2FzSmJ2R2FXc3AxR2FnYWFfcHh1eUFnTVpjejdObDN6ZHdMYjhlT2dSY1hYVzY?oc=5",
-      "source": "dscene magazine",
-      "published": "2026-11-04T20:37:30+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Top Shoe Charms Manufacturer: Fujian Heyubokuaji Drives Custom Accessory Innovation",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOT1RNWXBfdl8ybE03aXM3b2lCTGM4M1dpcUNBbkJ3a191bFY0UVpjdVRsS3hfSWlTYUpLS0FNTFBwSlV1RXlweEdLNXk4VHNYMnA4Q1M1YWxISVpxelhPZktuOWNiY09QYW0wSENWeWpsTndFdDk5dkY3LUx2U0h0Q2podlZTLThOLVNfMHBzb05acjNhdTdhRW1wYXp1bWhENGtqTmNjZlZaRVY1bEtOTEt6SmM0eGYxYmRJd1J2UFdBNm8zMm1sZXNreUNZUGcxci13?oc=5",
-      "source": "Cincinnati Enquirer",
-      "published": "2026-11-04T15:21:12+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "NYC Jewelry Week 2026 Is the Largest Edition Yet",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaGEwNmtSa0pQYTktRGNLNVhZOG9tbTlzZGNHTjQxQ3V5UXpMQy02Z0RlV3R4bTN3czBlSnhEWVRkSDAtdzlHUWZROTM0emRiN1dMNWVValVKYzRGZ0kzV2hWd3M1UVBKcXRHY0NhTFNtNE9mT1poZFlCMHg0Z2xBWU4yajliQmg2c3ZlM3p0S3pfNktHZWc?oc=5",
-      "source": "nationaljeweler.com",
-      "published": "2026-11-04T20:09:57+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Explore Neiman Marcus’s ultra-luxury Fantasy Gifts, from $860K tours to custom jewelry.",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORTB5RGFLWUJ1T0RtVGkxMUNUMUlpU2ZBanc3R05CYUtlM2hrOWVfQUJQdUZ2bThBeDhyX0xldXVhdlJVUWhTM0xKRmxrQXAzYXpZbmtBczliQndfT1RWemRaSi1xbklkSG5ocEVGZ0E5S1U5OUR0WktEVWtsSEE1cVdybi05aVZkZXlJYUhIdFNHWHhNR29LMkRKVnQzdHVfWG84MExuZFJyek55NURqbzZtM0hJMmxnUlhYZkoteC1Xd21BZkhMRWdfZ2E0Uk02dXZpdzhvN3FxQQ?oc=5",
-      "source": "Facebook",
-      "published": "2026-11-04T19:36:04+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Pandora’s Q3 Sales Up 7% Amid Focus on Design",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWXU0eWM5c3VodmwxNm4yLUVucUtYcS1fRjdUZldFQWFBWThpOGZqN3owNlhwNkYtQnNOUXhxa1BEd1pnX3UxMFR3MUJhRHlvQ1FwTGxsdXV2ZXhnRjMzN3hrX1Q2UkhORHlUV293QjJZR3lBZTU3aUwxWVg1TGdXLXozUEI3cDU0dWtKQzl0dlI?oc=5",
-      "source": "nationaljeweler.com",
-      "published": "2026-11-04T19:39:56+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Art Jewelry Has Found an Appreciative New Audience",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9iYVVSc2hVV21zU0Z1WUlaUy1MUnpGdUNndERjSlNTOHMzZG5JckszUHJkdnFrYnRfLW1PVERzdWdQLW10TElTU3VVU0NsV2JQeGNka2lmejByQm5QcXJFWldmWWFQRkN1?oc=5",
-      "source": "Elite Traveler",
-      "published": "2026-11-04T06:38:31+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Louis Vuitton’s Vivienne gets three new jewellery designs",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNjRIbVY1d1dfa2dKRU84dU1KMWpFWEpaLXZDcHhSUnZLM1NZMlNmV091bHVfWDZGUmlvN1ROVThmRzJKQ1hoZWt2WDRuN3JPcmg0bFVJay14ZHZmVzA3aDY1Y2Jfay0yalktdGc3SG1ZQXNtNmIyUVYyWmZldTg0anM1R2Npcldnb3fSAY8BQVVfeXFMTm80b0ZIc2gyTF9mSUwzZ1h6dF9vcV9NaUNwcGpFcDcwdTRJWUg5YmkzQWRZR0pVZ2RpLW44WWF1ZEEwbVlENUpSOVNudl9OWnRybjlOWFl6X0RTY1NmSlF1RjBmd2JjMkFYYnVsb3h6Ym1LbkZkWlc3VGFnOU9jRGRtejR0V0FYSUV0eEd3RHc?oc=5",
-      "source": "Prestige Online - Singapore",
-      "published": "2026-11-04T05:39:13+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Audemars Piguet Brings A True Marriage Of Jewellery And Watches In The Royal Oak",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1YNXM0OFdPRDkwYW1mV3hvSDdVMTdrXzlxVnZLTVYyenJHa2ZQZzN6Z3daV3ZmUFZzOThFUTBNU0FMTmpHUXNXQllSaWRpdlVFc0hRRVdRNXFma3VUU2U2SmdObWY0Y3V2U3BDRC1IR0t1RS13V0RaLQ?oc=5",
-      "source": "Men's Folio",
-      "published": "2026-11-04T11:53:37+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Vogue’s Jewelry Team Picks Out Dream Gifts at Every Price",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5NQkVjeENjWWZSS0lUaURDOEUyTWFCVzFOWlJiSEl0MVNXQTVTY0RlZk90RVVaQnFPV2FsTDVXNzZaUF9oNkNKMW85UVVjVVh3RXhjalVOVmNaWUdodlc4YnhYMA?oc=5",
-      "source": "Vogue",
-      "published": "2026-11-04T12:00:06+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "CEO/designer highlights ‘longevity’ marketplace with a nod to HPMKT furniture products that fit the bill",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOUzRyMW1jWXFnTUNCOUNxVEIzSE5OTWlwU1F0X1JiVEdjNjJ0ZndNU3dmblRCTXhVa1dmbHZtc1U3UzFGOWdpYk54NDR0c2Rfbm44NEYzekNLOGlkdC1TQlprWEtwNFhSc0UzbThXSEpWWk8xUXl3QlhLNHVRaHJ0dG5PVXZza2dmSU5wTllQdkdLMHRfUTdNTHFEYVpjOGxQV1BBaFVGYTVtbHJyS1dlc3luNF9LSUNYTjh5bVhlWmV0a2luWHJpc25qSVBfRnlYRWMzS3NKdnVibGxtY0kxc1ZWVQ?oc=5",
-      "source": "Designers Today",
-      "published": "2026-11-04T17:53:19+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "مبلمان",
-      "importance": "متوسط"
-    },
-    {
-      "title": "5 Furniture Trends That Will Be Everywhere in 2027, According to an Expert",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SdVczc3BzektsY3FRREx1bWtHTTJTR25JTWtsa0dBYVlqdWlaaHZsUGl6Vl81bEdrTFpYeDRQak1aVXJCeU42RTJFSFZhWFF6MGNrSTJnTTc2N2ZmOUJlOGk0Z2ROUjJBWkVSZA?oc=5",
-      "source": "Martha Stewart",
-      "published": "2026-11-04T17:22:53+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "مبلمان",
-      "importance": "متوسط"
-    },
-    {
-      "title": "Flaer Debuts Premium Furniture Collection at Downtown Design Dubai - News and Statistics",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQalJ0VldzN0lmRG9QODFUM0k5RS1wSkJfNTJsQUNzODBET2szanNRNlFFbXBCY1pSZkw1RWp2amUySjkyR0loVGxJTjZHV1VrYkdXZjlURE9uSk1DaWs1OWpVc2NTRDdIVUhycWJtbS0xQ0d1dkZkRUdsdlF3WkFBRHkzNW4zSDFGMDhVLVBjZGsxVko4TklWWkczeTVJMVJE?oc=5",
-      "source": "IndexBox",
-      "published": "2026-11-04T15:42:26+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "هوش مصنوعی در طراحی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "Furniture First NextGen held Annual Retreat",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObTN5S2VlUEVfaGdQbXZDZkRjbGNKeUdLSXBYcFl3OTNSTGd3T0J4aDVyWlVGNTNIWUlSeDFJSnpHcDJXLTRjXy1JRHQ3b2xvZG16VTNYdUlxUm8yZHozTXkyVk1wU1FVMm9HRllneml2QkJucVpod1UydUtkUWxxa0U1UGU?oc=5",
-      "source": "Big Furniture Group",
-      "published": "2026-11-04T06:00:05+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "مبلمان",
-      "importance": "متوسط"
-    },
-    {
-      "title": "Misha Kahn Carves Marble Into Drapery and Rebuilds Painted Sofas in Wool",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdEpidDVrbGhrYUJzRjFOY2lxR3dDLWExdGd3YTI5WkpRYU9WaWUxSnhQc1g0TV9vQllMMmxBbEVhQUowRF9FMU5MVHVQcHNTSUI2d1NRcUlpdGR4dEZfM3daQzIyQmV0YkFMNHN3T0Z3ak55MEFGVm1zV29lNHZMUWN3aWhxTDE5?oc=5",
-      "source": "freeyork",
-      "published": "2026-11-04T15:15:51+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Gallery Unveils Spring Summer 2027",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MVDFXR2pjLWhkakFJaEhPVHNKemMtSWZCdGpoRnJFTzl3QWtGN3BVWWM2ZHhrWmNUd0dYb0dyTTI2QWZOX1pObGozNTVYM0xTaXpBLXJCR0hzb2xxQ2JYU1o4Z3lUa2QzSWtUQ2VjTjViZEtxQ2FZSw?oc=5",
-      "source": "Big Furniture Group",
-      "published": "2026-11-04T06:00:05+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Selena Placino's \"Taho! Bench\": A Carrier Becomes Home Decor",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNem82dG15LW9kcGpTaFNmMXNOV0dsSVJYd0NMN2NnM3FJOTlRUzN5TlNvaHZTM3FuOGNGdFhFZ3ZmMUY0NnRveExNT0dYeFNoZ3Q1RkMyU1NtN2phNHgySnpPeG5QckdFNUNPYU5sVTlEN0pQSHBqeUUxTThKZzRGRl9pRkJDT0dQTC10dQ?oc=5",
-      "source": "Lifestyle Asia",
-      "published": "2026-11-04T03:02:45+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Young furniture maker Cole is a national finalist yet again",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQalloVnZaN1dwS1NRRFQ1OW9CeUdsdDNJM2Z0REEyRkdNcWZ5YVNDc3NmSENpUDFUeFVsSVgxMU44Y2tLQ2ZLQ3E2S21ORk1KZVJRNmo5MmdvZzBGZ0lpaTVWQVo4UFlaQVB2eXJKa2xFWWlJZG9YQV92SzZibVBETjNtMEg2Y1dGNGU1dFUwNjhyNDJUQ2J3WEM3Umg1VXk4ZDctVjRxX1E0VXdnTUloLU9aMGwwcURLVHdOX2hKMEstZzVQSFlEcQ?oc=5",
-      "source": "Northumberland Gazette",
-      "published": "2026-11-04T12:41:00+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "مبلمان",
-      "importance": "متوسط"
-    },
-    {
-      "title": "Furniselan Expands Bengaluru Presence with Second Furniture Experience Centre in HBR Layout",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOa1dOQUF4dWFfczdQYk1QLW9xek02RFNXN1o2UFFSd3BNcnowWXJ6NWI4Xy1lblNlNndid01WdGtIZFhPV1ZqZVRJZFZldFFOZlZBWEJ2Q00xUmd3WGI5SkhsWHFtVTZtODBZYnhkV1lIdXFDX0tYU1htWjdHSFBncGV5eFB1cTVqRFp6b2JUOVRVZWxHU3l5WnNJekoyZWlfWXRqOVhMdFdVckJoREplVHh1enpHajBJajg2aHB0Y2htNEZpVWdaQWktWEQ4STdZ?oc=5",
-      "source": "https://www.indiagazette.com/",
-      "published": "2026-11-04T04:33:00+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "مبلمان",
       "importance": "متوسط"
     }
   ]
