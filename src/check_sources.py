@@ -44,6 +44,7 @@ def check_feed(name, url, kind="rss"):
         res["last_7d"] = sum(1 for d in dts if now - d <= timedelta(days=7))
         res["newest"] = max(dts).isoformat() if dts else None
         res["ok"] = res["entries"] > 0
+        res["sample_titles"] = [str(e.get("title", ""))[:90] for e in feed.entries[:4]]
         if not res["ok"]:
             res["error"] = "no entries parsed"
     except Exception as e:
