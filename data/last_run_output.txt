@@ -1,97 +1,87 @@
-2026-11-04 12:26:01,440 [INFO] main: === Design News Bot starting ===
-2026-11-04 12:26:01,440 [INFO] main: Step 1/6 — Collecting...
-2026-11-04 12:26:01,597 [INFO] collector: RSS Fast Company Design -> 0 recent articles
-2026-11-04 12:26:01,618 [INFO] collector: RSS Gessato -> 0 recent articles
-2026-11-04 12:26:01,761 [INFO] collector: RSS The Dieline -> 1 recent articles
-2026-11-04 12:26:01,816 [INFO] collector: RSS ArchDaily -> 13 recent articles
-2026-11-04 12:26:01,895 [INFO] collector: RSS Yanko Design -> 16 recent articles
-2026-11-04 12:26:01,959 [INFO] collector: RSS Creative Boom -> 4 recent articles
-2026-11-04 12:26:02,033 [INFO] collector: RSS Design Milk -> 2 recent articles
-2026-11-04 12:26:02,561 [INFO] collector: RSS Core77 -> 3 recent articles
-2026-11-04 12:26:02,583 [INFO] collector: RSS Designboom -> 10 recent articles
-2026-11-04 12:26:02,744 [INFO] collector: RSS Google News: industrial design -> 8 recent articles
-2026-11-04 12:26:02,760 [INFO] collector: RSS Google News: design competition -> 2 recent articles
-2026-11-04 12:26:03,217 [INFO] collector: RSS Google News: design award winners -> 6 recent articles
-2026-11-04 12:26:03,325 [INFO] collector: RSS Google News: product design award -> 5 recent articles
-2026-11-04 12:26:03,470 [INFO] collector: RSS Wallpaper -> 10 recent articles
-2026-11-04 12:26:03,525 [INFO] collector: Scraped Red Dot -> 2 recent articles
-2026-11-04 12:26:03,579 [INFO] collector: RSS Google News: automotive design -> 7 recent articles
-2026-11-04 12:26:03,638 [INFO] collector: RSS Surface -> 4 recent articles
-2026-11-04 12:26:03,660 [INFO] collector: RSS Google News: accessory design -> 2 recent articles
-2026-11-04 12:26:03,861 [INFO] collector: RSS Google News: furniture design -> 7 recent articles
-2026-11-04 12:26:03,959 [INFO] collector: RSS Google News: service design -> 1 recent articles
-2026-11-04 12:26:04,007 [INFO] collector: RSS Google News: jewelry design -> 7 recent articles
-2026-11-04 12:26:04,187 [INFO] collector: RSS Dezeen -> 7 recent articles
-2026-11-04 12:26:04,275 [INFO] collector: RSS Dezeen Competitions -> 0 recent articles
-2026-11-04 12:26:04,276 [INFO] collector: Total collected (before dedup): 117
-2026-11-04 12:26:04,276 [INFO] main: Step 2/6 — Deduplicating...
-2026-11-04 12:26:04,286 [INFO] dedup: Dedup: removed 5 duplicates, kept 112
-2026-11-04 12:26:04,286 [INFO] main: 112 unique articles
-2026-11-04 12:26:04,518 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
-2026-11-04 12:26:05,405 [INFO] main: Registered users: 6 | languages needed: ['fa']
-2026-11-04 12:26:05,405 [INFO] main: Step 3/6 — Enriching (fa)...
-2026-11-04 12:26:05,619 [INFO] summarizer: Gemini candidate models: ['gemini-flash-latest', 'gemini-flash-lite-latest', 'gemini-3.8-flash', 'gemini-3.7-flash']
-2026-11-04 12:27:35,741 [WARNING] summarizer: Model gemini-flash-latest failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)
-2026-11-04 12:27:40,817 [INFO] summarizer: Gemini OK via gemini-flash-lite-latest (10 items)
-2026-11-04 12:27:48,075 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 15s
-2026-11-04 12:28:04,790 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 30s
-2026-11-04 12:29:22,553 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 15s
-2026-11-04 12:31:04,825 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 30s
-2026-11-04 12:31:35,667 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 15s
-2026-11-04 12:31:51,362 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 30s
-2026-11-04 12:32:25,895 [INFO] summarizer: Gemini OK via gemini-flash-lite-latest (4 items)
-2026-11-04 12:32:25,896 [INFO] summarizer: Batch 1/12: 10/10 enriched with valid output
-2026-11-04 12:32:34,332 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 15s
-2026-11-04 12:32:49,865 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 30s
-2026-11-04 12:33:24,911 [INFO] summarizer: Gemini OK via gemini-flash-lite-latest (10 items)
-2026-11-04 12:33:24,912 [INFO] summarizer: Batch 2/12: 10/10 enriched with valid output
-2026-11-04 12:33:30,672 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 15s
-2026-11-04 12:33:46,807 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 30s
-2026-11-04 12:34:25,601 [INFO] summarizer: Gemini OK via gemini-flash-lite-latest (10 items)
-2026-11-04 12:34:25,602 [INFO] summarizer: Batch 3/12: 10/10 enriched with valid output
-2026-11-04 12:34:31,278 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 15s
-2026-11-04 12:34:49,635 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 30s
-2026-11-04 12:35:26,958 [INFO] summarizer: Gemini OK via gemini-flash-lite-latest (10 items)
-2026-11-04 12:35:26,959 [INFO] summarizer: Batch 4/12: 10/10 enriched with valid output
-2026-11-04 12:35:32,551 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 15s
-2026-11-04 12:35:48,611 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 30s
-2026-11-04 12:36:23,746 [INFO] summarizer: Gemini OK via gemini-flash-lite-latest (10 items)
-2026-11-04 12:36:23,747 [INFO] summarizer: Batch 5/12: 10/10 enriched with valid output
-2026-11-04 12:36:29,643 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 15s
-2026-11-04 12:38:14,783 [WARNING] summarizer: Model gemini-flash-latest failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)
-2026-11-04 12:38:18,991 [INFO] summarizer: Gemini OK via gemini-flash-lite-latest (10 items)
-2026-11-04 12:38:18,991 [INFO] summarizer: Batch 6/12: 10/10 enriched with valid output
-2026-11-04 12:38:47,719 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 15s
-2026-11-04 12:39:07,766 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 30s
-2026-11-04 12:39:41,493 [INFO] summarizer: Gemini OK via gemini-flash-lite-latest (10 items)
-2026-11-04 12:40:48,524 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 15s
-2026-11-04 12:41:03,687 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 30s
-2026-11-04 12:41:39,844 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 15s
-2026-11-04 12:41:55,047 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 30s
-2026-11-04 12:42:25,200 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 15s
-2026-11-04 12:42:40,350 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 30s
-2026-11-04 12:43:11,574 [INFO] summarizer: Gemini OK via gemini-flash-lite-latest (1 items)
-2026-11-04 12:43:11,575 [INFO] summarizer: Batch 7/12: 10/10 enriched with valid output
-2026-11-04 12:43:16,575 [INFO] summarizer: Batch 8/12: 0/10 enriched with valid output
-2026-11-04 12:43:21,575 [INFO] summarizer: Batch 9/12: 0/10 enriched with valid output
-2026-11-04 12:43:26,576 [INFO] summarizer: Batch 10/12: 0/10 enriched with valid output
-2026-11-04 12:43:31,576 [INFO] summarizer: Batch 11/12: 0/10 enriched with valid output
-2026-11-04 12:43:36,576 [INFO] summarizer: Batch 12/12: 0/2 enriched with valid output
-2026-11-04 12:43:36,576 [INFO] summarizer: Enriched 112 articles via Gemini. Non-Other: 67/112. Importance: {'متوسط': 46, 'پایین': 53, 'بالا': 13}
-2026-11-04 12:43:36,577 [INFO] main: Step 4/6 — No English users: skipping English enrichment (saves AI quota).
-2026-11-04 12:43:36,577 [INFO] main: Step 5/6 — Saving cache for instant on-demand responses...
-2026-11-04 12:43:36,583 [INFO] cache: Cache saved: fa (112 articles)
-2026-11-04 12:43:36,583 [INFO] main: Step 6/6 — Sending personalized digests...
-2026-11-04 12:43:36,624 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
-2026-11-04 12:43:37,560 [INFO] sender: Sending to 6 users
-2026-11-04 12:43:40,966 [INFO] sender: Sent digest (fa, interests=['product'], 4 messages)
-2026-11-04 12:43:43,871 [INFO] sender: Sent digest (fa, interests=['service', 'jewelry', 'accessory'], 3 messages)
-2026-11-04 12:43:47,853 [INFO] sender: Sent digest (fa, interests=['product'], 4 messages)
-2026-11-04 12:43:53,012 [INFO] sender: Sent digest (fa, interests=['product', 'automotive'], 5 messages)
-2026-11-04 12:44:01,099 [INFO] sender: Sent digest (fa, interests=['automotive', 'product', 'furniture', 'jewelry', 'accessory', 'service'], 8 messages)
-2026-11-04 12:44:01,969 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
-2026-11-04 12:44:02,333 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
-2026-11-04 12:44:03,275 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
-2026-11-04 12:44:03,670 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
-2026-11-04 12:44:03,671 [INFO] sender: Sent digest (fa, interests=['service'], 2 messages)
-2026-11-04 12:44:04,172 [INFO] main: === Done. ===
+2026-11-05 02:37:07,903 [INFO] main: === Design News Bot starting ===
+2026-11-05 02:37:07,903 [INFO] main: Step 1/6 — Collecting...
+2026-11-05 02:37:08,067 [INFO] collector: RSS Fast Company Design -> 0 recent articles
+2026-11-05 02:37:08,091 [INFO] collector: RSS Gessato -> 0 recent articles
+2026-11-05 02:37:08,119 [INFO] collector: RSS ArchDaily -> 19 recent articles
+2026-11-05 02:37:08,263 [INFO] collector: RSS The Dieline -> 6 recent articles
+2026-11-05 02:37:08,561 [INFO] collector: RSS Yanko Design -> 15 recent articles
+2026-11-05 02:37:08,659 [INFO] collector: RSS Core77 -> 3 recent articles
+2026-11-05 02:37:08,662 [INFO] collector: RSS Dezeen -> 9 recent articles
+2026-11-05 02:37:08,690 [INFO] collector: RSS Google News: industrial design -> 4 recent articles
+2026-11-05 02:37:08,715 [INFO] collector: RSS Google News: product design award -> 2 recent articles
+2026-11-05 02:37:08,761 [INFO] collector: RSS Design Milk -> 3 recent articles
+2026-11-05 02:37:08,775 [INFO] collector: RSS Creative Boom -> 4 recent articles
+2026-11-05 02:37:09,037 [INFO] collector: RSS Designboom -> 9 recent articles
+2026-11-05 02:37:09,045 [INFO] collector: RSS Wallpaper -> 8 recent articles
+2026-11-05 02:37:09,168 [INFO] collector: RSS Surface -> 3 recent articles
+2026-11-05 02:37:09,184 [INFO] collector: RSS Dezeen Competitions -> 0 recent articles
+2026-11-05 02:37:09,284 [INFO] collector: RSS Google News: service design -> 1 recent articles
+2026-11-05 02:37:09,296 [INFO] collector: RSS Google News: design competition -> 4 recent articles
+2026-11-05 02:37:09,301 [INFO] collector: RSS Google News: design award winners -> 1 recent articles
+2026-11-05 02:37:09,351 [INFO] collector: RSS Google News: automotive design -> 1 recent articles
+2026-11-05 02:37:09,355 [INFO] collector: Scraped Red Dot -> 2 recent articles
+2026-11-05 02:37:09,370 [INFO] collector: RSS Google News: accessory design -> 3 recent articles
+2026-11-05 02:37:09,417 [INFO] collector: RSS Google News: jewelry design -> 8 recent articles
+2026-11-05 02:37:09,425 [INFO] collector: RSS Google News: furniture design -> 10 recent articles
+2026-11-05 02:37:09,426 [INFO] collector: Total collected (before dedup): 115
+2026-11-05 02:37:09,426 [INFO] main: Step 2/6 — Deduplicating...
+2026-11-05 02:37:09,432 [INFO] dedup: Dedup: removed 4 duplicates, kept 111
+2026-11-05 02:37:09,432 [INFO] main: 111 unique articles
+2026-11-05 02:37:09,792 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-11-05 02:37:10,929 [INFO] main: Registered users: 6 | languages needed: ['fa']
+2026-11-05 02:37:10,929 [INFO] main: Step 3/6 — Enriching (fa)...
+2026-11-05 02:37:11,060 [INFO] summarizer: Gemini candidate models: ['gemini-flash-latest', 'gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash']
+2026-11-05 02:38:41,157 [WARNING] summarizer: Model gemini-flash-latest failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)
+2026-11-05 02:38:41,308 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 15s
+2026-11-05 02:40:26,341 [WARNING] summarizer: Model gemini-3.8-flash failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)
+2026-11-05 02:41:56,388 [WARNING] summarizer: Model gemini-3.7-flash failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)
+2026-11-05 02:42:24,276 [INFO] summarizer: Gemini OK via gemini-3.6-flash (10 items)
+2026-11-05 02:42:24,276 [INFO] summarizer: Batch 1/12: 10/10 enriched with valid output
+2026-11-05 02:42:29,407 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 15s
+2026-11-05 02:42:44,518 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 30s
+2026-11-05 02:43:14,629 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 15s
+2026-11-05 02:43:29,746 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 30s
+2026-11-05 02:43:59,861 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 15s
+2026-11-05 02:44:14,952 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 30s
+2026-11-05 02:45:10,584 [INFO] summarizer: Gemini OK via gemini-3.6-flash (10 items)
+2026-11-05 02:45:10,585 [INFO] summarizer: Batch 2/12: 10/10 enriched with valid output
+2026-11-05 02:45:15,703 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 15s
+2026-11-05 02:45:30,811 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 30s
+2026-11-05 02:46:00,906 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 15s
+2026-11-05 02:46:16,005 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 30s
+2026-11-05 02:46:46,107 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 15s
+2026-11-05 02:47:01,211 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 30s
+2026-11-05 02:47:32,879 [WARNING] summarizer: Model gemini-3.6-flash rate-limited, waiting 15s
+2026-11-05 02:48:00,153 [WARNING] summarizer: Model gemini-3.6-flash rate-limited, waiting 30s
+2026-11-05 02:48:35,263 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 15s
+2026-11-05 02:48:50,395 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 30s
+2026-11-05 02:49:20,518 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 15s
+2026-11-05 02:49:35,618 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 30s
+2026-11-05 02:50:05,696 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 15s
+2026-11-05 02:50:20,802 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 30s
+2026-11-05 02:50:57,497 [WARNING] summarizer: Model gemini-3.6-flash rate-limited, waiting 15s
+2026-11-05 02:51:19,431 [WARNING] summarizer: Model gemini-3.6-flash rate-limited, waiting 30s
+2026-11-05 02:51:49,432 [INFO] summarizer: Batch 3/12: 0/10 enriched with valid output
+2026-11-05 02:51:54,552 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 15s
+2026-11-05 02:52:09,656 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 30s
+2026-11-05 02:52:39,753 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 15s
+2026-11-05 02:52:54,856 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 30s
+2026-11-05 02:53:24,971 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 15s
+2026-11-05 02:53:40,075 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 30s
+2026-11-05 02:54:13,709 [WARNING] summarizer: Model gemini-3.6-flash rate-limited, waiting 15s
+2026-11-05 02:54:35,320 [WARNING] summarizer: Model gemini-3.6-flash rate-limited, waiting 30s
+2026-11-05 02:55:05,321 [INFO] summarizer: Batch 4/12: 0/10 enriched with valid output
+2026-11-05 02:55:10,321 [INFO] summarizer: Batch 5/12: 0/10 enriched with valid output
+2026-11-05 02:55:15,322 [INFO] summarizer: Batch 6/12: 0/10 enriched with valid output
+2026-11-05 02:55:20,322 [INFO] summarizer: Batch 7/12: 0/10 enriched with valid output
+2026-11-05 02:55:25,322 [INFO] summarizer: Batch 8/12: 0/10 enriched with valid output
+2026-11-05 02:55:30,322 [INFO] summarizer: Batch 9/12: 0/10 enriched with valid output
+2026-11-05 02:55:35,323 [INFO] summarizer: Batch 10/12: 0/10 enriched with valid output
+2026-11-05 02:55:40,323 [INFO] summarizer: Batch 11/12: 0/10 enriched with valid output
+2026-11-05 02:55:45,323 [INFO] summarizer: Batch 12/12: 0/1 enriched with valid output
+2026-11-05 02:55:45,324 [INFO] summarizer: Enriched 111 articles via Gemini. Non-Other: 28/111. Importance: {'متوسط': 28, 'پایین': 80, 'بالا': 3}
+2026-11-05 02:55:45,324 [INFO] main: Step 4/6 — No English users: skipping English enrichment (saves AI quota).
+2026-11-05 02:55:45,324 [INFO] main: Step 5/6 — Saving cache for instant on-demand responses...
+2026-11-05 02:55:45,327 [INFO] cache: Cache saved: fa (111 articles)
+2026-11-05 02:55:45,328 [INFO] main: Step 6/6 — SKIP_SEND=true: cache refreshed, not sending to users.
+2026-11-05 02:55:45,328 [INFO] main: === Done. ===
