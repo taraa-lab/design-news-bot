@@ -27,7 +27,7 @@ MAX_WORKERS_CLAUDE = 5
 DELAY_OPENROUTER = 3
 DELAY_GEMINI = 5
 MAX_TOKENS = 5000
-BUDGET_SECONDS = 900                          # per enrich_articles() call
+BUDGET_SECONDS = 1500                          # per enrich_articles() call
 MAX_MODEL_CANDIDATES = 5
 
 _EXAMPLE_FA = ('[{"id": 1, "title_fa": "Studio Aria یک صندلی چوبی تاشوی جدید معرفی کرد", '
@@ -305,7 +305,7 @@ def _call_gemini_model(model, user_msg, lang):
               "contents": [{"role": "user", "parts": [{"text": user_msg}]}],
               "generationConfig": {"temperature": 0.2, "maxOutputTokens": 8192,
                                    "responseMimeType": "application/json"}},
-        timeout=90)
+        timeout=60)
     if resp.status_code in (429, 500, 502, 503, 504):       # rate limit or temporary overload -> wait, retry
         raise _RateLimited()
     if resp.status_code in (400, 401, 403, 404):
@@ -319,8 +319,15 @@ def _call_gemini_model(model, user_msg, lang):
 
 
 def _gemini_batch(user_msg, lang, avoid=None):
-    models = [m for m in _gemini_models() if m != avoid] + ([avoid] if avoid in _gemini_models() else [])
-    model, res = _try_models(models, _call_gemini_model, _gem["dead"], user_msg, lang, rate_wait=15)
+    base = _gemini_models()
+    models = [m for m in base if m != avoid]
+    good = _gem["last_good"]
+    if good in models:                       # stick with the model that worked (skips overloaded aliases)
+        models.remove(good)
+        models.insert(0, good)
+    if avoid in base:
+        models.append(avoid)
+    model, res = _try_models(models, _call_gemini_model, _gem["dead"], user_msg, lang, rate_wait=6)
     if model:
         _gem["last_good"] = model
         logger.info("Gemini OK via %s (%d items)", model, len(res))
@@ -368,7 +375,7 @@ def _call_openrouter_model(model, user_msg, lang):
         json={"model": model, "max_tokens": MAX_TOKENS, "temperature": 0.2,
               "messages": [{"role": "system", "content": SYSTEM_PROMPT_FA if lang == "fa" else SYSTEM_PROMPT_EN},
                            {"role": "user", "content": user_msg}]},
-        timeout=90)
+        timeout=60)
     if resp.status_code == 429:
         raise _RateLimited()
     if resp.status_code in (400, 401, 402, 403, 404):
