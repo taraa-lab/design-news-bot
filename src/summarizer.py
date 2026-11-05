@@ -265,8 +265,8 @@ def _gem_rank(name):
     """Lower is better: -latest alias first, then newest version, stable before preview, full before lite."""
     m = re.search(r"gemini-(\d+(?:\.\d+)?)", name)
     version = float(m.group(1)) if m else 0.0
-    return (0 if name.endswith("-latest") else 1, -version,
-            1 if ("preview" in name or "exp" in name) else 0, 1 if "lite" in name else 0, name)
+    return (1 if "lite" in name else 0, 0 if name.endswith("-latest") else 1, -version,
+            1 if ("preview" in name or "exp" in name) else 0, name)
 
 
 def _discover_gemini_models():
