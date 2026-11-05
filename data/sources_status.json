@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T11:36:07.683083+00:00",
+  "generated_at": "2026-11-05T09:47:57.625505+00:00",
   "results": [
     {
       "name": "Core77",
@@ -9,10 +9,16 @@
       "http": 200,
       "entries": 15,
       "last_24h": 3,
-      "last_7d": 12,
-      "newest": "2026-10-28T15:00:00+00:00",
+      "last_7d": 15,
+      "newest": "2026-11-04T16:00:00+00:00",
       "error": "",
-      "seconds": 0.9,
+      "sample_titles": [
+        "A Table that Goes from Round to Square",
+        "A Magnetic-Footed Spider-Bot That Can Climb and Weld",
+        "Hell in a Handbasket: Robotic Humanoid Torsos for Companionship",
+        "A Modern Take on the Split-Rail Fence"
+      ],
+      "seconds": 0.7,
       "enabled": true
     },
     {
@@ -23,10 +29,16 @@
       "http": 200,
       "entries": 50,
       "last_24h": 9,
-      "last_7d": 48,
-      "newest": "2026-10-29T11:30:00+00:00",
+      "last_7d": 50,
+      "newest": "2026-11-05T09:00:00+00:00",
       "error": "",
-      "seconds": 1.0,
+      "sample_titles": [
+        "\"Commitment of the design community remains strong\" says Ukrainian design week founders",
+        "Design Doha Biennial 2026 set to explore how traditional crafts can shape the future of de",
+        "Concept car that transforms from SUV to pickup is \"a symbol of freedom\" says Fiat CEO",
+        "Final chance to buy Dezeen Awards 2026 party tickets"
+      ],
+      "seconds": 0.4,
       "enabled": true
     },
     {
@@ -38,9 +50,15 @@
       "entries": 10,
       "last_24h": 9,
       "last_7d": 10,
-      "newest": "2026-10-29T11:00:28+00:00",
+      "newest": "2026-11-05T07:15:27+00:00",
       "error": "",
-      "seconds": 0.7,
+      "sample_titles": [
+        "angelo renna proposes floating modular island with 39-tree ring on florence’s river",
+        "SpY installs giant black triangle in madrid square to explore urban surveillance",
+        "PP-2 turntable reads vinyls without tonearm and inspires glass listening room in tokyo",
+        "andrés jaque questions the politics of utopia in an age of permanent connectivity"
+      ],
+      "seconds": 0.8,
       "enabled": true
     },
     {
@@ -50,10 +68,16 @@
       "ok": true,
       "http": 200,
       "entries": 16,
-      "last_24h": 16,
+      "last_24h": 15,
       "last_7d": 16,
-      "newest": "2026-10-29T10:07:11+00:00",
+      "newest": "2026-11-05T09:15:13+00:00",
       "error": "",
+      "sample_titles": [
+        "Insta360 Ace Pro 3 Leak Teases Vlogs Without a Screen Flip",
+        "Aurzen ZIP Pro Puts a Foldable Projector and Basquiat Art on Your Holiday Gift List",
+        "LEGO’s Biggest Ever “Godzilla” Build Hits The Shelves, Defeating Even The Sagrada Familia ",
+        "This Minimalist House in Japan Turns the Walk to the Shower Into a Landscape Moment"
+      ],
       "seconds": 0.4,
       "enabled": true
     },
@@ -68,7 +92,7 @@
       "last_7d": 0,
       "newest": null,
       "error": "HTTP 404",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "Design Milk",
@@ -77,11 +101,17 @@
       "ok": true,
       "http": 200,
       "entries": 12,
-      "last_24h": 2,
+      "last_24h": 3,
       "last_7d": 12,
-      "newest": "2026-10-28T15:00:02+00:00",
+      "newest": "2026-11-04T18:53:06+00:00",
       "error": "",
-      "seconds": 0.5,
+      "sample_titles": [
+        "2027 Colors of the Year: The Shades Defining Design",
+        "Two Movements, One Striking Watch From Louis Erard × Vianney Halter",
+        "A Modern Seattle Floating Home Takes Coastal Living to New Heights",
+        "SURROUND Presents: Why Good Product Design Requires More Than a Good Idea"
+      ],
+      "seconds": 0.7,
       "enabled": true
     },
     {
@@ -93,8 +123,14 @@
       "entries": 15,
       "last_24h": 0,
       "last_7d": 1,
-      "newest": "2026-10-27T12:00:00+00:00",
+      "newest": "2026-11-01T05:00:00+00:00",
       "error": "",
+      "sample_titles": [
+        "Could AI give older creatives a second act?",
+        "3 design principles in the AI age",
+        "It doesn’t matter if your brand’s visual identity looks good",
+        "The creative economy’s greatest competitive advantage"
+      ],
       "seconds": 0.2,
       "enabled": true
     },
@@ -105,10 +141,16 @@
       "ok": true,
       "http": 200,
       "entries": 24,
-      "last_24h": 12,
+      "last_24h": 8,
       "last_7d": 24,
-      "newest": "2026-10-29T06:00:00+00:00",
+      "newest": "2026-11-05T02:00:00+00:00",
       "error": "",
+      "sample_titles": [
+        "Homes Around Trees / architectureRED",
+        "Tabasco 267 Apartment / CAAM Arquitectos",
+        "Sewing Atelier Studio / Atelier 77 + Matéria Base",
+        "Coco House / CVA Arquitectos"
+      ],
       "seconds": 0.3,
       "enabled": true
     },
@@ -119,11 +161,17 @@
       "ok": true,
       "http": 200,
       "entries": 20,
-      "last_24h": 4,
-      "last_7d": 18,
-      "newest": "2026-10-29T07:15:00+00:00",
+      "last_24h": 3,
+      "last_7d": 15,
+      "newest": "2026-11-05T09:00:00+00:00",
       "error": "",
-      "seconds": 0.5,
+      "sample_titles": [
+        "Tatiana Egoshina finds beauty in bad typography, Italian folklore and happy accidents",
+        "Tomáš Brousil on how to choose typefaces that work in the real world",
+        "Andstudio on the challenges of building a global studio from Lithuania",
+        "Yinka Ilori brings joy and colour to the Tottenham Hotspur away shirt"
+      ],
+      "seconds": 0.4,
       "enabled": true
     },
     {
@@ -140,6 +188,106 @@
       "enabled": false
     },
     {
+      "name": "Wallpaper",
+      "type": "rss",
+      "url": "https://www.wallpaper.com/rss",
+      "ok": true,
+      "http": 200,
+      "entries": 50,
+      "last_24h": 7,
+      "last_7d": 49,
+      "newest": "2026-11-05T08:00:00+00:00",
+      "error": "",
+      "sample_titles": [
+        "Ones to watch: Betyle Studio searches for a talisman in every project",
+        "In Barcelona, a historical washerwomen’s house is restored with a clean new look",
+        "Lady White Co’s refreshed Los Angeles store is a minimalist haven inspired by the modernis",
+        "‘By changing the scale, I began to see these pieces differently’: Sarah Emilie Müllertz pr"
+      ],
+      "seconds": 0.6,
+      "enabled": true
+    },
+    {
+      "name": "The Dieline",
+      "type": "rss",
+      "url": "https://thedieline.com/feed",
+      "ok": true,
+      "http": 200,
+      "entries": 10,
+      "last_24h": 6,
+      "last_7d": 10,
+      "newest": "2026-11-04T22:41:27+00:00",
+      "error": "",
+      "sample_titles": [
+        "What We Learned From the 2026 Midterms About Data Centers and AI (Voters Really, Really Ha",
+        "Canva Latest Tech Company To Announce Major Layoffs As Demand Weakens",
+        "Young Jerks Adds Tropical Vibes To Sunr Flavor Crystal Drink Mixes",
+        "Stout Collective’s Matt Tanaka Charts American Beer Branding Over the Last Decade"
+      ],
+      "seconds": 0.1,
+      "enabled": true
+    },
+    {
+      "name": "Gessato",
+      "type": "rss",
+      "url": "https://www.gessato.com/feed/",
+      "ok": true,
+      "http": 200,
+      "entries": 10,
+      "last_24h": 0,
+      "last_7d": 3,
+      "newest": "2026-11-03T10:55:46+00:00",
+      "error": "",
+      "sample_titles": [
+        "Plywood House by Charly Jolliet",
+        "Turó Park",
+        "Fusetti House",
+        "The Form That Remained"
+      ],
+      "seconds": 0.2,
+      "enabled": true
+    },
+    {
+      "name": "Surface",
+      "type": "rss",
+      "url": "https://www.surfacemag.com/feed/",
+      "ok": true,
+      "http": 200,
+      "entries": 10,
+      "last_24h": 3,
+      "last_7d": 10,
+      "newest": "2026-11-04T10:52:00+00:00",
+      "error": "",
+      "sample_titles": [
+        "Interior Architect Tristan Auer’s Made-to-Measure Approach",
+        "Ralph Lauren and Diotima’s Rachel Scott Win Top Prizes at the 2026 CFDA Awards, and Other ",
+        "ODDOBODY Turns Ten With a Brooklyn Dance Party",
+        "A Rammed-Earth Retreat with Monastic Energy in Portugal"
+      ],
+      "seconds": 0.9,
+      "enabled": true
+    },
+    {
+      "name": "Dezeen Competitions",
+      "type": "rss",
+      "url": "https://www.dezeen.com/competitions/feed/",
+      "ok": true,
+      "http": 200,
+      "entries": 50,
+      "last_24h": 0,
+      "last_7d": 2,
+      "newest": "2026-10-30T15:30:00+00:00",
+      "error": "",
+      "sample_titles": [
+        "Re:Paris Prize",
+        "Limassol Arts Centre in Cyprus Competition",
+        "Luis Ferreira Alves International Photography Competition",
+        "Unbuilt Award 2027"
+      ],
+      "seconds": 1.5,
+      "enabled": true
+    },
+    {
       "name": "IDSA",
       "type": "scrape",
       "url": "https://www.idsa.org/news",
@@ -147,7 +295,7 @@
       "http": 200,
       "entries": 0,
       "error": "selector matched nothing",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "WDO",
@@ -157,7 +305,7 @@
       "http": 200,
       "entries": 0,
       "error": "selector matched nothing",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "Red Dot",
@@ -177,7 +325,7 @@
       "http": 403,
       "entries": 0,
       "error": "HTTP 403",
-      "enabled": true
+      "enabled": false
     }
   ],
   "google_news": [
@@ -187,12 +335,18 @@
       "url": "https://news.google.com/rss/search?q=industrial%20design&hl=en-US&gl=US&ceid=US:en",
       "ok": true,
       "http": 200,
-      "entries": 68,
-      "last_24h": 6,
-      "last_7d": 15,
-      "newest": "2026-10-29T10:22:01+00:00",
+      "entries": 57,
+      "last_24h": 5,
+      "last_7d": 9,
+      "newest": "2026-11-05T08:36:00+00:00",
       "error": "",
-      "seconds": 0.5
+      "sample_titles": [
+        "Complete Buyer's Guide to Preventing Layer Delamination, Jgmaker's Top Rated ASA Filament ",
+        "World-renowned designer works with WMU students on innovative solutions for aging in place",
+        "Design-Busan 2026 Opens, Transforming Industrial Heritage - 조선일보",
+        "AI Taming Humans... \"Let's Enthusiastically Collide and Fail\" (Professor Yiyun Kang, KAIST"
+      ],
+      "seconds": 0.4
     },
     {
       "name": "Google News: product design award",
@@ -200,230 +354,301 @@
       "url": "https://news.google.com/rss/search?q=product%20design%20award&hl=en-US&gl=US&ceid=US:en",
       "ok": true,
       "http": 200,
-      "entries": 100,
-      "last_24h": 2,
-      "last_7d": 11,
-      "newest": "2026-10-29T10:04:16+00:00",
+      "entries": 53,
+      "last_24h": 1,
+      "last_7d": 6,
+      "newest": "2026-11-05T06:04:36+00:00",
       "error": "",
-      "seconds": 0.5
+      "sample_titles": [
+        "TirTir's Seongsu flagship wins Red Dot Design Award - The Korea Herald",
+        "AndaSeat Xtreme Earns 2026 European Product Design Award as Home Offices Move Toward More ",
+        "ADA 2026 Sustainability Award: The Lebanese Cedar Trophy by De Lucchi - Archiproducts",
+        "Lingnan University wins five awards at European Product Design Award; Foldable baby incuba"
+      ],
+      "seconds": 0.4
     },
     {
-      "name": "Google News: design competition 2025",
+      "name": "Google News: design competition",
       "type": "google_news",
-      "url": "https://news.google.com/rss/search?q=design%20competition%202025&hl=en-US&gl=US&ceid=US:en",
+      "url": "https://news.google.com/rss/search?q=design%20competition&hl=en-US&gl=US&ceid=US:en",
       "ok": true,
       "http": 200,
-      "entries": 44,
-      "last_24h": 0,
-      "last_7d": 0,
-      "newest": "2026-10-02T07:00:00+00:00",
+      "entries": 65,
+      "last_24h": 4,
+      "last_7d": 14,
+      "newest": "2026-11-05T04:58:20+00:00",
       "error": "",
+      "sample_titles": [
+        "DeKlop Dredge Design Competition - DredgeWire",
+        "Airbus A350F freighter: the livery designed by the public, now in flight - Airbus",
+        "KCMA names judges for 2027 Kitchen Design Awards Competition - Woodworking Network",
+        "Silmo Paris Invites Students to ‘Reinvent the Codes’ of Eyewear in 6th Edition of Optical "
+      ],
+      "seconds": 0.4
+    },
+    {
+      "name": "Google News: design award winners",
+      "type": "google_news",
+      "url": "https://news.google.com/rss/search?q=design%20award%20winners&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "http": 200,
+      "entries": 57,
+      "last_24h": 1,
+      "last_7d": 12,
+      "newest": "2026-11-04T14:16:46+00:00",
+      "error": "",
+      "sample_titles": [
+        "iF DESIGN AWARD 2027: Where Design Excellence and Impact Meet - Metropolis Magazine",
+        "And the Winner Is … See Who Walked Away With the Top Prizes at the 2026 CFDA Awards - Vogu",
+        "A’ design award winners achieve real world impact through graphic design - Designboom",
+        "SCAD Savannah Film Festival Announces 2026 Audience and Competition Award Winners - The Sa"
+      ],
+      "seconds": 0.3
+    },
+    {
+      "name": "Google News: automotive design",
+      "type": "google_news",
+      "url": "https://news.google.com/rss/search?q=automotive%20design&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "http": 200,
+      "entries": 70,
+      "last_24h": 4,
+      "last_7d": 14,
+      "newest": "2026-11-05T07:10:10+00:00",
+      "error": "",
+      "sample_titles": [
+        "As Cars Think Faster, Thermal Design Becomes the Next Engineering Frontier - Design News",
+        "Ex-JLR designer Gerry McGovern banned from driving over speeding ticket - Automotive News",
+        "JEEP DESIGN, CAMBIARE SENZA TRADIRE - Auto&Design",
+        "New design chiefs for four Stellantis European brands - Automotive World"
+      ],
+      "seconds": 0.4
+    },
+    {
+      "name": "Google News: furniture design",
+      "type": "google_news",
+      "url": "https://news.google.com/rss/search?q=furniture%20design&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "http": 200,
+      "entries": 84,
+      "last_24h": 7,
+      "last_7d": 24,
+      "newest": "2026-11-05T00:29:17+00:00",
+      "error": "",
+      "sample_titles": [
+        "CEO/designer highlights ‘longevity’ marketplace with a nod to HPMKT furniture products tha",
+        "I Went to the World's Biggest Furniture Trade Show—These 6 Trends Are About to Be Everywhe",
+        "Designing Furniture to Outlast the Fit-Out - ArchDaily",
+        "5 Furniture Trends That Will Be Everywhere in 2027, According to an Expert - Martha Stewar"
+      ],
+      "seconds": 0.4
+    },
+    {
+      "name": "Google News: jewelry design",
+      "type": "google_news",
+      "url": "https://news.google.com/rss/search?q=jewelry%20design&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "http": 200,
+      "entries": 72,
+      "last_24h": 5,
+      "last_7d": 16,
+      "newest": "2026-11-05T02:16:44+00:00",
+      "error": "",
+      "sample_titles": [
+        "Pandora’s Q3 Sales Up 7% Amid Focus on Design - nationaljeweler.com",
+        "Explore Neiman Marcus’s ultra-luxury Fantasy Gifts, from $860K tours to custom jewelry. - ",
+        "DSCENE Fall 2026 Edit: Fashion, Design and Everything Else - dscene magazine",
+        "WATCH – Montana’s Bobby Kennedy, Colton Lentz & Landon Ransom-Goelz on EWU win, Portland S"
+      ],
+      "seconds": 0.4
+    },
+    {
+      "name": "Google News: accessory design",
+      "type": "google_news",
+      "url": "https://news.google.com/rss/search?q=accessory%20design&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "http": 200,
+      "entries": 34,
+      "last_24h": 3,
+      "last_7d": 5,
+      "newest": "2026-11-05T02:16:44+00:00",
+      "error": "",
+      "sample_titles": [
+        "Peak Design Unleashes a Dual-Threat EDC Travel Accessory for Your iPhone - Gear Patrol",
+        "DSCENE Fall 2026 Edit: Fashion, Design and Everything Else - dscene magazine",
+        "Top Shoe Charms Manufacturer: Fujian Heyubokuaji Drives Custom Accessory Innovation - Cinc",
+        "Accessories Council Reveals 2026 Design Excellence Awards Winners - WWD"
+      ],
+      "seconds": 0.4
+    },
+    {
+      "name": "Google News: service design",
+      "type": "google_news",
+      "url": "https://news.google.com/rss/search?q=service%20design&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "http": 200,
+      "entries": 50,
+      "last_24h": 2,
+      "last_7d": 3,
+      "newest": "2026-11-05T07:28:30+00:00",
+      "error": "",
+      "sample_titles": [
+        "Case Service Design (CSD) - Centers for Disease Control and Prevention | CDC (.gov)",
+        "Cure-to-service design of metastability-confined geo-stable cements - Nature",
+        "Leadership in critical situations: how service design can help save lives - Telefónica",
+        "Beyond Commercialization: A Service Design Framework for Campus Sustainability Through Sys"
+      ],
       "seconds": 0.4
     }
   ],
   "candidates": [
     {
-      "name": "Design Week",
+      "name": "GN \"jewelry design\"",
       "type": "rss",
-      "url": "https://www.designweek.co.uk/feed/",
-      "ok": false,
-      "http": 403,
-      "entries": 0,
-      "last_24h": 0,
-      "last_7d": 0,
-      "newest": null,
-      "error": "HTTP 403"
-    },
-    {
-      "name": "Wallpaper",
-      "type": "rss",
-      "url": "https://www.wallpaper.com/rss",
+      "url": "https://news.google.com/rss/search?q=%22jewelry+design%22+when%3A2d&hl=en-US&gl=US&ceid=US:en",
       "ok": true,
       "http": 200,
-      "entries": 50,
-      "last_24h": 8,
-      "last_7d": 50,
-      "newest": "2026-10-29T07:00:00+00:00",
-      "error": "",
-      "seconds": 0.7
-    },
-    {
-      "name": "Car Body Design",
-      "type": "rss",
-      "url": "https://www.carbodydesign.com/feed/",
-      "ok": false,
-      "http": 202,
-      "entries": 0,
-      "last_24h": 0,
-      "last_7d": 0,
-      "newest": null,
-      "error": "HTTP 202"
-    },
-    {
-      "name": "The Dieline",
-      "type": "rss",
-      "url": "https://thedieline.com/feed",
-      "ok": true,
-      "http": 200,
-      "entries": 10,
-      "last_24h": 6,
-      "last_7d": 10,
-      "newest": "2026-10-29T11:23:11+00:00",
-      "error": "",
-      "seconds": 0.2
-    },
-    {
-      "name": "Gessato",
-      "type": "rss",
-      "url": "https://www.gessato.com/feed/",
-      "ok": true,
-      "http": 200,
-      "entries": 10,
-      "last_24h": 1,
-      "last_7d": 4,
-      "newest": "2026-10-28T15:02:03+00:00",
-      "error": "",
-      "seconds": 0.2
-    },
-    {
-      "name": "Dezeen Design",
-      "type": "rss",
-      "url": "https://www.dezeen.com/design/feed/",
-      "ok": true,
-      "http": 200,
-      "entries": 50,
+      "entries": 6,
       "last_24h": 1,
       "last_7d": 6,
-      "newest": "2026-10-28T15:00:00+00:00",
+      "newest": "2026-11-05T02:16:44+00:00",
       "error": "",
-      "seconds": 0.7
+      "sample_titles": [
+        "Built for November: Depth, process fuel Montana State’s 15-2 mark under Vigen - Skyline Sp",
+        "Jewelers of America Announces the Opening of the David Yurman GEM Awards Grant Application",
+        "David Yurman Gem Awards Grant Opens 2027 Applications - nationaljeweler.com",
+        "DSCENE Fall 2026 Edit: Fashion, Design and Everything Else - dscene magazine"
+      ],
+      "seconds": 0.3
     },
     {
-      "name": "Dezeen Competitions",
+      "name": "GN \"jewellery design\" award",
       "type": "rss",
-      "url": "https://www.dezeen.com/competitions/feed/",
+      "url": "https://news.google.com/rss/search?q=%22jewellery+design%22+award+when%3A2d&hl=en-US&gl=US&ceid=US:en",
       "ok": true,
       "http": 200,
-      "entries": 50,
+      "entries": 2,
       "last_24h": 1,
       "last_7d": 2,
-      "newest": "2026-10-28T15:30:00+00:00",
+      "newest": "2026-11-04T10:07:21+00:00",
       "error": "",
-      "seconds": 0.6
+      "sample_titles": [
+        "ZOYA Brings Indian Design And Gemstone Craft To The Global Red Carpet At TIFF - The Retail",
+        "Jayasri Burman On Her New Artwork and Jewellery Debut | Grazia India - Grazia India"
+      ],
+      "seconds": 0.2
     },
     {
-      "name": "Its Nice That",
+      "name": "GN \"accessory design\"",
       "type": "rss",
-      "url": "https://www.itsnicethat.com/rss",
-      "ok": false,
-      "http": 404,
-      "entries": 0,
-      "last_24h": 0,
-      "last_7d": 0,
-      "newest": null,
-      "error": "HTTP 404"
-    },
-    {
-      "name": "Surface",
-      "type": "rss",
-      "url": "https://www.surfacemag.com/feed/",
+      "url": "https://news.google.com/rss/search?q=%22accessory+design%22+when%3A2d&hl=en-US&gl=US&ceid=US:en",
       "ok": true,
       "http": 200,
-      "entries": 10,
-      "last_24h": 4,
-      "last_7d": 10,
-      "newest": "2026-10-29T09:58:00+00:00",
-      "error": "",
-      "seconds": 3.2
-    },
-    {
-      "name": "Interior Design",
-      "type": "rss",
-      "url": "https://interiordesign.net/feed/",
-      "ok": false,
-      "http": 200,
-      "entries": 0,
+      "entries": 3,
       "last_24h": 0,
-      "last_7d": 0,
-      "newest": null,
-      "error": "no entries parsed",
-      "seconds": 0.4
+      "last_7d": 3,
+      "newest": "2026-11-03T17:07:58+00:00",
+      "error": "",
+      "sample_titles": [
+        "Jewelry-Inspired Wellness Wearables: EVOLIA Combines Bracelet Design with Smart Health… - ",
+        "Top Button Manufacturer: Guangzhou Kunshuo Delivers Custom Garment Accessories - The Des M",
+        "CFDA Fashion Awards 2026: Best Dressed Stars, Major Winners and Red Carpet Highlights - Th"
+      ],
+      "seconds": 0.3
     },
     {
-      "name": "NN/g",
+      "name": "GN \"furniture design\" award",
       "type": "rss",
-      "url": "https://www.nngroup.com/feed/rss/",
+      "url": "https://news.google.com/rss/search?q=%22furniture+design%22+award+when%3A2d&hl=en-US&gl=US&ceid=US:en",
       "ok": true,
       "http": 200,
-      "entries": 20,
-      "last_24h": 0,
-      "last_7d": 2,
-      "newest": "2026-10-23T17:00:00+00:00",
+      "entries": 4,
+      "last_24h": 1,
+      "last_7d": 4,
+      "newest": "2026-11-04T16:05:17+00:00",
       "error": "",
-      "seconds": 0.5
+      "sample_titles": [
+        "IAB honours architectural excellence at IAB Awards 2025 - The Daily Star",
+        "A Table that Goes from Round to Square - Core77",
+        "Designing Furniture to Outlast the Fit-Out - ArchDaily",
+        "Selena Placino's \"Taho! Bench\": A Carrier Becomes Home Decor - Lifestyle Asia"
+      ],
+      "seconds": 0.2
     },
     {
-      "name": "Design Indaba",
+      "name": "GN \"automotive design\" concept",
       "type": "rss",
-      "url": "https://www.designindaba.com/rss",
+      "url": "https://news.google.com/rss/search?q=%22automotive+design%22+concept+when%3A2d&hl=en-US&gl=US&ceid=US:en",
       "ok": true,
       "http": 200,
-      "entries": 50,
+      "entries": 5,
       "last_24h": 0,
-      "last_7d": 1,
-      "newest": "2026-10-23T06:00:00+00:00",
+      "last_7d": 5,
+      "newest": "2026-11-04T07:22:26+00:00",
       "error": "",
-      "seconds": 0.5
+      "sample_titles": [
+        "Stellantis Appoints Sandeep Bhambra Head Of Design For Citroën, DS Automobiles - BW Auto W",
+        "How a BITS Pilani engineer shaped the stance of India’s favourite SUVs, including Thar - I",
+        "Ex-JLR designer Gerry McGovern banned from driving over speeding ticket - Automotive News",
+        "Kia creates clay tribute to Rafael Nadal's tennis legacy - https://marketingreport.one/"
+      ],
+      "seconds": 0.3
     },
     {
-      "name": "Archinect",
+      "name": "GN \"car design\" award",
       "type": "rss",
-      "url": "https://archinect.com/feed",
-      "ok": false,
-      "http": 404,
-      "entries": 0,
-      "last_24h": 0,
-      "last_7d": 0,
-      "newest": null,
-      "error": "HTTP 404"
-    },
-    {
-      "name": "Wired Design",
-      "type": "rss",
-      "url": "https://www.wired.com/feed/category/design/latest/rss",
+      "url": "https://news.google.com/rss/search?q=%22car+design%22+award+when%3A2d&hl=en-US&gl=US&ceid=US:en",
       "ok": true,
       "http": 200,
-      "entries": 20,
-      "last_24h": 0,
-      "last_7d": 0,
-      "newest": "2020-01-08T20:34:07+00:00",
+      "entries": 3,
+      "last_24h": 2,
+      "last_7d": 3,
+      "newest": "2026-11-05T07:10:10+00:00",
       "error": "",
-      "seconds": 0.6
+      "sample_titles": [
+        "JEEP DESIGN, CAMBIARE SENZA TRADIRE - Auto&Design",
+        "Nissan Elgrand wins the 2026-2027 Japan Automotive Hall of Fame Car of the Year - 日産自動車ニュー",
+        "Top 5 Auto Accessory Stores in Ukraine in 2026 - Inkorr"
+      ],
+      "seconds": 0.2
     },
     {
-      "name": "Furniture Today",
+      "name": "GN \"service design\"",
       "type": "rss",
-      "url": "https://www.furnituretoday.com/feed/",
-      "ok": false,
+      "url": "https://news.google.com/rss/search?q=%22service+design%22+when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
       "http": 200,
-      "entries": 0,
-      "last_24h": 0,
-      "last_7d": 0,
-      "newest": null,
-      "error": "no entries parsed",
-      "seconds": 6.0
+      "entries": 9,
+      "last_24h": 3,
+      "last_7d": 9,
+      "newest": "2026-11-04T23:44:28+00:00",
+      "error": "",
+      "sample_titles": [
+        "Business analysis: innovating through collaboration - BCS, The Chartered Institute for IT",
+        "Explore the 2026 SDCA Postgraduate Showcase - Loughborough University",
+        "Campus Drone Delivery Economics: Why Do Flying Parcels Still Struggle to Pay Off? - Devdis",
+        "Luxury Market Trends: Global Growth, Consumer Shifts and Industry Outlook - Hospitality Ne"
+      ],
+      "seconds": 0.3
     },
     {
-      "name": "Graphic Competitions",
+      "name": "GN \"industrial design\" award",
       "type": "rss",
-      "url": "https://graphiccompetitions.com/feed/",
-      "ok": false,
-      "http": 404,
-      "entries": 0,
-      "last_24h": 0,
-      "last_7d": 0,
-      "newest": null,
-      "error": "HTTP 404"
+      "url": "https://news.google.com/rss/search?q=%22industrial+design%22+award+when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "http": 200,
+      "entries": 8,
+      "last_24h": 5,
+      "last_7d": 8,
+      "newest": "2026-11-05T08:22:33+00:00",
+      "error": "",
+      "sample_titles": [
+        "Design-Busan 2026 Opens, Transforming Industrial Heritage - 조선일보",
+        "Aurrigo chief executive named industry legend at AV awards - Manufacturing Management",
+        "Ferris State University’s Wege Prize 2027 draws 450 students from 51 countries to tackle c",
+        "Kudos to Management faculty, University Communications and Marketing, Biology and more - M"
+      ],
+      "seconds": 0.3
     }
   ]
 }
