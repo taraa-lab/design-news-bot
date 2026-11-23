@@ -1,818 +1,1852 @@
 {
-  "generated_at": "2026-11-22T13:05:22.101087+00:00",
-  "count": 60,
+  "generated_at": "2026-11-23T15:30:10.206266+00:00",
+  "count": 130,
   "articles": [
     {
-      "title": "طراحی داخلی رستوران ATO Ramen با آشپزخانه شیشه‌ای شفاف",
-      "url": "https://www.archdaily.com/1187743/ato-ramen-cudo",
-      "source": "ArchDaily",
-      "published": "2026-11-22T06:00:00+00:00",
-      "summary": "نقطه شروع طراحی رستوران ATO Ramen در Warsaw، نمایش فرایند آماده‌سازی غذا به مشتریان بوده است. آشپزخانه باز و بخش کارگاهی تولید نودل با دیوارهای شیشه‌ای در مرکز رستوران قرار گرفته‌اند. این طراحی تجربه بصری متفاوتی برای مهمانان ایجاد می‌کند.",
+      "title": "نگاهی به پروژه Midva Vidva Onadva",
+      "url": "https://www.gessato.com/midva-vidva-onadva/",
+      "source": "Gessato",
+      "published": "2026-11-23T10:41:17+00:00",
+      "summary": "این پروژه به بررسی روابط انسانی، افراد و خاطرات پرداخته است. مفهوم طرح بر منحصر‌به‌فرد بودن تجربیات هر فرد تاکید دارد. این پروژه در رسانه Gessato منتشر شده است.",
       "keywords": [
-        "طراحی داخلی",
-        "رستوران",
-        "آشپزخانه باز",
-        "تجربه کاربری"
-      ],
-      "category": "سایر",
-      "importance": "متوسط"
-    },
-    {
-      "title": "رونمایی از پروژه معماری Strata House توسط VPA Architects",
-      "url": "https://www.archdaily.com/1188548/strata-house-vpa-architects",
-      "source": "ArchDaily",
-      "published": "2026-11-21T21:00:00+00:00",
-      "summary": "خانه Strata House توسط استودیوی VPA Architects با تمرکز بر اقلیم و بازی نور و سایه طراحی شده است. این پروژه پاسخ معماری ویژه‌ای به شرایط زمین جنوبی مجموعه ارائه می‌دهد. سایه‌بان‌های عمیق سقفی از ویژگی‌های اصلی این بنا هستند.",
-      "keywords": [
-        "طراحی معماری",
-        "نورپردازی طبیعی",
-        "طراحی اقلیمی"
-      ],
-      "category": "سایر",
-      "importance": "متوسط"
-    },
-    {
-      "title": "بازطراحی هویت ایستگاه پلیس توسط STUDIO MOTLEY",
-      "url": "https://www.archdaily.com/1188485/police-station-for-the-people-studio-motley",
-      "source": "ArchDaily",
-      "published": "2026-11-21T17:00:00+00:00",
-      "summary": "استودیوی STUDIO MOTLEY پروژه جدیدی برای ساخت یک ایستگاه پلیس صمیمی و دعوت‌کننده در Devanahalli اجرا کرده است. هدف اصلی این طرح، تغییر الگوی سنتی و ایجاد فضایی بدون ایجاد حس ارعاب برای مردم بود. این پروژه نگاهی نو به فضاهای شهری ارائه می‌دهد.",
-      "keywords": [
-        "طراحی عمومی",
-        "معماری شهری",
-        "طراحی خدمات"
-      ],
-      "category": "UX و طراحی خدمات",
-      "importance": "متوسط"
-    },
-    {
-      "title": "طراحی مجتمع مسکونی Biarritz با مشارکت معلمان",
-      "url": "https://www.archdaily.com/1189023/biarritz-building-cooperative-housing-ariel-jacubovich-oficina-de-arquitectura",
-      "source": "ArchDaily",
-      "published": "2026-11-21T16:00:00+00:00",
-      "summary": "پروژه Biarritz یک مجتمع ۳۵ واحدی در San Martín است که توسط Ariel Jacubovich | Oficina de Arquitectura طراحی شده است. این پروژه حاصل فرایند مشارکتی با تعاونی معلمان از سال ۲۰۱۷ تا مرحله ساخت است. ساختار بنا بر برآوردن نیازهای واقعی ساکنان تمرکز دارد.",
-      "keywords": [
-        "مسکن تعاونی",
-        "معماری مشارکتی",
-        "طراحی مسکونی"
-      ],
-      "category": "سایر",
-      "importance": "متوسط"
-    },
-    {
-      "title": "طراحی مرکز آبی Aquatics Centre برای بازی‌های Paris 2024",
-      "url": "https://www.archdaily.com/1019578/aquatics-centre-paris-venhoevencs-plus-ateliers-2-3-4",
-      "source": "ArchDaily",
-      "published": "2026-11-21T15:00:00+00:00",
-      "summary": "مرکز Aquatics Centre توسط VenhoevenCS و Ateliers 2/3/4/ به‌عنوان تنها سازه دائمی بازی‌های Paris 2024 در Saint-Denis ساخته شد. این بنا مانند مجسمه‌ای منحنی از چوب در منظره شهری ظاهر شده است. پروژه ترکیبی از نوآوری‌های فنی و متریال پایدار چوبی است.",
-      "keywords": [
-        "معماری چوبی",
-        "طراحی پایدار",
-        "رویدادهای ورزشی"
-      ],
-      "category": "پایداری و محیط زیست",
-      "importance": "بالا"
-    },
-    {
-      "title": "ویلای House AL اثر N2B Arquitetura با شیب طبیعی",
-      "url": "https://www.archdaily.com/1036137/house-al-n2b-arquitetura",
-      "source": "ArchDaily",
-      "published": "2026-11-21T13:00:00+00:00",
-      "summary": "ویلای House AL در منطقه Vila do Golf توسط N2B Arquitetura در سه تراز طراحی شده است. این طرح از شیب طبیعی زمین برای ارائه چشم‌اندازهای اختصاصی استفاده می‌کند. فضای باز طبقه پایین به‌خوبی با طبیعت اطراف یکپارچه شده است.",
-      "keywords": [
-        "طراحی ویلا",
-        "شیب زمین",
-        "معماری طبیعی"
+        "روابط انسانی",
+        "خاطرات",
+        "طراحی مفهومی"
       ],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "بررسی اهمیت مدرسه Bauhaus در تاریخ طراحی صنعتی",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNWxCTnBwSi1COTNBSkVRT1I4QlFUN201ZnFtTWRFQTd5YnFtWGs0VzlVb0tJVzZoNXRFWVBOMkV2cm92QTlSYUJ5WEtzZEh3ampvU3QxY0JNQVV1SURRNjZSSlROZmVxbi1UMGhSRWJvTU1UVTJZdzM3WmFKN3k2VjhqcGNnd0dCSDUzaF9CclhuVlM3b1VVS1U1RktQUXhsOHFfaU9aZVU?oc=5",
-      "source": "Britannica",
-      "published": "2026-11-22T09:57:27+00:00",
-      "summary": "مدرسه Bauhaus نقش کلیدی در شکل‌گیری اصول مدرن طراحی صنعتی ایفا کرده است. این مدرسه با ترکیب هنر و صنعت، پایه‌گذار تولید انبوه کاربردی شد. آموزه‌های Bauhaus هنوز هم بر طراحان سراسر جهان تأثیرگذار است.",
+      "title": "هویت بصری کافه WERF با شیب ۲۰ درجه",
+      "url": "https://thedieline.com/this-bistro-and-its-wine-labels-built-its-whole-identity-on-a-20-degree-angle/",
+      "source": "The Dieline",
+      "published": "2026-11-23T04:56:00+00:00",
+      "summary": "استودیو Andstudio هویت بصری کامل کافه WERF و لیبل‌های آن را طراحی کرده است. این پروژه در قدیمی‌ترین بندر Port of Rotterdam واقع شده است. تمام عناصر گرافیکی و لوگو بر اساس شیب ۲۰ درجه‌ی محل بازسازی کشتی‌ها شکل گرفته‌اند.",
       "keywords": [
-        "مدرسه Bauhaus",
-        "تاریخ طراحی",
-        "طراحی صنعتی"
+        "هویت بصری",
+        "طراحی لیبل",
+        "برندسازی",
+        "طراحی گرافیک"
       ],
-      "category": "آموزش طراحی",
+      "category": "بسته‌بندی",
       "importance": "متوسط"
     },
     {
-      "title": "راهنمای حمایتی Trade Dress در کشور Turkey برای ۲۰۲۶",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeXNaZlZQbF9aN25DSlNFbXNzNkpaVXBmSFZHNGdXUFVmcUxhU2VPaGh5Ny1fcHM0QTg1YXk0bl85Z0tMRGxhNmdMZXB2VDJSZUZ5VEN4RmswWWtCdlI1a2Y1RldOY0kxR2dMMkdBcEZmQkFXVmg2dDNFRV8waWtpVUxTc2pIcm1acVpkVDVza2ZWYnA1VlR1bHl6NHYzUQ?oc=5",
-      "source": "Global Advisory Experts",
-      "published": "2026-11-22T08:12:34+00:00",
-      "summary": "این راهنما به بررسی قوانین و مقررات Trade Dress و حمایت از ظاهر تجاری محصولات در Turkey می‌پردازد. حفاظت از فرم، رنگ و بسته‌بندی محصولات نقش مهمی در هویت برند دارد. راهنمای ۲۰۲۶ چالش‌ها و روندهای حقوقی جدید طراحان را تحلیل می‌کند.",
+      "title": "بررسی دلیل گرایش مصرف‌کنندگان به شکلات‌های اروپایی",
+      "url": "https://thedieline.com/shelf-life-137-american-candy-lost-its-magic-so-were-looking-to-europe/",
+      "source": "The Dieline",
+      "published": "2026-11-23T03:00:00+00:00",
+      "summary": "تغییر دستورالعمل‌های برندهایی مانند Hershey’s اعتماد مصرف‌کنندگان آمریکایی را کاهش داده است. اکنون فروشگاه‌هایی مانند BonBon و Bubs توجه مشتریان را جلب کرده‌اند. رسانه The Dieline به بررسی علل این تغییر در بازار پرداخته است.",
       "keywords": [
-        "ظاهر تجاری",
-        "مالکیت فکری",
-        "حقوق طراحی"
+        "شیرینی و شکلات",
+        "تحلیل بازار",
+        "برندسازی",
+        "رفتار مصرف‌کننده"
       ],
       "category": "کسب‌وکار",
       "importance": "پایین"
     },
     {
-      "title": "ظهور مجله Техническая эстетика و میراث طراحی Soviet",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONWJaZVExZWRua0psYWNFa1hMb1dhbF9GVVBaZWxSeE1fbUVpV19DeGpRQTFneEJuRTEwRmR3RE5CNzRTb05ub3hGeFFndGVfb1h3dVgzbTNQQjR6OHpIZ3dXMkZ6dFd3dERFNEtfcEhsWFpFSFhiMUVVemc3d2JCZGExX1hDYkYwY2xWMW04QWk?oc=5",
-      "source": "Foro3D",
-      "published": "2026-11-22T06:58:27+00:00",
-      "summary": "مجله Техническая эстетика به عنوان میراث‌دار جریان طراحی صنعتی در دوره Soviet شناخته می‌شود. این جنبش تأثیر مهمی بر متدولوژی و زیبایی‌شناسی فنی گذاشت. بررسی این جریان به درک بهتر تاریخ طراحی صنعتی کمک می‌کند.",
+      "title": "بررسی معماری از طریق تحقیقات جرم‌شناسی ساختمانی",
+      "url": "https://www.archdaily.com/1188678/architecture-as-evidence-reading-the-built-environment-through-forensic-investigation",
+      "source": "ArchDaily",
+      "published": "2026-11-23T07:30:00+00:00",
+      "summary": "ساختار فیزیکی ساختمان‌ها می‌تواند شواهد رویدادها و تغییرات گذشته را حفظ کند. ترک‌ها و تعمیرات سازه‌ای زمان و نحوه ایجاد تغییرات را نشان می‌دهند. این روش دیدگاه جدیدی در تحلیل معماری ارائه می‌دهد.",
       "keywords": [
-        "تاریخ طراحی",
-        "زیبایی‌شناسی فنی",
-        "طراحی صنعتی"
+        "معماری",
+        "تحقیق ساختمانی",
+        "آسیب‌شناسی سازه"
+      ],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "ساخت مرکز درمانی Red Top Meadows در Wyoming",
+      "url": "https://www.archdaily.com/1188919/red-top-meadows-residential-treatment-facility-untitled-architecture",
+      "source": "ArchDaily",
+      "published": "2026-11-23T07:00:00+00:00",
+      "summary": "دفتر untitled architecture ساختمان جدیدی برای مرکز درمانی Red Top Meadows طراحی کرد. این مجموعه برای نوجوانان ۱۲ تا ۱۸ ساله در Teton County ساخته شده است. پروژه شامل فضاهای اقامتی و درمانی در محیط طبیعی است.",
+      "keywords": [
+        "طراحی معماری",
+        "مرکز درمانی",
+        "فضای اقامتی"
+      ],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "شعار رویداد Lisbon Architecture Triennale برای سال ۲۰۲۸",
+      "url": "https://www.archdaily.com/1189043/lisbon-architecture-triennale-announces-co-op-as-theme-for-its-2028-edition",
+      "source": "ArchDaily",
+      "published": "2026-11-23T06:30:00+00:00",
+      "summary": "هشتمین دوره Lisbon Architecture Triennale با موضوع CO-OP برگزار خواهد شد. این رویداد به بررسی همکاری در معماری، مسکن و زندگی جمعی می‌پردازد. برگزاری این دوره تحت سرپرستی Joaquim Moreno خواهد بود.",
+      "keywords": [
+        "رویداد معماری",
+        "همایش معماری",
+        "زندگی جمعی",
+        "مسکن"
+      ],
+      "category": "همایش‌ها و رویدادها",
+      "importance": "متوسط"
+    },
+    {
+      "title": "بازسازی و تغییر ویلای قدیمی Stammhaus",
+      "url": "https://www.archdaily.com/1188730/stammhaus-kosmos-architects-plus-gordon-selbach",
+      "source": "ArchDaily",
+      "published": "2026-11-23T06:00:00+00:00",
+      "summary": "پروژه Stammhaus توسط KOSMOS Architects و Gordon Selbach بازسازی شده است. این طرح یک ویلای قدیمی را به خانه‌ای مدرن و پایدار تبدیل می‌کند. بازسازی جایگزین تخریب شده تا پتانسیل‌های زیست‌محیطی حفظ شوند.",
+      "keywords": [
+        "بازسازی",
+        "پایداری",
+        "معماری مدرن",
+        "بهینه‌سازی انرژی"
+      ],
+      "category": "پایداری و محیط زیست",
+      "importance": "متوسط"
+    },
+    {
+      "title": "معرفی دوره جدید کارشناسی ارشد در SCI-Arc",
+      "url": "https://www.archdaily.com/1187622/connecting-architectural-education-with-specialized-fields-at-sci-arc",
+      "source": "ArchDaily",
+      "published": "2026-11-23T05:45:00+00:00",
+      "summary": "موسسه SCI-Arc برنامه آموزشی جدیدی برای پاسخ به چالش‌های هوش مصنوعی و اقلیم معرفی کرده است. این دوره آموزش معماری را با حوزه‌های تخصصی جدید مرتبط می‌سازد. هدف این برنامه آماده‌سازی معماران برای فناوری‌های آینده است.",
+      "keywords": [
+        "آموزش معماری",
+        "هوش مصنوعی",
+        "تغییرات اقلیمی",
+        "برنامه آموزشی"
+      ],
+      "category": "آموزش طراحی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "انتخاب Mecanoo برای بازسازی Theatre Hanzehof",
+      "url": "https://www.archdaily.com/1189034/mecanoo-appointed-to-transform-zutphens-theatre-hanzehof-into-a-new-cultural-center-in-the-netherlands",
+      "source": "ArchDaily",
+      "published": "2026-11-23T05:30:00+00:00",
+      "summary": "شهرداری Zutphen طراحی مرکز فرهنگی جدید Hanzehuis را به دفتر Mecanoo واگذار کرد. این پروژه تئاتر تاریخی Theatre Hanzehof & Buitensociëteit را به یک مرکز فرهنگی جدید تبدیل می‌کند. این طرح با همکاری مراکز هنری محلی اجرا می‌شود.",
+      "keywords": [
+        "مرکز فرهنگی",
+        "طراحی معماری",
+        "بازسازی",
+        "پروژه شهری"
+      ],
+      "category": "سایر",
+      "importance": "متوسط"
+    },
+    {
+      "title": "معرفی برندگان جایزه World Architecture Festival",
+      "url": "https://www.archdaily.com/1189039/world-building-of-the-year-and-interior-of-the-year-revealed-at-world-architecture-festival-2026",
+      "source": "ArchDaily",
+      "published": "2026-11-23T04:30:00+00:00",
+      "summary": "پروژه Prestige University اثر Sanjay Puri Architects عنوان بهترین ساختمان سال را در WAF کسب کرد. این رویداد برندگان بخش‌های طراحی داخلی و پروژه‌های آینده را نیز اعلام کرده است. این ساختمان در شهر Indore کشور هند قرار دارد.",
+      "keywords": [
+        "جوایز معماری",
+        "ساختمان سال",
+        "طراحی معماری",
+        "پروژه دانشگاهی"
+      ],
+      "category": "جوایز طراحی",
+      "importance": "بالا"
+    },
+    {
+      "title": "طراحی معماری Bahá’í Temple of South America در Chile",
+      "url": "https://www.archdaily.com/1187923/holding-light-the-bahai-temple-of-south-america-in-santiago-chile",
+      "source": "ArchDaily",
+      "published": "2026-11-23T04:00:00+00:00",
+      "summary": "این بنا در دامنه‌های کوه‌های Andes در Santiago واقع شده و دارای نه بال منحنی مجزا است. سازه در هنگام طلوع آفتاب رنگ آبی کوهستان را به خود می‌گیرد. این پروژه جلوه‌ای خاص از بازی نور و فرم را به نمایش می‌گذارد.",
+      "keywords": [
+        "معماری",
+        "طراحی بنا",
+        "نور در معماری",
+        "سازه منحنی"
+      ],
+      "category": "سایر",
+      "importance": "متوسط"
+    },
+    {
+      "title": "معرفی پروژه Powerhouse Parramatta توسط Moreau Kusunoki و Genton",
+      "url": "https://www.archdaily.com/1188953/powerhouse-parramatta-moreau-kusunoki-plus-genton",
+      "source": "ArchDaily",
+      "published": "2026-11-23T03:00:00+00:00",
+      "summary": "این پروژه یک مرکز فرهنگی جدید و برجسته در Western Sydney است. ساخت این بنا با سرمایه‌گذاری NSW Government در زمین‌های Dharug انجام می‌شود. این پروژه بزرگ‌ترین زیرساخت فرهنگی Australia از زمان ساخت Sydney Opera House به‌شمار می‌رود.",
+      "keywords": [
+        "پروژه فرهنگی",
+        "معماری برجسته",
+        "زیرساخت شهری"
+      ],
+      "category": "سایر",
+      "importance": "بالا"
+    },
+    {
+      "title": "Yokohama Timber Wharf / Taiju Yamashita Design and Architecture",
+      "url": "https://www.archdaily.com/1188949/yokohama-timber-wharf-taiju-yamashita-design-and-architecture",
+      "source": "ArchDaily",
+      "published": "2026-11-23T02:00:00+00:00",
+      "summary": "Set in Rinko Park, the largest green space in Yokohama's Minato Mirai 21 district, Yokohama Timber Wharf is a multipurpose facility designed to connect architecture with the life of the waterfront park. Facing Yokohama Bay, the park's seaside promenade and broad lawns attract families, runners, and visitors throughout the year. The project brings dining and outdoor recreation support into this setting, creating a new gathering place and encouraging movement through Yokohama's coastal city center. DRAFT leads the development, while Taiju Yamashita Design and Architecture is responsible for the ",
+      "keywords": [],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "اهمیت طول عمر متریال در ارزیابی اثرات محیط زیستی",
+      "url": "https://www.archdaily.com/1188156/why-material-lifespan-matters-more-than-ever",
+      "source": "ArchDaily",
+      "published": "2026-11-23T01:30:00+00:00",
+      "summary": "ارزیابی اثرات محیط زیستی متریال بدون در نظر گرفتن طول عمر آن کامل نیست. محصولی با کربن اولیه پایین ممکن است نیاز به تعویض مکرر و مصرف منابع بیشتری داشته باشد. در مقابل متریال بادوام‌تر اثرات منفی کمتری در طول زمان ایجاد می‌کند.",
+      "keywords": [
+        "طول عمر متریال",
+        "پایداری محیط زیست",
+        "کربن اولیه"
+      ],
+      "category": "پایداری و محیط زیست",
+      "importance": "متوسط"
+    },
+    {
+      "title": "بازطراحی ورودی کارخانه کفش توسط Xie Jie Architects",
+      "url": "https://www.archdaily.com/1188984/shoe-factory-gatehouses-xie-jie-architects",
+      "source": "ArchDaily",
+      "published": "2026-11-23T00:00:00+00:00",
+      "summary": "مجموعه جدید کارخانه کفش در Wenzhou در حال افتتاح است اما دو بخش نگهبانی ورودی ناتمام مانده بودند. معماران قاب‌های موجود را حفظ کردند تا دید به کوه‌های West Yandang ایجاد شود. این پروژه فریم‌های قدیمی را به عنصری معمارانه تبدیل کرده است.",
+      "keywords": [
+        "بازطراحی",
+        "معماری صنعتی",
+        "قاب معمارانه"
+      ],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "ساختمان تجاری Fukasawa اثر KEY OPERATION INC. / ARCHITECTS",
+      "url": "https://www.archdaily.com/1188943/fukasawa-commercial-building-key-operation-inc-architects",
+      "source": "ArchDaily",
+      "published": "2026-11-22T21:00:00+00:00",
+      "summary": "این ساختمان تجاری در تقاطعی در خیابان Komazawa Park Avenue قرار گرفته است. طراحی بنا به تعامل با خیابان اصلی و بافت پرتردد اطراف پاسخ می‌دهد. متریال و ترکیب‌بندی آن متناسب با محیط آموزشی و درمانی منطقه انتخاب شده است.",
+      "keywords": [
+        "ساختمان تجاری",
+        "معماری شهری",
+        "طراحی بنا"
+      ],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "طراحی خانه مسکونی M-House توسط Country House. Architecture",
+      "url": "https://www.archdaily.com/1188497/m-house-country-house-architecture",
+      "source": "ArchDaily",
+      "published": "2026-11-22T17:00:00+00:00",
+      "summary": "این خانه مسکونی در محله‌ای آرام در Phan Thiet قرار دارد. با توجه به محصور بودن زمین از سه طرف، از پیکربندی باز برای ورود نور طبیعی استفاده شده است. طراحی بنا بهره‌گیری از نسیم دریا و نور خورشید را ممکن می‌سازد.",
+      "keywords": [
+        "خانه مسکونی",
+        "نور طبیعی",
+        "پیکربندی باز"
+      ],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "بازسازی خانه Casa Amigó توسط Estudio Travertino",
+      "url": "https://www.archdaily.com/1188597/casa-amigo-estudio-travertino",
+      "source": "ArchDaily",
+      "published": "2026-11-22T16:00:00+00:00",
+      "summary": "پروژه بازسازی Casa Amigó در محله Sant Gervasi-Galvany در Barcelona واقع شده است. این خانه متعلق به دهه ۱۹۷۰ با هدف تغییر نحوه سکونت بازطراحی شد. این پروژه فضای خانه را به محیطی مدرن و کاربردی تبدیل کرده است.",
+      "keywords": [
+        "بازسازی خانه",
+        "طراحی داخلی",
+        "آپارتمان مدرن"
+      ],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "برترین گجت‌های فناوری در نوامبر ۲۰۲۶",
+      "url": "https://www.yankodesign.com/2026/11/23/5-best-tech-gadgets-of-november-2026/?utm_source=rss&utm_medium=rss&utm_campaign=5-best-tech-gadgets-of-november-2026",
+      "source": "Yanko Design",
+      "published": "2026-11-23T12:40:34+00:00",
+      "summary": "در میان برترین گجت‌ها، پخش‌کننده CD مدل Syitren R400 جلب توجه می‌کند. این دستگاه با درپوش شفاف اجازه می‌دهد چرخش دیسک مشاهده شود. پایه عمودی آن استفاده روی قفسه‌های کم‌عمق را آسان کرده است.",
+      "keywords": [
+        "گجت فناوری",
+        "پخش کننده سی دی",
+        "طراحی گجت"
+      ],
+      "category": "لوازم الکترونیکی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "پل هوایی Pininfarina برای مسابقات ATP Finals",
+      "url": "https://www.yankodesign.com/2026/11/23/the-atp-finals-skywalk-let-players-move-without-the-crowds/?utm_source=rss&utm_medium=rss&utm_campaign=the-atp-finals-skywalk-let-players-move-without-the-crowds",
+      "source": "Yanko Design",
+      "published": "2026-11-23T11:07:55+00:00",
+      "summary": "استودیوی Pininfarina یک پل هوایی اختصاصی در Turin برای مسابقات ATP Finals طراحی کرده است. این مسیر هوایی امکان تردد بازیکنان بدون مواجهه با جمعیت را فراهم می‌کند. کف آبی‌رنگ این پل با خطوط سفید زمین تنیس تزئین شده است.",
+      "keywords": [
+        "پل هوایی",
+        "طراحی اختصاصی",
+        "مسابقات تنیس"
       ],
       "category": "طراحی صنعتی",
-      "importance": "پایین"
-    },
-    {
-      "title": "معرفی ۸ اکسسوری برتر روی میز برای شخصی‌سازی محیط کار",
-      "url": "https://www.yankodesign.com/2026/11/22/the-8-best-desk-accessories-that-make-your-workspace-feel-like-you-not-your-job/?utm_source=rss&utm_medium=rss&utm_campaign=the-8-best-desk-accessories-that-make-your-workspace-feel-like-you-not-your-job",
-      "source": "Yanko Design",
-      "published": "2026-11-22T12:40:04+00:00",
-      "summary": "انتخاب اکسسوری‌های مناسب روی میز می‌تواند فضای کاری بی‌روح را به محیطی شخصی و هویت‌مند تبدیل کند. این فهرست ۸ ابزار و شیء برتر طراحی‌شده برای میز کار را معرفی می‌کند. این اکسسوری‌ها تعادل میان کارایی و زیبایی را به همراه دارند.",
-      "keywords": [
-        "اکسسوری میز",
-        "طراحی محیط کار",
-        "طراحی محصول"
-      ],
-      "category": "طراحی اکسسوری",
       "importance": "متوسط"
     },
     {
-      "title": "رینگ لایت ۱۰۰ واتی Neewer با قابلیت شارژ سه گوشی",
-      "url": "https://www.yankodesign.com/2026/11/21/neewers-100w-ring-light-can-light-your-face-as-well-as-charge-up-to-3-phones/?utm_source=rss&utm_medium=rss&utm_campaign=neewers-100w-ring-light-can-light-your-face-as-well-as-charge-up-to-3-phones",
+      "title": "پایه چسب جدید Midori به رول متصل می‌شود",
+      "url": "https://www.yankodesign.com/2026/11/23/midoris-tape-cutter-clips-onto-the-roll-and-goes-with-it/?utm_source=rss&utm_medium=rss&utm_campaign=midoris-tape-cutter-clips-onto-the-roll-and-goes-with-it",
       "source": "Yanko Design",
-      "published": "2026-11-22T02:45:15+00:00",
-      "summary": "برند Neewer از یک رینگ لایت ۱۰۰ واتی رونمایی کرده است که هم‌زمان می‌تواند صورت شما را روشن کند و تا ۳ گوشی را شارژ نماید. این ابزار برای تولیدکنندگان محتوا و ویدیوهای آموزشی بسیار کاربردی است.",
+      "published": "2026-11-23T10:15:54+00:00",
+      "summary": "ابزار جدید Midori مستقیماً روی رول چسب متصل می‌شود و همراه آن حرکت می‌کند. این طراحی مشکل پیدا کردن لبه چسب را بدون نیاز به پایه‌های سنگین رومیزی حل می‌کند. استفاده از آن بسیار راحت و قابل حمل است.",
       "keywords": [
-        "رینگ لایت",
-        "تولید محتوا",
-        "شارژر",
-        "نورپردازی"
-      ],
-      "category": "لوازم الکترونیکی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "۵ طراحی برتر آشپزخانه ژاپنی برای تجربه متفاوت سرو غذا",
-      "url": "https://www.yankodesign.com/2026/11/21/5-best-japanese-kitchen-designs-that-make-serving-dinner-part-of-the-experience/?utm_source=rss&utm_medium=rss&utm_campaign=5-best-japanese-kitchen-designs-that-make-serving-dinner-part-of-the-experience",
-      "source": "Yanko Design",
-      "published": "2026-11-22T00:30:34+00:00",
-      "summary": "این مقاله به معرفی ۵ نمونه از برترین طراحی‌های آشپزخانه سبک ژاپنی می‌پردازد. این طراحی‌ها فرایند سرو و پذیرایی شام را به بخشی از تجربه لذت‌بخش آشپزی تبدیل می‌کنند. توجه به جزئیات و تعامل در این آشپزخانه‌ها نقش کلیدی دارد.",
-      "keywords": [
-        "طراحی آشپزخانه",
-        "سبک ژاپنی",
-        "تجربه کاربری",
-        "طراحی داخلی"
+        "پایه چسب",
+        "برش چسب",
+        "طراحی نوشت‌افزار",
+        "ابزار اداری"
       ],
       "category": "طراحی محصول",
+      "importance": "متوسط"
+    },
+    {
+      "title": "میز ایستاده Quick Shift از شرکت Teknion بدون سیم برق",
+      "url": "https://www.yankodesign.com/2026/11/23/teknions-quick-shift-standing-desk-adjusts-without-a-power-cord/?utm_source=rss&utm_medium=rss&utm_campaign=teknions-quick-shift-standing-desk-adjusts-without-a-power-cord",
+      "source": "Yanko Design",
+      "published": "2026-11-23T09:15:58+00:00",
+      "summary": "شرکت Teknion از یک میز ایستاده جدید به نام Quick Shift رونمایی کرده که نیازی به پریز و سیم برق ندارد. این میز ارتفاع خود را به صورت مکانیکی تغییر می‌دهد و امکان کار در هر نقطه‌ای از اتاق را فراهم می‌کند.",
+      "keywords": [
+        "میز ایستاده",
+        "میز کار",
+        "طراحی اداری",
+        "مبلمان اداری"
+      ],
+      "category": "مبلمان",
+      "importance": "متوسط"
+    },
+    {
+      "title": "گوشی جان‌سخت TANK 5 Pro با پروژکتور 2K و دوربین حرارتی",
+      "url": "https://www.yankodesign.com/2026/11/22/tank-5-pro-puts-thermal-imaging-and-a-2k-projector-in-a-rugged-phone/?utm_source=rss&utm_medium=rss&utm_campaign=tank-5-pro-puts-thermal-imaging-and-a-2k-projector-in-a-rugged-phone",
+      "source": "Yanko Design",
+      "published": "2026-11-23T02:45:35+00:00",
+      "summary": "گوشی هوشمند جان‌سخت TANK 5 Pro امکاناتی مانند تصویربرداری حرارتی و پروژکتور داخلی با وضوح 2K ارائه می‌دهد. این محصول برای محیط‌های سخت کاری و صنعتی طراحی شده است. کاربر می‌تواند نمودارها را روی دیوار پروژکت کند یا اتلاف حرارتی را تشخیص دهد.",
+      "keywords": [
+        "گوشی جان‌سخت",
+        "دوربین حرارتی",
+        "پروژکتور 2K",
+        "تلفن همراه"
+      ],
+      "category": "لوازم الکترونیکی",
+      "importance": "بالا"
+    },
+    {
+      "title": "پنج اکسسوری برتر برای افزایش راحتی در کلبه‌های کوچک",
+      "url": "https://www.yankodesign.com/2026/11/22/5-best-cabin-accessories-that-add-comfort-without-taking-over-the-room/?utm_source=rss&utm_medium=rss&utm_campaign=5-best-cabin-accessories-that-add-comfort-without-taking-over-the-room",
+      "source": "Yanko Design",
+      "published": "2026-11-23T00:30:34+00:00",
+      "summary": "این ۵ اکسسوری هوشمندانه برای فضا‌های کوچک طراحی شده‌اند تا بدون اشغال فضای اضافی، راحتی محیط را افزایش دهند. این وسایل شامل ابزارهای بهینه‌سازی آشپزخانه و روشنایی هستند. طراحی آن‌ها مانع شلوغی و به‌هم‌ریختگی محیط می‌شود.",
+      "keywords": [
+        "اکسسوری خانگی",
+        "بهینه‌سازی فضا",
+        "فضای کوچک",
+        "طراحی داخلی"
+      ],
+      "category": "طراحی اکسسوری",
       "importance": "پایین"
     },
     {
-      "title": "اسپیکر دست‌ساز BLASÉ 01 با چهره‌ای پنهان پشت توری",
-      "url": "https://www.yankodesign.com/2026/11/21/this-handmade-bluetooth-speaker-hides-a-deadpan-face-behind-its-grille/?utm_source=rss&utm_medium=rss&utm_campaign=this-handmade-bluetooth-speaker-hides-a-deadpan-face-behind-its-grille",
+      "title": "تبدیل آباژورهای قدیمی به لوستر توسط طراح رومانیایی",
+      "url": "https://www.yankodesign.com/2026/11/22/forgotten-lampshades-become-playful-chandeliers-in-this-romanian-designers-lighting-collection/?utm_source=rss&utm_medium=rss&utm_campaign=forgotten-lampshades-become-playful-chandeliers-in-this-romanian-designers-lighting-collection",
       "source": "Yanko Design",
-      "published": "2026-11-21T23:30:56+00:00",
-      "summary": "اسپیکر دست‌ساز BLASÉ 01 دارای طراحی تعاملی و منحصربه‌فردی است که با لمس بدنه آن، دو چشم باریک پشت توری پارچه‌ای ظاهر می‌شوند. این دستگاه از فناوری اتصال Bluetooth پشتیبانی می‌کند.",
+      "published": "2026-11-22T23:30:26+00:00",
+      "summary": "یک طراح رومانیایی با بازآفرینی کلاهک‌های فراموش‌شده آباژور، مجموعه‌ای جذاب از لوسترها خلق کرده است. این مجموعه با بهره‌گیری از بافت‌ها و فرم‌های قدیمی، حسی نوستالژیک و مدرن را با هم ترکیب می‌کند. این پروژه نمونه‌ای از بازیافت خلاقانه است.",
       "keywords": [
-        "اسپیکر",
-        "دست‌ساز",
-        "طراحی تعاملی",
-        "طراحی محصول"
+        "روشنایی",
+        "بازیافت خلاقانه",
+        "لوستر",
+        "طراحی آباژور"
       ],
-      "category": "لوازم الکترونیکی",
+      "category": "پایداری و محیط زیست",
       "importance": "متوسط"
     },
     {
-      "title": "مچ‌بند NC Band 2 بدون صفحه نمایش برای پایش سلامت",
-      "url": "https://www.yankodesign.com/2026/11/21/nc-band-2-tracks-your-cycle-overnight-without-a-screen/?utm_source=rss&utm_medium=rss&utm_campaign=nc-band-2-tracks-your-cycle-overnight-without-a-screen",
+      "title": "قلم مغناطیسی جدیدی که به دفترچه یادداشت متصل می‌شود",
+      "url": "https://www.yankodesign.com/2026/11/22/this-magnetic-pen-clips-to-your-notebook-so-you-dont-have-to-dig-for-it/?utm_source=rss&utm_medium=rss&utm_campaign=this-magnetic-pen-clips-to-your-notebook-so-you-dont-have-to-dig-for-it",
       "source": "Yanko Design",
-      "published": "2026-11-21T21:45:19+00:00",
-      "summary": "مچ‌بند هوشمند NC Band 2 بدون نیاز به صفحه نمایش، چرخه سلامت را در طول شب ردیابی می‌کند. این محصول برای کاربرانی طراحی شده که به دنبال جایگزینی ساده‌تر برای ساعت‌های هوشمند پر از جزئیات هستند.",
+      "published": "2026-11-22T21:45:13+00:00",
+      "summary": "این قلم مغناطیسی هوشمند به‌راحتی به جلد دفترچه یادداشت می‌چسبد تا دیگر نیازی به گشتن دنبال خودکار نباشد. طراحی آن ساده، کاربردی و مناسب برای استفاده روزمره است. مکانیزم مگنت آن جابه‌جایی قلم را بسیار آسان می‌کند.",
       "keywords": [
-        "مچ‌بند هوشمند",
-        "پایش سلامت",
-        "گجت پوشیدنی",
-        "بدون صفحه نمایش"
-      ],
-      "category": "لوازم الکترونیکی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "دسته بازی X20 Pro برند EasySMX با شارژ از دانگل USB",
-      "url": "https://www.yankodesign.com/2026/11/21/easysmxs-x20-pro-controller-charges-through-its-usb-receiver/?utm_source=rss&utm_medium=rss&utm_campaign=easysmxs-x20-pro-controller-charges-through-its-usb-receiver",
-      "source": "Yanko Design",
-      "published": "2026-11-21T20:15:45+00:00",
-      "summary": "شرکت EasySMX از دسته بازی بی‌سیم X20 Pro رونمایی کرد. این کنترلر از طریق گیرنده USB خود شارژ می‌شود و نوآوری جدیدی در شارژ تجهیزات جانبی ارائه می‌دهد.",
-      "keywords": [
-        "دسته بازی",
-        "کنترلر",
-        "گیرنده USB",
-        "شارژ بی‌سیم"
-      ],
-      "category": "لوازم الکترونیکی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "زیردستی مغناطیسی برای تبدیل یادداشت‌های پراکنده به جلد سخت",
-      "url": "https://www.yankodesign.com/2026/11/21/this-magnetic-clipboard-gives-loose-notes-a-hardcover/?utm_source=rss&utm_medium=rss&utm_campaign=this-magnetic-clipboard-gives-loose-notes-a-hardcover",
-      "source": "Yanko Design",
-      "published": "2026-11-21T18:20:27+00:00",
-      "summary": "این زیردستی مغناطیسی به شما اجازه می‌دهد کاغذها و یادداشت‌های پراکنده را یک‌جا منسجم کنید. این ابزار حس و ظاهر یک دفترچه با جلد سخت را به یادداشت‌های روزمره می‌دهد.",
-      "keywords": [
-        "زیردستی مغناطیسی",
+        "خودکار مغناطیسی",
         "نوشت‌افزار",
-        "سازماندهی یادداشت",
+        "دفترچه یادداشت",
         "طراحی کاربردی"
       ],
       "category": "طراحی محصول",
       "importance": "پایین"
     },
     {
-      "title": "ماوس‌های فیبر کربنی Razer بدون تغییر فرم سبک‌تر شدند",
-      "url": "https://www.yankodesign.com/2026/11/21/razers-carbon-fiber-mice-get-lighter-without-changing-shape/?utm_source=rss&utm_medium=rss&utm_campaign=razers-carbon-fiber-mice-get-lighter-without-changing-shape",
+      "title": "مفهوم اسپرسوساز دستی Coffee Juicer بدون نیاز به برق",
+      "url": "https://www.yankodesign.com/2026/11/22/espresso-without-a-plug-the-wind-up-coffee-juicer-concept/?utm_source=rss&utm_medium=rss&utm_campaign=espresso-without-a-plug-the-wind-up-coffee-juicer-concept",
       "source": "Yanko Design",
-      "published": "2026-11-21T14:20:42+00:00",
-      "summary": "شرکت Razer در ساخت ماوس‌های جدید خود از فیبر کربن استفاده کرده تا وزن آن‌ها را کاهش دهد. این کاهش وزن بدون هیچ‌گونه دستکاری در فرم ارگونومیک و آشنای ماوس‌ها انجام شده است.",
+      "published": "2026-11-22T20:15:18+00:00",
+      "summary": "کانسیپت Coffee Juicer یک اسپرسوساز مکانیکی و کوکی است که بدون نیاز به برق کار می‌کند. ظاهر شبیه به مهره شطرنج آن، فرمی علمی‌تخیلی و مدرن دارد. این ابزار گزینه‌ای عالی برای علاقه‌مندان به قهوه در سفر است.",
       "keywords": [
-        "ماوس گیمینگ",
-        "فیبر کربن",
-        "کاهش وزن",
-        "ارگونومی"
+        "اسپرسوساز دستی",
+        "کانسیپت طراحی",
+        "قهوه‌ساز کوکی",
+        "طراحی مفهومی"
       ],
-      "category": "لوازم الکترونیکی",
+      "category": "طراحی محصول",
       "importance": "متوسط"
     },
     {
-      "title": "اتاق خبر رویداد Red Dot",
-      "url": "https://www.mynewsdesk.com/red-dot-design-award",
-      "source": "Red Dot",
-      "published": null,
-      "summary": "بخش خبری رسمی Red Dot به‌روزرسانی‌ها و اطلاعیه‌های جدید این رویداد معتبر طراحی را منتشر می‌کند.",
+      "title": "خودروی VW ID. Buzz Beach با قابلیت تخت‌خواب سفری",
+      "url": "https://www.yankodesign.com/2026/11/22/vw-id-buzz-beach-sleeps-two-without-a-permanent-conversion/?utm_source=rss&utm_medium=rss&utm_campaign=vw-id-buzz-beach-sleeps-two-without-a-permanent-conversion",
+      "source": "Yanko Design",
+      "published": "2026-11-22T18:20:59+00:00",
+      "summary": "نسخه جدید VW ID. Buzz Beach از شرکت Volkswagen بدون نیاز به تغییرات دائمی در کابین، تخت‌خوابی برای دو نفر فراهم می‌کند. فریم تخت در مدل ۵ صندلی طوری قرار می‌گیرد که فضای کاربردی خودرو حفظ شود. این خودرو ایده‌آل برای سفرهای کمپی است.",
       "keywords": [
-        "اتاق خبر",
-        "اطلاعیه",
-        "طراحی صنعتی"
+        "کمپر",
+        "خودروی الکتریکی",
+        "Volkswagen",
+        "طراحی خودرو"
       ],
-      "category": "جوایز طراحی",
-      "importance": "پایین"
-    },
-    {
-      "title": "اطلاعات مطبوعاتی درباره رویداد Red Dot Design Award",
-      "url": "https://www.red-dot.org/fileadmin/bilder/Presse_Archiv/2026_PI_About_Red_Dot_Design_Award.pdf",
-      "source": "Red Dot",
-      "published": null,
-      "summary": "اطلاعات کلی و مطبوعاتی مرتبط با برگزاری و جزئیات رویداد بین‌المللی Red Dot Design Award منتشر شد.",
-      "keywords": [
-        "اطلاعات مطبوعاتی",
-        "طراحی محصول",
-        "جایزه جهانی"
-      ],
-      "category": "جوایز طراحی",
-      "importance": "پایین"
-    },
-    {
-      "title": "مسابقه دانشگاه Ben-Gurion برای طراحی راکتور هسته‌ای نسل جدید",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5IUXpQUzhjcjNtR0REMzRTdGxlWV90RGRqLURibGkzanFxOVh0NEppRGdKQjZSbVVJblhGT1hzWWVzVTNnZEYtZVp5VEVNZ1FaLTBfM0pvRHRfRzNu?oc=5",
-      "source": "The Jerusalem Post",
-      "published": "2026-11-21T20:17:00+00:00",
-      "summary": "دانشگاه Ben-Gurion مسابقه‌ای را برای طراحی نسل جدید راکتورهای هسته‌ای آغاز کرده است. این رقابت بر نوآوری و ایمنی در حوزه فناوری هسته‌ای تمرکز دارد.",
-      "keywords": [
-        "مسابقه طراحی",
-        "راکتور هسته‌ای",
-        "فناوری هسته‌ای",
-        "نوآوری"
-      ],
-      "category": "مسابقات طراحی",
+      "category": "خودرو",
       "importance": "بالا"
     },
     {
-      "title": "رقابت معماری برای طراحی مسکن مناسب سالمندان پایان یافت",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMC1uWWpGMWp4TjNLNnF6cVdNajk0UFA2VTlxOGE4YnBEVkQzQzJyc2tUWENxc0FrQTZMcVBTbXJzMUVrTmtRM01TUEl4VnNsYjJCWC1MLTdNekxPYXl6cFRpYmdyc3d0OW1vbWJuSDVNcWl4NHNLMFlMOG1XVkdjQXdGT2s0MW1vdWdlWS1GcVZXMVhBeWZLcDduNXVCWG9Ga0REZGxQX1c3YmRG?oc=5",
-      "source": "KOB 4",
-      "published": "2026-11-21T15:08:40+00:00",
-      "summary": "معماران محلی رقابت خود را برای طراحی مسکن مناسب افراد مسن به پایان رساندند. این مسابقه بر نوآوری در فضاهای زندگی سالمندان تمرکز داشت.",
+      "title": "آشپزخانه کمپینگ فشرده در یک مکعب ۱۲ اینچی",
+      "url": "https://www.yankodesign.com/2026/11/22/a-camp-kitchen-without-the-clutter-packed-into-a-12-inch-cube/?utm_source=rss&utm_medium=rss&utm_campaign=a-camp-kitchen-without-the-clutter-packed-into-a-12-inch-cube",
+      "source": "Yanko Design",
+      "published": "2026-11-22T16:20:12+00:00",
+      "summary": "این محصول یک آشپزخانه کمپینگ کاملاً منظم را درون یک مکعب ۱۲ اینچی جمع‌آوری کرده است. طراحی هوشمندانه آن جلوی شلوغی و گم شدن ظروف را در طبیعت می‌گیرد. با این جعبه، تمام تجهیزات پخت‌وپز سفری به راحتی قابل حمل هستند.",
       "keywords": [
-        "طراحی مسکن",
-        "مناسب سالمندان",
-        "معماری",
-        "مسابقه طراحی"
+        "آشپزخانه کمپینگ",
+        "تجهیزات سفر",
+        "طراحی فشرده",
+        "ابزار کمپینگ"
       ],
-      "category": "مسابقات طراحی",
+      "category": "طراحی محصول",
       "importance": "متوسط"
     },
     {
-      "title": "مسابقه طراحی پوستر ۶۰ سالگی Summerfair Cincinnati آغاز شد",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM1FtUGFEVjFJbk9Ma3BtbE9EY19uSXp3TmtlTFBSSkN1Q3pjNm1LdHJvcGk0ZlpsUHpGQnJhRU0zaVNDaF9TT2ZDRUpPUWs5dzVTdFVQLWhISHljM2pEV1RzVFU4ZDVwLXp5T0FxVl8wXzBFUDkxdEdMcnpraFBWM3B3dERObW9rWXJDZmlwWkZNZzAxdG5wN3Y5Y0JzOXFZM29nWXRpSWRxNk9DMTk2NEVacV8tQjFv?oc=5",
-      "source": "Warren County Post",
-      "published": "2026-11-22T05:22:53+00:00",
-      "summary": "رویداد Summerfair Cincinnati به مناسبت شصتمین سالگرد خود یک مسابقه طراحی پوستر برگزار می‌کند. این مسابقه از هنرمندان و طراحان دعوت کرده است تا آثار خود را ارسال کنند.",
+      "title": "بطری Multi با نی استیل جمع‌شونده از برند Ever Vessel",
+      "url": "https://www.core77.com/posts/145989/A-Water-Bottle-with-a-Retractable-Stainless-Steel-Straw",
+      "source": "Core77",
+      "published": "2026-11-23T15:00:00+00:00",
+      "summary": "برند استرالیایی Ever Vessel بطری عایق‌بندی‌شده جدیدی به نام Multi معرفی کرده است. ویژگی منحصربه‌فرد این بطری نی استیل آن است که هنگام بستن درب به‌طور خودکار جمع می‌شود. این طراحی بهداشت بیشتر و استفاده آسان‌تر را تضمین می‌کند.",
       "keywords": [
-        "طراحی پوستر",
-        "Summerfair Cincinnati",
-        "مسابقه طراحی",
-        "سالگرد"
+        "بطری آب",
+        "نی استیل",
+        "طراحی بهداشتی",
+        "Ever Vessel"
       ],
-      "category": "مسابقات طراحی",
+      "category": "طراحی محصول",
+      "importance": "متوسط"
+    },
+    {
+      "title": "رونمایی BYD از شاسی‌بلند جدید با فرمان تاشو",
+      "url": "https://www.core77.com/posts/145987/New-Chinese-SUV-has-a-Disappearing-Steering-Wheel",
+      "source": "Core77",
+      "published": "2026-11-23T14:00:00+00:00",
+      "summary": "برند Fang Cheng Bao از زیرمجموعه‌های شرکت BYD از شاسی‌بلند هیبریدی Tai 9 رونمایی کرد. این خودرو دارای فرمانی است که هنگام عدم نیاز تا شده و جمع می‌شود. این ویژگی نوآورانه فضای داخلی کابین را به میزان چشمگیری افزایش می‌دهد.",
+      "keywords": [
+        "خودروی هیبریدی",
+        "فرمان تاشو",
+        "طراحی کابین"
+      ],
+      "category": "خودرو",
+      "importance": "بالا"
+    },
+    {
+      "title": "بررسی فرم‌های ارگانیک در مجموعه X Coffee Tools",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWW8zeEZ2Q0hRZUJOVXJjZFBqaEg5WW5pRk5nVEdmNGgxVnVvLVB5MVpDS0I1czJpZmxkYzZUMENrZTB2UmR4a2hhODBIMnJKUW9DUmhvMkZMSjR6dW9pRklPcmhvdVFaWThoNzUxYVFEWWlkLXIyeDVRQ2FyVk55R2ZGYzBFT2cydUR3aDltc2Z0d1gwMVc1Ml9MOGpYa19XQ0NlZVRkUC0?oc=5",
+      "source": "Daily Coffee News by Roast Magazine",
+      "published": "2026-11-23T14:26:15+00:00",
+      "summary": "استودیوی Pose Bureau از ابزارهای قهوه‌خوری X Coffee Tools با فرم‌های ارگانیک رونمایی کرد. این مجموعه بر جزییات طراحی و زیبایی‌شناسی فرم‌های طبیعی تمرکز دارد. این ابزارها برای ارتقای تجربه دم‌آوری قهوه ساخته شده‌اند.",
+      "keywords": [
+        "فرم ارگانیک",
+        "ابزار قهوه",
+        "زیبایی‌شناسی"
+      ],
+      "category": "طراحی محصول",
       "importance": "پایین"
     },
     {
-      "title": "ارزیابی طراحی الگوریتم‌های عامل‌محور در چالش FrontierOR",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdFZCTDlrbFF2OVlNUlFIRF80N3l0aWJVT0QtVEdRX2tJWFcyelVLNkI0bU43UFRxaVhpM2FValdRemstVkpFamhtb05Oa1hyeHoxZmRrOGRqaEtrZkpEbGJPTzduT2VnVHJSUW5zcnFGcUtUa1YxdmVxZHRVMGE1bFU0aE0xRUxxR0RWeHl2RjJnYndtdUt4NkcyTTNGbTA?oc=5",
-      "source": "Forkast News",
-      "published": "2026-11-22T01:23:00+00:00",
-      "summary": "چالش FrontierOR طراحی الگوریتم‌های عامل‌محور را در یک آزمون داده‌های پنهان بررسی می‌کند. این رویداد بر سنجش توانایی هوش مصنوعی در حل مسائل پیچیده تمرکز دارد.",
+      "title": "معرفی راهکار جدید AVEVA برای طراحی صنایع دریایی",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTWxHaVJMbmw3MFk2Ni0tSDZoQjBoanV5ZmhiQklNRXlXNXRQby1DTHVjNm9wSjFaUXhUSjM1Rkl5eW9DNUY3RXkxVkprZjZwY2ZLT21qM1NRaC1uWEV2S2w4RDJFVDVzT29hTU9ranVVVG00UGZLeTZyb0xINUhYc2tENDJqVWdZd3JmTVkwamd2NWRLbEFNOWJTMVowVUczeWc?oc=5",
+      "source": "ARC Advisory Group",
+      "published": "2026-11-23T12:00:00+00:00",
+      "summary": "شرکت AVEVA راهکار جدید Marine Design to Build را با قابلیت‌های Industrial AI معرفی کرد. این ابزار به بهینه‌سازی فرایند ساخت و طراحی در صنایع دریایی کمک می‌کند. هدف این سیستم افزایش سرعت و دقت در پروژه‌های کشتی‌سازی است.",
       "keywords": [
-        "FrontierOR",
         "هوش مصنوعی",
-        "طراحی الگوریتم",
-        "الگوریتم عامل‌محور"
+        "صنایع دریایی",
+        "نرم‌افزار طراحی"
       ],
       "category": "هوش مصنوعی در طراحی",
       "importance": "متوسط"
     },
     {
-      "title": "فراخوان مسابقه طراحی ماسکوت توسط خیریه بیمارستان Worcestershire",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVkdzQmMtcXdKSXQ5YWZLTDQ3d0RaZzZuYXRuTUtvNjJENUJqWmF1T00wSU9udmlsSzkwZVhyTmFieFpQOU1ENjhrLUtFZmdiRTByMkdvaE5UZXRaZkxQaEJmckdfR2FacS12TlNLMkdHX1pOUjVqN2JOUThaUE9tcHFleDc1MnRqN0h1S3ctWjR2WGlYQ0QzNVRNMjhkSTRLRUxWWA?oc=5",
-      "source": "The Worcester News",
-      "published": "2026-11-22T05:00:00+00:00",
-      "summary": "خیریه بیمارستان Worcestershire مسابقه‌ای برای طراحی یک ماسکوت جدید برگزار کرده است. این مسابقه فرصتی برای طراحان علاقه‌مند به حمایت از بیمارستان فراهم می‌کند.",
+      "title": "اعلام برندگان بیست‌وپنجمین دوره Plastics Industry Awards",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVUNkcHBudXN4NFcxc1d0ZFg3b0tVQkNuS0o1Tm5EZDhtc0pXbDNtYWU1WGFRNkppUlM2YWtMRWdNbmNOU1pxcUpFOG1CbVYzWV82RHNmQnRxUkNtb05OXzJWU1dPZ3E1c1FXd3dma0tqTk1tWEkyVlJYc0Zqcnoyc1kwWXI0QVdyODNCdm9RSFZLaE5iV1hyVFZVVzBaakZSaUE?oc=5",
+      "source": "Plastics News",
+      "published": "2026-11-23T08:45:00+00:00",
+      "summary": "برندگان بیست‌وپنجمین سالگرد رقابت‌های Plastics Industry Awards معرفی شدند. این رویداد برترین نوآوری‌ها در صنعت پلاستیک و طراحی مواد را ارزیابی می‌کند. جوایز به پروژه‌های برتر در زمینه پایداری و تولید اعطا شد.",
       "keywords": [
-        "طراحی ماسکوت",
-        "Worcestershire",
-        "مسابقه طراحی",
-        "خیریه"
-      ],
-      "category": "مسابقات طراحی",
-      "importance": "پایین"
-    },
-    {
-      "title": "جایزه ۱۰۰ هزار روپیه‌ای برای طراحی لوگوی Godavari Pushkaralu",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOREdZVU5vYk5nMVUxTk55NFJuaDVTb0lPeVdDNFB4ZW1MOUcyVnlITkt6cG9FcjN1UERDVW5QMUJzUi03b1pFLUlHRl85bk92ZzQyMVJFak5LMGRKaDJyWm1SbmJna1AxTmxaTWJGN0lBbzQtT01VRjFjSjVUd25sczVZLTNkUUg1VjR3WmpWem1Yek1PcDh3dW4wTXRTS0NLTl9qYUxLX3JmLUpOdUVobjEwQ205QVFfVG9DbmtkRmowQjkxM0HSAcsBQVVfeXFMTzdNVnctbllZU3pDNm9Xd2twSXU4czdRT2pKeGdJUEtMWjRfQWZzYUxDOVdXSjYycXRpY1E3b3NwMFdyV3A0X2lIdllFbndET3lJd1M5LUxZUnJoODc3Qk9xai1MUTFuSElqVjBBT3M2NzQ5bnBGMFFzRlNablAycFFXZklGN3FNYXdPZ2NmeFZpbWZweXBJV2FEd1lzc2l0dUJ6aTZRSWlNQTZoZ3R2QjVwS3pGd1JRazUwdW1RelBCVkR2LTF4LTFzM2s?oc=5",
-      "source": "The Times of India",
-      "published": "2026-11-21T18:13:00+00:00",
-      "summary": "مسابقه‌ای برای طراحی لوگوی رویداد Godavari Pushkaralu برگزار شده است. برنده این مسابقه جایزه‌ای به ارزش ۱۰۰ هزار روپیه دریافت خواهد کرد.",
-      "keywords": [
-        "طراحی لوگو",
-        "Godavari Pushkaralu",
-        "مسابقه لوگو",
-        "جایزه طراحی"
-      ],
-      "category": "مسابقات طراحی",
-      "importance": "پایین"
-    },
-    {
-      "title": "فراخوان طراحی صفحه اول کریسمس ۲۰۲۶ رسانه The Greek Herald",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQY0lMVW1iMHhPNVI5YVJOVWVwTmdsNHlYRDZ4S0kzLXdWT2lnM05nTVdNdjM5NjdXOTBSblZ2cmJFRm1MMEQ4UHBqUzJMMDR0SkJwQ2FsTWFaeERWME90SU1CcDFFd29tUktKSFJpcjRoZ0h6TThXQ2VvMVJ6LTNrOXNBYU42Yl8tZ3RIVWpBaW42UngxemU2U0dQMmZWUHpzejJPV3Zib3Z6bGVIbFE?oc=5",
-      "source": "The Greek Herald",
-      "published": "2026-11-22T01:12:42+00:00",
-      "summary": "رسانه The Greek Herald از هنرمندان جوان دعوت کرده تا صفحه اول ویژه کریسمس ۲۰۲۶ را طراحی کنند. این مسابقه فرصتی برای نمایش استعدادهای هنری جوانان است.",
-      "keywords": [
-        "طراحی جلد",
-        "The Greek Herald",
-        "هنرمندان جوان",
-        "مسابقه طراحی"
-      ],
-      "category": "مسابقات طراحی",
-      "importance": "پایین"
-    },
-    {
-      "title": "موفقیت اثر هنری نوجوان ولزی در رقابت بین‌المللی",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQndZTnlaM2JLQWNMcl9VcXdrdDFtbVFRSUhBT3picjBBZTgtU05WMGxpbXg4TDBhVG1ZM2ZvM0hjd1o2RDA3elVGN2hEejh2Tnl4aWVXOEJBUHUtRXNKSnY5ZFFNdTAwN01oS2YxcENMRXJHNm53cmp6b2ZLLVkzZGc5TUsxaktzRzVhSWc2TTJEbzNPWUlXNkVoSTY?oc=5",
-      "source": "Nation.Cymru",
-      "published": "2026-11-21T19:23:09+00:00",
-      "summary": "اثر هنری یک نوجوان اهل ولز پس از پیروزی در یک مسابقه طراحی توجه ستاره‌های Hollywood را جلب کرد. این موفقیت بازخورد بسیار مثبتی در رسانه‌ها داشته است.",
-      "keywords": [
-        "اثر هنری",
-        "Hollywood",
-        "مسابقه هنری",
-        "طراحی"
+        "صنعت پلاستیک",
+        "جوایز طراحی",
+        "نوآوری مواد"
       ],
       "category": "جوایز طراحی",
-      "importance": "پایین"
-    },
-    {
-      "title": "فهرست نهایی نامزدهای عکاسی Close-Up برای سال ۲۰۲۶",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5xX2tBYVNrYURLdGdrZmIzR2k0Q3FBcXF0THZFaVkxWUZpWUdqWmlJeUhnR2RaT2t0NFdHQnBDbTFJdUlHSjlUcXZ4cERXaWFoakl5bDh6cEU4UDdGMnBKT3diZWQyOUQxWENVYVpfYkZVdm1P?oc=5",
-      "source": "freeyork",
-      "published": "2026-11-22T12:43:13+00:00",
-      "summary": "فهرست نهایی نامزدهای مسابقه عکاسی Close-Up منتشر شد. این تصاویر تمرکز ویژه‌ای بر جزئیات حیات وحش از جمله خفاش‌ها و زنبورها دارند.",
-      "keywords": [
-        "عکاسی کلوزآپ",
-        "Close-Up",
-        "مسابقه عکاسی",
-        "حیات وحش"
-      ],
-      "category": "مسابقات طراحی",
-      "importance": "پایین"
-    },
-    {
-      "title": "اکران پوستر برنده دانش‌آموز منطقه Wirral در سطح شهر",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNGF1U3BNZ1RGMVp3aDg2czVwUnZoSC1mZ3BKdFd5Y1JTY2wzcUhlMXE1Um53bnNvTVdiSUFpLTJVdjg0QXk5cVlvTlBHOGZjQTVhaUxXcWNkMGZMeHlqcnVldkF0b0pwcnI3cTMwY2hvM2t5dC0wVVhPbmJxSEFKWkx2bGJCaEFxYjRWN1hqV3p6WHppckg2U0REQ3hwRkU?oc=5",
-      "source": "Wirral Globe",
-      "published": "2026-11-22T06:00:00+00:00",
-      "summary": "پوستر برنده مسابقه آگاهی‌بخشی درباره جرایم چاقوکشی که توسط یک دانش‌آموز در Wirral طراحی شده، منتشر می‌شود. این اثر در سراسر منطقه به نمایش درمی‌آید.",
-      "keywords": [
-        "طراحی پوستر",
-        "Wirral",
-        "مسابقه پوستر",
-        "آگاهی‌بخشی"
-      ],
-      "category": "مسابقات طراحی",
-      "importance": "پایین"
-    },
-    {
-      "title": "حفظ و توسعه فرهنگ سنتی در منطقه Da Phuc",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa19sdV8wTnJ0V3kyMXBUaTRONFY5cmQzc2I4YzJvNnlNZDZrWGo4eVBmSF9jeDNmbkdBc2paRmNZZlZfVlB3VDdvejVlZmRzbW9aci1lN2x6aldEd1ZKSkNZMURIMXpqRS0ybnQtazRRWlhqY19LOVF3cElQc2IwemJVaXNHWXJzV0FfdFBUcWhwM2UyZlhULUdiNGpER1RyZjFZeGtpejhxUQ?oc=5",
-      "source": "Vietnam.vn",
-      "published": "2026-11-22T11:13:35+00:00",
-      "summary": "منطقه Da Phuc در تلاش است تا فرهنگ و هنرهای سنتی خود را حفظ کرده و توسعه دهد. این برنامه‌ها در راستای تقویت همبستگی ملی اجرا می‌شوند.",
-      "keywords": [
-        "فرهنگ سنتی",
-        "Da Phuc",
-        "توسعه فرهنگی",
-        "صنایع دستی"
-      ],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "پیروزی دانش‌آموز Bolton در مسابقه طراحی کارت کریسمس",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOVZrUjFYcTY5UXpQRTZkdzNhZkhxa3F5dXBnaUxfTE5KX0xZVDdVRElKQW5nR0dvZTFMYXdqdlJ6ZkVRLWFUSmdvN0VmZ0llYUMycmg0bURkZW5kNXhyUE9QdEJUMVpRNlN0SWhYSGhhT1hNVXhTTXZ3b2tqaGU0djA3SVotM0Fyd3MwRXU2cktRWEo2b1owRndRWDNWSHNXckVzRVFJQQ?oc=5",
-      "source": "The Bolton News",
-      "published": "2026-11-22T05:27:00+00:00",
-      "summary": "یک دانش‌آموز در Bolton برنده مسابقه طراحی کارت کریسمس شد. این مسابقه توسط نماینده MP برای تشویق خلاقیت کودکان برگزار شد. طرح برنده به عنوان کارت رسمی کریسمس استفاده می‌شود.",
-      "keywords": [
-        "مسابقه طراحی",
-        "کارت کریسمس",
-        "خلاقیت"
-      ],
-      "category": "مسابقات طراحی",
-      "importance": "پایین"
-    },
-    {
-      "title": "برگزاری رویداد detour 2026 با ۱۴ اینستالیشن در PMQ",
-      "url": "https://www.designboom.com/design/detour-2026-asia/",
-      "source": "Designboom",
-      "published": "2026-11-22T11:00:36+00:00",
-      "summary": "رویداد detour 2026 فضای PMQ را با ۱۴ چیدمان تجربی و یک فروشگاه موقت تغییر داد. این رویداد بر آزمون و بازبینی در فرایند طراحی تمرکز دارد. همچنین Matty Benedetto نخستین حضور خود در آسیا را در این رویداد تجربه کرد.",
-      "keywords": [
-        "اینستالیشن",
-        "طراحی تجربی",
-        "رویداد طراحی"
-      ],
-      "category": "همایش‌ها و رویدادها",
       "importance": "متوسط"
     },
     {
-      "title": "طراحی کفش پرینت سه‌بعدی FITS با قابلیت تغییر سایز",
-      "url": "https://www.designboom.com/technology/mono-material-3d-printed-childrens-shoe-five-sizes-foot-shape-fits-daniel-winter/",
-      "source": "Designboom",
-      "published": "2026-11-22T08:15:46+00:00",
-      "summary": "طراح Daniel Winter کفشی پرینت سه‌بعدی به نام FITS با فیلامنت انعطاف‌پذیر 75A توسعه داده است. ساختار بندبندی این کفش تا ۵ سایز کودکان و ۳ سایز بزرگسالان قابل گسترش است. این طرح با فرم پا تطبیق پیدا می‌کند.",
+      "title": "رشد ۴۰ درصدی ثبت طراحی صنعتی در Kazakhstan",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdDlHMkJNZTB4U3kydXhiSlR6ci1yUFpRSEpkdjIxTWtQS0hMdDdJOG1sckloYk01M3NZWkJ6MlpiMzVFelBWOWtfWGp2WU5OTWlLRWN5ODlJNS1kZlVHdzI5ZWt6VFozTklOVnRIc1NnMVZxUjdvUGNPZTJXRDRvYkd2MExvS1luN2JDLXZJNkZnNlRNNG5Ib3BOeEk3MVZLZHdFTThNcUFHMUFiRkM5VkVPd9IBswFBVV95cUxQdDlHMkJNZTB4U3kydXhiSlR6ci1yUFpRSEpkdjIxTWtQS0hMdDdJOG1sckloYk01M3NZWkJ6MlpiMzVFelBWOWtfWGp2WU5OTWlLRWN5ODlJNS1kZlVHdzI5ZWt6VFozTklOVnRIc1NnMVZxUjdvUGNPZTJXRDRvYkd2MExvS1luN2JDLXZJNkZnNlRNNG5Ib3BOeEk3MVZLZHdFTThNcUFHMUFiRkM5VkVPdw?oc=5",
+      "source": "Qazinform",
+      "published": "2026-11-23T03:20:22+00:00",
+      "summary": "آمار ثبت درخواست‌های حقوقی طراحی صنعتی در Kazakhstan رشد ۴۰ درصدی را ثبت کرده است. این رشد در حالی رخ می‌دهد که آمار جهانی روند کندتری را نشان می‌دهد. این امر نشان‌دهنده رونق فعالیت‌های طراحی در این کشور است.",
       "keywords": [
-        "پرینت سه‌بعدی",
-        "کفش تک‌ماده‌ای",
-        "تغییر سایز"
+        "ثبت طراحی",
+        "مالکیت فکری",
+        "رشد صنعتی"
       ],
-      "category": "طراحی محصول",
+      "category": "کسب‌وکار",
+      "importance": "متوسط"
+    },
+    {
+      "title": "کسب مدال طلای German Design Awards توسط STEYR CERVUS CVT",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcFlSNTc3ZjNnSGZJb190RmI4dWZWTUtQRHJpWnFjNlF2YTBrZlU2SnVGaGNueHF3WGd0b2RfVEN3dUpnS21mYmxoQXV4R1VxX01uU3RVdEpMRTB4NXAxNW9ocTE1Q3M4Z2lNR2pZUElZNURqTDVhRTRTaXBsNUFwM1poMS12a3ZRR05hQVdYbGhMMVo1eW9NdWItRlR5VmJEWnRELV9ZWnpCUTVHUFJPdUhrMTNQM19OZWU2c3JGaEk?oc=5",
+      "source": "www.marketscreener.com",
+      "published": "2026-11-23T12:00:05+00:00",
+      "summary": "تراکتور مفهومی STEYR CERVUS CVT محصول CNH Industrial موفق به دریافت مدال طلای German Design Awards شد. این جایزه به دلیل طراحی نوآورانه و کاربرد فناوری‌های پیشرفته به این محصول اعطا شده است. هیئت داوران ارگونومی و ظاهر این تراکتور را تحسین کردند.",
+      "keywords": [
+        "مدال طلا",
+        "تراکتور مفهومی",
+        "طراحی صنعتی"
+      ],
+      "category": "جوایز طراحی",
       "importance": "بالا"
     },
     {
-      "title": "بازسازی خانه قدیمی با الحاق بتنی توسط Belén Ilarri Studio",
-      "url": "https://www.designboom.com/architecture/curved-concrete-extension-belen-ilarri-studio-1970s-house-near-valencia-casa-lucerna/",
-      "source": "Designboom",
-      "published": "2026-11-21T21:35:41+00:00",
-      "summary": "استودیوی Belén Ilarri Studio یک خانه قدیمی را در نزدیکی Valencia نوسازی کرد. این پروژه شامل الحاق یک آشپزخانه بتنی منحنی و ایجاد پلان صلیبی با نورگیر سقفی است. در پوشش‌های نهایی از آهک دست‌ساز استفاده شده است.",
+      "title": "عرضه صندلی فضای باز جدید توسط Common Tiger",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQU21reXhRWjkwTFo1X0xNN2ZpWlFXQ05yNndjWkw1OTNoekR0aXQ5WWoyc2FFWUI0eHY0eVNCVXJ6TVNsSUFFTEhPTXFfb1VYakxTZkpwb09ndHNhVDcwRk1YRWp4S3VfVEs2cjIyVzJBZjd1cEpoY25CVV9KZ0FYamJSanozMGUtd3drZC1adjhUYWU3eEMxSGF4anVJUV9aM2E1SGwwVGNXQ0h4bUk5RGdCZw?oc=5",
+      "source": "Home Furnishings Business",
+      "published": "2026-11-23T00:33:36+00:00",
+      "summary": "برند Common Tiger صندلی فضای باز جدیدی عرضه کرده که طبق ارگونومی طبیعی نشستن انسان طراحی شده است. این صندلی راحتی بیشتری را برای استفاده طولانی‌مدت فراهم می‌کند. ساختار آن برای مقاوم بودن در برابر شرایط آب‌وهوایی بهینه‌سازی شده است.",
       "keywords": [
-        "بازسازی",
-        "الحاق بتنی",
-        "طراحی داخلی"
+        "صندلی فضای باز",
+        "ارگونومی",
+        "مبلمان بیرونی"
+      ],
+      "category": "مبلمان",
+      "importance": "پایین"
+    },
+    {
+      "title": "انتشار راهنمای ثبت طراحی صنعتی در Philippines",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcVdhUkxiUExHV2R6aEczamFNT0FiY1pZX0lhcV9yemdERzlEZzBTeFJ6eThzMUtyREtZR0c0aXN2cTRQV0Vsbjh6LU5BZEd3dlZOY0V5enhMYVdVaE55dXUybmo1cUxmV3NDNWplS1VaQlhVUXcyWjZWclBiLWdJRjhHSmRYQWdScUxwVm1yNXM?oc=5",
+      "source": "Global Advisory Experts",
+      "published": "2026-11-23T04:32:40+00:00",
+      "summary": "راهنمای جامع ثبت حقوقی طراحی صنعتی در Philippines برای سال ۲۰۲۶ منتشر شد. این سند به کسب‌وکارهای تولیدی کمک می‌کند تا روند حفاظت از مالکیت فکری را بشناسند. راهنمای مذکور مراحل قانونی و الزامات ثبت را تشریح کرده است.",
+      "keywords": [
+        "ثبت حقوقی",
+        "مالکیت معنوی",
+        "راهنمای کسب‌وکار"
+      ],
+      "category": "کسب‌وکار",
+      "importance": "پایین"
+    },
+    {
+      "title": "مرور فلسفه و آثار ارگانیک Luigi Colani",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE81Z0lHaFlVYmdzUUUxcFhmR191SFhUYUhWNGJHMzNtd0FvVXUzOEVBUnNrWnE0UVIyaXBja0ZzVEVLTVR3cEljbE1vb00xVk5rUWtrVHNCT0xXS3lxRXZUa3NqeHFxdkNpTmxtRXExblhhVnpaN2Zz?oc=5",
+      "source": "DW.com",
+      "published": "2026-11-22T21:21:57+00:00",
+      "summary": "گزارشی به بررسی جهان طراحی منحنی و ارگانیک Luigi Colani طراح برجسته صنعتی پرداخته است. آثار او با فرم‌های کروی و آینده‌نگرانه شناخه می‌شوند. او نقش مهمی در توسعه طراحی بیومورفیک داشته است.",
+      "keywords": [
+        "طراحی ارگانیک",
+        "فرم منحنی",
+        "تاریخ طراحی"
       ],
       "category": "سایر",
-      "importance": "متوسط"
+      "importance": "پایین"
     },
     {
-      "title": "NIUDIAN Wins the “Supreme Design Award” at the 2026 International Product Green Award",
-      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPeWI0UTlIOVJWdWdRVHJCNzR2RUNpQ1dPZGFuMFlnd1h4YzdDMUxzRFhQcy1aa0t1Z29hZWxheUJneTRmWlBJTF9DY1ZLTFhEOGRWRDZYQ3FYSGpYd0s3ZVlBcldUUHBoWjNCQkJxRDlFOUJCd1dhTEl5M2MzdUpIckVkcXJ0RUU4VTJtMXh6VEF3WnZkbzQ2NmQ1TDZ5NHJkVGFPYWowbnRGcXVSRVZPcnJrckM0eEx1T1IyUmVnLW5USGlNUTJXNkNPVGdndnZZaEZBaHVaR012Ymk0ZWdyeDRiUk1vaGU3SlVLaFpZTjNVc3ZmY3lQWjdDSk1hUG9VMmdTWGh6d1lCVEFiM1FOcFRVRFZnVURpYkVMQndDMA?oc=5",
-      "source": "The Daily Tribune News",
-      "published": "2026-11-21T16:10:03+00:00",
-      "summary": "",
-      "keywords": [],
-      "category": "جوایز طراحی",
-      "importance": "متوسط"
-    },
-    {
-      "title": "معرفی تلویزیون Samsung S95H OLED با صفحه نمایش شناور",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPV3lTTEJxMW84UzlNbFdPSm5FanNUTzZIbVRRWndFTE1ZdmRETk0yTm5WS0p1TFpfVWswd0FIQktEQV9ESmFLd3NISTNfOXI5bG1hbmwyTm52T3Vnc2NUWkl6Z1ozeFF6N1RpSFZVOUtURTJ1WHR6ZV9tUVg4SzN4QW5lTVBWX1N5emxRZjFxcHptNndkZm9LTWdWVHpzRUxJUWx6dQ?oc=5",
-      "source": "DANAMIC",
-      "published": "2026-11-22T07:01:22+00:00",
-      "summary": "تلویزیون جدید Samsung S95H OLED با قیمت پایه ۴,۹۹۹ دلار سنگاپور عرضه شد. ویژگی اصلی طراحی این محصول، صفحه نمایش با جلوه شناور است.",
+      "title": "محبوبیت رنگ‌های matcha و ube در طراحی محصولات",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONG8xZEo4NVlWdlViQnFDOFllZ2dPRFR4cG5XZlk4bUFfY3QyZk1OQVl6eVFKNmw5OUpwb0ZjUHJPVmU0NWNaTlR5VE5HU3Z3Vk9zSF9VNnRFVzVyWVMxMngtWWtZWklOQnlxUkduTTE2N19jLWNDZXBWVkF4TjlENDlULXZPWmZCMFF5a1I5ejBleUo0Mkx5Rlhtdkc4ck9ZSHJUbFM4QkVnSzhXRUx0dGpQT3NrRU9zMjNPNGFGa9IBxwFBVV95cUxOb2VZRHYxQko5ZEF1TzZ2TjFvb0xiWi1iRmhQYjVlbEphVkFhOVhPajFxTzlVWXZSSHo5LTFHUk1xd1Nyd3QxeWpyZVFmZ29xQlF6UFVQamZKUXhvc2ZqZGdsOEswd2cyaHZ6T3Q2MzlkeUdGXzRLUW54aXZoRFRiRGVIb0c5c2RUbW9fSUJLYURELTNNVG5YWEhsSFVTcHJJOE5WaHhyZGVSaFRnVXVBNUFNWGJNSXhsMHQzTnNIQnJUakpXSW9V?oc=5",
+      "source": "NBC Bay Area",
+      "published": "2026-11-22T17:55:33+00:00",
+      "summary": "استفاده از رنگ‌های الهام‌گرفته از خوراکی‌ها مانند matcha و ube در محصولات جدید افزایش یافته است. این رنگ‌ها در طراحی لوازم خانگی و اکسسوری‌ها رواج پیدا کرده‌اند. طراحان از این رنگ‌بندی برای ایجاد حس آرامش و طبیعی بودن استفاده می‌کنند.",
       "keywords": [
-        "تلویزیون OLED",
-        "صفحه نمایش شناور",
-        "Samsung"
+        "ترند رنگ",
+        "رنگ‌بندی محصول",
+        "طراحی اکسسوری"
+      ],
+      "category": "طراحی محصول",
+      "importance": "پایین"
+    },
+    {
+      "title": "انتخاب Paul Cocksedge به عنوان طراح سال ۲۰۲۷ Maison&Objet",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS0Zvd2h4M3dER1RKRC1uOF82eW9sT1Blc2RQUWdKNDd4d1RQejEzUGRWdWJMOUNFTVAzWGZ5QVoxUVMwOWUzZ1htdW1FaHYwalYyOFVCQUJIdDVBRW0wcW5ONVQ1LU5vT01tT0VaS0E5a0VtNjhCZU9QWTBFaXZGVktwQnNNbUxnSU13RnY3cFgySnVCTml1MjhwR090ejlmaHdxajB2dlM1MVR6RVVtbmRfYmE?oc=5",
+      "source": "InteriorDaily",
+      "published": "2026-11-23T10:05:05+00:00",
+      "summary": "Paul Cocksedge به عنوان طراح برتر سال ۲۰۲۷ در رویداد Maison&Objet انتخاب شد. این عنوان به پاس نوآوری‌ها و پروژه‌های خلاقانه این طراح بریتانیایی به او اعطا شده است.",
+      "keywords": [
+        "طراح سال",
+        "طراحی محصول",
+        "نمایشگاه طراحی"
+      ],
+      "category": "جوایز طراحی",
+      "importance": "بالا"
+    },
+    {
+      "title": "ممنوعیت فروش شاسی‌بلند BYD در اروپا به علت کپی‌برداری",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUGtfTl9YczZLV2ZUQ3NtX2l3bVphNTNwUXhEY2hKaTZ0cDFrVWRlLXJBNVYwWTdPSHZoTGRQWXd4OWFOaWRMdVd4c0FTNGZINmowazluMEpQb3Q1NHV3SjdmdHZzQkxldGhIZ0RqS0hjVDhEbkhwNkNMNG5SVFkzaWsxRVdCcVhSeDdnelJtV3M1NjYyVlB0bVh5N2VQajZ6dXlkNTVJOElFV3ljaklIZmdvYzd6QUtuWnp2OXlOV0s?oc=5",
+      "source": "Plataforma Media",
+      "published": "2026-11-23T12:07:00+00:00",
+      "summary": "دادگاه اروپا حکم به ممنوعیت فروش یکی از مدل‌های شاسی‌بلند BYD داد. این دادگاه علت حکم را کپی‌برداری آشکار از طراحی خودروهای Land Rover اعلام کرده است.",
+      "keywords": [
+        "کپی برداری",
+        "طراحی خودرو",
+        "حق مالکیت فکری"
+      ],
+      "category": "خودرو",
+      "importance": "بالا"
+    },
+    {
+      "title": "جایگاه WJ-LEAN در طراحی سیستم‌های Roller Placon در چین",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQY0NBRmljV3d1OEh1allGNTFXQ1I0bGRCNkE3QjBleV9QRTNIMUJyT1Q0c3JRcWxxemhLa21oYnp6T0xpOXozLVlQSUxkdzFxR01oaVFkYkNoaE0yZUVGcGlLWWpFdmZHYjlQQXJuQmFrMUtwTTVkSDJobWt0Xy01Z21xSGNTM3ZLNjgtc1V5clZCbUUtWjIzblQwUHVabktPMnR6Zl96NTZRcUhjNFB6NUo0NmxPdmQ3U3A4NWdCLUdJNUVFeFg0bFJxT182MENZVVVaMWpPVWNfRUhkR01IMGk2ZkxGX0ZLVERfd1JDVElTdw?oc=5",
+      "source": "EIN News",
+      "published": "2026-11-23T07:05:00+00:00",
+      "summary": "شرکت WJ-LEAN به یکی از برترین طراحان و تولیدکنندگان سیستم‌های صنعتی Roller Placon تبدیل شده است. این مجموعه تلاش می‌کند تجهیزات صنعتی باکیفیت را به بازارهای جهانی عرضه کند.",
+      "keywords": [
+        "طراحی صنعتی",
+        "تجهیزات صنعتی",
+        "تولید صنعتی"
+      ],
+      "category": "طراحی صنعتی",
+      "importance": "پایین"
+    },
+    {
+      "title": "حضور سفیر ایتالیا در نمایشگاه طراحی Linda Baissero در کرواسی",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQNU01M2VtOHVwZkhHZi14blBaZ0EwckpEYVdYM21KTUd1V3F5LUxoU3A2QllGRGVyRWxpT0NqV3VXRzR4ZDhCRVg2bjgwc21taEFiMDBzODZ0YXBHdDFZVVJPWHRrdWV5MGJId2NzNkV1NThJUzhxc2dPVjE4MjE2bVZiS1pURHhTNWF1T01ZVkIxVnRjWGlmS2k5NWFqQS1iQ3Qzc1QzUGNSbXI0MVgycjE5Vk9UeXBNNXlsY2gta3JIbTlTb3dITmVtaUM2aEdRbDdTZEd0c3RYVHBPWGhxTmdFNHdCNUJmQ3ctNnB5OGoxdW1CU1dEd0Fta25TbjVMV1lFODlBZzdXeWNwSnfSAZMCQVVfeXFMTmxONnkyWjRyc2RrS2FHRk14bGRxSW5vVFhBQ1g5TkREajdZWHlPRjl2cjhoZVFjWmpLeVVDa0h5Y1IxM2s5MFlfZUxDSzZGQUtsWGpCYjVQcGp0ZWowQUNFQmUxSUNFZ0xhaDUtTjF6c3FyTHg4U1ZILVVoZjRIUVo5eTBSMnBWbHU2S01PTEg1NmRRdk5nczRLcnVTczBTWVdRR3ZCUEhlZWwtakZFOWdKWTU0bFI1OW9xa0VVQ05sMGs2OFdnS21JMndvc2pOWVZsN01RQktSRzZiS3ZwUFVicHNyWXhCaE5fTGcyOUwtbG13anRQUWc0dk5kUFZMRHY0eUtRS1RCdHNoWmY2YjIzbk0?oc=5",
+      "source": "ANSA",
+      "published": "2026-11-23T12:05:00+00:00",
+      "summary": "سفیر ایتالیا، Trichilo، از نمایشگاه جدید طراح برجسته Linda Baissero در کرواسی بازدید کرد. این نمایشگاه مجموعه آثار و طرح‌های جدید این طراح را به نمایش گذاشته است.",
+      "keywords": [
+        "نمایشگاه طراحی",
+        "طراح ایتالیایی",
+        "رویداد هنری"
+      ],
+      "category": "همایش‌ها و رویدادها",
+      "importance": "پایین"
+    },
+    {
+      "title": "سفارش طراحی باتری سفارشی Enovix برای عینک‌های هوشمند",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPa19oR1pySnNZdzJBRC0zbDQxY19ENzRYZWIzbDBpMWZScWcxMktfNFQzSWR6RWdIbDJRS3VKUWhyQ2k3UW1DaWcxa1pQRUZNUlBudzhzRFBqdWZwakVoTDFJNEFwSko0QWp0UHJXalp6cnNjZUZySGRxaVUxb2NYNFViZXl6ZHhaZmJTN0h5Z3p0MDl1dnZ0eFV1X0NHV2ZNcnlsSGpIZm14Y08xZmplUUkwd1VfaGtoN184UQ?oc=5",
+      "source": "Quiver Quantitative",
+      "published": "2026-11-23T13:13:00+00:00",
+      "summary": "شرکت Enovix سفارشی برای طراحی و ساخت سلول باتری اختصاصی عینک‌های هوشمند دریافت کرد. این باتری‌ها برای تامین انرژی عینک‌های هوشمند نسل جدید بهینه‌سازی می‌شوند.",
+      "keywords": [
+        "باتری سفارشی",
+        "عینک هوشمند",
+        "گجت پوشیدنی"
       ],
       "category": "لوازم الکترونیکی",
       "importance": "متوسط"
     },
     {
-      "title": "افتتاح نمایشگاه یک‌هفته‌ای محصولات SME توسط Tarique",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE50TzYyT0pIc2RTM3ZOS2pYelVuZ2wwWjJSV2pNUkprNnZVWWpHWWxFMnl4UHFhcVlXU3J5VGQtWUpxS2VfZ1lOdUJiSGkxMTgwRkI3Tw?oc=5",
-      "source": "bdnews24.com",
-      "published": "2026-11-22T06:30:00+00:00",
-      "summary": "نمایشگاه یک‌هفته‌ای محصولات SME توسط Tarique افتتاح شد. این رویداد به عرضه محصولات کسب‌وکارهای کوچک و متوسط اختصاص دارد. هدف آن حمایت از تولیدات داخلی و توسعه بازار است.",
+      "title": "کسب رتبه نخست طراحی آسیا-اقیانوسیه توسط Massey University",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQLTkzTGsycWN1d1pIbHpoNHVBVHZSNERvUnl3aEhkdllUajV6Vk1JY0FsQ2gybWVtNVZRV1dka2JZeE1HM0lIU3RETmgtZjJkWkswYUtiMkhWT09uLUhDaU9Cek5BSEVQTG1QS012QXhEVWJlRkM3XzY4d1AwNlItY0lsZWhZWTRiNFphUkxLQmdMazM0ZENfeWdTNEpVVm5wMVBCS2tHMjVyS0lrbV9Z?oc=5",
+      "source": "Massey University",
+      "published": "2026-11-22T23:11:46+00:00",
+      "summary": "دانشگاه Massey University رتبه نخست برتری در طراحی را در منطقه آسیا-اقیانوسیه کسب کرد. این رتبه‌بندی نشان‌دهنده کیفیت بالا و نوآوری در برنامه‌های آموزشی این مرکز است.",
       "keywords": [
-        "کسب‌وکار کوچک",
-        "نمایشگاه محصول",
-        "SME"
+        "آموزش طراحی",
+        "رتبه بندی دانشگاهی",
+        "طراحی محصول"
+      ],
+      "category": "آموزش طراحی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "معرفی برندگان مسابقه طراحی AAKRUTI 2026 شرکت Dassault Systemes",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNQTJyMmRzWVVfMHE1Q20yNXc1dXZMMnI0a3RBOGg3d2szR2M2Tm9JWklfQXFSUVFHYnRaYjhuaWVjc3pOdGpGUHdLOGN3bEpKbGlyQkEtMHFMLXFlNEw1ZTEtVXpuOXFwMmI3V1RmOVpfOVRlVHQ5Zng3aGxXSU5QZUZiYzBSRjBYbktBNmpvd0ZjWGpBcVBRVWo5ZkhITFZkUlN2M01rUjdFaXZvNFJMVlpMLWtraVBnYmlxR1pVSzlXY3JZRnRBempBUFhQR3hvVTVEeDVCQ3BSOU5WTWhQdzkyTkh1ZkxrV2RGaDVIRzhEZ00zTTJF0gH8AUFVX3lxTFB3UE1OdXB3dHZPdlRheVgyWndZS0tGcjVKRHNnenRwRWRFcWpiN2RYajluT0pCU3N1WFgweFRJbjNOVmVKakFqczFsTHNfbDlQSGkyQ0lad2N1RFBIT1Z5VlJxSk1lRjZEaXNFZFc1c3d3eDJCZGIwZXB4MkdhWlVNMkdMV2gwYkV3U3pkSDlnLUZPTGNVM3RQMEVxajFwdHlOWURjZFZGT25qQkItNEhWNDlkaXp6Z3lSX2ZqTnBtY2xIc20wX2VKSk1fVFh6YW9wUmZxTFdocXhOZ3lmYzR0bzNubkUyclRCRkFLZXpWeGk3THljMXVEdXc0Xw?oc=5",
+      "source": "TheWire.in",
+      "published": "2026-11-23T11:33:42+00:00",
+      "summary": "شرکت Dassault Systemes برندگان شانزدهمین دوره مسابقه AAKRUTI 2026 در هند را اعلام کرد. در این چالش جهانی دانشجویان برای حل مسائل پیچیده طراحی رقابت کردند.",
+      "keywords": [
+        "مسابقه طراحی",
+        "چالش دانشجویی",
+        "طراحی سه بعدی"
+      ],
+      "category": "مسابقات طراحی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "رونمایی HTA Design از بزرگ‌ترین پروژه مسکن دولتی بریتانیا",
+      "url": "https://www.dezeen.com/2026/11/23/kidbrooke-park-road-hta-design/",
+      "source": "Dezeen",
+      "published": "2026-11-23T11:30:00+00:00",
+      "summary": "استودیوی HTA Design پروژه‌ای شامل ۴۵۰ واحد مسکونی را در London رونمایی کرد. این پروژه که Kidbrooke Park Road نام دارد بزرگ‌ترین طرح مسکن دولتی بریتانیا است.",
+      "keywords": [
+        "معماری شهری",
+        "مسکن دولتی",
+        "طراحی مجتمع مسکونی"
+      ],
+      "category": "سایر",
+      "importance": "متوسط"
+    },
+    {
+      "title": "انتخاب AMAA به عنوان تاثیرگذارترین معمار دو دهه آینده",
+      "url": "https://www.dezeen.com/2026/11/23/amaa-interview-dezeen-20x20-nerihu/",
+      "source": "Dezeen",
+      "published": "2026-11-23T11:15:00+00:00",
+      "summary": "استودیوی Neri&Hu دفتر معماری ایتالیایی AMAA را به عنوان تاثیرگذارترین معمار ۲۰ سال آینده معرفی کرد. رویکرد نوآورانه در بازآفرینی فضاها علت اصلی این انتخاب عنوان شده است.",
+      "keywords": [
+        "معماری معاصر",
+        "بازآفرینی شهری",
+        "طراحی نوآورانه"
+      ],
+      "category": "سایر",
+      "importance": "متوسط"
+    },
+    {
+      "title": "معرفی Wild Fig به عنوان رنگ سال ۲۰۲۷ توسط IKEA",
+      "url": "https://www.dezeen.com/2026/11/23/ikeas-color-of-the-year-2027-wild-fig/",
+      "source": "Dezeen",
+      "published": "2026-11-23T10:45:00+00:00",
+      "summary": "برند سوئدی IKEA رنگ پیشنهادی خود را برای سال ۲۰۲۷ با نام Wild Fig رونمایی کرد. این رنگ طیفی از بنفش مایل به قرمز است که هماهنگی غیرمنتظره‌ای در چیدمان ایجاد می‌کند.",
+      "keywords": [
+        "رنگ سال",
+        "دکوراسیون داخلی",
+        "ترند طراحی"
+      ],
+      "category": "مبلمان",
+      "importance": "متوسط"
+    },
+    {
+      "title": "بازگشت رئیس RIBA به ثبت‌نام ARB برای استرداد عنوان معمار",
+      "url": "https://www.dezeen.com/2026/11/23/riba-president-rejoins-arb/",
+      "source": "Dezeen",
+      "published": "2026-11-23T10:00:00+00:00",
+      "summary": "رئیس RIBA، Chris Williamson، پس از حدود یک سال دوری، مجدداً عضویت خود را در ARB تمدید کرد. این اقدام برای استرداد رسمی عنوان قانونی معمار انجام شده است.",
+      "keywords": [
+        "معماری",
+        "ثبت حقوقی",
+        "عنوان معمار"
       ],
       "category": "کسب‌وکار",
       "importance": "پایین"
     },
     {
-      "title": "ICYMI: Kristin Ess Launches Otherwise, Macy Grimshaw Wins the 2026 H&M Design Award & Fashion Books Worth Gifting",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBtcDZNVnRMenB4eXowSDVkeDhrLVBFcWlXaHdfZVI1MVVNaG9XR3hPbVFWTExuaXVUVFF0emh5SERLcFlTT1pVYnFNMnVOY3M3NFBqQVRWeGZsWVVzdUExZ1I5Yl9kcUFkdVpreFZvMDZTSHRKY0pyazJ6LW9JQQ?oc=5",
-      "source": "Fashionista",
-      "published": "2026-11-21T13:00:00+00:00",
-      "summary": "",
-      "keywords": [],
+      "title": "طراحی صحنه تور J Cole توسط Sturdy با الهام از معماری نئوکلاسیک",
+      "url": "https://www.dezeen.com/2026/11/23/sturdy-j-cole-the-fall-off-world-tour-set-design/",
+      "source": "Dezeen",
+      "published": "2026-11-23T09:00:00+00:00",
+      "summary": "استودیوی Sturdy ماکت یک تالار شهر تاریخی در Fayetteville را برای صحنه تور جهانی J Cole طراحی کرده است. این المان نئوکلاسیک نمادی از شهر مادری این رپر است.",
+      "keywords": [
+        "طراحی صحنه",
+        "کنسرت",
+        "معماری نئوکلاسیک"
+      ],
+      "category": "سایر",
+      "importance": "متوسط"
+    },
+    {
+      "title": "استفاده از یافته‌های باستان‌شناسی در پروژه طراحی Ex Situ",
+      "url": "https://www.dezeen.com/2026/11/23/archaeology-design-ex-situ-exhibition/",
+      "source": "Dezeen",
+      "published": "2026-11-23T06:00:00+00:00",
+      "summary": "پروژه Ex Situ اشیای جدیدی را با استفاده از استخوان ماموت، چرم قرون وسطی و بقایای جاده‌های روم باستان خلق کرده است. این آثار به زودی در The Hague به نمایش درمی‌آیند.",
+      "keywords": [
+        "طراحی اشیا",
+        "مواد باستانی",
+        "طراحی مفهومی"
+      ],
+      "category": "مواد و متریال",
+      "importance": "متوسط"
+    },
+    {
+      "title": "رونمایی Mondaine از ساعت جدید Doppio Solar Skeleton",
+      "url": "https://www.dezeen.com/2026/11/23/mondaine-doppio-solar-skeleton-watch/",
+      "source": "Dezeen",
+      "published": "2026-11-23T05:00:00+00:00",
+      "summary": "برند Mondaine ساعت جدیدی به نام Solar Skeleton را به مجموعه Doppio اضافه کرده است. این ساعت صفحات خورشیدی را از طریق یک روزنه دایره‌ای به عنوان عنصر اصلی طراحی نمایش می‌دهد.",
+      "keywords": [
+        "ساعت مچی",
+        "فناوری خورشیدی",
+        "طراحی ساعت"
+      ],
+      "category": "طراحی اکسسوری",
+      "importance": "متوسط"
+    },
+    {
+      "title": "اهدای نخستین دوره جایزه Spector Craft Prize به هنرمندان برتر",
+      "url": "https://www.surfacemag.com/articles/spector-craft-prize-2026/",
+      "source": "Surface",
+      "published": "2026-11-23T10:53:00+00:00",
+      "summary": "مراسم افتتاحیه جایزه Spector Craft Prize در Crystal Bridges Museum of Art برگزار شد. این جایزه از استعدادهای شاخص صنایع دستی در سراسر آمریکا تقدیر می‌کند.",
+      "keywords": [
+        "جایزه صنایع دستی",
+        "هنرمندان صنایع دستی",
+        "تقدیر از طراحان"
+      ],
       "category": "جوایز طراحی",
       "importance": "متوسط"
     },
     {
-      "title": "هدف‌گذاری سهم ۳۵ درصدی SMEs در GDP تا ۲۰۳۱",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1mRXl4bTd3TUVuOUpvM2RFTzYzVlpxZl9TVW52YlhMS2txdkpIcGhGVXhQZ25VM01qZDFIb3czNi1CbzJqb0tmcjV2aDJXVG1aNFVMUE1MT2NiNnMyXzgySw?oc=5",
-      "source": "Just News BD",
-      "published": "2026-11-22T11:10:21+00:00",
-      "summary": "برنامه‌ای برای افزایش سهم بخش SME در GDP به ۳۵ درصد تدوین شده است. هدف این برنامه تبدیل Bangladesh به یک قطب تولید صنعتی تا سال ۲۰۳۱ است.",
+      "title": "افتتاح رستوران آمازونی iara در محله Lower East Side",
+      "url": "https://www.surfacemag.com/articles/iara-brings-amazonian-flavors-to-the-lower-east-side/",
+      "source": "Surface",
+      "published": "2026-11-23T10:41:00+00:00",
+      "summary": "سرآشپز Vitor Mendes رستوران ۶۰ نفره iara را در Lower East Side منهتن افتتاح کرد. این رستوران ترکیبی از محصولات New York و مواد غذایی آمازون برزیل را ارائه می‌دهد.",
       "keywords": [
-        "تولید صنعتی",
-        "توسعه اقتصادی",
-        "SME"
+        "رستوران",
+        "طراحی داخلی",
+        "تجربه غذا"
       ],
-      "category": "کسب‌وکار",
-      "importance": "پایین"
-    },
-    {
-      "title": "O Ring vs D Ring vs Slant D Ring: Choosing the Right Binder Mechanism for Your Product Line From Firstly",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQXzA3T242dnRYNjZtNWliMXJudk85OC0tNmFfUWZvLVhGNzhyMGRxdnNmNnFuZ01mYkFCR0VCS1ZfeXp2dTdSVE9pUkt2UF9LdU5aRkdJVHc5SWcyTzlrdGxUWkFlN2M2MmVpOFZhRV85TC1RVFRfUkQ5c1VELU9GdXB0eGxzMENIQ0lsdmt4VE1YWklBd3BQeUZB?oc=5",
-      "source": "openPR.com",
-      "published": "2026-11-21T16:16:04+00:00",
-      "summary": "",
-      "keywords": [],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "عرضه کیسه‌های تجدیدپذیر FIBC برای بسته‌بندی صنعتی",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQnR6ZjMyV2tTd0FyN1R1NnlodXJkVDFsQWxpY0U5VHdVc2NwQ2hKTWJFNEJoREhtbDF0RGZWUTIyMURtWVBvOU92cDZXMFJxZFBwdkE5azJzTDROZzlzQ1VKUDhNREdoS005Q1RtXzdYcjlNVllKNVRkeWhLSXhXNDkzMFo0NXZsQ3NtWWV4VkZLaFpQeU5seGVn?oc=5",
-      "source": "openPR.com",
-      "published": "2026-11-21T16:00:06+00:00",
-      "summary": "تولیدکنندگان پیشرو در چین کیسه‌های باکیفیت و قابل استفاده مجدد FIBC را عرضه کرده‌اند. این محصول برای بسته‌بندی‌های صنعتی عمده و سنگین طراحی شده است. هدف از ساخت این کیسه‌ها کاهش هزینه‌ها و ارتقای پایداری است.",
+      "title": "معرفی برندگان نخستین دوره Vanguard Award توسط Remuseum",
+      "url": "https://www.surfacemag.com/articles/remuseum-and-doris-duke-foundation-name-eight-inaugural-vanguard-awardees/",
+      "source": "Surface",
+      "published": "2026-11-23T10:10:00+00:00",
+      "summary": "بنیادهای Remuseum و Doris Duke Foundation هشت برنده نخستین دوره Vanguard Award را معرفی کردند. همچنین The New Museum از همکاری چندساله با The Vega Foundation خبر داد. شهر Sydney نیز گرنت‌های مالی مستقیمی برای حمایت از هنرمندان اختصاص داده است.",
       "keywords": [
-        "بسته‌بندی صنعتی",
-        "کیسه FIBC",
-        "پایداری",
-        "بسته‌بندی عمده"
-      ],
-      "category": "بسته‌بندی",
-      "importance": "پایین"
-    },
-    {
-      "title": "برندگان جوایز ۲۰۲۶ انجمن Australian Production Design Guild اعلام شدند",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUVZsejlmX3JiU3g5YWIzLTZSc0FNRkdza1VnMTRBbjBSSUlGazc2SkR2TXlITzIzVHQtcDNPMGVxR3ZZaXdJRVE2UkxnbndCUWdfU1FEUHY5Y19DTExPQnNiRjhFTkNWeW16bV8zLVhDNjJweDB4eGhtRXJuV2VDY2hMdUkxU2F0X0dyZ3BKS3VkY0ZxZkdGYmI0d2huOWFCSTh6VHZKMnU?oc=5",
-      "source": "FilmInk",
-      "published": "2026-11-21T14:46:26+00:00",
-      "summary": "انجمن Australian Production Design Guild برندگان جوایز سال ۲۰۲۶ خود را معرفی کرد. این جوایز به برترین استعدادها در زمینه طراحی صحنه و تولید تعلق می‌گیرد. این رویداد دستاوردهای برجسته در صنعت تصویر را برجسته می‌سازد.",
-      "keywords": [
-        "طراحی صحنه",
-        "جوایز طراحی",
-        "Australian Production Design Guild"
+        "جوایز هنری",
+        "گرنت هنرمندان",
+        "موزه",
+        "میراث فرهنگی"
       ],
       "category": "جوایز طراحی",
       "importance": "متوسط"
     },
     {
-      "title": "پروژه LNER Serenza در میان برندگان Rail Interior Awards قرار گرفت",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQXluUXp4VGhpbElhbnZOTzREN04wQWhMTlk1VXZqTGVUc19HYVZCTkJUZndPZTZ6blc0Yld5dDZvQXR2ZEFYYjFkLXpOUWZWSkFLTFNHWllYTFlXUXRNNnFQUlNlb3EyZ3QzdXlLbFJQS2NhVTJDUjJ6VUhBUFVYNll2cUxZWUJPTERURjhmQkV4Qm9HdEQw?oc=5",
-      "source": "RailAdvent",
-      "published": "2026-11-21T14:04:00+00:00",
-      "summary": "طرح داخلی LNER Serenza موفق به کسب جایزه در رویداد Rail Interior Awards شد. این طراحی بر بهبود تجربه مسافران و راحتی فضاهای داخلی قطار تمرکز دارد. این موفقیت دستاوردی مهم در طراحی حمل‌ونقل ریلی محسوب می‌شود.",
+      "title": "پیروزی Chung Hua Plastic در مسابقه 2026 MUSE Design",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQc0lhWFd3U2tUQWlGcEc2NVRCYllOS3NwSkhGUW85LWhQVmRsWTFSdGhYdmZfWmVDQnYwQ09NNTBiWV9BQWNvOF95TlNyR1BKR3BUM0ZpVE5wcHlQaVV5RXpQSUVhbEQ4WThCaG56dmNiQm8tVmRCa3BVcTBaYzlHaXNONWRuNkxqRV85TFVLRjBGZmEteVBZeXhNcktnZXBFMHlWTFkzNHBJT2lvTEZUYmRyYm5xdWtWZ1kzS0N3VHRta2JDbmdWeTdfLVFRVkxDcHdmbm9raw?oc=5",
+      "source": "The Detroit News",
+      "published": "2026-11-23T14:58:32+00:00",
+      "summary": "شرکت Chung Hua Plastic موفق به کسب دو جایزه طلایی در 2026 MUSE Design Awards شد. این جوایز برای توسعه پروژه Digital Product Passport به این شرکت اهدا شده است. این طرح بر شفافیت و نوآوری در صنعت تاکید دارد.",
       "keywords": [
-        "طراحی داخلی قطار",
-        "حمل و نقل ریلی",
-        "Rail Interior Awards",
-        "LNER Serenza"
+        "جایزه طراحی",
+        "شناسنامه دیجیتال محصول",
+        "نوآوری",
+        "پلاستیک"
       ],
-      "category": "طراحی صنعتی",
+      "category": "جوایز طراحی",
       "importance": "متوسط"
     },
     {
-      "title": "تقدیر شهردار از ۱۵ پروژه طراحی فضای عمومی",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWUpyNVhON0VLbEF5UnV6OTBJNVRpR3E1ZkJlRlE2YkRzRDdoTmlGdXJiZ3FBUkhpUThoSnU5NkQxYTViT0RvenpLZ1RXaXQ0UkQzYU00ckRFdjBpYUFDazVrazU0bHlOQnVGRWtLREFBUndmWGg4S1JCU05XRTRTVHo5NjQxcTNyR2ZTQVp1bGhMUFMtOXdRN1g5d1ctVVlKNGpJ?oc=5",
-      "source": "Wisevoter",
-      "published": "2026-11-22T03:30:05+00:00",
-      "summary": "شهردار از ۱۵ پروژه برتر طراحی در زمینه فضاهای عمومی قدردانی کرد. این پروژه‌ها با هدف بهبود کیفیت زندگی شهری و ارتقای فضاهای همگانی اجرا شده‌اند. این اقدام بر اهمیت طراحی شهری تاکید دارد.",
+      "title": "رونمایی Hafele از قفل دیجیتال جدید Infinity با زنگ تصویری",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMXkyTG9jalEyemRmZ1lidWo5NV9OcEdmVFNVU0dKbzQxYi1MTlVFbUZSOU5mR2NuRU1kZ3VjVlFyemlic1FhZnFSNVVFRkM1ODJoWlRIQnQ5SFJGLVo5TVNNaVl1ekRSalI3MVhIZGEyZWlQVnh0dHNoU251UU1GeFdqS2VROXBUVnEtMlAxOWRaVFZFMGZNMTFDZ1ZRVzBXcEZJYWRQd3RWZUdVU3pka2xENkk4TXAxeHotT2g3OFEzMlJ0?oc=5",
+      "source": "BW Hotelier",
+      "published": "2026-11-23T13:01:01+00:00",
+      "summary": "برند Hafele قفل دیجیتال جدید خود با نام Infinity را معرفی کرد. این محصول برنده جایزه، به آیفون تصویری هوشمند مجهز شده است.",
       "keywords": [
-        "طراحی شهری",
+        "قفل دیجیتال",
+        "خانه هوشمند",
+        "طراحی محصول"
+      ],
+      "category": "طراحی محصول",
+      "importance": "متوسط"
+    },
+    {
+      "title": "کسب دو جایزه طراحی توسط شرکت مستقر در Banbury",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRVhsemJtaEtwSUVjczRURnhKbm9FcmJCQjFKVER3QmpqVmxhaEwwVWUwN2VhekJIdXJCUlB6NlNtZTRCQzRVOUNQeEQ0VGVMUThJMWo1NEFsclYwcDZ2M3RwT0VMeFgyR01vdUZQUE5SWG9yOHo0cE1Ud0lEQlI2WFlCeGV6T1BCN1E?oc=5",
+      "source": "Banbury FM",
+      "published": "2026-11-23T12:56:21+00:00",
+      "summary": "یک شرکت محلی مستقر در Banbury موفق به کسب دو جایزه معتبر در حوزه طراحی شد. این موفقیت دستاوردی مهم برای این مجموعه به شمار می‌رود.",
+      "keywords": [
+        "جوایز طراحی",
+        "طراحی صنعتی",
+        "افتخارات طراحی"
+      ],
+      "category": "جوایز طراحی",
+      "importance": "پایین"
+    },
+    {
+      "title": "افتخارآفرینی پنل‌های MODEE در جایزه Red Dot Award for Product Design",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVnpfYnZua1VvVC1Tb0pKSTRhWnE5NVQyZ1ZQNy1kYUY3QUoxdjhKSnFuRUhaQTU3WkR3QmRpckN1c2lBNE1IWk1lbEpxc083M0FjVjYtXzFhX0sxODdweFE0d3ZjX2lrLUt3ZG9mNDB3SEptd01oSlhpRkQzcEtkMnp0LXR5Vkx2ODhFRkFERFo2V3V2c1pGMURrYnBWVC13?oc=5",
+      "source": "archiweb.cz",
+      "published": "2026-11-23T08:30:00+00:00",
+      "summary": "پنل‌های بزرگ‌مقیاس MODEE موفق به دریافت جایزه در رقابت Red Dot Award for Product Design شدند. این جایزه به دلیل کیفیت بالا و طراحی کاربردی به این محصول اختصاص یافت.",
+      "keywords": [
+        "طراحی پنل",
+        "طراحی سطوح",
+        "طراحی صنعتی"
+      ],
+      "category": "طراحی محصول",
+      "importance": "بالا"
+    },
+    {
+      "title": "کسب پنج جایزه توسط Coway در 2026 PIN UP Design Awards",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE43TDZNWTNFZ0pGSnNISHlnejN5eGZScng4OWJFcUZ4SUdKLXZ3UklNOWhkaXIxSnJBY19fbE1sTUFneThIZEtqQ3dHaDMzVFl0Mjh0VEdiYmZLMFg5azVCTlhadmNkbDQ?oc=5",
+      "source": "THE ELEC, Korea Electronics Industry Media",
+      "published": "2026-11-23T08:08:52+00:00",
+      "summary": "شرکت Coway موفق به کسب پنج افتخار در رویداد 2026 PIN UP Design Awards شد. این جوایز برای طراحی نوآورانه محصولات مختلف به این برند اهدا شده است.",
+      "keywords": [
+        "جوایز طراحی",
+        "طراحی محصول",
+        "نوآوری"
+      ],
+      "category": "جوایز طراحی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "موفقیت دوگانه Otto Bench از Mara در Archiproducts Design Awards",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdmlSWDhnalRYTzdIU1Z4RWthTjdCSU4yalJaWW5Zdm00eTJSdGNWWjhLSDJMbzZab2JTUGI3MFNjc1Y0LTQxYkJHRHo5dS11LVdtNTV2MTZaZlA1b285Xy11SUtQSUVUNE9hYVhkN0hzUFdQU2ZLNkotMnREblVhX0dzVm0td3dkM2JvWlRZVVc3NXdpVk1kbkNiTUM0Zm9Ycm5xWmhLanRXWUZTSGlGS0NES0NMQ2E5?oc=5",
+      "source": "InteriorDaily",
+      "published": "2026-11-23T10:05:05+00:00",
+      "summary": "برند Mara کسب دو جایزه توسط محصول Otto Bench را در Archiproducts Design Awards جشن گرفت. این نیمکت به دلیل ساختار خلاقانه و طراحی مدرن مورد توجه قرار گرفت.",
+      "keywords": [
+        "نیمکت",
+        "طراحی مبلمان",
+        "مبلمان مدرن"
+      ],
+      "category": "مبلمان",
+      "importance": "متوسط"
+    },
+    {
+      "title": "معرفی قفل‌های هوشمند EZVIZ برای امنیت خانگی",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaVdyRExIOTMyRjZTUWIzNzdkbkhDeDRjRFFYMi1zWUFZWUt5bWozQWRnNEtDQko1ejNTbU1YcHBNZy1GdGlQNGpESnZabVhGYlhpeXZKRV9DOXBPWDgtaWQ3eHM4Q1NxS0xfd3E2Uk5JdnNTQ25sR1paaEJuQVNoWnh6QjF6WXFFRVpIWS1sSFkyb2wxTk5qdzU4ak9pUQ?oc=5",
+      "source": "Yahoo Finance",
+      "published": "2026-11-23T06:24:00+00:00",
+      "summary": "شرکت EZVIZ قفل‌های هوشمند جدیدی را معرفی کرد که ورود بدون کلید را با امنیت خانگی ترکیب می‌کنند. این محصولات به خانه هوشمند متصل می‌شوند و ایمنی بالایی ارائه می‌دهند.",
+      "keywords": [
+        "قفل هوشمند",
+        "خانه هوشمند",
+        "امنیت"
+      ],
+      "category": "لوازم الکترونیکی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "تایید رسمی Caidentia از Emro در گزارش SolutionMap",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9LS1k1QXplNnhHRXdJMEY2a0VyWjdZTTNaRHdGRlFPcHRnSWQ5YTNYelNpLUdPRnZSbFo5LUJwNGh2RjNlQi1qbmVyVk9FQWxVem0zRHQ4YlVIekN4Q3h5ZUxqa2ZhbFdGQWJiZzA3X3RrWjVhR2c?oc=5",
+      "source": "BigGo Finance",
+      "published": "2026-11-23T02:25:00+00:00",
+      "summary": "پلتفرم مدیریت تامین Caidentia محصول شرکت Emro رتبه تاییدشده رسمی را در SolutionMap موسسه The Hackett Group کسب کرد. این پلتفرم از هوش مصنوعی برای بهینه‌سازی فرآیندها استفاده می‌کند.",
+      "keywords": [
+        "هوش مصنوعی",
+        "زنجیره تامین",
+        "مدیریت تامین"
+      ],
+      "category": "کسب‌وکار",
+      "importance": "پایین"
+    },
+    {
+      "title": "تقدیر از نوآوری و پایداری در Plastics Industry Awards 2026",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQjIzYWRkYkc3dGhWUW92cnFvRGJqa1NPRlROSEtCOXNPSzdjeWZjSUkyQVJTQTZwckNKa1FyU3lpcUFIZ29mRExWR0tGMjVxQk9QZ3BaQlhpeUVMS18wcUQ3c3BOTDYwUm5zUy1OZ0c0U21NNkIyLTU5SURyZGQyT3dQUklsclNNRExVNUxlV2FGdzRBejZseEU1cUpRUnNPY25abzBGcTZzVmxPaG5oczdBdkZPZGR4U1BGb0dTdG03RDA?oc=5",
+      "source": "Packaging Scotland",
+      "published": "2026-11-23T10:38:54+00:00",
+      "summary": "رویداد Plastics Industry Awards 2026 دستاوردهای برتر در زمینه پایداری و نوآوری صنعت پلاستیک را معرفی کرد. این جوایز بر کاهش اثرات زیست‌محیطی و طراحی پایدار تمرکز دارند.",
+      "keywords": [
+        "پایداری",
+        "صنعت پلاستیک",
+        "مواد پایدار"
+      ],
+      "category": "پایداری و محیط زیست",
+      "importance": "متوسط"
+    },
+    {
+      "title": "اعتبار جهانی پلتفرم Caidentia محصول EMRO در گزارش نرم‌افزارهای خرید",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE42Yk9wdGlBR3BfWXFTYzNKa3Y2dzYtV0VFMHdQdEFnWVoxWUJyNXBQQlZqQmk1cmdNZFZtY245aTlNMnJKMmdJLWkxV2R4RHlwRHR2UzRQZHRrY1o0Ni1SWVJSRC0zWmhTYjJkNmxLempyUTNFWmhWcXh30gGOAUFVX3lxTE5ielVSRzhqOFJpSVZOVzByZ216eDBKRUpIbHlqN2d3LTNqTXRqcnpueTBndHViR3pQOUMwLU1ONElLWm5heWRIWEF6RDJtZ2tkbmhobVVLOU12UjluX0JCeVZULUV4eDNNaHZZcl9taGVJNzVzMDBhYzliRlNJajZzM2dzQjFNV3RpdVVpb2c?oc=5",
+      "source": "Chosunbiz",
+      "published": "2026-11-23T01:53:00+00:00",
+      "summary": "نرم‌افزار Caidentia متعلق به شرکت EMRO موفق به دریافت تاییدیه در گزارش جهانی نرم‌افزارهای خرید شد. این ارزیابی جایگاه بین‌المللی این محصول را تقویت می‌کند.",
+      "keywords": [
+        "نرم‌افزار",
+        "مدیریت خرید",
+        "زنجیره تامین"
+      ],
+      "category": "کسب‌وکار",
+      "importance": "پایین"
+    },
+    {
+      "title": "انتصاب Bharath Ram به عنوان COO بخش دیجیتال در JioStar",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMmVvb2ZrQTRGQUlHYWtTMk9waU5ZMVBSdXZ3VE1aUlE0V2pGZEdLZzlrcm45NzJDS2c4SllFLURMUGVxT2hXSmRwZy04MU5lUFZ3aGpwRmMtcDg3TlJKS3dTUTYtXzFJQ3dXYWpmemlXRFM3SmtIdko0WUJLajY2bndwM0tDbUhocHBxTE5xX2hnQnRfR1MtVnhvRXNLVTE1d3dqd0RNRDVnbXU0LUF5MDNYWmk0aWd0Yl9vcU5obTR5emFlTEtMadIByAFBVV95cUxQMmVvb2ZrQTRGQUlHYWtTMk9waU5ZMVBSdXZ3VE1aUlE0V2pGZEdLZzlrcm45NzJDS2c4SllFLURMUGVxT2hXSmRwZy04MU5lUFZ3aGpwRmMtcDg3TlJKS3dTUTYtXzFJQ3dXYWpmemlXRFM3SmtIdko0WUJLajY2bndwM0tDbUhocHBxTE5xX2hnQnRfR1MtVnhvRXNLVTE1d3dqd0RNRDVnbXU0LUF5MDNYWmk0aWd0Yl9vcU5obTR5emFlTEtMaQ?oc=5",
+      "source": "ET BrandEquity",
+      "published": "2026-11-23T07:48:25+00:00",
+      "summary": "شرکت JioStar ارتقای شغلی Bharath Ram را به سمت ارشد مدیریت عملیات بخش دیجیتال اعلام کرد. این تغییر در راستای توسعه استراتژی‌های دیجیتال شرکت صورت گرفته است.",
+      "keywords": [
+        "ارتقای مدیریتی",
+        "مدیریت دیجیتال",
+        "کسب‌وکار"
+      ],
+      "category": "کسب‌وکار",
+      "importance": "پایین"
+    },
+    {
+      "title": "راهیابی طرح Hanyang University به جمع برترین‌های Dyson Award",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5OcGMwOUlJY1lPdGdjSU9WaWFMSVIyRkVXZTBLWUtWWUdlWFJTS2tkYlk0ZDljLWFRMnJ0ak1uQmphVERhNHVPZGdiZ1FzS1pxUlZmWVRhdk51NUJLT1lhV1k5blE?oc=5",
+      "source": "아시아경제",
+      "published": "2026-11-23T05:42:22+00:00",
+      "summary": "ایده مطرح‌شده از سوی Hanyang University برای حل چالش‌های مراکز درمانی در میان ۲۰ طرح برتر Dyson Award قرار گرفت. این طرح بر بهبود خدمات و ابزارهای پزشکی تمرکز دارد.",
+      "keywords": [
+        "طراحی پزشکی",
+        "تجهیزات پزشکی",
+        "نوآوری"
+      ],
+      "category": "طراحی پزشکی",
+      "importance": "بالا"
+    },
+    {
+      "title": "برنامه neoseek برای توسعه بازار بین‌المللی شارژرهای قابل حمل",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOclhTTXphYncwY2ljWEJUT2tWYjJRYUpIWGthVGxIVE92RW5JbXRYNDNienFNTEc5aVBGcFZQd1FuVGN3VUxwYkVwZ01hRTNmVE5wNkJoNWZDRHN2UDM2VlI0MzBhOE9tV29hdklQUFZHQXRldF9mV1A2RjY1NHowNjRYNi16RmswaGtjSThJOTU0RGZTblNFMS01Nm1WdW0yOTZMRXVQcnl3ckRmTWhGWVQwWWNQTHBsNzZSekV1X0psYzBTSkNrc18tTTZxazBs0gHQAUFVX3lxTE5yWFNNemFidzBjaWNYQlRPa1ZiMlFhSkhYa2FUbEhUT3ZFbkltdFg0M2J6cU1MRzlpUEZwVlB3UW5UY3dVTHBiRXBnTWFFM2ZUTnA2Qmg1ZkNEc3ZQMzZWUjQzMGE4T21Xb2F2SVBQVkdBdGV0X2ZXUDZGNjU0ejA2NFg2LXpGazBoa2NJOEk5NTREZlNuU0UxLTU2bVZ1bTI5NkxFdVByeXdyRGZNaEZZVDBZY1BMcGw3NlJ6RXVfSmxjMFNKQ2tzXy1NNnFrMGw?oc=5",
+      "source": "US Times Now",
+      "published": "2026-11-23T08:46:52+00:00",
+      "summary": "شرکت neoseek با تکیه بر یک دهه تجربه مهندسی، حضور جهانی خود را در بازار شارژرهای قابل حمل گسترش می‌دهد. این برند بر تولید تجهیزات شارژ همراه تمرکز دارد.",
+      "keywords": [
+        "شارژر همراه",
+        "لوازم جانبی",
+        "توسعه بازار"
+      ],
+      "category": "لوازم الکترونیکی",
+      "importance": "پایین"
+    },
+    {
+      "title": "افتتاح پاویون Gerhard Richter در Doha با الهام از هندسه اسلامی",
+      "url": "https://www.designboom.com/architecture/gerhard-richter-pavilion-doha-patterns-islamic-geometry-selldorf-architects/",
+      "source": "Designboom",
+      "published": "2026-11-23T11:20:40+00:00",
+      "summary": "این پاویون با شش دیوار طرح‌دار، فضاهای داخلی آینه‌ای و یک برج مجسمه‌گون افتتاح شد. این پروژه تحقیقات چنددهه‌ای این هنرمند آلمانی را به یک تجربه فضایی تبدیل می‌کند. طرح‌های آن با سنت‌های هندسی هنر اسلامی ارتباط برقرار می‌کنند.",
+      "keywords": [
+        "پاویون",
+        "هندسه اسلامی",
+        "طراحی فضایی"
+      ],
+      "category": "همایش‌ها و رویدادها",
+      "importance": "متوسط"
+    },
+    {
+      "title": "بررسی اتوپیاهای پساهومانیستی و همکاری با طبیعت در طراحی",
+      "url": "https://www.designboom.com/design/what-we-learned-posthuman-utopias/",
+      "source": "Designboom",
+      "published": "2026-11-23T11:20:40+00:00",
+      "summary": "این مقاله به بررسی سازه‌های شکل‌گرفته توسط باکتری‌ها و باغ‌های طراحی‌شده برای زنبورها می‌پردازد. این نگاه، طبیعت را به عنوان همکار در طراحی در نظر می‌گیرد نه فقط یک منبع. هدف آن بازتعریف رابطه انسان و موجودات دیگر است.",
+      "keywords": [
+        "پایداری",
+        "طراحی زیستی",
+        "طبیعت"
+      ],
+      "category": "پایداری و محیط زیست",
+      "importance": "پایین"
+    },
+    {
+      "title": "کاوش Anđela Zora Brnas در نقش طراحی برای مراقبت میان‌گونهای",
+      "url": "https://www.designboom.com/design/andela-zora-brnas-design-interspecies-care-guest-essay/",
+      "source": "Designboom",
+      "published": "2026-11-23T10:26:50+00:00",
+      "summary": "این طراح از طریق بافت بید، سازه‌های زنده و آزمایش‌های باغی به بررسی مراقبت میان‌گونهای می‌پردازد. این پروژه نشان می‌دهد چگونه انسان‌ها می‌توانند مشارکت‌کنندگانی آگاه‌تر در اکوسیستم‌ها باشند.",
+      "keywords": [
+        "طراحی زیستی",
+        "سازه‌های زنده",
+        "اکوسیستم"
+      ],
+      "category": "پایداری و محیط زیست",
+      "importance": "پایین"
+    },
+    {
+      "title": "برگزاری رویداد DeTours با ۱۴ اینستالیشن آزمایشی در PMQ",
+      "url": "https://www.designboom.com/design/detour-2026-asia/",
+      "source": "Designboom",
+      "published": "2026-11-23T08:15:36+00:00",
+      "summary": "رویداد DeTours با شعار «بهتر، نه کامل» در PMQ برگزار می‌شود. این رویداد شامل ۱۴ اینستالیشن آزمایشی، یک فروشگاه موقت و اولین حضور Matty Benedetto در Asia است.",
+      "keywords": [
+        "اینستالیشن",
+        "رویداد طراحی",
+        "نمایشگاه"
+      ],
+      "category": "همایش‌ها و رویدادها",
+      "importance": "متوسط"
+    },
+    {
+      "title": "معرفی تکنولوژی DeepSoul توسط Florim Stone برای اسلب‌های پرسلان",
+      "url": "https://www.designboom.com/design/florim-stone-full-body-technology-material-finishes/",
+      "source": "Designboom",
+      "published": "2026-11-23T08:00:43+00:00",
+      "summary": "برند Florim Stone با معرفی تکنولوژی DeepSoul رنگ و بافت را در سراسر اسلب‌های پرسلانی ادغام می‌کند. این نوآوری لبه‌های یکدست و بافت‌های لمسی سنگ و مرمر را ارائه می‌دهد. امکانات جدیدی برای پایان‌کاری سطوح فراهم شده است.",
+      "keywords": [
+        "پرسلان",
+        "بافت متریال",
+        "تکنولوژی ساخت"
+      ],
+      "category": "مواد و متریال",
+      "importance": "متوسط"
+    },
+    {
+      "title": "نمای فلزی سبز و دیوارهای گیاهی برای آشپزخانه شهری در Austria",
+      "url": "https://www.designboom.com/architecture/green-metal-facade-plant-walls-municipal-kitchen-austria-central-kitchen-graz-superfuture-group/",
+      "source": "Designboom",
+      "published": "2026-11-22T21:15:58+00:00",
+      "summary": "این مرکز روزانه ۱۵,۰۰۰ وعده غذا برای مراکز اجتماعی آماده می‌کند. پوشش فلزی سبز و دیوارهای گیاهی، فضایی تخصصی را به زیرساخت شهری با هویت اجتماعی تبدیل کرده است.",
+      "keywords": [
+        "نمای سبز",
+        "دیوار گیاهی",
+        "زیرساخت شهری"
+      ],
+      "category": "پایداری و محیط زیست",
+      "importance": "پایین"
+    },
+    {
+      "title": "گفتگوی Iris van Herpen درباره همکاری با طبیعت در Design Miami",
+      "url": "https://www.designboom.com/design/iris-van-herpen-learning-collaborate-nature-interview/",
+      "source": "Designboom",
+      "published": "2026-11-22T15:15:26+00:00",
+      "summary": "این طراح هلندی به بررسی هوش پنهان سیستم‌های طبیعی و متریال‌های زنده می‌پردازد. او درباره آینده طراحی پیش از رونمایی از پروژه خود با Maison Perrier-Jouët در Design Miami گفتگو کرده است.",
+      "keywords": [
+        "متریال زنده",
+        "طراحی زیستی",
+        "مجسمه‌سازی"
+      ],
+      "category": "همایش‌ها و رویدادها",
+      "importance": "متوسط"
+    },
+    {
+      "title": "انتشار آخرین اخبار در اتاق اخبار Red Dot",
+      "url": "https://www.mynewsdesk.com/red-dot-design-award",
+      "source": "Red Dot",
+      "published": null,
+      "summary": "این بخش شامل اخبار، اطلاعیه‌ها و بیانیه‌های مطبوعاتی رسمی مربوط به Red Dot است.",
+      "keywords": [
+        "Red Dot",
+        "اخبار طراحی",
+        "اطلاعیه"
+      ],
+      "category": "جوایز طراحی",
+      "importance": "پایین"
+    },
+    {
+      "title": "اطلاعات عمومی مطبوعاتی درباره جایزه Red Dot Design Award",
+      "url": "https://www.red-dot.org/fileadmin/bilder/Presse_Archiv/2026_PI_About_Red_Dot_Design_Award.pdf",
+      "source": "Red Dot",
+      "published": null,
+      "summary": "این سند شامل اطلاعات عمومی، جزییات برگزاری و راهنمای مطبوعاتی جایزه Red Dot Design Award است.",
+      "keywords": [
+        "Red Dot Design Award",
+        "اطلاعات مطبوعاتی",
+        "جایزه طراحی"
+      ],
+      "category": "جوایز طراحی",
+      "importance": "پایین"
+    },
+    {
+      "title": "تبریک Mouser به برندگان مسابقه Create the Future Design Contest",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rcHFhbE9uREtmSkl4OTdBRE4yS3lMNExrSWFPb0RpSVFyRWJpbDZGdkpkSkV1RzdSSkNuTHVDblczNGdXRzIwcXlpemxUZUxTRllBc2lB?oc=5",
+      "source": "AZoM",
+      "published": "2026-11-23T04:42:00+00:00",
+      "summary": "شرکت Mouser برندگان دوره جدید مسابقه Create the Future Design Contest را اعلام و به آن‌ها تبریک گفت. این مسابقه به تقدیر از طرح‌ها و نوآوری‌های برتر مهندسی و طراحی می‌پردازد.",
+      "keywords": [
+        "Mouser",
+        "مسابقه طراحی",
+        "برندگان"
+      ],
+      "category": "مسابقات طراحی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "NASA مسابقه ۱ میلیون دلاری طراحی پایگاه ماه برگزار می‌کند",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3g3ZDFJU1ZYRkhaTzN4RmZpQTVFbk9TdHJoS1B1NG0yTkVNRTM5UWxmUmM2R1BkS2NTaENWeFAyb1lXY3B1VTZYbkJlTnBiUThxOS1vYzVnS0k1MnFOcGRSOVJsVnFIVWdRaFpBdjZJNXlYTjFRZl9SdDY2ejFoWlpzOU0tck1iX0s5azZmWWprM2UwOUE?oc=5",
+      "source": "SatellitePro ME",
+      "published": "2026-11-23T04:29:03+00:00",
+      "summary": "سازمان NASA یک چالش دانشجویی ۱ میلیون دلاری برای طراحی پایگاه آینده روی ماه آغاز کرده است. این مسابقه دانشجویان را به ارائه طرح‌های نوآورانه برای زیستگاه‌های فضایی تشویق می‌کند. هدف این پروژه توسعه راه‌حل‌های پایدار برای حضور انسان در ماه است.",
+      "keywords": [
+        "طراحی فضایی",
+        "پایگاه ماه",
+        "مسابقه دانشجویی",
+        "زیستگاه فضایی"
+      ],
+      "category": "مسابقات طراحی",
+      "importance": "بالا"
+    },
+    {
+      "title": "بازسازی Seoul Metropolitan Library و تبدیل آن به مجتمع فرهنگی",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ2VNMEpyMGRUS3pQR3NvWXFMWlNtZ0JTQXI4TjliTjVZeXlUalhsbEFWWTR4SlBmMmwwOWp2MVR4a2JqLXhOam1sYmtjN0tGaUQxc1lHYVNmSk50QTBIaW1ob1lucTFUQ01fVzdlQ2p4NWZJemVCSTZ1am1sN0dCVXBKTm5oZUY0eFhfWmNYWHRXeVlCZFpoeNIBmAFBVV95cUxPZ2VNMEpyMGRUS3pQR3NvWXFMWlNtZ0JTQXI4TjliTjVZeXlUalhsbEFWWTR4SlBmMmwwOWp2MVR4a2JqLXhOam1sYmtjN0tGaUQxc1lHYVNmSk50QTBIaW1ob1lucTFUQ01fVzdlQ2p4NWZJemVCSTZ1am1sN0dCVXBKTm5oZUY0eFhfWmNYWHRXeVlCZFpoeA?oc=5",
+      "source": "Chosunbiz",
+      "published": "2026-11-23T04:45:00+00:00",
+      "summary": "شهر Seoul قصد دارد کتابخانه مرکزی خود را به یک مجتمع فرهنگی چندمنظوره تبدیل کند. این پروژه بازسازی فضاهای عمومی جدیدی برای شهروندان ایجاد خواهد کرد. هدف اصلی ارتقای تجربه شهری و ایجاد فضایی تعاملی است.",
+      "keywords": [
+        "بازسازی شهری",
+        "مجتمع فرهنگی",
         "فضای عمومی",
-        "پروژه شهری"
+        "طراحی شهری"
+      ],
+      "category": "سایر",
+      "importance": "متوسط"
+    },
+    {
+      "title": "طرح بازسازی Seoul Metropolitan Library به فضای چندمنظوره فرهنگی",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbGZvdDRxNGJmNnJKakxleVcyb2xKbC1yTU1aLXFfOFhfY1VnZjZvRjdBS2xQcXJHa1E4ZlRVQmtVakZBU1NlUTZVQTNRbjd1N3V4eEY2MklkREJlanNqWGY4eng3alpINkpScGEtdXVyWmxUd3FNRFl0MG9BbHpFR0RFaXpBbXUxcFlTeG1yUVZnLUlhOHVWOGNrVVFpWUF5N3VwUEpTVkMzb0wzTGI0bmU3aGJ6WEkzS2tqQU9KTWs1OWJIcUFFU0lmeGjSAdIBQVVfeXFMTUMtMHRDRzAza01oem5IVDk0WWZfZGE4NUFmZV9qVU1UMklGZVU3T001MENfdzRIanVvbWhrRG5DTVFKM3BmUFVSSFZBMGtiWDNfYmhVVFVXbDhCX2czVTFRVmV3YWdJTl9peUFXQXplUlpCNlVteTlPbU5tSU16SEVZWGZ1bGRsRzFLOTZCOVp5YVpUTndsN05rQlZFTV92SnBQSWxFZXpMeWpXR0tBT2hqMUJnWW5ETUQzNi01VTdON0FhbnkyMEtaaGZDV2ppaFBn?oc=5",
+      "source": "The Korea Times",
+      "published": "2026-11-23T03:18:03+00:00",
+      "summary": "پروژه بازسازی Seoul Metropolitan Library با هدف ایجاد یک فضای فرهنگی چندمنظوره کلید خورد. این طرح فضاهای مطالعه و رویدادهای هنری را با یکدیگر ترکیب می‌کند. بازسازی این مرکز به بهبود زیرساخت‌های فرهنگی شهر کمک خواهد کرد.",
+      "keywords": [
+        "بازسازی",
+        "فضای چندمنظوره",
+        "طراحی داخلی",
+        "معماری فرهنگی"
+      ],
+      "category": "سایر",
+      "importance": "متوسط"
+    },
+    {
+      "title": "درخشش Coway در رویداد 2026 Pin-up Design Awards",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9HenVMZlpjS3RKVm9idlNtZnkzUjV0akhYdnZRLTlTSkxROUo0ai1iNUxYZVBMZDR5eVBOY0hzQ3lnVFBsYXFIV0pEX0l6TnNvNy1zclY1aw?oc=5",
+      "source": "헤럴드경제",
+      "published": "2026-11-23T00:52:56+00:00",
+      "summary": "شرکت Coway موفق به کسب ۵ جایزه در رویداد 2026 Pin-up Design Awards شد. این برند همچنین جایزه ویژه مدیریت طراحی را دریافت کرد. این موفقیت جایگاه Coway را در نوآوری و طراحی محصول تقویت می‌کند.",
+      "keywords": [
+        "جوایز طراحی",
+        "مدیریت طراحی",
+        "طراحی محصول",
+        "نوآوری"
+      ],
+      "category": "جوایز طراحی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "نمایشگاه زیباترین کتاب‌های Czechia در Prague برگزار شد",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYjJxZERyUTdPLXNkaHBPVTFVenpYTEVVTHlSYkFoR3AxS20yUVE1Wk1KUWxMM2loTUs1bllqUzh2OTRxc0NKRnBHSkxlS0Q5MThSR3cyYlYwcDVyQ2c1UnRqZTlGZG1BSGVfbmNrUDgtQ2oxNW9HaTdDUXNXcTFFSjl6eWJWRWhjcHdLeHhONFYtRkxJOUhtQkRiM3o0MlhRcWJ2OU14RW9RREE?oc=5",
+      "source": "Radio Prague International",
+      "published": "2026-11-23T10:41:42+00:00",
+      "summary": "نمایشگاهی از زیباترین کتاب‌های کشور Czechia در شهر Prague افتتاح شد. این رویداد طیف وسیعی از آثار، از کتاب‌های کودک تا نسخه‌های هنری را به نمایش می‌گذارد. تمرکز اصلی نمایشگاه بر طراحی گرافیک و صحافی خلاقانه است.",
+      "keywords": [
+        "نمایشگاه کتاب",
+        "طراحی گرافیک",
+        "کتاب‌های هنری",
+        "صحافی"
       ],
       "category": "همایش‌ها و رویدادها",
       "importance": "پایین"
     },
     {
-      "title": "انتصاب Debellis به عنوان مدیر طراحی Ford Racing",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPV2IwNXptd2ppZjJIWFIwVXZuU3ZpaHJUTVcwTDM3QUVrVklGSmFSNDFjLWQtd2pPVDNpcjdIdV9FM2owWU5hYjNiT2NDMDZRNzJKbGxCSzRHeEdoTndnaTRvandGRDdmM1EyMmtZNEpDYmdsbUFKRjdyVE5QRHVkVzZvbG02RC11UlRv?oc=5",
-      "source": "Wisevoter",
-      "published": "2026-11-22T07:47:08+00:00",
-      "summary": "فردی به نام Debellis به عنوان مدیر جدید بخش طراحی در Ford Racing منصوب شد. او هدایت تیم‌های طراحی خودروهای مسابقه‌ای را بر عهده خواهد داشت. این تغییر مدیریتی نقش مهمی در استراتژی‌های آینده Ford Racing دارد.",
+      "title": "بازسازی ساختمان صدساله Former Seoul City Hall به فضای عمومی",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5oRnFGc0JGeXFESGk2Zkt1Z0tWRmc3Z2FzSmdtanUxbEl1ZURpZ3RpcnlJQ0ctbHEySktKeGpGcVQxdy1ucXdabXV3Q005QzZGNnFWekktRmItSWJ0NVZxcEF1VFEzOENlM3VKUW9jVnJqQ2xDRDZRb1VHZw?oc=5",
+      "source": "아시아경제",
+      "published": "2026-11-23T02:15:00+00:00",
+      "summary": "ساختمان تاریخی Former Seoul City Hall همزمان با صدسالگی خود بازسازی می‌شود. این بنا قرار است به یک فضای عمومی باز و تعاملی برای شهروندان تبدیل شود. پروژه مذکور بر حفظ هویت تاریخی در کنار طراحی مدرن تاکید دارد.",
       "keywords": [
-        "مدیر طراحی",
-        "طراحی خودرو",
-        "Ford Racing",
-        "Debellis"
+        "بازسازی بنای تاریخی",
+        "فضای عمومی",
+        "طراحی شهری",
+        "بازآفرینی شهری"
       ],
-      "category": "خودرو",
+      "category": "سایر",
       "importance": "متوسط"
     },
     {
-      "title": "درگذشت Paolo Bulgari جواهرساز سرشناس ایتالیایی",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORUpNcFhkZ0JaOGpoUnV1aVotN254amFGUVozLVJnTEVGM3A5NXlWLTBfUEQyZHBuQnNZMjlWNVh4dnRHN1Z1eGFEc3BlZVNJZEQ5SWlqQlFnSk5RcWRBcjNDVktlRnVBYTZtZE83V0I3NGZXYTBRMmdZVUpUczE5bUdR0gGCAUFVX3lxTE5FSk1wWGRnQlo4amhSdXVpWi03bnhqYUZRWjMtUmdMRUYzcDk1eVYtMF9QRDJkcG5Cc1kyOVY1WHh2dEc3VnV4YURzcGVlU0lkRDlJaWpCUWdKTlFxZEFyM0NWS2VGdUFhNm1kTzdXQjc0ZldhMFEyZ1lVSlRzMTltR1E?oc=5",
-      "source": "vijesti.me",
-      "published": "2026-11-21T20:16:54+00:00",
-      "summary": "شخصیت برجسته صنعت جواهرسازی Paolo Bulgari درگذشت. او نقش مهمی در توسعه و تثبیت جایگاه این برند لوکس ایفا کرد. جامعه طراحی و جواهرسازی از فقدان او ابراز تاسف کرده است.",
+      "title": "ساخت هاب تاکسی هوایی در Jeju با هزینه ۲۳.۶ میلیارد وون",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DQUp6SWI3Sm9ZMHNsdENpSUpEX1gwc1dCRXBjZEZFMXdHMWN0bG13Qk40aG04bWVXSE0wTkdkaFhJNFNxTTBmSGFhZjNKNGpIZTUxYUgzMzY?oc=5",
+      "source": "파이낸셜뉴스",
+      "published": "2026-11-22T23:37:52+00:00",
+      "summary": "مقامات Jeju قصد دارند یک هاب Sky Taxi در Seongsanpo Port احداث کنند. هزینه ساخت این مرکز حمل‌ونقل پیشرفته ۲۳.۶ میلیارد وون برآورد شده است. این پروژه زیرساختی گامی مهم در جهت توسعه تاکسی‌های هوایی شهری محسوب می‌شود.",
       "keywords": [
-        "طراحی جواهرات",
-        "جواهرسازی",
-        "Bulgari",
-        "Paolo Bulgari"
+        "تاکسی هوایی",
+        "حمل و نقل شهری",
+        "زیرساخت شهری",
+        "طراحی سیستم"
       ],
-      "category": "طراحی جواهرات",
+      "category": "تکنولوژی",
       "importance": "متوسط"
     },
     {
-      "title": "پایان فصل معمولی مسابقات Skyline Sports",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTFdMdXhNLXRSSGVHcmd2OXA1eV9CTzZPbE9OeWFFTWxnZ1NObUxaTTdfMUR5UXQtUW13UDJIWWl2S0Z2bnJqXzUyY0VKMUNSaTNfNkk0aUY0SFRtQm9KblJoWko3aW1hWDVoYmhHRWFCTHBVX29iTXd0OTNEQVU2ZU52ajl1OXNWX0NCZzhZcGJQemVDMHpDSkR6dVREMnA2R0VsQTN3amQ1V0Z4WElNLWZB?oc=5",
+      "title": "برگزاری رویداد HUAWEI Watch Faces Summit Milano 2026",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeGFoNWNGSTBJU1g1c0RuYVduMDh0UVgwMFpSX1pSOVFORmlDVEh5NU83SFpHemdkUTJ4LXRqM29WMDVFY2U1eGpVUFRKajVKVHo0OWF4LW1hQjZsZkFOeVdzNHJpTHltUm1BcWxpalBLNDRqazJkNU9UbTR6N2dXRlFqOHMzcFMtMHVIcXdQTzRXbjR1Wkl5ZUx2MFo4aHhnYjJjMWFUTldZV3cwX0RhT29hWEFISEVzdmQ2dmxqUVFwNGVfRGUxT3AxRk9oNkNrTVZidDVZaw?oc=5",
+      "source": "PR Newswire UK",
+      "published": "2026-11-23T08:00:00+00:00",
+      "summary": "شرکت Huawei طراحان برجسته اروپا را در رویداد HUAWEI Watch Faces Summit Milano 2026 گرد هم آورد. این همایش بر طراحی رابط کاربری و واچ‌فیس‌های ساعت‌های هوشمند تمرکز داشت. هدف این رویداد پیوند میان هنر، طراحی و فناوری‌های پوشیدنی است.",
+      "keywords": [
+        "ساعت هوشمند",
+        "طراحی واچ فیس",
+        "فناوری پوشیدنی",
+        "طراحی رابط کاربری"
+      ],
+      "category": "لوازم الکترونیکی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "اجرای نمایش Dog Ear اثر Marty Gleeson در Dolan’s Warehouse",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSkhHMVA4Y2RpalRjYjhieEFDeVJXcVdFdkZiV3JVMF9TVmY5UUd5Z21aYjNPXzZaVk5xd2JNLUdlX1JuRDJha1VqZnk2NkVKeGJnVVNid0dJM0toejU0SE50VTZ5NTZxcHVLS3BMU1ZycG5NdE5feUsxWnp6MWNta0tqR3NOTUZhNHl2SjJUUXJwc004bk9HSlh0ZlFDUjV4SDhxLVNBaDFlcS1kRHJJNURUbk92UFFj?oc=5",
+      "source": "Limerick Post",
+      "published": "2026-11-23T09:05:51+00:00",
+      "summary": "کمدین اهل Adare نمایش برنده جایزه خود با نام Dog Ear را در Dolan’s Warehouse اجرا می‌کند. Marty Gleeson این اثر موفق را برای مخاطبان به روی صحنه می‌برد. این برنامه یکی از رویدادهای کمدی برجسته منطقه است.",
+      "keywords": [
+        "نمایش کمدی",
+        "رویداد هنری",
+        "تئاتر",
+        "کمدی"
+      ],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "معرفی برنده مسابقه طراحی تمبر Eid Al Etihad 55",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQblRndFJpNjdKOUIzLWRROTdVeEEzWWxxY2RWSDlkdEJPTHRWY2hzRG1hLUNlR3ZCdVdPRW82YnEwN3IwU2VWQ29weTBUOXFMczUwYVIyZVhRVmFDQTYyOERhYkdfX0dLRDF6OGpsMTc1eFNXTzJxRFhnQUdSbkg1LXh4LU14M2VLOXJiaVp1VDVaWk85LV8zY0tzQmRWYlQ2SFFYTVpKcmE?oc=5",
+      "source": "Travels Dubai",
+      "published": "2026-11-23T03:32:19+00:00",
+      "summary": "مسئولان Abu Dhabi برنده مسابقه طراحی تمبر ویژه Eid Al Etihad 55 را اعلام کردند. این تمبر یادبود به مناسبت پنجاه و پنجمین سالگرد ملی طراحی شده است. اثر برگزیده نشان‌دهنده هویت و فرهنگ منطقه در قالبی مدرن است.",
+      "keywords": [
+        "طراحی تمبر",
+        "مسابقه طراحی",
+        "تمبر یادبود",
+        "طراحی گرافیک"
+      ],
+      "category": "مسابقات طراحی",
+      "importance": "پایین"
+    },
+    {
+      "title": "مصاحبه با Luke McConkey درباره همکاری با برند Uniqlo",
+      "url": "https://www.creativeboom.com/insight/luke-mcconkey-on-spreading-a-pandemic-of-joy-and-working-with-uniqlo/",
+      "source": "Creative Boom",
+      "published": "2026-11-23T07:15:00+00:00",
+      "summary": "هنرمند خودآموخته Luke McConkey هدف خود را ایجاد لبخند بر چهره مردم می‌داند. این رویکرد کاری، او را به همکاری با برندهای مطرحی مانند Uniqlo رسانده است. او در این مصاحبه از تجربه و مسیر حرفه‌ای خود می‌گوید.",
+      "keywords": [
+        "تصویرسازی",
+        "همکاری برند",
+        "طراحی گرافیک"
+      ],
+      "category": "طراحی اکسسوری",
+      "importance": "متوسط"
+    },
+    {
+      "title": "کمپین‌های کریسمس باشگاه‌های فوتبال و رقابت با برندهای بزرگ",
+      "url": "https://www.creativeboom.com/insight/why-are-football-clubs-launching-christmas-campaigns-and-do-john-lewis-and-ms-have-anything-to-worry-about/",
+      "source": "Creative Boom",
+      "published": "2026-11-23T07:00:00+00:00",
+      "summary": "باشگاه‌های Chelsea، Liverpool، Arsenal و Manchester City کمپین‌های تبلیغاتی بزرگی برای کریسمس راه‌اندازی کرده‌اند. این رویکرد جدید باشگاه‌ها رقابتی تازه با برندهایی مثل John Lewis و M&S ایجاد کرده است. کارشناسان علل ورود باشگاه‌ها به این حوزه را بررسی می‌کنند.",
+      "keywords": [
+        "کمپین تبلیغاتی",
+        "برندسازی",
+        "طراحی هویت بصری"
+      ],
+      "category": "کسب‌وکار",
+      "importance": "متوسط"
+    },
+    {
+      "title": "استفاده برندهای بزرگ از انیمیشن در تبلیغات تعطیلات",
+      "url": "https://www.creativeboom.com/insight/this-years-holiday-ads-have-one-thing-in-common-and-its-good-news-for-creatives/",
+      "source": "Creative Boom",
+      "published": "2026-11-23T06:30:00+00:00",
+      "summary": "برندهای Prada، Levi's و Dior برای تبلیغات فصلی خود به انیمیشن روی آورده‌اند. Michael Feder از بنیان‌گذاران Hornet این روند را یک فرصت عالی برای آفرینندگان خلاق می‌داند. این رویکرد مشترک تمرکز بر داستان‌سرایی بصری را افزایش داده است.",
+      "keywords": [
+        "انیمیشن",
+        "تبلیغات فصلی",
+        "داستان‌سرایی بصری"
+      ],
+      "category": "کسب‌وکار",
+      "importance": "متوسط"
+    },
+    {
+      "title": "راز همکاری‌های موفق Maria Francesca Melis با برندها",
+      "url": "https://www.creativeboom.com/inspiration/maria-francesca-melis-on-embracing-imperfection-and-the-secret-of-successful-brand-collaborations/",
+      "source": "Creative Boom",
+      "published": "2026-11-23T06:15:00+00:00",
+      "summary": "تصویرساز اهل Sardinia که اکنون در New Zealand ساکن است از تأثیر ریشه‌هایش بر آثارش می‌گوید. Maria Francesca Melis پذیرش نقص‌ها در هنر را عامل موفقیت می‌داند. او تجربه همکاری‌های موفق خود با برندهای مختلف را به اشتراک می‌گذارد.",
+      "keywords": [
+        "تصویرسازی",
+        "همکاری برند",
+        "طراحی خلاقانه"
+      ],
+      "category": "کسب‌وکار",
+      "importance": "متوسط"
+    },
+    {
+      "title": "پایان دوران ورزشی Taco Dowler در فوتبال آمریکایی",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPempNS08xYVVDRnhOcmFxNk1raWxUQTAyOXJkQzVkZ1AzSkVnRkVQSEdhS3BaQjBEeW1xT0dXckxTNm5hb0pyN19tY0RMNXV1Q3c0N3ZDN2ZfRTVRUUhGb2ozalc2bDNMbjItWUtRWGNkeVVld01VSG9KbThRVWVJVEJDLXZKUy10YnVSeXB6akh2Y0otQ21QaVdzLTRwT0NrYXpTUFZYT3JiY2o1NVFCNXZKN2FEQlJkRndVVTJRcW9ZS1JkQWRmUG1abDRiTEhOdldV?oc=5",
       "source": "Skyline Sports",
-      "published": "2026-11-22T06:16:21+00:00",
-      "summary": "فصل معمولی مسابقات به پایان رسید و تیم‌ها برای مرحله نهایی آماده می‌شوند. ارزیابی عملکرد تیم‌ها نشان‌دهنده رقابت فشرده در هفته‌های اخیر است. تصمیمات نهایی در بازی‌های آتی مشخص خواهد شد.",
+      "published": "2026-11-23T14:10:29+00:00",
+      "summary": "بازیکن تیم Montana State یعنی Taco Dowler پایان دوران حرفه‌ای خود در فوتبال را اعلام کرد. سرمربی Brent Vigen و سایر هم‌تیمی‌هایش به این خبر واکنش نشان دادند.",
       "keywords": [
-        "مسابقات ورزشی",
+        "فوتبال آمریکایی",
         "اخبار ورزشی",
-        "Skyline Sports"
+        "تیم Montana State"
       ],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "پیروزی Bobcats و کسب چهارمین عنوان قهرمانی Big Sky",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOd3Z3WkJ4TUUya0pPN3BrM3plVDJjQUlqQmttc2pSS2ZkWDA0NzdhMnVLR0Z2b0RqQWJTUVNiamtNckJXQjRGdEROaVlHR0dqRENPQ3JUa0MxUGVoSHBlZ0RjQm1GR0p3TjhaQVZxUld4cTBPWlhaMUhMVTZBUHNGb3FJMGstUDlqa0NmZnpLeWlNVWlSVDlPdlIyc0Vrd1BVem1JRmh5ZUJ3VF9PQTdWV21CV05zaDBpRmpfRTQxY3dlQjExbENMdW14cGRKRGV2dXFyeVZ0Y1FtSVk?oc=5",
+      "title": "واکنش مربی Montana State به کسب رتبه اول سیدبندی",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVTlBZVNwVDJYME51RHJTYVNGZWhoSFRfWF80dWdwRnhvcl9WUVhiNzc0MnpqbTliNVloSVpvcU5sLXRZWWw1eXJZa0plR25XS3M2bXlQUkpKVnhPcjBWRS1LaHpnc1gySHl6VFdHd2NjeGJKZU5DWkhDV0U0WDVXVDhJQ0p2eWQwam4zM29rR1hqeVF4WDY0bDhJTXBHMTRBSzdRRWVTSG9GRE55dEtUbEJWQ1hhaVpV?oc=5",
       "source": "Skyline Sports",
-      "published": "2026-11-22T08:46:26+00:00",
-      "summary": "تیم Bobcats با شکست حریف خود پیروزی درخشان دیگری در مسابقات Big Sky کسب کرد. این تیم برای چهارمین بار متوالی موفق به تصاحب این عنوان شد. این مسابقه یکی از رقابت‌های مهم فصل بود.",
+      "published": "2026-11-23T14:10:32+00:00",
+      "summary": "تیم فوتبال Montana State موفق به کسب رتبه اول سیدبندی در مسابقات شد. سرمربی Brent Vigen و بازیکنان تیم Justin Lamson و Caden Dowler به این موفقیت واکنش نشان دادند.",
       "keywords": [
-        "مسابقات ورزشی",
-        "Big Sky",
-        "Bobcats"
+        "اخبار ورزشی",
+        "تیم Montana State",
+        "مسابقات FCS"
       ],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "درگذشت Paolo Bulgari رهبر توسعه بین‌المللی Bulgari در ۸۹ سالگی",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObjJBMHJsN1BNWWNZdzFxS0tmRl9XLWF0WVZVcXpVS0hWQW15ZlBkV2dmRVRGMnRrLVFUV0twV2xXRjJnUjQ3UzFDbmNQanZEbm8zak5uVVhTX3dNdS04RUF1elltcXAzd3BuYWEtaXJQWnhJQW53Szl3a2h0M2Z5ajRmMWtuT3ZL0gGcAUFVX3lxTE1vdVExdWIwam1MSjUwWVBFUHV6YndjVGZnTS1kc3dRblhSdFdkdEF6ZHROYm5pVWtET1drdXZ2U2h5d2tFajBmOVBBZkdsMzhOMDg3ZGlYaGQ3OG1MTk1WbHBmUnNCdm5fVWdqRU5KQmhMcHlsSlllWlJ5SHY0eVkxMTZoYXZER1BqN0pMam1Kdk52UmZidW9BZkdBcw?oc=5",
-      "source": "Chosunbiz",
-      "published": "2026-11-22T09:16:00+00:00",
-      "summary": "شخصیت مطرح Paolo Bulgari که نقش کلیدی در گسترش بین‌المللی برند لوکس Bulgari داشت در ۸۹ سالگی درگذشت. او دهه‌ها هدایت خلاقانه و مدیریتی این خانه جواهرسازی را بر عهده داشت. میراث او تاثیری ماندگار بر طراحی جواهرات برجای گذاشت.",
+      "title": "پیروزی Montana State و کسب قهرمانی Big Sky",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNb1gwNTFDRnFVWElFTENjdDkwMTJLSmNhR0RNNVlUX1ZySmJ1RGdBeTFidGNRalVOQ0tfb3Jxam5YMTc4T2Q0M0VxTkpINGY5ZXprSE12QWl3YnRCcjlDNlZkN1o0eVdNbFZtS2duekdCTEVGTmxndXF0MjFYd0xveE53UlJmSGVQRFd0aGVpajRlYkYtZlM4UWJpd1k3OHZyTktNcFVka0RqVXNFWWZBU2pydzUtekhreW1xZ2tNcDU0QUdRZnJwM2h0M1M3UHQwQnhNVko4UEc3RW5vd19PaXlCQXFxcm02TjdvQV9KRUJ6aUcx?oc=5",
+      "source": "Skyline Sports",
+      "published": "2026-11-22T20:27:00+00:00",
+      "summary": "اعضای تیم Montana State از جمله Brent Vigen پس از پیروزی در مسابقه Brawl of the Wild صحبت کردند. این پیروزی قهرمانی کامل آن‌ها در لیگ Big Sky را قطعی کرد.",
       "keywords": [
-        "Paolo Bulgari",
-        "Bulgari",
+        "اخبار ورزشی",
+        "قهرمانی Big Sky",
+        "تیم Montana State"
+      ],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "صعود پنج تیم Big Sky به مرحله پلی‌آف FCS",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTk9GQU4td3JhQkxEMWxuZk5xcDcxMno1MG41Q3hQVXhSVW11RW90WjJiRGh0d0hmOVdpV19tTkI3SU9LUHV3RjdpS2toT0VPc2hJR3hNbVgwZ21GejkteFBERi02S25xWHNBUWFzTmFGOEttVjF0d0ZEaHhldnlrUjhDXzMzX21DUldjZFhqc0VvMFprVEw0LQ?oc=5",
+      "source": "Skyline Sports",
+      "published": "2026-11-23T14:13:22+00:00",
+      "summary": "پنج تیم از کنفرانس Big Sky به مسابقات پلی‌آف FCS راه یافتند. تیم Montana State موفق شد سید شماره یک این رقابت‌ها را از آن خود کند.",
+      "keywords": [
+        "مسابقات FCS",
+        "کنفرانس Big Sky",
+        "اخبار ورزشی"
+      ],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "مصاحبه اعضای تیم Montana بعد از بازی Brawl of the Wild",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPT0NrU2gxNHpoVWxBbVVwX19uMk1ZZFNnUlBwOWsySUhMNVRLU08xa0Zpc1pIeXVMdXBhSDJUamhjUkhzWDJEUDhEYldaNzBEZU91QXlYdFVmcHc4dlEwQWxOMXJrUlFtRElqV0NPSXhZbGdHNzY5b0RaYmpXemwyZnpNcWFtYUo5V2VHSGNvbTV5Q1VQWmZkX3hISGNQR083ZW9Lb3JyRFdhQm9TRklzYVMzc1JtY1Bm?oc=5",
+      "source": "Skyline Sports",
+      "published": "2026-11-22T20:26:00+00:00",
+      "summary": "اعضای تیم Montana از جمله Bobby Kennedy و Peyton Wing پس از رقابت برابر Montana State نظرات خود را بیان کردند. این مسابقه از حساس‌ترین بازی‌های فصل بود.",
+      "keywords": [
+        "اخبار ورزشی",
+        "تیم Montana",
+        "مسابقات Brawl of the Wild"
+      ],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "درگذشت Paolo Bulgari از چهره‌های برجسته صنعت جواهرات",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBjNEdqQW9KOGVpc0V4UTNPbU81aDQwaUVhSkYxZDJrR01jV2pPbmwxbU5aRjFYT01sNlFzWWE2ang4clJwMDV2RmFQc3pFUUZtMU84aUpDOVJlSG11NklwZUV5M3E3b1RDLXFVeA?oc=5",
+      "source": "SuaraGarut.ID",
+      "published": "2026-11-22T22:33:00+00:00",
+      "summary": "شخصی که امپراتوری جهانی جواهرات را گسترش داد یعنی Paolo Bulgari در سن ۸۹ سالگی درگذشت. او نقش کلیدی در تبدیل برند Bulgari به یکی از نام‌های برتر لوکس جهان ایفا کرد. میراث او در صنعت طراحی جواهرات لوکس باقی خواهد ماند.",
+      "keywords": [
         "طراحی جواهرات",
-        "صنعت لوکس"
+        "جواهرات لوکس",
+        "برند Bulgari"
       ],
       "category": "طراحی جواهرات",
       "importance": "بالا"
     },
     {
-      "title": "پیروزی Montana State در رقابت‌های Brawl of the Wild",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQ2hSUHBKMlBhYzliRDgySE8yMzhBcm5ZaF9xbmZmSmN3aTZZLTdGRjk0VDVQVlV0V0lkdlIwU3YyOXg4SXNuT3VfbXprYjZLbXM4QXhSS0NHN2pGankxeUtkVzRSTTVKalVMYXBLZzdPWUFobTRFWDZfWFZKTnJBTmdxVXlMbC01Xy10ZHVSdl9tM19ndzlOaFFrU0owVVdJekM2NFBJUzBHelN0SG1SMmdzYVZnaGFfTlJ4SEU2SVdBeTRrajdzdGJ3b3pVc0gxZ1pUTlA2VUdTWThrY0tHRTBvUWJkdw?oc=5",
-      "source": "Skyline Sports",
-      "published": "2026-11-22T03:48:16+00:00",
-      "summary": "تیم Montana State با درخشش Dahlke و Lencioni به پیروزی ۴۲ بر ۱۶ دست یافت. این مسابقه از سری رقابت‌های Brawl of the Wild برگزار شد. عملکرد بازیکنان کلیدی نقش بسزایی در این نتیجه داشت.",
+      "title": "برندگان جایزه Bulfinch Awards سال ۲۰۲۶ معرفی شدند",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOOVhZLUxaY0s4eEkybWcxbUpETDFURHJiMDhVSjg2czI0dDNPbUd3ZzM4cFdYODFRUVV6Q0JFUTJMTFJjQXFuYmxFQlhBY0E1MF9xUHd3UmVrdkJYalJqbVkwMjhNMHQ1N00zdHhUZERqSi1xY1lzbGFYYlZhN2lSSlFiT040OGJZeG5mQzhob2E2MXVHanZCNkpmOU41ZVhHSU9vbWo4ZzEyQWg1bjUtVWN6QVIweXIxdXhTMlV0NWQ5amVGbGdXRmt4N1psQzMtVUJ4V1ZISGdhRk1oRzFqWlBnX1d4TEpjbllDNzhKQi1lbUttc2c?oc=5",
+      "source": "Northshore Magazine",
+      "published": "2026-11-23T15:04:55+00:00",
+      "summary": "شعبه New England در Institute of Classical Architecture & Art برندگان جوایز Bulfinch Awards ۲۰۲۶ را اعلام کرد. این رویداد دستاوردهای برتر در زمینه معماری کلاسیک و سنتی را ارزیابی می‌کند. برندگان به دلیل حفظ و توسعه سنت‌های طراحی تجلیل شدند.",
       "keywords": [
-        "مسابقات ورزشی",
-        "Montana State",
-        "Brawl of the Wild"
+        "معماری کلاسیک",
+        "جوایز معماری",
+        "طراحی سنتی"
+      ],
+      "category": "جوایز طراحی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "کسب جایزه کسب‌وکار کوچک توسط شرکت Trade Design Build",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxObllTTTFKekRMaU0xaldkLUd1VllIUmZORTdfWHlSY3dNQjVHdmZDaHI2ekg5TUZOYmdkMUZyNFJWVHBaNzFyOWpaN25xSTVlb0JJWHpsaEd4dVI2S3VkNGRRRkZuUGJUQlF2dlJFVjdhdXc0ejhnMW42ZzJPMjcxWWl3X0haeG5zMzl3VzdjN05EV2UxdjdVamhzWUMyNGdJR2RsbE1lRm5mZVFRbDhuU2h6MXZFLTg1aVJ3Zjk2WHBvY3FDM2c5VkJTRTZuZzRkVWFNUkdKSk16allLVVE?oc=5",
+      "source": "Architectural Record",
+      "published": "2026-11-23T05:00:00+00:00",
+      "summary": "شرکت معماری Trade Design Build موفق به کسب جایزه برتر کسب‌وکارهای کوچک از U.S. Chamber of Commerce شد. این جایزه به پاس نوآوری و رشد این مجموعه اهدا شده است. این موفقیت جایگاه شرکت را در صنعت ساخت‌وساز تقویت می‌کند.",
+      "keywords": [
+        "شرکت معماری",
+        "کسب‌وکار کوچک",
+        "جوایز معماری"
+      ],
+      "category": "کسب‌وکار",
+      "importance": "متوسط"
+    },
+    {
+      "title": "برندگان نخستین دوره جوایز Leadership and Longevity Awards معرفی شدند",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1jdkZRUTBSNGNqX2tQMGFvVlB4SlNhUkFscnRGQzN5MVp4c3JWYmViSVBvNVBmcWszamljdUJ2TkZfVUJ1WUVzaGdleUZ6Wk1ZbE5sYkFmRVpUeTQ5UU9kSVlPMjJwTXdvNXhIQl9kVm9WV00wU1E?oc=5",
+      "source": "Yellow Scene Magazine",
+      "published": "2026-11-23T00:54:43+00:00",
+      "summary": "ایالت Colorado برندگان اولین دوره جوایز Leadership and Longevity Awards را معرفی کرد. این جوایز از سازمان‌ها و افرادی که در رهبری پایدار و برنامه‌های بلندمدت پیشرو بوده‌اند تقدیر می‌کند.",
+      "keywords": [
+        "رهبری پایداری",
+        "جوایز دولتی",
+        "برنامه‌ریزی بلندمدت"
       ],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "Domes depict constellations of missiles in the night sky at Sharjah Architecture Triennial",
-      "url": "https://www.dezeen.com/2026/11/22/after-night-there-is-nothing-sharjah-architecture-triennial/",
-      "source": "Dezeen",
-      "published": "2026-11-22T11:00:00+00:00",
-      "summary": "Architect Mohamad Nahleh and architecture professor Ozayr Saloojee created three domed structures at this year's Sharjah Architecture Triennial, which reimagine constellations by mapping military objects in the night sky. The post Domes depict constellations of missiles in the night sky at Sharjah Architecture Triennial appeared first on Dezeen .",
-      "keywords": [],
+      "title": "موفقیت فیلم‌های مستقل در رویداد US in Progress",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8zRnFsMDJ5RE5PZFNKdWtJTEFkamo4d2JyaHRuMElJbUxwcjFuTkZxT0dvdlprZmNwV2pwWldPamwyOElLM0FTU1Vwc21ObnI0MFdjZw?oc=5",
+      "source": "Cineuropa",
+      "published": "2026-11-23T11:59:55+00:00",
+      "summary": "آثار سینمایی Your Dad و Outside of Cleveland در میان برندگان اصلی رویداد US in Progress قرار گرفتند. این رویداد بر حمایت از پروژه‌های مستقل متمرکز است.",
+      "keywords": [
+        "سینمای مستقل",
+        "رویداد سینمایی",
+        "جوایز فیلم"
+      ],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "Eight furniture designs informed by life in New York City",
-      "url": "https://www.dezeen.com/2026/11/22/eight-furniture-designs-informed-by-life-in-new-york-city/",
-      "source": "Dezeen",
-      "published": "2026-11-22T10:00:00+00:00",
-      "summary": "Furniture designers contend with their personal experiences living in New York City through the objects in our most recent roundup. The post Eight furniture designs informed by life in New York City appeared first on Dezeen .",
-      "keywords": [],
+      "title": "معرفی برندگان مسابقه National Gingerbread House Competition",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQb3BUSTdkWjRaTVRLNlAwUi11Y3ZHX3p4LUxHLWJDejl1c3dPS1NQS05kZnp6QzcybGhDLW5uM1dLbnJMLWdlUmpqTkUxWDBXR1dyb3VGNVZDczcxbFU3dlJJTFRnM0VYRjdxVXZJZTJUbTUwMS1nSXhXYW8tTzVUVDA2aVU1c0tXMkRQVzBLQi1vMTA?oc=5",
+      "source": "Perishable News",
+      "published": "2026-11-23T09:41:53+00:00",
+      "summary": "برندگان مسابقه سراسری National Gingerbread House Competition مشخص شدند. در این رویداد شرکت‌کنندگان سازه‌های خلاقانه‌ای ارائه دادند. هنر طراحی و مهارت در ساخت این آثار مورد توجه داوران قرار گرفت.",
+      "keywords": [
+        "طراحی خلاقانه",
+        "مسابقه دست‌سازه",
+        "هنرهای تجسمی"
+      ],
+      "category": "مسابقات طراحی",
+      "importance": "پایین"
+    },
+    {
+      "title": "برندگان رویداد هنری Art That Blooms معرفی شدند",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQkFkaU9LUnlXcGozZS1PbHU3TV9vN2lkVnI4c2JDX1d3NlRtYW9mSmkybzZiMjhGbmZQXzRUekFEdHplbEVFSXVlVV9YVzh1VG5KU000akRBVG5aY3pIRURJWU1IQ3ViTloxUnNBbzNGandYSG9yNnR2ZU1ocHFFYUk1M19Ea01ROWpNUlFPd2xKbmdu?oc=5",
+      "source": "Central Bucks Now",
+      "published": "2026-11-23T10:55:00+00:00",
+      "summary": "برندگان رویداد Art That Blooms با دریافت جوایز و تقدیرنامه‌ها مشخص شدند. این رویداد ترکیب هنر بصری و گل‌آرایی را به نمایش می‌گذارد. آثار برتر بر اساس خلاقیت در ترکیب متریال‌های طبیعی انتخاب شدند.",
+      "keywords": [
+        "طراحی گل‌آرایی",
+        "هنر بصری",
+        "نمایشگاه هنری"
+      ],
+      "category": "همایش‌ها و رویدادها",
+      "importance": "پایین"
+    },
+    {
+      "title": "تجلیل از سرآمدی طراحی در جوایز DFA Awards 2026",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQUtBaXEtUlJCeDBJbU43WXR0dzU3bDlFX0VfckhMU3RGQ2h4eXVyWUhERFdFTnlGbUg3aFdjaUJ2MHFhNDVXb2sybUMxVkRLbEZ0bm0yeXdTYTdOYVRDeXNvVGZEbVpXZUVIeHdnWk9OekFxN3NIdmRDNHlKdmxHaUtWSFZrUS04YmNMTXJxeDBoRUZEMEdfQXhmLUxWVUNJREZaelFPRjNScUk5N25GSEVuYkwwNS1MVFZmQkc2TGZRd2lTZDdHbXB5d09MaDhNTUNDTzhYWdIB3AFBVV95cUxNRVZDZFF4a1FIdDV3djZ4Q0hYR2pLQ1l1MkcxaWlrTFhaa0JOYkd5dklQX0xSZ1hlNXQyX3RXWDhweV9rRklPUEE1QjY2blJPeDhBS1pFWV80V3lNSWpPeFJSamlaS3RCUGNhTkZMejFTZEVvMFJEbHBpM1FRaG9qTHl5VGthS2ktOWdEVDFtYk1JOVN1Y2x1WjhNb3VNdWdVOVFLQzZ2bms3MWpTWEtYdHhYdEF1Yll3Sk1lZklUZTlwcHBxUnYtbFZZNE00VnNwaVk2S0htQ0tlYWlq?oc=5",
+      "source": "The Manila Times",
+      "published": "2026-11-23T11:29:33+00:00",
+      "summary": "رویداد DFA Awards 2026 با تمرکز بر دیدگاه‌های آسیایی، پروژه‌های برتر طراحی را تجلیل کرد. این جایزه بین‌المللی بر تأثیر طراحی در بهبود کیفیت زندگی و توسعه اقتصادی تاکید دارد. طراحان برجسته منطقه جوایز اصلی را دریافت کردند.",
+      "keywords": [
+        "جوایز بین‌المللی",
+        "طراحی آسیا",
+        "طراحی برتر"
+      ],
+      "category": "جوایز طراحی",
+      "importance": "بالا"
+    },
+    {
+      "title": "تقدیر از ۴ پروژه برتر در Steel Architectural Awards ASEAN 2026",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMjBvVDBrR1lubmxfYUhtLUNNNnZWa2FJbHczZGlMSnR0bl81SXdkSm9jTGZYX1kzcHBVRlVLdERPQ2RjUzhscEpNZ0Z1S0d2bnZBWjNMNzlsRDl0RGNKX1hNN2hNZVdBeE1aZ2wyU2U0WUFLQzFtQWttaU82UGdzU1R5ZmV0LU9Vb2NCZVU1QTExQjI0ZFJyQ255VU8wNkhxTXBPbFcwQjBtdHhuUkt4eHVHRlZYeXkyOEZGcDhzRGQ4cDZwUWxUdkZMb1BHaThyRU94SQ?oc=5",
+      "source": "Plataforma Media",
+      "published": "2026-11-23T02:00:00+00:00",
+      "summary": "رویداد Steel Architectural Awards ASEAN 2026 از چهار پروژه برجسته به دلیل طراحی ماندگار تقدیر کرد. این جوایز بر استفاده نوآورانه از فولاد در معماری مدرن متمرکز است. پروژه‌های منتخب نقش مهمی در توسعه معماری پایدار منطقه‌ای دارند.",
+      "keywords": [
+        "معماری فولادی",
+        "طراحی پایدار",
+        "جوایز معماری"
+      ],
+      "category": "جوایز طراحی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "اعلام برندگان جوایز Twyg Sustainable Fashion Awards 2026",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa1ZSbXVORnA3MnZhN2sxLXpDNkxkOWt5VjZjQTR3MGU4WHlRSmZ3cjVvWmVsTnBrQTlfcGlFWWtVRktFY29pRWRQdHM5R19KbnpmODM1aTdWRUx3YmpGcExuRnp2R1ZGTzl0UUotR0I3Rko1WjhrS014clJJbkRMUVBUcEg0WFNkUU55S3RVcF9Ob0RIQ0hVb21TeUo5Zw?oc=5",
+      "source": "Bizcommunity",
+      "published": "2026-11-23T10:02:26+00:00",
+      "summary": "برندگان جوایز Twyg Sustainable Fashion Awards 2026 معرفی شدند. این رویداد به تجلیل از طراحانی می‌پردازد که اصول پایداری و اخلاق محیط‌زیستی را رعایت می‌کنند. نوآوری در متریال‌های بازیافتی از بخش‌های اصلی این مسابقه بود.",
+      "keywords": [
+        "مد پایدار",
+        "طراحی پوشاک",
+        "پایداری محیط زیست"
+      ],
+      "category": "پایداری و محیط زیست",
+      "importance": "متوسط"
+    },
+    {
+      "title": "برندگان جوایز D&I in Insurance Awards 2026 معرفی شدند",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOT2JiSUU2cVBycEF0bUJYLWRmLTYxTWNWR0JzZ2MtbXcyYUt6bGhMMG0zVXdhVHoyUi1HUUxLMUM5T2hIRm9FZkptZkMweGFwcVBVV2pJWnJyTko2MzBVWkJyUTNCd3FmdjNHMnp4UmRxUzgyNTJmQXFIeTlmRmdOQndtWHVTamFfNWFWZFg4dFBPQjVwWkUwUTNNTkNFalJReGhId1VyYjg2MDg?oc=5",
+      "source": "Fair Play Talks",
+      "published": "2026-11-22T22:44:58+00:00",
+      "summary": "شرکت‌های Markel، Aviva و Zurich در میان برندگان D&I in Insurance Awards 2026 قرار گرفتند. این جوایز به فعالیت‌های مرتبط با تنوع و شمول در صنعت بیمه اختصاص دارد.",
+      "keywords": [
+        "صنعت بیمه",
+        "تنوع و شمول",
+        "جوایز شرکتی"
+      ],
+      "category": "سایر",
+      "importance": "پایین"
+    },
+    {
+      "title": "Ipswich Regent برنده جوایز سالانه طراحی شهری شد",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMDJyN1VqczBGcjFQZ2xReTdaOTlYYXhMdW9PQkhWYnVxamJEVVctS1JuMmQwNHRuVVZNaU1rMkp3R1ViZ0Y1QlpBR0ZvSEpTei1PQVB3REtqSnB4N0l1bnhzajUwNnUxQUJxcWN4aXQ5elRjNjM2ZDA3VS1oTGFlSWtHXy1aTkl6NEk4MFN1OWJsZnQwWHM4?oc=5",
+      "source": "Ipswich Star",
+      "published": "2026-11-23T12:00:00+00:00",
+      "summary": "تالار Ipswich Regent در مراسم جوایز سالانه طراحی شهر به عنوان یکی از برندگان معرفی شد. این رویداد از پروژه‌های برتر معماری و طراحی تقدیر می‌کند.",
+      "keywords": [
+        "جوایز طراحی",
+        "طراحی شهری",
+        "معماری"
+      ],
+      "category": "جوایز طراحی",
+      "importance": "پایین"
+    },
+    {
+      "title": "استودیوی HTA Design برنده جایزه ویژه LI Awards 2026 شد",
+      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNTUdVY2prWkFOLV9FVmlIRGhzLUJaWU5MNzV6UnRHRDByZ1RXNUZjcWlIMzRfTGNsU1lHSnJWLU12VUtXT213NXAzbVFNZ1VFV29YZlp5cTF1VE4wR2tjMzRldkx3VTFBVWlnZ0VyRmVpRkdGMXJjUUdSX1dLWWFaQ1JsTkVXNnptcDR4Q3E3aVl4OWFjVThIaGxsVTc4X3BSeE1GZElSMmxuSmdpVDRzTmtrUTJLS0ZWdndYOThlQU96cHpKTXNHMW9lRkFnVWxtVDNkWDB5SEU2UW95YWZHM2xDcTBzeHdub2w2YW9RbDZYajRyVXc4Sk9hUGZEMUFtOVlOWnJ6TUE4NGUzTmpHcmJwaVV2WEwyVFljaGlnWnRqZGNGZFBjem1CLW5IUQ?oc=5",
+      "source": "Trending Now Infrastructure",
+      "published": "2026-11-23T09:09:08+00:00",
+      "summary": "استودیوی HTA Design موفق به کسب President's Award در رویداد LI Awards 2026 شد. این جایزه به پاس خدمات برجسته در طراحی منظر اهدا شده است.",
+      "keywords": [
+        "طراحی منظر",
+        "جوایز طراحی",
+        "معماری"
+      ],
+      "category": "جوایز طراحی",
+      "importance": "متوسط"
+    },
+    {
+      "title": "کسب شش جایزه توسط پروژه‌های استرالیایی در WAF 2026",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON0lfMTZEQVdvemtGQmJqZ244cmhxcWhRMzM2VktmamZwdU5yOXQ0X2h4RURZZ3BnYlN1a0dXczBiaDY4LWt3eHpJaDFjX3lpbEhXX2dPeXJOd1Z4X29fQlRnRDhyY0JoRjRrS0tzYzFIRHV3LUZZTzB2SjFtYnJzcmhWZDdIekdiY19vR0JDOGNRdVJrM0xGRksyRTNsVkJnbFd5alg5dWY?oc=5",
+      "source": "Architecture & Design",
+      "published": "2026-11-22T23:42:17+00:00",
+      "summary": "معماران و طراحان استرالیایی موفق به کسب شش عنوان برتر در جشنواره WAF 2026 شدند. این رویداد بین‌المللی برترین پروژه‌های معماری و طراحی جهان را معرفی می‌کند.",
+      "keywords": [
+        "معماری",
+        "جوایز بین‌المللی",
+        "طراحی ساختمانی"
+      ],
+      "category": "جوایز طراحی",
+      "importance": "بالا"
+    },
+    {
+      "title": "تقدیر AHFA از رهبران صنعت مبلمان با اهدای جوایز ویژه",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQS0ZheXNuR2RVRjlYMUlvM0Jld3FIRmUtU1duWmgtRkFRTl9COU45UkRyZmpaWXJBc3BjMWFmYlRBam5TbzNpZW5YZXBOOC1mR24tY0pYb1BsRnJTNUcxUV9oMkoxMkI1QTQxeEpObkdxVjdmSi13VmtPaWNUeVhqaExmbUswMmVLN3E5V2VFdVY3eXhCSXNJZHIzWjZwX2ZvQVlRRTA4WkVCU00?oc=5",
+      "source": "Home Furnishings Business",
+      "published": "2026-11-23T00:53:36+00:00",
+      "summary": "انجمن AHFA از فعالان و رهبران برجسته صنعت مبلمان تقدیر کرد. جوایز Distinguished Service Awards به پاس نوآوری و خدمات ارزشمند به این افراد اهدا شد.",
+      "keywords": [
+        "صنعت مبلمان",
+        "جوایز طراحی",
+        "تقدیر از طراحان"
+      ],
       "category": "مبلمان",
       "importance": "متوسط"
     },
     {
-      "title": "Jony Ive and Margaret Calvert create posters to celebrate decade of Design Museum in Kensington",
-      "url": "https://www.dezeen.com/2026/11/22/jony-ive-margaret-calvert-posters-decade-london-design-museum-kensington/",
-      "source": "Dezeen",
-      "published": "2026-11-22T06:00:00+00:00",
-      "summary": "Ten leading designers have unveiled posters that celebrate 10 years of London’s Design Museum in Kensington. The post Jony Ive and Margaret Calvert create posters to celebrate decade of Design Museum in Kensington appeared first on Dezeen .",
-      "keywords": [],
-      "category": "سایر",
+      "title": "رونمایی Irthi از مجموعه مبلمان جدید در NOMAD Abu Dhabi",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVEx5NUJRX1hyWDBQdk1kX0VIajREdnRkdi1rT2RrMm01c25sWXZVb3BMMGNKckhvTFRZMDJmdHJFWk9Ja1RpZUZnMElITjZsbWFraE9OT1BSc2NRUHhFcktrNnN3bmtvT1JZU3QzMUJtSHU3NEx2LW9tSUQzY0F1aHJESWYtLVRqaXoxOUNzbnRZbFlmbUFIVU1fdTVnS0ZKRGpNUnllSkIySHdrRHNWWjdZOTE?oc=5",
+      "source": "Travels Dubai",
+      "published": "2026-11-23T03:12:00+00:00",
+      "summary": "برند Irthi از یک مجموعه مبلمان پنج‌تکه‌ای الهام‌گرفته از هنر Talli در نمایشگاه NOMAD Abu Dhabi رونمایی کرد. این مجموعه پیوندی میان صنایع‌دستی سنتی و طراحی مدرن مبلمان ایجاد کرده است.",
+      "keywords": [
+        "طراحی مبلمان",
+        "صنایع دستی",
+        "نمایشگاه طراحی"
+      ],
+      "category": "مبلمان",
+      "importance": "متوسط"
+    },
+    {
+      "title": "برگزاری نمایشگاه آرشیو طراحی Luc Donckerwolke توسط Hyundai و Kia",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9va0cxekllaGp4aDhsbGNyclRRTE1tYVZFTlZKdV8zVW5yTFA0VkxjbnJVdUlHWGItaHJRWHFXNzVGalNvc3ZtZ2JsdzBhdUFsQWYyTWxiX1c?oc=5",
+      "source": "파이낸셜뉴스",
+      "published": "2026-11-23T00:16:40+00:00",
+      "summary": "شرکت‌های Hyundai و Kia نمایشگاهی از آرشیو آثار طراحی Luc Donckerwolke را در Sinsa House برگزار کردند. این رویداد نگاهی به روند شکل‌گیری طرح‌های ساختارشکن این مدیر برجسته دارد.",
+      "keywords": [
+        "طراحی خودرو",
+        "نمایشگاه طراحی",
+        "آرشیو طراحی"
+      ],
+      "category": "خودرو",
+      "importance": "متوسط"
+    },
+    {
+      "title": "ادای احترام به Paul Bracq اسطوره طراحی خودرو",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZWpkTVllMFdVb212dnJpN1hFSHNINk5PSHc5eXBZazJ6MjRqaTMyaE9YVExRVl84OGs0RU5ZZVAwdG02emFRQk41bXI1YlFqaVFoUEFjdHp4ZFpaYzNjLVRGdElDOGV2TmNQNHNDSElTTVFOcEY4VkQzN2Q5RVEzdWVmUGpWa3hPc0FBQl9tVQ?oc=5",
+      "source": "Car Design News",
+      "published": "2026-11-23T13:48:07+00:00",
+      "summary": "رسانه Car Design News به بررسی جایگاه Paul Bracq طراح افسانه‌ای صنعت خودرو پرداخته است. او با خلق مدل‌های ماندگار، نام خود را در تالار افتخارات طراحی خودرو ثبت کرده است.",
+      "keywords": [
+        "طراحی خودرو",
+        "طراحان بزرگ",
+        "تاریخچه طراحی"
+      ],
+      "category": "خودرو",
+      "importance": "متوسط"
+    },
+    {
+      "title": "نگاهی به نمایشگاه آرشیو طراحی Luc Donckerwolke در Seoul",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTW9HWkoxSVczWUc2SkFHQ0Q3WTBfTnlMWWE5eWJCU3NkeHVJb3kyaXZJQ3Q2blYyeTk3T0hmbWdJTHppUnpqTzNSWklRT1dqLXNEbnpCczczeDBFYmJZWE91SlFpYTRIbm1IcE5PU08yWFZacTN0Z29nNkpqQjJOS09mSmVRS3paeVJtU0NOUmJGVGk2VnZCRk1SMHN2WHNKbXE4?oc=5",
+      "source": "Hyundai Motor Group",
+      "published": "2026-11-23T00:20:00+00:00",
+      "summary": "گروه Hyundai Motor Group تصویری جامع از نمایشگاه آرشیو طراحی Luc Donckerwolke در Seoul ارائه کرد. این نمایشگاه فلسفه و روند خلاقانه این طراح سرشناس خودرو را به نمایش می‌گذارد.",
+      "keywords": [
+        "طراحی خودرو",
+        "نمایشگاه طراحی",
+        "کانسپت خودرو"
+      ],
+      "category": "خودرو",
       "importance": "پایین"
     },
     {
-      "title": "Evan Edward designs \"seductive\" Miami Beach pied-à-terre",
-      "url": "https://www.dezeen.com/2026/11/21/evan-edward-miami-beach-pied-a-terre-apartment-renovation/",
-      "source": "Dezeen",
-      "published": "2026-11-21T18:00:00+00:00",
-      "summary": "Miami's nightlife scene in the 1990s informed the saturated colours and metallic accents used by local studio Evan Edward inside this apartment. The post Evan Edward designs \"seductive\" Miami Beach pied-à-terre appeared first on Dezeen .",
-      "keywords": [],
-      "category": "سایر",
+      "title": "گزارش Genesis از نمایشگاه آرشیو طراحی Luc Donckerwolke",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOejRRa1VkRE9WcnFsLU44TVFZNlpCWTJQbG4xeUxXd3paa25pa096YWNEYk1FSmRwMUw1aWxKWnM0WTQ5M2hYTFk5aURJOFlDRVJiNnE0c1N3Nk9Wc21SY0ZQb0lYbXZ4aVpVbkJSX0lTNjM5QU14QTRlQzJqR25PMWF5bURydnM5U0k5d2E1NEM4VHdEc1M0ZU16NEZqbVEydllpT1hqb3RFbVhUR09FU1JB?oc=5",
+      "source": "Genesis Newsroom",
+      "published": "2026-11-22T23:30:00+00:00",
+      "summary": "برند Genesis جزئیات جدیدی از نمایشگاه آرشیو آثار Luc Donckerwolke در Seoul منتشر کرد. این رویداد نقش کلیدی او در شکل‌گیری زبان طراحی محصولات Genesis را برجسته می‌سازد.",
+      "keywords": [
+        "طراحی خودرو",
+        "زبان طراحی",
+        "نمایشگاه"
+      ],
+      "category": "خودرو",
       "importance": "پایین"
     },
     {
-      "title": "A contemporary tree house in Costa Rica offers the ultimate outdoor living",
-      "url": "https://www.wallpaper.com/architecture/residential/tree-house-famm-costa-rica",
+      "title": "افتتاح نمایشگاه آرشیو طراحی مدیر ارشد Hyundai و Kia",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0yemlJNmdQMUN3eWVzeGlwMHg4NmpwZHgxODFZNkhWaDhsdEU3NEI3UHM3OE5vSmZvMXNoRTZUN191Sk5KdlRoU2p3ek9wcFNfNFZTQ3FiQQ?oc=5",
+      "source": "헤럴드경제",
+      "published": "2026-11-22T23:47:52+00:00",
+      "summary": "شرکت‌های Hyundai Motor و Kia نمایشگاه ویژه‌ای برای مرور فعالیت‌های Luc Donckerwolke، مدیر ارشد طراحی خود، افتتاح کردند. در این نمایشگاه طرح‌های اولیه و مدل‌های مفهوم‌سازی‌شده به نمایش درآمده‌اند.",
+      "keywords": [
+        "طراحی خودرو",
+        "نمایشگاه آرشیو",
+        "طراحی صنعتی"
+      ],
+      "category": "خودرو",
+      "importance": "پایین"
+    },
+    {
+      "title": "نمایشگاه آرشیو Hyundai Motor و Kia با رونمایی Genesis Box Bug",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBGTUMyakp4OW1ndmFpSFNLVWRYZ3dEdzMwX0pLR2tqaDZKeFdkRUpiN0dWYVRhaEJ0dUtOYlRLRGNRanlzUnFBckFlRUtLU1ZDUE9R?oc=5",
+      "source": "매일경제",
+      "published": "2026-11-23T04:53:25+00:00",
+      "summary": "شرکت‌های Hyundai Motor و Kia نمایشگاه آرشیوی برای مرور مسیر طراحی Donckerwolke برگزار می‌کنند. در این رویداد مدل Genesis Box Bug نیز برای نخستین بار به نمایش درمی‌آید. این نمایشگاه نگاهی جامع به پروژه‌های شاخص این طراح دارد.",
+      "keywords": [
+        "طراحی خودرو",
+        "نمایشگاه آرشیو",
+        "طراح ارشد"
+      ],
+      "category": "خودرو",
+      "importance": "متوسط"
+    },
+    {
+      "title": "رونمایی از Genesis Box Buggy در کره جنوبی",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xUWNzbGYteUhfYkg2UUZ4ZXJYcUc4YkRacndGX0xySmw2SWdBdEZ2OGR2ZG53Sm5pTm55MFJQdXFVNVBVS2VQUHdwc1B1ek1uczZmcG9VT3l1eUdOYTF0OVVPVHFoUFpJVG56VEhxZTE?oc=5",
+      "source": "머니투데이",
+      "published": "2026-11-23T00:06:58+00:00",
+      "summary": "خودروی Genesis Box Buggy نخستین حضور خود در کره جنوبی را تجربه کرد. این رونمایی بخشی از نمایش مسیر حرفه‌ای طراحی Donckerwolke است. پروژه مذکور رویکرد نوآورانه این طراح را نشان می‌دهد.",
+      "keywords": [
+        "طراحی خودرو",
+        "رونمایی خودرو",
+        "طراحی مفهومی"
+      ],
+      "category": "خودرو",
+      "importance": "متوسط"
+    },
+    {
+      "title": "مجموعه جدید Giobagnara Embassy Collection با الهام از تاریخ",
+      "url": "https://www.wallpaper.com/design-interiors/giobagnara-embassy-collection-abask",
       "source": "Wallpaper",
-      "published": "2026-11-22T06:00:00+00:00",
-      "summary": "A tree house perched on a steep slope in Costa Rica’s tropical forest, FAMM Arquitectura’s open-air Casa Al Suave allows for an immersive experience of the surrounding nature",
-      "keywords": [],
+      "published": "2026-11-23T13:54:35+00:00",
+      "summary": "مجموعه جدید Giobagnara Embassy Collection توسط Nick Vinson طراحی شده است. این مجموعه با الهام از طرح‌های کف‌پوش‌های تاریخی سفارت ایتالیا در لندن ساخته شده است. این کلکسیون امکان انتقال زیبایی تاریخی را به خانه‌ها فراهم می‌کند.",
+      "keywords": [
+        "مجموعه مبلمان",
+        "طراحی داخلی",
+        "الهام از تاریخ"
+      ],
+      "category": "مبلمان",
+      "importance": "متوسط"
+    },
+    {
+      "title": "رونمایی از درخت کریسمس Burberry در موزه V&A Museum",
+      "url": "https://www.wallpaper.com/fashion-beauty/burberry-daniel-lee-christmas-tree-v-and-a-museum-ann-carrington",
+      "source": "Wallpaper",
+      "published": "2026-11-23T11:56:20+00:00",
+      "summary": "برند Burberry با همکاری هنرمند Ann Carrington یک مجسمه ۱۶ فوتی به شکل درخت کریسمس طراحی کرد. این اثر در موزه V&A Museum لندن نصب شده است. هنرمند در این پروژه از اشیای بازیافتی و ضایعات استفاده کرده است.",
+      "keywords": [
+        "درخت کریسمس",
+        "طراحی چیدمان",
+        "اشیای بازیافتی"
+      ],
+      "category": "همایش‌ها و رویدادها",
+      "importance": "متوسط"
+    },
+    {
+      "title": "معرفی خودروی شهری Fiat 500 Hybrid با جذابیت‌های کلاسیک",
+      "url": "https://www.wallpaper.com/transportation/fiat-500-hybrid-review",
+      "source": "Wallpaper",
+      "published": "2026-11-23T10:10:21+00:00",
+      "summary": "برند Fiat با تغییر ساختار مدل 500e یک خودروی هیبریدی شهری به نام Fiat 500 Hybrid تولید کرده است. این مدل جذابیت‌های کلاسیک سری cinquecento را حفظ کرده است. خودروی جدید قدرتی کمتر اما کاربری بهینه‌تری برای محیط‌های شهری دارد.",
+      "keywords": [
+        "خودروی هیبریدی",
+        "طراحی خودرو",
+        "خودروی شهری"
+      ],
+      "category": "خودرو",
+      "importance": "متوسط"
+    },
+    {
+      "title": "کلکسیون مبلمان جدید Gustav Craft با الهام از خیابان‌های رم",
+      "url": "https://www.wallpaper.com/design-interiors/furniture/a-furniture-collection-inspired-by-the-streets-of-rome",
+      "source": "Wallpaper",
+      "published": "2026-11-23T05:00:00+00:00",
+      "summary": "طراح Gustav Craft برنده نخستین دوره Fendi Design Prize مجموعه جدیدی از مبلمان ارائه داد. این مجموعه با الهام از معماری خیابان‌های رم ساخته شده است. این آثار در رویداد Design Miami 2026 به نمایش درخواهند آمد.",
+      "keywords": [
+        "طراحی مبلمان",
+        "مجموعه جدید",
+        "جایزه طراحی"
+      ],
+      "category": "مبلمان",
+      "importance": "متوسط"
+    },
+    {
+      "title": "افتتاح هتل Experimental Roma با الهام از سینمای ایتالیا",
+      "url": "https://www.wallpaper.com/travel/hotels/experimental-roma-review",
+      "source": "Wallpaper",
+      "published": "2026-11-23T05:00:00+00:00",
+      "summary": "هتل جدید Experimental Roma با طراحی Rodolphe Parente افتتاح شد. دکوراسیون داخلی این هتل از بافت‌ها و رنگ‌های سینمای کلاسیک ایتالیا الهام گرفته است. فضایی نمایش‌گونه و مجلل برای اقامت مهمانان خلق شده است.",
+      "keywords": [
+        "طراحی داخلی",
+        "دکوراسیون هتل",
+        "فضای تئاتری"
+      ],
       "category": "سایر",
       "importance": "پایین"
     },
     {
-      "title": "Chic and useful gifts for the modern traveller",
-      "url": "https://www.wallpaper.com/travel/modern-traveller-gift-guide-2026",
+      "title": "چیدمان هنری Jiang Qiong Er در کنار اهرام Giza",
+      "url": "https://www.wallpaper.com/art/exhibitions-shows/jiang-qiong-er-it-is-time-to-plant-love-at-forever-is-now-2026-review",
       "source": "Wallpaper",
-      "published": "2026-11-22T06:00:00+00:00",
-      "summary": "For your fussy, flighty friends and family, a travel gift guide with high ambition; we guarantee you will want to treat yourself instead",
-      "keywords": [],
-      "category": "سایر",
+      "published": "2026-11-23T04:00:00+00:00",
+      "summary": "پروژه جدید Jiang Qiong Er با عنوان It is Time to Plant Love در صحرای مصر اجرا شد. این اثر شامل ۱۲ مجسمه نمادین به‌عنوان محافظان بشریت است. این چیدمان بخشی از ششمین دوره رویداد Forever is Now محسوب می‌شود.",
+      "keywords": [
+        "چیدمان هنری",
+        "مجسمه‌سازی",
+        "رویداد هنری"
+      ],
+      "category": "همایش‌ها و رویدادها",
+      "importance": "متوسط"
+    },
+    {
+      "title": "راهنمای خرید تجهیزات موسیقی Wallpaper* توسط Jonathan Bell",
+      "url": "https://www.wallpaper.com/tech/wallpaper-technology-editor-jonathan-bell-assembles-a-compact-musical-gift-guide",
+      "source": "Wallpaper",
+      "published": "2026-11-22T21:00:00+00:00",
+      "summary": "سردبیر بخش فناوری مجله Wallpaper* یعنی Jonathan Bell راهنمای هدیه موسیقی منتشر کرد. این فهرست طیفی از گجت‌های فناوری موسیقی تا تجهیزات حرفه‌ای را شامل می‌شود. این راهنما گزینه‌های متنوعی برای علاقه‌مندان به موسیقی ارائه می‌دهد.",
+      "keywords": [
+        "تجهیزات موسیقی",
+        "راهنمای خرید",
+        "گجت صوتی"
+      ],
+      "category": "لوازم الکترونیکی",
       "importance": "پایین"
     },
     {
-      "title": "Africa’s vibrant street photography is the subject of a new Thames & Hudson tome",
-      "url": "https://www.wallpaper.com/art/photography/street-photography-africa-photo-book-review",
+      "title": "طراحی رویداد GTA6 The Festival توسط استودیوی STURDY",
+      "url": "https://www.wallpaper.com/art/music/gta6-festival-miami-design",
       "source": "Wallpaper",
-      "published": "2026-11-22T05:00:00+00:00",
-      "summary": "In 'Street Photography Africa', Nadine Barth and Azu Nwagbogu capture a vibrant and eclectic scene",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Wallpaper* gift guides: architecture expert Ellie Stathaki's festive wish list",
-      "url": "https://www.wallpaper.com/architecture/gift-guides-ellie-stathaki",
-      "source": "Wallpaper",
-      "published": "2026-11-22T04:00:00+00:00",
-      "summary": "Architecture & environment director Ellie Stathaki shares her dream list to browse for festive inspiration and season's gifts for all",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "10 things to see during Design Miami, from Play-Doh to Playboy",
-      "url": "https://www.wallpaper.com/design-interiors/design-miami-2026-things-to-see",
-      "source": "Wallpaper",
-      "published": "2026-11-21T15:00:00+00:00",
-      "summary": "Design Miami is back for its 22nd edition starting 1 December. Here are the fairs, events and installations to catch while you’re there at the beach and beyond",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
-    },
-    {
-      "title": "Inside the design of Panem, the dystopian world of The Hunger Games",
-      "url": "https://www.wallpaper.com/art/film/inside-the-design-of-panem-the-dystopian-world-of-the-hunger-games",
-      "source": "Wallpaper",
-      "published": "2026-11-21T12:55:39+00:00",
-      "summary": "As 'Hunger Games: Sunrise on the Reaping' hits the big screen, we go behind the design",
-      "keywords": [],
-      "category": "سایر",
-      "importance": "پایین"
+      "published": "2026-11-22T16:11:27+00:00",
+      "summary": "رویداد GTA6 The Festival در شهر Miami برگزار شد. استودیوی طراحی STURDY مسئولیت فضاسازی و طراحی صحنه این رویداد بزرگ را بر عهده داشته است. طراحان در مصاحبه‌ای از چالش‌های خلق این تجربه سرگرمی گفته‌اند.",
+      "keywords": [
+        "طراحی رویداد",
+        "طراحی صحنه",
+        "تجربه سرگرمی"
+      ],
+      "category": "همایش‌ها و رویدادها",
+      "importance": "متوسط"
     }
   ]
 }
