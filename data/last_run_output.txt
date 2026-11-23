@@ -1,86 +1,140 @@
-2026-11-22 12:47:51,804 [INFO] main: === Design News Bot starting ===
-2026-11-22 12:47:51,804 [INFO] main: Step 1/6 — Collecting...
-2026-11-22 12:47:51,946 [INFO] collector: RSS Fast Company Design -> 0 recent articles
-2026-11-22 12:47:51,954 [INFO] collector: RSS The Dieline -> 0 recent articles
-2026-11-22 12:47:51,979 [INFO] collector: RSS Gessato -> 0 recent articles
-2026-11-22 12:47:52,373 [INFO] collector: RSS ArchDaily -> 6 recent articles
-2026-11-22 12:47:52,379 [INFO] collector: RSS Google News: industrial design when:2d -> 3 recent articles
-2026-11-22 12:47:52,582 [INFO] collector: RSS Yanko Design -> 8 recent articles
-2026-11-22 12:47:52,610 [INFO] collector: RSS Design Milk -> 0 recent articles
-2026-11-22 12:47:52,877 [INFO] collector: RSS Creative Boom -> 0 recent articles
-2026-11-22 12:47:52,911 [INFO] collector: RSS Core77 -> 0 recent articles
-2026-11-22 12:47:52,924 [INFO] collector: Scraped Red Dot -> 2 recent articles
-2026-11-22 12:47:52,941 [INFO] collector: RSS Surface -> 0 recent articles
-2026-11-22 12:47:52,991 [INFO] collector: RSS Google News: design competition when:2d -> 13 recent articles
-2026-11-22 12:47:53,026 [INFO] collector: RSS Designboom -> 3 recent articles
-2026-11-22 12:47:53,084 [INFO] collector: RSS Google News: product design award when:2d -> 8 recent articles
-2026-11-22 12:47:53,170 [INFO] collector: RSS Google News: design award winners when:2d -> 3 recent articles
-2026-11-22 12:47:53,293 [INFO] collector: RSS Google News: "automotive design" concept when:2d -> 1 recent articles
-2026-11-22 12:47:53,351 [INFO] collector: RSS Google News: "furniture design" award when:2d -> 0 recent articles
-2026-11-22 12:47:53,352 [INFO] collector: RSS Google News: "jewelry design" when:2d -> 5 recent articles
-2026-11-22 12:47:53,683 [INFO] collector: RSS Dezeen Competitions -> 0 recent articles
-2026-11-22 12:47:53,743 [INFO] collector: RSS Dezeen -> 4 recent articles
-2026-11-22 12:47:54,043 [INFO] collector: RSS Wallpaper -> 6 recent articles
-2026-11-22 12:47:54,044 [INFO] collector: Total collected (before dedup): 62
-2026-11-22 12:47:54,044 [INFO] main: Step 2/6 — Deduplicating...
-2026-11-22 12:47:54,048 [INFO] dedup: Dedup: removed 2 duplicates, kept 60
-2026-11-22 12:47:54,048 [INFO] main: 60 unique articles
-2026-11-22 12:47:54,369 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
-2026-11-22 12:47:55,394 [INFO] main: Registered users: 6 | languages needed: ['fa']
-2026-11-22 12:47:55,394 [INFO] main: Step 3/6 — Enriching (fa)...
-2026-11-22 12:47:55,481 [INFO] summarizer: Gemini candidate models: ['gemini-flash-latest', 'gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash']
-2026-11-22 12:48:55,553 [WARNING] summarizer: Model gemini-flash-latest failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-2026-11-22 12:48:58,311 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 6s
-2026-11-22 12:49:13,996 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 12s
-2026-11-22 12:50:26,060 [WARNING] summarizer: Model gemini-3.7-flash failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-2026-11-22 12:51:12,889 [INFO] summarizer: Gemini OK via gemini-3.6-flash (10 items)
-2026-11-22 12:51:12,890 [INFO] summarizer: Batch 1/6: 10/10 enriched with valid output
-2026-11-22 12:51:33,065 [INFO] summarizer: Gemini OK via gemini-3.6-flash (10 items)
-2026-11-22 12:51:33,066 [INFO] summarizer: Batch 2/6: 10/10 enriched with valid output
-2026-11-22 12:51:38,239 [WARNING] summarizer: Model gemini-3.6-flash rate-limited, waiting 6s
-2026-11-22 12:52:22,599 [INFO] summarizer: Gemini OK via gemini-3.6-flash (10 items)
-2026-11-22 12:52:22,600 [INFO] summarizer: Batch 3/6: 10/10 enriched with valid output
-2026-11-22 12:53:19,710 [INFO] summarizer: Gemini OK via gemini-3.6-flash (9 items)
-2026-11-22 12:54:24,791 [WARNING] summarizer: Model gemini-flash-latest failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-2026-11-22 12:55:24,844 [WARNING] summarizer: Model gemini-3.8-flash failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-2026-11-22 12:56:24,920 [WARNING] summarizer: Model gemini-3.7-flash failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-2026-11-22 12:57:24,994 [WARNING] summarizer: Model gemini-3.6-flash failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-2026-11-22 12:57:24,995 [INFO] summarizer: Batch 4/6: 7/10 enriched with valid output
-2026-11-22 12:57:30,245 [WARNING] summarizer: Model gemini-3.6-flash rate-limited, waiting 6s
-2026-11-22 12:58:20,376 [INFO] summarizer: Gemini OK via gemini-3.6-flash (10 items)
-2026-11-22 12:58:20,377 [INFO] summarizer: Batch 5/6: 10/10 enriched with valid output
-2026-11-22 12:58:25,652 [WARNING] summarizer: Model gemini-3.6-flash rate-limited, waiting 6s
-2026-11-22 12:58:32,553 [WARNING] summarizer: Model gemini-3.6-flash rate-limited, waiting 12s
-2026-11-22 12:59:02,068 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 6s
-2026-11-22 13:00:08,111 [WARNING] summarizer: Model gemini-flash-latest failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-2026-11-22 13:00:28,067 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 6s
-2026-11-22 13:00:36,086 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 12s
-2026-11-22 13:00:59,817 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 6s
-2026-11-22 13:01:17,256 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 12s
-2026-11-22 13:02:21,424 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 6s
-2026-11-22 13:02:51,538 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 12s
-2026-11-22 13:04:03,559 [WARNING] summarizer: Model gemini-3.8-flash failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-2026-11-22 13:05:03,586 [WARNING] summarizer: Model gemini-3.7-flash failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-2026-11-22 13:05:03,896 [WARNING] summarizer: Model gemini-3.6-flash rate-limited, waiting 6s
-2026-11-22 13:05:10,099 [WARNING] summarizer: Model gemini-3.6-flash rate-limited, waiting 12s
-2026-11-22 13:05:22,100 [INFO] summarizer: Batch 6/6: 0/10 enriched with valid output
-2026-11-22 13:05:22,100 [INFO] summarizer: Enriched 60 articles via Gemini. Non-Other: 41/60. Importance: {'متوسط': 23, 'بالا': 4, 'پایین': 33}
-2026-11-22 13:05:22,100 [INFO] main: Step 4/6 — No English users: skipping English enrichment (saves AI quota).
-2026-11-22 13:05:22,100 [INFO] main: Step 5/6 — Saving cache for instant on-demand responses...
-2026-11-22 13:05:22,104 [INFO] cache: Cache saved: fa (60 articles)
-2026-11-22 13:05:22,104 [INFO] main: Step 6/6 — Sending personalized digests...
-2026-11-22 13:05:22,145 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
-2026-11-22 13:05:22,992 [INFO] sender: Sending to 6 users
-2026-11-22 13:05:26,186 [INFO] sender: Sent digest (fa, interests=['product'], 4 messages)
-2026-11-22 13:05:29,965 [INFO] sender: Sent digest (fa, interests=['service', 'jewelry', 'accessory'], 4 messages)
-2026-11-22 13:05:33,733 [INFO] sender: Sent digest (fa, interests=['product'], 4 messages)
-2026-11-22 13:05:37,814 [INFO] sender: Sent digest (fa, interests=['product', 'automotive'], 4 messages)
-2026-11-22 13:05:43,121 [INFO] sender: Sent digest (fa, interests=['automotive', 'product', 'furniture', 'jewelry', 'accessory', 'service'], 5 messages)
-2026-11-22 13:05:43,914 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
-2026-11-22 13:05:44,202 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
-2026-11-22 13:05:45,198 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
-2026-11-22 13:05:45,476 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
-2026-11-22 13:05:46,660 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
-2026-11-22 13:05:47,278 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
-2026-11-22 13:05:47,279 [INFO] sender: Sent digest (fa, interests=['service'], 3 messages)
-2026-11-22 13:05:47,780 [INFO] main: === Done. ===
+2026-11-23 15:12:34,365 [INFO] main: === Design News Bot starting ===
+2026-11-23 15:12:34,365 [INFO] main: Step 1/6 — Collecting...
+2026-11-23 15:12:34,605 [INFO] collector: RSS Fast Company Design -> 0 recent articles
+2026-11-23 15:12:34,614 [INFO] collector: RSS Gessato -> 1 recent articles
+2026-11-23 15:12:34,738 [INFO] collector: RSS The Dieline -> 2 recent articles
+2026-11-23 15:12:34,954 [INFO] collector: RSS ArchDaily -> 15 recent articles
+2026-11-23 15:12:35,179 [INFO] collector: RSS Yanko Design -> 11 recent articles
+2026-11-23 15:12:35,363 [INFO] collector: RSS Core77 -> 2 recent articles
+2026-11-23 15:12:35,414 [INFO] collector: RSS Design Milk -> 0 recent articles
+2026-11-23 15:12:35,450 [INFO] collector: RSS Google News: industrial design when:2d -> 16 recent articles
+2026-11-23 15:12:35,575 [INFO] collector: RSS Dezeen -> 7 recent articles
+2026-11-23 15:12:35,611 [INFO] collector: RSS Surface -> 3 recent articles
+2026-11-23 15:12:35,626 [INFO] collector: RSS Google News: product design award when:2d -> 17 recent articles
+2026-11-23 15:12:35,736 [INFO] collector: Scraped Red Dot -> 2 recent articles
+2026-11-23 15:12:35,794 [INFO] collector: RSS Designboom -> 7 recent articles
+2026-11-23 15:12:35,894 [INFO] collector: RSS Google News: design competition when:2d -> 12 recent articles
+2026-11-23 15:12:35,929 [INFO] collector: RSS Creative Boom -> 4 recent articles
+2026-11-23 15:12:35,974 [INFO] collector: RSS Google News: "jewelry design" when:2d -> 6 recent articles
+2026-11-23 15:12:36,082 [INFO] collector: RSS Google News: design award winners when:2d -> 16 recent articles
+2026-11-23 15:12:36,126 [INFO] collector: RSS Google News: "furniture design" award when:2d -> 2 recent articles
+2026-11-23 15:12:36,132 [INFO] collector: RSS Google News: "automotive design" concept when:2d -> 8 recent articles
+2026-11-23 15:12:36,401 [INFO] collector: RSS Wallpaper -> 8 recent articles
+2026-11-23 15:12:36,408 [INFO] collector: RSS Dezeen Competitions -> 0 recent articles
+2026-11-23 15:12:36,410 [INFO] collector: Total collected (before dedup): 139
+2026-11-23 15:12:36,410 [INFO] main: Step 2/6 — Deduplicating...
+2026-11-23 15:12:36,423 [INFO] dedup: Dedup: removed 9 duplicates, kept 130
+2026-11-23 15:12:36,423 [INFO] main: 130 unique articles
+2026-11-23 15:12:36,736 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-11-23 15:12:37,599 [INFO] main: Registered users: 6 | languages needed: ['fa']
+2026-11-23 15:12:37,599 [INFO] main: Step 3/6 — Enriching (fa)...
+2026-11-23 15:12:37,827 [INFO] summarizer: Gemini candidate models: ['gemini-flash-latest', 'gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash']
+2026-11-23 15:12:38,485 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 6s
+2026-11-23 15:12:45,060 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 12s
+2026-11-23 15:12:57,607 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 6s
+2026-11-23 15:13:04,284 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 12s
+2026-11-23 15:13:16,852 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 6s
+2026-11-23 15:13:23,466 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 12s
+2026-11-23 15:13:55,971 [INFO] summarizer: Gemini OK via gemini-3.6-flash (10 items)
+2026-11-23 15:13:55,972 [INFO] summarizer: Batch 1/13: 10/10 enriched with valid output
+2026-11-23 15:14:20,958 [INFO] summarizer: Gemini OK via gemini-3.6-flash (10 items)
+2026-11-23 15:14:26,329 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 6s
+2026-11-23 15:14:32,827 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 12s
+2026-11-23 15:14:45,339 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 6s
+2026-11-23 15:14:51,830 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 12s
+2026-11-23 15:15:04,388 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 6s
+2026-11-23 15:15:10,818 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 12s
+2026-11-23 15:15:36,125 [INFO] summarizer: Gemini OK via gemini-3.6-flash (2 items)
+2026-11-23 15:15:36,125 [INFO] summarizer: Batch 2/13: 9/10 enriched with valid output
+2026-11-23 15:16:02,112 [INFO] summarizer: Gemini OK via gemini-3.6-flash (10 items)
+2026-11-23 15:16:02,112 [INFO] summarizer: Batch 3/13: 10/10 enriched with valid output
+2026-11-23 15:16:24,334 [INFO] summarizer: Gemini OK via gemini-3.6-flash (10 items)
+2026-11-23 15:16:24,335 [INFO] summarizer: Batch 4/13: 10/10 enriched with valid output
+2026-11-23 15:16:51,226 [INFO] summarizer: Gemini OK via gemini-3.6-flash (10 items)
+2026-11-23 15:16:51,226 [INFO] summarizer: Batch 5/13: 10/10 enriched with valid output
+2026-11-23 15:17:14,392 [INFO] summarizer: Gemini OK via gemini-3.6-flash (10 items)
+2026-11-23 15:17:19,849 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 6s
+2026-11-23 15:17:26,362 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 12s
+2026-11-23 15:17:39,011 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 6s
+2026-11-23 15:17:45,587 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 12s
+2026-11-23 15:17:58,072 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 6s
+2026-11-23 15:18:07,700 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 12s
+2026-11-23 15:18:27,256 [INFO] summarizer: Gemini OK via gemini-3.6-flash (2 items)
+2026-11-23 15:18:27,256 [INFO] summarizer: Batch 6/13: 10/10 enriched with valid output
+2026-11-23 15:18:49,503 [INFO] summarizer: Gemini OK via gemini-3.6-flash (10 items)
+2026-11-23 15:18:49,504 [INFO] summarizer: Batch 7/13: 10/10 enriched with valid output
+2026-11-23 15:19:54,604 [WARNING] summarizer: Model gemini-3.6-flash failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+2026-11-23 15:19:55,198 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 6s
+2026-11-23 15:20:01,787 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 12s
+2026-11-23 15:20:14,305 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 6s
+2026-11-23 15:20:20,886 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 12s
+2026-11-23 15:20:33,079 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 6s
+2026-11-23 15:20:39,254 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 12s
+2026-11-23 15:20:56,816 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 6s
+2026-11-23 15:21:03,026 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 12s
+2026-11-23 15:21:15,277 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 6s
+2026-11-23 15:21:21,905 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 12s
+2026-11-23 15:21:34,120 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 6s
+2026-11-23 15:21:40,292 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 12s
+2026-11-23 15:22:08,930 [INFO] summarizer: Gemini OK via gemini-3.6-flash (10 items)
+2026-11-23 15:22:08,931 [INFO] summarizer: Batch 8/13: 10/10 enriched with valid output
+2026-11-23 15:23:13,981 [WARNING] summarizer: Model gemini-3.6-flash failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+2026-11-23 15:23:14,227 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 6s
+2026-11-23 15:23:20,856 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 12s
+2026-11-23 15:23:33,427 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 6s
+2026-11-23 15:23:39,583 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 12s
+2026-11-23 15:23:51,772 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 6s
+2026-11-23 15:23:57,961 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 12s
+2026-11-23 15:24:15,163 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 6s
+2026-11-23 15:24:21,351 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 12s
+2026-11-23 15:24:33,517 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 6s
+2026-11-23 15:24:39,677 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 12s
+2026-11-23 15:24:52,501 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 6s
+2026-11-23 15:24:58,673 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 12s
+2026-11-23 15:25:32,354 [INFO] summarizer: Gemini OK via gemini-3.6-flash (10 items)
+2026-11-23 15:25:32,354 [INFO] summarizer: Batch 9/13: 10/10 enriched with valid output
+2026-11-23 15:25:59,347 [INFO] summarizer: Gemini OK via gemini-3.6-flash (10 items)
+2026-11-23 15:25:59,348 [INFO] summarizer: Batch 10/13: 10/10 enriched with valid output
+2026-11-23 15:26:21,267 [INFO] summarizer: Gemini OK via gemini-3.6-flash (10 items)
+2026-11-23 15:26:21,268 [INFO] summarizer: Batch 11/13: 10/10 enriched with valid output
+2026-11-23 15:27:26,367 [WARNING] summarizer: Model gemini-3.6-flash failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+2026-11-23 15:27:26,574 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 6s
+2026-11-23 15:27:32,745 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 12s
+2026-11-23 15:27:44,936 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 6s
+2026-11-23 15:27:51,161 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 12s
+2026-11-23 15:28:03,393 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 6s
+2026-11-23 15:28:09,552 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 12s
+2026-11-23 15:28:26,804 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 6s
+2026-11-23 15:28:33,008 [WARNING] summarizer: Model gemini-flash-latest rate-limited, waiting 12s
+2026-11-23 15:28:45,192 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 6s
+2026-11-23 15:28:51,389 [WARNING] summarizer: Model gemini-3.8-flash rate-limited, waiting 12s
+2026-11-23 15:29:03,707 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 6s
+2026-11-23 15:29:09,876 [WARNING] summarizer: Model gemini-3.7-flash rate-limited, waiting 12s
+2026-11-23 15:29:40,739 [INFO] summarizer: Gemini OK via gemini-3.6-flash (10 items)
+2026-11-23 15:29:40,739 [INFO] summarizer: Batch 12/13: 10/10 enriched with valid output
+2026-11-23 15:30:10,205 [INFO] summarizer: Gemini OK via gemini-3.6-flash (10 items)
+2026-11-23 15:30:10,205 [INFO] summarizer: Batch 13/13: 10/10 enriched with valid output
+2026-11-23 15:30:10,206 [INFO] summarizer: Enriched 130 articles via Gemini. Non-Other: 101/130. Importance: {'پایین': 49, 'متوسط': 67, 'بالا': 14}
+2026-11-23 15:30:10,206 [INFO] main: Step 4/6 — No English users: skipping English enrichment (saves AI quota).
+2026-11-23 15:30:10,206 [INFO] main: Step 5/6 — Saving cache for instant on-demand responses...
+2026-11-23 15:30:10,212 [INFO] cache: Cache saved: fa (130 articles)
+2026-11-23 15:30:10,212 [INFO] main: Step 6/6 — Sending personalized digests...
+2026-11-23 15:30:10,259 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-11-23 15:30:11,061 [INFO] sender: Sending to 6 users
+2026-11-23 15:30:17,102 [INFO] sender: Sent digest (fa, interests=['product'], 6 messages)
+2026-11-23 15:30:22,461 [INFO] sender: Sent digest (fa, interests=['service', 'jewelry', 'accessory'], 5 messages)
+2026-11-23 15:30:28,900 [INFO] sender: Sent digest (fa, interests=['product'], 6 messages)
+2026-11-23 15:30:38,616 [INFO] sender: Sent digest (fa, interests=['product', 'automotive'], 9 messages)
+2026-11-23 15:30:49,737 [INFO] sender: Sent digest (fa, interests=['automotive', 'product', 'furniture', 'jewelry', 'accessory', 'service'], 10 messages)
+2026-11-23 15:30:50,659 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
+2026-11-23 15:30:51,229 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
+2026-11-23 15:30:52,224 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
+2026-11-23 15:30:52,617 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
+2026-11-23 15:30:53,609 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
+2026-11-23 15:30:54,042 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
+2026-11-23 15:30:55,054 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
+2026-11-23 15:30:55,457 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
+2026-11-23 15:30:56,449 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
+2026-11-23 15:30:56,964 [ERROR] sender: Telegram send failed (403): {"ok":false,"error_code":403,"description":"Forbidden: bot was blocked by the user"}
+2026-11-23 15:30:56,965 [INFO] sender: Sent digest (fa, interests=['service'], 5 messages)
+2026-11-23 15:30:57,466 [INFO] main: === Done. ===
